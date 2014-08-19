@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Introduction](#introduction)
+- [Wishlist :-)](#wishlist--)
+  - [Job](#job)
+  - [Personal](#personal)
+  - [Team](#team)
+  - [Health](#health)
+  - [Databases](#databases)
+  - [Languages](#languages)
+  - [Concurrency](#concurrency)
+  - [Web](#web)
+  - [Legacy code](#legacy-code)
+  - [Embedded](#embedded)
+  - [Math](#math)
+  - [Agile](#agile)
+  - [Software Design](#software-design)
+  - [Continuous stuff :-)](#continuous-stuff--)
+  - [Meta programming](#meta-programming)
+  - [Automated Testing](#automated-testing)
+  - [Extreme Programming](#extreme-programming)
+  - [Version control](#version-control)
+  - [Big Data](#big-data)
+  - [Security](#security)
+  - [Network](#network)
+- [Done](#done)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introduction
 
 Basically where i organize what i still want to read and what i have already read and don't want to forget the name.

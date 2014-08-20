@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [Introduction](#introduction)
 - [Wishlist :-)](#wishlist--)
@@ -9,6 +10,8 @@
   - [Health](#health)
   - [Databases](#databases)
   - [Languages](#languages)
+    - [Javascript](#javascript)
+    - [C++](#c)
   - [Concurrency](#concurrency)
   - [Web](#web)
   - [Legacy code](#legacy-code)
@@ -77,7 +80,16 @@ Basically where i organize what i still want to read and what i have already rea
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
-* [Eloquent Javascript](http://eloquentjavascript.net/)
+
+
+### Javascript
+
+* [Secrets of the JavaScript Ninja](Secrets of the JavaScript Ninja)
+* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+
+
+### C++
+
 * Effective C++ Digital Collection: 140 Ways to Improve Your Programming
 
 

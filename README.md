@@ -76,7 +76,7 @@ Basically where i organize what i still want to read and what i have already rea
 
 ## Languages
 
-* http://pragprog.com/book/tpdsl/language-implementation-patterns
+* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)

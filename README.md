@@ -81,6 +81,7 @@ Basically where i organize what i still want to read and what i have already rea
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
+* [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
 ### Javascript
@@ -146,7 +147,7 @@ Basically where i organize what i still want to read and what i have already rea
 * http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
 * http://pragprog.com/book/ec101di/101-design-ingredients-to-solve-big-tech-problems
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
-* http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215
+* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 * Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 

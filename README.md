@@ -6,7 +6,7 @@
 - [Wishlist :-)](#wishlist--)
   - [Job](#job)
   - [Personal](#personal)
-  - [Team](#team)
+  - [Team / People](#team--people)
   - [Health](#health)
   - [Databases](#databases)
   - [Languages](#languages)
@@ -57,10 +57,11 @@ Basically where i organize what i still want to read and what i have already rea
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 
 
-## Team
+## Team / People
 
-* http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113
-* http://www.amazon.com/gp/product/0201835959
+* [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
+* [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
+* [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * Peer Reviews in Software: A Practical Guide
 
 

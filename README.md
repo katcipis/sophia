@@ -179,11 +179,7 @@ Basically where i organize what i still want to read and what i have already rea
 ## Extreme Programming
 
 * [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
-
-
-## Version control
-
-* http://git-scm.com/book
+* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 
 
 ## Big Data

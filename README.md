@@ -50,6 +50,9 @@ Basically where i organize what i still want to read and what i have already rea
 * Apprenticeship Patterns
 * The Passionate Programmer
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
+* [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
+* [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
+* [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
 * [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
 * [Rework](http://37signals.com/rework/)
 * [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)

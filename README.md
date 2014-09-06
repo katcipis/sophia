@@ -23,8 +23,6 @@
   - [Meta programming](#meta-programming)
   - [Automated Testing](#automated-testing)
   - [Extreme Programming](#extreme-programming)
-  - [Version control](#version-control)
-  - [Big Data](#big-data)
   - [Security](#security)
   - [Network](#network)
 - [Done](#done)
@@ -180,11 +178,6 @@ Basically where i organize what i still want to read and what i have already rea
 
 * [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
-
-
-## Big Data
-
-* [Big Data Analytics Beyond Hadoop](http://www.amazon.com/Big-Data-Analytics-Beyond-Hadoop/dp/0133837947)
 
 
 ## Security

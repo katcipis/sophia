@@ -129,6 +129,7 @@ Basically where i organize what i still want to read and what i have already rea
 
 ## Agile
 
+* [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [Agile!: The Good, the Hype and the Ugly](Agile!: The Good, the Hype and the Ugly)
 * [Practices of an Agile Developer](http://pragprog.com/book/pad/practices-of-an-agile-developer)
 * User Stories Applied: For Agile Software Development
@@ -158,7 +159,6 @@ Basically where i organize what i still want to read and what i have already rea
 * http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912
 * http://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380
 * Release It!: Design and Deploy Production-Ready Software
-* [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
 
 
 ## Meta programming
@@ -205,4 +205,4 @@ Basically where i organize what i still want to read and what i have already rea
 * NodeJS The right way
 * REST in practice
 * Lua Gems
-* Automate with Grunt
+* [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)

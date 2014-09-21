@@ -89,7 +89,7 @@ Basically where i organize what i still want to read and what i have already rea
 ### Javascript
 
 * [Secrets of the JavaScript Ninja](Secrets of the JavaScript Ninja)
-* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+* [JavaScript Allongé](https://leanpub.com/javascript-allonge)
 
 
 ### C++
@@ -197,6 +197,7 @@ Basically where i organize what i still want to read and what i have already rea
 
 # Done
 
+* Lua Gems
 * The Pragmatic Programmer
 * How Google Tests Software
 * Pragmatic Thinking& Learning
@@ -204,5 +205,5 @@ Basically where i organize what i still want to read and what i have already rea
 * Test Driven Development for Embedded C
 * NodeJS The right way
 * REST in practice
-* Lua Gems
 * [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
+* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)

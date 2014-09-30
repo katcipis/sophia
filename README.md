@@ -107,7 +107,6 @@ Basically where i organize what i still want to read and what i have already rea
 * http://pragprog.com/book/bhh52e/html5-and-css3
 * http://pragprog.com/book/wbdev/web-development-recipes
 * http://www.amazon.com/gp/product/0596805829
-* [Web API Design](https://pages.apigee.com/web-api-design-ebook.html)
 
 
 ## Legacy code
@@ -206,4 +205,5 @@ Basically where i organize what i still want to read and what i have already rea
 * NodeJS The right way
 * REST in practice
 * [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
+* [Web API Design](https://pages.apigee.com/web-api-design-ebook.html)
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)

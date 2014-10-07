@@ -134,10 +134,10 @@ Basically where i organize what i still want to read and what i have already rea
 * User Stories Applied: For Agile Software Development
 * Leading Lean Software Development: Results Are not the Point.
 * The art of agile development.
-* Essential Scrum: A Practical Guide to the Most Popular Agile Process
 * Agile Testing: A Practical Guide for Testers and Agile Teams
 * [Kanban in Action](http://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056)
 * The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
+* [Essays On Estimation](https://leanpub.com/essaysonestimation)
 
 
 ## Software Design

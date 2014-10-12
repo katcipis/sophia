@@ -94,7 +94,12 @@ Basically where i organize what i still want to read and what i have already rea
 
 ### C++
 
-* Effective C++ Digital Collection: 140 Ways to Improve Your Programming
+* [Effective C++ Digital Collection: 140 Ways to Improve Your Programming](http://www.amazon.com/Effective-Digital-Collection-Improve-Programming-ebook/dp/B008E30L9A)
+
+
+### Elixir
+
+* [Introducing Elixir: Getting Started in Functional Programming](http://www.amazon.com/Introducing-Elixir-Getting-Functional-Programming/dp/1449369995)
 
 
 ## Concurrency
@@ -138,6 +143,7 @@ Basically where i organize what i still want to read and what i have already rea
 * [Kanban in Action](http://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056)
 * The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
+* [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
 
 ## Software Design

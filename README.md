@@ -99,6 +99,7 @@ Basically where i organize what i still want to read and what i have already rea
 
 ### Elixir
 
+* [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir)
 * [Introducing Elixir: Getting Started in Functional Programming](http://www.amazon.com/Introducing-Elixir-Getting-Functional-Programming/dp/1449369995)
 
 

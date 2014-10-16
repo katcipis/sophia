@@ -86,6 +86,11 @@ Basically where i organize what i still want to read and what i have already rea
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
+### C
+
+* [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
+
+
 ### Javascript
 
 * [Secrets of the JavaScript Ninja](Secrets of the JavaScript Ninja)

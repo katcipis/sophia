@@ -99,6 +99,7 @@ Basically where i organize what i still want to read and what i have already rea
 
 ### C++
 
+* [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 * [Effective C++ Digital Collection: 140 Ways to Improve Your Programming](http://www.amazon.com/Effective-Digital-Collection-Improve-Programming-ebook/dp/B008E30L9A)
 
 

@@ -31,7 +31,7 @@
 
 # Introduction
 
-Basically where i organize what i still want to read and what i have already read and don't want to forget the name.
+Basically where I organize what I still want to read and what I have already read and don't want to forget the name.
 
 
 # Wishlist :-)
@@ -68,12 +68,12 @@ Basically where i organize what i still want to read and what i have already rea
 
 ## Health
 
-* http://pragprog.com/book/jkthp/the-healthy-programmer
+* [The Healthy Programmer](http://pragprog.com/book/jkthp/the-healthy-programmer)
 
 
 ## Databases
 
-* http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks
+* [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 
 
 ## Languages
@@ -93,14 +93,12 @@ Basically where i organize what i still want to read and what i have already rea
 
 ### Javascript
 
-* [Secrets of the JavaScript Ninja](Secrets of the JavaScript Ninja)
 * [JavaScript Allongé](https://leanpub.com/javascript-allonge)
 
 
 ### C++
 
 * [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
-* [Effective C++ Digital Collection: 140 Ways to Improve Your Programming](http://www.amazon.com/Effective-Digital-Collection-Improve-Programming-ebook/dp/B008E30L9A)
 
 
 ### Elixir
@@ -112,13 +110,6 @@ Basically where i organize what i still want to read and what i have already rea
 ## Concurrency
 
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
-
-
-## Web
-
-* http://pragprog.com/book/bhh52e/html5-and-css3
-* http://pragprog.com/book/wbdev/web-development-recipes
-* http://www.amazon.com/gp/product/0596805829
 
 
 ## Legacy code
@@ -155,6 +146,8 @@ Basically where i organize what i still want to read and what i have already rea
 
 ## Software Design
 
+* [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+* [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 * http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
@@ -171,11 +164,6 @@ Basically where i organize what i still want to read and what i have already rea
 * http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912
 * http://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380
 * Release It!: Design and Deploy Production-Ready Software
-
-
-## Meta programming
-
-* http://www.amazon.com/Generative-Programming-Methods-Tools-Applications/dp/0201309777/ref=sr_1_fkmr1_1?s=books&ie=UTF8&qid=1370296589&sr=1-1-fkmr1&keywords=Generative+programming+C%2B%2B
 
 
 ## Automated Testing
@@ -212,11 +200,12 @@ Basically where i organize what i still want to read and what i have already rea
 * Lua Gems
 * The Pragmatic Programmer
 * How Google Tests Software
-* Pragmatic Thinking& Learning
+* Pragmatic Thinking & Learning
 * Practical Vim
 * Test Driven Development for Embedded C
 * NodeJS The right way
-* REST in practice
+* [REST in practice](http://www.amazon.com/gp/product/0596805829)
 * [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
 * [Web API Design](https://pages.apigee.com/web-api-design-ebook.html)
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
+* [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)

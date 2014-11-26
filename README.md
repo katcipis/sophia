@@ -81,13 +81,13 @@ Basically where I organize what I still want to read and what I have already rea
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
-* [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
 ### C
 
+* [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
 
 

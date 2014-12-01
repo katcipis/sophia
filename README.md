@@ -94,6 +94,7 @@ Basically where I organize what I still want to read and what I have already rea
 ### Javascript
 
 * [JavaScript Allongé](https://leanpub.com/javascript-allonge)
+* [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read)
 
 
 ### C++

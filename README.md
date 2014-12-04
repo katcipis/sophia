@@ -132,6 +132,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Agile
 
+* [Lean from the Trenches](http://www.amazon.com/Lean-Trenches-Managing-Large-Scale-Projects/dp/1934356859)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [Agile!: The Good, the Hype and the Ugly](Agile!: The Good, the Hype and the Ugly)
 * [Practices of an Agile Developer](http://pragprog.com/book/pad/practices-of-an-agile-developer)

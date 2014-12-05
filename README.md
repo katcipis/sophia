@@ -41,6 +41,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Land the tech job you love](http://pragprog.com/book/algh/land-the-tech-job-you-love)
 * [Manage your job search](http://www.jrothman.com/books/manage-your-job-search/)
+* [The Best Place to Work](http://www.amazon.com/The-Best-Place-Work-Extraordinary/dp/0399165592)
 
 
 ##Personal

@@ -64,6 +64,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
+* [Talking with Tech Leads](https://leanpub.com/talking-with-tech-leads)
 * Peer Reviews in Software: A Practical Guide
 
 
@@ -84,6 +85,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
+
+
+### SmallTalk 
+
+* [Smalltalk Best Practice Patterns](http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent-ebook/dp/B00BBDLIME)
 
 
 ### C

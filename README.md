@@ -56,6 +56,8 @@ Basically where I organize what I still want to read and what I have already rea
 * [Rework](http://37signals.com/rework/)
 * [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
+* [How to Be a Star at Work](http://www.amazon.com/How-Star-Work-Breakthrough-Strategies/dp/0812931696)
+* [The 7 Habits of Highly Effective People](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 
 
@@ -65,6 +67,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * [Talking with Tech Leads](https://leanpub.com/talking-with-tech-leads)
+* [The One Minute Manager](http://www.amazon.com/One-Minute-Manager-Kenneth-Blanchard/dp/0688014291)
 * Peer Reviews in Software: A Practical Guide
 
 

@@ -118,6 +118,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Introducing Elixir: Getting Started in Functional Programming](http://www.amazon.com/Introducing-Elixir-Getting-Functional-Programming/dp/1449369995)
 
 
+### VimL
+
+* [VimL](https://pragprog.com/book/bkviml/the-viml-primer)
+
+
 ## Concurrency
 
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)

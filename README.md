@@ -10,15 +10,18 @@
   - [Health](#health)
   - [Databases](#databases)
   - [Languages](#languages)
+    - [SmallTalk](#smalltalk)
     - [C](#c)
     - [Javascript](#javascript)
     - [C++](#c)
     - [Elixir](#elixir)
+    - [VimL](#viml)
   - [Concurrency](#concurrency)
   - [Legacy code](#legacy-code)
   - [Embedded](#embedded)
   - [Math](#math)
   - [Agile](#agile)
+  - [Software Architecture](#software-architecture)
   - [Software Design](#software-design)
   - [Continuous stuff :-)](#continuous-stuff--)
   - [Automated Testing](#automated-testing)
@@ -162,9 +165,14 @@ Basically where I organize what I still want to read and what I have already rea
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
 
+## Software Architecture
+
+* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
+* [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+
+
 ## Software Design
 
-* [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)

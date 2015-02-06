@@ -152,6 +152,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 * http://pragprog.com/book/mcmath/good-math
 * Statistics in a Nutshell: A Desktop Quick Reference
+* [A First Course in Graph Theory](http://www.amazon.com/gp/product/0486483681)
+* [Graph Theory](http://www.amazon.com/Graph-Theory-Dover-Books-Mathematics/dp/0486498069)
 
 
 ## Agile

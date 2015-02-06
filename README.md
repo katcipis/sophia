@@ -85,6 +85,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 
 
+## Algorithms
+
+* [Introduction to Algorithms, 3rd Edition](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
+
+
 ## Languages
 
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)

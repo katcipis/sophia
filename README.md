@@ -87,6 +87,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Algorithms
 
+* [Algorithms](http://www.amazon.com/dp/032157351X/ref=dra_a_cs_lb_hn_it_P3076_100)
 * [Introduction to Algorithms, 3rd Edition](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
 
 

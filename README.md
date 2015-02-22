@@ -83,6 +83,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Databases
 
 * [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
+* [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
 ## Algorithms
@@ -178,6 +179,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Software Architecture
 
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
+* [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 
 

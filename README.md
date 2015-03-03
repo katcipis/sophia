@@ -60,6 +60,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Rework](http://37signals.com/rework/)
 * [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
+* [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 * [How to Be a Star at Work](http://www.amazon.com/How-Star-Work-Breakthrough-Strategies/dp/0812931696)
 * [The 7 Habits of Highly Effective People](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)

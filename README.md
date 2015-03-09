@@ -24,11 +24,11 @@
   - [Agile](#agile)
   - [Software Architecture](#software-architecture)
   - [Software Design](#software-design)
-  - [Continuous stuff :-)](#continuous-stuff--)
   - [Automated Testing](#automated-testing)
-  - [Extreme Programming](#extreme-programming)
   - [Security](#security)
   - [Network](#network)
+  - [Data Science](#data-science)
+  - [Web Mining](#web-mining)
 - [Done](#done)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

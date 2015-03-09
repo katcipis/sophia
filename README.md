@@ -201,7 +201,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 * http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912
 * http://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380
-* Release It!: Design and Deploy Production-Ready Software
 
 
 ## Automated Testing
@@ -236,14 +235,15 @@ Basically where I organize what I still want to read and what I have already rea
 # Done
 
 * Lua Gems
+* Test Driven Development for Embedded C
 * The Pragmatic Programmer
 * How Google Tests Software
 * Pragmatic Thinking & Learning
 * Practical Vim
-* Test Driven Development for Embedded C
 * NodeJS The right way
 * [REST in practice](http://www.amazon.com/gp/product/0596805829)
 * [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
 * [Web API Design](https://pages.apigee.com/web-api-design-ebook.html)
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
+* [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)

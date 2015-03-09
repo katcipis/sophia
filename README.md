@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Introduction](#introduction)
 - [Wishlist :-)](#wishlist--)
@@ -9,6 +9,7 @@
   - [Team / People](#team--people)
   - [Health](#health)
   - [Databases](#databases)
+  - [Algorithms](#algorithms)
   - [Languages](#languages)
     - [SmallTalk](#smalltalk)
     - [C](#c)
@@ -40,14 +41,14 @@ Basically where I organize what I still want to read and what I have already rea
 # Wishlist :-)
 
 
-##Job
+## Job
 
 * [Land the tech job you love](http://pragprog.com/book/algh/land-the-tech-job-you-love)
 * [Manage your job search](http://www.jrothman.com/books/manage-your-job-search/)
 * [The Best Place to Work](http://www.amazon.com/The-Best-Place-Work-Extraordinary/dp/0399165592)
 
 
-##Personal
+## Personal
 
 * Apprenticeship Patterns
 * The Passionate Programmer
@@ -177,6 +178,8 @@ Basically where I organize what I still want to read and what I have already rea
 * The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
+* [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
+* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 
 
 ## Software Architecture
@@ -200,24 +203,11 @@ Basically where I organize what I still want to read and what I have already rea
 * Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 
-## Continuous stuff :-)
-
-* http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912
-* http://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380
-
-
 ## Automated Testing
 
 * [xUnit Test Patterns](http://xunitpatterns.com/).
-* http://pragprog.com/book/lotdd/modern-c-programming-with-test-driven-development
 * http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 * http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/
-
-
-## Extreme Programming
-
-* [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
-* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 
 
 ## Security
@@ -233,6 +223,13 @@ Basically where I organize what I still want to read and what I have already rea
 * http://www.amazon.com/Advanced-Programming-UNIX-Environment-Edition/dp/0201433079/ref=pd_sim_b_1
 * http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_bxgy_b_img_z
 * http://www.amazon.com/IPv6-Fundamentals-Straightforward-Approach-Understanding/dp/1587143135/ref=sr_1_1_title_1_pap?s=books&ie=UTF8&qid=1370311088&sr=1-1&keywords=IPv6+Fundamentals
+
+
+## Web Mining
+
+* [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
+* [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)
+* [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)
 
 
 # Done

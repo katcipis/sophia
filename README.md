@@ -225,6 +225,14 @@ Basically where I organize what I still want to read and what I have already rea
 * http://www.amazon.com/IPv6-Fundamentals-Straightforward-Approach-Understanding/dp/1587143135/ref=sr_1_1_title_1_pap?s=books&ie=UTF8&qid=1370311088&sr=1-1&keywords=IPv6+Fundamentals
 
 
+## Data Science
+
+* [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
+* [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
+* [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+* [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
+
+
 ## Web Mining
 
 * [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)

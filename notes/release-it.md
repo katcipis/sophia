@@ -1,7 +1,7 @@
 # Introduction
 
-The book is separated on five core concepts of writing production ready software.
-Here I will try to summarize it, concept by concept. Also I will try to connect each concept.
+The book is separated on five core concepts that enables production ready software.
+Here I will try to summarize it, concept by concept. Also I will try to connect each concept with other stuff I know.
 
 
 # Stability
@@ -113,6 +113,36 @@ For HTTP it seems to be a good idea to use 503 error code and a Retry-After head
 
 
 # Capacity
+
+
+## Myths
+
+A lot is said about capacity, but the thing that stuck in my mind is the Myth part.
+A lot of brainwash is done on the Computer Science graduation (at least on my graduation) on 
+how optimization is evil and you should only be done when your system is already slow.
+
+Specially the phrase *CPU/Memory is cheap* was said all the time. The book gives a much more healthy and
+pro-active view of this. You must think about the trade-off design <-> performance.
+
+It makes a case with two ideas (at least I remember these two :-).
+
+First, a responsive system is essential to almost any system interacting with a human being.
+People do have the same patience with slow systems as they used on the 90's :-).
+
+Second, the multiplication factor.
+Specially on the cloud this can lead to great savings on infrastructure cost. You are paying for cpu cycles.
+Take a system that takes 100ms more CPU time than required (because of some kind of sloppiness). 
+
+Well, the client is not going to notice 100ms...ok, but take a usage of 25000 requests per hour. Lets calculate how much
+CPU time you are wasting (lets assume months with 30 days):
+
+    25000 * 24 * 30 * 100 = 1800000000ms
+
+That is *500* hours of CPU time for month, and we are talking about *one* resource of the system taking only 100ms more
+than required.
+
+I think the book does not address the idea of writing everything in assembly, this would cost more than the CPU time, 
+but it takes on account the fact that developers very often are sloppy with performance.
 
 # Design
 

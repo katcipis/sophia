@@ -144,6 +144,16 @@ than required.
 I think the book does not address the idea of writing everything in assembly, this would cost more than the CPU time, 
 but it takes on account the fact that developers very often are sloppy with performance.
 
+This sloppiness is usually accompanied with a quote from Donald Knuth, usually done this way:
+
+    Premature optimization is the root of all evil
+
+Giving the impression that you should never consider optimizing your software before it is stupidly slow.
+Well, this is just plain stupid. And I'm saying that a Donald Knuth quote is stupid, that would be also stupid :-).
+The problem is how people quote it.
+
+A very important way to be sloppy is not measure the performance
+
 # Design
 
 # Transparency

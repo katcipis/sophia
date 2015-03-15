@@ -1,3 +1,7 @@
+# Introduction
+
+The book is separated on five core concepts of writing production ready software.
+Here I will try to summarize it, concept by concept. Also I will try to connect each concept.
 
 
 # Stability
@@ -16,7 +20,7 @@ a sad person goes there and restarts it automatically ?
 Think about how to recover, lets see some good patterns to achieve this.
 
 
-## Bulkheads 
+## Bulkheads
 
 This one is pretty cool, it is a metaphor with [ships bulkheads](http://en.wikipedia.org/wiki/Bulkhead_(partition)).
 
@@ -28,6 +32,8 @@ your system to fail or get slow.
 
 Also, a bug on one partition that causes it to consume a lot of resources (or never release a shared resource) will
 not cause other partition of the system to fail (orthogonality).
+
+Think, there is a crack on the hull of your system... will the entire system sink ?
 
 This principle seems to play well with microservices :-).
 
@@ -50,6 +56,51 @@ Bad stuff usually happens at the integration points.
 
 This concept is important later on the transparency part of the book, if your system fails you must know where it 
 is really failing (which one of your 10 services is the culprit :-).
+
+
+## Test harness
+
+This one is not about unit or integration testing, the author talks about a test harness to inject hell on your
+application :-).
+
+What happens when:
+
+    * Connections gets dropped ?
+    * Connection fails to handshake ?
+    * Connection takes 10 minutes to handshake ?
+    * An answer is received with a speed of 1 byte per minute ?
+
+Well the list is pretty long :-), think about yourself as an evil hacker trying to break the application.
+
+The idea is like using mocks to mess up your code, but it is recommended to use the network stack to inject the errors,
+since you can't trust the libraries you are using (the idea here it to catch problems in your entire stack, not
+only on your code).
+
+It does not seem to substitute mocking, it is mocking on another level :-).
+One interesting tip is to write a mock service that injects different errors when connected at 
+different ports.
+
+[Mountebank](http://www.mbtest.org/) seems to try to implement a general purpose on the wire mock, seems interesting.
+
+The downside of this approach is that building the harness seems to be a lot harder than using traditional mocking :-).
+An hybrid approach seems to be feasible.
+
+
+## Fail fast
+
+This one is pretty cool and relates to circuit breaker. Imagine you are a client, would you like to receive an error in
+a matter of milliseconds or to wait ten minutes to receive the same error ?
+
+This seems to be pretty obvious, but without good circuit breaking you will not be able to implement this.
+The idea is to build on top of circuit breaking to check if you can provide a specific service.
+
+Want a metaphor ? There is a great one :-), the [mise en place](http://en.wikipedia.org/wiki/Mise_en_place). If you 
+don't have a mise en place (for example, one of the services you talk to is short circuited), just answer with an error.
+
+
+### Handshaking
+
+
 
 # Capacity
 

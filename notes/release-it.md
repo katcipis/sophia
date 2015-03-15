@@ -100,6 +100,16 @@ don't have a mise en place (for example, one of the services you talk to is shor
 
 ### Handshaking
 
+Application protocols like HTTP usually don't have any form of handshaking, so there is nothing preventing your
+service from receiving requests when it is not able to handle it.
+
+The idea is to implement a domain specific handshaking, so collaborating services know when to back off and stop
+requesting resources.
+
+It seems to be some kind of polite circuit breaker, don't wait for a service to stop answering or returning horrible
+errors to stop hammering it.
+
+For HTTP it seems to be a good idea to use 503 error code and a Retry-After header to do this.
 
 
 # Capacity

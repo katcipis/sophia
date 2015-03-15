@@ -152,6 +152,8 @@ Giving the impression that you should never consider optimizing your software be
 Well, this is just plain stupid. And I'm saying that a Donald Knuth quote is stupid, that would be also stupid :-).
 The problem is how people quote it.
 
+TODO: http://en.wikiquote.org/wiki/Donald_Knuth
+
 A very important way to be sloppy is not measure the performance
 
 # Design

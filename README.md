@@ -122,6 +122,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read)
 
 
+### Python
+
+* [Test-Driven Development with Python](http://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829)
+* [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
+
+
 ### C++
 
 * [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)

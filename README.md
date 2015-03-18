@@ -190,6 +190,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 
 
+## Computer Architecture
+
+* [Computer Organization and Architecture](http://www.amazon.com/Computer-Organization-Architecture-Stallings-Communications/dp/013293633X)
+
+
 ## Software Architecture
 
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)

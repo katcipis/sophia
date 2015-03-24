@@ -161,3 +161,12 @@ A very important way to be sloppy is not measure the performance
 # Transparency
 
 # Adapt
+
+This is the last part of the book and it asses how your service will adapt the inevitable
+changes. Obviously it mentions [Extreme Programming](TODO) since it is about embracing change :-).
+
+The author starts listing some things that will help you to establish continuous improvement.
+
+## Dependency Injection
+
+## Unit Testing

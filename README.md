@@ -52,6 +52,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * Apprenticeship Patterns
 * The Passionate Programmer
+* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)

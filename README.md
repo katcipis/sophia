@@ -68,6 +68,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
+* [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 
 
 ## Team / People
@@ -246,6 +247,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
 * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
 * [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
+* [Learning Spark: Lightning-Fast Big Data Analysis](http://www.amazon.com/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624)
 
 
 ## Web Mining

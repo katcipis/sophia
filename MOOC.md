@@ -1,10 +1,10 @@
 #MOOCs
 
-
 ## Machine Learning
 
 * [Scalable Machine Learning](https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VSAQCnXd_0o)
-
+* [Machine Learning](https://www.coursera.org/learn/machine-learning/outline)
+* [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
 
 ## Big Data
 

@@ -80,7 +80,8 @@ It does not seem to substitute mocking, it is mocking on another level :-).
 One interesting tip is to write a mock service that injects different errors when connected at 
 different ports.
 
-[Mountebank](http://www.mbtest.org/) seems to try to implement a general purpose on the wire mock, seems interesting.
+An interesting implementation of this idea is [toxiproxy](https://github.com/shopify/toxiproxy). There is also
+[Mountebank](http://www.mbtest.org/), a general purpose on the wire mock.
 
 The downside of this approach is that building the harness seems to be a lot harder than using traditional mocking :-).
 An hybrid approach seems to be feasible.

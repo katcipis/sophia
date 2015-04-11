@@ -171,3 +171,8 @@ The author starts listing some things that will help you to establish continuous
 ## Dependency Injection
 
 ## Unit Testing
+
+# Conclusion
+
+The book beautifully concludes with the idea that code must be flexible and adapt to changes,
+and that this is only proved when it is already on production.

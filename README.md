@@ -107,11 +107,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
-### SmallTalk 
-
-* [Smalltalk Best Practice Patterns](http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent-ebook/dp/B00BBDLIME)
-
-
 ### C
 
 * [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
@@ -128,11 +123,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Test-Driven Development with Python](http://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829)
 * [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
-
-
-### C++
-
-* [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 
 
 ### Elixir
@@ -207,6 +197,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
+* [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)

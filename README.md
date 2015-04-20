@@ -107,6 +107,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
+### Go
+
+* [Go Programming Blueprints](http://www.amazon.com/Go-Programming-Blueprints-Mat-Ryer/dp/1783988029)
+
+
 ### C
 
 * [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)

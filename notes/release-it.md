@@ -159,7 +159,13 @@ A very important way to be sloppy is not measure the performance
 
 # Design
 
+
 # Transparency
+
+Great mechanical metaphor, like they can know what is wrong with the engine because of the noise :-). 
+
+Does your code make noises ? How do you listen to it ?
+
 
 # Adapt
 

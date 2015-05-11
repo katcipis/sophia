@@ -107,6 +107,10 @@ Basically where I organize what I still want to read and what I have already rea
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
+### Clojure
+
+* [Clojure Programming](http://www.amazon.com/Clojure-Programming-Chas-Emerick/dp/1449394701)
+
 ### Go
 
 * [Go Programming Blueprints](http://www.amazon.com/Go-Programming-Blueprints-Mat-Ryer/dp/1783988029)

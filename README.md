@@ -199,15 +199,16 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Architecture
 
-* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
 * [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
+* [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
+* Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 
 ## Software Design
 
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
-* [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 * http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
@@ -216,7 +217,6 @@ Basically where I organize what I still want to read and what I have already rea
 * http://pragprog.com/book/ec101di/101-design-ingredients-to-solve-big-tech-problems
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
-* Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 
 ## Automated Testing

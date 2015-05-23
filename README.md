@@ -92,6 +92,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
+## Big Data
+
+* [Big Data: Principles and best practices of scalable realtime data systems](http://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
+
+
 ## Algorithms
 
 * [Algorithms](http://www.amazon.com/dp/032157351X/ref=dra_a_cs_lb_hn_it_P3076_100)

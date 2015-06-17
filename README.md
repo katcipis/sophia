@@ -138,7 +138,6 @@ Basically where I organize what I still want to read and what I have already rea
 ### Python
 
 * [Test-Driven Development with Python](http://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829)
-* [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
 
 
 ### Elixir
@@ -160,6 +159,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Legacy code
 
 * http://www.amazon.com/books/dp/0131177052
+* [Beyond Legacy Code](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 
 
 ## Embedded
@@ -279,3 +279,4 @@ Basically where I organize what I still want to read and what I have already rea
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 * [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)
+* [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)

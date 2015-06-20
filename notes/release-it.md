@@ -1,7 +1,9 @@
 # Introduction
 
-The book is separated on five core concepts that enables production ready software.
-Here I will try to summarize it, concept by concept. Also I will try to connect each concept with other stuff I know.
+The book is separated on several core concepts that enables production ready software.
+Here I will try to summarize some of then, concept by concept. 
+
+Also I will try to connect each concept with other stuff I know.
 
 
 # Stability
@@ -41,6 +43,7 @@ This principle seems to play well with microservices :-).
 ## Timeouts
 
 Pretty obvious stuff, every time you use something that may not respond...use a timeout.
+Also, handle the timeout :-).
 
 
 ## Circuit breaker
@@ -57,13 +60,17 @@ Bad stuff usually happens at the integration points.
 This concept is important later on the transparency part of the book, if your system fails you must know where it 
 is really failing (which one of your 10 services is the culprit :-).
 
+Without a proper implementation of something like a circuit breaker, when you analyse a log it will look like 
+all your services are broken, because the erros will spread. The idea of circuit breaking is to service X log something
+like *I'm not working, but it because Y is not working* instead of simple exceptions/errors exploding.
+
 
 ## Test harness
 
 This one is not about unit or integration testing, the author talks about a test harness to inject hell on your
-application :-).
+application :-). It is interesting that he uses the Test Harness expression, that is very common on unit testing.
 
-What happens when:
+The idea is to think about what happens when:
 
     * Connections gets dropped ?
     * Connection fails to handshake ?
@@ -72,8 +79,8 @@ What happens when:
 
 Well the list is pretty long :-), think about yourself as an evil hacker trying to break the application.
 
-The idea is like using mocks to mess up your code, but it is recommended to use the network stack to inject the errors,
-since you can't trust the libraries you are using (the idea here it to catch problems in your entire stack, not
+The idea is like using mocks to mess up your code, but it is recommended to use the full network stack to inject the 
+errors, since you can't trust the libraries you are using (the idea here it to catch problems in your entire stack, not
 only on your code).
 
 It does not seem to substitute mocking, it is mocking on another level :-).
@@ -83,7 +90,7 @@ different ports.
 An interesting implementation of this idea is [toxiproxy](https://github.com/shopify/toxiproxy). There is also
 [Mountebank](http://www.mbtest.org/), a general purpose on the wire mock.
 
-The downside of this approach is that building the harness seems to be a lot harder than using traditional mocking :-).
+The downside of this approach is that building the harness seems to be a harder than using traditional mocking :-).
 An hybrid approach seems to be feasible.
 
 
@@ -96,7 +103,8 @@ This seems to be pretty obvious, but without good circuit breaking you will not 
 The idea is to build on top of circuit breaking to check if you can provide a specific service.
 
 Want a metaphor ? There is a great one :-), the [mise en place](http://en.wikipedia.org/wiki/Mise_en_place). If you 
-don't have a mise en place (for example, one of the services you talk to is short circuited), just answer with an error.
+don't have a mise en place (for example, one of the services you talk to is short circuited), just answer with an error 
+immediately. You have the advantage of being able to give a pretty good error message.
 
 
 ### Handshaking

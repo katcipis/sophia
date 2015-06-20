@@ -220,6 +220,17 @@ The [OODA](https://en.wikipedia.org/wiki/OODA_loop) thing is very interesting, i
 on the idea that on the battlefield you cant foreseen everything and the most important thing is to observe and adapt,
 a concept that is very well know to anyone interested on agile software development.
 
+Besides the concepts there is also the tooling involved on aggregating and visualizing all the data 
+(also setting some alarms). There is a lot of information on this subject, so it will not be covered here
+(just as it is not covered on the book).
+
+The acceleration on this form of feedback is even changing the shape of how people see testing and practices like 
+[TDD](https://en.wikipedia.org/wiki/Test-driven_development).
+
+Independent of the nature of your system, transparency makes the difference between a system that improves over time in
+production and one that stagnates or decays.
+
+
 # Adapt
 
 This is the last part of the book and it asses how your service will adapt the inevitable

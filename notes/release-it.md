@@ -265,6 +265,35 @@ The language thing is pretty obvious :-), and there is also the concept of
 [polyglot persistence](http://martinfowler.com/bliki/PolyglotPersistence.html), which makes perfect sense
 (although it has some serious trade-offs when the subject is consistency and duplication of data).
 
+Since we are talking about persistence, the author gives serious advice to *NEVER* do database 
+integration. Not even with stored procedures. Always wrap up services around it.
+
+There is a lot of reasons for this kind of advice, the 
+[Building Microservices](http://info.thoughtworks.com/building-microservices-book) explains some of then,
+like lack of cohesion, excessive coupling and all that nasty stuff that does not allow software to
+adapt and evolve properly.
+
+But one that is very simple is:
+
+    A system that hangs its database out for the world cannot trust the data in the database at all
+
+I agree that it is that simple, the only thing that prevents catastrophe on a system like that is pure fear
+and the absolute certainty that nothing can change on the database, which goes completely against the idea of
+adaptation to a changing environment. It is a basic notion of encapsulation and avoiding global state.
+
+The only reason I can think that this is done that much it is because it is much easier than defining proper
+domains for each service and good integration protocols. It is faster on the beginning, but it wont scale
+(neither in performance terms or engineering effort terms).
+
+Since the only way to adapt is to adapt to some kind of feedback you need to make releases as easy as
+taking a haircut. Here the TDD or even QA feedback won't cut it, you want to adapt to the market, you need
+feedback directly from the client.
+
+The faster you get that feedback loop operates, the more accurate those improvements will be.
+This demands frequent releases and good transparency. This makes transparency even more important than
+testing (it does not give you a free pass to testing although :-)), without it it is very hard to
+release frequently and it is impossible to have fast feedback.
+
 
 # Conclusion
 
@@ -272,7 +301,7 @@ The book beautifully concludes with the idea that code must be flexible and adap
 and that this is only proved when it is already on production.
 
 And that is the only measure of a system quality, besides talking about a lot of patterns it
-says clearly that evaluating a system by *Count of patterns applied* is *never* a good quality
-metric. 
+says clearly that evaluating a system by *count of patterns applied* is *never* a good quality
+metric.
 
 The only good quality metric is the how happy your client is, and how much is costing you to keep him happy.

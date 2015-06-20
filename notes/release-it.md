@@ -139,11 +139,12 @@ First, a responsive system is essential to almost any system interacting with a 
 People do have the same patience with slow systems as they used on the 90's :-).
 
 Second, the multiplication factor.
+
 Specially on the cloud this can lead to great savings on infrastructure cost. You are paying for cpu cycles.
 Take a system that takes 100ms more CPU time than required (because of some kind of sloppiness). 
 
 Well, the client is not going to notice 100ms...ok, but take a usage of 25000 requests per hour. Lets calculate how much
-CPU time you are wasting (lets assume months with 30 days):
+CPU time you are wasting (lets assume months with 30 days and a 24 x 7 service):
 
     25000 * 24 * 30 * 100 = 1800000000ms
 
@@ -159,11 +160,33 @@ This sloppiness is usually accompanied with a quote from Donald Knuth, usually d
 
 Giving the impression that you should never consider optimizing your software before it is stupidly slow.
 Well, this is just plain stupid. And I'm saying that a Donald Knuth quote is stupid, that would be also stupid :-).
-The problem is how people quote it.
+The problem is how people quote it, here is the full phrase (from the [wiki](http://en.wikiquote.org/wiki/Donald_Knuth)):
 
-TODO: http://en.wikiquote.org/wiki/Donald_Knuth
+    Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of 
+    their programs, and these attempts at efficiency actually have a strong negative impact when debugging and 
+    maintenance are considered. We should forget about small efficiencies, say about 97% of the time: 
+    premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.
 
-A very important way to be sloppy is not measure the performance
+You can see clearly that he was talking about optimizing everything like crazy, even stuff that would not matter.
+Because of this idea I see a lot of people that has no regards to performance and optimization, they don't monitor
+anything, and if they do and see a lot of CPU and memory usage they simply don't care, well, it works right ?
+
+I'm totally ok with the concept of working software first, but there is a balance, specially because even on the start of
+the project you can make choices that will help you have a faster and cheaper system.
+
+* Am I going to use that gigantic framework to do some work that I need and also a lot of more crap ?
+* Why use a language that uses a lot more resources if this other one uses a lot less resources ?
+
+Of course there is a balance, probably you will not chose C to develop services because it is small and fast, the
+level of abstraction is too low. But this kind of mindset is what is making tools like [Golang](https://golang.org/)
+get a lot of traction.
+
+You have a good balance between ease of developing, good tooling, but great performance. And yes, thinking about
+performance from the beginning of the project is not completely wrong, just don't let it stop you from delivering software
+soon.
+
+A very important way to be sloppy is not measure the performance. And this is covered on the *transparency* concept.
+
 
 # Design
 

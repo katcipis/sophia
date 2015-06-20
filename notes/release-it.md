@@ -205,11 +205,19 @@ changes. Obviously it mentions [Extreme Programming](TODO) since it is about emb
 
 The author starts listing some things that will help you to establish continuous improvement.
 
+
 ## Dependency Injection
 
 ## Unit Testing
+
 
 # Conclusion
 
 The book beautifully concludes with the idea that code must be flexible and adapt to changes,
 and that this is only proved when it is already on production.
+
+And that is the only measure of a system quality, besides talking about a lot of patterns it
+says clearly that evaluating a system by *Count of patterns applied* is *never* a good quality
+metric. 
+
+The only good quality metric is the how happy your client is, and how much is costing you to keep him happy.

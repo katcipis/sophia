@@ -185,22 +185,40 @@ You have a good balance between ease of developing, good tooling, but great perf
 performance from the beginning of the project is not completely wrong, just don't let it stop you from delivering software
 soon.
 
-Bandwidth is also expensive, so avoid chatty protocols :-).
+Bandwidth is also expensive, so avoid chatty protocols :-) (there it goes remote objects, designing remote objects
+as local objects will probably result on a chatty protocol and isolating the developer from this reality is *NOT* a
+good idea).
 
 A very important way to be sloppy is not measure the performance. And this is covered on the *transparency* concept.
 
 
-# Design
-
-
 # Transparency
 
-Great mechanical metaphor, like they can know what is wrong with the engine because of the noise :-). 
+One of the main things that stuck on my mind on the transparency concept is this great mechanical metaphor, 
+like they can know what is wrong with the engine because of the noise :-). 
 
 Does your code make noises ? How do you listen to it ?
 
-* Monitor capacity continuously. Each application release can affect scalability and performance.
+The metaphor makes it very clear that the software have to make noise, but by default it does very
+little noise. This noise would be perceived by monitoring the host, stuff like I/O usage, CPU usage, memory usage, etc.
+Basically any kind of noise you can hear that does not comes directly from the application on a domain level.
 
+Comparing to testing, it would be like black box monitoring, you are monitoring the application from the outside.
+This is very important but really far from what is proper transparency.
+
+Proper transparency gives you domain level information about what is happening on your system. 
+Not only for troubleshooting, but even to know how the user interacts with the system.
+
+Some good advices:
+
+* Monitor capacity continuously. Each application release can affect scalability and performance.
+* Have a feedback process that acts responsively to meaningful data. Don't generate useless reports that no one sees.
+* Use this feedback on a [OODA](https://en.wikipedia.org/wiki/OODA_loop) like loop.
+* Do you have traceability on your system ? Like an ID that allows the steps of a request to be traced on the system
+
+The [OODA](https://en.wikipedia.org/wiki/OODA_loop) thing is very interesting, it comes from the military and it is based
+on the idea that on the battlefield you cant foreseen everything and the most important thing is to observe and adapt,
+a concept that is very well know to anyone interested on agile software development.
 
 # Adapt
 

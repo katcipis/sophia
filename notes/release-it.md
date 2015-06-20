@@ -230,23 +230,40 @@ The acceleration on this form of feedback is even changing the shape of how peop
 Independent of the nature of your system, transparency makes the difference between a system that improves over time in
 production and one that stagnates or decays.
 
+Good data enables good decision making.
+
 
 # Adapt
 
 This is the last part of the book and it asses how your service will adapt the inevitable
-changes. Obviously it mentions [Extreme Programming](TODO) since it is about embracing change :-).
+changes. Obviously it mentions [Extreme Programming](http://www.extremeprogramming.org/) 
+since it is about embracing change :-).
 
 The core concept is that no matter how bold the vision or how severe the crunch mode, the system
 that launches will always be less than it might have been.
 
 So you must focus some energy on how your software will be able to the *required* adaptations.
+On this regards he gives a great deal of importance to unit testing and refactoring.
 
-The author starts listing some things that will help you to establish continuous improvement.
+Refactoring obviously is necessary to improve the design of the system as it needs to adapt.
+The tests should allow you to have a very fast feedback loop to check if you broke something.
+It is that simple, of course that properly implementing this idea is very domain specific and
+very hard (at least for me :-).
 
+But it is fundamental to evolve a system. One part that I have to quote entirely is this one:
 
-## Dependency Injection
+    Any strategy formulated predicated on creating a monoculture - whether it is a single integration
+    technology or a single programming language - is doomed to be a costly failure
 
-## Unit Testing
+This is *very* sound advice :-). Of course that then the subject is integration technologies it is
+a good idea to remain technology agnostic and avoid having a dozen of different technologies
+(nobody wants to use HTTP + protocol buffers + RPC + SOAP just to get one thing done).
+
+But going to the extreme of using only one is definitely a bad idea.
+
+The language thing is pretty obvious :-), and there is also the concept of 
+[polyglot persistence](http://martinfowler.com/bliki/PolyglotPersistence.html), which makes perfect sense
+(although it has some serious trade-offs when the subject is consistency and duplication of data).
 
 
 # Conclusion

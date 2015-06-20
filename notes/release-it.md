@@ -236,6 +236,11 @@ production and one that stagnates or decays.
 This is the last part of the book and it asses how your service will adapt the inevitable
 changes. Obviously it mentions [Extreme Programming](TODO) since it is about embracing change :-).
 
+The core concept is that no matter how bold the vision or how severe the crunch mode, the system
+that launches will always be less than it might have been.
+
+So you must focus some energy on how your software will be able to the *required* adaptations.
+
 The author starts listing some things that will help you to establish continuous improvement.
 
 

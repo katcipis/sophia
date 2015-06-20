@@ -185,6 +185,8 @@ You have a good balance between ease of developing, good tooling, but great perf
 performance from the beginning of the project is not completely wrong, just don't let it stop you from delivering software
 soon.
 
+Bandwidth is also expensive, so avoid chatty protocols :-).
+
 A very important way to be sloppy is not measure the performance. And this is covered on the *transparency* concept.
 
 
@@ -196,6 +198,8 @@ A very important way to be sloppy is not measure the performance. And this is co
 Great mechanical metaphor, like they can know what is wrong with the engine because of the noise :-). 
 
 Does your code make noises ? How do you listen to it ?
+
+* Monitor capacity continuously. Each application release can affect scalability and performance.
 
 
 # Adapt

@@ -6,3 +6,5 @@
 * [Introduction to Big Data with Apache Spark](https://www.edx.org/course/v2/introduction-big-data-apache-spark-uc-berkeleyx-cs100-1x)
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
+* [Image and video processing](https://www.coursera.org/course/images)
+* [MongoDB for developers](https://university.mongodb.com/courses/M101P/about)

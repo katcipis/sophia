@@ -39,6 +39,16 @@ Using the database to integrate multiple services
 Basically the same thing, same core concepts. Microservices are SOA implemented right ;-).
 
 
+# Monitoring
+
+* How we will cut costs if we don't have any idea of how the service is performing on production ?
+* Good monitoring enables elasticity to cut costs
+* Monitor for some time and perceive what is the *normal* behaviour of the system (cpu/mem/io usage)
+* How to really know if the service is working ? [Semantic Monitoring](http://www.thoughtworks.com/pt/radar/techniques/semantic-monitoring)
+* Semantic monitoring usually is made with synthetic transactions
+* Monitor asynchronous operations with correlation ids
+
+
 # Related materials
 
 * [Domain Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)

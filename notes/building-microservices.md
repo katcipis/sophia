@@ -47,6 +47,7 @@ Basically the same thing, same core concepts. Microservices are SOA implemented 
 * How to really know if the service is working ? [Semantic Monitoring](http://www.thoughtworks.com/pt/radar/techniques/semantic-monitoring)
 * Semantic monitoring usually is made with synthetic transactions
 * Monitor asynchronous operations with correlation ids
+* Measure response time and error rates, also for downstream dependencies
 
 
 # Related materials

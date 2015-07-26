@@ -237,6 +237,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Security
 
+* [Cryptography Engineering](http://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246)
 * Foundations of Security: What Every Programmer Needs to Know
 * http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
 
@@ -256,7 +257,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
 * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
 * [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
-* [Learning Spark: Lightning-Fast Big Data Analysis](http://www.amazon.com/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624)
 
 
 ## Web Mining

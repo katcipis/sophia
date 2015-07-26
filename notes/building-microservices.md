@@ -47,7 +47,30 @@ Basically the same thing, same core concepts. Microservices are SOA implemented 
 * How to really know if the service is working ? [Semantic Monitoring](http://www.thoughtworks.com/pt/radar/techniques/semantic-monitoring)
 * Semantic monitoring usually is made with synthetic transactions
 * Monitor asynchronous operations with correlation ids
-* Measure response time and error rates, also for downstream dependencies
+* Measure response time and error rates, also for downstream dependencies (circuit breaking)
+
+
+# Security
+
+Having smaller services gives you the advantage of building different security precautions to different services,
+depending on the sensitivity of the information they hold, or on what they can do.
+
+There is a series of approaches/tools you can take on security:
+
+* [HMAC](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code)
+* [JWT](http://jwt.io/)
+* [OpenID Connect](http://openid.net/connect/)
+* [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
+* [Shibboleth](https://shibboleth.net/)
+* [Gluu](http://www.gluu.org/)
+* [OpenAM](https://en.wikipedia.org/wiki/OpenAM)
+* Client Certificates
+* Everything allowed on perimeter (main entrance gateway)
+* Basic Auth on HTTPS 
+* API Keys
+
+It depends on the usage of your API. To provide services to a small set of partners, client certificates may be a good
+idea. But for a great set of clients it would be terrible to manage, for example.
 
 
 # Related materials

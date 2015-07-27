@@ -256,6 +256,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
 * [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
 * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+
+
+## Text Manipulation
+
+* [Taming Text](http://www.amazon.com/Taming-Text-Find-Organize-Manipulate/dp/193398838X)
 * [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
 
 

@@ -92,6 +92,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Databases
 
 * [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
+* [Time and Relational Theory](http://www.amazon.com/Time-Relational-Theory-Second-Edition/dp/0128006315)
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 

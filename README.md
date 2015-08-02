@@ -266,8 +266,9 @@ Basically where I organize what I still want to read and what I have already rea
 * [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
 
 
-## Web Mining
+## Web Mining/Scraping
 
+* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
 * [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
 * [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)
 * [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)

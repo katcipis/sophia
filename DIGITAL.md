@@ -19,6 +19,8 @@
 * [SE Radio](http://www.se-radio.net/)
 * [Elegant Code](http://elegantcode.com/)
 * [Free Electrons](http://free-electrons.com/docs/)
+* [The Changelog](https://changelog.com/podcast/)
+* [Full Stack Radio](http://fullstackradio.com/)
 
 
 #Screencasts
@@ -31,9 +33,6 @@
 #Blogs 
 
 * [Netflix](http://techblog.netflix.com/)
-* [Crockford on Javascript](http://yuiblog.com/crockford/)
-* [More Crockford :-)](http://javascript.crockford.com/)
-* [SuperheroJS](http://superherojs.com/)
 * [Free electrons](http://free-electrons.com/blog/)
 * [8th Light](http://blog.8thlight.com/)
 * [Clean coder](http://blog.cleancoder.com/)
@@ -42,4 +41,9 @@
 * [Sergio Prado](http://sergioprado.org/)
 * [Efetividade](http://efetividade.net/)
 * [Spotify](http://labs.spotify.com/)
+* [Red Hat](http://www.redhat.com/pt-br/about/blog)
+* [Core OS](https://coreos.com/blog/)
+* [LWN](https://lwn.net/)
+
+#Free books
 * [FreeBooks](https://github.com/vhf/free-programming-books)

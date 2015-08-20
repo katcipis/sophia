@@ -162,7 +162,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Legacy code
 
-* http://www.amazon.com/books/dp/0131177052
+* [Working Effectively with Legacy Code](http://www.amazon.com/books/dp/0131177052)
 * [Beyond Legacy Code](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 
 

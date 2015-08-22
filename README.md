@@ -72,6 +72,8 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
+* [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
 
 
 ## Team / People

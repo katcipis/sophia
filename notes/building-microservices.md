@@ -73,6 +73,19 @@ It depends on the usage of your API. To provide services to a small set of partn
 idea. But for a great set of clients it would be terrible to manage, for example.
 
 
+# Resilience and failure recovery
+
+* DiRT (Disaster Recovery Test)
+* DiRT remindes me of Chaos Monkey set of tools :-)
+
+
+## Good patterns
+
+* Bulkheads
+* Timeouts
+* Circuit Breaker
+
+
 # Related materials
 
 * [Domain Driven Design](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)

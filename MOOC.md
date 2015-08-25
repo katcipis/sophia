@@ -7,6 +7,7 @@
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
 * [Data Mining](https://www.coursera.org/specialization/datamining/20)
+* [Mining Massive Datasets](https://www.coursera.org/course/mmds)
 
 
 ## Highly Recommended

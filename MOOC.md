@@ -6,6 +6,7 @@
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
+* [Data Mining](https://www.coursera.org/specialization/datamining/20)
 
 
 ## Highly Recommended

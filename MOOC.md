@@ -6,6 +6,8 @@
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
+* [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
+* [Deep Learning Courses](https://developer.nvidia.com/deep-learning-courses)
 
 
 ## Highly Recommended

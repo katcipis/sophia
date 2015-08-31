@@ -11,6 +11,7 @@
 * [Skillshare](http://www.skillshare.com/)
 * [CreativeLive](https://www.creativelive.com/)
 
+
 # Podcasts
 
 * [DevChat](http://devchat.tv/)
@@ -21,11 +22,13 @@
 * [The Changelog](https://changelog.com/podcast/)
 * [Full Stack Radio](http://fullstackradio.com/)
 
+
 # Screencasts
 
 * [Destroy all software](https://www.destroyallsoftware.com/screencasts/catalog)
 * [Clean Coders](https://cleancoders.com/)
 * [8th light University](http://university.8thlight.com/)
+
 
 # Blogs 
 
@@ -41,6 +44,8 @@
 * [Red Hat](http://www.redhat.com/pt-br/about/blog)
 * [Core OS](https://coreos.com/blog/)
 * [LWN](https://lwn.net/)
+* [Data Science](https://github.com/rushter/data-science-blogs)
+
 
 # Wikis
 

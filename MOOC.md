@@ -8,8 +8,16 @@
 * [Image and video processing](https://www.coursera.org/course/images)
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
 * [Deep Learning Courses](https://developer.nvidia.com/deep-learning-courses)
+* [Data Mining](https://www.coursera.org/specialization/datamining/20)
+* [Mining Massive Datasets](https://www.coursera.org/course/mmds)
+* [Cloud Computing Concepts 2](https://www.coursera.org/course/cloudcomputing2)
 
 
 ## Highly Recommended
 
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
+
+
+## Done
+
+* [Cloud Computing Concepts](https://www.coursera.org/course/cloudcomputing)

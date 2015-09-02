@@ -110,6 +110,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Introduction to Algorithms, 3rd Edition](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
 
 
+### Recommended
+
+* [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
+
+
 ## Languages
 
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)

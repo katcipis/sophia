@@ -16,6 +16,7 @@
 ## Highly Recommended
 
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
+* [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 
 
 ## Done

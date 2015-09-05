@@ -13,10 +13,11 @@
 * [Cloud Computing Concepts 2](https://www.coursera.org/course/cloudcomputing2)
 
 
-## Highly Recommended
+## Recommended
 
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
+* [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
 
 
 ## Done

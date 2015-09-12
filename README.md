@@ -219,7 +219,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Architecture
 
-* [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
@@ -300,3 +299,4 @@ Basically where I organize what I still want to read and what I have already rea
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 * [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)
 * [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
+* [Building Microservices](http://info.thoughtworks.com/building-microservices-book)

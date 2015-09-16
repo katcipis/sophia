@@ -61,3 +61,7 @@ calculate the current state of your account
 
 Besides correlation ids we could use something like [lamport timestamps](https://en.wikipedia.org/wiki/Lamport_timestamps)
 so we could achieve correlation and partial ordering of events :-)
+
+## TODO
+
+Stopped at pag 23

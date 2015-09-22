@@ -228,6 +228,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 * Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 

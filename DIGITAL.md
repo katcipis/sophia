@@ -45,6 +45,7 @@
 * [Core OS](https://coreos.com/blog/)
 * [LWN](https://lwn.net/)
 * [Data Science](https://github.com/rushter/data-science-blogs)
+* [Brendan Gregg](http://www.brendangregg.com/blog/index.html)
 
 
 # Wikis

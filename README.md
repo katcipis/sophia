@@ -53,7 +53,6 @@ Basically where I organize what I still want to read and what I have already rea
 * Apprenticeship Patterns
 * The Passionate Programmer
 * [Mazes for Programmers](https://pragprog.com/book/jbmaze/mazes-for-programmers)
-* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
@@ -79,7 +78,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 * [A Handbook of Traditional Living](http://www.amazon.com/Handbook-Traditional-Living-Raido/dp/1907166068)
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
-* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
 
 
 ## Team / People
@@ -143,14 +141,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ### C
 
-* [The CERT® C Coding Standard](http://www.amazon.com/CERT-Coding-Standard-Second-Engineering-ebook/dp/B00JXMO1CE)
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
-
-
-### Javascript
-
-* [JavaScript Allongé](https://leanpub.com/javascript-allonge)
-* [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read)
 
 
 ### Python
@@ -238,7 +229,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 * http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-* http://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687
 * http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
 * http://pragprog.com/book/ec101di/101-design-ingredients-to-solve-big-tech-problems
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
@@ -259,22 +249,6 @@ Basically where I organize what I still want to read and what I have already rea
 * http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
 
 
-## Network
-
-* TCP/IP Lean: Web Servers for Embedded Systems
-* http://www.amazon.com/Unix-Network-Programming-Sockets-Networking/dp/0131411551/ref=sr_1_1?s=books&ie=UTF8&qid=1370310401&sr=1-1&keywords=unix+network+programming
-* http://www.amazon.com/Advanced-Programming-UNIX-Environment-Edition/dp/0201433079/ref=pd_sim_b_1
-* http://www.amazon.com/TCP-Illustrated-Volume-Addison-Wesley-Professional/dp/0321336313/ref=pd_bxgy_b_img_z
-* http://www.amazon.com/IPv6-Fundamentals-Straightforward-Approach-Understanding/dp/1587143135/ref=sr_1_1_title_1_pap?s=books&ie=UTF8&qid=1370311088&sr=1-1&keywords=IPv6+Fundamentals
-
-
-## Data Science
-
-* [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
-* [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
-* [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
-
-
 ## Text Manipulation
 
 * [Taming Text](http://www.amazon.com/Taming-Text-Find-Organize-Manipulate/dp/193398838X)
@@ -288,6 +262,15 @@ Basically where I organize what I still want to read and what I have already rea
 * [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
 * [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)
 * [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)
+* [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
+* [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+
+
+# Reading
+
+* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
+* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
 
 
 # Done

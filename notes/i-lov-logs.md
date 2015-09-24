@@ -10,7 +10,7 @@ You can model two ways to replicate state using the idea of logs. Master / Slave
 and State Machine Replication.
 
 
-### Master / Slave Backup
+## Master / Slave Backup
 
 On this case you keep a log of the state changes, and you are able to reproduce state from the
 master to the slaves.
@@ -25,7 +25,7 @@ Example:
     x = 7
 
 
-### State machine replication
+## State machine replication
 
 Here you keep a log of all the events that happened on the system.
 Given a deterministic state machine, if you provide the same input to it, it will
@@ -46,6 +46,28 @@ Example:
 
 It would be analog as a bank log of operations (debits and credits) that are used to
 calculate the current state of your account
+
+
+## Organizational Scalability
+
+Any team can publish on the feed and be responsible for the published data.
+Avoid a central ETL team, they will become a bottleneck and wont be able to scale.
+
+These ideas is analogous to the devops culture of each team owning its own service + deployment,
+without a central team responsible for a part of the system that is essential to features rolling out
+to the client.
+
+On the devops side, this would be operational stuff related to deploying stuff. On data integration, would be
+the idea of disponibilizing data. Even if you have a team responsible for aggregation and cleaning and doing awesome
+stuff with data, it should not be **mandatory** that any data available on the system must pass through them.
+
+The event feed is the central API for publishing and retrieving data, but there is no central team.
+Defining and respecting protocols is important, and seems that [Postel Law](https://en.wikipedia.org/wiki/Robustness_principle)
+is specially useful here, since it will make integration and evolution of the protocol a lot easier.
+
+This central log is very simple (assume as less structure as possible), and supports real time + batch processing gracefully,
+not assuming anything on how the data is used. This reminds greatly of the [data lake](http://martinfowler.com/bliki/DataLake.html)
+concept, opposing to the traditional data warehouse.
 
 
 ## Consensus Algorithms

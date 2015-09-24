@@ -67,7 +67,8 @@ is specially useful here, since it will make integration and evolution of the pr
 
 This central log is very simple (assume as less structure as possible), and supports real time + batch processing gracefully,
 not assuming anything on how the data is used. This reminds greatly of the [data lake](http://martinfowler.com/bliki/DataLake.html)
-concept, opposing to the traditional data warehouse.
+concept, opposing to the traditional data warehouse. On this case, the basic structure could be a JSON, but there is no
+global assumption about the structure, the contract is between each consumer <-> producer.
 
 
 ## Consensus Algorithms

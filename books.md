@@ -266,6 +266,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
 
 
+### Recommended
+
+* [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
+* [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
+
+
 # Reading
 
 * [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)

@@ -28,6 +28,7 @@
 * [Destroy all software](https://www.destroyallsoftware.com/screencasts/catalog)
 * [Clean Coders](https://cleancoders.com/)
 * [8th light University](http://university.8thlight.com/)
+* [PyVideos](http://pyvideo.org/)
 
 
 # Blogs 

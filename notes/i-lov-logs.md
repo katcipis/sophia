@@ -58,7 +58,7 @@ without a central team responsible for a part of the system that is essential to
 to the client.
 
 On the devops side, this would be operational stuff related to deploying stuff. On data integration, would be
-the idea of disponibilizing data. Even if you have a team responsible for aggregation and cleaning and doing awesome
+the idea of publishing data. Even if you have a team responsible for aggregation and cleaning and doing awesome
 stuff with data, it should not be **mandatory** that any data available on the system must pass through them.
 
 The event feed is the central API for publishing and retrieving data, but there is no central team.
@@ -69,6 +69,37 @@ This central log is very simple (assume as less structure as possible), and supp
 not assuming anything on how the data is used. This reminds greatly of the [data lake](http://martinfowler.com/bliki/DataLake.html)
 concept, opposing to the traditional data warehouse. On this case, the basic structure could be a JSON, but there is no
 global assumption about the structure, the contract is between each consumer <-> producer.
+
+
+### Scaling the log
+
+If everyone is going to integrate through the log then this log has to scale horizontally and have decent
+consistency (eventual, but decent :-).
+
+Cool stuff:
+
+* Sharding
+* Replication
+* Key partitioning
+
+Sharding and replication is well know, key partitioning is the idea to replicate and shard keys independently,
+this way keys are completely orthogonal and you can add new keys indefinitely without interfering on existing
+keys (you never get full orthogonality, but it is a good goal).
+
+
+## Good properties of a event log
+
+* Favor N consumers (and scales to it)
+* Persists the events
+* Enable reprocessing of past events (important to failure modes and bug fixes)
+* Lifetime of events can be configured in time or space
+
+
+### Technologies
+
+A list of technologies that provides these nice properties :-)
+
+* Kafka
 
 
 ## Consensus Algorithms
@@ -84,7 +115,3 @@ global assumption about the structure, the contract is between each consumer <->
 
 Besides correlation ids we could use something like [lamport timestamps](https://en.wikipedia.org/wiki/Lamport_timestamps)
 so we could achieve correlation and partial ordering of events :-)
-
-## TODO
-
-Stopped at pag 23

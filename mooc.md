@@ -11,6 +11,7 @@
 * [Data Mining](https://www.coursera.org/specialization/datamining/20)
 * [Mining Massive Datasets](https://www.coursera.org/course/mmds)
 * [Cloud Computing Concepts 2](https://www.coursera.org/course/cloudcomputing2)
+* [Programming Languages](http://cs.brown.edu/courses/cs173/2012/Videos/)
 
 
 ## Specialization

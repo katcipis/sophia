@@ -33,6 +33,7 @@
 
 # Blogs 
 
+* [Paul Graham](http://www.paulgraham.com/articles.html)
 * [Netflix](http://techblog.netflix.com/)
 * [Free electrons](http://free-electrons.com/blog/)
 * [8th Light](http://blog.8thlight.com/)

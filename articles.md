@@ -6,3 +6,5 @@
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
+* [Concurrent programming in ML](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7201&rep=rep1&type=pdf)
+* [The Future Of Standard ML](http://www.cs.cmu.edu/~rwh/talks/mlw13.pdf)

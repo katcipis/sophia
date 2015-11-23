@@ -8,3 +8,4 @@
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 * [Concurrent programming in ML](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7201&rep=rep1&type=pdf)
 * [The Future Of Standard ML](http://www.cs.cmu.edu/~rwh/talks/mlw13.pdf)
+* [Languages as Libraries](http://www.cs.utah.edu/plt/publications/pldi11-tscff.pdf)

@@ -9,3 +9,4 @@
 * [Concurrent programming in ML](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7201&rep=rep1&type=pdf)
 * [The Future Of Standard ML](http://www.cs.cmu.edu/~rwh/talks/mlw13.pdf)
 * [Languages as Libraries](http://www.cs.utah.edu/plt/publications/pldi11-tscff.pdf)
+* [Advanced Macrology and the Implementation of Typed Scheme](http://www.ccs.neu.edu/racket/pubs/scheme2007-ctf.pdf)

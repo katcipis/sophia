@@ -126,7 +126,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
+
+
+### Lisp / Scheme
+
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
+* [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 
 
 ### OCaml

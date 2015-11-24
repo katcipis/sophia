@@ -142,6 +142,7 @@ Basically where I organize what I still want to read and what I have already rea
 ### Go
 
 * [Go Programming Blueprints](http://www.amazon.com/Go-Programming-Blueprints-Mat-Ryer/dp/1783988029)
+* [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 
 
 ### C

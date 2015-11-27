@@ -134,9 +134,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 
 
-### OCaml
+### SML
 
 * [Real World OCaml](https://realworldocaml.org/v1/en/html/index.html)
+* [Programming in Standard ML](http://www.cs.cmu.edu/~rwh/smlbook/book.pdf)
+* [The Definition of Standard ML](http://sml-family.org/sml90-defn.pdf)
 
 
 ### Go

@@ -11,3 +11,4 @@
 * [Languages as Libraries](http://www.cs.utah.edu/plt/publications/pldi11-tscff.pdf)
 * [Advanced Macrology and the Implementation of Typed Scheme](http://www.ccs.neu.edu/racket/pubs/scheme2007-ctf.pdf)
 * [The Galois Connection between Syntax and Semantics](http://www.logicmatters.net/resources/pdfs/Galois.pdf)
+* [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)

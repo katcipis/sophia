@@ -69,8 +69,9 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
-* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
+* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
+* [The Hard Thing About Hard Things](http://www.amazon.com.br/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA)
 
 
 ## Psychology / Philosophy
@@ -78,6 +79,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 * [A Handbook of Traditional Living](http://www.amazon.com/Handbook-Traditional-Living-Raido/dp/1907166068)
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
+* [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 
 
 ## Team / People
@@ -134,9 +136,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 
 
-### OCaml
+### SML
 
 * [Real World OCaml](https://realworldocaml.org/v1/en/html/index.html)
+* [Programming in Standard ML](http://www.cs.cmu.edu/~rwh/smlbook/book.pdf)
+* [The Definition of Standard ML](http://sml-family.org/sml90-defn.pdf)
 
 
 ### Go
@@ -280,10 +284,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
-* [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
-* [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
 
 
 # Done
@@ -294,6 +295,9 @@ Basically where I organize what I still want to read and what I have already rea
 * How Google Tests Software
 * Pragmatic Thinking & Learning
 * Practical Vim
+
+## 2014 
+
 * NodeJS The right way
 * [REST in practice](http://www.amazon.com/gp/product/0596805829)
 * [Automate with Grunt](http://pragprog.com/book/bhgrunt/automate-with-grunt)
@@ -301,5 +305,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 * [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)
+
+
+## 2015 
+
 * [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
 * [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
+* [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
+* [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
+* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)

@@ -15,3 +15,4 @@
 * [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
+* [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)

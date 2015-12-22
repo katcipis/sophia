@@ -14,9 +14,10 @@
 * [Programming Languages](http://cs.brown.edu/courses/cs173/2012/Videos/)
 
 
-## Specialization
+## Specializations
 
 * [Data Analysis](https://www.coursera.org/specializations/data-analysis)
+* [Data Science](https://www.coursera.org/specializations/data-science)
 
 
 ## Recommended

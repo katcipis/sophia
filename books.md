@@ -154,20 +154,10 @@ Basically where I organize what I still want to read and what I have already rea
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
 
 
-### Python
-
-* [Test-Driven Development with Python](http://www.amazon.com/Test-Driven-Development-Python-Harry-Percival/dp/1449364829)
-
-
 ### Elixir
 
 * [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir)
 * [Introducing Elixir: Getting Started in Functional Programming](http://www.amazon.com/Introducing-Elixir-Getting-Functional-Programming/dp/1449369995)
-
-
-### VimL
-
-* [VimL](https://pragprog.com/book/bkviml/the-viml-primer)
 
 
 ## Concurrency
@@ -215,13 +205,12 @@ Basically where I organize what I still want to read and what I have already rea
 * The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
+
+
+### XP
+
 * [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
-
-
-## Computer Architecture
-
-* [Computer Organization and Architecture](http://www.amazon.com/Computer-Organization-Architecture-Stallings-Communications/dp/013293633X)
 
 
 ## Software Architecture
@@ -239,7 +228,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 * http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-* http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
 * http://pragprog.com/book/ec101di/101-design-ingredients-to-solve-big-tech-problems
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
@@ -268,7 +256,6 @@ Basically where I organize what I still want to read and what I have already rea
 ## Information Retrieval
 
 * [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
-* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
 * [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
 * [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)
 * [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)
@@ -285,6 +272,7 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
 
 
 # Done

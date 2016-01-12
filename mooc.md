@@ -25,6 +25,7 @@
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 * [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
+* [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 
 
 ## Done

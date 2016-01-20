@@ -1,7 +1,7 @@
 # Articles
 
-* [Extracting Web Data Using Instance-Based Learning](http://dl.acm.org/citation.cfm?id=1265174)
-* [A hierarchical approach to wrapper induction](http://dl.acm.org/citation.cfm?id=301191)
+* [Extracting Web Data Using Instance-Based Learning](https://www.cs.uic.edu/~yzhai/paper/WISE05-instance-extract.pdf)
+* [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)
 * [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)

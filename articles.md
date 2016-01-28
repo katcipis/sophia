@@ -23,3 +23,4 @@
 # Done
 
 * [Extracting Web Data Using Instance-Based Learning](https://www.cs.uic.edu/~yzhai/paper/WISE05-instance-extract.pdf)
+* [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)

@@ -20,9 +20,11 @@
 Using the database to integrate multiple services
 
 * No cohesion (usually logic around the data is spread across multiple services)
+* To avoid cohesion you can put logic inside the database...at your own risk
 * High coupling (all services tied up on the same schema)
 * Hard to perform non breaking changes
 * If you have more than one service writing data you cant trust the data
+* Mixed concerns, you have protocols/integrations and data/queries sitting together (good DBA can avoid this, never saw that although :-)
 
 
 # Testing

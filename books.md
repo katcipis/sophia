@@ -100,14 +100,13 @@ Basically where I organize what I still want to read and what I have already rea
 ## Databases
 
 * [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
-* [Time and Relational Theory](http://www.amazon.com/Time-Relational-Theory-Second-Edition/dp/0128006315)
-* [SQL and Relational Theory](http://www.amazon.com/SQL-Relational-Theory-Write-Accurate/dp/1449316409)
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
-## Big Data
+## Relational Theory
 
-* [Big Data: Principles and best practices of scalable realtime data systems](http://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
+* [Time and Relational Theory](http://www.amazon.com/Time-Relational-Theory-Second-Edition/dp/0128006315)
+* [SQL and Relational Theory](http://www.amazon.com/SQL-Relational-Theory-Write-Accurate/dp/1449316409)
 
 
 ## Algorithms
@@ -215,27 +214,23 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Architecture
 
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
-* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 * Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 
 ## Software Design
 
+* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
+* [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 * [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
 * http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-* http://pragprog.com/book/ec101di/101-design-ingredients-to-solve-big-tech-problems
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
-* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
-
-
-## Automated Testing
-
 * [xUnit Test Patterns](http://xunitpatterns.com/).
 * http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 * http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/

@@ -262,7 +262,12 @@ Basically where I organize what I still want to read and what I have already rea
 ### Recommended
 
 * [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
+
+
+## Machine Learning
+
 * [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
+* [Python Machine Learning](http://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130)
 
 
 # Reading

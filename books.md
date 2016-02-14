@@ -70,7 +70,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
-* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
 * [The Hard Thing About Hard Things](http://www.amazon.com.br/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA)
 
 
@@ -274,7 +273,7 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
-* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
+* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
 
 
 # Done
@@ -304,3 +303,8 @@ Basically where I organize what I still want to read and what I have already rea
 * [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
 * [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
 * [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
+
+
+## 2016
+
+* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)

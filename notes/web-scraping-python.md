@@ -9,6 +9,22 @@
 * Watch out with hidden stuff that is necessary on forms (parse the form and get all stuff)
 * Watch out for hidden stuff that is actually honeypots
 
+## Overview
+
+Great book to new developers who never crawled the web before.
+Some cool topics:
+
+* Parsing HTML
+* Parsing PDFs
+* Handling forms (and hidden stuff)
+* Handling sessions/cookies
+* Handling Javascript execution
+* Natural language processing techniques
+* Cleaning up data
+* Surviving encoding hell
+* Image processing
+* Captcha breaking
+
 
 ## Tools
 

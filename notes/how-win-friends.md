@@ -14,6 +14,11 @@
 * Everyone is in love with its own name, use this
 * Listening to someone is one of the best compliments
 * Encourage others to talk about themselves
+* Dramatize
+* Love the game
+* Throw a challenge
+* Ask questions, no orders
+* Let people save face
 
 
 ## Just thinking on what you are going to say next
@@ -31,3 +36,19 @@ to find food to its rabbits just by proposing to name the rabbits after them.
 
 Humans do all kind of stuff to get their names on stuff, like libraries and
 hospitals. Give them sense of importance by using this.
+
+
+## Being ruthless as a mean to be awesome
+
+Now I think this is just plain bullshit. I thought being blunt and always criticizing if
+something was not ok was better. In part is because if someone do this with me, usually I do
+not care, and if I was really wrong, I enjoy it.
+
+But this is another mistake that I'm always making, **people are NOT like me** and I cant expect
+them to be. In general people respond to praise.
+
+Praise is harder and more effective than criticizing, I need to think on ways to criticize
+that involve praising first. Two interesting techniques:
+
+* Always praise before talking about a mistake, makes it easier
+* Talk how I myself have done similar mistakes on the past

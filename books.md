@@ -50,9 +50,10 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Personal
 
-* Apprenticeship Patterns
+* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
+* [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * The Passionate Programmer
-* [Mazes for Programmers](https://pragprog.com/book/jbmaze/mazes-for-programmers)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
@@ -62,12 +63,9 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
-* [How to Be a Star at Work](http://www.amazon.com/How-Star-Work-Breakthrough-Strategies/dp/0812931696)
 * [The 7 Habits of Highly Effective People](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
-* [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
-* [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
 * [The Hard Thing About Hard Things](http://www.amazon.com.br/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA)
 

@@ -21,3 +21,4 @@ nineties and is similar with what is happening today (2016) with the cloud.
 
 * Carmack wanted to craft great programs, Romero wanted to build an empire
 * Romero had the ability to perceive change when he started to invest on IBM PC instead of Apple 2
+* Carmack hates patents, identified myself a lot with this (people have to be able to extend ideas)

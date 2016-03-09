@@ -1,6 +1,7 @@
 # Articles
 
 * [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)
+* [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)

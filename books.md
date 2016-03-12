@@ -220,7 +220,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
-* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
@@ -270,7 +269,7 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
-* [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
+* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 
 # Done
@@ -306,3 +305,4 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
 * [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
+* [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)

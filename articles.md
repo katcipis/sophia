@@ -9,6 +9,7 @@
 * [PlaNet - Photo Geolocation with Convolutional Neural Networks](http://arxiv.org/pdf/1602.05314v1.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
+* [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
 * [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
 * [C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-suresh.pdf)
 * [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)

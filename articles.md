@@ -1,6 +1,6 @@
 # Articles
 
-* [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)
+* [Go: A look behind the scenes](http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
@@ -30,5 +30,6 @@
 
 # Done
 
+* [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)
 * [Extracting Web Data Using Instance-Based Learning](https://www.cs.uic.edu/~yzhai/paper/WISE05-instance-extract.pdf)
 * [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)

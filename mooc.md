@@ -31,6 +31,7 @@
 * [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 * [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
 * [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
+* [MACHINE LEARNING AND COMPUTATIONAL STATISTICS](http://davidrosenberg.github.io/ml2016/#home)
 
 
 ## Done

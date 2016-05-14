@@ -74,7 +74,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 * [A Handbook of Traditional Living](http://www.amazon.com/Handbook-Traditional-Living-Raido/dp/1907166068)
-* [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
 * [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 
 
@@ -206,7 +205,6 @@ Basically where I organize what I still want to read and what I have already rea
 ### XP
 
 * [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
-* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 
 
 ## Software Architecture
@@ -268,7 +266,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 
@@ -306,3 +304,5 @@ Basically where I organize what I still want to read and what I have already rea
 * [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
 * [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
 * [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
+* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)

@@ -14,7 +14,7 @@ Both started developing at home, working on totally unrelated stuff, like burger
 It is indeed an amazing story how they fought to be able to do what they love.
 
 This increase on accessibility is similar to what happened with the web revolution at the
-nineties and is similar with what is happening today (2016) with the cloud.
+nineties and is similar with what is happening today (2016) with the cloud and the big data thing.
 
 
 ## Key points

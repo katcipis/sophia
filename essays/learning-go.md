@@ -14,6 +14,11 @@ of learning and developing Go code.
 ## Context: The Datapirates Team
 
 
+Our team is responsible for capturing data on the web. So we basically develop
+scrapers and all services required for the scrapers to work properly
+(like captcha breaking, proxy providing, etc).
+
+
 ## Context: Current Architecture
 
 Here at Neoway we work with business intelligence and fraud prevention. We do so by:
@@ -56,14 +61,24 @@ Go after all. But this is part of why we used Go, so it seemed to me important t
 this context.
 
 
-## Introduction
+## Journey begins
 
-Currently we have 3 Go services in our infrastructure
+On the new architecture we had some new services that where good candidates to be
+developed in Go. So we decided to give Go a try.
+
+Everyone has different reasons to think that Go is a good choice. For me the main ones
+are simplicity and familiarity.
+
+//TODO simplicity, mention rob pike article
+//familiarity, why not LISP ? :-)
+
+
+## Dependency management
 
 
 ## Coverage
 
 
-## Paralelism problems
+## Parallelism problems
 
 TODO: Talk about the problem with each package executing in parallel (-p) thing

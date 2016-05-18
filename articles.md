@@ -1,7 +1,8 @@
 # Articles
 
-* [I’m not a human: Breaking the Google reCAPTCHA](https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf)
+
 * [Go: A look behind the scenes](http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf)
+* [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
 * [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
@@ -9,6 +10,9 @@
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
+* [Caffe: Convolutional Architecture for Fast Feature Embedding](http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf)
+* [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
@@ -37,6 +41,7 @@
 
 # Done
 
+* [I’m not a human: Breaking the Google reCAPTCHA](https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf)
 * [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)
 * [Extracting Web Data Using Instance-Based Learning](https://www.cs.uic.edu/~yzhai/paper/WISE05-instance-extract.pdf)
 * [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)

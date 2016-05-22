@@ -82,3 +82,10 @@ are simplicity and familiarity.
 ## Parallelism problems
 
 TODO: Talk about the problem with each package executing in parallel (-p) thing
+
+
+## Error handling
+
+All alternatives besides error handling through abstractions results on lost of capacity to do proper dependency inversion
+
+http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully

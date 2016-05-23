@@ -27,7 +27,6 @@
   - [Automated Testing](#automated-testing)
   - [Security](#security)
   - [Network](#network)
-  - [Data Science](#data-science)
   - [Web Mining](#web-mining)
 - [Done](#done)
 
@@ -251,6 +250,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)
 * [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
 * [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
+* [Computational and Inferential Thinking](https://ds8.gitbooks.io/textbook/content/)
 
 
 ### Recommended

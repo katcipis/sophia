@@ -41,6 +41,13 @@ So, the principle is to always aim at practices that gives benefits right now an
 just the future...and not just right now.
 
 
+### Flow
+
+Everything must happens on a flow of continuous value being delivered. Practices like
+continuous delivery matches this well. Everything must be developed on small increments that
+go end to end. Avoid big bang deployments/deliveries. Value is added on a continuous flow.
+
+
 ## Executive support required
 
 A change like XP requires executive support. After talking about theory of restrictions Kent talks
@@ -106,3 +113,25 @@ not your company, develop software as if it was with your money).
 
 Delivering half baked stuff will hurt the confidence and respect the client has on you. And internally the respect
 and trust of the organization for the team.
+
+
+## Control is an illusion
+
+It is interesting that I believe in that but when it comes to developing software I found
+myself panicking because of the lack of control. One of the main consequences of feeling
+out of control is working on the weekends, because it really gives you a false sense
+of regaining control and kicking some ass.
+
+Dont do that, control is an illusion. If some work will be done on the weekends, be sure this
+is not the reason, because it is an stupid reason.
+
+
+## Quick ideas
+
+* Make smaller contracts with clients, both will benefit from it
+* Authority must be aligned with responsibility (the one that decides is also responsible for execution)
+* TDD the architecture. Want to scale better ? First write the load test that breaks the architecture, them improve it.
+* Build a small system and split it as it grows (reminds me of microservices)
+* No defect is acceptable, every single one is a way to improve and learn, not part of life.
+* Team metrics: Post development defects + Time from investiment to return of the investiment
+* Deliver documentation with the system and collect information on how it is used (remove docs that are unused)

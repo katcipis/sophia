@@ -82,7 +82,7 @@ The only requirement is that everyone must understand that it is a plan, with es
 a deadline, it is not a precise representation of what will happen on the future, it is a snapshot
 of what you think with the knowledge you have now.
 
-In the end I strongly agree. There is no problem with using points too, if you want too. But if
+In the end I strongly agree. There is no problem with using points too, if you want to. But if
 you **NEED** to use points because every time you use time everyone understands it as a deadline them
 your organizations have some serious issues (communication, trust, etc), so you really need to address
 these problems instead of masking them with points and poker stuff :-).

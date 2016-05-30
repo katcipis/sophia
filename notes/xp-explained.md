@@ -87,7 +87,7 @@ you **NEED** to use points because every time you use time everyone understands 
 your organizations have some serious issues (communication, trust, etc), so you really need to address
 these problems instead of masking them with points and poker stuff :-).
 
-Besides Kent really liking the estimation thing, I prefer to work with only priorization and getting
+I prefer to work with only prioritization and getting
 shit done. Of course this is not always possible, so it is important to developers to develop some
 knowledge on estimation.
 
@@ -107,9 +107,9 @@ communication.
 Instead of being honest and telling that things cant get done on the time frame, requesting a scope change,
 you just lie to yourself and to others to give the false illusion that stuff got delivered, when they didnt.
 
-This is the true courage I think, doing this and refusing to deliver shitty/half baked stuff. Before I thought
+This is the true courage I think, doing this and refusing to deliver shitty/half baked stuff. Before, I thought
 it was courage to change code, technology, architectures, etc. The more I develop software, the less it looks
-like it, true courage is harder and is balanced with honesty and respect for the people paying you (if it is
+like it. True courage is harder and is balanced with honesty and respect for the people paying you (if it is
 not your company, develop software as if it was with your money).
 
 Delivering half baked stuff will hurt the confidence and respect the client has on you. And internally the respect

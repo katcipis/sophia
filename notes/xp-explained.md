@@ -70,7 +70,8 @@ trying to not look as the restriction. Any optimization on the throughput is rew
 ### To point or not to point
 
 I found interesting that after some time I just gave up on the whole point system for
-estimations. It is advocated that estimations are very important, so does the planning,
+estimations, in favor of just using time (or no estimation at all).
+It is advocated that estimations are very important, so does the planning,
 and after some time Kent also gave up from points in favor of just plain old time
 estimations.
 

@@ -127,6 +127,52 @@ Dont do that, control is an illusion. If some work will be done on the weekends,
 is not the reason, because it is an stupid reason.
 
 
+## Testing
+
+
+Tests creates a safe place to experiment and fail. The dilemma is:
+**Defects are expensive. Preventing them is expensive too**.
+
+Again another instance of the problem of finding the nice spot :-).
+
+
+### DCI (Defect Cost Increase)
+
+One of the few empirical truths about software, the longer it takes to fix a bug,
+the more the fix will cost.
+
+As time passes the developer may have changed context, or it may be another developer
+that will have to fix it.
+
+So you must test often and soon, so you catch the bug as fast as you can. Writing
+the test **before** the actual code is an extreme view of this idea, with the benefit
+that helps you think about your API first, decoupled from implementation details
+(because you have not implemented it yet).
+
+Also tests are a great way to get feedback about your design. If you write them before you
+are getting the feedback as fast as possible, which also seems to be a good idea.
+
+
+### Double Checking
+
+It is a good idea to have a set of system tests that are written with the customer
+perspective in mind. To aid that it is better if these tests are not written directly
+by the developer that wrote the other unit/integrated tests. 
+
+Thats why it is double checking, two different sets of minds testing the system.
+But the idea is not to test the exact same thing, but to bring a different perspective.
+
+
+### Manual testing
+
+Not a good idea since it is not a stress reliever, and will actually get worse on stressful
+situations. The stress makes you do mistakes, and mistakes on manual testing will push bugs
+forward to production.
+
+Automated tests are stress relievers, and they just get cheaper with time (you have more fixtures
+and knowledge on how to write them).
+
+
 ## Quick ideas
 
 * Make smaller contracts with clients, both will benefit from it

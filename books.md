@@ -50,6 +50,8 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)
+* [Defeat Into Victory](http://www.amazon.com/Defeat-Into-Victory-Battling-1942-1945/dp/0815410220)
 * [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
 * [Into the Magic Shop](http://www.amazon.com/Into-Magic-Shop-Neurosurgeons-Mysteries-ebook/dp/B00YBBKMHA)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
@@ -125,6 +127,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ### Lisp / Scheme
 
+* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 * [Lisp in Small Pieces](http://www.amazon.com.br/Lisp-Small-Pieces-Christian-Queinnec-ebook/dp/B00AKE1U6O)
@@ -201,11 +204,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
 
-### XP
-
-* [Planning Extreme Programming](http://www.amazon.com/gp/product/0201710919)
-
-
 ## Software Architecture
 
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
@@ -218,6 +216,8 @@ Basically where I organize what I still want to read and what I have already rea
 ## Software Design
 
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
+* [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
+* [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)

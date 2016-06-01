@@ -107,13 +107,14 @@ communication.
 Instead of being honest and telling that things cant get done on the time frame, requesting a scope change,
 you just lie to yourself and to others to give the false illusion that stuff got delivered, when they didnt.
 
-This is the true courage I think, doing this and refusing to deliver shitty/half baked stuff. Before, I thought
+This is the true courage I think, doing this and refusing to deliver shitty/half baked stuff. For a long time I thought
 it was courage to change code, technology, architectures, etc. The more I develop software, the less it looks
 like it. True courage is harder and is balanced with honesty and respect for the people paying you (if it is
 not your company, develop software as if it was with your money).
 
 Delivering half baked stuff will hurt the confidence and respect the client has on you. And internally the respect
-and trust of the organization for the team.
+and trust of the organization for the team. It takes courage to just say that something can't be done on the time frame
+and ask for a scope reduction, true courage.
 
 
 ## Control is an illusion

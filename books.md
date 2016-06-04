@@ -50,6 +50,8 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [The Psychopath Code](https://www.amazon.com/Psychopath-Code-Cracking-Predators-Stalk-ebook/dp/B016MRW9KS)
+* [Culture and Empire: Digital Revolution](http://www.amazon.com/Culture-Empire-Digital-Revolution-Volume/dp/1492999776)
 * [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)
 * [Defeat Into Victory](http://www.amazon.com/Defeat-Into-Victory-Battling-1942-1945/dp/0815410220)
 * [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
@@ -66,7 +68,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
-* [The 7 Habits of Highly Effective People](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
 
@@ -84,8 +85,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * [Talking with Tech Leads](https://leanpub.com/talking-with-tech-leads)
-* [The One Minute Manager](http://www.amazon.com/One-Minute-Manager-Kenneth-Blanchard/dp/0688014291)
-* Peer Reviews in Software: A Practical Guide
 
 
 ## Health
@@ -148,7 +147,13 @@ Basically where I organize what I still want to read and what I have already rea
 
 ### C
 
+* [Scalable C](https://www.gitbook.com/book/hintjens/scalable-c/details)
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
+
+
+## Distributed Systems
+
+* [ZeroMQ](http://shop.oreilly.com/product/0636920026136.do)
 
 
 ### Elixir
@@ -187,19 +192,8 @@ Basically where I organize what I still want to read and what I have already rea
 ## Agile
 
 * [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
-* [Agile Project Management with Kanban](http://www.amazon.com/gp/product/0735698953)
-* [Writing Effective Use Cases](http://www.amazon.com/Writing-Effective-Cases-Alistair-Cockburn/dp/0201702258)
-* [Lean Enterprise: How High Performance Organizations Innovate at Scale](http://www.amazon.com/gp/product/1449368425)
-* [Lean from the Trenches](http://www.amazon.com/Lean-Trenches-Managing-Large-Scale-Projects/dp/1934356859)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
-* [Agile!: The Good, the Hype and the Ugly](Agile!: The Good, the Hype and the Ugly)
 * [Practices of an Agile Developer](http://pragprog.com/book/pad/practices-of-an-agile-developer)
-* User Stories Applied: For Agile Software Development
-* Leading Lean Software Development: Results Are not the Point.
-* The art of agile development.
-* Agile Testing: A Practical Guide for Testers and Agile Teams
-* [Kanban in Action](http://www.amazon.com/Kanban-Action-Marcus-Hammarberg/dp/1617291056)
-* The Lean Startup: How Todays Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
@@ -210,7 +204,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 * [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
-* Software Systems Architecture: Working With Stakeholders Using Viewpoints and Perspectives
 
 
 ## Software Design
@@ -220,9 +213,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
-* [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
-* [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073)
-* http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [xUnit Test Patterns](http://xunitpatterns.com/).
 * http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
@@ -236,14 +226,10 @@ Basically where I organize what I still want to read and what I have already rea
 * http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
 
 
-## Text Manipulation
+## Information Retrieval
 
 * [Taming Text](http://www.amazon.com/Taming-Text-Find-Organize-Manipulate/dp/193398838X)
 * [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
-
-
-## Information Retrieval
-
 * [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
 * [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
 * [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)

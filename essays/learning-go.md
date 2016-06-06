@@ -27,8 +27,8 @@ maintain, neither the rest of the data pipeline that we have at Neoway.
 
 To scrap data from the web we decided to use [Scrapy](http://scrapy.org/), which uses
 Twisted to handle the heavy I/O based workload without requiring a ridiculously amount of
-threads. I wont get in much detail on these guys right now, but if you are interested they
-are fairly well documented.
+threads to enable high concurrency. I wont get in much detail on these guys right now,
+but if you are interested they are fairly well documented.
 
 
 ## Why Go ?
@@ -106,10 +106,10 @@ no development effort required.
 This is the greatest reason for me to like something, simplicity. Simplicity on the terms of:
 
 * Only one way to do stuff
-* As few primitives as possible
-* As few abstractions as possible
 * Being explicit
 * Being consistent
+* As few primitives as possible
+* As few abstractions as possible
 
 Of course, enabling you to write solutions to difficult problems without imposing overheads
 on you. C for example has almost no abstractions, if you need to express abstractions it is not
@@ -128,8 +128,13 @@ trivial (although not recommended :-) on most cases).
 The idea here is not to focus on Lua, but it is another language where simplicity is beautifully expressed.
 
 So the idea of having less abstractions is having the necessary to solve complex problems, not the absence
-of abstractions. In Go good examples of this are Interfaces and the concurrency abstractions (more on that
-soon).
+of abstractions. In Go, good examples of simplicity are:
+
+* Object model using Interfaces, instead of inheritance
+* The concurrency model
+* [Errors are just values](https://blog.golang.org/errors-are-values), instead of exceptions
+* High order functions, instead of decorators
+* The defer statement
 
 
 ### The who and why
@@ -138,7 +143,6 @@ https://commandcenter.blogspot.com.br/2012/06/less-is-exponentially-more.html
 
 
 ### And of course, concurrency :-)
-
 
 
 ## Context: Use Go where ?

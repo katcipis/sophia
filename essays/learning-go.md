@@ -86,6 +86,11 @@ joys of dynamic loading), when we started with it they did not even existed (and
 perfect that way).
 
 
+### Batteries included
+
+Pretty much the basic you will need to develop services on the web and test code.
+
+
 ### Static Typing with Interfaces
 
 I just got fascinated on how Interfaces are implemented on Go. The idea of not requiring

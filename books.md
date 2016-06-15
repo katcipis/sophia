@@ -167,6 +167,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Concurrency
 
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
+* [The Theory and Practice of Concurrency](https://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
 
 
 ## Legacy code

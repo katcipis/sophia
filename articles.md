@@ -3,6 +3,7 @@
 * [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
+* [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)

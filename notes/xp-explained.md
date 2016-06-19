@@ -45,7 +45,10 @@ just the future...and not just right now.
 
 Everything must happens on a flow of continuous value being delivered. Practices like
 continuous delivery matches this well. Everything must be developed on small increments that
-go end to end. Avoid big bang deployments/deliveries. Value is added on a continuous flow.
+go end to end. Avoid big bang deployments/refactorings.
+
+That is why XP practices revolve around a loop of small improvements on code + design + testing + delivery.
+Every step of software development is made at each iteration, and each iteration can be as small as one week.
 
 
 ## Executive support required
@@ -153,6 +156,10 @@ that helps you think about your API first, decoupled from implementation details
 Also tests are a great way to get feedback about your design. If you write them before you
 are getting the feedback as fast as possible, which also seems to be a good idea.
 
+Only manual tests will not work well since they just make stressful situations worse
+(more mistakes are made), while automated tests provide the opposite effect, confidence
+on the face of pressure.
+
 
 ### Double Checking
 
@@ -174,11 +181,52 @@ Automated tests are stress relievers, and they just get cheaper with time (you h
 and knowledge on how to write them).
 
 
+## Incremental design
+
+
+Incremental design matches well with the Martin Fowlers Refactoring book and with the
+Boy Scout principle presented on the Pragmatic Programmer book. Every time you meet some
+code, leave it better than it was (but not entirely 100% clean).
+
+Make a habit about changing the design everyday and have patience. The main quality to develop
+here is patience, even if you have a vision, if it is too far way, be patient and give incremental
+small/stable steps in that direction. Breaking this kind of work is not easy, but it is worth the shot,
+the final product will probably be even better than your vision.
+
+The idea is not to not design, is to design a little everyday. Also you can design upfront, actually it
+is cheaper to just get the design right first, the problem is that this is too hard since you are
+usually resolving a novel problem, that will need a novel solution. The chances of getting the design
+all right before starting to solve the problem is really thin (although if it was possible, it would be
+cheaper).
+
+So incremental design is better because it is a necessity, you just dont know the solution space
+well enough on the start of a project to design it all upfront, but this is a gradient being navigated
+based on your experience on the subject. The more you know about it, the more you can design upfront.
+
+This approach also matches well with the principle of constant flow of value (designing does not deliver
+workable software).
+
+
+### Architecture metaphor
+
+
+There is a good comparison here that shows how dangerous can be to compare software with architecture.
+When you are constructing a build, reverting work can change completely in a matter of days, it is not
+symmetrical.
+
+For example, fixing a mistake from yesterday can cost 1000$, fixing it 3 days later can cost 10 times more
+if you are building a foundation. On software the worst case scenario is always the time spent (symmetrical).
+To revert one week work you can just revert one week of changes (and this is the worst case scenario).
+
+So it can be very dangerous to compare these two lines of work. Some concepts can be borrowed but they cant
+be compared and practices cant be blindly applied.
+
+
 ## Quick ideas
 
 * Make smaller contracts with clients, both will benefit from it
 * Authority must be aligned with responsibility (the one that decides is also responsible for execution)
-* TDD the architecture. Want to scale better ? First write the load test that breaks the architecture, them improve it.
+* TDD the architecture. Want to scale better ? First write the load test that breaks the architecture, then improve it.
 * Build a small system and split it as it grows (reminds me of microservices)
 * No defect is acceptable, every single one is a way to improve and learn, not part of life.
 * Team metrics: Post development defects + Time from investiment to return of the investiment

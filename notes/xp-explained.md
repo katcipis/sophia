@@ -222,7 +222,23 @@ So it can be very dangerous to compare these two lines of work. Some concepts ca
 be compared and practices cant be blindly applied.
 
 
-## Quick ideas
+### Scaling XP
+
+On this part of the book Kent Beck says a lot of stuff that reminds me a lot of the
+current microservices/small team movement.
+
+He presents it as **conquer and divide**. You just solve the problem, and as it starts to get big and
+hard to manage, break the problem in smaller ones.
+
+When the team gets too big, you split the teams too, assigning the new smaller problems to each of them.
+On this scenario it is important to integrate often (daily) and avoid breakages of APIs (deprecation).
+
+To this to work the teams must be independent and the need of coordination should be an exception
+(it will be needed sometimes). To the teams to be independent they must be heterogeneous and have
+the capacity to solve problems on a end to end fashion (even business people must be part of the team).
+
+
+## Some more ideas
 
 * Make smaller contracts with clients, both will benefit from it
 * Authority must be aligned with responsibility (the one that decides is also responsible for execution)
@@ -231,3 +247,5 @@ be compared and practices cant be blindly applied.
 * No defect is acceptable, every single one is a way to improve and learn, not part of life.
 * Team metrics: Post development defects + Time from investiment to return of the investiment
 * Deliver documentation with the system and collect information on how it is used (remove docs that are unused)
+* Dont push change on people, change your team first
+* If just your team is working differently, keep the old communication structure with the rest of the company (dont make enemies)

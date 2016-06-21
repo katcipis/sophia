@@ -135,11 +135,13 @@ The idea here is not to focus on Lua, but it is another language where simplicit
 So the idea of having less abstractions is having the necessary to solve complex problems, not the absence
 of abstractions. In Go, good examples of simplicity are:
 
-* Object model using Interfaces, instead of inheritance
-* The concurrency model
+* Object model focused on composition and behaviour, not type hierarchies.
 * [Errors are just values](https://blog.golang.org/errors-are-values), instead of exceptions
 * High order functions, instead of decorators
-* The defer statement
+* The defer statement as an easy way to release resources
+* Very explicit way to do stuff (example is the error handling, but it is everywhere)
+* Usually only one obvious way to do stuff
+* The concurrency model
 
 
 ### The who and why

@@ -47,9 +47,9 @@ data pipeline are written in Go).
 Having made that clear, why Go ? Here goes a list of things I thought to pretty cool about Go:
 
 
-### Great performance with good abstractions
+### Great performance
 
-This one may seem like some kind of premature optimization, all that talk about you should not care
+This one may seem like some kind of premature optimization, all that talk about how you should not care
 with performance, only solving your problem fast, etc (oh the joys of the tradeoffs on delivery speed
 and software speed) does not make that much sense when you **literally** pay for your computing power
 hourly.

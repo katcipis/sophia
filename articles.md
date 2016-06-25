@@ -1,6 +1,5 @@
 # Articles
 
-* [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
@@ -41,6 +40,7 @@
 
 # Done
 
+* [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 * [Go: A look behind the scenes](http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf)
 * [I’m not a human: Breaking the Google reCAPTCHA](https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf)
 * [A hierarchical approach to wrapper induction](http://www.isi.edu/integration/papers/muslea99-agents.pdf)

@@ -44,7 +44,7 @@ So we are not thinking on developing scrapers on Go (although that sounds like f
 was aiming at these other services (spoiler alert: in the end almost all services on our 
 data pipeline are written in Go).
 
-Having made that clear, why Go ? Here goes a list of things I thought to pretty cool about Go:
+Having made that clear, why Go ? Here goes a list of things I thought to pretty cool about Go.
 
 
 ### Great performance
@@ -75,20 +75,32 @@ binary and running it.
 
 I worked with these interpreted languages on the more harsh and odd places, like old kernels
 with proprietary crappy packaging systems where the norm. It was hell and the stuff that I had
-to make just to get shit working takes my sleep at night (not literally of course, I love drama :-)).
+to do just to get shit working takes my sleep at night (not literally of course, I love drama :-)).
 
 To be honest, even in C it was a hell because of dynamic libraries, but even that Go got right, it was
 completely static, and it had a compile mode that even the libc was embedded on the binary. It was
-the glory of the simplicity on deploying something.
+the glory of the simplicity on deploying something (althought the libc used on the compilation
+must be compatible with the kernel where you are going to run your binary, there is still a runtime
+dependency to satisfy on this case, the kernel. But it is a lot less than lots dynamic libraries).
 
-The addition of libraries (static and dynamic) is fairly new on Go (it even got dynamic loading, yay the
-joys of dynamic loading), when we started with it they did not even existed (and for me it was
+The addition of libraries (static and dynamic) is fairly new on Go (it even got dynamic loading,
+yaaay the joys of dynamic loading), when we started with it they did not even existed (and for me it was
 perfect that way).
 
 
 ### Batteries included
 
-Pretty much the basic you will need to develop services on the web and test code.
+Pretty much the basic you will need to develop services and test code. Stuff like:
+
+* http (and http2)
+* json
+* testing
+* profiling
+* formating
+* static analysis
+
+Since go even provide libraries to help you parse Go code there is a lot of cool
+third party static analysis tools (more on that later).
 
 
 ### Static Typing with Interfaces
@@ -146,10 +158,66 @@ of abstractions. In Go, good examples of simplicity are:
 
 ### The who and why
 
+TODO:
+
 https://commandcenter.blogspot.com.br/2012/06/less-is-exponentially-more.html
 
 
 ### And of course, concurrency :-)
+
+This one is the last one on purpose, because it is the more obvious one, and in my opnion people
+usually get overexcited with the concurrency model, leading to an overuse of it (which is the common
+pattern to every time you found something cool :-). But I really tried to not let myself go by
+the concurrency stuff, almost all our code make very little use of it, just because it is not necessary
+on our case (with the exception of one of our services, to guarantee orthogonality).
+
+The most impact caused to me by programming in Go is the simplicity, and the impact on your design that
+it makes. A great example is trading off complex type hierarchies for behaviour oriented interfaces.
+
+Defining small interfaces is much easier since having lots of small interfaces implemented by one object
+does not need an infinite list of **implements**. Ok, I was supposed to talk about the concurrency model :-),
+sorry I got carried away.
+
+Go's concurrency model is based on CSP (Communicating Sequential Processes), and is the best concurrency model
+I worked until today. Ok, I haven't worked with a lot of concurrency models, basically traditional multi-threading
+and asynchronous main loops (glib in C and NodeJS).
+
+Asynchronous main loops exploit the fact that heavy I/O loads do not need a lot of CPU time and threads, and that
+makes sense. The problem is that handling asynchronous code is simply harder than sequential code, you just
+have to think about callback pyramids of hell and other stuff. I used a lot the async module for NodeJS and
+there is a great movement on Javascript toward having promisses and coroutines/generators/whatever-they-call-it
+that can make asynchronous code read more like sequential code. I think this pretty much makes the case for
+sequential programming as more easy to understand.
+
+Go tries to bring the best of the two worlds. It will create multiple threads if necessary, and if you dont take
+care on how you code you **will** have race conditions. But if I/O is required, Go will optimize the I/O load to
+avoid making a lot of threads idle waiting for some I/O response. So you can create a lot of go routines waiting
+for some I/O without worrying that it will create a lot of threads that will be dumbly waiting for some
+system call.
+
+This is possible because Go provides a higher level of abstraction that is not directly operational system threads.
+Actually, at least on my opinion, this is the awesome part of any concurrency oriented language. The more traditional
+languages that we are used (Java, C++, C, Python, Ruby) to are sequential/procedural/OO languages that where
+not conceived with concurrency as a first class citizen. Sequential is the law, and concurrency is just throw up at
+you with threads and some hardware low level mechanism to avoid mayhem on the memory. On this case, concurrency is
+an afterthought. On Go it is a first class citizen, the language was built for it, from scratch.
+
+For this, I have to quote the [Communicating Sequetial Processed from Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf):
+
+```
+This paper has suggested that input, output, and
+concurrency should be regarded as primitives of programming,
+which underlie many familiar and less familiar
+programming concept
+```
+
+It is exactly what Go tries to achieve with goroutines and channels (although the paper reminds me more of the
+Erlang concurrency model than Go).
+
+In the end, concurrent algorithms are hard. Go makes it easier, but it is still hard.
+It is a good idea to avoid creating lots of goroutines if you dont have proof that they are needed.
+And sometimes even the more high level abstractions wont cut it, as can be seen
+[here](https://www.youtube.com/watch?v=1V7eJ0jN8-E).
 
 
 ## Context: Use Go where ?

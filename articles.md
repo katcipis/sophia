@@ -1,6 +1,7 @@
 # Articles
 
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
+* [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)

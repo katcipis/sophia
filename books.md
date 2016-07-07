@@ -251,11 +251,12 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
 * [Python Machine Learning](http://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130)
+* [Deep Learning](http://www.deeplearningbook.org/)
 
 
 # Reading
 
-* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
+* [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 
@@ -267,6 +268,7 @@ Basically where I organize what I still want to read and what I have already rea
 * How Google Tests Software
 * Pragmatic Thinking & Learning
 * Practical Vim
+
 
 ## 2014 
 
@@ -295,3 +297,4 @@ Basically where I organize what I still want to read and what I have already rea
 * [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
+* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)

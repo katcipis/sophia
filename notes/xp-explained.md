@@ -50,6 +50,21 @@ go end to end. Avoid big bang deployments/refactorings.
 That is why XP practices revolve around a loop of small improvements on code + design + testing + delivery.
 Every step of software development is made at each iteration, and each iteration can be as small as one week.
 
+The idea of flow also impacts the idea of who is responsible for quality. Everyone on the flow of value is
+responsible for quality, for its own work, but also to make it clear if some problem is spotted, even if it
+is not on the part of the system you are responsible for.
+
+This leaves QA to a possition of double checking and quality assistance, not assurance, since the entire pipeline
+is responsible for quality, not one team.
+
+If one of the parts of the flow fails, and value cant be delivered, all the flow fails. It makes perfectly sense.
+If one team does a great job and another one drops the ball and the client does not get what he wants, everyone loses.
+
+This incentives to think always about the flow and to think collaboratively, but also raises some really hard questions,
+like how you will give bonuses and raises ? Traditional modes of measuring and giving promotions are heavily
+focused on the individual, but now you have a model where the value is on the flow, not on the individual. You have
+to rethink the entire structure of your company to accommodate the idea and incentive people helping each other.
+
 
 ## Executive support required
 
@@ -222,7 +237,7 @@ So it can be very dangerous to compare these two lines of work. Some concepts ca
 be compared and practices cant be blindly applied.
 
 
-### Scaling XP
+## Scaling XP
 
 On this part of the book Kent Beck says a lot of stuff that reminds me a lot of the
 current microservices/small team movement.
@@ -238,6 +253,70 @@ To this to work the teams must be independent and the need of coordination shoul
 the capacity to solve problems on a end to end fashion (even business people must be part of the team).
 
 
+## Organizational Change
+
+Changing an organization is very hard. I didnt get too much good advice on this part as I thought it would be :-).
+But the little advice it gives makes perfectly sense.
+
+* If you have a sponsor, be accountable to him
+* Start with yourself, its the only thing you have control of
+* Lead by example, you cant expect from others stuff that you don't do, this is disrespectful
+* If only your team is changing, keep communication as other teams are used too
+* Don't push/enforce change to others people, it is not possible. Encouraging through example is possible
+
+
+## Production models
+
+On the book Kent compares Taylorism with the Toyota production model. On taylorism you have:
+
+* Engineers/smart people that decides how things are going to be done and how much time it will take
+* Workers just follow orders (and are responsible for nothing, even quality)
+* Quality department assumes the workers are lazy/stupid and "guarantees" quality on the end of the pipeline
+* For engineers, quality is another separate department, as sales and marketing
+
+This is the more traditional model, that has been also employed to develop software (since it was what the
+industry was more used to). Of course even for cars factories this is not the best model available, enters Toyota:
+
+* Everyone on the production line is responsible for quality, you spot a problem you stop the pipeline
+* You stop the pipeline for defects even if the defect is not on your work
+* Finding defects is seen as a good thing, and rewarded, you dont have to be afraid of it
+* Find the root cause of defects, it is the responsibility of the entire production pipeline
+* The whole organization is a quality organization
+* Going fast is not giving quality up
+* Going fast is not straining
+* Going fast is removing **WASTE**
+
+If for producing cars this is better, for software it is even more critical since it is a very creative process.
+Removing waste and continuous improvement are the mantra of the Toyota model. Some examples of waste on
+the software industry:
+
+* Big architectures to feed people egos
+* Useless documentations
+* Useless requirements
+
+Basically anything that does not help you deliver something for your client. On the toyota model there is no
+pile of parts stocked, it is always lean. In software you should not stock up requirements or documentation for
+stuff that you are not even sure if it is going to the client. Take 1 requirement, implement it, deliver it,
+get feedback and then repeat.
+
+
+## Practices
+
+A list of very simple practices, aligned with the principles/values mentioned before.
+
+* Whole team
+* Sit together (team)
+* Informative workspace (Kanban, for example)
+* Energized work (dont strain working too much hours)
+* Pair programming (or code reviews)
+* Use stories instead of detailed requirements
+* Estimate as a way to help business decisions, using time
+* Ten minute build
+* Continuous Integration
+* Test first programming (TDD)
+* Incremental design
+
+
 ## Some more ideas
 
 * Make smaller contracts with clients, both will benefit from it
@@ -249,3 +328,16 @@ the capacity to solve problems on a end to end fashion (even business people mus
 * Deliver documentation with the system and collect information on how it is used (remove docs that are unused)
 * Dont push change on people, change your team first
 * If just your team is working differently, keep the old communication structure with the rest of the company (dont make enemies)
+
+
+## The timeless way of building software
+
+This part is inspired on the book [The timeless way of building](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028).
+It uses the same idea applied to software. Software has suffered from the same problem as architecture, architects
+build stuff to satisfy their own egos, not for people and their needs. In my opinion this happens a lot on software too.
+
+Perfectionist people only think about what they want, and never deliver anything. The "pragmatic" people only wants to
+be seem as fast by management, so they deliver crap to the client and bugs are considered normal.
+
+The idea is simple, just think less about yourself and more about who is going to use your software, and that is it.
+Very simple and very hard to be done.

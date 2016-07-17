@@ -71,4 +71,33 @@ Almost all examples on the book are about chess players and sports. I was having
 with software development, which is what I do. There is one thing that I read on the book about Tiger Woods that
 helped me to start making the right connections. The fact that Tiger Woods can stop on the middle of a shot when
 he is interrupted, because he is not on automatic mode, he is actively thinking about every little thing he is doing
-on his shot, and if he is interrupted he can stop instead of justing shotting it all wrong as most people.
+on his shot, and if he is interrupted he can stop instead of justing shotting it all wrong as most people would do
+(because they are usually on auto pilot while doing that, having fun). The phrase from the book Pragmatic Thinking and
+Learning is:
+
+* You cant steer on auto pilot
+
+The book already talked about the danger of auto pilot, and as soon as I read the Tiger Woods thing It clicked. It
+was all about that (ok its not JUST that, but the bulk of it seems to be related to the auto mode).
+
+The automatic mode is what enables us to be alive and not go completely crazy. Humans have a phase where they learn
+something new, they practice it until it can be done on their sub conscience, and as soon it gets on that level
+you can perform the same way you did before, without even thinking about it. Notice that you cant get any better this way,
+just repeat the performance, because that is what the auto mode is all about, conserving energy and freeing your
+mind to think about other things.
+
+This is great to stuff like driving, but terrible to stuff like writing software, or anything that you intent to be
+really great at.
+
+Some odd things to think about:
+
+* Programming is about solving complex problems, can you really do it without thinking ?
+* Almost everyone that I know that is good at programming likes to do it, so how it is not going to be fun ?
+
+The fun thing is startling, all the great developers seem to have fun doing it, so where is the no fun part ?
+This is important to understand since it seems to be the difference between greatness and average.
+
+Now I will start to talk about a lot of stuff that is not on the book, but they make sense to me.
+
+
+## Deliberate Practice on Software

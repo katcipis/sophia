@@ -8,7 +8,8 @@ Working hard, that is the funny thing on life and that always puzzled me.
 There is a lot of people that works hard, every day, and don't seem to get nowhere.
 That always puzzled me, because at least for me, I just always did that and
 thing where a little different, it seemed that I could do more things than
-most people, but I never felt specially gifted or faster.
+most people, but I never felt specially gifted or faster. I just spend a lot of time
+with the problems I found interesting.
 
 To be honest, I think I'm pretty slow. I have to think about something for a long long
 time before having a decent idea. And understanding new concepts is not particularly fast
@@ -40,3 +41,34 @@ the same thing and not getting any better. To make things more odd, some people 
 doing the same job every day. So the problem lies on what we understand as practice. How is this practice ?
 It does not seem to be just doing stuff like you always do for a lot of hours, or a lot of people would
 be great at what they do, and life is not like that.
+
+The idea of **Deliberate Practice** is where things start to get fun.
+
+
+## Deliberate Practice
+
+The real deal to be great at what you do is deliberate practice. But what the hell is deliberate practice ?
+Well the core concept of what it is, is this:
+
+* It can be repeated a lot
+* It is not fun
+* It is mentally exhausting
+* It needs continuous feedback
+
+Since you need to practice a lot, it has be something that you can repeat a lot. Not being fun is related to being
+mentally exhausting. It requires for you to be deliberately thinking about everything that you are doing while you are
+practicing, so it will annoy your mind, that usually likes to sit and relax :-).
+
+Feedback is required because you need to understand if you are actually getting better. How do you know that a variation
+on how you do stuff produces better result ? Seeing that is very hard. That is why in sports even the best players
+still have coach's, they need feedback from someone that is watching them from outside.
+
+The idea that all this is a lot of work makes a lot of sense, since it does describe why there is so little great
+performers in the world, its because its not easy or fun. People like the idea of the gifted person because it
+makes them feel better with themselves, but its not true.
+
+Almost all examples on the book are about chess players and sports. I was having a real hard time connecting this
+with software development, which is what I do. There is one thing that I read on the book about Tiger Woods that
+helped me to start making the right connections. The fact that Tiger Woods can stop on the middle of a shot when
+he is interrupted, because he is not on automatic mode, he is actively thinking about every little thing he is doing
+on his shot, and if he is interrupted he can stop instead of justing shotting it all wrong as most people.

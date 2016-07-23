@@ -1,6 +1,6 @@
 # The Go learning experience
 
-We started to work at Neoway with Golang for almost a year right now, and on this post
+We started to work at Neoway with Golang for a year and a half right now, and on this post
 I will try to pass on some of the experience of learning Go.
 
 To make things easier I will use a very clear example, one problem, and some context
@@ -73,7 +73,8 @@ As someone with C background, but that also have experience with interpreted lan
 Python, Javascript (NodeJS/Backend stuff) and Lua, I value a lot the model of just copying a
 binary and running it.
 
-I worked with these interpreted languages on the more harsh and odd places, like old kernels
+I worked with these interpreted languages on the more harsh and odd places
+(think about inhospitable environments, where the is no life and fun :-)), like old kernels
 with proprietary crappy packaging systems where the norm. It was hell and the stuff that I had
 to do just to get shit working takes my sleep at night (not literally of course, I love drama :-)).
 
@@ -102,6 +103,11 @@ Pretty much the basic you will need to develop services and test code. Stuff lik
 Since go even provide libraries to help you parse Go code there is a lot of cool
 third party static analysis tools (more on that later).
 
+In my opinion Go hits a very nice spot of having batteries included but not too much
+batteries :-), and the batteries are really small, and cool, and gives you control and
+the choices on how to use them instead of trying to force you to work on the way they want.
+
+
 
 ### Static Typing with Interfaces
 
@@ -116,6 +122,14 @@ your ducks, if they are quacking properly, etc.
 You can have good tests to aid you on the dynamic language, but I never heard anyone
 complaining because a static analysis helped them identify a problem really fast with
 no development effort required.
+
+Also this aspect of Go helped me think more about services and protocols inside my Go
+code, instead of thinking on objects. Basically because for me interfaces have nothing to
+do with objects, they are a mean to express a protocol. The struct is just a way to compose
+multiple functions to implement that protocol.
+
+Go does that by not using types to validate anything, it is truly protocol oriented.
+
 
 
 ### Simplicity
@@ -133,8 +147,9 @@ on you. C for example has almost no abstractions, if you need to express abstrac
 trivial to do that.
 
 The idea is not to have no abstractions, but only the minimum required to solve problems elegantly.
-A good example is Lua, where almost everything is represented as tables, objects, modules, etc.
-Importing modules is just a function returning a table mapping names to functions.
+A good example is Lua, where almost everything is represented as tables.
+A modules is just a function that returns a table mapping names to functions (or anything you want,
+modules can even just return a boolean if that makes sense to you).
 
 There is abstractions on this, but as few as possible, and you can still do everything (and more)
 that you used to do with languages that have more abstractions (like Python and Javascript, for example).
@@ -154,6 +169,49 @@ of abstractions. In Go, good examples of simplicity are:
 * Very explicit way to do stuff (example is the error handling, but it is everywhere)
 * Usually only one obvious way to do stuff
 * The concurrency model
+
+It is interesting that this kind of simplicity is also reflected on the thickness of the manual.
+A quote from [Five Questions about Language Design](http://paulgraham.com/langdes.html):
+
+```
+And it's not only programs that should be short.
+The manual should be thin as well.
+A good part of manuals is taken up with clarifications and reservations and warnings and special cases.
+If you force yourself to shorten the manual, in the best case you do it by fixing the things in the
+language that required so much explanation.
+```
+
+The first thing that came to my mind was my last experience with Python and generators
+(having fun with twisted). From the [PEP 255 Simple Generators](https://www.python.org/dev/peps/pep-0255/)
+
+```
+Restriction:  A yield statement is not allowed in the try clause of a
+try/finally construct.  The difficulty is that there's no guarantee
+the generator will ever be resumed, hence no guarantee that the finally
+block will ever get executed; that's too much a violation of finally's
+purpose to bear.
+```
+
+Hmm... not so simple after all these generators :-(. What seems to be happening to me here is
+the usual problem of having too much possible control flows on the language. It is already
+more complex to have more than one possible flow on your program (yes exceptions, I'm looking at you,
+fancy goto's with even fancier switch cases), but now you have the 3 ways you can compose these
+different control flows (Sequential + Exceptions + Generators yielding).
+On this particular case the addition of generators on Python caused some problems
+with the previous decision of having exceptions.
+
+Of course, you can just read the manual, but the idea is to have short programs and short manuals.
+Possibly there is some cases where exceptions will seem like a good idea, and the same goes for
+generators (we use generator a lot to develop twisted code that looks sequential, it seems
+better than a callback hell).
+
+The wisdom is on thinking on alternative solutions to problems that these approaches solves
+and measuring if the complexity that these will bring to the language really pays off
+(not advocating that exceptions or generators are no useful at all, but questioning if
+they are really able to pull their weight).
+
+In my opinion, Go achieves that pretty well. And an interesting decision is that neither of
+these concepts are present on the language design.
 
 
 ### The who and why

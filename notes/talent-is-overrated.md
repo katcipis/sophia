@@ -47,7 +47,9 @@ The idea of **Deliberate Practice** is where things start to get fun.
 
 ## Deliberate Practice
 
-The real deal to be great at what you do is deliberate practice. But what the hell is deliberate practice ?
+The real deal to be great at what you do is deliberate practice, not just practicing.
+But what the hell is deliberate practice ?
+
 Well the core concept of what it is, is this:
 
 * It can be repeated a lot
@@ -69,11 +71,15 @@ makes them feel better with themselves, but its not true.
 
 Almost all examples on the book are about chess players and sports. I was having a real hard time connecting this
 with software development, which is what I do. There is one thing that I read on the book about Tiger Woods that
-helped me to start making the right connections. The fact that Tiger Woods can stop on the middle of a shot when
-he is interrupted, because he is not on automatic mode, he is actively thinking about every little thing he is doing
+helped me to start making the right connections. The fact that Tiger Woods can stop on the middle of a swing when
+he is interrupted.
+
+Normal golf players will just make the shot, horribly. But he can stop on the middle of it, take a step back, recompose
+himself, and come forth again to do the shot. How can he do this ? because he is not on automatic mode,
+he is actively thinking about every little thing he is doing
 on his shot, and if he is interrupted he can stop instead of justing shotting it all wrong as most people would do
-(because they are usually on auto pilot while doing that, having fun). The phrase from the book Pragmatic Thinking and
-Learning is:
+(because they are usually on auto pilot while doing that, having fun, its not a deliberate action).
+The phrase from the book Pragmatic Thinking and Learning book that I remembered is:
 
 * You cant steer on auto pilot
 
@@ -86,8 +92,8 @@ you can perform the same way you did before, without even thinking about it. Not
 just repeat the performance, because that is what the auto mode is all about, conserving energy and freeing your
 mind to think about other things.
 
-This is great to stuff like driving, but terrible to stuff like writing software, or anything that you intent to be
-really great at.
+This is great to stuff like driving, since you just want to get to places, but terrible to stuff like writing software,
+or anything that you intent to be really great at.
 
 Some odd things to think about:
 
@@ -101,3 +107,33 @@ Now I will start to talk about a lot of stuff that is not on the book, but they 
 
 
 ## Deliberate Practice on Software
+
+Ok, now it is the time for reflection. I really love what I do, but the book started me to think about
+the "have fun" thing. Do I really always have fun when developing software ? Where the satisfaction comes
+from ? Are there any pain points ?
+
+Before dwelling on these questions, lets think a little about what is not deliberate practice on software
+development, the root of all evil.
+
+
+### The root of all evil
+
+The root of all evil on software development, for me at least, is the **the important thing is that it works**.
+Every single person that I met that thinks like that, does a very average/poor job at developing software.
+This really pisses me off. When you think about great software design, doing what the user needs is really
+fundamental. But it is the most basic parameter to measure quality of your solution, it is poor and lazy,
+and it enabled you do do everything on automatic mode, just do what you always have done on the last years
+all over again, and if shit barely works, well, good enough I can go home.
+
+On this mode of software development it is really possible to be on automatic, even when handling with complex
+problems. You are not thinking about a lot of variables like:
+
+* How people are going to understand this later
+* How it will recover from errors
+* How it will evolve without regressions
+
+You just do what you already know until you can see the answer you expected to be printed on the screen and
+you are good to go. There is no space for feedback or improvement, or reviews, it only matters that it is
+"working". The most interesting is that people that works like that and usually seems to value this, do not
+even deliver fully working shit, just half baked shit that works for some time, because there is no real
+thought on their work, and when you see software like that you can see the lack of thought.

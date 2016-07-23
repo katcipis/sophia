@@ -95,5 +95,7 @@ http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
 
 * Dont use self / this
 * Name variables according to interface being implemented
+* Methods on Go are just syntatic sugar for calling functions
+* Also a way to implement interfaces (protocols)
 
 https://blog.heroku.com/neither-self-nor-this-receivers-in-go

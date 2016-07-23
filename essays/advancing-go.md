@@ -24,8 +24,7 @@ scrapers and all services required for the scrapers to work properly
 Here at Neoway we work with business intelligence and fraud prevention. We do so by:
 
 * Gathering a great deal of data from a lot of different sources
-* Cleaning it
-* Normalizing it
+* Cleaning it Normalizing it
 * Aggregate and correlate with the rest of our data
 
 So, it is clear that we have a data pipeline that feeds our application with data.
@@ -89,3 +88,12 @@ TODO: Talk about the problem with each package executing in parallel (-p) thing
 All alternatives besides error handling through abstractions results on lost of capacity to do proper dependency inversion
 
 http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
+
+
+## Naming receivers
+
+
+* Dont use self / this
+* Name variables according to interface being implemented
+
+https://blog.heroku.com/neither-self-nor-this-receivers-in-go

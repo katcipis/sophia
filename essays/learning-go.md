@@ -216,14 +216,75 @@ these concepts are present on the language design.
 
 ### The who and why
 
-TODO:
 
-https://commandcenter.blogspot.com.br/2012/06/less-is-exponentially-more.html
+It has been a lot of years since Go got my attention, and it started mainly with the
+[Less is exponentially more](https://commandcenter.blogspot.com.br/2012/06/less-is-exponentially-more.html)
+post from Rob Pike.
+
+Because of my previous experience with Lua I identified myself immediately with this idea.
+Another thing that I liked was that they had a real problem to solve with the language, and a
+very clear public audience, that included themselves. Again from
+[Five Questions about Language Design](http://paulgraham.com/langdes.html):
+
+```
+If you look at the history of programming languages, a lot of the best ones were languages designed for their
+own authors to use, and a lot of the worst ones were designed for other people to use.
+```
+
+I read some posts talking that Go is aimed at bad programmers, because it is too restrictive.
+I always thought that about Java, but never from Go. It just does not seems like that.
+The language does not seem to be trying to restrict me, it is just trying to be simple.
+
+Java is just not simple, and does not allow me to do a lot of stuff because it assumes
+I'm stupid. Go does not have a lot of stuff not because it thinks you can't program well
+with them, it just thinks they are not necessary (less is more).
+
+It is beautifully clear on the design of the language that they are people very close
+to the C language, but that wants some abstraction to make things easier and a
+concurrency model that is a first class citizen of the language.
+
+Some things that are simple and empowers the developer:
+
+* The interfaces model
+* Control of how much garbage on the memory you are creating with your code
+* Concurrency model that is expressive but gives you total control to generate deadlocks and races
+
+Given that, it really does not seem like the designers of Go where just thinking about
+dumb developers that have no idea of what they are doing. Go is extremely aggressive on
+not copying stuff around, I even had some troubles with that for being so used to program in
+Python and other high level languages. So the thought that Go is trying to prevent me to
+making mistakes do not makes too much sense. It just tries to give me all the control, as simple
+as possible.
+
+Of course, good design is a design that fits well its users. And the who are the users of Go ?
+Well, as I understand it, the target is system programmers, that have to work on relatively big code bases.
+And it is system programming on the level that performance and concurrency is extremely important,
+but they are complex enough to be pretty hard to express in pure C (which has a totally different
+purpose). This explain a lot, like the control on how much garbage is generated on the memory
+(that can cause huge latency because of garbage collection).
+
+The only moment that I saw Go being opinionated is on code formatting.
+The community tries to make code as uniform as possible. A reflect of that is that the
+gofmt tool only formats the code on one way and that is it.
+
+When I was younger I would not like that, you have to respect all those people that
+like spaces more than tabs.
+
+Now that I'm older... Honestly ? Fuck respect for freedom (I had my share of spaces VS tabs discussions),
+make the code be consistent and uniform. I don't like tabs, yet in Go I use tabs,
+and if all code will have tabs and reading code will feel the same when I cross projects boundaries it
+is a win big enough to make me waive away my freedom to choose formatting.
+
+But even on that matter, you are not obligated to format your code that way, and it is the only
+thing that I believe Go tries to impose anything, besides that you pretty much have a lot of
+control on how you can get things done.
+
+And of course, there is the who, the guys that designed the language totally kick some serious ass :-).
 
 
 ### And of course, concurrency :-)
 
-This one is the last one on purpose, because it is the more obvious one, and in my opnion people
+This one is the last one on purpose, because it is the more obvious one, and in my opinion people
 usually get overexcited with the concurrency model, leading to an overuse of it (which is the common
 pattern to every time you found something cool :-). But I really tried to not let myself go by
 the concurrency stuff, almost all our code make very little use of it, just because it is not necessary
@@ -279,3 +340,5 @@ And sometimes even the more high level abstractions wont cut it, as can be seen
 
 
 ## Context: Use Go where ?
+
+TODO: Talk about the first prototype, and insert a hook to Gibbon.

@@ -210,9 +210,41 @@ Some ways to get feedback.
 ##### Code review / Pair programming
 
 
-##### Test first programming
+##### Test First Programming
 
-The tests are not driving shit :-)
+It was while I was writing about how design is a deliberate/exhausting practice that I noticed
+how wrong the names TDD and BDD are. Behaviour wont drive design, tests wont drive design, only
+a human mind can drive a design.
+
+This totally makes sense with the fact that a lot of unexperienced people will come up
+with a shitty totally tested design when doing TDD. TDD can only help you to get feedback
+about your design. But feedback only helps you if you listen for it, and experience plays a great
+deal on interpreting feedback.
+
+Today I like the test first programming term better than TDD, it dont gives you the illusion
+that writing tests before will drive your design, it wont. It may help you have better tests,
+and even this depends greatly on your experience.
+
+Lots of people do great job with TDD because they are experienced and do a great job coming
+up with great designs and are good at refactoring. Again, refactoring is the thing generating
+deliberate practice.
+
+Having said that, I usually like to write my tests first, and treating tests as a first class
+citizens on my day to day life was one of the choices that made me do a great deal of deliberate
+thinking and practice on my work. Testing is hard, having to always think about that helps me
+to be always improving and stretching to do things better and differently.
+
+Again, just working (printing stuff on the screen) is not enough. So if you feel stuck and
+want to improve, start to think on how to automate validation of your software, it is orders
+of magnitude harder than just writing the software, and hard is good.
 
 
 #### Learn new languages / paradigms
+
+
+#### Mentoring / Coaching
+
+
+#### Building the mental model
+
+http://www.informit.com/articles/article.aspx?p=1941206

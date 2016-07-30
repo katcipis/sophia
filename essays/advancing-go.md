@@ -77,6 +77,7 @@ are simplicity and familiarity.
 
 ## Coverage
 
+## Static analysis
 
 ## Parallelism problems
 
@@ -99,3 +100,8 @@ http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
 * Also a way to implement interfaces (protocols)
 
 https://blog.heroku.com/neither-self-nor-this-receivers-in-go
+
+
+## Epilogue
+
+Make connection to kraken

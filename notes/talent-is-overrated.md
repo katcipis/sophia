@@ -209,6 +209,10 @@ Some ways to get feedback.
 
 ##### Code review / Pair programming
 
+##### Time + Change
+
+Bend or break :-)
+
 
 ##### Test First Programming
 
@@ -239,17 +243,22 @@ want to improve, start to think on how to automate validation of your software, 
 of magnitude harder than just writing the software, and hard is good.
 
 
-#### Avoiding comfort
+#### Avoiding comfort and automatic pilot
 
 * Learn new languages / paradigms
 * Change work domain
 * Change how you get things done (TDD for example)
+* Core quality: curiosity
 
 
 #### Mentoring / Coaching
 
 
-### Building the mental model
+* At work
+* Open source
+
+
+### The mental model
 
 http://www.informit.com/articles/article.aspx?p=1941206
 

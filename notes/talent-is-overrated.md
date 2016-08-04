@@ -239,12 +239,21 @@ want to improve, start to think on how to automate validation of your software, 
 of magnitude harder than just writing the software, and hard is good.
 
 
-#### Learn new languages / paradigms
+#### Avoiding comfort
+
+* Learn new languages / paradigms
+* Change work domain
+* Change how you get things done (TDD for example)
 
 
 #### Mentoring / Coaching
 
 
-#### Building the mental model
+### Building the mental model
 
 http://www.informit.com/articles/article.aspx?p=1941206
+
+
+### Metacognition and retrospectives
+
+Map metacognition with the idea of retrospectives. Elaborate on how to do it individually.

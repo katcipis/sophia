@@ -122,7 +122,7 @@ The root of all evil on software development, for me at least, is the **the impo
 Every single person that I met that thinks like that, does a very average/poor job at developing software.
 This really pisses me off. When you think about great software design, doing what the user needs is really
 fundamental. But it is the most basic parameter to measure quality of your solution, it is poor and lazy,
-and it enabled you do do everything on automatic mode, just do what you always have done on the last years
+and it enables you do do everything on automatic mode, just do what you always have done on the last years
 all over again, and if shit barely works, well, good enough I can go home.
 
 On this mode of software development it is really possible to be on automatic, even when handling with complex
@@ -131,6 +131,7 @@ problems. You are not thinking about a lot of variables like:
 * How people are going to understand this later
 * How it will recover from errors
 * How it will evolve without regressions
+* What is the impact of the decisions that I'm making on the rest of the system
 
 You just do what you already know until you can see the answer you expected to be printed on the screen and
 you are good to go. There is no space for feedback or improvement, or reviews, it only matters that it is
@@ -140,12 +141,12 @@ thought on their work, and when you see software like that you can see the lack 
 
 Our industry if filled with people like that, the world is, because it is what makes more sense for nature.
 You need to conserve energy, not use a lot of energy. But when you conserve energy there is little space
-for innovation, just for survival.
+for innovation, just for survival (pressure is also a trigger for this kind of behaviour).
 
 If you want to do good stuff on software, forget the **but it works** crap. Working is the most basic thing
 expected from you, and there is a lot of other stuff that you are supposed to do besides that.
 
-Ok now that I was able to rant about how much I despise the it works shit, we can talk about cool stuff
+Ok now that I was able to rant about how much I despise the "it works" shit, we can talk about cool stuff
 that makes great developers.
 
 
@@ -153,22 +154,25 @@ that makes great developers.
 
 Well, as stated before, the secret is to not stay on automatic mode. The automatic mode is the way
 our brain have to make us comfortable, and we like comfort. So if you want to be increasingly getting
-better on what you do, you must not be comfortable for a long period of time.
+better on what you do, you must not be comfortable for a long period of time (you need periods of
+comfort to avoid your brain from burnout, and yes, everyone burns out eventually).
 
-One important thing to note is that since deliberate practice is mentally exhausting the researches
+One important thing to note is that since deliberate practice is mentally exhausting. The researches
 showed that usually the max amount of time doing it per day is approximately 4 hours. The human brain
 simply cant take much more than it per day. So when you are developing there will be times that you
-will need to just code on a more comfortable way. I supposed that this is the moment when code that
+will need to just code on a more comfortable way.
+
+I supposed that this is the moment when code that
 have to be refactored is born :-), and it is just a reality, no one can write deliberate great
 software for a long period of hours, sometimes the bad design will slip. There is a lot of
-techniques that can mitigate that, that are also a mechanism to get feedback.
+techniques that can mitigate that, there are also mechanisms to get feedback.
 
 Now lets get to a list of practices that good developers usually do, that distinguishes them.
 
 
-#### Care a lot about design
+#### Design matters
 
-As I stated before, just working is not enough. Good developers care a lot about design.
+Just writing lots of code is not enough. Good developers care a lot about design.
 Thinking about software design meets all the criteria of deliberate practice:
 
 * It can be repeated a lot (you can always do that)
@@ -177,16 +181,17 @@ Thinking about software design meets all the criteria of deliberate practice:
 * It needs continuous feedback
 
 The fun part is learning new design approaches, but the feeling good only happens after the new
-design is born, and you see it in action, and it gives you great satisfaction. But the process
-of coming up with a good design is really hard. It takes time (and pressure to start coding
+design is born, and you see it in action, seeing it working gives you great satisfaction.
+But the process of coming up with a good design is really hard. It takes time (and pressure to start coding
 stuff starts to pile up), and it takes a lot of good people to brainstorm, and it takes the
 desire to not just go with the first idea that comes up to your mind.
 
 Of course this is a continuous activity, the idea is not to do a big upfront design, and the
-catch to that is the continuous feedback loop and the repeating.
+catch to understand that is the continuous feedback loop and the repeating.
 
-Big upfront design is usually a bad idea because it lacks the repeating a lot, since you are going
-to do it on the start of the project, them it will only be coding. And it lacks continuous feedback.
+Big upfront design is usually a bad idea because it lacks the "repeating a lot" from deliberate practice,
+since you are going to do it on the start of the project, them it will only be coding.
+And it will lack continuous feedback too, you will only get one big **you suck** feedback at the end.
 
 Design can only give feedback when used by the intended users. If you are designing an API, you need
 to use it to have feedback. That is why it makes no sense to pass too much time only designing
@@ -200,14 +205,19 @@ I see very few people willing to really stress design choices, alternatives and 
 of different design choices. It is a reflection of the "no fun" thing. Working with a good design is
 fun, coming up with one is not, it is hard deliberate work. It just does not pop up naturally.
 
+One example that popped on my head is how arrays and slices works on golang. It took one year from 4 very
+experienced people to come up with it, it is a sign of hard deliberate thought.
+
 Since incremental design seems like the best way to achieve true deliberate practice on software development
-it is good to think on alternative ways to get the feedback on design, besides the obvious feedback
+it is good to think on alternative ways to get the feedback about your design, besides the obvious feedback
 of the users (by the way, great design usually happens when the developer is also a user of what
 he is developing. More on that on this [great Paul Graham essay](http://www.paulgraham.com/taste.html) )
 
-Some ways to get feedback.
+Now, some ways to get feedback about your design decisions.
+
 
 ##### Code review / Pair programming
+
 
 ##### Time + Change
 

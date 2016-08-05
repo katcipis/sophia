@@ -253,12 +253,21 @@ want to improve, start to think on how to automate validation of your software, 
 of magnitude harder than just writing the software, and hard is good.
 
 
-#### Avoiding comfort and automatic pilot
+#### Avoiding the automatic pilot
 
-* Learn new languages / paradigms
-* Change work domain
-* Change how you get things done (TDD for example)
-* Core quality: curiosity
+Core quality: curiosity
+
+##### Learn new languages / paradigms
+
+
+##### Change work domain
+
+https://m.facebook.com/notes/kent-beck/paint-drip-people/1226700000696195
+
+##### Change how you get things done (TDD for example)
+
+
+##### Raise the bar (quality for example)
 
 
 #### Mentoring / Coaching

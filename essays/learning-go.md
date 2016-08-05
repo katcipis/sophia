@@ -40,7 +40,7 @@ like PDFs and SWF files). Well, as I said before, we have to maintain other serv
 required for the scrapers to work properly, and since we are on a architectural migration
 (more on that on future essays, I think) there was a lot of new services to be developed.
 
-So we are not thinking on developing scrapers on Go (although that sounds like fun :-)), but
+So we are not thinking on developing scrapers in Go (although that sounds like fun :-)), but
 was aiming at these other services (spoiler alert: in the end almost all services on our 
 data pipeline are written in Go).
 
@@ -55,12 +55,12 @@ and software speed) does not make that much sense when you **literally** pay for
 hourly.
 
 If you can be 10x times faster, there is a fairly good chance that you will spend 10x less money.
-This has always been truth, I think the cloud model only makes it
+This has always been true, I think the cloud model only makes it
 even more explicit, specially as you start working with elastic infrastructure
 (but even on the pre-cloud era it was smart to think about that, instead of just making stuff to work,
 take a look on the great [Release It](https://pragprog.com/book/mnee/release-it) for more on that).
 
-Of course this has to be balanced with good abstractions, or we would be developing everything on C
+Of course this has to be balanced with good abstractions, or we would be developing everything in C
 until today (it is fun, but not very fast, specially if you intend to your software to work properly :-)).
 Go seems to match these two things very nicely, I heard a lot of cases from people migrating from Python
 and Ruby to Go and getting huge improvements on performance, and still being able to develop software
@@ -74,7 +74,7 @@ Python, Javascript (NodeJS/Backend stuff) and Lua, I value a lot the model of ju
 binary and running it.
 
 I worked with these interpreted languages on the more harsh and odd places
-(think about inhospitable environments, where the is no life and fun :-)), like old kernels
+(think about inhospitable environments, where there is no life and fun :-)), like old kernels
 with proprietary crappy packaging systems where the norm. It was hell and the stuff that I had
 to do just to get shit working takes my sleep at night (not literally of course, I love drama :-)).
 
@@ -205,7 +205,7 @@ Possibly there is some cases where exceptions will seem like a good idea, and th
 generators (we use generator a lot to develop twisted code that looks sequential, it seems
 better than a callback hell).
 
-The wisdom is on thinking on alternative solutions to problems that these approaches solves
+The wisdom is to think in alternative solutions to problems that these approaches solves
 and measuring if the complexity that these will bring to the language really pays off
 (not advocating that exceptions or generators are no useful at all, but questioning if
 they are really able to pull their weight).
@@ -314,9 +314,9 @@ avoid making a lot of threads idle waiting for some I/O response. So you can cre
 for some I/O without worrying that it will create a lot of threads that will be dumbly waiting for some
 system call.
 
-This is possible because Go provides a higher level of abstraction that is not directly operational system threads.
-Actually, at least on my opinion, this is the awesome part of any concurrency oriented language. The more traditional
-languages that we are used (Java, C++, C, Python, Ruby) to are sequential/procedural/OO languages that where
+This is possible because Go provides a higher level of abstraction that is not directly system threads.
+Actually, at least in my opinion, this is the awesome part of any concurrency oriented language. The more traditional
+languages that we are used, like Java, C++, C, Python and Ruby, are sequential languages that where
 not conceived with concurrency as a first class citizen. Sequential is the law, and concurrency is just throw up at
 you with threads and some hardware low level mechanism to avoid mayhem on the memory. On this case, concurrency is
 an afterthought. On Go it is a first class citizen, the language was built for it, from scratch.

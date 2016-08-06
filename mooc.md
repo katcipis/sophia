@@ -1,5 +1,6 @@
 # MOOCs
 
+* [Natural Language Processing](https://www.coursera.org/learn/nlp)
 * [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)
 * [Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)

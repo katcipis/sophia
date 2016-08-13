@@ -88,13 +88,18 @@ If you can be 10x times faster, there is a fairly good chance that you will spen
 This has always been true, I think the cloud model only makes it
 even more explicit, specially as you start working with elastic infrastructure
 (but even on the pre-cloud era it was smart to think about that, instead of just making stuff to work,
-take a look on the great [Release It](https://pragprog.com/book/mnee/release-it) for more on that).
+take a look on the great book [Release It](https://pragprog.com/book/mnee/release-it) for more on that).
 
 Of course this has to be balanced with good abstractions, or we would be developing everything in C
 until today (it is fun, but not very fast, specially if you intend to your software to work properly :-)).
 Go seems to match these two things very nicely, I heard a lot of cases from people migrating from Python
 and Ruby to Go and getting huge improvements on performance, and still being able to develop software
-fast, thanks to well chosen abstractions.
+fast, thanks to a mix of well chosen abstractions and performance concern.
+
+A great example on how Go tries to hit a nice spot on this the balance of being garbage collected
+but allowing you to have a great control on how much garbage you generate, improving your collection
+cycles. This is very different from most languages that puts you on a level of abstraction that
+is so high that you have almost no idea of what is happening with the memory.
 
 
 ### Stupidly simple deployment
@@ -103,20 +108,20 @@ As someone with C background, but that also have experience with interpreted lan
 Python, Javascript (NodeJS/Backend stuff) and Lua, I value a lot the model of just copying a
 binary and running it.
 
-I worked with these interpreted languages on the more harsh and odd places
-(think about inhospitable environments, where there is no life and fun :-)), like old kernels
-with proprietary crappy packaging systems where the norm. It was hell and the stuff that I had
+I worked with these interpreted languages on the more harsh and odd places,
+think about inhospitable environments, where there is no life and fun :-), like old kernels
+where proprietary crappy packaging systems where the norm. It was hell and the stuff that I had
 to do just to get shit working takes my sleep at night (not literally of course, I love drama :-)).
 
-To be honest, even in C it was a hell because of dynamic libraries, but even that Go got right, it was
-completely static, and it had a compile mode that even the libc was embedded on the binary. It was
-the glory of the simplicity on deploying something (althought the libc used on the compilation
+To be honest, even in C it was a hell because of dynamic libraries, but even that Go got right, it is
+completely static, and it has a compile mode that even the libc was embedded on the binary. It was
+the glory of the simplicity on deploying something (although the libc used on the compilation
 must be compatible with the kernel where you are going to run your binary, there is still a runtime
 dependency to satisfy on this case, the kernel. But it is a lot less than lots dynamic libraries).
 
 The addition of libraries (static and dynamic) is fairly new on Go (it even got dynamic loading,
-yaaay the joys of dynamic loading), when we started with it they did not even existed (and for me it was
-perfect that way).
+yaaay the joys of dynamic loading), but when we started with it they did not even existed
+(and for me it was perfect that way).
 
 
 ### Batteries included
@@ -131,19 +136,18 @@ Pretty much the basic you will need to develop services and test code. Stuff lik
 * static analysis
 
 Since go even provide libraries to help you parse Go code there is a lot of cool
-third party static analysis tools (more on that later).
+third party static analysis tools.
 
 In my opinion Go hits a very nice spot of having batteries included but not too much
 batteries :-), and the batteries are really small, and cool, and gives you control and
 the choices on how to use them instead of trying to force you to work on the way they want.
 
 
-
 ### Static Typing with Interfaces
 
 I just got fascinated on how Interfaces are implemented on Go. The idea of not requiring
 an object to directly know and import/extend an interface to implement is the glory
-of dependency inversion.
+of dependency inversion to me.
 
 This is not new, since it is what dynamic languages are doing
 for a long time, which is duck typing. Go has duck typing with static validation of
@@ -151,7 +155,7 @@ your ducks, if they are quacking properly, etc.
 
 You can have good tests to aid you on the dynamic language, but I never heard anyone
 complaining because a static analysis helped them identify a problem really fast with
-no development effort required.
+no development effort required even before the test phase.
 
 Also this aspect of Go helped me think more about services and protocols inside my Go
 code, instead of thinking on objects. Basically because for me interfaces have nothing to
@@ -159,7 +163,6 @@ do with objects, they are a mean to express a protocol. The struct is just a way
 multiple functions to implement that protocol.
 
 Go does that by not using types to validate anything, it is truly protocol oriented.
-
 
 
 ### Simplicity
@@ -174,18 +177,18 @@ This is the greatest reason for me to like something, simplicity. Simplicity on 
 
 Of course, enabling you to write solutions to difficult problems without imposing overheads
 on you. C for example has almost no abstractions, if you need to express abstractions it is not
-trivial to do that.
+trivial to do that and requires a lot of attention to detail.
 
-The idea is not to have no abstractions, but only the minimum required to solve problems elegantly.
+The idea is not "no abstractions", but only the minimum required to solve problems elegantly.
 A good example is Lua, where almost everything is represented as tables.
-A modules is just a function that returns a table mapping names to functions (or anything you want,
+A module is just a function that returns a table mapping names to functions (or anything you want,
 modules can even just return a boolean if that makes sense to you).
 
-There is abstractions on this, but as few as possible, and you can still do everything (and more)
+There is a abstraction on this, but it is very simple, and you can still do everything (and more)
 that you used to do with languages that have more abstractions (like Python and Javascript, for example).
 
 Even the global namespace in Lua is just a table, so doing fun meta-programming stuff is explicit and
-trivial (although not recommended :-) on most cases).
+trivial (although not recommended on most cases).
 
 The idea here is not to focus on Lua, but it is another language where simplicity is beautifully expressed.
 
@@ -224,7 +227,7 @@ purpose to bear.
 
 Hmm... not so simple after all these generators :-(. What seems to be happening to me here is
 the usual problem of having too much possible control flows on the language. It is already
-more complex to have more than one possible flow on your program (yes exceptions, I'm looking at you,
+more complex to have more than one flow on your program (yes exceptions, I'm looking at you,
 fancy goto's with even fancier switch cases), but now you have the 3 ways you can compose these
 different control flows (Sequential + Exceptions + Generators yielding).
 On this particular case the addition of generators on Python caused some problems
@@ -249,10 +252,10 @@ these concepts are present on the language design.
 
 It has been a lot of years since Go got my attention, and it started mainly with the
 [Less is exponentially more](https://commandcenter.blogspot.com.br/2012/06/less-is-exponentially-more.html)
-post from Rob Pike.
+post from Rob Pike. It was basically a group of awesome experienced developers trying to
+build a tool that they could use on their day to day job.
 
-Because of my previous experience with Lua I identified myself immediately with this idea.
-Another thing that I liked was that they had a real problem to solve with the language, and a
+I liked was that they had a real problem to solve with the language, and a
 very clear public audience, that included themselves. Again from
 [Five Questions about Language Design](http://paulgraham.com/langdes.html):
 
@@ -278,6 +281,11 @@ Some things that are simple and empowers the developer:
 * The interfaces model
 * Control of how much garbage on the memory you are creating with your code
 * Concurrency model that is expressive but gives you total control to generate deadlocks and races
+
+Compare for example the explicit Go concurrency model, that enables you to design a concurrent
+system, with Java **synchronized** methods, that for me represents "I have no idea of what
+is wrong with this messy multi-threaded stuff, so let the must lock all this stuff up".
+That is not truly simple and it assumes you are stupid and have no idea of what you are doing.
 
 Given that, it really does not seem like the designers of Go where just thinking about
 dumb developers that have no idea of what they are doing. Go is extremely aggressive on
@@ -309,7 +317,6 @@ But even on that matter, you are not obligated to format your code that way, and
 thing that I believe Go tries to impose anything, besides that you pretty much have a lot of
 control on how you can get things done.
 
-And of course, there is the who, the guys that designed the language totally kick some serious ass :-).
 
 
 ### And of course, concurrency :-)
@@ -317,15 +324,7 @@ And of course, there is the who, the guys that designed the language totally kic
 This one is the last one on purpose, because it is the more obvious one, and in my opinion people
 usually get overexcited with the concurrency model, leading to an overuse of it (which is the common
 pattern to every time you found something cool :-). But I really tried to not let myself go by
-the concurrency stuff, almost all our code make very little use of it, just because it is not necessary
-on our case (with the exception of one of our services, to guarantee orthogonality).
-
-The most impact caused to me by programming in Go is the simplicity, and the impact on your design that
-it makes. A great example is trading off complex type hierarchies for behaviour oriented interfaces.
-
-Defining small interfaces is much easier since having lots of small interfaces implemented by one object
-does not need an infinite list of **implements**. Ok, I was supposed to talk about the concurrency model :-),
-sorry I got carried away.
+the concurrency stuff, almost all our code make very little use of it, just because it is not necessary yet.
 
 Go's concurrency model is based on CSP (Communicating Sequential Processes), and is the best concurrency model
 I worked until today. Ok, I haven't worked with a lot of concurrency models, basically traditional multi-threading
@@ -334,7 +333,7 @@ and asynchronous main loops (glib in C and NodeJS).
 Asynchronous main loops exploit the fact that heavy I/O loads do not need a lot of CPU time and threads, and that
 makes sense. The problem is that handling asynchronous code is simply harder than sequential code, you just
 have to think about callback pyramids of hell and other stuff. I used a lot the async module for NodeJS and
-there is a great movement on Javascript toward having promisses and coroutines/generators/whatever-they-call-it
+there is a great movement on Javascript toward having promises and coroutines/generators/whatever-they-call-it
 that can make asynchronous code read more like sequential code. I think this pretty much makes the case for
 sequential programming as more easy to understand.
 
@@ -369,6 +368,13 @@ And sometimes even the more high level abstractions wont cut it, as can be seen
 [here](https://www.youtube.com/watch?v=1V7eJ0jN8-E).
 
 
-## Context: Use Go where ?
+## Enough why, lets talk code
 
-TODO: Talk about the first prototype, and insert a hook to Gibbon.
+Since this essay is already pretty big, I'm going to talk about the experience of developing the
+first services in Go and the bad and the good on a next one, or this one would get dangerously big.
+
+The focus on why here is because a decision like that must be well based, never use something
+just because a lot of people is using, or because there is a lot of fancy conferences about that.
+
+This was specially important because we where building an entire new architecture, it was important to
+choose good tools to do that.

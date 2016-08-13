@@ -1,7 +1,7 @@
-# The Go learning experience
+# Why Go ?
 
-We started to work at Neoway with Golang for a year and a half right now, and on this essay
-I will try to pass on some of the experience of learning Go.
+We started to work at Neoway with the Go language for a year and a half right now,
+and on this essay I will try to pass on some of the experience of learning Go.
 
 By no means this is a representation of the experience of everyone at Neoway, there is a lot
 of teams working with Go. This is a very narrow and personal view on how was to me the process

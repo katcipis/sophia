@@ -1,34 +1,64 @@
 # The Go learning experience
 
-We started to work at Neoway with Golang for a year and a half right now, and on this post
+We started to work at Neoway with Golang for a year and a half right now, and on this essay
 I will try to pass on some of the experience of learning Go.
-
-To make things easier I will use a very clear example, one problem, and some context
-on what was happening.
 
 By no means this is a representation of the experience of everyone at Neoway, there is a lot
 of teams working with Go. This is a very narrow and personal view on how was to me the process
 of learning and developing Go code.
+
+This will include three main points:
+
+* Why Go ?
+* Good stuff
+* Bad stuff
+
+But first, some context.
 
 
 ## Context: The Datapirates Team
 
 
 Our team is responsible for capturing data on the web. So we basically develop
-scrapers and all services required for the scrapers to work properly
-(like captcha breaking, proxy providing, etc).
+scrapers and all services required for the scrapers to work properly.
+On this essay I will focus only on the services providing support for the scrapers.
 
-On this essay I will focus only on the scrapers, not the rest of the services we
-maintain, neither the rest of the data pipeline that we have at Neoway.
+It was 2015, the second quarter, and we where with a very difficult problem to solve.
+We had something like 200 scrapers already developed on a engine that was really hard to
+maintain. What would be very hard to maintain ? Well:
 
+* lots of bugs
+* no ones understands the code
+* no tests
+* no clear thought about design on the code
+* strong coupling with the database
+* sadly even the DSL where the scrapers are written is coupled on the database
 
-## Context: The scrapers
+We basically had what is described on [this talk by Robert Martin](https://vimeo.com/43612849), but not
+the good side, the bad side. There was no clear architecture and service boundaries, everything was
+floating around the database. Besides the obvious disadvantage of being very hard to understand
+(concepts like scheduling and storage where all mixed up there) we got hit by a even harder problem,
+the database was not scaling well anymore, this was the trigger to start a new architecture
+that would have clear boundaries/services and would have to scale just as the needs of the clients
+was scaling.
 
+This little history is the reason why I work at Neoway, I got hired there exactly to help with this
+work. So we had a lot of cool choices to make, how the new scrappers where going to be developed and
+how the services around them would be developed.
 
-To scrap data from the web we decided to use [Scrapy](http://scrapy.org/), which uses
-Twisted to handle the heavy I/O based workload without requiring a ridiculously amount of
-threads to enable high concurrency. I wont get in much detail on these guys right now,
-but if you are interested they are fairly well documented.
+To scrap data from the web we decided to use [Scrapy](http://scrapy.org/), which uses Twisted to
+handle the heavy I/O based workload without requiring a ridiculously amount of threads to enable high concurrency.
+I wont get in much detail on these guys right now, but if you are interested they are fairly well documented.
+
+The services that supports the bots are:
+
+* Proxy providing
+* Captcha breaking
+* Storage for the scrapers (where raw data is saved so we can trace parsed data to original raw data)
+* An adapter between the new architecture and the current one
+
+For all services around the scrapers we decided to use Go, and that the history that I'm going
+to tell here.
 
 
 ## Why Go ?

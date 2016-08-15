@@ -96,7 +96,7 @@ Go seems to match these two things very nicely, I heard a lot of cases from peop
 and Ruby to Go and getting huge improvements on performance, and still being able to develop software
 fast, thanks to a mix of well chosen abstractions and performance concern.
 
-A great example on how Go tries to hit a nice spot on this the balance of being garbage collected
+A great example on how Go tries to hit a nice spot on this is the balance of being garbage collected
 but allowing you to have a great control on how much garbage you generate, improving your collection
 cycles. This is very different from most languages that puts you on a level of abstraction that
 is so high that you have almost no idea of what is happening with the memory.

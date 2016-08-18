@@ -7,7 +7,7 @@ I never thought about myself as a gifted person, I just work hard.
 Working hard, that is the funny thing on life and that always puzzled me.
 There is a lot of people that works hard, every day, and don't seem to get nowhere.
 That always puzzled me, because at least for me, I just always did that and
-thing where a little different, it seemed that I could do more things than
+things where a little different, it seemed that I could do more things than
 most people, but I never felt specially gifted or faster. I just spend a lot of time
 with the problems I found interesting.
 
@@ -75,7 +75,7 @@ helped me to start making the right connections. The fact that Tiger Woods can s
 he is interrupted.
 
 Normal golf players will just make the shot, horribly. But he can stop on the middle of it, take a step back, recompose
-himself, and come forth again to do the shot. How can he do this ? because he is not on automatic mode,
+himself, and come forth again to do the shot. How can he do this ? Because he is not on automatic mode,
 he is actively thinking about every little thing he is doing
 on his shot, and if he is interrupted he can stop instead of justing shotting it all wrong as most people would do
 (because they are usually on auto pilot while doing that, having fun, its not a deliberate action).
@@ -103,7 +103,54 @@ Some odd things to think about:
 The fun thing is startling, all the great developers seem to have fun doing it, so where is the no fun part ?
 This is important to understand since it seems to be the difference between greatness and average.
 
-Now I will start to talk about a lot of stuff that is not on the book, but they make sense to me.
+
+## Creativity and Innovation
+
+Creativity and innovation also suffer from the same problem of the great performance, people use to
+think that it is some kind of gift. Specially because of a lot of bullshit histories on how people
+just had some "aha" moments and had great ideas of phenomenal innovations.
+
+It simply don't work like that. All great inventions are usually developed by someone with great
+domain knowledge on the problem and it was based on some previous work.
+
+The core concept is, being innovative on a field required domain specific knowledge, a great mental model
+of your field of work, and developing this required deliberate practice. So we can assume that being
+innovative is the same as being a great performer, it requires a lot of work and it is pretty hard.
+
+Innovation evolves over time, it is not sudden and it is a brilliant new composition
+of existing concepts and ideas.
+
+
+### In a company
+
+The first thing to understand how to build a culture that enables innovation is to understand
+what makes people innovate. Usually people that innovate are not motivated by money (so just giving raises
+wont work), they are motivated by the desire of mastery of their field. They want to be great, explore new
+things and create new concepts from pre-existing ones.
+
+So the most basic thing you can do to enable this is just give these kind people the freedom and space
+to do that. It is just that, and yet it is extremely hard to see in real life because it requires a great
+deal of confidence on people.
+
+That is why a lot of companies that want to have a competitive edge have things like 10% or 20% of their
+time invested on letting employees pursue personal projects. That is a great risk and exhibits a great
+deal of confidence on the employees. But it is a great investment.
+
+Also it is important to create a network that enables people inside the company to talk about their ideas.
+Usually people with good ideas will seek that already, and build these connections, usually the company just
+have to make it as easier as possible.
+
+Having said that, this kind of culture must be top down. For a great deal of my life I believed that this
+was bullshit and that it depended only on the workers to pursue what they want. The truth is, a bad company
+cant break a great performer but it will hinder his ability to perform so greatly that the only end possible
+is him leaving the company. At least that is what I have experienced on my life.
+
+By experience I agree with that today, to really have a innovative company you need to have a total
+top down change on the culture. If the executive part of the company does not believe that the culture
+is wrong, nothing will effectively change.
+
+Besides the cultural change, it is important to set the expectations and the direction of the innovation,
+this also is a top down action.
 
 
 ## Deliberate Practice on Software

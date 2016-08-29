@@ -14,3 +14,5 @@
 * Build tag ?
 
 ## Handling errors
+
+Non critical errors, how to accumulate them ?

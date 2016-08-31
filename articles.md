@@ -1,16 +1,18 @@
 # Articles
 
-* [Process file system and process in Unix V](https://www.usenix.org/sites/default/files/usenix_winter91_faulkner.pdf)
+## Queue
+
+* [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
+* [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
+* [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
-* [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
-* [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
 * [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
 * [Caffe: Convolutional Architecture for Fast Feature Embedding](http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf)
 * [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
@@ -44,8 +46,9 @@
 * [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
 
 
-# Done
+## Done
 
+* [Process file system and process in Unix V](https://www.usenix.org/sites/default/files/usenix_winter91_faulkner.pdf)
 * [Using a hierarchy of Domain Specific Languages in complex software systems design](http://arxiv.org/pdf/cs/0409016.pdf)
 * [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 * [Go: A look behind the scenes](http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf)

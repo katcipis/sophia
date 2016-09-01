@@ -8,7 +8,11 @@
 
 ## How to test concurrency ?
 
-## Hot to test integration with paid services ?
+## How to test integration with paid services ?
 
 * Mocks ? Integration contract testing ?
 * Build tag ?
+
+## Handling errors
+
+Non critical errors, how to accumulate them ?

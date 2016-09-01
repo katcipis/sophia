@@ -18,7 +18,8 @@
 
 ### Testing
 
-* Table driven tests
+* Table driven tests (how they make more clear it is the same test with diff input/output)
+* Setup/Teardown using functions
 * Build tags in tests
 * Parallelism problems and shared state on tests
 

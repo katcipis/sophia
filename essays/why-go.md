@@ -1,31 +1,24 @@
-# Why Go ?
+# First some context
 
-We started to work at Neoway with the Go language for a year and a half right now,
-and on this essay I will try to pass on some of the experience of learning Go.
+For me it makes no sense to talk about why a decision has been made without any context.
+So I will try to give some context on what was happening when we decided to give Go a shot.
 
-By no means this is a representation of the experience of everyone at Neoway, there is a lot
-of teams working with Go. This is a very narrow and personal view on how was to me the process
-of learning and developing Go code.
+We started to work at [Neoway](http://neoway.com.br/) with the Go language for
+a year and a half right now, and on this essay I will try to pass on some of
+the experience of learning Go.
 
-This will include three main points:
-
-* Why Go ?
-* Good stuff
-* Bad stuff
-
-But first, some context.
-
-
-## Context: The Datapirates Team
-
+By no means this is a representation of the experience of everyone at [Neoway](http://neoway.com.br/),
+there is a lot of teams working with Go. This is a very narrow and personal
+view on how was to me the process of learning and developing Go code.
 
 Our team is responsible for capturing data on the web. So we basically develop
 scrapers and all services required for the scrapers to work properly.
-On this essay I will focus only on the services providing support for the scrapers.
+Right now I will focus only on the services providing support for the scrapers.
 
-It was 2015, the second quarter, and we where with a very difficult problem to solve.
-We had something like 200 scrapers already developed on a engine that was really hard to
-maintain. What would be very hard to maintain ? Well:
+It was 2015, the second quarter, and we had something like 200 scrapers already
+developed on a engine that was really hard to maintain.
+
+Why it was very hard to maintain ? The usual:
 
 * lots of bugs
 * no ones understands the code
@@ -42,15 +35,16 @@ the database was not scaling well anymore, this was the trigger to start a new a
 that would have clear boundaries/services and would have to scale just as the needs of the clients
 was scaling.
 
-This little history is the reason why I work at Neoway, I got hired there exactly to help with this
-work. So we had a lot of cool choices to make, how the new scrappers where going to be developed and
+This little history is the reason why I work at [Neoway](http://neoway.com.br/),
+I got hired there exactly to help with this work. So we had a lot of cool choices to make,
+how the new scrappers where going to be developed and
 how the services around them would be developed.
 
 To scrap data from the web we decided to use [Scrapy](http://scrapy.org/), which uses Twisted to
 handle the heavy I/O based workload without requiring a ridiculously amount of threads to enable high concurrency.
-I wont get in much detail on these guys right now, but if you are interested they are fairly well documented.
+I wont get in much detail on these right now, but if you are interested they are fairly well documented.
 
-The services that supports the bots are:
+The services that we needed to develop where:
 
 * Proxy providing
 * Captcha breaking
@@ -68,7 +62,7 @@ As you can see, our scrapers are developed in Python, and Python has a lot of us
 not only to crawling but also parsing (we parse all kinds of things that the web throws at us,
 like PDFs and SWF files). Well, as I said before, we have to maintain other services that are
 required for the scrapers to work properly, and since we are on a architectural migration
-(more on that on future essays, I think) there was a lot of new services to be developed.
+(more on that on future posts, I think) there was a lot of new services to be developed.
 
 So we are not thinking on developing scrapers in Go (although that sounds like fun :-)), but
 was aiming at these other services (spoiler alert: in the end almost all services on our 
@@ -188,7 +182,7 @@ There is a abstraction on this, but it is very simple, and you can still do ever
 that you used to do with languages that have more abstractions (like Python and Javascript, for example).
 
 Even the global namespace in Lua is just a table, so doing fun meta-programming stuff is explicit and
-trivial (although not recommended on most cases).
+trivial (although not a good idea on most cases).
 
 The idea here is not to focus on Lua, but it is another language where simplicity is beautifully expressed.
 
@@ -370,11 +364,10 @@ And sometimes even the more high level abstractions wont cut it, as can be seen
 
 ## Enough why, lets talk code
 
-Since this essay is already pretty big, I'm going to talk about the experience of developing the
+Since this post is already pretty big, I'm going to talk about the experience of developing the
 first services in Go and the bad and the good on a next one, or this one would get dangerously big.
 
 The focus on why here is because a decision like that must be well based, never use something
 just because a lot of people is using, or because there is a lot of fancy conferences about that.
 
-This was specially important because we where building an entire new architecture, it was important to
-choose good tools to do that.
+Since we were building an entire new architecture, it was important to choose good tools to do that.

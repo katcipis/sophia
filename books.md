@@ -50,6 +50,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [The Psychopath Code](https://www.amazon.com/Psychopath-Code-Cracking-Predators-Stalk-ebook/dp/B016MRW9KS)
 * [Culture and Empire: Digital Revolution](http://www.amazon.com/Culture-Empire-Digital-Revolution-Volume/dp/1492999776)
 * [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)
@@ -119,6 +120,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Languages
 
+* [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)

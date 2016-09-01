@@ -43,7 +43,7 @@ This principle seems to play well with microservices :-).
 ## Timeouts
 
 Pretty obvious stuff, every time you use something that may not respond...use a timeout.
-Also, handle the timeout :-).
+Also, handle the timeout and release any resources associated with the timeout.
 
 
 ## Circuit breaker
@@ -72,10 +72,10 @@ application :-). It is interesting that he uses the Test Harness expression, tha
 
 The idea is to think about what happens when:
 
-    * Connections gets dropped ?
-    * Connection fails to handshake ?
-    * Connection takes 10 minutes to handshake ?
-    * An answer is received with a speed of 1 byte per minute ?
+* Connections gets dropped ?
+* Connection fails to handshake ?
+* Connection takes 10 minutes to handshake ?
+* An answer is received with a speed of 1 byte per minute ?
 
 Well the list is pretty long :-), think about yourself as an evil hacker trying to break the application.
 
@@ -136,7 +136,7 @@ pro-active view of this. You must think about the trade-off design <-> performan
 It makes a case with two ideas (at least I remember these two :-).
 
 First, a responsive system is essential to almost any system interacting with a human being.
-People do have the same patience with slow systems as they used on the 90's :-).
+People don't have the same patience with slow systems as they used on the 90's :-).
 
 Second, the multiplication factor.
 
@@ -255,7 +255,7 @@ But it is fundamental to evolve a system. One part that I have to quote entirely
     Any strategy formulated predicated on creating a monoculture - whether it is a single integration
     technology or a single programming language - is doomed to be a costly failure
 
-This is *very* sound advice :-). Of course that then the subject is integration technologies it is
+This is *very* sound advice :-). Of course that when the subject is integration technologies it is
 a good idea to remain technology agnostic and avoid having a dozen of different technologies
 (nobody wants to use HTTP + protocol buffers + RPC + SOAP just to get one thing done).
 
@@ -278,7 +278,7 @@ But one that is very simple is:
     A system that hangs its database out for the world cannot trust the data in the database at all
 
 I agree that it is that simple, the only thing that prevents catastrophe on a system like that is pure fear
-and the absolute certainty that nothing can change on the database, which goes completely against the idea of
+and the absolute certainty that no one can change the database, which goes completely against the idea of
 adaptation to a changing environment. It is a basic notion of encapsulation and avoiding global state.
 
 The only reason I can think that this is done that much it is because it is much easier than defining proper
@@ -289,7 +289,7 @@ Since the only way to adapt is to adapt to some kind of feedback you need to mak
 taking a haircut. Here the TDD or even QA feedback won't cut it, you want to adapt to the market, you need
 feedback directly from the client.
 
-The faster you get that feedback loop operates, the more accurate those improvements will be.
+The faster you get that feedback loop to operate, the more accurate those improvements will be.
 This demands frequent releases and good transparency. This makes transparency even more important than
 testing (it does not give you a free pass to testing although :-)), without it it is very hard to
 release frequently and it is impossible to have fast feedback.

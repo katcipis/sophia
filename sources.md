@@ -22,6 +22,7 @@
 * [Free Electrons](http://free-electrons.com/docs/)
 * [The Changelog](https://changelog.com/podcast/)
 * [Full Stack Radio](http://fullstackradio.com/)
+* [Google Cloud Podcast](https://www.gcppodcast.com/)
 
 
 # Screencasts

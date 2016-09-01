@@ -1,6 +1,5 @@
 # Articles
 
-* [Process file system and process in Unix V](https://www.usenix.org/sites/default/files/usenix_winter91_faulkner.pdf)
 * [On Designing and Deploying Internet-Scale Services](https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/)
 * [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
@@ -44,6 +43,7 @@
 
 # Done
 
+* [Process file system and process in Unix V](https://www.usenix.org/sites/default/files/usenix_winter91_faulkner.pdf)
 * [Using a hierarchy of Domain Specific Languages in complex software systems design](http://arxiv.org/pdf/cs/0409016.pdf)
 * [CSP Hoare](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
 * [Go: A look behind the scenes](http://doc.cat-v.org/programming/go/papers/Paper__aigner_baumgartner.pdf)

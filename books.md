@@ -1,37 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Introduction](#introduction)
-- [Wishlist :-)](#wishlist--)
-  - [Job](#job)
-  - [Personal](#personal)
-  - [Team / People](#team--people)
-  - [Health](#health)
-  - [Databases](#databases)
-  - [Algorithms](#algorithms)
-  - [Languages](#languages)
-    - [C](#c)
-    - [Javascript](#javascript)
-    - [Python](#python)
-    - [Elixir](#elixir)
-    - [VimL](#viml)
-  - [Concurrency](#concurrency)
-  - [Legacy code](#legacy-code)
-  - [Embedded](#embedded)
-  - [Math](#math)
-  - [Agile](#agile)
-  - [Computer Architecture](#computer-architecture)
-  - [Software Architecture](#software-architecture)
-  - [Software Design](#software-design)
-  - [Automated Testing](#automated-testing)
-  - [Security](#security)
-  - [Network](#network)
-  - [Web Mining](#web-mining)
-- [Done](#done)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Introduction
 
 Basically where I organize what I still want to read and what I have already read and don't want to forget the name.
@@ -155,11 +121,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
 
 
-## Distributed Systems
-
-* [ZeroMQ](http://shop.oreilly.com/product/0636920026136.do)
-
-
 ### Elixir
 
 * [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir)
@@ -194,7 +155,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 
 
-## Agile
+## Agile and Planning stuff
 
 * [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
@@ -203,25 +164,20 @@ Basically where I organize what I still want to read and what I have already rea
 * [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
 
-## Software Architecture
-
-* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
-* [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](http://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
-* [Patterns of Enterprise Application Architecture](http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
-* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
-
-
 ## Software Design
 
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
+* [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [xUnit Test Patterns](http://xunitpatterns.com/).
 * http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 * http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
 
 
 ## Security
@@ -258,11 +214,13 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 
 # Done
+
+
+## On a galaxy far far awy
 
 * Lua Gems
 * Test Driven Development for Embedded C
@@ -300,3 +258,4 @@ Basically where I organize what I still want to read and what I have already rea
 * [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
+* [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)

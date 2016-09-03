@@ -153,7 +153,23 @@ Besides the cultural change, it is important to set the expectations and the dir
 this also is a top down action.
 
 
-## Deliberate Practice on Software
+## Conclusion
+
+The conclusion really got me thinking, it just asks two very important questions:
+
+* What is that you want ?
+* What do you think about it ?
+
+The idea of thinking about what you want is based on the fact that achieving great performance
+is a huge task that will take a lot of energy and effort, so you must be pretty sure of
+what you want to start the road to get there.
+
+What do you think about it is a reflection about if it is possible to get there. Do you believe that
+with hard deliverate practice you can get there ? If you dont believe it is achievable you are 
+never going to get there.
+
+
+# Deliberate Practice on Software
 
 Ok, now it is the time for reflection. I really love what I do, but the book started me to think about
 the "have fun" thing. Do I really always have fun when developing software ? Where the satisfaction comes

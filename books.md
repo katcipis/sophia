@@ -214,6 +214,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Deep Learning](http://www.deeplearningbook.org/)
 
 
+## Performance
+
+* [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
+
+
 # Reading
 
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)

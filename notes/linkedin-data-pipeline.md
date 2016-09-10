@@ -100,11 +100,13 @@ By doing this it is ensured that the consumer is the only reader of that partiti
 This is important, because ordering is guaranteed only within a partition, not across them.
 Avoiding global ordering and consumption of a topic seems like a good way to scale.
 
-Since there are many partitions this still balances the load over many consumer instances.
+Since there are many partitions you still get load balancing over many consumer instances.
 One limitation is that you cannot have more consumer instances in a consumer group than partitions.
 
-The obvious trade off is that if you require a total order over messages this
-can only be achieved with a topic that has only one partition, though this will mean 
+![Producers X Consumers](http://kafka.apache.org/images/producer_consumer.png)
+
+The obvious trade off is that if you require a global order over messages this
+can only be achieved with a topic that has only one partition, though this will mean
 only one consumer process per consumer group.
 
 Since partitioning is so important, how do you control how things get partitioned ?
@@ -120,4 +122,5 @@ you will have a guarantee that all messages from user id X will be on the same p
 
 This can make some kind of processing easier, since all messages from user X will be
 consumed by the same process on a consumer group. With this guarantee processing session
-information of a user can be done all in memory, for example.
+information of a user can be done all in memory, for example, since all information from a
+specific user will always be delivered to the same process.

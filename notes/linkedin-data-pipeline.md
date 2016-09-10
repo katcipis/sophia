@@ -103,7 +103,6 @@ Avoiding global ordering and consumption of a topic seems like a good way to sca
 Since there are many partitions you still get load balancing over many consumer instances.
 One limitation is that you cannot have more consumer instances in a consumer group than partitions.
 
-
 The obvious trade off is that if you require a global order over messages this
 can only be achieved with a topic that has only one partition, though this will mean
 only one consumer process per consumer group.
@@ -115,11 +114,11 @@ you may end with a uniform distributed set of buckets or with lots of empty buck
 set of gigantic buckets, since almost all keys clash on the same bucket. It is the same problem,
 only that on Kafka the buckets are the partitions, and they are distributed.
 
+![Anatomy of the topic](http://kafka.apache.org/images/log_anatomy.png)
+
 If the producer chooses to not provide a key, a uniform load balancing will be done through
 all the partitions (like a default hash map). If a key is provided, like a user id for example,
 you will have a guarantee that all messages from user id X will be on the same partition.
-
-![Anatomy of the topic](http://kafka.apache.org/images/log_anatomy.png)
 
 This can make some kind of processing easier, since all messages from user X will be
 consumed by the same process on a consumer group. With this guarantee processing session
@@ -138,3 +137,71 @@ and alerts on all logic tiers (producer / broker / consumer). So they have infor
 about delays and loss of messages, and can alert and act on that. But the system is optmized
 for high throughput and low latency, characteristics that are usually not friends with
 complete consistence.
+
+
+### Engineering for high throughput
+
+Some decisions on how Kafka enables high throughput shows how the throughput and latency
+are opposing forces (and it allows you to configure how much you want from each).
+
+There is 3 main approaches to achieve high throughput:
+
+* Partitioning (already talked a lot about this)
+* Batching
+* Compression
+
+Partitioning has been explained already, it enables a high throughput because it enables
+a high level of parallelism, as far as you can come up with new partitions you can start
+more consuming processes for the new partitions and these scale almost linearly and without
+interference on current partitions (depending on how you do it of course, it is not magic).
+
+
+#### Batching
+
+Batching is the idea of accumulating multiple messages together to send them together
+as one big chunk. There is nothing novel on this idea but if you want to trade off
+more latency for a higher throughput it makes total sense.
+
+This is tunable on the application level, you are able to configure how much you
+want to batch and the timeout that will be used to send the messages if
+they never get to the desired size (a source of latency).
+
+There is a multisend feature that enables you to mix multiple topics together, this
+is useful when you have topics with low volume of data.
+
+There is no double buffering of messages on the broker, when data is received it is
+directly written. Although data is not directly flushed to disk, this is delegated to
+the operational system, relying on linux pagecache to make good choices about this.
+
+You can also configure per topic to all writes to be flushed, if desired.
+Being a little more inconsistent and not flushing writes pay off ?
+According to the article they got an increment of 51,7x on messages per second
+being written leveraging the pagecache instead of flushing all writes.
+
+The same technique is used on the consumer side to read messages. Since writes and reads
+are linear (a log) and usually consumers drift from each other, but not that much, you have a
+very descent chance of always hitting the cache when reading data, so readers usually do
+not incur any I/O operation on disk (depending on how much RAM is available for pagecache of course).
+
+
+#### Shrinking data
+
+No rocket science here, just batch all messages in one message set to compress them.
+Obvious advantage of compressing multiple messages is that there is much more
+redundancy on multiple messages than individual messages (the schema).
+
+The algorithm used on LinkedIn is GZIP, and even with the increased CPU usage the
+overall throughput has increased 30% using compression, due to economy on network
+and disk I/O.
+
+
+### Handling diverse data
+
+To substitute XML [Apache Avro](https://avro.apache.org/) has been chosen.
+Of course that this alone does not prevent breakages, so to evolve schemas
+without breaking consumers an automated code review system was put in place,
+together with some form of central schema registry server.
+
+If your schema has changed on a way that is not compatible with previous versions
+(like removing a field, or changing its type) the registration process fails.
+This registration process is automated on the build of the data producers.

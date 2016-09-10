@@ -119,5 +119,5 @@ all the partitions (like a default hash map). If a key is provided, like a user 
 you will have a guarantee that all messages from user id X will be on the same partition.
 
 This can make some kind of processing easier, since all messages from user X will be
-consumed by the same process on a consumer group. With this guarantee processing can be done
-all in memory, for example.
+consumed by the same process on a consumer group. With this guarantee processing session
+information of a user can be done all in memory, for example.

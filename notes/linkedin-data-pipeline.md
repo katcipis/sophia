@@ -125,3 +125,16 @@ This can make some kind of processing easier, since all messages from user X wil
 consumed by the same process on a consumer group. With this guarantee processing session
 information of a user can be done all in memory, for example, since all information from a
 specific user will always be delivered to the same process.
+
+
+#### Consistency
+
+From what I understand, Kafka can be configured for different levels of consistency,
+perhaps even having a full consistent mode, but to be honest this does not seem
+to be the idea, and it is not the way the authors use the system.
+
+According to them, they replace the requirement for consistency with good monitoring
+and alerts on all logic tiers (producer / broker / consumer). So they have information
+about delays and loss of messages, and can alert and act on that. But the system is optmized
+for high throughput and low latency, characteristics that are usually not friends with
+complete consistence.

@@ -197,7 +197,7 @@ and disk I/O.
 
 ### Handling diverse data
 
-To substitute XML [Apache Avro](https://avro.apache.org/) has been chosen.
+To substitute XML they chose [Apache Avro](https://avro.apache.org/).
 Of course that this alone does not prevent breakages, so to evolve schemas
 without breaking consumers an automated code review system was put in place,
 together with some form of central schema registry server.

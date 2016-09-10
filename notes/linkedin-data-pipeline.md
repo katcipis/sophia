@@ -103,7 +103,6 @@ Avoiding global ordering and consumption of a topic seems like a good way to sca
 Since there are many partitions you still get load balancing over many consumer instances.
 One limitation is that you cannot have more consumer instances in a consumer group than partitions.
 
-![Anatomy of the topic](http://kafka.apache.org/images/log_anatomy.png)
 
 The obvious trade off is that if you require a global order over messages this
 can only be achieved with a topic that has only one partition, though this will mean
@@ -119,6 +118,8 @@ only that on Kafka the buckets are the partitions, and they are distributed.
 If the producer chooses to not provide a key, a uniform load balancing will be done through
 all the partitions (like a default hash map). If a key is provided, like a user id for example,
 you will have a guarantee that all messages from user id X will be on the same partition.
+
+![Anatomy of the topic](http://kafka.apache.org/images/log_anatomy.png)
 
 This can make some kind of processing easier, since all messages from user X will be
 consumed by the same process on a consumer group. With this guarantee processing session

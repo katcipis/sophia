@@ -103,7 +103,7 @@ Avoiding global ordering and consumption of a topic seems like a good way to sca
 Since there are many partitions you still get load balancing over many consumer instances.
 One limitation is that you cannot have more consumer instances in a consumer group than partitions.
 
-![Producers X Consumers](http://kafka.apache.org/images/producer_consumer.png)
+![Anatomy of the topic](http://kafka.apache.org/images/log_anatomy.png)
 
 The obvious trade off is that if you require a global order over messages this
 can only be achieved with a topic that has only one partition, though this will mean

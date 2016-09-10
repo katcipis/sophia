@@ -70,7 +70,7 @@ Another interesting point is the notion of subscriber (the consumer). A subscrib
 of cooperating processes, a cluster. So in the end, for each topic you have:
 
 * A cluster of brokers (where each has N partitions)
-* N consumers, where each consumer is a cluster
+* N consumer groups, where each consumer group is a cluster of consuming processes
 
 This was very confusing at start for me, the idea that consumers also forms clusters
 instead of thinking about individual consumers. But this is actually what happens when multiple
@@ -103,4 +103,21 @@ Avoiding global ordering and consumption of a topic seems like a good way to sca
 Since there are many partitions this still balances the load over many consumer instances.
 One limitation is that you cannot have more consumer instances in a consumer group than partitions.
 
+The obvious trade off is that if you require a total order over messages this
+can only be achieved with a topic that has only one partition, though this will mean 
+only one consumer process per consumer group.
+
 Since partitioning is so important, how do you control how things get partitioned ?
+It is based on a key that the producer will provided, that will be used to hash the
+messages. This seems to be analogous to hash maps, depending on how you hash your keys
+you may end with a uniform distributed set of buckets or with lots of empty buckets and a small
+set of gigantic buckets, since almost all keys clash on the same bucket. It is the same problem,
+only that on Kafka the buckets are the partitions, and they are distributed.
+
+If the producer chooses to not provide a key, a uniform load balancing will be done through
+all the partitions (like a default hash map). If a key is provided, like a user id for example,
+you will have a guarantee that all messages from user id X will be on the same partition.
+
+This can make some kind of processing easier, since all messages from user X will be
+consumed by the same process on a consumer group. With this guarantee processing can be done
+all in memory, for example.

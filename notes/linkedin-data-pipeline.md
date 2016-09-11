@@ -205,3 +205,27 @@ together with some form of central schema registry server.
 If your schema has changed on a way that is not compatible with previous versions
 (like removing a field, or changing its type) the registration process fails.
 This registration process is automated on the build of the data producers.
+
+
+## Conclusion
+
+On the end it seems to me that Kafka is the child of a database with a
+message broker, the child got the write ahead log from the database and the
+publish/subscribe model from the message broker. Specially with the addition
+of configurable consistency level makes Kafka a really interesting tool.
+
+One of the operational remarks mentioned on the article is that there is no
+system that cant suffer from data loss or some other kind of failure given
+that the error is sufficiently rare, the impact is bounded to a part of the system,
+and the failure can be monitored and measured.
+
+The entire data pipeline is measured for data loss and failures, instead of trying to
+guarantee that no loss ever happens. This path seems to enable good automation and
+automated failure detection and failure recovery, it seems to me as a better option
+than just relying on the database to never fail, although it is harder, which explains
+why most people choose to just trust the database.
+
+Also Kafka seems to be a pretty big gun, if you just need pub/sub for a small amount
+of messages, or you dont have a N x M producers/consumers problem it may be an
+overkill. A simple API on top of a database may be enough, and it really seems to
+be simpler to maintain and use.

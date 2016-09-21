@@ -101,6 +101,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 * [Lisp in Small Pieces](http://www.amazon.com.br/Lisp-Small-Pieces-Christian-Queinnec-ebook/dp/B00AKE1U6O)
+* [Scheme 9 from Empty Space](http://t3x.org/s9book/index.html)
 
 
 ### SML

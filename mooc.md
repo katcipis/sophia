@@ -5,6 +5,7 @@
 * [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)
 * [Cluster Analysis in Data Mining](https://www.coursera.org/learn/cluster-analysis)
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
+* [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)

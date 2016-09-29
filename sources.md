@@ -23,6 +23,7 @@
 * [The Changelog](https://changelog.com/podcast/)
 * [Full Stack Radio](http://fullstackradio.com/)
 * [Google Cloud Podcast](https://www.gcppodcast.com/)
+* [New Stack](http://thenewstack.io/)
 
 
 # Screencasts

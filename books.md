@@ -62,6 +62,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Healthy Programmer](http://pragprog.com/book/jkthp/the-healthy-programmer)
 
 
+## Operational Systems
+
+* [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
+
+
 ## Databases
 
 * [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
@@ -114,7 +119,6 @@ Basically where I organize what I still want to read and what I have already rea
 ### Go
 
 * [Go Programming Blueprints](http://www.amazon.com/Go-Programming-Blueprints-Mat-Ryer/dp/1783988029)
-* [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 
 
 ### C
@@ -222,13 +226,14 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 
 # Done
 
 
-## On a galaxy far far awy
+## On a galaxy far far away
 
 * Lua Gems
 * Test Driven Development for Embedded C

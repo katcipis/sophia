@@ -198,7 +198,7 @@ There is no clear separation between them for me.
 And lately I even like to use code
 to express the configuration, place it together with the code,
 version everything together, and any change on one or another
-requires a new full deployment.
+requires a new full deployment (this is not always possible).
 
 
 ### Timeouts
@@ -262,3 +262,52 @@ on tests render a test suite useless.
 
 A good read on the subject can be found
 [here](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.fs3knmjt7fjy)
+
+
+### Evolving
+
+```
+Changing file formats, interfaces, logging/ debugging, instrumentation,
+monitoring and contact points between components are all potential risk.
+Don't rip out support for old file formats until there is no chance of a
+roll back to that old format in the future.
+```
+
+Evolve gracefully not breaking stuff. Anything that is published (interfaces,
+cli, monitoring, etc) should evolve seamlessly.
+
+Never removing old code is hard to maintain, so when to remove old stuff ?
+Sometimes a simple N - 1 and N model is enough, where you always deprecated the
+previous version and guarantee compatibility on one release to let people
+migrate to the new API.
+
+A good monitoring system can even help you to detect if there is still people
+using old versions of APIs, and act accordingly. It is not a easy problem,
+but just breaking stuff is not an option, specially across team boundaries.
+
+
+### Deployment
+
+```
+The entire service must be easy to host on a single system.
+Where single-server deployment is impossible for some component
+(e.g., a dependency on an external, non-single box deployable service),
+write an emulator to allow single-server testing.
+
+Without this, unit testing is difficult and doesn't fully happen.
+And if running the full system is difficult,
+developers will have a tendency to take a component view
+rather than a systems view.
+```
+
+Besides having a uniform and automatized deployment model, it must
+be easy to run the entire service on a single host.
+
+This is very hard to do sometimes, but as mentioned on the article,
+if you fail on doing that people will not run integrated tests
+or will do it in a unreliable shared environment (and will do it
+less and less).
+
+Investments on this also pays off to make explicit the dependencies
+of a service and its complexity. This is very easy to hide behind
+a staging environment that has been built years ago and just works.

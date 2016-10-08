@@ -240,3 +240,25 @@ When you solve this, testing in production becomes feasible. Of course it is
 not trivial, but it is not a problem that can be avoided.
 
 Also it is a great way to cut operational costs.
+
+
+### Alerting
+
+
+```
+People stop paying attention very quickly when the data is incorrect.
+It's important to not over-alert or operations staff will learn to ignore them.
+
+This is so important that hiding real problems as
+collateral damage is often acceptable.
+```
+
+In testing this is a old idea, avoid false positives. But on alerting people
+often get excited about the possibilities.
+
+It is much better to even hide production problems than over alerting.
+Alerting will render your monitoring solution useless, just as false positives
+on tests render a test suite useless.
+
+A good read on the subject can be found
+[here](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.fs3knmjt7fjy)

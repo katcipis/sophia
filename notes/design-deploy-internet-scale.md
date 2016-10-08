@@ -168,4 +168,75 @@ A system designed for automation pays the latency and
 throughput cost of synchronous replication.
 ```
 
+Recovering from failures on databases, specially when they are huge,
+it is not easy. The idea here is to prefer synchronous replication,
+this will make you pay in performance, but you will be able to have
+a fully automated recovery system.
 
+When replication is asynchronous you will always have to make a manual
+choice of "is the replica data good enough" when recovering a failing system.
+This decision can get pretty complicated depending on the business.
+
+There is a tradeoff here. Since the prize of doing it synchronously is
+full automation, it seems to be a good idea when applicable.
+
+
+### Configuration
+
+```
+Services that treat configuration and code as a unit and only
+change them together are often more reliable
+```
+
+Greatly approve this idea. Configuration usually is abused and treated
+as a second class citizen. It is just configuration,
+you can just go there and change it in production manually.
+
+Changing configurations have the same impact as changing code, it breaks stuff.
+There is no clear separation between them for me.
+
+And lately I even like to use code
+to express the configuration, place it together with the code,
+version everything together, and any change on one or another
+requires a new full deployment.
+
+
+### Timeouts
+
+```
+Ensure all interactions have appropriate timeouts to avoid
+tying up resources for protracted periods.
+```
+
+Plain and simple. Timeouts are basic.
+
+
+### Testing
+
+```
+Testing in production is a reality and needs to be part of the quality
+assurance approach used by all internet-scale services.
+
+Most services have at least one test lab that is as similar to production as
+(affordably) possible and all good engineering teams use production workloads
+to drive the test systems realistically. Our experience has been, however,
+that as good as these test labs are, they are never full fidelity.
+
+They always differ in at least subtle ways from production.
+As these labs approach the production system in fidelity,
+the cost goes asymptotic and rapidly approaches that of the production system.
+```
+
+Nothing beats up testing on production. This is scary at start but it will put
+you on the good path of building resilient services that can withstand tests
+on production and also make you think on tests that can run on this environment.
+
+The more scary scenario is when you have databases. What if I do something that
+fucks all my data ? Well, that already can happen on your production
+environment, how you recover from this kind of error ?
+
+The usual response is that it cant be properly recovered, which is sad.
+When you solve this, testing in production becomes feasible. Of course it is
+not trivial, but it is not a problem that can be avoided.
+
+Also it is a great way to cut operational costs.

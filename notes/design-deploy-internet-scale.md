@@ -70,7 +70,7 @@ If the failure paths aren't frequently used, they won't work when needed
 On testing (unit and integration) I have been able to give attention for
 this idea, but on production with the live services it is still a maturity
 level that I can't reach easily. But it makes total sense, this is why people
-do fire drills, you cant wait for a actual fire to discover if people will
+do fire drills, you can't wait for a actual fire to discover if people will
 survive or not :-).
 
 Here enters all the Chaos stuff from Netflix, for example. Developing backup
@@ -88,11 +88,11 @@ and continue to provide service
 ```
 
 Another reference to this idea is [ROC](http://roc.cs.berkeley.edu/).
-For me it is the idea of embracing uncertainty and failure. You cant avoid it,
+For me it is the idea of embracing uncertainty and failure. You can't avoid it,
 so use your energy to recover from it.
 
 The idea is to degrade service gracefully, instead of locking or exploding in
-a million pieces. Even when you cant degrade the service, failing fast
+a million pieces. Even when you can't degrade the service, failing fast
 is a great option, instead of just locking for long times and giving odd
 slow errors to clients.
 
@@ -107,7 +107,7 @@ team should conduct a "fire drill" using these tools
 ```
 
 Every time you are documenting a series of commands to be executed on a shell,
-think "Why this cant be a script ?". I has my share of documentation on wikis,
+think "Why this can't be a script ?". I had my share of documentation on wikis,
 with lots of commands, it is just plain stupid. Documentation is always better
 as code. It is formal, exact and you can execute it without space
 for human errors. It scales much better.
@@ -235,7 +235,7 @@ The more scary scenario is when you have databases. What if I do something that
 fucks all my data ? Well, that already can happen on your production
 environment, how you recover from this kind of error ?
 
-The usual response is that it cant be properly recovered, which is sad.
+The usual response is that it can't be properly recovered, which is sad.
 When you solve this, testing in production becomes feasible. Of course it is
 not trivial, but it is not a problem that can be avoided.
 

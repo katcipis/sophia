@@ -44,6 +44,7 @@
 * [Advanced Macrology and the Implementation of Typed Scheme](http://www.ccs.neu.edu/racket/pubs/scheme2007-ctf.pdf)
 * [The Galois Connection between Syntax and Semantics](http://www.logicmatters.net/resources/pdfs/Galois.pdf)
 * [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
+* [The C Programming Language](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1991.pdf)
 
 
 ## Done

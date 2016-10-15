@@ -8,7 +8,7 @@ Some notes from what I understood from HTTP2.
 * Multiple streams on same connection (multiplexed)
 * Control flow per stream
 * Prioritization per stream
-* Header compression
+* Header compression (hpack)
 * Server push (to fix server inlining of resources and reduce round trips)
 
 

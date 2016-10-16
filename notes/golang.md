@@ -27,7 +27,66 @@ not have **Method**. But this will actually compile and work because Go does:
 
 You have problems when you try to pass the value object as an interface.
 It does not have the method on its method set and interfaces cant be referenced.
-That is why your build will fail (Go cant do &(obj).Method() if obj is an interface).
+That is why your build will fail (Go cant do (&obj).Method() if obj is an interface).
+
+
+### Referencing interfaces and maps
+
+
+This is related to the method sets problem. The entire method sets thing
+exists because of the referencing issue. Why can't you reference a
+interface like:
+
+```
+(&obj).Method()
+```
+
+Or a map, like:
+
+```
+var a map[string]int = make(map[string]int)
+a["a"] = 1
+b := &a["a"]
+```
+
+Results in:
+
+```
+cannot take the address of a["a"]
+```
+
+It is definitely not impossible, it would just make thing more complex
+and harder to cleanup garbage memory.
+
+Data that is inserted on a map reside on buckets that are manipulated
+as contiguous memory regions, pretty low level and unsafe stuff.
+
+If the map allows you to hold a direct pointer to this bucket area it
+loses control from it and can't guarantee that it will be freed when
+a larger bucket needs to be allocated to expand the map (full buckets).
+
+Allowing this would complicate the map implementation and open
+space to a lot of inefficiencies and memory garbage. Although it seems
+to me that it is a choice.
+
+The same goes for interfaces, when you initialize a interface with
+a value object, it will copy the object to a internal memory region
+of the go runtime. Every time a method that has a value received is
+called it will copy the entire object and pass it to the method call.
+
+But if you want to call a method where the receiver is a pointer, now
+you have a problem. To pass in a pointer Go would have to give the address
+of its internal memory storage for interface instances.
+
+I don't know how it works in detail (yet), but it seems to be analogous
+to the map problem, this would probably cause some problems to the
+runtime, so the limitation has been imposed and the whole method sets
+thing emerge.
+
+The runtime could copy it and pass the address too, but that would defeat
+the semantics of a method with a pointer receiver, that guarantees that
+side effects on the object will be permanent.
+
 
 
 ### Channel Behaviour

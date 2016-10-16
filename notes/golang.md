@@ -88,6 +88,26 @@ the semantics of a method with a pointer receiver, that guarantees that
 side effects on the object will be permanent.
 
 
+### Equality
+
+
+As almost all imperative languages, Go has equality operators, like **==**.
+Every language has to define what is comparable and what is not. And
+Go does not allow you to override operators, or you can use the operator, or
+you can't. When you can't you can of course define a function to do that, which
+is usually more explicit than just overriding operators.
+
+The only odd thing is that Go arrays are comparable and slices are not.
+It is not that odd, since they are not effectively the same thing, they
+are pretty different actually, but for people coming from other languages
+it can be a little odd that you can't compare slices.
+
+Slices can't be compared for the same reason that maps can't, they can
+be recursive, a slice can have itself inside of it as so does a map.
+You can still implement equality on these conditions but it is pretty
+hard to do it efficiently and correctly, so Go chose to not implement
+it at all.
+
 
 ### Channel Behaviour
 
@@ -97,11 +117,13 @@ Why the hell should it block instead of panicking ?
 
 My problem with channels is the lack of symmetry/uniformity on the behaviour.
 
-After some time and digging I found out that for each different behaviour there is
-a reason, based on a practical case, so it started to make more sense at least.
+After some time and digging I found out that for each different behaviour
+there is a reason, based on a practical case, so it started to make
+more sense at least.
 
-But for me sometimes is hard to remember the behaviour of channels depending on the
-state/context that they are, although the complexity seems to be necessary.
+But for me sometimes is hard to remember the behaviour of channels depending
+on the state/context that they are, although the complexity seems
+to be necessary.
 
 
 #### Nil channels

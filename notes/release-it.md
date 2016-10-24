@@ -194,20 +194,25 @@ A very important way to be sloppy is not measure the performance. And this is co
 
 # Transparency
 
-One of the main things that stuck on my mind on the transparency concept is this great mechanical metaphor, 
-like they can know what is wrong with the engine because of the noise :-). 
+One of the main things that stuck on my mind on the transparency concept is
+this great mechanical metaphor, like they can know what is wrong with the
+engine because of the noise :-).
 
 Does your code make noises ? How do you listen to it ?
 
-The metaphor makes it very clear that the software have to make noise, but by default it does very
-little noise. This noise would be perceived by monitoring the host, stuff like I/O usage, CPU usage, memory usage, etc.
-Basically any kind of noise you can hear that does not comes directly from the application on a domain level.
+The metaphor makes it very clear that the software have to make noise,
+but by default it does very little noise. This noise would be perceived by
+monitoring the host, stuff like I/O usage, CPU usage, memory usage, etc.
+Basically any kind of noise you can hear that does not comes directly from
+the application on a domain level.
 
-Comparing to testing, it would be like black box monitoring, you are monitoring the application from the outside.
+Comparing to testing, it would be like black box monitoring, you are
+monitoring the application from the outside.
 This is very important but really far from what is proper transparency.
 
-Proper transparency gives you domain level information about what is happening on your system. 
-Not only for troubleshooting, but even to know how the user interacts with the system.
+Proper transparency gives you domain level information about what is
+happening on your system. Not only for troubleshooting, but even to know how
+the user interacts with the system.
 
 Some good advices:
 
@@ -216,21 +221,37 @@ Some good advices:
 * Use this feedback on a [OODA](https://en.wikipedia.org/wiki/OODA_loop) like loop.
 * Do you have traceability on your system ? Like an ID that allows the steps of a request to be traced on the system
 
-The [OODA](https://en.wikipedia.org/wiki/OODA_loop) thing is very interesting, it comes from the military and it is based
-on the idea that on the battlefield you cant foreseen everything and the most important thing is to observe and adapt,
-a concept that is very well know to anyone interested on agile software development.
+The [OODA](https://en.wikipedia.org/wiki/OODA_loop) thing is very interesting,
+it comes from the military and it is based on the idea that on the battlefield
+you cant foreseen everything and the most important thing is to
+observe and adapt, a concept that is very well know to anyone interested on
+agile software development.
 
-Besides the concepts there is also the tooling involved on aggregating and visualizing all the data 
-(also setting some alarms). There is a lot of information on this subject, so it will not be covered here
+Besides the concepts there is also the tooling involved on aggregating and
+visualizing all the data (also setting some alarms). There is a lot of
+information on this subject, so it will not be covered here
 (just as it is not covered on the book).
 
-The acceleration on this form of feedback is even changing the shape of how people see testing and practices like 
+The acceleration on this form of feedback is even changing the shape of
+how people see testing and practices like
 [TDD](https://en.wikipedia.org/wiki/Test-driven_development).
 
-Independent of the nature of your system, transparency makes the difference between a system that improves over time in
-production and one that stagnates or decays.
+Independent of the nature of your system, transparency makes the difference
+between a system that improves over time in production and one that
+stagnates or decays.
 
 Good data enables good decision making.
+
+
+## Alerting
+
+The book has very little details on how to setup monitoring and alerting.
+It only makes a case of giving it thought as a first class citizen problem
+to be solved.
+
+There is this
+[doc on alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.fs3knmjt7fjy)
+that has pretty good advices on alerting.
 
 
 # Adapt

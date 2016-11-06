@@ -35,7 +35,7 @@
 * [PyVideos](http://pyvideo.org/)
 
 
-# Blogs 
+# Blogs
 
 * [Paul Graham](http://www.paulgraham.com/articles.html)
 * [Netflix](http://techblog.netflix.com/)
@@ -54,11 +54,6 @@
 * [Brendan Gregg](http://www.brendangregg.com/blog/index.html)
 
 
-# Wikis
-
-* [C2](http://c2.com/cgi/wiki)
-* [Data Science Trello](https://trello.com/b/rbpEfMld/data-science)
-
 # Free books
 
 * [FreeBooks](https://github.com/vhf/free-programming-books)
@@ -67,3 +62,10 @@
 # Articles
 
 * [Arxiv](http://www.arxiv-sanity.com/)
+
+
+# Other
+
+* [C2](http://c2.com/cgi/wiki)
+* [Data Science Trello](https://trello.com/b/rbpEfMld/data-science)
+* [Hacking Textfiles](http://www.textfiles.com/hacking/)

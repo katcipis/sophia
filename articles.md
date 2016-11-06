@@ -2,6 +2,7 @@
 
 ## Queue
 
+* [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
 * [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)

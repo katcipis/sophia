@@ -100,6 +100,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 
 
+### Haskell
+
+* [Haskell](http://haskellbook.com/)
+
+
 ### Lisp / Scheme
 
 * [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)

@@ -2,6 +2,25 @@
 
 ## Odd Stuff
 
+
+### Slices not comparable
+
+Arrays are comparable, but slices are not, this is a common cause of confusion
+since it seems like a lack of uniformity on the language.
+
+The main two reasons are (related to the indirection on them):
+
+* Slices can be recursive, implementing comparison on this case is rather confusing/complex
+* Slices indirection can give odd behaviour when they are used on maps
+
+For example, slices could be effectively equal
+(the data inside them are the same) but they would be hashed differently
+depending on when you inserted them on the map.
+
+So you can compare slices or use them as keys on maps,
+but you can do this with arrays.
+
+
 ### Method Sets
 
 * [Method Sets](https://github.com/golang/go/wiki/MethodSets)

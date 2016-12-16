@@ -54,7 +54,7 @@ The idea of flow also impacts the idea of who is responsible for quality. Everyo
 responsible for quality, for its own work, but also to make it clear if some problem is spotted, even if it
 is not on the part of the system you are responsible for.
 
-This leaves QA to a possition of double checking and quality assistance, not assurance, since the entire pipeline
+This leaves QA to a position of double checking and quality assistance, not assurance, since the entire pipeline
 is responsible for quality, not one team.
 
 If one of the parts of the flow fails, and value cant be delivered, all the flow fails. It makes perfectly sense.

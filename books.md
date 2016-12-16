@@ -18,6 +18,8 @@ Basically where I organize what I still want to read and what I have already rea
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
+* [The Myth of the Strong Leader: Political Leadership in the Modern Age](https://www.amazon.com/Myth-Strong-Leader-Political-Leadership/dp/0465027660)
 * [The Psychopath Code](https://www.amazon.com/Psychopath-Code-Cracking-Predators-Stalk-ebook/dp/B016MRW9KS)
 * [Culture and Empire: Digital Revolution](http://www.amazon.com/Culture-Empire-Digital-Revolution-Volume/dp/1492999776)
 * [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)

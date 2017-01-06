@@ -8,10 +8,10 @@
 * [On-the-Fly Garbage Collection](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
 * [Paxos Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+* [u-root](https://www.usenix.org/system/files/conference/atc15/atc15-paper-minnich.pdf)
 * [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
 * [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
-* [9front](http://fqa.9front.org/dash1.thinkaboutthefuture.pdf)
 * [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
@@ -51,6 +51,7 @@
 * [The Galois Connection between Syntax and Semantics](http://www.logicmatters.net/resources/pdfs/Galois.pdf)
 * [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
 * [The C Programming Language](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1991.pdf)
+* [9front](http://fqa.9front.org/dash1.thinkaboutthefuture.pdf)
 
 
 ## Done

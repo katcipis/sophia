@@ -99,6 +99,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Languages
 
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
+* [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)

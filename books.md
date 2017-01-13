@@ -18,6 +18,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [Bruce Lee's Fighting Method](https://www.amazon.com/Bruce-Lees-Fighting-Method-Complete/dp/0897501705)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
 * [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)

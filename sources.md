@@ -25,6 +25,7 @@
 * [Google Cloud Podcast](https://www.gcppodcast.com/)
 * [New Stack](http://thenewstack.io/)
 * [GopherPods](https://gopherpods.appspot.com/)
+* [Software Engineering Daily](https://softwareengineeringdaily.com)
 
 
 # Screencasts

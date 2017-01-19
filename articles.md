@@ -2,6 +2,7 @@
 
 ## Queue
 
+* [Go vs Swift](https://github.com/jakerockland/go-vs-swift/blob/master/go-vs-swift.pdf)
 * [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs](http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf)

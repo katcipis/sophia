@@ -15,7 +15,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Personal
 
-* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
@@ -192,6 +191,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
+* [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [Making Software: What Really Works, and Why We Believe It](https://www.amazon.com/Making-Software-Really-Works-Believe/dp/0596808321)
@@ -246,6 +246,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 

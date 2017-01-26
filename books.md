@@ -13,10 +13,16 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Best Place to Work](http://www.amazon.com/The-Best-Place-Work-Extraordinary/dp/0399165592)
 
 
+## History
+
+* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
+
+
 ## Personal
 
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
-* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
@@ -29,7 +35,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)
 * [Bruce Lee's Fighting Method](https://www.amazon.com/Bruce-Lees-Fighting-Method-Complete/dp/0897501705)
 * [Defeat Into Victory](http://www.amazon.com/Defeat-Into-Victory-Battling-1942-1945/dp/0815410220)
-* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
 * [Into the Magic Shop](http://www.amazon.com/Into-Magic-Shop-Neurosurgeons-Mysteries-ebook/dp/B00YBBKMHA)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)

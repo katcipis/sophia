@@ -49,6 +49,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Psychology / Philosophy
 
+* [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)

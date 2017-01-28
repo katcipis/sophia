@@ -107,8 +107,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
+* [Interpreter Book](https://interpreterbook.com/)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
-* [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)

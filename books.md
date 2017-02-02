@@ -199,11 +199,11 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
+* [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [Making Software: What Really Works, and Why We Believe It](https://www.amazon.com/Making-Software-Really-Works-Believe/dp/0596808321)
 * [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
-* [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [xUnit Test Patterns](http://xunitpatterns.com/).

@@ -40,7 +40,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
-* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
 * [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
@@ -252,6 +251,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)

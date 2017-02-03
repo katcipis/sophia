@@ -2,58 +2,83 @@
 
 ## Queue
 
-* [Go vs Swift](https://github.com/jakerockland/go-vs-swift/blob/master/go-vs-swift.pdf)
-* [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
-* [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
+
+### Captcha
+
 * [I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs](http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf)
-* [On-the-Fly Garbage Collection](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
-* [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
-* [Paxos Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
-* [u-root](https://www.usenix.org/system/files/conference/atc15/atc15-paper-minnich.pdf)
-* [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
-* [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
-* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
-* [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
-* [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
-* [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
-* [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
-* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
-* [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
-* [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
-* [Google Infrastructure Security Design Overview](https://cloud.google.com/security/security-design/)
-* [Caffe: Convolutional Architecture for Fast Feature Embedding](http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf)
-* [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
+* [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* [Caffe: Convolutional Architecture for Fast Feature Embedding](http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf)
+* [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
+* [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
+
+
+### Data
+
+* [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
-* [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
-* [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
+* [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
+* [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
+* [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
-* [PlaNet - Photo Geolocation with Convolutional Neural Networks](http://arxiv.org/pdf/1602.05314v1.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
-* [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
-* [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
-* [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
-* [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
 * [C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-suresh.pdf)
-* [Maglev: A Fast and Reliable Software Network Load Balancer](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
-* [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
-* [On-the-fly garbage collection: an exercise in cooperation](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
-* [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
-* [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
-* [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
-* [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
+
+
+### Distributed Systems
+
+* [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
+* [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
+* [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
+* [Paxos Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+* [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
+* [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
 * [Off-Path TCP Exploits: Global Rate Limit Considered Dangerous](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf)
-* [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)
+* [Maglev: A Fast and Reliable Software Network Load Balancer](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
+* [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
+
+
+### Concurrency
+
+* [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Transactional Memory Support for C](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1961.pdf)
+* [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)
+* [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
+* [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
+
+
+### Languages
+
+* [On-the-fly garbage collection: an exercise in cooperation](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
+* [Go vs Swift](https://github.com/jakerockland/go-vs-swift/blob/master/go-vs-swift.pdf)
+* [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
+* [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
+* [The C Programming Language](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1991.pdf)
 * [Concurrent programming in ML](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7201&rep=rep1&type=pdf)
 * [The Future Of Standard ML](http://www.cs.cmu.edu/~rwh/talks/mlw13.pdf)
 * [Languages as Libraries](http://www.cs.utah.edu/plt/publications/pldi11-tscff.pdf)
 * [Advanced Macrology and the Implementation of Typed Scheme](http://www.ccs.neu.edu/racket/pubs/scheme2007-ctf.pdf)
 * [The Galois Connection between Syntax and Semantics](http://www.logicmatters.net/resources/pdfs/Galois.pdf)
-* [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
-* [The C Programming Language](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1991.pdf)
-* [9front](http://fqa.9front.org/dash1.thinkaboutthefuture.pdf)
+* [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
+* [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
+
+
+### Not Classified Yet :-)
+
+* [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
+* [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)
+* [LightMAC: A MAC Mode for Lightweight Block Ciphers](https://eprint.iacr.org/2016/190.pdf)
+* [u-root](https://www.usenix.org/system/files/conference/atc15/atc15-paper-minnich.pdf)
+* [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
+* [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
+* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
+* [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
+* [Google Infrastructure Security Design Overview](https://cloud.google.com/security/security-design/)
+* [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
+* [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
+* [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 
 
 ## Done

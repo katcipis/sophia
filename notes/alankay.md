@@ -40,6 +40,25 @@ since we are primates :-).
 
 Sometimes to get something you need to let it go.
 
+## Science of Computing
+
+There is a great deal of effort on presenting computing science as something
+completely unrelated to computers, which makes sense (just as thinking architecture
+has everything to do with autocad, it does not make sense).
+
+The original idea of having a science for computing was like a science for
+processes. The way we thing is a process, an entire nation is, the way they
+interact and operate. The idea was to study how to represent this kind of
+phenomenons as processes and study them (not necessarily implementing them on
+a computer, although this reminds me a lot of simulations).
+
+He mention the american constitution as an amazing process that keeps the nation
+working almost unaltered for more than a hundred years, for example.
+
+This is very hard for me to understand since I'm pretty low level / machine
+oriented on how I think about computing, but it does make sense to define
+science this way.
+
 ## Catch phrases
 
 * It is big meaning, not big data

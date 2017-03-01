@@ -264,15 +264,23 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Done
 
+## 2016
 
-## On a galaxy far far away
+* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
+* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
+* [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
+* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
+* [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
+* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
+* [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
 
-* Lua Gems
-* Test Driven Development for Embedded C
-* The Pragmatic Programmer
-* How Google Tests Software
-* Pragmatic Thinking & Learning
-* Practical Vim
+## 2015
+
+* [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
+* [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
+* [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
+* [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
+* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
 
 
 ## 2014
@@ -286,21 +294,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)
 
 
-## 2015 
+## On a galaxy far far away
 
-* [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
-* [Building Microservices](http://info.thoughtworks.com/building-microservices-book)
-* [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
-* [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
-* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
-
-
-## 2016
-
-* [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
-* [How to Win Friends & Influence People](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034)
-* [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
-* [Rediscovering the Archetypes of the Mature Masculine](http://www.amazon.com/gp/product/0062506064/)
-* [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
-* [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
-* [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
+* Lua Gems
+* Test Driven Development for Embedded C
+* The Pragmatic Programmer
+* How Google Tests Software
+* Pragmatic Thinking & Learning
+* Practical Vim

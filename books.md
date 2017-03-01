@@ -13,10 +13,16 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Best Place to Work](http://www.amazon.com/The-Best-Place-Work-Extraordinary/dp/0399165592)
 
 
+## History
+
+* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
+
+
 ## Personal
 
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
-* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
@@ -29,13 +35,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Information Doesn't Want to Be Free: Laws for the Internet Age](http://www.amazon.com/Information-Doesnt-Want-Be-Free/dp/1940450462)
 * [Bruce Lee's Fighting Method](https://www.amazon.com/Bruce-Lees-Fighting-Method-Complete/dp/0897501705)
 * [Defeat Into Victory](http://www.amazon.com/Defeat-Into-Victory-Battling-1942-1945/dp/0815410220)
-* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
 * [Into the Magic Shop](http://www.amazon.com/Into-Magic-Shop-Neurosurgeons-Mysteries-ebook/dp/B00YBBKMHA)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
-* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
 * [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
@@ -54,6 +58,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Psychology / Philosophy
 
+* [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
@@ -106,8 +111,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
+* [Interpreter Book](https://interpreterbook.com/)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
-* [Seven Languages in Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
@@ -198,11 +203,11 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
+* [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [Making Software: What Really Works, and Why We Believe It](https://www.amazon.com/Making-Software-Really-Works-Believe/dp/0596808321)
 * [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
-* [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
 * [xUnit Test Patterns](http://xunitpatterns.com/).
@@ -251,6 +256,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)

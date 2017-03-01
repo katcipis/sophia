@@ -48,6 +48,19 @@ You have problems when you try to pass the value object as an interface.
 It does not have the method on its method set and interfaces cant be referenced.
 That is why your build will fail (Go cant do (&obj).Method() if obj is an interface).
 
+Go's Method sets is conceptually odd to me. The pointer type has all methods
+of the value type, but if the pointer is nil, calling a method that received
+a value on it will cause a nil pointer dereference. So conceptually the pointer
+type has the method, but can't satisfy it because it is nil (and method receivers
+that are pointers can work just fine with nil pointers).
+
+On the other hand the value can ALWAYS satisfy a method call that have a
+pointer as receiver, since the value is always initialized with something it
+can always be referenced. So it is more intuitive to me that value objects
+can call value and pointer receiver methods, and pointers should be allowed
+to call only pointers methods since it is not safe to call a method with
+a value receiver from a pointer type.
+
 
 ### Referencing interfaces and maps
 

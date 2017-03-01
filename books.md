@@ -47,6 +47,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
 
 
+## Economy
+
+* [Economics One Lesson](https://www.amazon.com.br/Economics-One-Lesson-Shortest-Understand/dp/0517548232)
+
+
 ## Psychology / Philosophy
 
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)

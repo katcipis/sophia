@@ -158,7 +158,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Concurrency
 
-* [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
 * [The Theory and Practice of Concurrency](https://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
 
 
@@ -256,8 +255,9 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
+* [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 

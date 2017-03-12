@@ -1,7 +1,119 @@
 # Golang
 
-## Odd Stuff
+This is a mix of some stuff that I learned while developing software in Go
+and other stuff that I read at the Go Programming Language book.
 
+## Tips
+
+### Interfaces
+
+Interfaces are a means to abstraction. This tip is from the GOPL book, and
+it actually applies to abstraction in general.
+
+Basically it advocates to not overuse interfaces, specially because it
+makes things more complex and slower.
+
+The two cases where interfaces are useful are:
+
+* There is more than one implementation for something
+* You need to decouple two packages
+
+The more subtle one is the decoupling. You don't have to decouple all
+the packages of the world from each other. A system like that would be
+a dependency injection hell, hard to understand and slower than a simpler
+design. So the decision to decouple must make sense, like the package
+you are going to depend on is too big, complex, or it is a hard
+design choice that you want to isolate the system from.
+
+Sometimes refactoring to interfaces can be hard later, so the
+possibility to use multiple implementations on the near future
+may be a reason to decouple early.
+
+### Concurrency
+
+#### Orchestrate or serialize
+
+This is a cool Rob Pike quote:
+
+```
+channels orquestrate, mutexes serialize
+```
+
+It is commonplace these days to demonize mutexes as something
+old and error prone. The truth is that both races and deadlocks
+are also possible using channels (at least I was able to do that,
+but perhaps its just me that am THAT good at breaking stuff).
+
+The truth can be found on another Rob Pike phrase:
+
+```
+Don't communicate by sharing memory, share memory by communicating
+```
+
+This exacerbates an important truth in Go, both models have shared
+memory, the only difference is that channels make communication the
+first class citizen, while mutexes don't, mutexes make serialization
+of access explicit, but it is not clear if communcation is going on.
+
+So a good rule of thumb is, do you want to communicate two or more
+concurrent processes or you just want to serialize access to some data ?
+
+Answering this will help you find the right tool to the job, channels
+won't be always the right tool, in some cases they can even make
+things worse.
+
+With channels, your approach is to only allow one goroutine has access
+to data by message passing. For example, on a pipeline, after you write
+a message passing some pointer through a channel you must NOT use that
+message anymore, or you will have race conditions, after the message is
+sent, it's data does not belong to you anymore (or just create a copy
+when possible). There is this concept that once you send the message,
+you don't own it anymore. The language won't enforce that, but if you fail
+on do this all the sins of the bad mutex based concurrency will fall upon you
+even thought you are using channels.
+
+In the end you must ensure only one goroutine handles the data at
+some point in time, you can use design to do that or enforce it with
+a mutex. Complex pipelines will fit better with channels, but a simple
+concurrency safe map will probably be better off with a mutex.
+
+#### Limiting concurrency
+
+Sometimes it is useful to enforce a maximum amount of running goroutines.
+A common way to do this is with semaphores. In Go semaphores are trivial
+to implement using channels.
+
+For example, creating a semaphore that allows only 50 to be created:
+
+```
+        semaphore := make(chan bool, 50)
+        for {
+                // acquire, value written does not matter
+                semaphore <- true
+                go func() {
+                        defer func() {
+                                // release
+                                <-semaphore
+                        }()
+                        // Do stuff
+                }()
+        }
+```
+
+### Reflection
+
+The first law of reflection is "don't use reflection" :-).
+This is a strong statement, but when you use reflection you
+wave away all compile time safety that Go's gives you and embraces
+all the runtime errors that are commonplace on dynamic languages
+with the downside that the code will be cumbersome (at least the
+dynamic language is clean to express this dynamism).
+
+Also your code will be from one to even two orders of magnitude
+slower (someone remembered Python ? :-). Be pretty sure that you
+have no other option when you do this.
+
+## Odd Stuff
 
 ### Slices not comparable
 
@@ -61,9 +173,7 @@ can call value and pointer receiver methods, and pointers should be allowed
 to call only pointers methods since it is not safe to call a method with
 a value receiver from a pointer type.
 
-
 ### Referencing interfaces and maps
-
 
 This is related to the method sets problem. The entire method sets thing
 exists because of the referencing issue. Why can't you reference a
@@ -88,7 +198,8 @@ cannot take the address of a["a"]
 ```
 
 It is definitely not impossible, it would just make thing more complex
-and harder to cleanup garbage memory.
+and harder to cleanup garbage memory (memory that is internal to the
+runtime).
 
 Data that is inserted on a map reside on buckets that are manipulated
 as contiguous memory regions, pretty low level and unsafe stuff.
@@ -119,9 +230,7 @@ The runtime could copy it and pass the address too, but that would defeat
 the semantics of a method with a pointer receiver, that guarantees that
 side effects on the object will be permanent.
 
-
 ### Equality
-
 
 As almost all imperative languages, Go has equality operators, like **==**.
 Every language has to define what is comparable and what is not. And
@@ -139,7 +248,6 @@ be recursive, a slice can have itself inside of it as so does a map.
 You can still implement equality on these conditions but it is pretty
 hard to do it efficiently and correctly, so Go chose to not implement
 it at all.
-
 
 ### Channel Behaviour
 
@@ -159,7 +267,6 @@ to be necessary.
 
 
 #### Nil channels
-
 
 * Read from nil channel blocks
 * write to nil channel blocks
@@ -203,7 +310,6 @@ channel being closed). So there is a clean way to know that the producer is fini
 
 This makes it easy to implement a consumer <-> producer pattern, with N consumers for each producer.
 
-
 ##### Select behaviour
 
 The behaviour is well documented here:
@@ -226,7 +332,6 @@ for a eternal blocked loop.
 
 For someone new to Go it is very hard to understand that setting to nil will disable the case (at least for me it was,
 but only on the beginning).
-
 
 ##### More info about it
 

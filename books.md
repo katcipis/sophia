@@ -2,7 +2,6 @@
 
 Basically where I organize what I still want to read and what I have already read and don't want to forget the name.
 
-
 # Wishlist :-)
 
 
@@ -109,10 +108,10 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Languages
 
+* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [Interpreter Book](https://interpreterbook.com/)
-* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
@@ -195,6 +194,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Distributed Systems
 
+* [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
+* [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 
 

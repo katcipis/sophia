@@ -38,3 +38,29 @@ want to solve the problem faster, it is an optimization, but it
 is not related to the problem (you could argue that solving
 something faster is part of the problem if the requirement is
 "finish in 30 seconds").
+
+## Parallel hardware and concurrency models
+
+It is not explicit on the book but I found an underlying
+pattern on how parallel hardware works and concurrency models
+that are implemented on software.
+
+Multiprocessor architecture can be implemented with shared memory
+(x86/x64) or distributed memory. On the shared memory model, each
+processor/core behaves as a thread, accessing the same memory
+pool. To avoid races and enable coherent caching a lot of locks
+and mechanisms are required.
+
+On a distributed memory model, each processor has its own memory,
+no processor can access it besides it's owner. If a processor need
+something that resides on the memory of another processor it will
+have to send a message to that processor (via a specialized bus or
+network). This is analogous to a design where each concurrent
+execution unit (defined in software, as a thread or goroutine in Go for example)
+has exclusive access to its own memory and sharing
+only happens through explicit communication.
+
+In the end, you communicate by sharing memory or you share
+memory by communicating. Of course you can implement a copy based
+message passing where nothing at all is shared, there is only
+communication, which is safer.

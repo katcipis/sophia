@@ -64,3 +64,57 @@ In the end, you communicate by sharing memory or you share
 memory by communicating. Of course you can implement a copy based
 message passing where nothing at all is shared, there is only
 communication, which is safer.
+
+## Concurrency Models
+
+Will only mention the ones worth it, skipping Java/Threads/Mutexes
+for example. If it where low level in C, talking about the operational
+system support it would been great, but this kind of stuff in Java is
+boring/useless as hell.
+
+### Clojure
+
+One of the concurrent "models" on the book is Clojure's approach
+using the concept of separating identity from state + atoms.
+
+Identity/state separation is a fancy work for something very like
+copy on write. It is not the same implementation, but it depends on
+the same idea to be implemented.
+
+Basically the identifier of a variable can point to different
+possible states on a timeline, each identifier holds its whole history,
+instead of the current state only (as almost all imperative languages).
+
+The idea is cool since it reflects the real world, the time when you are
+referencing a identifier changes the state of it. Like someone with the
+identifier **uspresident** from last year would see the state Obama,
+this year will be Trump, the identifier holds all its previous values
+not only the current one.
+
+This related with copy on write because without some clever hack on
+how to manage this information the memory usage would be prohibitive.
+
+From https://clojure.org/about/state:
+
+```
+There is another way, and that is to separate identity and state
+(once again, indirection saves the day in programming).
+
+We need to move away from a notion of state as
+"the content of this memory block" to one of
+"the value currently associated with this identity".
+Thus an identity can be in different states at different times,
+but the state itself doesn’t change.
+
+That is, an identity is not a state, an identity has a state.
+Exactly one state at any point in time. And that state is a true value, i.e.
+it never changes. If an identity appears to change, it is because it becomes
+associated with different state values over time. This is the Clojure model.
+```
+
+So basically what would be a race condition would not happen, it will
+be substituted with stale data, if someone is updating a list while you
+iterate on it there will be no race, you will just iterate the list that
+is a snapshot of the moment you started iterating.
+
+//TODO: talk about atoms and its "lock freeness".

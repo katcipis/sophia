@@ -89,6 +89,11 @@
 
 ## Done
 
+### 2017
+
+* [The humble programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
+
+
 ### 2016
 
 * [Building LinkedIn’s Real-time Activity Data Pipeline](http://sites.computer.org/debull/A12june/pipeline.pdf)

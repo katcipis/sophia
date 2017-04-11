@@ -67,6 +67,7 @@
 
 # Other
 
+* [Pointer](http://www.pointer.io/purpose)
 * [Learning CS](https://teachyourselfcs.com/)
 * [C2](http://c2.com/cgi/wiki)
 * [Data Science Trello](https://trello.com/b/rbpEfMld/data-science)

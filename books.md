@@ -253,6 +253,9 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
 
+## Low level
+
+* [Assembly and Loaders](http://www.davidsalomon.name/assem.advertis/asl.pdf)
 
 # Reading
 
@@ -261,13 +264,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
-
 # Done
 
 ## 2017
 
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
-
 
 ## 2016
 

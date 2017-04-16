@@ -1,5 +1,6 @@
 # MOOCs
 
+* [Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 * [Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)
 * [Natural Language Processing](https://www.coursera.org/learn/nlp)
 * [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)

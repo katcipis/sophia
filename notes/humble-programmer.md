@@ -44,3 +44,20 @@ and search for good modest languages to develop in, they
 are going to enable you, or limit you.
 
 Programming is hard, approach it with respect.
+
+## Bike Shedding
+
+I never knew exactly why people used the expression
+**bike shedding** to refer to stupid discussions.
+
+On this article Dijkstra tells the origin of this expression,
+it is a psicological fact about humans, the more important a decision
+is people will tend to discuss stupid details instead of discussing
+the real serious issues that actually have to be addressed.
+
+The bike shed story is a reference to this phenomenon, a group
+of enginneers where responsible to building a nuclear power
+plant. Instead of discussing real design decisions they spent more
+than a month just discussing where and how the bike shed of the
+power plant would be built. That is the origin of the 
+**bike shedding** expression.

@@ -31,6 +31,7 @@
 ### Distributed Systems
 
 * [A note on distributed systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/a-note-on-distributed-computing.pdf)
+* [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)

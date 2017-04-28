@@ -38,7 +38,7 @@ the language you are using. The expressiveness of the language
 will limit how far you can think on solutions to the problem.
 
 Sometimes we think it is not like that, we like to think that
-we are awesome, but we are not, the languagem you choose will
+we are awesome, but we are not, the language you choose will
 limit you. That is another way to be humble, realize that
 and search for good modest languages to develop in, they
 are going to enable you, or limit you.

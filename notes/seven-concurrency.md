@@ -117,4 +117,47 @@ be substituted with stale data, if someone is updating a list while you
 iterate on it there will be no race, you will just iterate the list that
 is a snapshot of the moment you started iterating.
 
-//TODO: talk about atoms and its "lock freeness".
+#### Atoms
+
+One of the facilities to handle concurrency are atoms.
+They are based on the function swap that is called to change
+the value of the atom safely.
+
+Race conditions are handled by detecting that another function already changed
+the atom value and calling the swap function again.
+
+This implementation is called "lockless" but it actually is a spin lock,
+it is so a spin lock that it can even generate starvation. If your
+swap function is too slow and there is a lot of threads with faster
+swap functions being called your swap function will starve and will never
+be able to update the value, locking forever (worse than a spin lock).
+
+Besides the stupidity of the forever lock I also fails on see any advantage
+on this approach, you are just serializing access to state, on a very odd way,
+yay Clojure.
+
+#### Agents
+
+OMG, Clojure only gets better. They have a **agent** concept that
+is not an agent at all. It is basically the same thing as a atom,
+the only diference is that the swap function is called **send**
+and the execution of the send function will be serialized with
+all other send calls for that agent.
+
+It happens on a thread pool, or you can choose to create one just
+for your send. It also has a pretty odd failure recovery.
+
+Another key difference is that it is asynchronous, after you call
+send the agent may not have yet mutated, it will happen someday,
+and you can call a wait function for it.
+
+The send function basically receives the agent as a parameter and
+will set the return of the function as the new agent value.
+
+This is the most fucked up thing I have ever seen in my life,
+this is not an agent, you are not sending a message, you are executing
+a function that will mutate the contents of a value. Really hard
+to find anything cool/useful on Clojure concurrency model.
+
+Besides being asynchronous, it has no difference from atoms. Well,
+at least agents do not lock forever in a spin :-).

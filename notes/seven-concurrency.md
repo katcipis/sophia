@@ -142,7 +142,8 @@ OMG, Clojure only gets better. They have a **agent** concept that
 is not an agent at all. It is basically the same thing as a atom,
 the only diference is that the swap function is called **send**
 and the execution of the send function will be serialized with
-all other send calls for that agent.
+all other send calls for that agent (instead of the optmistic
+try again loop model of the atom swap)
 
 It happens on a thread pool, or you can choose to create one just
 for your send. It also has a pretty odd failure recovery.
@@ -160,4 +161,45 @@ a function that will mutate the contents of a value. Really hard
 to find anything cool/useful on Clojure concurrency model.
 
 Besides being asynchronous, it has no difference from atoms. Well,
-at least agents do not lock forever in a spin :-).
+at least agents do not lock forever in a spin since they are not
+"lock free" :-).
+
+#### STM
+
+STM stands for Software Transacional Memory, this is the other
+concurrency model presented for clojure. I won't get in details
+because on this part I just gave up on Clojure for concurrency
+(or for anything).
+
+### Elixir
+
+Elixir concurrency model inherits the Erlang concurrency model.
+Because of that, it actually has a pretty neat concurrency model,
+that is actor based.
+
+The main difference that I see from Go's CSP implementation is that
+the actor model is based on knowing the process (actor) that you are
+sending the message to. There is no channel, each process has a mailbox
+and any process can send a message to any other process.
+
+I'm still getting the implications of this kind of shift on how
+you exchange messages, but it actually pretty different.
+
+In Go, goroutines do not even have ID's, they are completely anonymous,
+there are only channels. It is like in Go's the first class concept is
+the channel.
+
+In Elixir (and Erlang) the first class concept is the process (and its PID).
+The mailbox (which acts as a buffered channel) is the anonymous one.
+
+This concurrency model reminds me more of services communicating on a
+network. Elixir even have a registry of processes so you can communicate
+with processes by name instead of having to know their PID.
+
+It is like a very low latency, dynamic, DNS for processes.
+
+Messages rendenvouz happens like
+[Hoare's original CSP paper](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf),
+if the message matches the process name and the message schema matches, the
+message is delivered (which is odd, actor based messaging seems more like the
+original CSP theory than Go's current CSP implementation).

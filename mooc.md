@@ -1,6 +1,7 @@
 # MOOCs
 
-* [Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
+* [Skiena Data Science](https://www.youtube.com/watch?v=78dUCOF9zxE&list=PLOtl7M3yp-DVBdLYatrltDJr56AKZ1qXo)
+* [Skiena Algorithms Analysis](https://www.youtube.com/playlist?list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)
 * [Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)
 * [Natural Language Processing](https://www.coursera.org/learn/nlp)
 * [Text Mining and Analytics](https://www.coursera.org/learn/text-mining)
@@ -37,6 +38,11 @@
 * [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
 * [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 * [MACHINE LEARNING AND COMPUTATIONAL STATISTICS](http://davidrosenberg.github.io/ml2016/#home)
+
+
+## Doing
+
+* [Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 
 
 ## Done

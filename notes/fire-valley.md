@@ -19,3 +19,9 @@ Talk about IMSAI and the conflict between sales/technical people
 
 The interesting history about the Apple 1/2 designed by Woz
 and Apple 3 designed by commitee and marketers :-).
+
+## Epilogue: Technology as the mirror of us
+
+Reflect on how the start of the PC reflected the hackers
+and hobbystis community and their values, and how this
+evolved (relates to Apple for example).

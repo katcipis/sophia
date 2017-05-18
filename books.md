@@ -57,6 +57,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Psychology / Philosophy
 
+* [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)

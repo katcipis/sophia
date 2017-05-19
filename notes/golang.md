@@ -115,6 +115,17 @@ have no other option when you do this.
 
 ## Odd Stuff
 
+### JSON Unmarshaling is case insensitive
+
+This is just crap =(
+
+```
+To unmarshal JSON into a struct, Unmarshal matches incoming object keys to the
+keys used by Marshal (either the struct field name or its tag),
+preferring an exact match but also accepting a case-insensitive match.
+Unmarshal will only set exported fields of the struct.
+```
+
 ### Slices not comparable
 
 Arrays are comparable, but slices are not, this is a common cause of confusion

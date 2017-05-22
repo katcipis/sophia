@@ -20,6 +20,10 @@ Talk about IMSAI and the conflict between sales/technical people
 The interesting history about the Apple 1/2 designed by Woz
 and Apple 3 designed by commitee and marketers :-).
 
+## IBM master move
+
+Elaborate how IBM reinvented itself on the PC market.
+
 ## Epilogue: Technology as the mirror of us
 
 Reflect on how the start of the PC reflected the hackers

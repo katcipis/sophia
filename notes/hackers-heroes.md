@@ -63,3 +63,18 @@ I convinced my life that I was not being pragmatic and not generating value,
 but to be honest, in my hearth, the feeling that moves me is "fuck value, this
 is fun". Conciliating this with making a living is necessary, but I inverted
 the priority of these things in my life and I got in trouble because of that.
+
+## Homebrew Computer Club
+
+Elaborate on the sharing that happened at this time.
+The Altair, MITS.
+How Apple started, open architecture.
+And how IBM followed
+
+## Hacking clash with the industry
+
+This started at 1980 with the game industry.
+Elaborate on On Line's (Sierra) history.
+The conflict between giving visibility and credits
+to hackers and making programming an anonymous activity
+to make it cheaper.

@@ -196,5 +196,9 @@ how they work, they just want the results. The most obvious reflection
 of that is the explosion of social networks.
 
 Human beings in general are social beings, technology is catalyzing that.
+Some people believe that this makes people self centered. Personally I believe
+humans beings have always been like that, we just have good tools to showcase
+this part of our behavior.
+
 But to make this happen today we still have the same old good hackers,
 building tools that make tools just for the sake of it =).

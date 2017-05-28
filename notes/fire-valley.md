@@ -13,7 +13,40 @@ Lesson: Never alienate yourself from your staff
 
 ## IMSAI
 
-Talk about IMSAI and the conflict between sales/technical people
+The history of IMSAI is very interesting. IMSAI was the first company
+to build personal computers that was driven by business people, instead
+of hardware hackers. By personal computer understand altair, really at
+the beggining of everything.
+
+It was the traditional high on crack "make a miracle" thing pulled
+by people that just wanted to sell the a shitload of computers.
+
+The cultural difference was so intense that it reflected fisically
+on the disposition of the teams. There was two buildings, one for
+sales and another one for enginnering. The only communication that
+existed was unidirectional, basically orders for more and more computers.
+
+They really sold a lot of stuff and got a lot of money, but it was not
+sustainable. Eventually all the concerns from the enginnering team
+materialized, they started to deliver half baked crap and did not even
+had a proper service to respond to unsatisfied clients, even basically
+QA was missing.
+
+One time a computer was delivered with a screw driver inside of it, people
+where burning out. The competitive/agressive model of the business people
+was not a good fit for engineers which are much more collaborative and
+creative, usually not that interested on getting rich.
+
+In the end the company went bankrupt.
+
+This is not about "business is bad". There is a lot of smaller companies
+that also went bankrupt for lack of business view, one example is Processor
+Technology, they had the opportunity to be an Apple, but they lacked the
+business view to make it happen, lacked the focus, it was too much
+hacking and in the end it also disappeared.
+
+In the end balance seems to be the key for a sustainable company.
+But with cultures that are so different, balance is a true challenge.
 
 ## Apple 3
 

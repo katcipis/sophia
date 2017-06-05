@@ -120,7 +120,7 @@ to do the games instead of "prima dona" hackers, that where less
 predictable and behaved like artists.
 
 In the end a company named Eletronic Arts started and got a lot
-of Sierra Online talent promising the same freedom that Sierra one had.
+of Sierra Online talent promising the same freedom that Sierra once had.
 Both companies exists today yet, none of them retain the hacker
 spirit, and none of them are innovative and brilliant, although
 both still makes a profit.

@@ -195,9 +195,7 @@ forward to production.
 Automated tests are stress relievers, and they just get cheaper with time (you have more fixtures
 and knowledge on how to write them).
 
-
 ## Incremental design
-
 
 Incremental design matches well with the Martin Fowlers Refactoring book and with the
 Boy Scout principle presented on the Pragmatic Programmer book. Every time you meet some
@@ -211,7 +209,7 @@ the final product will probably be even better than your vision.
 The idea is not to not design, is to design a little everyday. Also you can design upfront, actually it
 is cheaper to just get the design right first, the problem is that this is too hard since you are
 usually resolving a novel problem, that will need a novel solution. The chances of getting the design
-all right before starting to solve the problem is really thin (although if it was possible, it would be
+all right before starting to solve the problem is really small (although if it was possible, it would be
 cheaper).
 
 So incremental design is better because it is a necessity, you just dont know the solution space
@@ -221,9 +219,7 @@ based on your experience on the subject. The more you know about it, the more yo
 This approach also matches well with the principle of constant flow of value (designing does not deliver
 workable software).
 
-
 ### Architecture metaphor
-
 
 There is a good comparison here that shows how dangerous can be to compare software with architecture.
 When you are constructing a build, reverting work can change completely in a matter of days, it is not
@@ -235,7 +231,6 @@ To revert one week work you can just revert one week of changes (and this is the
 
 So it can be very dangerous to compare these two lines of work. Some concepts can be borrowed but they cant
 be compared and practices cant be blindly applied.
-
 
 ## Scaling XP
 
@@ -252,7 +247,6 @@ To this to work the teams must be independent and the need of coordination shoul
 (it will be needed sometimes). To the teams to be independent they must be heterogeneous and have
 the capacity to solve problems on a end to end fashion (even business people must be part of the team).
 
-
 ## Organizational Change
 
 Changing an organization is very hard. I didnt get too much good advice on this part as I thought it would be :-).
@@ -263,7 +257,6 @@ But the little advice it gives makes perfectly sense.
 * Lead by example, you cant expect from others stuff that you don't do, this is disrespectful
 * If only your team is changing, keep communication as other teams are used too
 * Don't push/enforce change to others people, it is not possible. Encouraging through example is possible
-
 
 ## Production models
 
@@ -282,7 +275,7 @@ industry was more used to). Of course even for cars factories this is not the be
 * Finding defects is seen as a good thing, and rewarded, you dont have to be afraid of it
 * Find the root cause of defects, it is the responsibility of the entire production pipeline
 * The whole organization is a quality organization
-* Going fast is not giving quality up
+* Going fast is not tossing quality away
 * Going fast is not straining
 * Going fast is removing **WASTE**
 
@@ -298,7 +291,6 @@ Basically anything that does not help you deliver something for your client. On 
 pile of parts stocked, it is always lean. In software you should not stock up requirements or documentation for
 stuff that you are not even sure if it is going to the client. Take 1 requirement, implement it, deliver it,
 get feedback and then repeat.
-
 
 ## Practices
 
@@ -316,7 +308,6 @@ A list of very simple practices, aligned with the principles/values mentioned be
 * Test first programming (TDD)
 * Incremental design
 
-
 ## Some more ideas
 
 * Make smaller contracts with clients, both will benefit from it
@@ -324,11 +315,10 @@ A list of very simple practices, aligned with the principles/values mentioned be
 * TDD the architecture. Want to scale better ? First write the load test that breaks the architecture, then improve it.
 * Build a small system and split it as it grows (reminds me of microservices)
 * No defect is acceptable, every single one is a way to improve and learn, not part of life.
-* Team metrics: Post development defects + Time from investiment to return of the investiment
+* Team metrics: Post development defects + Time from investment to return of the investment
 * Deliver documentation with the system and collect information on how it is used (remove docs that are unused)
 * Dont push change on people, change your team first
 * If just your team is working differently, keep the old communication structure with the rest of the company (dont make enemies)
-
 
 ## The timeless way of building software
 

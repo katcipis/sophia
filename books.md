@@ -16,6 +16,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
 
 

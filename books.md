@@ -205,6 +205,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Software Design
 
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
+* [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)

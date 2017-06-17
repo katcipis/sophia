@@ -301,3 +301,15 @@ always copied, so you will have less options but also less space
 for hard to debug concurrency bugs. If the copying mechanism is
 well implemented it can over a good performance and provide a
 more safe/resilient way to develop concurrent software.
+
+About the message passing model there is an interesting quote
+from Alan Kay:
+
+```
+I'm sorry that long ago I coined the term "object" for this
+topic because it gets many people to focus on the lesser idea.
+The big idea is "messaging".
+```
+
+In some sense, Erlang do not have objects but it is more object
+oriented than languages like Python/Ruby/C++/Java =).

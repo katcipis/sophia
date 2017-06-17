@@ -278,7 +278,7 @@ Specially Elixir has a lot of features that makes it very different from Go:
 
 * Actor model concurrency, more like distributed system than Go's channels
 * New approach to error handling that not repetitive but not exceptions
-* Purely functional (no mutable state, everything is copied)
+* Purely functional (no mutable state, everything is copied, no race conditions)
 * Pattern matching
 * Pipelining
 

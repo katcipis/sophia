@@ -13,7 +13,7 @@ parallelism is doing multiple things at the same time
 The key difference is **dealing** vs **doing**. On a concurrent
 system, like a operational system, you are not necessarily doing
 things at the same time (think about having only one CPU/core),
-but you ARE dealing with a lot of stuff (video/audio/multiple processes).
+but you are **dealing** with a lot of stuff (video/audio/multiple processes).
 
 So you usually use concurrency when you need to deal with lots of
 stuff at the same time, providing feedback and partial results
@@ -191,6 +191,10 @@ the channel.
 
 In Elixir (and Erlang) the first class concept is the process (and its PID).
 The mailbox (which acts as a buffered channel) is the anonymous one.
+
+To contrast, in CSP (Go) goroutines are anonymous and channels are the
+first class concepts, on the Actor model (Erlang/Elixir) the processes
+(like goroutines) are the first class concepts and the channels are anonymous.
 
 This concurrency model reminds me more of services communicating on a
 network. Elixir even have a registry of processes so you can communicate

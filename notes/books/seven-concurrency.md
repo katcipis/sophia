@@ -285,4 +285,19 @@ Specially Elixir has a lot of features that makes it very different from Go:
 * Pipelining
 
 The most important features are actually from Erlang, but Elixir offers
-some new ones that are quite cool like pattern matching.
+some new ones that are quite cool like pattern matching. The concurrency model
+composed with pure functional features makes Erlang and Elixir very interesting
+languages.
+
+In Go's there is the proverb:
+
+```
+Don't communicate by sharing, share by communicating
+```
+
+The idea is to make communication explicit, and if you want, use it
+to share data. In Erlang/Elixir you just can't share data, it is
+always copied, so you will have less options but also less space
+for hard to debug concurrency bugs. If the copying mechanism is
+well implemented it can over a good performance and provide a
+more safe/resilient way to develop concurrent software.

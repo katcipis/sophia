@@ -195,11 +195,92 @@ The mailbox (which acts as a buffered channel) is the anonymous one.
 This concurrency model reminds me more of services communicating on a
 network. Elixir even have a registry of processes so you can communicate
 with processes by name instead of having to know their PID.
-
 It is like a very low latency, dynamic, DNS for processes.
 
-Messages rendenvouz happens like
+Messages rendezvous happens like
 [Hoare's original CSP paper](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf),
 if the message matches the process name and the message schema matches, the
 message is delivered (which is odd, actor based messaging seems more like the
 original CSP theory than Go's current CSP implementation).
+
+Extending on the model that is already used for distributed systems Erlang also
+provides the concept of supervisors, that are processes responsible for keeping
+other processes running. It is the same thing that a cluster orchestration tool
+does, like Kubernetes, but locally inside the same VM. Also these processes are
+lightweight Erlang processes, not operational system processes.
+
+All this mechanism is also distributable, there is a local name registry and a
+global one. The global name registry will broadcast the service that you are
+publishing on the entire cluster of Erlang processes. Setting up the cluster
+is out of the scope of the book, but once the cluster is built, the code to
+register services and communicate with them is trivial. Communicating with a
+local or remote process is seamless.
+
+Remote objects fails because error handling and granularity must be different
+for distributed systems. This is not the case for the actor model which already
+delivers an abstraction where messages can be dropped and process may die
+without being able to send a valid answer, you have to code timeouts and try
+agains, like you would do with a REST HTTP API. This way code can be truly
+transparent between being local or remote.
+
+#### Error handling
+
+Why talk about error handling on a book that is about concurrency ?
+Well Erlang approach to error handling is very interesting. Until now I was used
+to two approaches:
+
+* Explicit error handling, like C/Go
+* Implicit error handling with Exceptions
+
+Erlang provides a third one, "just let it crash". The idea is to not protect
+your code against most common errors, like invalid parameters, null stuff, etc.
+
+Just let it crash, and a supervisor process will restart the process for you.
+The entire actor model sustain this since message passing does not guarantee
+answers, it does not even assume them, you can just send messages. If you need
+a request/response model you must build this on top of the message passing
+mechanism, and if you want resilient code you need to handle timeouts properly.
+
+If a response is not received, you can just try again (if the operation
+is idempotent). Assuming that, any process can just crash while handling
+a message and the client will already timeout and send it again to a new
+process that will have been initiated.
+
+Erlang call the processes responsible for restarting failed ones supervisors.
+They remind me systemd and Kubernetes. This way to model errors seem interesting
+since it is already how we obtain resilience on distributed systems. It is not
+about avoid failures but being able to recover from them gracefully.
+
+Well, who supervises the supervisor ? This is the same problem that you have
+with tools like systemd and Kubernetes. A good monitoring system will help you
+detect systemic failure, but a good thing on this approach is that you can
+keep your error kernel pretty simple, the part that is responsible just for
+restarting stuff, from the book:
+
+```
+A software system's error kernel is the part that must be correct if the system
+is to function correctly. Well written programs make this error kernel
+as small and as simple as possible
+```
+
+This approach seems intuitively good, since it is well structured on practices
+that have been developed on distributed systems for a long time, and it is
+not a coincidence, Erlang (Elixir is based on it) was made as a language to
+build resilient and distributed programs, that is why it embeds on the
+language as first class citizens concepts used on distributed systems.
+
+I came to the conclusion that Erlang (and perhaps Elixir) does deserve
+a great deal for attention since the need for concurrency and distribution
+of programs increases, they offer great tools to handle that from the ground
+up instead of using libraries.
+
+Specially Elixir has a lot of features that makes it very different from Go:
+
+* Actor model concurrency, more like distributed system than Go's channels
+* New approach to error handling that not repetitive but not exceptions
+* Purely functional (no mutable state, everything is copied)
+* Pattern matching
+* Pipelining
+
+The most important features are actually from Erlang, but Elixir offers
+some new ones that are quite cool like pattern matching.

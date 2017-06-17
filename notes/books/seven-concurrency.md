@@ -312,4 +312,11 @@ The big idea is "messaging".
 ```
 
 In some sense, Erlang do not have objects but it is more object
-oriented than languages like Python/Ruby/C++/Java =).
+oriented than languages like Python/Ruby/C++/Java =). Wrapping up
+this chapter of the book, more Alan Kay wisdom:
+
+```
+The key in making great and growable systems is much more to design
+how it's modules communicate rather than what their internal properties
+and behaviors should be.
+```

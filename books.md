@@ -178,7 +178,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Math
 
-* http://pragprog.com/book/mcmath/good-math
+* [Good Math](http://pragprog.com/book/mcmath/good-math)
+* [Mathematics of GIS](http://homepage.univie.ac.at/wolfgang.kainz/Lehrveranstaltungen/15th_Nordic_Summer_School/The_Mathematics_of_GIS_Draft.pdf)
 * [Think Bayes](https://www.amazon.com/gp/product/1449370780)
 * Statistics in a Nutshell: A Desktop Quick Reference
 * [A First Course in Graph Theory](http://www.amazon.com/gp/product/0486483681)

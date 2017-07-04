@@ -349,17 +349,20 @@ when full, or circular channels that drops the oldest message
 when a write is performed on a full channel.
 
 But thing REALLY start to smell when it starts to explain the
-**go** functions, that will create what would be a goroutine
+**go** macro, that will create what would be a goroutine
 in Go. Here the language and the library falls extremely short.
 
 The author is well succeeded in explaining why a thread pool can
 go wrong if you make synchronous calls, since the thread will
-be blocked, and that asynchronous code can be hard to manage.
+be blocked, exhausting your pool. One solution is asynchronous code,
+but that can be hard to manage.
 
 The solution is to provide a synchronous flow using an asynchronous
-engine that lies inside the runtime. So far so good.
+engine that lies inside the runtime. The **go** macro aims to provide
+such a mechanism, delivering a synchronous flow but implementing asynchronous
+code behind the scenes, so far so good.
 
-Them, explaining the **go** function this happened:
+Then, explaining the **go** macro this happened:
 
 ```
 (go (<! ch))
@@ -377,13 +380,22 @@ have only one **!** instead of **!!**. Why ? They are the
 
 Yes, he calls the idea of relinquishing the control of the CPU
 to the scheduler as "parking". The magical parking version macro
-only works inside **go** functions, using them outside a **go** function
-will throw a runtime exception, you must use the **<!!** and **>!!**
-on this cases.  But using these non parking version can cause your code to
-deadlock if you lock all the underlying threads of the thread pool.
+only works inside **go** macros, using them outside the **go** macro
+will throw a runtime exception
+(the parking version only exists inside the **go** macro),
+you must use the **<!!** and **>!!**
+on this cases.
 
-It is not detected by the runtime, you will simply lock all threads.
-I'm not totally convinced that this could be better implemented even
+But using these non parking version inside **go** macros
+can cause your code to deadlock if you lock all the underlying threads
+of the thread pool.  This is not detected by the runtime,
+you will simply lock all threads.
+
+Basically if you are inside the **go** macro you must use
+**<!** and **>!**, or you can get a deadlock. Outside the macro,
+using the wrong version tosses an exception.
+
+I'm not totally convinced that this could not be better implemented even
 if it is a library, but even if there is a reason it is just another
 proof that if a language is built from the scratch with concurrency
 as a first class concern it will always be able to provide better

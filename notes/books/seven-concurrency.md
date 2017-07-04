@@ -171,7 +171,9 @@ concurrency model presented for clojure. I won't get in details
 because on this part I just gave up on Clojure for concurrency
 (or for anything).
 
-### Elixir
+### Actor Model
+
+For the Actor model the book uses Elixir as an example.
 
 Elixir concurrency model inherits the Erlang concurrency model.
 Because of that, it actually has a pretty neat concurrency model,
@@ -303,7 +305,7 @@ The idea is to make communication explicit, and if you want, use it
 to share data. In Erlang/Elixir you just can't share data, it is
 always copied, so you will have less options but also less space
 for hard to debug concurrency bugs. If the copying mechanism is
-well implemented it can over a good performance and provide a
+well implemented it can offer a good performance and provide a
 more safe/resilient way to develop concurrent software.
 
 About the message passing model there is an interesting quote
@@ -324,3 +326,69 @@ The key in making great and growable systems is much more to design
 how it's modules communicate rather than what their internal properties
 and behaviors should be.
 ```
+
+### CSP
+
+For CSP Clojure is chosen, together with a library that implements
+CSP. The core of the ideas of CSP can be explained perfectly through
+functions, and the way that CSP is explained as focusing on the
+communication channel instead of the communicating entities
+seems correct.
+
+Basically you create a channel with the chan function (imported from a lib):
+
+```
+(def ch (chan))
+```
+
+Write with the **>!!** macro and read with the **<!!** macro.
+There is buffered channels, just like Go.
+
+There is also some odd stuff like channels that drops writes
+when full, or circular channels that drops the oldest message
+when a write is performed on a full channel.
+
+But thing REALLY start to smell when it starts to explain the
+**go** functions, that will create what would be a goroutine
+in Go. Here the language and the library falls extremely short.
+
+The author is well succeeded in explaining why a thread pool can
+go wrong if you make synchronous calls, since the thread will
+be blocked, and that asynchronous code can be hard to manage.
+
+The solution is to provide a synchronous flow using an asynchronous
+engine that lies inside the runtime. So far so good.
+
+Them, explaining the **go** function this happened:
+
+```
+(go (<! ch))
+```
+
+And this:
+
+```
+(go (>! ch 3))
+```
+
+If you are paying attention you will see that these macros
+have only one **!** instead of **!!**. Why ? They are the
+"parking version" of the read and write macros.
+
+Yes, he calls the idea of relinquishing the control of the CPU
+to the scheduler as "parking". The magical parking version macro
+only works inside **go** functions, using them outside a **go** function
+will throw a runtime exception, you must use the **<!!** and **>!!**
+on this cases.  But using these non parking version can cause your code to
+deadlock if you lock all the underlying threads of the thread pool.
+
+It is not detected by the runtime, you will simply lock all threads.
+I'm not totally convinced that this could be better implemented even
+if it is a library, but even if there is a reason it is just another
+proof that if a language is built from the scratch with concurrency
+as a first class concern it will always be able to provide better
+solutions than languages that try something similar with libraries.
+
+They implement the idea of cheap concurrent units like Go, copying the
+names, but fail miserably in providing a uniform and clean interface
+since the entire language and runtime is not supporting the idea.

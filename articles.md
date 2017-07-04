@@ -74,6 +74,7 @@
 
 ### Not Classified Yet :-)
 
+* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)
 * [LightMAC: A MAC Mode for Lightweight Block Ciphers](https://eprint.iacr.org/2016/190.pdf)

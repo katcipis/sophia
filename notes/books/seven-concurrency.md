@@ -404,3 +404,52 @@ solutions than languages that try something similar with libraries.
 They implement the idea of cheap concurrent units like Go, copying the
 names, but fail miserably in providing a uniform and clean interface
 since the entire language and runtime is not supporting the idea.
+
+### Actors VS CSP
+
+This is something that always got me thinking a lot. The first paper
+written by Hoare on CSP resembles more the actor model than the
+current implementations of CSP.
+
+The main difference is the shift from knowing the process you are
+sending messages and thinking about the channels, the channels generates
+decoupling, since you exchange messages without knowing exactly which
+process is going to receive the message.
+
+Another way to think is to compare the two concurrent models with
+different approaches to distributed systems. The actor model highly
+resembles traditional service integration where services communicate
+directly through message passing (TCP/UDP). Services must known the
+IP (process ID) of the service they want to communicate and them send
+packets (messages) directly to them. The messages can be retained on
+the network queue while the process do not handle them (the mailbox).
+
+CSP resembles integrating services through queues. Channels are basically
+blocking queues. A unbuffered channel is a queue with size 1, buffered channels
+are queues with size N. On this model you just have to know the queue (channel),
+processes consuming messages from the queue do not know the ones pushing
+messages, and vice versa. Implementing this competing consumer pattern
+automatically enables load balancing on your system, where the queue broker
+acts as the load balancer.
+
+I still don't have a good feeling on which are the tradeoffs of each model.
+CSP has a nice appealing since it promotes more decoupling, but the
+actor model implemented on Erlang provides means for distributing applications
+and also provide a fault tolerance model. Both can be done with CSP, but
+I don't know any language that implements CSP on that manner, it is usually
+focused on concurrency inside the same host and just writing and reading from
+channels.
+
+It would be easier to compare by seeing an implementation of CSP for
+distributed applications, CSP seems simpler but the actor model from
+Erlang provides a nice way to exchange messages between processes
+in different host on a transparent manner, and this do not seem easy
+to do with channels.
+
+When you send messages directly to a PID it can locate exactly where
+the process is running and send the message directly to there, in a peer
+to peer manner. With channels, when you write and read to a channel,
+where are the messages going on the network ? Channels can be shared by
+multiple processes, the host where the channel is created is where all
+messages will be aggregated ? It seems less natural to distribute
+the channels, but it does not seem impossible either.

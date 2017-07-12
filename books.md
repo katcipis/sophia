@@ -266,8 +266,6 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
-* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
-* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 # Done
@@ -275,6 +273,8 @@ Basically where I organize what I still want to read and what I have already rea
 ## 2017
 
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 
 ## 2016
 

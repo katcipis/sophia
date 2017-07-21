@@ -129,6 +129,7 @@ Basically where I organize what I still want to read and what I have already rea
 ### Lisp / Scheme
 
 * [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
+* [Lisp in small pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 * [Lisp in Small Pieces](http://www.amazon.com.br/Lisp-Small-Pieces-Christian-Queinnec-ebook/dp/B00AKE1U6O)

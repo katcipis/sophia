@@ -67,7 +67,7 @@ Usually social causes involves organizing people and creating movements
 (an example is the one that allowed women to vote), but on the technical area
 this can also be done by inventing.
 
-One example that is elaborated is the guy that invented most of all
+One example that is elaborated on Larry Tesler that invented most of all
 resources of modern text editors that are not modal. The modal interface
 (like vim) was terrible for almost all people, and he was worried that
 this would keep people away from computers, something that was wrong for

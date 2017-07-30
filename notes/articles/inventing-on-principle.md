@@ -95,4 +95,5 @@ is almost never mentioned on software development as an option to live
 your like and guide your career.
 
 Finding a principle takes time, and involves doing a lot of work, and
-a lot of work on different areas. Perhaps someday I will find one =).
+a lot of work on different areas. It is a journey of self discovery,
+Perhaps someday I will find one =).

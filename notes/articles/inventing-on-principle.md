@@ -13,10 +13,14 @@ fast connection with what they are creating.
 What does that mean ? It is about feedback, the feedback of changes
 on what is being created should be immediate and as clear as possible.
 
-All examples on the presentation are about graphics, in this case it is
+Most examples on the presentation are about graphics, in this case it is
 really easy to see how you can augment the connection between the creator
 and the creation. Basically while you change code you must be able to
 see the results IMMEDIATELY (removing the compile and run from the equation).
+
+There is also a cool example on how to develop a binary search with this
+principle, where all iterations of the algorithm is shown in real time
+as the code is changed, pretty neat.
 
 He even shows how to apply that on a game on the time dimension, it is pretty
 cool. It has features that helps you map the results in the screen to what

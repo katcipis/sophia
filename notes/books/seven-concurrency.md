@@ -467,6 +467,12 @@ matrices multiplication. GPGPU leverages this to general purpose programming.
 It is not as general purpose as the name suggests, even the programming
 model of OpenCL and CUDA are not as general as pure C.
 
+OpenCL seemed really cumbersome to me, you have to create kernels,
+and programs, and queues, something like 5 different concepts
+just to do any computation (boilerplate everywhere). And there
+is a lot of global variables hanging around. Perhaps they where bad
+examples, but it did not looked like fun =(.
+
 Also depending on the granularity of the computation, the overhead of copying
 data from the main memory to GPU memory through the PCI express bus will
 not be compensated by the GPU speed/parallelism.

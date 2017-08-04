@@ -453,3 +453,47 @@ where are the messages going on the network ? Channels can be shared by
 multiple processes, the host where the channel is created is where all
 messages will be aggregated ? It seems less natural to distribute
 the channels, but it does not seem impossible either.
+
+### Data Parallelism and GPGPU
+
+The book presents the GPU as a way to solve massively parallel number
+crunching. GPGPU is done by using OpenCL.
+
+To be able to leverage a GPU your problem needs to highly parallel,
+which usually means interdependence between computations.
+
+This is very common on computer graphics, that is basically massive
+matrices multiplication. GPGPU leverages this to general purpose programming.
+It is not as general purpose as the name suggests, even the programming
+model of OpenCL and CUDA are not as general as pure C.
+
+Also depending on the granularity of the computation, the overhead of copying
+data from the main memory to GPU memory through the PCI express bus will
+not be compensated by the GPU speed/parallelism.
+
+### Lambda Architecture
+
+Never heard of the lambda architecture before. It is presented as a concurrency
+model for distributed systems. It reminds me a lot of event sourcing.
+
+The lambda on the name comes from the idea of storing just raw data and
+always compute the state of your system, you dont have intermediate
+state stored, just raw stuff and functions transforming data,
+that is why it is lambda.
+
+Since this kind of processing will be batch given the amount of data
+we usually have to process this days the model proposes a batch layer
+and a real time layer.
+
+The batch layer will have a latency, like one hour. You can have a real
+time layer that does not process all raw data, just the fresh data that
+usually is orders of magnitude smaller, working with a window of 2 hours.
+
+The final view of the system is a merge of the batch view and the
+real time view. This does generate some complexity but can scale pretty
+well (the examples uses hadoop + S3 + storm for real time processing).
+
+The idea of having raw events and always computing state makes handling
+concurrency really easy, since state is never changed it has no race
+and no locks, so distributing it is easy. The main problem with this
+model is the computational cost of recalculating state all the time.

@@ -183,3 +183,108 @@ So, if your system don't need to:
 * Large grain data transfered across high-latency networks and multiple trust boundaries
 
 Perhaps you should consider something else that is not REST.
+
+## Software Architecture
+
+The first chapter is about defining exactly what is software architecture.
+It is very detailed, so here I will give an overview of what has
+seemed like the most important parts (at least for me).
+
+The concepts defined by an architecture are:
+
+* Run-time abstraction
+* Elements
+* Configurations
+* Properties
+* Styles
+
+The runtime abstraction is the idea that an architecture should hide
+runtime details about how components runs, no detail about languages
+or VMs should be included at this level. They are important details,
+but not on this level. Architectural views are like fractals, to get
+to runtime details you would be on a level that include code organization
+and other details that are irrelevant when you are discussing distributed
+systems.
+
+The elements are the base of representing the architectural view,
+basically:
+
+* Component
+* Connector
+* Data
+
+Components would be the services, or anything that may transform data
+and state.
+
+Connectors are how data is transmitted, or how the components
+integrate. The difference is that Connectors should never transform data,
+only transport it.
+
+Data is pretty self explanatory, how information is represented inside
+the system.
+
+The dissertation is about networked systems, but I'm stupid and everything
+is easier for me to understand with unix pipes, an example:
+
+```
+ps -ef | grep hi
+```
+
+The components are ps and grep.
+
+The connector is the pipe mechanism provided by the operational
+system (no transformation on the data).
+
+The data is the constraint established by the unix architecture,
+a text stream.
+
+Now we have configuration, which has nothing to do with usual
+software configuration, it means different ways to compose the
+available compoments/connectors/data.
+
+For example, this is a configuration:
+
+```
+ps -ef | grep hi
+```
+
+This is a different configuration of the same architecture:
+
+```
+netstat -anp | grep hi
+```
+
+The properties of an architecture are achieved by the constraints
+that the architecture define. For example, the unix architecture clearly
+sets constraints to enforce a uniform interface between components,
+the text stream.
+
+The properties obtained from these constraints are:
+
+* Reuse of components
+* Configurability (with configuration as defined before)
+
+An architectural style will be a set of constraints. The word
+**style** usually makes people think about taste, but this
+should be the opposite with architecture. Quoting the text directly:
+
+```
+Some architectural styles are often portrayed as "silver bullet" solutions for
+all forms of software. However, a good designer should select a style that
+matches the needs of the particular problem being solved [119].
+
+Choosing the right architectural style for a network-based application requires
+an understanding of the problem domain [67] and thereby the communication
+needs of the application, an awareness of the variety of architectural styles
+and the particular concerns they address, and the ability to anticipate the
+sensitivity of each interaction style to the characteristics of
+network-based communication
+```
+
+So styles is not the same as taste, and choosing architectures using
+fashion is the opposite of what an architect should do. Software
+developers should strive to know as much architectural styles possible,
+the constraints of each ones, the tradeoffs and in which contexts
+they will perform better.
+
+But besides all, you should understand the problem domain WELL.

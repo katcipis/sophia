@@ -225,7 +225,7 @@ creations as our main computing systems (later called Living
 Lab).
 ```
 
-There you go, put some cool constraints and great things can happen.
+There you go, add some principles and great things can happen.
 Today we call this "dogfooding" from the "eat your own dog food", meaning
 "use your own systems". Again we can see that a lot of our "cool trending ideas"
 are cool but not new at all, our ignorance about our own past and the
@@ -236,8 +236,16 @@ old ones (almost all the time poorly and without understanding why we do it).
 The idea of what happened at ARPA/PARC is different from tossing around
 a lot of money on a lot of people without expecting nothing. People who
 are self motivated usually like to finish stuff and see them working, and
-the principle of using its own creation catalysed this even more. The resources
-where scarce and this generated a finesse on how work was realized:
+the principle of using its own creation catalysed this even more:
+
+```
+The result was almost miraculous. Many of the most important
+projects got to a stable, usable, and user-testable place a year or
+more earlier than our optimistic estimates.
+```
+
+The resources where scarce and this generated a
+finesse on how work was realized:
 
 ```
 Respect for complexity, lack of knowledge, the small number of
@@ -275,4 +283,42 @@ and perfection where avoided.
 
 ## Building your own tools
 
-This is a very interesting subject that is also covered by the article.
+This is a very interesting subject that is also covered by the article:
+
+```
+in programming there is a wide-spread 1st order theory that one
+shouldn't build one's own tools, languages, and especially
+operating systems. This is true—an incredible amount of time
+and energy has gone down these ratholes.
+
+On the 2nd hand, if you can build your own tools, languages and operating
+systems, then you absolutely should because the leverage that can be obtained
+(and often the time not wasted in trying to fix other people's not
+quite right tools) can be incredible.
+```
+
+Again no easy answer. The easy way is to just shut your mind down to
+building your tools and always use something that already exists,
+some industry standard stuff. Trying to think differently is usually
+seems as counter productive and a waste of time. The metaphor used
+is "don't reinvent the wheel". Blind use of this principle usually
+ends in systems that looks like this:
+
+![awesomecar](http://www.e90post.com/forums/attachment.php?attachmentid=902906&stc=1&d=1377043037)
+
+Or like this:
+
+![bigfoot](http://files.ctctcdn.com/e0a100a1201/87775e6b-10fe-48c7-8ddb-0623336b5f6e.jpg)
+
+Again there is a call for balance, writing your own tools every time 
+will probably not be a good idea, but just using other people "wheels"
+will probably not be a good idea either. Specially when the wheel is not round
+or is stupidly big (metaphors are great =D).
+
+## Conclusion
+
+There is tons of awesome stuff on the article, to finish with a last quote:
+
+```
+The best way to predict the future is to invent it
+```

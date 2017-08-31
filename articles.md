@@ -15,6 +15,7 @@
 
 ### Data
 
+* [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)

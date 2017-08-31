@@ -93,6 +93,7 @@
 * [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
 * [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)
 * [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf)
+* [The USE method](http://www.brendangregg.com/usemethod.html)
 
 ### 2016
 

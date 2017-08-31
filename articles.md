@@ -2,7 +2,6 @@
 
 ## Queue
 
-
 ### Captcha
 
 * [I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs](http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf)
@@ -11,7 +10,6 @@
 * [Caffe: Convolutional Architecture for Fast Feature Embedding](http://ucb-icsi-vision-group.github.io/caffe-paper/caffe.pdf)
 * [The End is Nigh: Generic Solving of Text-based CAPTCHAs](https://www.usenix.org/system/files/conference/woot14/woot14-bursztein.pdf)
 * [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1312.6082.pdf)
-
 
 ### Data
 
@@ -27,12 +25,13 @@
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-suresh.pdf)
 
-
 ### Distributed Systems
 
+* [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [A note on distributed systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
 * [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)
+* [Wireguard: Next Generation Kernel Network Tunnel](https://www.wireguard.io/papers/wireguard.pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
@@ -45,7 +44,6 @@
 * [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
 * [Lots of papers](http://dsrg.pdos.csail.mit.edu/papers/)
 
-
 ### Concurrency
 
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
@@ -53,7 +51,6 @@
 * [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)
 * [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
 * [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
-
 
 ### Languages
 
@@ -72,9 +69,9 @@
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
-
 ### Not Classified Yet :-)
 
+* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)
 * [LightMAC: A MAC Mode for Lightweight Block Ciphers](https://eprint.iacr.org/2016/190.pdf)
@@ -88,14 +85,14 @@
 * [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 
-
 ## Done
 
 ### 2017
 
 * [The humble programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
 * [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
-
+* [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)
+* [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf)
 
 ### 2016
 

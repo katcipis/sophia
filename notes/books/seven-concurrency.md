@@ -171,7 +171,9 @@ concurrency model presented for clojure. I won't get in details
 because on this part I just gave up on Clojure for concurrency
 (or for anything).
 
-### Elixir
+### Actor Model
+
+For the Actor model the book uses Elixir as an example.
 
 Elixir concurrency model inherits the Erlang concurrency model.
 Because of that, it actually has a pretty neat concurrency model,
@@ -303,7 +305,7 @@ The idea is to make communication explicit, and if you want, use it
 to share data. In Erlang/Elixir you just can't share data, it is
 always copied, so you will have less options but also less space
 for hard to debug concurrency bugs. If the copying mechanism is
-well implemented it can over a good performance and provide a
+well implemented it can offer a good performance and provide a
 more safe/resilient way to develop concurrent software.
 
 About the message passing model there is an interesting quote
@@ -324,3 +326,180 @@ The key in making great and growable systems is much more to design
 how it's modules communicate rather than what their internal properties
 and behaviors should be.
 ```
+
+### CSP
+
+For CSP Clojure is chosen, together with a library that implements
+CSP. The core of the ideas of CSP can be explained perfectly through
+functions, and the way that CSP is explained as focusing on the
+communication channel instead of the communicating entities
+seems correct.
+
+Basically you create a channel with the chan function (imported from a lib):
+
+```
+(def ch (chan))
+```
+
+Write with the **>!!** macro and read with the **<!!** macro.
+There is buffered channels, just like Go.
+
+There is also some odd stuff like channels that drops writes
+when full, or circular channels that drops the oldest message
+when a write is performed on a full channel.
+
+But thing REALLY start to smell when it starts to explain the
+**go** macro, that will create what would be a goroutine
+in Go. Here the language and the library falls extremely short.
+
+The author is well succeeded in explaining why a thread pool can
+go wrong if you make synchronous calls, since the thread will
+be blocked, exhausting your pool. One solution is asynchronous code,
+but that can be hard to manage.
+
+The solution is to provide a synchronous flow using an asynchronous
+engine that lies inside the runtime. The **go** macro aims to provide
+such a mechanism, delivering a synchronous flow but implementing asynchronous
+code behind the scenes, so far so good.
+
+Then, explaining the **go** macro this happened:
+
+```
+(go (<! ch))
+```
+
+And this:
+
+```
+(go (>! ch 3))
+```
+
+If you are paying attention you will see that these macros
+have only one **!** instead of **!!**. Why ? They are the
+"parking version" of the read and write macros.
+
+Yes, he calls the idea of relinquishing the control of the CPU
+to the scheduler as "parking". The magical parking version macro
+only works inside **go** macros, using them outside the **go** macro
+will throw a runtime exception
+(the parking version only exists inside the **go** macro),
+you must use the **<!!** and **>!!**
+on this cases.
+
+But using these non parking version inside **go** macros
+can cause your code to deadlock if you lock all the underlying threads
+of the thread pool.  This is not detected by the runtime,
+you will simply lock all threads.
+
+Basically if you are inside the **go** macro you must use
+**<!** and **>!**, or you can get a deadlock. Outside the macro,
+using the wrong version tosses an exception.
+
+I'm not totally convinced that this could not be better implemented even
+if it is a library, but even if there is a reason it is just another
+proof that if a language is built from the scratch with concurrency
+as a first class concern it will always be able to provide better
+solutions than languages that try something similar with libraries.
+
+They implement the idea of cheap concurrent units like Go, copying the
+names, but fail miserably in providing a uniform and clean interface
+since the entire language and runtime is not supporting the idea.
+
+### Actors VS CSP
+
+This is something that always got me thinking a lot. The first paper
+written by Hoare on CSP resembles more the actor model than the
+current implementations of CSP.
+
+The main difference is the shift from knowing the process you are
+sending messages and thinking about the channels, the channels generates
+decoupling, since you exchange messages without knowing exactly which
+process is going to receive the message.
+
+Another way to think is to compare the two concurrent models with
+different approaches to distributed systems. The actor model highly
+resembles traditional service integration where services communicate
+directly through message passing (TCP/UDP). Services must known the
+IP (process ID) of the service they want to communicate and them send
+packets (messages) directly to them. The messages can be retained on
+the network queue while the process do not handle them (the mailbox).
+
+CSP resembles integrating services through queues. Channels are basically
+blocking queues. A unbuffered channel is a queue with size 1, buffered channels
+are queues with size N. On this model you just have to know the queue (channel),
+processes consuming messages from the queue do not know the ones pushing
+messages, and vice versa. Implementing this competing consumer pattern
+automatically enables load balancing on your system, where the queue broker
+acts as the load balancer.
+
+I still don't have a good feeling on which are the tradeoffs of each model.
+CSP has a nice appealing since it promotes more decoupling, but the
+actor model implemented on Erlang provides means for distributing applications
+and also provide a fault tolerance model. Both can be done with CSP, but
+I don't know any language that implements CSP on that manner, it is usually
+focused on concurrency inside the same host and just writing and reading from
+channels.
+
+It would be easier to compare by seeing an implementation of CSP for
+distributed applications, CSP seems simpler but the actor model from
+Erlang provides a nice way to exchange messages between processes
+in different host on a transparent manner, and this do not seem easy
+to do with channels.
+
+When you send messages directly to a PID it can locate exactly where
+the process is running and send the message directly to there, in a peer
+to peer manner. With channels, when you write and read to a channel,
+where are the messages going on the network ? Channels can be shared by
+multiple processes, the host where the channel is created is where all
+messages will be aggregated ? It seems less natural to distribute
+the channels, but it does not seem impossible either.
+
+### Data Parallelism and GPGPU
+
+The book presents the GPU as a way to solve massively parallel number
+crunching. GPGPU is done by using OpenCL.
+
+To be able to leverage a GPU your problem needs to highly parallel,
+which usually means interdependence between computations.
+
+This is very common on computer graphics, that is basically massive
+matrices multiplication. GPGPU leverages this to general purpose programming.
+It is not as general purpose as the name suggests, even the programming
+model of OpenCL and CUDA are not as general as pure C.
+
+OpenCL seemed really cumbersome to me, you have to create kernels,
+and programs, and queues, something like 5 different concepts
+just to do any computation (boilerplate everywhere). And there
+is a lot of global variables hanging around. Perhaps they where bad
+examples, but it did not looked like fun =(.
+
+Also depending on the granularity of the computation, the overhead of copying
+data from the main memory to GPU memory through the PCI express bus will
+not be compensated by the GPU speed/parallelism.
+
+### Lambda Architecture
+
+Never heard of the lambda architecture before. It is presented as a concurrency
+model for distributed systems. It reminds me a lot of event sourcing.
+
+The lambda on the name comes from the idea of storing just raw data and
+always compute the state of your system, you dont have intermediate
+state stored, just raw stuff and functions transforming data,
+that is why it is lambda.
+
+Since this kind of processing will be batch given the amount of data
+we usually have to process this days the model proposes a batch layer
+and a real time layer.
+
+The batch layer will have a latency, like one hour. You can have a real
+time layer that does not process all raw data, just the fresh data that
+usually is orders of magnitude smaller, working with a window of 2 hours.
+
+The final view of the system is a merge of the batch view and the
+real time view. This does generate some complexity but can scale pretty
+well (the examples uses hadoop + S3 + storm for real time processing).
+
+The idea of having raw events and always computing state makes handling
+concurrency really easy, since state is never changed it has no race
+and no locks, so distributing it is easy. The main problem with this
+model is the computational cost of recalculating state all the time.

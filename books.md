@@ -129,6 +129,7 @@ Basically where I organize what I still want to read and what I have already rea
 ### Lisp / Scheme
 
 * [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
+* [Lisp in small pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
 * [Lisp in Small Pieces](http://www.amazon.com.br/Lisp-Small-Pieces-Christian-Queinnec-ebook/dp/B00AKE1U6O)
@@ -265,9 +266,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
-* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
-* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
+* [The Book](https://www.amazon.com/Book-Taboo-Against-Knowing-Who/dp/0679723005)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
 # Done
@@ -275,6 +274,9 @@ Basically where I organize what I still want to read and what I have already rea
 ## 2017
 
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
+* [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
 
 ## 2016
 

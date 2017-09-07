@@ -22,6 +22,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Personal
 
+* [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)

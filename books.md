@@ -261,14 +261,21 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
 
+
 ## Low level
 
 * [Assembly and Loaders](http://www.davidsalomon.name/assem.advertis/asl.pdf)
 
+
+## Games
+
+* [Game Engine Black Book](https://www.amazon.com/Game-Engine-Black-Book-Wolfenstein/dp/1539692876)
+
+
 # Reading
 
-* [The Book](https://www.amazon.com/Book-Taboo-Against-Knowing-Who/dp/0679723005)
 * [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
+
 
 # Done
 
@@ -278,6 +285,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
+* [The Book](https://www.amazon.com/Book-Taboo-Against-Knowing-Who/dp/0679723005)
 
 ## 2016
 

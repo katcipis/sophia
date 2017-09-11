@@ -13,7 +13,6 @@
 
 ### Data
 
-* [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
@@ -71,6 +70,7 @@
 
 ### Not Classified Yet :-)
 
+* [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)

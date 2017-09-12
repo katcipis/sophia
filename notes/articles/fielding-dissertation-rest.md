@@ -329,7 +329,7 @@ The methodology is explained in great detail in a formal way, but the final
 work of creating REST seems to have been a pretty hands on experience,
 involving a lot of coding and experimentation.
 
-** REST
+## REST
 
 I'm going to coalesce the rest of the dissertation as **REST**,
 which begins at chapter 5.

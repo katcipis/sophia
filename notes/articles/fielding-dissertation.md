@@ -288,3 +288,101 @@ the constraints of each ones, the tradeoffs and in which contexts
 they will perform better.
 
 But besides all, you should understand the problem domain WELL.
+Another interesting thing that I noticed when the methodology for
+creating the architectural style is explained:
+
+```
+Finally, the updated Web architecture, as defined by the revised protocol
+standards that have been written according to the guidelines of the new
+architectural style, is deployed through participation in the development
+of the infrastructure and middleware software that make up the majority of
+Web applications.
+
+This included my direct participation in software development for the Apache
+HTTP server project and the libwww-perl client library, as well as indirect
+participation in other projects by advising the developers of the W3C libwww
+and jigsaw projects, the Netscape Navigator, Lynx, and MSIE browsers,
+and dozens of other implementations, as part of the IETF discourse.
+```
+
+Why is it so interesting ? Because it shows the correlation between
+defining a system architecture and development/deployment of the system.
+I'm not even sure of the benefits of considering these as separated
+activities (architecting/designing and implementing/deploying), but even
+if you consider them separately it is important to be aware of the feedback
+that development and deployment can give to you about your architecture.
+
+The sequence described is actually a repeating cycle, reinforcing the
+feedback feeding the improvements on the architecture:
+
+```
+Although I have described this approach as a single sequence, it is actually
+applied in a non-sequential, iterative fashion.
+
+That is, over the past six years I have been constructing models,
+adding constraints to the architectural style, and testing their affect on the
+Web's protocol standards via experimental extensions to client and
+server software
+```
+
+The methodology is explained in great detail in a formal way, but the final
+work of creating REST seems to have been a pretty hands on experience,
+involving a lot of coding and experimentation.
+
+** REST
+
+I'm going to coalesce the rest of the dissertation as **REST**,
+which begins at chapter 5.
+
+Since REST has to solve the problem of integrating systems that
+crosses organizational boundaries it is fundamental to provide a
+uniform interface, enforcing generality on this interface.
+
+This makes integration a lot easier, but has the setback of all
+generic things, it is not the **best** implementation for no
+specific problem. So depending on the specific needs of your application
+the REST uniform interface may be a huge pain to implement since it is
+not the best suited for your problem (it was design for high decoupling
+of services and moving coarse grained data through fucked up networks).
+
+It is important to be aware of that before dwelling further on REST
+definition, it is not a panacea or a silver bullet, it is the best
+thing we could come up until now to integrate the whole world, which
+is usually not the case on a lot of distributed systems that do not
+cross more than one organization (sometimes do not cross even one team):
+
+```
+The trade-off, though, is that a uniform interface degrades efficiency,
+since information is transferred in a standardized form rather than one
+which is specific to an application's needs.
+
+The REST interface is designed to be efficient for large-grain hypermedia
+data transfer, optimizing for the common case of the Web, but resulting in
+an interface that is not optimal for other forms of architectural interaction.
+```
+
+There are four main constraints that promotes uniform interfaces on REST:
+
+* Identification of resources (URL)
+* Manipulation of resources through representations (Decoupling, content negotiation)
+* Self-descriptive messages (Live docs that are navigable)
+* Hypermedia as the engine of application state (The "state transfer" on REST =P)
+
+The core concept of REST revolves around the resource.
+There is a clear distinction on REST between a resource and
+a resource representation. They will even have different metadata.
+
+For example, a resource metadata is its URL, its is a location to
+access the resource representation. The resource may have multiple resource
+representations, some can be added and removed along time, but the URL
+remains the same since it refers to the same resource (hence the difference
+between the resource and its representations, it is a 1 -> N relationship).
+
+The resource representation metadata can be its media type,
+cacheability, etc. It is imperative that manipulation of resources always
+happens through representations of the resource, never the resource itself,
+hence promoting decoupling since the internal resource can be modified and
+evolved freely if the representations remains the same (new ones can be added
+without interfering on old ones, this reminds me of versioning of content type,
+instead of URLs, which may make sense depending on the semantics of the change
+you are making).

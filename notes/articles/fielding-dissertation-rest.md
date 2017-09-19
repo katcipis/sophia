@@ -365,7 +365,7 @@ There are four main constraints that promotes uniform interfaces on REST:
 
 * Identification of resources (URL)
 * Manipulation of resources through representations (Decoupling, content negotiation)
-* Self-descriptive messages (Live docs that are navigable)
+* Self-descriptive messages (Stateless)
 * Hypermedia as the engine of application state (The "state transfer" on REST =P)
 
 The core concept of REST revolves around the resource.

@@ -1,5 +1,13 @@
 # Alan Kay Cool Stuff
 
+Sources for these writings:
+
+* [Power of Simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs&feature=youtu.be)
+* [The Computer Revolution not happened yet](https://www.youtube.com/watch?v=oKg1hTOQXoY&feature=youtu.be)
+* [Rethinking CS education](https://www.youtube.com/watch?v=N9c7_8Gp7gI)
+* [Normal Considered Harmful](https://www.youtube.com/watch?v=FvmTSpJU-Xc)
+* [Doing with images make symbols](https://www.youtube.com/watch?v=p2LZLYcu_JY&feature=youtu.be)
+
 ## Science definition
 
 Greatest thought process ever created by humankind exactly
@@ -15,6 +23,40 @@ To be able to see you have to realise you are actually blind.
 
 This metaphor compares our view of reality as canyons that are formed by erosion.
 As time passes they only get deeper and it gets really hard to see out of them.
+
+It is human nature to die in the same world that you was born, it has been like that
+for thousands of years, so it is on our nature to resist change and also to get
+attached to our representation of reality and ideas.
+
+There is a great way to observe that on astronomy.
+
+## Circles VS Ellipses
+
+I won't recall the names, because I suck at remembering names =(, but
+basically for hundreds of years man tried to explain the orbit of planets
+using circles. Why ? Well, it seemed like the planets where moving on a very
+messy way (the word planet in greek refers to "wanderer"), and God is perfect,
+since God is perfect the way everything works must be perfect too.
+
+So instead of accepting old works that suggested elliptic orbits, there was a lot
+of work to explain it with circles. Since circles where not fitting the reality did
+they revised the circle/perfection thing ? No, humans are not really great with this
+kind of thing remember ? =) They just started to explain things with multiple circles,
+basically patching their broken model with more circles.
+
+Certainly this reminds me of something =), just as we patch bad ideas we patch
+bad software, a huge failure of imagination but at the same time part of our nature,
+and changing human nature is much slower than we would like to believe.
+
+The end of the history is that the guy who was able to establish the elliptic orbits
+model took decades of trying to work with other models. Why ? Well he thought that
+ellipses where so basic and simple that the previous geniuses SURELY would have thought
+of that and discarded because it did not worked. They where geniuses alright, but still
+human, his lack of understanding human nature costed him some decades =).
+
+This shows another side to studying and respecting previous work. The software industry
+suffers a great deal for not knowing the past and repeating its mistakes, but sometimes
+it is important to let go of old assumptions and try again an idea.
 
 ## First human powered flight
 
@@ -58,6 +100,53 @@ working almost unaltered for more than a hundred years, for example.
 This is very hard for me to understand since I'm pretty low level / machine
 oriented on how I think about computing, but it does make sense to define
 science this way.
+
+## Organic VS Mechanic
+
+I always found more inspiration for software in organic systems than buildings,
+so it has a great appeal to me when Alan Kay talks about how great life is
+at scaling. Not that metaphors and analogies with architecture are bad, actually
+you can see architecture and design in life too.
+
+The thing is that scaling mechanisms, at least on how we build them, is very hard.
+His example is always the dog house, you can build a dog house from almost anything,
+and it works. But if you think to scale it to become a cathedral you can't just
+multiply the dog house by a hundred, it will fall because of very know physics rules.
+
+This is the same way a lot of software is built, get something that works on a small scale
+and just force it to scale until it crumbles. When it crumbles two things can happen:
+
+* Admit you was wrong
+* Build a pyramid on top of the fallen build and say that this is what you wanted to build
+
+Sadly almost all the times we convince ourselves that what we wanted was the pyramid =P.
+We got a lot better at building great structures, but still it does not come close as
+the level of scalability of life.
+
+OK, but what can be applied from life itself to software ? Well take the cell, it is the
+perfect example of something completely encapsulated by its cell membrane, everything
+that comes in and goes out follows the protocol enforced by the membrane, nothing
+comes inside without inspection, and what enables this awesome level of composition is
+the fact that they have a great generic interface between them, proteins/DNA.
+
+On Roy Fielding [dissertation on REST](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.html)
+he explains that the most important aspect of REST is the imposed constraint
+of having the same generic interface between components,
+to scale at the level of the web it was mandatory to be able to compose new
+and old stuff without causing disruption.
+
+The constraints may make some things harder to implement,
+but the better the generic interface, and the simpler, less limitations will be
+generated by imposing the generic interface.
+
+Life teaches us that to a system to scale it needs the right interfaces and the right constraints.
+All life on earth needs the same basic building blocks, this imposes limitations on how life can
+manifest itself, but it allows an awesome level of scalability and composition between everything
+that is alive.
+
+We need great building blocks or we are doomed to build things that will never scale,
+being able to identify a bad building block and invest on building better ones is extremely
+rare on the software industry, where companies are usually just worried with quarter profits.
 
 ## Catch phrases
 

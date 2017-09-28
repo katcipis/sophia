@@ -68,6 +68,12 @@
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
+
+### Virtualization and Containers
+
+* [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](https://clearlinux.org/sites/default/files/vmscontainers_wp_v5.pdf)
+
+
 ### Not Classified Yet :-)
 
 * [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)

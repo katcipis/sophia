@@ -416,10 +416,10 @@ all with using cookies to do all sort of crap.
 
 I always had a hard time differentiating RPC from REST.
 There is some sense on thinking that REST is more resource
-oriented etc, but this is a little shallow.
+oriented etc, but this is a little fuzzy to me.
 
 The author actually uses something that I never thought before
-that is associated with the need for caching (visibility).
+that is associated with the need for caching.
 
 On REST, the nodes between the endpoints (client <-> server)
 are not just routers, they can be caches, proxies, etc. This is

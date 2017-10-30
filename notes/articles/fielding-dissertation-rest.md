@@ -386,3 +386,105 @@ evolved freely if the representations remains the same (new ones can be added
 without interfering on old ones, this reminds me of versioning of content type,
 instead of URLs, which may make sense depending on the semantics of the change
 you are making).
+
+### The Cookie Monster
+
+I never thought about cookies matching the idea of stateless
+on REST, and on the dissertation I got confirmation that they
+are not. Actually they are one of the most notable ways people
+disregard REST constraints, and on this case at the cost
+of people's privacy and protocol visibility.
+
+When cookies are present usually this allow tracing even across
+sites, which violates users privacy. Beyond that you loose
+the visibility property that is induced by self describing
+messages. The protocol is not explicit anymore. Requests
+may have different responses just because of some opaque
+ID (the cookie).
+
+When debugging interactions between a client and a server
+with cookies just inspecting an isolated request is not
+enough, the whole set of requests must be analyzed. Cookies
+enable a cross resources / global state manipulation
+that can get pretty hard to debug.
+
+It is interesting how people are willing to kill because of
+URL naming and HTTP methods but seem to have no problem at
+all with using cookies to do all sort of crap.
+
+### RPC
+
+I always had a hard time differentiating RPC from REST.
+There is some sense on thinking that REST is more resource
+oriented etc, but this is a little shallow.
+
+The author actually uses something that I never thought before
+that is associated with the need for caching (visibility).
+
+On REST, the nodes between the endpoints (client <-> server)
+are not just routers, they can be caches, proxies, etc. This is
+not the case on RPC, RPC always involves the communication
+between the two endpoints and the nodes on the network are
+just routers/brokers (all the ones that I know matches this
+description).
+
+It may not be the only difference, but it is the one that is
+more clear.
+
+## Java VS JavaScript
+
+There is a very interesting part where an analysis is realized
+on why JavaScript won the browser war against Java.
+
+It is not related to language quality since Java was widely
+adopted on other niches, and was also not a matter of marketing
+since Sun Microsystems was very good at it.
+
+In the end JavaScript understood the REST/Web principles
+better, specially on these points:
+
+* Focus on low latency
+* Visibility
+* Low learning curve
+
+Javascript was just as visible as HTML, everyone could
+inspect and debug it just as they used to do with HTML and
+other plain text formats. Basically the choice of
+using the source code and interpreting it on the
+browser was a big win against having to download some
+black box binary to run on a VM.
+
+The deployment of Java code was not just opaque, it would
+also lack progressive rendering. To start to show any kind
+of progress it needed to download all the binaries, which
+greatly increased latency.
+
+JavaScript was also faster to starting to hack something
+small and grow from there (although it is arguable if
+the medium to large software can be properly designed with
+it on the wild).
+
+# Conclusion
+
+The dissertation does a **GREAT** job on building a framework
+to think about software architecture for network based systems.
+It teaches a good way to think about how architectural constraints
+can induce architectural properties, at least it was very
+enlightening to me.
+
+It also does a great job to explain the desired properties on REST,
+which will not be the same of most organizations. Not everyone needs
+to handle anarchic scalability, high levels of decoupling and the
+transfer of coarse grained data.
+
+On the web systems that where never intended to work together
+need to be composed, that is why there is a great deal of
+constraints trying to enforce uniformity. As the author says,
+this will produce a very generic protocol that will be great
+as a way to integrate the whole world but will perform poorly
+on more specific tasks.
+
+Always think about what are the architectural properties that
+you need to solve your problem and them think about constraints
+that will satisfy them, don't just do RESTful for the sake of
+being RESTful.

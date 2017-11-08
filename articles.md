@@ -99,6 +99,9 @@
 
 ### 2017
 
+* [The Organization of Networks in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/net/)
+* [The use of namespaces in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/names)
+* [Lexical Filenames in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/lexnames)
 * [The humble programmer](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD340.html)
 * [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
 * [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.pdf)

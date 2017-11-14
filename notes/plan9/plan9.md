@@ -4,14 +4,12 @@
 What was unexpected was how well the model could be used to solve a
 wide variety of problems not usually thought of as file system issues.
 ```
-
 From [The Styx Architecture for Distributed Systems](http://doc.cat-v.org/inferno/4th_edition/styx).
 
 ```
 The representation of all resources as file systems coupled with an ASCII
 interface has proved more powerful than we had originally imagined.
 ```
-
 From [The Organization of Networks in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/net/)
 
 ## Holy Grail: A Uniform Interface
@@ -40,9 +38,34 @@ achieve uniformity.
 ```
 The integration of devices into the hierarchical file system was the best idea in UNIX
 ```
-
 From [The use of namespaces in Plan9](http://doc.cat-v.org/plan_9/4th_edition/papers/names).
 
+Indeed it was. Plan9 pushes the UNIX idea to the limit proposing that the
+integration of everything should be done as a hierarchical file system.
+
+What would be everything ? Well, everything =), like:
+
+* Networking
+* Information on running processes
+* Any service that you can think of
+* Remote files
+* Actual local files
+
+Access to all this will be done via files.
+That is why namespaces are central to Plan9, every process has its own
+namespace that can be empty or inherited from it's parent. All services
+that a process can see and integrate with must be present on this
+namespace. Making stuff available on your namespace can be achieved via
+mounting.
+
+Services are represented through files. Since files (services) can be
+local or remote you need a common protocol between local and remote
+file servers, this is achieved through the 9P network protocol and
+mount devices.
+
+## Mount away
+
+TODO: image to explain mount device. local and remote mounting + 9P
 
 ## Multiplication factor
 

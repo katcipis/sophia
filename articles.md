@@ -99,6 +99,9 @@
 
 ### 2017
 
+* [Plan9 from Bell Labs](http://doc.cat-v.org/plan_9/4th_edition/papers/9)
+* [Security in plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/auth)
+* [The Styx Architecture for Distributed Systems](http://doc.cat-v.org/inferno/4th_edition/styx)
 * [The Organization of Networks in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/net/)
 * [The use of namespaces in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/names)
 * [Lexical Filenames in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/lexnames)

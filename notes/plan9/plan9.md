@@ -81,3 +81,20 @@ Examples:
 ## Conclusion
 
 TODO: Not everything fit the file abstraction =(
+
+```
+Nonetheless there are some operations in Plan 9 that are
+not mapped into file I/O.
+
+An example is process creation. We could imagine a message to a control
+file in /proc that creates a process, but the details of constructing
+the environment of the new process — its open files, name space,
+memory image, etc. — are too intricate to be described easily in a
+simple I/O operation.
+
+Therefore new processes on Plan 9 are created by fairly conventional
+rfork and exec system calls; /proc is used only to represent
+and control existing processes.
+```
+
+From [The use of namespaces in Plan9](http://doc.cat-v.org/plan_9/4th_edition/papers/names).

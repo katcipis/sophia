@@ -10,7 +10,7 @@ provides some service for you through an API that is (usually)
 language agnostic. I'm trying to make a distinction between
 a service and a library, libraries publishes APIs that are
 accessible through the runtime of the language that they
-are published (or through some type of FFI).
+are developed on (or through some type of FFI).
 
 Why make a distinction ? Libraries have their code as a form of basic
 documentation. Function prototypes and data structures have a lot to
@@ -19,10 +19,10 @@ public functions is enough for me. Not that this is not an area that
 needs improvement but I see that we are much better served on this area.
 
 Golang for example have something that resembles doxygen docs and a system
-to express examples that are embedded on the docs later.
+to express examples that are compiled and run and embedded on the docs later.
 
 The problem with services is that usually you are integrating with them
-from language X, the service has been developed in language Y and the developer
+from language X but the service has been developed in language Y and the developer
 of X probably doesn't even know which language the service he is consuming has
 been written on (nor should he, knowing things is fun but having to know in which
 language a service has been written at this level of abstraction seems like a

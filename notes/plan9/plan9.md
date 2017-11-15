@@ -66,6 +66,7 @@ mount devices.
 ## Mount away
 
 TODO: image to explain mount device. local and remote mounting + 9P
+TODO: Diagrams MODERFOCKERRRRR
 
 ## Multiplication factor
 
@@ -77,6 +78,30 @@ Examples:
 * Building environments (PATH vs union mount)
 * Resource sharing (networking gateways, debugging)
 * Monitoring/Visibility (just monitor 9P messages, iostat for the rescue)
+
+## Connection Server
+
+```
+On each system a user level connection server process, CS, translates symbolic
+names to addresses. CS uses information about available networks,
+the network database, and other servers (such as DNS) to translate names.
+
+CS is a file server serving a single file, /net/cs.
+A client writes a symbolic name to /net/cs then reads one line for each
+matching destination reachable from this system.
+
+The lines are of the form filename message, where filename is the path of the
+clone file to open for a new connection and message is the string to write to
+it to make the connection.
+```
+
+From [The Organization of Networks in Plan 9](http://doc.cat-v.org/plan_9/4th_edition/papers/net/)
+
+TODO: Talk about how it reminds HATEOAS and how it induces the
+same architectural property of being highly decoupled.
+
+Deployment of new services with different "messages" to establish
+connections won't break any client.
 
 ## Conclusion
 

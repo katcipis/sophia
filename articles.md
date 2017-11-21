@@ -34,6 +34,7 @@
 
 ### Distributed Systems
 
+* [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
 * [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [A note on distributed systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)

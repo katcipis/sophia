@@ -2,8 +2,16 @@
 
 ## Queue
 
+### Audio
+
+* [Voice recognition algorithms using (MFCC) and (DTW) techniques](https://www.usenix.org/system/files/conference/woot17/woot17-paper-bock.pdf)
+* [Comparative Evaluation of Various MFCC Implementations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.8303&rep=rep1&type=pdf)
+* [Robust audio hashing for audio identification](https://isis.poly.edu/memon/pdf/2004_Robust_Audio_Hashing_for_Audio_Identification.pdf)
+
 ### Captcha
 
+* [Breaking e-bank captchas](https://kops.uni-konstanz.de/bitstream/handle/123456789/6246/ACSAC2010_Full.pdf?sequence=1)
+* [Decaptcha: Breaking 75% of eBay Audio CAPTCHAs](https://www.usenix.org/legacy/event/woot09/tech/full_papers/bursztein.pdf)
 * [I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs](http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf)
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
 * [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)

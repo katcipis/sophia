@@ -10,6 +10,7 @@
 
 ### Captcha
 
+* [Solving Google’s Continuous Audio CAPTCHA with HMM-Based Automatic Speech Recognition](https://studyingcrypto.files.wordpress.com/2017/04/20131.pdf)
 * [Breaking e-bank captchas](https://kops.uni-konstanz.de/bitstream/handle/123456789/6246/ACSAC2010_Full.pdf?sequence=1)
 * [Decaptcha: Breaking 75% of eBay Audio CAPTCHAs](https://www.usenix.org/legacy/event/woot09/tech/full_papers/bursztein.pdf)
 * [I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs](http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf)

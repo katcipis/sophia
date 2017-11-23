@@ -180,6 +180,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Math
 
+* [What is Mathematics](http://www.cimat.mx/~gil/docencia/2017/mate_elem/[Courant,Robbins]What_Is_Mathematics(2nd_edition_1996)v2.pdf)
 * [Good Math](http://pragprog.com/book/mcmath/good-math)
 * [Mathematics of GIS](http://homepage.univie.ac.at/wolfgang.kainz/Lehrveranstaltungen/15th_Nordic_Summer_School/The_Mathematics_of_GIS_Draft.pdf)
 * [Think Bayes](https://www.amazon.com/gp/product/1449370780)

@@ -78,6 +78,7 @@ Examples:
 * Building environments (PATH vs union mount)
 * Resource sharing (networking gateways, debugging)
 * Monitoring/Visibility (just monitor 9P messages, iostat for the rescue)
+* Mocking (talk about mocking time, natel knows more)
 
 ## Connection Server
 

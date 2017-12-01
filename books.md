@@ -180,8 +180,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Math
 
-* [What is Mathematics](http://www.cimat.mx/~gil/docencia/2017/mate_elem/[Courant,Robbins]What_Is_Mathematics(2nd_edition_1996)v2.pdf)
-* [Good Math](http://pragprog.com/book/mcmath/good-math)
+* [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 * [Mathematics of GIS](http://homepage.univie.ac.at/wolfgang.kainz/Lehrveranstaltungen/15th_Nordic_Summer_School/The_Mathematics_of_GIS_Draft.pdf)
 * [Think Bayes](https://www.amazon.com/gp/product/1449370780)
 * Statistics in a Nutshell: A Desktop Quick Reference
@@ -189,10 +188,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [Graph Theory](http://www.amazon.com/Graph-Theory-Dover-Books-Mathematics/dp/0486498069)
 * [Graph Analysis and Visualization](http://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity/dp/1118845846)
 * [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
+* [Good Math](http://pragprog.com/book/mcmath/good-math)
 
 
 ## Agile and Planning stuff
 
+* [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
 * [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [Practices of an Agile Developer](http://pragprog.com/book/pad/practices-of-an-agile-developer)

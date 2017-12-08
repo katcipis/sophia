@@ -8,6 +8,7 @@
 * [Voice recognition algorithms using (MFCC) and (DTW) techniques](https://www.usenix.org/system/files/conference/woot17/woot17-paper-bock.pdf)
 * [Comparative Evaluation of Various MFCC Implementations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.8303&rep=rep1&type=pdf)
 * [Robust audio hashing for audio identification](https://isis.poly.edu/memon/pdf/2004_Robust_Audio_Hashing_for_Audio_Identification.pdf)
+* [ENVIRONMENTAL SOUND CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](http://karol.piczak.com/papers/Piczak2015-ESC-ConvNet.pdf)
 
 ### Captcha
 

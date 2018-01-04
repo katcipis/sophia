@@ -85,6 +85,11 @@
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
+### Security
+
+* [Provably Secure Password-Authen ticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
+* [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
+* [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 
 ### Virtualization and Containers
 

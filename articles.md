@@ -85,6 +85,16 @@
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
+### Inferno
+
+* [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)
+* [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
+* [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
+* [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
+* [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
+* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
+* [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
+
 ### Security
 
 * [Provably Secure Password-Authen ticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
@@ -94,7 +104,6 @@
 ### Virtualization and Containers
 
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](https://clearlinux.org/sites/default/files/vmscontainers_wp_v5.pdf)
-
 
 ### Not Classified Yet :-)
 
@@ -115,6 +124,10 @@
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 
 ## Done
+
+### 2018
+
+* [The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/limbo.html)
 
 ### 2017
 

@@ -54,3 +54,19 @@ Plan to throw one away, you will anyhow
 When you are solving a new problem it is fundamental to get
 insight about the problem and the solution space, prototyping is
 a great way to do that.
+
+## Designing Interfaces
+
+* Hide implementation details
+* Small and orthogonal
+* Avoid creating temporary files/dirs (side effects)
+* Avoid global state (side effects again =P)
+* In general avoid surprises on your interfaces implementation (side effects as usual)
+* Be consistent, avoid multiple ways of doing the same way
+* Be consistent, in naming/parameters it can go a long way
+
+## Error Handling
+
+* Detect errors at a low level, handle them at a high level.
+* Make error messages as clear as possible
+* Use exceptions for exceptional situations only (or no exceptions at all =D)

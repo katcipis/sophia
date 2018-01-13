@@ -70,3 +70,47 @@ a great way to do that.
 * Detect errors at a low level, handle them at a high level.
 * Make error messages as clear as possible
 * Use exceptions for exceptional situations only (or no exceptions at all =D)
+
+It is kinda sad how errors are handled in the industry, they are usually
+treated as second class citizens, they are so "not part of your logic"
+that they even require a separate flow for them (exceptions), which is
+the flow that no ones gives a fuck.
+
+Not sure if 100% manual handling of errors is the way to go, but
+right now I like the idea to force thinking and programming
+errors as any other aspect of your logic, it requires design
+and explicit thought, it is not that annoying thing that is
+not part of your logic.
+
+## Debugging
+
+On debugging the book makes me pretty happy =). I always used debuggers
+only to collect stack traces of where the failure occurred, from there
+I usually use print statements or try to build a mental model of the
+software so I can think about possible causes for the problem. Always
+thought that I was lazy/stupid for doing like this (never learned to
+use a debugger properly).
+
+It is good to find smart people that does things like you, you feel
+less stupid:
+
+```
+As a personal choice, we tend not to use debuggers beyond getting a stack trace or
+the value of a variable or two. One reason is that it is easy to get lost in details of
+complicated data structures and control flow; we find stepping through a program less
+productive than thinking harder and adding output statements and self-checking code
+a1 critical places. Clicking over statements takes longer than scanning the output of
+judiciously-placed displays. It takes less time to decide where to put print statements
+than to single-step to the critical section of code, even assuming we know where that
+is. More important, debugging statements stay with the program; debugger sessions
+are transient.
+```
+
+Perhaps I got lucky, my laziness is a lot like being smart =P.
+It is not just the details of manipulating the debugger, even on
+rich environments like eclipse + java the debugger has so much
+information that it is much easier to thinking about your code.
+
+The main advantage of doing this away from a debugger is that you
+can do this away from a computer. Specially for hard problems
+stepping away from the computer always seems to help me.

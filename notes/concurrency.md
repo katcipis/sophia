@@ -70,7 +70,7 @@ you still need some way to check if the 6 workers are already finished.
 
 If you choose using just one channel to be shared among all workers
 you will need some other synchronization/communication entity
-to communicate when each worker is done (traditionally a
+to communicate when each worker is done (maybe a
 [wait group](https://golang.org/pkg/sync/#WaitGroup) ).
 
 For me it is cognitively heavier to handle 2 different communication
@@ -88,12 +88,12 @@ for solution := range solutions {
 }
 ```
 
-And expand it to N workers. Go already provides a way to communicate that some
+And expand it to N workers. Go already provides a way to express that some
 communication has ended (closing the channel). This pattern is so useful
 that even iteration on a channel until it is closed is provided by
 the language. The idea is to leverage this to solve the fan-in problem.
 
-Trying to reach for this one solution is to use Go's dynamic select
+One way to reach for this solution is to use Go's dynamic select
 features (using reflection) to build a generic channel multiplexer
 (you can implement one each time you need too). The usage would be:
 

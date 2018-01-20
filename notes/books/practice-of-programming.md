@@ -114,3 +114,41 @@ information that it is much easier to thinking about your code.
 The main advantage of doing this away from a debugger is that you
 can do this away from a computer. Specially for hard problems
 stepping away from the computer always seems to help me.
+
+Another great example on the book of this:
+
+```
+Study the numerology of failures. Sometimes a pattern in the numerology of failing
+examples gives a clue that focuses the search. We found some spelling mistakes in a
+newly written section of this book, where occasional letters had simply disappeared.
+This was mystifying. The text had been created by cutting and pasting from another
+file. so it seemed possible that something was wrong with the cut or paste commands
+in the text editor. But where to start looking for the problem? For clues we looked at
+the data, and noticed that the missing characters seemed uniformly distributed through
+the text. We measured the intervals and found that the distance between dropped
+characters was always 1023 bytes, a suspiciously non-random value. A search
+through the editor source code for numbers near 1024 found a couple of candidates.
+One of those was in new code, so we examined that first, and the bug was easy to
+spot, a classic off-by-one error where a null byte overwrote the last character in a
+1024-byte buffer.
+
+Studying the patterns of numbers related to the failure pointed us right at the bug.
+Elapsed time? A couple of minutes of mystification, five minutes of looking at the
+data to discover the pattern of missing characters, a minute to search for likely places
+to fix, and another minute to identify and eliminate the bug. This one would have
+been hopeless to find with a debugger, since it involved two multiprocess programs,
+driven by mouse clicks. communicating through a file system.
+```
+
+Tooling will not save your ass all the time, great mental models
+and good thinking will. Not that tools and debugger can't help,
+but all what they can do is this, help. The main solution
+is inside your head.
+
+It is pretty much like diagnostic medicine, you need the ability
+to given symptoms imagine all the possible causes. This will aid
+you to choose which exams you need to make (which tools to use).
+
+Without this ability a medic would be aimlessly asking for all
+possible exams all the time, so will you if you just rely on
+debugger to solve bugs.

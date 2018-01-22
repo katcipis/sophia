@@ -30,6 +30,7 @@
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
+* [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
 * [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)

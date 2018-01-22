@@ -111,7 +111,10 @@ The result is one less thing on plan9, no **PATH**, and less is more.
 
 ### Monitoring
 
-TODO: (just monitor 9P messages, iostat for the rescue)
+Where all services are exported as file services you
+just need a good way to monitor file services. Having that
+should give you a lot of interesting information about
+usage/saturation/errors/performance.
 
 ### Mocking
 

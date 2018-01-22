@@ -140,9 +140,9 @@ yay Clojure.
 
 OMG, Clojure only gets better. They have a **agent** concept that
 is not an agent at all. It is basically the same thing as a atom,
-the only diference is that the swap function is called **send**
+the only difference is that the swap function is called **send**
 and the execution of the send function will be serialized with
-all other send calls for that agent (instead of the optmistic
+all other send calls for that agent (instead of the optimistic
 try again loop model of the atom swap)
 
 It happens on a thread pool, or you can choose to create one just
@@ -290,10 +290,8 @@ Specially Elixir has a lot of features that makes it very different from Go:
 * Pattern matching
 * Pipelining
 
-The most important features are actually from Erlang, but Elixir offers
-some new ones that are quite cool like pattern matching. The concurrency model
-composed with pure functional features makes Erlang and Elixir very interesting
-languages.
+The concurrency model composed with pure functional features makes Erlang
+and Elixir very interesting languages.
 
 In Go's there is the proverb:
 
@@ -348,9 +346,9 @@ There is also some odd stuff like channels that drops writes
 when full, or circular channels that drops the oldest message
 when a write is performed on a full channel.
 
-But thing REALLY start to smell when it starts to explain the
+But things REALLY start to smell when it starts to explain the
 **go** macro, that will create what would be a goroutine
-in Go. Here the language and the library falls extremely short.
+in Go. Here the language and the library falls short.
 
 The author is well succeeded in explaining why a thread pool can
 go wrong if you make synchronous calls, since the thread will

@@ -18,9 +18,9 @@ There is some holy grails on computing, and one of the biggest
 (if not the biggest) is a uniform interface to integrate
 all the things, at least all the ones we know.
 
-It seems like this is not feasible, it always "depends", but one
-of the things that makes life so scalable is the DNA, and for like
-on earth, DNA is the uniform interface that makes everything work.
+It seems like this is not feasible, it is always "depends", but one
+of the things that makes life so scalable is the DNA, and for life
+on earth, DNA is the uniform interface that makes all life work.
 
 So even being extremely hard to find this, the quest is worth it,
 because it will be the only way that we will achieve any true scalability.
@@ -36,20 +36,20 @@ achieve uniformity.
 ## In the beginning there where files
 
 ```
-The integration of devices into the hierarchical file system was the best idea in UNIX
+The integration of devices into the hierarchical
+file system was the best idea in UNIX
 ```
 From [The use of namespaces in Plan9](http://doc.cat-v.org/plan_9/4th_edition/papers/names).
 
 Indeed it was. Plan9 pushes the UNIX idea to the limit proposing that the
 integration of everything should be done as a hierarchical file system.
 
-What would be everything ? Well, everything =), like:
+What would be everything ? Well, almost everything =), like:
 
 * Networking
 * Information on running processes
 * Any service that you can think of
-* Remote files
-* Actual local files
+* Actual remote and local files
 
 Access to all this will be done via files.
 That is why namespaces are central to Plan9, every process has its own
@@ -65,20 +65,59 @@ mount devices.
 
 ## Mount away
 
-TODO: image to explain mount device. local and remote mounting + 9P
-TODO: Diagrams MODERFOCKERRRRR
+Examples on how mount works on plan9.
 
 ## Multiplication factor
 
-How the simple abstraction multiplies on different dimensions.
+One thing that I found amazing is how a simple abstraction
+multiplies on different dimensions.
 
 Examples:
 
-* Containers (isolation between processes)
-* Building environments (PATH vs union mount)
+* Building environments
 * Resource sharing (networking gateways, debugging)
 * Monitoring/Visibility (just monitor 9P messages, iostat for the rescue)
-* Mocking (talk about mocking time, natel knows more)
+* Mocking (talk about mocking time)
+* Containers (isolation between processes)
+
+Lets analyze each one of these advantages in detail.
+
+### Development Environment
+
+Since plan9 has been made from developers to developers (themselves)
+it has great support on how to build your own development environment.
+
+There are probably a lot of ways that plan9 namespaces shines on this
+aspect, one of them are containers which are very useful for automated
+testing and reproducible deploy.
+
+But another not obvious way of how building development environments
+is better on plan9 is about the world famous linux **PATH** variable.
+The **PATH** variable is used to control the order of resolution of
+binaries paths.
+
+How does plan9 improves on that ? Having the concept of union mounts
+natively.
+
+You basically mount your local binaries directories directly to
+"/usr/bin" and decide if it comes first, overrides or comes after
+what is inside the "/usr/bin" path. This way you can extend the
+binaries available on your environment without using any other
+mechanism than namespaces + mounting.
+
+The result is one less thing on plan9, no **PATH**, and less is more.
+
+### Sharing Resources
+
+### Monitoring
+
+TODO: (just monitor 9P messages, iostat for the rescue)
+
+### Mocking
+
+TODO: add mock examples
+
+### Containers
 
 ## Connection Server
 
@@ -104,9 +143,9 @@ same architectural property of being highly decoupled.
 Deployment of new services with different "messages" to establish
 connections won't break any client.
 
-## Conclusion
+## Where files fall short
 
-TODO: Not everything fit the file abstraction =(
+Not everything fit the file abstraction =(
 
 ```
 Nonetheless there are some operations in Plan 9 that are

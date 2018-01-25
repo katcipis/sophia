@@ -1,43 +1,5 @@
 # The Practice of Programming
 
-## Dependencies
-
-On chapter 3 they a markov chain algorithm is implemented
-using C++ STL deque. The implementation using deque was
-10 times slower than a list on windows (the list can
-behave as a deque), on other platforms the behavior
-was normal.
-
-This prompted some reasoning about how we depend on other
-software to build our own:
-
-```
-Less clear, however, is how to assess the loss of control and insight when the
-pile of system-supplied code gets so big that one no longer knows what's going on under­
-neath. This is the case with the STL version; its performance is unpredictable and
-there is no easy way to address that. One immature implementation we used
-needed to be repaired before it would run our program. Few of us
-have the resources or the energy to track down such problems and fix them.
-
-This is a pervasive and growing concern in software: as libraries, interfaces, and
-tools become more complicated, they become
-less understood and less controllable. When everything works,
-rich programming environments can be very productive, but
-when they fail, there is little recourse. Indeed, we may not even realize that
-some­ thing is wrong if the problems involve performance or subtle logic errors.
-```
-
-Today software seems more an exercise on which frameworks and libraries
-are you going to use instead of focusing on the problem at hand
-and the design of your solution. Pushing these decisions further on development
-opens space to depending on less stuff, and usually stuff that is simpler,
-or not depending on anything at all
-(just a good language and basic data structures).
-
-Going from depending on everything to nothing does not seem like a sensible
-choice, the problem is that the common industry behavior is more prone to
-depend on everything and just hope for the best (Luck Driven Development).
-
 ## Prototyping
 
 On chapter 4 when talking about interface design (not GUI, interfaces between
@@ -62,8 +24,8 @@ a great way to do that.
 * Avoid creating temporary files/dirs (side effects)
 * Avoid global state (side effects again =P)
 * In general avoid surprises on your interfaces implementation (side effects as usual)
-* Be consistent, avoid multiple ways of doing the same way
-* Be consistent, in naming/parameters it can go a long way
+* Be consistent, avoid multiple ways of doing the same thing
+* Be consistent in naming parameters and their order
 
 ## Error Handling
 
@@ -271,3 +233,47 @@ The single most important rule of testing is to do it.
 ```
 
 The only wrong thing you can do is to do nothing.
+
+## Dependencies
+
+On chapter 3 a markov chain algorithm is implemented
+using C++ STL deque. The implementation using deque was
+10 times slower than a list on windows (the list can
+behave as a deque), on other platforms the behavior
+was normal.
+
+This prompted some reasoning about how we depend on other
+software to build our own:
+
+```
+Less clear, however, is how to assess the loss of control and
+insight when the pile of system-supplied code gets so big that
+one no longer knows what's going on under­ neath.
+
+This is the case with the STL version; its performance is
+unpredictable and there is no easy way to address that.
+
+One immature implementation we used needed to be repaired
+before it would run our program. Few of us have the resources
+or the energy to track down such problems and fix them.
+
+This is a pervasive and growing concern in software:
+as libraries, interfaces, and tools become more complicated,
+they become less understood and less controllable.
+
+When everything works, rich programming environments can
+be very productive, but when they fail, there is little recourse.
+Indeed, we may not even realize that some­ thing is wrong i
+the problems involve performance or subtle logic errors.
+```
+
+Today software seems more an exercise on which frameworks and libraries
+are you going to use instead of focusing on the problem at hand
+and the design of your solution. Pushing these decisions further
+on development opens space to depending on less stuff, and
+usually stuff that is simpler, or not depending on anything at all
+(just a good language and basic data structures).
+
+Going from depending on everything to nothing does not seem like a sensible
+choice, the problem is that the common industry behavior is more prone to
+depend on everything and just hope for the best (Luck Driven Development).

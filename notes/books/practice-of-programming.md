@@ -152,3 +152,116 @@ you to choose which exams you need to make (which tools to use).
 Without this ability a medic would be aimlessly asking for all
 possible exams all the time, so will you if you just rely on
 debugger to solve bugs.
+
+## Testing
+
+The book is very through on testing, including lots of cool examples
+like how to test **memset** in C or probabilistic algorithms like a
+markov chain. The idea is to test early and continuously.
+Leaving to test in a big bang fashion in the end is not a good idea.
+
+There is some attention to the fact that your tests may be broken,
+the idea of writing the tests before and watching they fail aids
+to catch buggy tests since they will not fail or fail for the
+wrong reasons (this idea is not mentioned in the book actually).
+
+There is a great deal of attention to what to test. Basically
+thinking about boundary testing will help catch a lot of problems.
+Great emphasis is given to write hard cases tests, focusing only
+on normal flow use cases is just mildly useful since the idea
+of the tests is to find bugs (like Dijkstra said, testing can
+only prove the presence of bugs, not they're absence), so every
+time you find a bug with a test you should feel good about
+yourself.
+
+There is a very cool quote from Donald Knuth:
+
+```
+To quote Don Knuth describing how he creates tests for the
+TEX formatter, "I get into the meanest, nastiest frame of
+mind that I can manage, and I write the nastiest [testing]
+code I can think of; then I turn around and embed that in
+even nastier constructions that are almost obscene."
+
+The reason for testing is to find bugs, not to declare the
+program working. Therefore the tests should be tough, and
+when they find problems,
+that is a vindication of your methods, not a cause for alarm.
+```
+
+On stress testing:
+
+```
+High volumes of machine-generated input are
+another effective testing technique.
+Machine-generated input stresses programs
+differently than input written by people
+does.
+
+Higher volume in itself tends to break things because
+very large inputs cause overflow of input buffers, arrays,
+and counters. and are effective at finding unchecked
+fixed-size storage within a program.
+
+People tend to avoid "impossible" cases like
+empty inputs or input that is out of order or out of range,
+and are unlikely to create
+very long names or huge data values.
+```
+
+Which is similar in spirit to the idea of being nasty and just
+inputing crap to your application to see if it is
+robust and will recover or if it will crash into a million
+pieces.
+
+What about the cases where it is very hard or even impossible
+to create the expected output to validate in the test ?
+
+There are two interesting ideas presented on this case
+for the markov algorithm example.
+
+One is to test conservation, check for properties that
+the output must have instead of checking for a specific output.
+
+The markov algorithm is used to create a text scrambler,
+since it has randomness embedded on it you can't expect an
+exact output, but every word on the output must be present
+on the input, so you can test this conservation property.
+
+Another property of the markov algorithm is statistical,
+they also tested statistical properties of the output like
+the likelihood of words appearing on the output.
+
+The awesome part is that both approaches found bugs on
+the markov chain algorithm they wrote (two very experienced
+developers wrote buggy code), so it is not an academic exercise
+to satisfy the ego.
+
+On who should test code:
+
+```
+It is important to test your own code: don't assume
+that some testing organization or user will find things for you.
+```
+
+Sad that more than 20 years later this principle is still
+largely ignored. If developers like
+[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike),
+[Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)
+and [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
+need to write tests to find bugs on their code
+so should you.
+
+Rob Pike and Brian Kernighan where involved on developing Unix,
+which was a product of Bell Labs, so these examples are not theoretical
+on how software should be done on the ideal world, they are
+real world examples on how to write software that will be
+sold as a product.
+
+If you feel overwhelmed by testing just remember:
+
+```
+The single most important rule of testing is to do it.
+```
+
+The only wrong thing you can do is to do nothing.

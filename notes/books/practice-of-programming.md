@@ -95,21 +95,27 @@ It is good to find smart people that does things like you, you feel
 less stupid:
 
 ```
-As a personal choice, we tend not to use debuggers beyond getting a stack trace or
-the value of a variable or two. One reason is that it is easy to get lost in details of
-complicated data structures and control flow; we find stepping through a program less
-productive than thinking harder and adding output statements and self-checking code
-a1 critical places. Clicking over statements takes longer than scanning the output of
-judiciously-placed displays. It takes less time to decide where to put print statements
-than to single-step to the critical section of code, even assuming we know where that
-is. More important, debugging statements stay with the program; debugger sessions
-are transient.
+As a personal choice, we tend not to use debuggers beyond getting
+a stack trace or the value of a variable or two.
+
+One reason is that it is easy to get lost in details of
+complicated data structures and control flow; we find stepping
+through a program less productive than thinking harder and adding
+output statements and self-checking code
+a1 critical places.
+
+Clicking over statements takes longer than scanning the output of
+judiciously-placed displays. It takes less time to decide where
+to put print statements than to single-step to the critical
+section of code, even assuming we know where that
+is. More important, debugging statements stay with the program;
+debugger sessions are transient.
 ```
 
 Perhaps I got lucky, my laziness is a lot like being smart =P.
 It is not just the details of manipulating the debugger, even on
 rich environments like eclipse + java the debugger has so much
-information that it is much easier to thinking about your code.
+information that it is much easier to just think about your code.
 
 The main advantage of doing this away from a debugger is that you
 can do this away from a computer. Specially for hard problems

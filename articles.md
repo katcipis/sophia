@@ -87,7 +87,14 @@
 * [A Comparative Study of Language Support for Generic Programming](http://www.osl.iu.edu/publications/prints/2003/comparing_generic_programming03.pdf)
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
-### Inferno
+### Operational Systems
+
+#### Clive
+
+* [The Clive Operating System](http://lsub.org/export/clivesys.pdf)
+* [Channels done right](http://lsub.org/export/belt.pdf)
+
+#### Inferno
 
 * [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)
 * [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)

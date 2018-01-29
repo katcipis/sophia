@@ -85,7 +85,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Operational Systems
 
-* [Linux Inside](https://www.gitbook.com/book/0xax/linux-insides/details)
+* [Introduction to Operating Systems Abstractions Using Plan 9](https://lsub.org/who/nemo/9.intro.pdf)
 
 
 ## Databases

@@ -86,6 +86,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Operational Systems
 
 * [Introduction to Operating Systems Abstractions Using Plan 9](https://lsub.org/who/nemo/9.intro.pdf)
+* [Notes on the Plan 9 Kernel Source](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.5409&rep=rep1&type=pdf)
 
 
 ## Databases

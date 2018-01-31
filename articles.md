@@ -31,6 +31,7 @@
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+* [Adaptive real-time anomaly detection for multi-dimensional streaming data](https://aaltodoc.aalto.fi/bitstream/handle/123456789/25101/master_Saarinen_Inka_2017.pdf)
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
 * [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)

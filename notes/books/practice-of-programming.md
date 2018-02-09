@@ -277,3 +277,120 @@ usually stuff that is simpler, or not depending on anything at all
 Going from depending on everything to nothing does not seem like a sensible
 choice, the problem is that the common industry behavior is more prone to
 depend on everything and just hope for the best (Luck Driven Development).
+
+## Portability
+
+Portability has a lot of different aspects, like:
+
+* Different OS's support
+* Different platforms (usually meaning processor)
+* Different versions of your software (how portable you are accross versions)
+
+Each one has different quirks. Different OS support is one that
+usually low level code has to handle. On this aspect the book
+presents a very nice analogy to think about the problem.
+The union VS the intersection approach.
+
+The union approach is when the code is fiddled with ifdefs
+and the final feature set is a union of all possible OS's/Platforms.
+Some OS/Platforms will have some features, others don't, depending on
+the capabilities. Understanding the final code is a frankstein of
+ifdefs, I already had experience handling code like that and it
+is very hard to create a good mental model of the final code and
+you always have some stuff that works on one environment but is
+unavailable on another. The benefit of that approach is that
+you can support more features on some systems and even
+have more performance.
+
+The intersection approach is to define a subset of features
+that is supported on all OS/platforms and program on top of that.
+This intersection is expressed as interfaces and different implementations
+are separated on different source files. One language that
+expresses this idea on the tooling is Go, where the compiler
+does the conditional compilation for you with ease.
+
+This approach is obviously more clear to understand and maintain.
+The problem is that a intersection of all systems reduces the amount
+of features and optimizations that you can do sometimes, you are working
+with a common denominator of all target platform/OS's. Even so, this
+approach is HIGHLY recommended by the authors.
+
+Different platforms always remembers endianess problems. Machines are
+usually byte addressed, but almost all data structures are bigger than
+a byte, and different platforms may store these data structures at
+a different ordering.
+
+One way altogether to avoid the problem is to use a simple text
+protocol using only ASCII, on that case just saving bytes and
+them loading them, or sending through the network, it will just work.
+On several different chapters the authors advocates text protocols
+instead of binary ones. The only reason for the binary ones are
+performance, and this must always come later, easy to understand
+and to debug comes first, and on this case it is also portable.
+
+```
+Use text for data exchange. Text is easy to manipulate with other
+tools and to process in unexpected ways.
+
+For example, if the output of one program isn't quite right as
+input for another, an Awk or Per1 script can be used to adjust it;
+grep can be used to select or discard lines;
+
+your favorite editor can be used to make more complicated
+changes. Text files are also much easier to document and may
+not even need much documentation, since people can read them.
+
+A comment in a text file can indicate what version of software
+is needed to process the data; the first line of a Postscript
+file, for instance, identifies the encoding.
+
+By contrast, binary files need specialized tools
+and rarely can be used together even on the same machine.
+A variety of widely-used programs convert arbitrary
+binary data into text so it can be shipped with less
+chance of corruption; these include
+b i nhex for Macintosh systems, uuencode and uudecode for
+Unix, and various tools that use MIME encoding for
+transferring binary data in mail messages.
+```
+
+If you use a text protocol with support to unicode characters
+them you are screwed just as any other data structure that is
+bigger than a byte. But at least on that case we have a good
+encoding/decoding protocol alreadyu done to handle that, which
+is utf-8. It will already store text as a portable byte stream,
+safe to transport and storage.
+
+The last portability is the one that we face more on the daily
+life, the portability of your own code across different versions.
+The advice is:
+
+```
+Maintain compatibility with existing programs and data.
+When a new version of software such as a word processor
+is shipped, it's common for it to read files pro-
+duced by the old version.
+
+That's what one would expect: as unanticipated features are
+added, the format must evolve. But new versions sometimes fail
+to provide a way to write the previous file format.
+
+Users of the new version, even if they don't use the
+new features, cannot share their files with people using the
+older software and every- one is forced to upgrade.
+
+Whether an engineering oversight or a marketing strategy,
+this design is most regrettable.
+
+Backwards compatibility is the ability of a program to meet
+its older specification. If you're going to change a program.
+make sure you don't break old software and data
+that depend on it.
+
+Document the changes well, and provide ways to recover the origi-
+nal behavior. Most important, consider whether
+the change you're proposing is a genuine improvement when weighed
+against the cost of any non-portability you will introduce.
+```
+
+This applies to command line tools and APIs =).

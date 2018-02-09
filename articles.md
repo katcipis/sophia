@@ -26,6 +26,8 @@
 
 ### Data
 
+* [Venti: a new approach to archival storage](http://doc.cat-v.org/plan_9/4th_edition/papers/venti/)
+* [WORM](http://doc.cat-v.org/plan_9/misc/cw/cw.pdf)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
@@ -141,6 +143,7 @@
 
 ### 2017
 
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 * [What is Software Design](http://user.it.uu.se/~carle/softcraft/notes/Reeve_SourceCodeIsTheDesign.pdf)
 * [Breaking Audio Captchas](http://www.captcha.net/Breaking_Audio_CAPTCHAs.pdf)
 * [UnCaptcha](https://www.usenix.org/system/files/conference/woot17/woot17-paper-bock.pdf)

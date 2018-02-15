@@ -122,6 +122,34 @@ add complex1 complex2 complex3 complex4
 
 Its a interesting win for prefixed operations. Symmetry is beautiful.
 
+## Naming Spirits
+
+Since the course has a lot of metaphors with programming being like magic,
+where you write magical spells and command them to be executed, giving life
+to things, it is expected that more metaphors related to magic would appear.
+
+A great one is the idea of give names to spirits. It is common knowledge
+that if you know a spirit name you have control over it. Missing concepts on
+the code (usually abstractions, like functions or data structures) are like spirits
+spread through your code, you have no power over them. Extracting them and giving
+them a name gives you control over them.
+
+It is a nice metaphor to extract functions and create abstractions that helps
+to solve more than one problem.
+
+For example, when implementing the heron's method to calculate square roots
+if we do not identify the fixed point spirit by name and extract it
+as a separated function from the square root calculation we would be
+unable to use it on other functions that also needs a fixed point.
+
+Besides reuse of code, we would have a hard time identifying that
+the heron's method uses fixed point to find the solution, it would be
+implicit. So even when reuse is not in play, extracting these spirits
+from code and naming them can make things more clear.
+
+What is interesting is that you can't escape the spirit, if you do
+not name it, it will still be there, but nameless, uncontrolled, rampaging
+through your code (here rampage would be duplication =P).
 
 ## Cool Quick Stuff
 

@@ -63,7 +63,7 @@ interesting idea is the division of modules as static/const data and
 dynamic/mutable data. With a simple import of a module you can only
 access constant data, which is allocated statically and never changes.
 Every mutable data (and all functions) of a module can only be accessed
-when you instantiate the module. There is no support for global state
+when you instantiate the module. There is no support for global mutable state
 on modules. For two modules to share the same instance of a module they
 must do it explicitly, one of them must instate the module and pass
 it as a parameter.

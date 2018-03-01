@@ -98,6 +98,8 @@
 
 ### Operational Systems
 
+* [UNIX Implementation](https://users.soe.ucsc.edu/~sbrandt/221/Papers/History/thompson-bstj78.pdf)
+
 #### Clive
 
 * [The Clive Operating System](http://lsub.org/export/clivesys.pdf)

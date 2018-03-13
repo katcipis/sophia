@@ -58,7 +58,6 @@
 * [Paxos Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
-* [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
 * [Off-Path TCP Exploits: Global Rate Limit Considered Dangerous](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf)
 * [Maglev: A Fast and Reliable Software Network Load Balancer](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
 * [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
@@ -116,6 +115,7 @@
 
 ### Security
 
+* [Tea, A Tiny Encription Algorithm](https://www.movable-type.co.uk/scripts/tea.pdf)
 * [Provably Secure Password-Authen ticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
@@ -146,9 +146,10 @@
 
 ### 2018
 
-* [The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/limbo.html)
 * [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)
+* [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
 * [Venti: a new approach to archival storage](http://doc.cat-v.org/plan_9/4th_edition/papers/venti/)
+* [The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/limbo.html)
 
 ### 2017
 

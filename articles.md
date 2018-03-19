@@ -73,7 +73,7 @@
 
 ### Languages
 
-* [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.pdf)
+* [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [ohm lang parser generator](https://ohmlang.github.io/pubs/live2016/)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [Scheme with Classes, Mixins, and Traits](https://www.cs.utah.edu/plt/publications/aplas06-fff.pdf)
@@ -148,6 +148,7 @@
 
 * [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
+* [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.pdf)
 * [Venti: a new approach to archival storage](http://doc.cat-v.org/plan_9/4th_edition/papers/venti/)
 * [The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/limbo.html)
 

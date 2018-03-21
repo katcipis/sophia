@@ -147,6 +147,7 @@
 
 ### 2018
 
+* [A General Purpose File System for Secondary Storage](http://multicians.org/fjcc4.html)
 * [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)
 * [Large-scale cluster management at Google with Borg](https://research.google.com/pubs/pub43438.html)
 * [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://www-formal.stanford.edu/jmc/recursive.pdf)

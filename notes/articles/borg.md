@@ -214,3 +214,18 @@ Feed a new state machine with all the events and you will have an exact copy of 
 one running on production. Of course this will usually not be 100% true since it requires
 a lot of discipline and determinism to do this (things that are usually lacking on software
 development), but it seems to work well enough to be proven useful on a lot of cases.
+
+# High Availability With Hardware Failures
+
+Another key difference that I found between Kubernetes and Borg (besides the networking model)
+is that Borg is aware of the topology of the cluster it is running on, so it is much more
+able to provide true high availability since it can replicate services across different
+racks and different failure/power domains. Implementing this on a generic multi cloud way
+seems extremelly hard if not impossible. But this kind of integration between a cluster
+orchestrator and the hardware that it is running on top seems not only desirable but even
+required to achieve true high availability.
+
+You can achieve high availability on different ways, like doing Kubernetes cluster federation
+on different failure domains manually, but this does not seem to be as efficiente as Google's
+approach to embed this on the orchestrator (makes sense to the orchestrator to know this
+since he is the responsible for scheduling).

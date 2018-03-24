@@ -37,8 +37,8 @@ to spare. On a small scale this can be a more economic choice, but on the scale 
 this can translate to millions of dollars os waste. So investment on better engineering
 made sense. Some goals of Borg that I extracted are:
 
-* Uniform deployment model
-* Scheduling (and rescheduling) of services accross a cluster
+* Uniform deployment model (and configuration)
+* Scheduling (and rescheduling) of jobs (processes) accross a cluster
 * Provide high availability for critical services in face of hardware failures
 * Optimize as much as possible for high utilization of resources (no idle resources)
 * While trying to optimize for high utilization never jeopardize the user facing low latency services
@@ -127,25 +127,28 @@ For me this show so much consideration for your own problem at hand
 and even details of your hardware, instead of searching for canonical
 best ways to solve something. When thinking on solving a generic problem
 for cluster orchestration perhaps virtualization would be a good idea,
-specially on a time where there where no "containers". To avoid use
-of virtualization they had to use cgroups + chroot to achieve
+specially on a time where there where no "containers" (and no plan to use
+a operational system where isolation is trivial and native, like Plan9 and
+Inferno).
+
+To avoid use of virtualization they had to use cgroups + chroot to achieve
 some level of isolation required to make Borg work properly (remember,
 low priority jobs may never get on the way of high priority ones).
 
 This is the lesson that I see passing unaware by people that want to be
 like Google. You could argue that you don't have to be like Google, because
 you are not Google, and you are probably right. But the problem is that being
-like Google, in your own scale, it is a good thing. Because being like Google
+like Google, in your own scale, is a good thing. Because being like Google
 is basically solving your problems the best way for you, instead of using
 code from other companies or open source groups that are made to fit everyone
 needs (and usually satisfying none in the end). So if there is a lesson to
 be learned by studying the development of Borg is to not use Kubernetes
-if you think that something simple that you can rollout will be enough
+if you think that something simpler that you can rollout will be enough
 for your needs, or will fit better your case.
 
 You may think that you can't do what Google does because you don't have
 their scale, and again you are probably right =). But since you don't have
-Google's scale the software you need to right to solve your own problem is
+Google's scale the software you need to do to solve your own problem is
 smaller, so you can do it even when you don't have Google scale, because
 you are 1000x smaller and need 1000x smaller code too, so the modus operandi
 seems to apply on any scale. Of course this does not mean that you need to implement

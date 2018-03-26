@@ -120,9 +120,6 @@
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 
-### Virtualization and Containers
-
-* [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](https://clearlinux.org/sites/default/files/vmscontainers_wp_v5.pdf)
 
 ### Not Classified Yet :-)
 
@@ -146,6 +143,9 @@
 
 ### 2018
 
+
+* [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)
+* [Mk: a successor to make](http://doc.cat-v.org/bell_labs/mk/mk.pdf)
 * [A General Purpose File System for Secondary Storage](http://multicians.org/fjcc4.html)
 * [Tea, A Tiny Encription Algorithm](https://www.movable-type.co.uk/scripts/tea.pdf)
 * [ACME](http://www.vitanuova.com/inferno/papers/acme.pdf)

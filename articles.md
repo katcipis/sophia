@@ -123,6 +123,7 @@
 
 ### Not Classified Yet :-)
 
+* [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Regular Expression Search Algorithms](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/thompson1968.pdf)
 * [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)

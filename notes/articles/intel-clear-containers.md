@@ -68,6 +68,15 @@ actually scares the hell out of me. It seems like a set of pretty cool hacks
 involving kvm, but I would have 0 confidence on saying it is safe (there is a lot
 of jumps to addresses and assumptions and memory maps being disabled...etc).
 
+The main basis for thinking that this is a good idea is that the hypervisor
+is safer than the operational system. For example the paper is always talking
+about how when you compromise the operational system you compromise all containers.
+But the same applies to hypervisors as well, so it seems only a matter to
+decide which one is simpler and safer. Virtualization is never simple to me, isolation
+seems like a subset of the virtualzation problem..so I fail to understand why
+hypervisors and virtualization are conceptually safer than pure isolation
+implemented on an operational system.
+
 The whole thing seems like Intel trying to couple the idea of isolation
 to their hardware features so you will depend even more on their hardware.
 It may seem as a good idea just because of a total failure from operational

@@ -76,6 +76,7 @@
 * [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [ohm lang parser generator](https://ohmlang.github.io/pubs/live2016/)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
+* [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [Scheme with Classes, Mixins, and Traits](https://www.cs.utah.edu/plt/publications/aplas06-fff.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)

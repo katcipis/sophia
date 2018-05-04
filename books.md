@@ -278,11 +278,16 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
+* [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 
 
 # Done
+
+## 2018
+
+* [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
+
 
 ## 2017
 

@@ -145,7 +145,7 @@
 
 ### 2018
 
-
+* [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)
 * [Mk: a successor to make](http://doc.cat-v.org/bell_labs/mk/mk.pdf)
 * [A General Purpose File System for Secondary Storage](http://multicians.org/fjcc4.html)

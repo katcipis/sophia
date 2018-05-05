@@ -5,6 +5,7 @@
 * Uses ordering by key instead of consistent hashing
 * Depending on sharding key, can be random (like consistent hashing)
 * Uses a Raft log for consistency
+* Uses one raft group per range not for the whole database (it has lot of rafts)
 * Gossip is used to bootstrap raft (where to find indexes)
 * Shards are called ranges
 * Ranges are on the size of approximately 64mb
@@ -14,6 +15,7 @@
 * Works on consistency windows based on NTP clock drift window
 * Nodes that get too big clock drift are removed from cluster
 * No locks, optimistic concurrency is implemented, with try agains
+
 
 ## Architectural Layers
 

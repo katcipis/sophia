@@ -96,6 +96,7 @@
 
 * [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 * [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
+* [Deep Learning Scaling is Predictable, Empirically](https://arxiv.org/abs/1712.00409)
 
 ### Operational Systems
 

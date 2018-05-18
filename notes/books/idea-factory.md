@@ -137,3 +137,85 @@ for very different things (like computing).
 Like this starts the story of great inventions that leveraged
 humanity with the objective of total domination of communication
 from a single company, indeed food for thought =).
+
+## The Secret of Innovation
+
+As the labs started to produce great ideas the management of the labs
+started to think on what was the recipe for that. It makes sense
+since everytime something produces good results you want to discover
+how to reproduce it as many times as you want. Of course that when the
+subject is human beings and their interactions in the development of
+new ideas this is MUCH harder than a simple scientific experiment =).
+
+Even a simple question like, "what is the most important, group effort
+or the smart individuals ?" was not easy to answer. Why is that ?
+Well on one hand you have the invention of the transistor, which was an
+obvious group effort since it took collaboration between physics and
+chemistry. On the other hand you have the born of information theory,
+which was pretty much an individual effort. Claude Shannon basically
+laid the foundation of digital information, all by himself, people that
+worked with him had no idea from where he has gotten the ideas.
+
+So both things seems to work, depending on the problem at hand. The only
+constant is the need of smart people =P, and the groups where not very
+large. The labs where pretty large but they worked on different projects.
+On the transistor no more than 10 people were involved.
+
+Another very interesting find when a survey was done to find why some researches
+had more patents than others was that almost all the researchers with
+a lot of patents seemed to have lunch or breakfast with Harry Nyquist.
+
+This seems odd at first glance, but I myself had pretty interesting lunches
+discussing stuff with smart people. Even small things like people talking
+on a meal can make all the difference. People that used to do this with
+Nyquist said that he had a gift of asking the right questions and pushing
+them on interesting directions. Small things like this makes a huge difference
+and they are not manageable (in the management sense =P) nor they can
+be inforced as a process. These things just happens when people interested
+on the same topics are together and have the freedom to talk with each other.
+
+This went much further than just lunching at Bell Labs. Everyone at the labs
+had the autonomy to stop what he/she was doing and starting to work with
+someone else on another project if that made sense. This kind of cross team
+collaboration had a 0% of management overhead, you did not have to ask anyone
+to help another team with something (that was encouraged). One thing that
+is obvious is that people with deadlines will never do this, that is why
+on the labs there was no such a thing (and yet people delivered).
+
+One example of a invention that come up with something like this was the
+solar cell baterry. The four people involved on its invention where each
+from a different team, and they where not trying to invent a solar cell
+battery, it was a different solid state experiment that in the end
+showed the necessary properties for a solar cell battery.
+
+It is obvious that this would not work with any group of people, you need
+people that are driven by curiosity, that would do the research
+anyway even if they where not paid to do it (this has an interesting connection
+with the ideas presented at [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf).
+
+It is also obvious that this group of people are not well fit to do operational
+day to day work, which was handled by a different group of people, with different
+qualities and a different management model.
+
+Another thing that is very explict is how even very smart people that
+had some great ideas before can be very wrong too. Like when Mervin Kelly
+veted the development of satellites, even though he promoted the development
+of the transistor before.
+
+## Inventions are used on unforeseen ways
+
+The most traditional example of this is the transistor and information theory.
+The transistor was developed as a substitute of the vacuum tube, that was
+used as an amplifier for long distance calls.
+
+At the same time Claude Shannon was writing a theory modeling communication mathematically.
+He had no idea that his theory was going to be used with transistor to build the
+digital age, and the people involved on the transistor had no idea of the
+digital information theory of Claude Shannon. Today the connection between the two
+are obvious, but at that time it wasn't. Yet both researches where nurtured on the labs.
+
+Investing on researches that at first seemed completely unrelated produced great results
+at the lab, even with a high failure rate. Not all companies have money to do this kind
+of investiment, but the ones that do have the money can benefit greatly from these examples.
+And smaller companies can do similar investments on a smaller scale (not on the startup
+stage, probably).

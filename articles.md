@@ -10,7 +10,7 @@
 * [Voice recognition algorithms using (MFCC) and (DTW) techniques](https://www.usenix.org/system/files/conference/woot17/woot17-paper-bock.pdf)
 * [Comparative Evaluation of Various MFCC Implementations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.8303&rep=rep1&type=pdf)
 * [Robust audio hashing for audio identification](https://isis.poly.edu/memon/pdf/2004_Robust_Audio_Hashing_for_Audio_Identification.pdf)
-* [ENVIRONMENTAL SOUND CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](http://karol.piczak.com/papers/Piczak2015-ESC-ConvNet.pdf)
+* [ENVIRONMENTAL SOUND CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](http://karol.piczak.com/papers/Piczak2015-ESC-ConvNet.pdf)
 
 ### Captcha
 
@@ -26,18 +26,18 @@
 
 ### Data
 
+* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
+* [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
+* [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
 * [WORM](http://doc.cat-v.org/plan_9/misc/cw/cw.pdf)
 * [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
-* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Adaptive real-time anomaly detection for multi-dimensional streaming data](https://aaltodoc.aalto.fi/bitstream/handle/123456789/25101/master_Saarinen_Inka_2017.pdf)
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
 * [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
-* [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
-* [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-suresh.pdf)

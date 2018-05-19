@@ -190,7 +190,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Graph Theory](http://www.amazon.com/Graph-Theory-Dover-Books-Mathematics/dp/0486498069)
 * [Graph Analysis and Visualization](http://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity/dp/1118845846)
 * [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
-* [Good Math](http://pragprog.com/book/mcmath/good-math)
 
 
 ## Agile and Planning stuff
@@ -212,7 +211,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
-* [Domain-driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.co.uk/Domain-driven-Design-Tackling-Complexity-Software/dp/0321125215)
 * [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
@@ -225,12 +223,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [xUnit Test Patterns](http://xunitpatterns.com/).
 * http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 * http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/
-* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
-* [RESTful Web APIs](http://www.amazon.com/RESTful-Web-APIs-Leonard-Richardson/dp/1449358063)
+
 
 
 ## Security
 
+* [The Codebreakers](https://www.amazon.com/Codebreakers-Comprehensive-History-Communication-Internet/dp/0684831309)
 * [Cryptography Engineering](http://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246)
 * Foundations of Security: What Every Programmer Needs to Know
 * http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
@@ -278,19 +276,22 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
+
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 
 
 # Done
 
+
 ## 2018
 
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
+* [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
 
 
 ## 2017
 
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 * [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)

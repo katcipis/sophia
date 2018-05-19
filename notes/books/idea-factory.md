@@ -202,7 +202,7 @@ had some great ideas before can be very wrong too. Like when Mervin Kelly
 veted the development of satellites, even though he promoted the development
 of the transistor before.
 
-## Inventions are used on unforeseen ways
+## Inventions are used/composed on unforeseen ways
 
 The most traditional example of this is the transistor and information theory.
 The transistor was developed as a substitute of the vacuum tube, that was
@@ -219,3 +219,132 @@ at the lab, even with a high failure rate. Not all companies have money to do th
 of investiment, but the ones that do have the money can benefit greatly from these examples.
 And smaller companies can do similar investments on a smaller scale (not on the startup
 stage, probably).
+
+## Speed of information as speed of thought
+
+As the book approaches the end it starts to compare that long gone age
+of bell labs breakthroughs with the world we live today. I don't remember
+exactly who used to say this at bell labs, but it was about tradeoffs, the
+fact that all technology that we invent has some drawback on our life.
+
+Information today is given to us with a much greater throughput than we can
+process and the book mentions a journalist, Nicholas Carr, that thinks that
+the constant flow of new information is eroding our capacity to concentrate
+and to think deeply. It is like we expected ideas to flow on our brains as
+fast as data is delivered to us, and all ideas must fit a quarter. We are lousing
+touch with the fact that some things takes time to develop inside our minds, not
+everything should fit as a deliverable in a sprint.
+
+Since I feel this a lot these days I found it very interesting that more people
+feel the same. It is interesting that someone else on the book (again...terrible
+with names) made a prediction that the next great thing in technology will be something
+that makes it easier to extract truly useful insights from the deluge of data
+we have today, like cognitive augmentation, since we are clearly overwhelmed.
+
+## Different kinds of innovation
+
+As we reflect comparing those days where transistors where being researched with
+today it is clear that we have two kinds of innovation. There is consumer products
+innovation (like Netflix and Spotify) and there is innovation that represents a leap
+on human knowledge, these leaps are able to create whole new industries, they work
+as platforms not as final products. Some examples of these innovations:
+
+* Vacuum Tubes
+* Information Theory
+* Transistors
+* Microwave
+* Radar
+* Satellites
+* Cellular
+
+None of these where end products, but they are the base who forms our society today.
+One interesting question posed is if our current model of development is being able to
+innovate on products and also in this type of technological platforms or are we just
+living of the dividends of the research done on the last century for us.
+
+There is a whole line of questioning on the book that is very interesting, on how
+venture capital works today and the silicon valley model of developing new technologies,
+which with no surprise it is also a tradeoff when compared with what we had at
+the bell labs period.
+
+It is definitely easier to get capital to start a business today, specially if it is
+related to software, but at the same time comparing what the big tech companies are
+doing with AT&T have done on the last century and they are dwarfed by it. Not that they
+don't do anything, but Bell Labs did too much more. We are never going to have the
+exact same context that Bell Labs had, but it is interesting to see what made it
+succeed and see if there is something that can be learned and applied from it.
+
+## Innovation and Competition
+
+It is common sense that competition is better for the end consumer than
+a monopoly (I also think that), what is interesting is that we lack criticism
+on where this model will fail. It makes sense to think that innovation will arise
+because if you don't innovate you day, so everything will work out and innovation
+will appear.
+
+The problem with this model is that it works great for consumer product innovations,
+but poorly for research of groundbreaking technology. The more agressive the market
+the harder it will be to do research that takes time, and thinking that great things
+can be done fast is just an illusion of our era, humans minds do not evolve that fast,
+we still take a lot of time to have REALLY good ideas, specially the ones that questions
+the way that we do everything. Information theory, at the time, took almost two decades
+to be properly understood, we still are the same human beings and having more information
+do not change that, because it won't change our ability to unlearn things and rethink
+things.
+
+Since this kind of research takes time, like five or more years, almost no company will try
+something like that, and the idea that incrementally you can get in the same place is an
+illusion. Again for consumer products this is great, you can get every month slight better
+Netflix service. For technological leaps, no (hence the "leap"). For example, there
+was no amount of incremental improvement on copper wiring that would get you to glass
+fiber. Also there would be no incremental steps to going from vacuum tubes to transistors.
+Another example is thinking about incremental innovations on transistor construction taking us
+to quantum computing, it simply won't.
+
+The idea is not to be against incremental change, but to be against *ONLY* incremental change.
+Today you only read about incremental stuff, and delivering fast, this is great for a lot of
+things, but not for all things, and the book does a great job on showing the world a little
+more gray than black and white. Not just with the incremental thing that is essential to competition,
+but also with competition itself, is it the better way to achieve these great technological breakthroughs ?
+
+In the case of Bell Labs there was a great deal of collaboration with Universities and even
+other companies (not that they collaborated on EVERYTHING, but much more than we are used to).
+Why would a company collaborate on technologies that would be fundamental to its market on
+the future ? Would that not be a risk ? Well, not for a state regulated monopoly. AT&T had
+no reason to hold back on collaboration and to invest years on research because that research
+could not be used against them on the future. This safety fostered collaboration on the labs
+instead of fierce competition, and it produced basically the foundation for our century.
+
+It does not mean that it is a golden model that will solve everything, but it also shows that
+competition is not the only way to get innovation. And the fierce capitalist view of venture
+capital can't seem to nurture the kind of research that was done at Bell Labs, one quote
+from some dude from venture capital that I again can't remember the name said that "we don't
+invest on scientific experiments". There is a current detriment of scientific experiments,
+although it was them that took us where we are today =/.
+
+Investments are too shortsighted to produce any real change on the technological landscape.
+Aggressive capitalism does not seem to be enough although we can get a lot done with it.
+The chances of regulated monopolies coming back are slim, even because they usually dont
+work as well as bell labs worked.
+
+So this brings the question of how we are going to fund the future (or even if we are going to do it).
+Pure government funding providing grants to research at universities do not seem to produce the same
+results either. Bell Labs was able to provide a mix of people that where academic with
+other people that where not, this mix provided unique results. There is a lot of talent (most of it probably)
+that is attracted to the industry, it would be interesting to leverage more of that talent to do
+the kind of long term research that was made at Bell Labs. But the forces that acted to allow
+Bell Labs to work like that are long gone (the regulated monopoly that enforced all patents to
+be public but not free, althought not expensive either...anyway it was regulated =P).
+
+In some sense I think this was the most amazing thing that Bell Labs ever created, it was this model
+of work that coalesced engineering, applied research and base research. They simply had all kinds of
+people working together. There where academics, but there was also engineers that had the knowledge
+to take ideas further close to becoming a reality. Some people where great at having ideas, others where
+great at doing experimentation, and they worked really well together. They where the pioneers of proving
+that even base research was a fundamental piece of industry, not some kind of academic effort that
+should be left to universities. This change was what started CIRCA 1910, when Bell Labs was started
+to be built, siphoning all kinds of talent from universities and amalgamating that with great
+industrial engineers (at that time there was a clear division between engineers and researchers, and
+the industry was no place for research). This vision and model of work may in the end be the most
+important legacy left to us, because above all technological advancements they gave us
+we need good ideas on how to build the future...again =).

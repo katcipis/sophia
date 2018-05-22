@@ -124,7 +124,7 @@ people are actually working is the fact that they would
 be doing it anyway even if they where not being paid to do so.
 
 It is interesting to meditate of the difference of motivations
-of the management and the researchers, yet in the end bot
+of the management and the researchers, yet in the end both
 wanted the same end, to create something unique and change
 human life forever (nothing has done that as well as ubiquitous
 communication).
@@ -191,7 +191,7 @@ showed the necessary properties for a solar cell battery.
 It is obvious that this would not work with any group of people, you need
 people that are driven by curiosity, that would do the research
 anyway even if they where not paid to do it (this has an interesting connection
-with the ideas presented at [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf).
+with the ideas presented at [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf) ).
 
 It is also obvious that this group of people are not well fit to do operational
 day to day work, which was handled by a different group of people, with different
@@ -208,8 +208,8 @@ The most traditional example of this is the transistor and information theory.
 The transistor was developed as a substitute of the vacuum tube, that was
 used as an amplifier for long distance calls.
 
-At the same time Claude Shannon was writing a theory modeling communication mathematically.
-He had no idea that his theory was going to be used with transistor to build the
+At the same time Claude Shannon was writing a theory modeling communication mathematically and
+he had no idea that his theory was going to be used with transistor to build the
 digital age, and the people involved on the transistor had no idea of the
 digital information theory of Claude Shannon. Today the connection between the two
 are obvious, but at that time it wasn't. Yet both researches where nurtured on the labs.

@@ -26,7 +26,6 @@
 
 ### Data
 
-* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
 * [WORM](http://doc.cat-v.org/plan_9/misc/cw/cw.pdf)
@@ -146,6 +145,7 @@
 
 ### 2018
 
+* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)
 * [Mk: a successor to make](http://doc.cat-v.org/bell_labs/mk/mk.pdf)

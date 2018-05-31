@@ -116,7 +116,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
-* [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [Interpreter Book](https://interpreterbook.com/)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
@@ -276,17 +275,16 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-
+* [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 
 
 # Done
 
-
 ## 2018
 
-* [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 * [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
+* [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 
 
 ## 2017

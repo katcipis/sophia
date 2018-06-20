@@ -75,6 +75,7 @@
 * [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [ohm lang parser generator](https://ohmlang.github.io/pubs/live2016/)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
+* [WebProlog](https://raw.githubusercontent.com/Web-Prolog/swi-web-prolog/master/book/web-prolog.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [Scheme with Classes, Mixins, and Traits](https://www.cs.utah.edu/plt/publications/aplas06-fff.pdf)
@@ -117,7 +118,7 @@
 
 ### Security
 
-* [Provably Secure Password-Authen ticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
+* [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 

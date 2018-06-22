@@ -50,3 +50,7 @@
 ## Done
 
 * [Cloud Computing Concepts](https://www.coursera.org/course/cloudcomputing)
+
+# Fun Exercises
+
+* [Project Euler](https://projecteuler.net/)

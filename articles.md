@@ -109,7 +109,7 @@
 
 #### Inferno
 
-* [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
+
 * [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
@@ -142,11 +142,18 @@
 * [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 
+
+## Doing
+
+* [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
+* [Rc - The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)
+* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
+
+
 ## Done
 
 ### 2018
 
-* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)
 * [Mk: a successor to make](http://doc.cat-v.org/bell_labs/mk/mk.pdf)

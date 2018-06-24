@@ -1,4 +1,4 @@
-# Software Reliability Engineer
+# Software Reliability Engineering
 
 These notes are inspired on the great talk [Keys to SRE](https://www.youtube.com/watch?v=n4Wf14e2jxQ)
 from Ben Treynor, but they are more than just notes from the talk since reliability and

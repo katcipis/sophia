@@ -109,12 +109,10 @@
 
 #### Inferno
 
-
 * [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
-* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
-* [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
+
 
 ### Security
 
@@ -145,8 +143,10 @@
 
 ## Doing
 
+* [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
+* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
+* [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
 * [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
-* [Rc - The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 
 
@@ -154,6 +154,7 @@
 
 ### 2018
 
+* [Rc - The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)
 * [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)
 * [Mk: a successor to make](http://doc.cat-v.org/bell_labs/mk/mk.pdf)

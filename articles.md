@@ -143,6 +143,7 @@
 
 ## Doing
 
+* [The Inferno Operating System](ftp://ftp.mrynet.com/operatingsystems/inferno/paper01.pdf)
 * [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
 * [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)

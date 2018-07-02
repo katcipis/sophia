@@ -35,7 +35,7 @@ a lot of small good choices, like the exit status code of the previous command
 being stored at a variable named **status** instead of some gibberish
 on shell that I can't even rementer.
 
-## evaluation of shell
+## shell evaluation
 
 The recipe of the mk target (which is a shell script basically) is evaluated
 as a whole script, instead of how it is done on make where each line of the

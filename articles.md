@@ -156,6 +156,7 @@
 
 ### 2018
 
+* [The Future of Computing: Logic or Biology](https://lamport.azurewebsites.net/pubs/future-of-computing.pdf)
 * [Rc - The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)
 * [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)
 * [Intel® Clear Containers: A breakthrough combination of speed and workload isolation](http://www.cse.iitb.ac.in/synerg/lib/exe/fetch.php?media=public:students:chandra:vmscontainers_wp_final.pdf)

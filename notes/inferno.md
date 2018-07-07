@@ -39,7 +39,7 @@ where necessary. The main concept of Inferno is this necessity for uniformity, f
 it borrows heavily from [Plan9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs).
 
 A lot of the advantages of how uniformity is approached on Plan9 are already listed
-[here](./notes/plan9.md) and will not be repeated here when Inferno basically replicates
+[here](./plan9.md) and will not be repeated here when Inferno basically replicates
 the same behavior. But there is a lot of new things that are exclusive to Inferno, and
 also some of the Plan9 ideas will be extended and better explained here too on the
 context of Inferno (the Inferno papers explained them better).
@@ -56,7 +56,7 @@ as little as 1 MB of memory, and it does not require memory-mapping hardware.
 ```
 
 Even without memory protection from the CPU you can program safely on Inferno thanks to
-the [Limbo](./notes/limbo.md) language:
+the [Limbo](./limbo.md) language:
 
 ```
 Limbo is fully type-checked at both compile and run time.
@@ -70,7 +70,7 @@ Even tough Limbo is a higher level language comparing to C, it has a lot of feat
 that are focused on maintaining a small footprint of memory usage, which makes it
 suitable to constrained enviroments as the ones found in embedded systems. The garbage
 collector and module systems of the language also aids to make its footprint smaller.
-These details of the Limbo language can be seen in further detail [here](./notes/limbo.md).
+These details of the Limbo language can be seen in further detail [here](./limbo.md).
 
 # Uniformity
 

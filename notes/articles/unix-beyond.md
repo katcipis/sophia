@@ -123,3 +123,23 @@ do that with 100 people, or even 10.
 Since the tradeoff is always there, perhaps this massive open source approach
 probably brings some benefits too, perhaps social instead of technical, but
 it sads me that no one sees the downside, like it is a communist panacea.
+
+
+## Managing Creative Processes
+
+On how was management at Bell Labs he says this:
+
+```
+As for the process, it’s hard to describe. It’s chaotic,
+but somehow something comes out of it. There is astructure that comes out of it.
+I am a member of the Computing Sciences Research Center, which consists of a bunch
+of individuals — no teams, no leaders.
+It’s the old Bell Labs model of research; these people just interact every day.
+
+At different times you have nothing to do. You’vestopped working for some reason—you finished a 
+project or got tired of it—and you sit around and look
+for something to do. You latch on to somebody else, almost like water molecules interacting.
+```
+TODO
+
+## Conflict Resolution

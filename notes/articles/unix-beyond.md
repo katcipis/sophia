@@ -120,8 +120,8 @@ was a good idea (avoiding everyone inserting its favorite stuff). On the
 case the team had like four or five people, and it worked great. Try to
 do that with 100 people, or even 10.
 
-Since the tradeoff is always there, perhaps this massive open source approach
-probably brings some benefits too, perhaps social instead of technical, but
+Since the tradeoff is always there, perhaps this massive open source approach 
+brings some benefits too, perhaps social instead of technical, but
 it sads me that no one sees the downside, like it is a communist panacea.
 
 
@@ -140,6 +140,67 @@ At different times you have nothing to do. You’vestopped working for some reas
 project or got tired of it—and you sit around and look
 for something to do. You latch on to somebody else, almost like water molecules interacting.
 ```
-TODO
+
+This may seem like bullshit for managers used to more operational environments, but
+another place where a lot of great inventions that we use today where developed
+also did something very similar, the Xerox PARC. One place where you can see a 
+similar description of anarchic management can be seen at
+* [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf).
+
+It is pretty obvious that this sort of management is not well suited for any
+kind of environment. It is clear on both cases (Bell Labs and PARC) that you need
+the right people. "Right" is usually context sensitive, here it is the right people
+to do heavily creative work, true inovation and disruption, not just new business
+ideas but new tools and abstractions that are the basis for entire industries.
+
+The biggest take from this is not just dropping mamagement altogether, both Xerox
+and AT&T had two different kinds of management, the operational/day to day one and
+the one performed at the research labs. The objective and the people on each
+one of them are pretty different, even the drive of the people are different.
+
+Alan Kay describes that people at PARC would do the job anyway, even if it was not
+a job, because they where extremelly invested on the ideas. It is a kind of people that
+have tremendous difficulty in separating what is work and what is personal life, they
+are too intertwined to be separated effectively. They don't need anything besides themselves
+to be motivated, they are self-motivated.
+
+The take for me is that if you are in need of serious creative work, solving problems
+that are trully novel (there is nothing in the industry that imediately fits and solves
+the problem for you) you will need a different kind of management than the one that
+is implemented on the day to day operations, and a different kind of people too.
+
+One clear cognitive aspect is that there is people that need to work on things that
+are faster to get done, they need feedback fast about success or error,
+a clear "done" signal soon (like finishing things on a SCRUM sprint).
+
+It boils down to being able to cope with uncertainty.
+When doing creative work you need to be able to
+cope with a lot uncertainty. You wont be able to find a good solution for a long time.
+A lot of people can get pretty frustrated with this kind of uncertainty. So you need to
+find the right people for the job and manage them properly.
+
+The converse is also true, people that are more used to creative/open ended problems
+will get frustrated with more controlled environments. Since usually both problems
+need to be solved there is no better or worse, but understanding the different
+kinds of problems and that the approach to solve one will not work for the other
+seems fundamental to me.
 
 ## Conflict Resolution
+
+The way conflicts are solved is also very interesting:
+
+```
+You say, “I am right, the hell with you.” And, of course the
+person who has been “to helled with” wants to prove his point,
+and so he goes off and does it. That’s ultimately the way you prove  a  point.
+So  that  is  the way most of the arguments are done—simply by trying them. 
+```
+
+TODO
+
+```
+Also, there’s not that much ego up there either, so if it’s
+a  failure  you  come  back  and  say,  “Do  you  have
+another idea? That one didn’t work.” I have certainly
+generated as many bad ideas as I have good ones. 
+```

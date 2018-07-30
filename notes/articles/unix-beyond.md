@@ -141,17 +141,18 @@ project or got tired of it—and you sit around and look
 for something to do. You latch on to somebody else, almost like water molecules interacting.
 ```
 
-This may seem like bullshit for managers used to more operational environments, but
-another place where a lot of great inventions that we use today where developed
-also did something very similar, the Xerox PARC. One place where you can see a 
-similar description of anarchic management can be seen at
-* [The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf).
+This may seem like bullshit from people who just wants to hang out and have fun =P.
+But besides Bell Labs, Xerox PARC also had a similar model as can be seen on the article
+[The Power Of Context](http://www.vpri.org/pdf/m2004001_power.pdf). It is the second
+instance where creative freedom associated with the right group of people created
+something great.
 
 It is pretty obvious that this sort of management is not well suited for any
 kind of environment. It is clear on both cases (Bell Labs and PARC) that you need
-the right people. "Right" is usually context sensitive, here it is the right people
-to do heavily creative work, true inovation and disruption, not just new business
-ideas but new tools and abstractions that are the basis for entire industries.
+the right people. Not everyone can work well with vague objetives where even
+the definion of done and correct are not clear yet (think about the development
+of the first operational systems for example). Self motivation and self managing
+is not a very common skill, so applying it everywhere is a very bad idea.
 
 The biggest take from this is not just dropping mamagement altogether, both Xerox
 and AT&T had two different kinds of management, the operational/day to day one and
@@ -159,19 +160,17 @@ the one performed at the research labs. The objective and the people on each
 one of them are pretty different, even the drive of the people are different.
 
 Alan Kay describes that people at PARC would do the job anyway, even if it was not
-a job, because they where extremelly invested on the ideas. It is a kind of people that
-have tremendous difficulty in separating what is work and what is personal life, they
-are too intertwined to be separated effectively. They don't need anything besides themselves
-to be motivated, they are self-motivated.
+a job, because they where extremelly invested on the ideas, usually because of curiosity
+(not status or ego itself).
+
+It is a kind of people that have tremendous difficulty in separating what is
+work and what is personal life, they are too intertwined to be separated effectively.
+They don't need anything besides themselves and their curiosity to be motivated.
 
 The take for me is that if you are in need of serious creative work, solving problems
 that are trully novel (there is nothing in the industry that imediately fits and solves
 the problem for you) you will need a different kind of management than the one that
 is implemented on the day to day operations, and a different kind of people too.
-
-One clear cognitive aspect is that there is people that need to work on things that
-are faster to get done, they need feedback fast about success or error,
-a clear "done" signal soon (like finishing things on a SCRUM sprint).
 
 It boils down to being able to cope with uncertainty.
 When doing creative work you need to be able to
@@ -185,6 +184,22 @@ need to be solved there is no better or worse, but understanding the different
 kinds of problems and that the approach to solve one will not work for the other
 seems fundamental to me.
 
+In the end this is not binary, almost all software projects will have its own
+challenges that are quite unique given the context. Sometimes the difference
+is more on the business model, on how you compose existing pieces of technology.
+Sometimes the business idea is novel but also require novel technology to be
+implemented, on these cases it is tempting to use some technology that almost
+solves the problem, specially after a successful prove of concept, but failing
+on seeing the problems that creeps up from using the wrong abstraction and building
+your business on top of it can be catastrophic.
+
+Even when the you are entering on a business where solutions already exists, being
+creative with how you solve it may enable you to be much faster than your competition
+(this reminds me the book Hackers and Painters), where being creative with the solution
+is **NOT** solving like everyone else. As everything in software, making these decisions
+is extremelly hard.
+
+
 ## Conflict Resolution
 
 The way conflicts are solved is also very interesting:
@@ -196,7 +211,15 @@ and so he goes off and does it. That’s ultimately the way you prove  a  point.
 So  that  is  the way most of the arguments are done—simply by trying them. 
 ```
 
-TODO
+This seems like a very inneficient way to settle conflicts since it may
+take a good time and effort to implement two different approaches to solve
+a problem. But if the problem is essential to the core business of a company
+and the price of not having the best solution will be high (or even losing its
+market) it is essential to allow this kind of experimentation, because in the
+end there is no better way to compare ideas than to implement them and see
+the concrete results.
+
+Taking easy on the ego is also very important:
 
 ```
 Also, there’s not that much ego up there either, so if it’s
@@ -204,3 +227,80 @@ a  failure  you  come  back  and  say,  “Do  you  have
 another idea? That one didn’t work.” I have certainly
 generated as many bad ideas as I have good ones. 
 ```
+
+You must have no problem with being wrong, but you are not ready
+to be proven wrong just with talk, you need to build it to see it.
+
+Again, this is obviously not a good idea to be applied to any problem,
+just the more important and interesting ones.
+
+## The Problem with Unix
+
+What is mentioned as being the shortcoming of Unix is something that
+makes a lot of sense but kinda makes me sad:
+
+```
+Probably the glaring error in Unix was that it under-
+evaluated the concept of remoteness. The open-close-read-write interface should have been encapsulated
+together as something for remoteness; something that brought a group of interfaces together
+as a single thing — a remote file system as opposed to a local filesystem.
+Unix lacked that concept; there was just one groupof open-close-read-write interfaces.
+
+It was a glaring omission and was the reason that some of the awful
+things came into Unix like ptrace and some of the
+system calls.
+
+Every time I looked at later versions of Unix there
+were 15 new system calls, which tells you
+something’s wrong. I just didn’t see it at the time. This
+was fixed in a fairly nice way in Plan 9. 
+```
+
+This makes me sad because if embracing the concept of remoteness was important
+at the time of this interview it is **MUCH** more important today that
+much more software is distributed across the globe. Instead of having operational
+systems based on the new ideas of plan9 and Inferno that attacks this problem
+we have something that is still based on Unix (Linux), with all its shortcomings and
+hundreds of system calls =/. At the time that Unix was written overseeing remoteness
+could be excused, today it is a shame =(.
+
+## Failing
+
+Since I fail a lot it is always good for the ego to see that smart people
+makes mistakes too. So for the sake of ego =)
+
+```
+Independently, we went on and tried to rewrite Unix
+in this higher level language that was evolving simultaneously.
+It’s hard to say who was pushing whom - whether Unix was pushing C or C was pushing Unix.
+
+These rewrites failed twice in the space of six months,
+I  believe,  because  of  problems  with  the  language.
+There would be a major change in the language and
+we’d rewrite Unix.
+```
+
+Of course I make mistakes solving stupid problems, on this case they where
+creating a language and a operational system at the same time. Anyway when
+I see something as great as C I imagine a genius that just come up with it
+as a product of sheer creative power and cleverness. In real life it has a
+lot of mistakes and rewrites. It is good to have this in mind =).
+
+## Assuming Risk
+
+It is interesting that even for Bell Labs level of innovation Ken Thompson
+describes his works as being on the edge of what was acceptable:
+
+```
+It's hard to differentiate since, if you haven't noticed,
+almost everything I've done is personal interest.
+
+Almost everything I've done has been supported and I'm allowed to do it,
+but it's always been on the edge of what's acceptable for computer science at the time.
+Even Unix was right on the edge of what was acceptable at Bell Labs at the time.
+
+That's almost been my history.
+```
+
+Great things happens to those who take risks =) (or sometimes they just die,
+depending on the risk =P)

@@ -144,7 +144,6 @@
 
 ## Doing
 
-* [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
 * [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
 * [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
@@ -155,6 +154,7 @@
 
 ### 2018
 
+* [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Unix and Beyond](http://cse.unl.edu/~witty/class/csce351/howto/ken_thompson.pdf)
 * [The Inferno Operating System](ftp://ftp.mrynet.com/operatingsystems/inferno/paper01.pdf)
 * [The Future of Computing: Logic or Biology](https://lamport.azurewebsites.net/pubs/future-of-computing.pdf)

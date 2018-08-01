@@ -115,6 +115,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Languages
 
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
+* [Writing An Interpreter in Go](https://interpreterbook.com/)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Interpreter Book](https://interpreterbook.com/)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)

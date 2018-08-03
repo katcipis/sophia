@@ -154,6 +154,7 @@
 
 ### 2018
 
+* [NDBench: Benchmarking Microservices at Scale](https://arxiv.org/pdf/1807.10792.pdf)
 * [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Unix and Beyond](http://cse.unl.edu/~witty/class/csce351/howto/ken_thompson.pdf)
 * [The Inferno Operating System](ftp://ftp.mrynet.com/operatingsystems/inferno/paper01.pdf)

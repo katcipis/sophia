@@ -276,7 +276,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
+
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 
 
@@ -284,6 +284,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## 2018
 
+* [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
 

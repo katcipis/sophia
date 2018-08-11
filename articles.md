@@ -144,7 +144,6 @@
 
 ## Doing
 
-* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
 * [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
 * [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
@@ -154,6 +153,7 @@
 
 ### 2018
 
+* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
 * [NDBench: Benchmarking Microservices at Scale](https://arxiv.org/pdf/1807.10792.pdf)
 * [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Unix and Beyond](http://cse.unl.edu/~witty/class/csce351/howto/ken_thompson.pdf)

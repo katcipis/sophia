@@ -72,6 +72,127 @@ suitable to constrained enviroments as the ones found in embedded systems. The g
 collector and module systems of the language also aids to make its footprint smaller.
 These details of the Limbo language can be seen in further detail [here](./limbo.md).
 
-# Uniformity
+# Dis Virtual Machine
 
-This one is going to be hard =P. TODO.
+One of the biggest differences between Inferno and Plan9 is the choice to build
+a virtual machine and a higher level laanguage on top of that to develop applications
+for the operational system. You can still develop in C but there is a clear trend
+towards developing everything in a higher level language.
+
+There are separated notes just for the Limbo language, which is a very interesting language
+indeed. Here I try to express the main interesting things from the virtual machine where
+Limbo runs on top.
+
+There notes are mainly based on:
+
+* [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
+* [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
+
+On the design choices two things makes the Dis virtual machine pretty different from
+the JVM:
+
+* It is optimized to use as little memory as possible
+* It is a memory machine instead of a stack machine
+
+The using little memory thing is made clear on the design of the garbage collector
+that uses simple reference counting as far as possible instead of other more
+complicated algorithms (it uses a mark and sweep for possible cycles, a well
+know limitation of reference counting).
+
+The tradeoffs between a memory machine and a stack one are less know to me
+because of ignorance on the subject. Basically a stack machine looks like this:
+
+```
+push  a      # LS
+
+push  b      # LS
+
+add          # LLS
+
+store c      # LS
+```
+
+Which reminds me a lot of the Lua API, which is also stack based.
+This on a memory transfer machine would look like this:
+
+```
+add   a,b,c  # LLS
+```
+
+There are tradeoffs between the two designs, but they argument that
+designing a virtual machine with a instruction set similar to the underlying
+processor where it will run makes a lot of things easier, and the idea
+of implementing stack processors seem to have been rejected at Bell Labs:
+
+```
+One might argue that a stack-based processor design would mitigate the difficulties,
+but our experience with the implementation of a stack machine in the AT&T Crisp microprocessor
+leads us to believe that stack architectures are inherently slower than register-based machines.
+
+Their design lengthens the critical path by replacing simple registers with a complex stack cache mechanism.
+
+In other words, it is a better idea to match the design of the VM to the processor than the other way around.
+```
+
+The design leads to something that is easier to implement a processor for, but they argue that
+this is less interesting than it sounds like, anyway since it uses much less memory
+a dedicated processor to Dis seems more viable than the ones for the JVM that
+requires a lot of memory to operate, and memory on the level of the processor is
+pretty expensive (time or cost itself).
+
+Reading the spec is an interesting exercise, the only instruction set that I know is
+MIPS and it is an actual processor, it is much more low level with the basics
+of a processor:
+
+* Control Unit
+* ALU
+* FPU (optional)
+
+The Dis instruction set is remarkably high level, it has instructions to do
+things like:
+
+* Spawning new threads/processes
+* Loading modules
+* Calling functions on modules
+* Object allocation with type descriptors
+* Manipulating strings
+* Manipulating arrays (head/tail/and others)
+* Primitives for comunicating concurrent processes (CSP)
+
+It is very interesting to see that, there are some instructions that are
+said to be there to help to implement new languages for the VM, but to
+be honest that does not seem like a very good idea since the VM seems
+to be pretty specific for the Limbo language (not that this is a bad idea).
+A language that fully uses the features of the VM would be very much like Limbo.
+
+The Dis binary itself seems to be pretty simple and clean. One interesting flag
+is the **runtime_flag**:
+
+```
+
+The runtime_flag is a bit mask that defines various execution options for a Dis module.
+
+The flags currently defined are:
+
+MUSTCOMPILE	= 1<<0
+DONTCOMPILE	= 1<<1
+SHAREMP		= 1<<2
+
+The MUSTCOMPILE flag indicates that a load instruction should draw an error if the implementation
+is unable to compile the module into native instructions using a just-in-time compiler. 
+
+The DONTCOMPILE flag indicates that the module should not be compiled into native instructions,
+even though it is the default for the runtime environment.
+
+This flag may be set to allow debugging or to save memory. 
+
+The SHAREMP flag indicates that each instance of the module should use the same module data
+for all instances of the module.
+
+There is no implicit synchronization between threads using the shared data. 
+```
+
+Again it can be seen a focus on performance by the use of a JIT compiler and the SHAREMP
+feature seems to be present just to allow different languages to implemented on top
+of the VM since AFAIK Limbo always instantiates modules, they never can share data.
+Implementing Go packages on top of the VM would have to use SHAREMP for example.

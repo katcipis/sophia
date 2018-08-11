@@ -108,3 +108,24 @@ does provide some nice ideas on how to handle this, even using syntax constructi
 to help identify how much text must be skipped, but to be honest it seems that
 with the growth of computational power and other techniques that aid efficient
 re-compilation it seems that this problem could be solved by not creating it.
+
+# Modules
+
+The modules part is pretty interesting, it constructs a pretty good argument to
+how important isolation of data and clear interfaces is fundamental to good
+software and then how implementing modules correctly on a language is
+fundamental. The arguments in favor of modularization are pretty well know
+so it makes no sense elaborating them here.
+
+There is a lot of details on how to compile modules independently and avoid
+recompilation when it is not necessary, it is clearly not an easy problem
+to solve. One interesting thing is that when it elaborates on how
+to handle when modules export types that belongs to other modules it shows
+two solutions, one where you have to transitively traverse all dependencies
+modules to load the type information and other where the type information
+is copied to the module that depends on it when it is exported. This way
+when you depend on one module you just need to load that module to link it.
+
+This is interesting because the second approach is the one used by Oberon
+and by Go. It uses more space on the compiled packages/modules but it makes
+the action of linking dependencies much easier and uses less I/O.

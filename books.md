@@ -60,7 +60,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Psychology / Philosophy
 
-* [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
@@ -114,7 +113,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Languages
 
-* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Writing An Interpreter in Go](https://interpreterbook.com/)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Interpreter Book](https://interpreterbook.com/)
@@ -211,6 +209,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
+* [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
@@ -278,6 +277,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
+* [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
+* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 
 
 # Done

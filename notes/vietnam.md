@@ -76,8 +76,7 @@ like in World War 2, the war was being fought on a very different and diffuse wa
 and them it surfaces another cool phrase that goes something like this:
 
 ```
-When you can't measure what is important, you make what you
-can measure important
+When you can't measure what is important, you make what you can measure important
 ```
 
 In the case of the Vietnam war the only thing that was easy to measure

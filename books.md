@@ -14,6 +14,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## History
 
+* [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)

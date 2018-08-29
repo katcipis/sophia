@@ -95,6 +95,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
+## Data Streaming
+
+* [Streaming Systems](https://www.amazon.com/gp/product/1491983876)
+
+
 ## Relational Theory
 
 * [Time and Relational Theory](http://www.amazon.com/Time-Relational-Theory-Second-Edition/dp/0128006315)

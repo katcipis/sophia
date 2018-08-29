@@ -28,6 +28,7 @@
 
 ## Specializations
 
+* [Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
 * [Data Analysis](https://www.coursera.org/specializations/data-analysis)
 * [Data Science](https://www.coursera.org/specializations/data-science)
 

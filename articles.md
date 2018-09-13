@@ -125,6 +125,7 @@
 
 ### Not Classified Yet :-)
 
+* [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Regular Expression Search Algorithms](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/thompson1968.pdf)

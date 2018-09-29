@@ -85,3 +85,7 @@ can push you on one direction or another.
 ## Trading
 
 ## Accessible Knowledge
+
+# Life is Sacred
+
+Talk about the change in perspective of the value of individual human life.

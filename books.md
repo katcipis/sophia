@@ -283,6 +283,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [Coders at Work](http://www.codersatwork.com/)
 * [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
 * [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
 

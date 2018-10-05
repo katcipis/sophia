@@ -179,3 +179,144 @@ interface to think on the next steps.
 It is a very common way to develop software among lisp programmers, at least
 it is what I think (not the GUI part, but the experimentation and fast iterations).
 I read something really similar before on the Hackers and Painters book.
+
+## Brendan Eich
+
+The first thing that got me by surprise since I don't like Javascript is how
+much I liked Brendan Eich, which is a lesson on how stupid is to connect one
+thing to the other x_x.
+
+I identify myself with him a lot. He really apreciates good stuff like Scheme
+and Smalltalk, and he is so against traditional OO and Java and design patterns
+that he made a lot of effort to not allow things like classes in Javascript
+(sadly it got in lately =().
+
+But as it is usual with software there are a whole context that people tend to
+ignore because they where not there, and he explains a little the forces that
+where present at Javascript conception. One obvious one, even on the name of
+the language, is that the syntax should resemble Java, for the obvious reason
+of allowing Java programmers to hack stuff on it fast. So he admits that even
+thought we would be best served with a Scheme, at the time it did not seem
+practical given the context and the need for adoption of the idea.
+
+Another well know force was pressure (and programmers really shine under pressure =P).
+The language had to be done in less than two weeks, in the end it took 10 days.
+In that time frame he tried to get what seemed cool from Scheme and other languages
+like Self, but it was really hard to understand what features would compose well
+or be useful given the context of the browser and the people that would code on it.
+
+A lot of good stuff got into Javascript actually, specially lambda support (much better than
+Python for example). If you use the right subset of Javascript it resembles Lua a lot, which
+is a language that I really like. So if you squint you can see this core at Javascript
+that is inspired on good ideas, but then you get pressure to go faster and faster, you
+get standards and commitees, multiple different implementations, bug's that got so
+common spread that are required to be maintained on the specification that needs to be
+kept to avoid breaking the web.
+
+But in the end he really seems like a smart and reasonable guy, he is very interested
+on theory and language design but at the same time gives a lot of importance to
+being practical.
+
+Another example is his take on design patterns which resembles me of Paul Grahan:
+
+```
+I have this big allergy to ivory-tower design and design patterns. Peter
+Norvig, when he was at Harlequin, he did this paper about how design
+patterns are really just flaws in your programming language. Get a better
+programming language. He’s absolutely right. Worshipping patterns and
+thinking about, “Oh, I’ll use the X pattern.”
+```
+
+And to backup this notion of the harm that mindless application of patterns
+can cause he has his experience at Netscape where a big rewrite fueled by
+design patterns ideas and extreme classical OO went extremelly wrong and broke
+the company:
+
+```
+There was an imperative from Netscape to make the acquisition that
+waved the Design Patterns book around feel like they were winners by using
+their new rendering engine, which was like My First Object-Oriented
+Rendering Engine. From a high level it sounded good; it used C++ and
+design patterns. But it had a lot of problems.
+```
+
+Perhaps the design patterns where not the ones to be blamed, but
+knowing them and using them for sure did not help =P, there is no substitute to
+careful thought.
+
+More on bloated abstractions:
+
+```
+Abstraction is powerful. What I’m really allergic to, and what I had a bad
+reaction to in the ’90s, was all the CORBA, COM, DCOM, object-oriented
+nonsense. Every startup of the day had some crazy thing that would take
+200,000 method calls to start up and print “hello, world.” That’s a travesty;
+you don’t want to be a programmer associated with that sort of thing
+```
+
+I found interesting that he had the inteligence to see that the problem is
+the wrong abstractions not abstraction itself which is an essential tool for
+the feeble human brain to understand large systems.
+
+Another thing that I relate deeply is that concurrency is extremelly hard and that
+concurrency with shared memory, even transactional memory, is not eh way to go and
+that a better direction would be the work of Joe Armstrong on Erlang with no sharing
+concurrency. It is a tradeoff, but thinking about the future it seems like the right
+tradeoff.
+
+In the end one thing that excited me is to seem someone else that is just as retarded
+to interview people as I am =D. He basically just asks people about what they done on the
+past and uses references from people that works with him and are smart (networking).
+
+I just do that and seems like I'm cheating, he has the same feeling but never got
+out of this level, perhaps it is OK:
+
+```
+Eich: So when I interviewed him I knew there was talent. That he came
+recommended from somebody bright was good, because you know bright
+people like each other and can judge each other—generally there’s not a
+dysfunctional, “Hire my friend, who’s really not bright.” They want to work
+with bright people. Maybe this sounds like I’m cheating, but that’s one way I
+recognize talent. And I think that’s why we’re hiring superhackers. I think
+we’re hiring up all the Valgrind hackers. Some of those guys can do anything;
+they don’t fuck around.
+
+Seibel: So is that something you often do in interviews: get them to talk
+about their own projects?
+
+Eich: I do. I don’t give people puzzles to solve. We have people who do
+that here. To the extent that we have to do that and we’re using that to
+filter applicants, I worry.
+
+Seibel: Is that even a good first-pass filter?
+
+Eich: I’m skeptical. Google does that in spades, and they hire a bunch of
+very bright puzzle-solvers. But some of them, their street smarts are not
+necessarily there, and mature judgment. So I’m skeptical of it. I think we
+have to do it to some extent because you can end up getting someone who
+talks well, but actually isn’t effective at programming, and so you want to
+see them think on their feet, you want to see if they’ve solved a problem
+before. So we give them fairly practical problems. Not esoteric puzzles or
+math-y things, but more like programming problems.
+```
+
+## Common Observartions
+
+Here are some of the things that seems to be a trend among programmers.
+
+### Worst Bug
+
+Almost all the worst bug experiences came from multi-threading and time sensitive
+problems, which are the hardest ones to isolate and reproduce. I got one of these
+that I was not even able to solve and kinda of circled around it with ugly hacks =/.
+
+It was nice to see that other people, smart people, strugled as much with it as me
+and it shows the importante of proper tooling and expressiveness from languages
+to handle concurrency properly.
+
+### Literate Programming
+
+Knuth's [literate programming](http://www.literateprogramming.com/)
+always comes up and almost all the interviewed programmers
+are interested on it. It is odd that these ideas are not more common place and
+it motivated me to check it in more detail.

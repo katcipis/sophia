@@ -1,5 +1,8 @@
 # Coders at Work
 
+These notes are based on my reading of the book
+[Coders at Work](http://www.codersatwork.com/).
+
 The first impression that I get from the preface of the book is how
 young our field really is. There is an entire generation of people alive
 that was born on a world where there was no computers and we are essentially

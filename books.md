@@ -119,6 +119,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Languages
 
+* [Literate Programming](https://www.amazon.com/Literate-Programming-Lecture-Notes-Donald/dp/0937073806)
+* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Writing An Interpreter in Go](https://interpreterbook.com/)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Interpreter Book](https://interpreterbook.com/)
@@ -135,7 +137,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ### Lisp / Scheme
 
-* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
 * [Lisp in small pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
 * [The Reasoned Schemer](https://mitpress.mit.edu/books/reasoned-schemer)
 * [The Little Schemer](https://mitpress.mit.edu/books/little-schemer)
@@ -186,6 +187,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Math
 
+* [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 * [The Scientist & Engineer's Guide to Digital Signal Processing](https://www.amazon.com/Scientist-Engineers-Digital-Signal-Processing/dp/0966017633)
 * [Mathematics of GIS](http://homepage.univie.ac.at/wolfgang.kainz/Lehrveranstaltungen/15th_Nordic_Summer_School/The_Mathematics_of_GIS_Draft.pdf)
 * [Think Bayes](https://www.amazon.com/gp/product/1449370780)
@@ -281,10 +283,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-
-* [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
 * [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
-* [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
+* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
 
 
 # Done

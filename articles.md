@@ -72,6 +72,7 @@
 
 ### Languages
 
+* [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
@@ -85,7 +86,7 @@
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [On-the-fly garbage collection: an exercise in cooperation](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
 * [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
-* [A cost-e!ective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
+* [A cost-effective estimation of uncaught exceptions in Standard ML programs](https://ropas.snu.ac.kr/~kwang/paper/02-tcs-yiry.pdf)
 * [The C Programming Language](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1991.pdf)
 * [Concurrent programming in ML](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7201&rep=rep1&type=pdf)
 * [The Future Of Standard ML](http://www.cs.cmu.edu/~rwh/talks/mlw13.pdf)

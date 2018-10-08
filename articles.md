@@ -130,6 +130,7 @@
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
+* [Engineering a Sort Function](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8162&rep=rep1&type=pdf)
 * [Regular Expression Search Algorithms](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/thompson1968.pdf)
 * [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
@@ -150,8 +151,6 @@
 
 ## Doing
 
-* [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
-* [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
 * [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 
 
@@ -159,6 +158,8 @@
 
 ### 2018
 
+* [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
+* [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
 * [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)
 * [NDBench: Benchmarking Microservices at Scale](https://arxiv.org/pdf/1807.10792.pdf)
 * [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)

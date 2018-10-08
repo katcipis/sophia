@@ -151,11 +151,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Definition of Standard ML](http://sml-family.org/sml90-defn.pdf)
 
 
-### Go
-
-* [Go Programming Blueprints](http://www.amazon.com/Go-Programming-Blueprints-Mat-Ryer/dp/1783988029)
-
-
 ### C
 
 * [Scalable C](https://www.gitbook.com/book/hintjens/scalable-c/details)
@@ -217,6 +212,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
+* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)

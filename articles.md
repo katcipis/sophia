@@ -164,7 +164,7 @@
 * [NDBench: Benchmarking Microservices at Scale](https://arxiv.org/pdf/1807.10792.pdf)
 * [The design of the Inferno virtual machine](http://doc.cat-v.org/inferno/4th_edition/dis_VM_design)
 * [Unix and Beyond](http://cse.unl.edu/~witty/class/csce351/howto/ken_thompson.pdf)
-* [The Inferno Operating System](ftp://ftp.mrynet.com/operatingsystems/inferno/paper01.pdf)
+* [The Inferno Operating System](http://doc.cat-v.org/inferno/4th_edition/inferno_OS)
 * [The Future of Computing: Logic or Biology](https://lamport.azurewebsites.net/pubs/future-of-computing.pdf)
 * [Rc - The Plan 9 Shell](http://doc.cat-v.org/plan_9/4th_edition/papers/rc)
 * [CockroachDB](http://cs.ulb.ac.be/public/_media/teaching/cockroachdb_2017.pdf)

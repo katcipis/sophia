@@ -303,6 +303,12 @@ before. So we give them fairly practical problems. Not esoteric puzzles or
 math-y things, but more like programming problems.
 ```
 
+## Joe Armstrong
+
+* Very interesting how he details good vs bad days in software development
+* Also interesting how he is honest on how much hours per day of truly focused work we can do
+* Interesting case where him and a friend developed together, each one pushing towards a different direction
+
 ## Common Observartions
 
 Here are some of the things that seems to be a trend among programmers.

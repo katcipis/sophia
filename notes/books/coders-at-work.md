@@ -303,6 +303,15 @@ before. So we give them fairly practical problems. Not esoteric puzzles or
 math-y things, but more like programming problems.
 ```
 
+## Joshua Bloch
+
+Java guy with some interesting ideas:
+
+* The first one to mention how each language is surrounded by a unique culture/community
+* Very interesting insights on the complexity of adding generics to a language
+* Also starting the SICP book =D
+
+
 ## Joe Armstrong
 
 * Very interesting how he details good vs bad days in software development

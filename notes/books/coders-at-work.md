@@ -490,6 +490,10 @@ to develop something better. I understand the economic urge to leverage
 code that has already been writen, but wanting to spend you entire life
 just gluying stuff together seems mediocre.
 
+## Simon Peyton Jones
+
+* Great advice: Just start something, even if it is stupid
+* Interesting take on problems that are better suited to dynamically typed languages
 
 ## Common Observartions
 

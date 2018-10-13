@@ -15,6 +15,7 @@
 
 # Podcasts
 
+* [It Career Energizer](http://itcareerenergizer.com/)
 * [DevChat](http://devchat.tv/)
 * [Grok](http://www.grokpodcast.com/)
 * [SE Radio](http://www.se-radio.net/)

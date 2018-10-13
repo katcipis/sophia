@@ -314,9 +314,9 @@ Java guy with some interesting ideas:
 
 ## Joe Armstrong
 
-One thing that I identified myself a lot is when he gives details on how
+One thing that I identified with a lot is when he gives details on how
 he has bad days and good days when developing software and that he does not
-like a steady flow of productive days. Not that you are going to sit idle
+have like a steady flow of productive days. Not that you are going to sit idle
 during a bad day, but it will not be as awesome as a good day. The subject comes
 up when talking about pair programming :
 
@@ -371,7 +371,7 @@ has never been like that, I feel more like a roller coaster).
 It is interesting that the description that he gives about how much hours of
 focused work that he can do matches with the amount of hours per day
 of deliberate practice that someone can (usually) do as described on the
-[Talent is Overrated](https://www.amazon.com.br/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948) book. It may mean nothing, but I found the coincidence (or not) interesting.
+[Talent is Overrated](https://www.amazon.com.br/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948) book. It may mean nothing, but I found the coincidence interesting.
 
 There is also a really interesting case when he and a friend that has
 a very different programming philosophy worked together:

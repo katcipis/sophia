@@ -121,6 +121,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Literate Programming](https://www.amazon.com/Literate-Programming-Lecture-Notes-Donald/dp/0937073806)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
+* [Compiling with Continuations](https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X)
 * [Writing An Interpreter in Go](https://interpreterbook.com/)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Interpreter Book](https://interpreterbook.com/)

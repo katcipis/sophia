@@ -494,6 +494,12 @@ just gluying stuff together seems mediocre.
 
 * Great advice: Just start something, even if it is stupid
 * Interesting take on problems that are better suited to dynamically typed languages
+* Similar opinion on how software is less constrained than other engineerings (bridges building for example)
+
+## Peter Norvig
+
+* Page 300: Interesting ideas on TDD and what it does not do (designing)
+* Page 306: On the strugle to not over-design perfect solutions
 
 ## Common Observartions
 

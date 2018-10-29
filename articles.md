@@ -131,6 +131,7 @@
 * [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
+* [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Engineering a Sort Function](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8162&rep=rep1&type=pdf)

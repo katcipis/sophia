@@ -89,3 +89,41 @@ can push you on one direction or another.
 # Life is Sacred
 
 Talk about the change in perspective of the value of individual human life.
+
+Also how the idea of an eternal afterlife can make your current life mean less.
+
+# Utopy and Genocide
+
+It is funny to see these two words together but the book presents a pretty
+good case on how utopies can be an deep influence for genocides. It is far
+from being the only reason for genocide, sometimes the reason is just that
+you want the resources that are monopolized by another group of people.
+But the are two ways that utopies can make genocide seems like an acceptable idea.
+
+The first one is related to the nature of utopies, being about attaining undescriptable
+happyness and prosperity, for ages or even forever. When faced with this prospect
+what is the death of one million humans when you guaranteeing the forever happyness
+and well being of one hundred million ? Killing may not look fun, but at least it
+seems feasible for the greater good (the catch is that there is no such greater good).
+
+The second one is that utopies usually are also about peace and harmony, for that to
+happen there is no space for dissidents and people that think differently. The solution ?
+Out with the people that think different =). It is an enforcement of uniformity. Uniformity
+and consistent are desirable (that is why people segregate), trying to take it to
+the level of an utopic society will lead to expulsion or killing of the groups of
+people who do not conform. This is the only way that you can guarantee that 
+conflicts will NEVER happen.
+
+It is appalling that a book takes as sacred (the bible) preaches exactly these
+ideas. The only way to not read these ideas on the bible is to
+EXTREMELLY compartmentalize =/. But it also enforces the idea that it is an old book
+written by people, people are filled with utopies and prejudice. Now we see some improvement
+on this kind of thought, but its pervasiveness on the human society explains a lot
+about our "sacred" books.
+
+The most obvious and recent example of this kind of utopic bible based thinking is
+nazism. Even the third reich having a duration of thousand years is an obvious reference
+to the bible. It is important to identify this kind of thinking as an exogenous force
+for violence so we can just eliminate it from our societies. There is no utopy, there is
+just life, and thinking like that can lead to much more respect and prosperity than
+believing in pipe dreams.

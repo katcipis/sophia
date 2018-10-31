@@ -4,14 +4,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Wishlist :-)
 
-
-## Job
-
-* [Land the tech job you love](http://pragprog.com/book/algh/land-the-tech-job-you-love)
-* [Manage your job search](http://www.jrothman.com/books/manage-your-job-search/)
-* [The Best Place to Work](http://www.amazon.com/The-Best-Place-Work-Extraordinary/dp/0399165592)
-
-
 ## History
 
 * [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
@@ -61,6 +53,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Psychology / Philosophy
 
+* [The Psychology of Computer Programming](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary/dp/0932633420)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
@@ -74,7 +67,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
-* [Talking with Tech Leads](https://leanpub.com/talking-with-tech-leads)
 
 
 ## Health
@@ -91,7 +83,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Databases
 
-* [Seven databases in seven weeks](http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
@@ -115,6 +106,8 @@ Basically where I organize what I still want to read and what I have already rea
 ### Recommended
 
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
+* [Data Structures and Algorithms](https://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237)
+* [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 
 
 ## Languages
@@ -199,16 +192,14 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
 * [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
-* [Practices of an Agile Developer](http://pragprog.com/book/pad/practices-of-an-agile-developer)
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
-* [User Story Mapping: Discover the Whole Story, Build the Right Product](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 
 
 ## Distributed Systems
 
+* [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
 * [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
-* [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 
 
 ## Software Design
@@ -219,15 +210,8 @@ Basically where I organize what I still want to read and what I have already rea
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
-* [Making Software: What Really Works, and Why We Believe It](https://www.amazon.com/Making-Software-Really-Works-Believe/dp/0596808321)
-* [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
-* http://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351
-* [xUnit Test Patterns](http://xunitpatterns.com/).
-* http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
-* http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/
-
 
 
 ## Security
@@ -259,7 +243,6 @@ Basically where I organize what I still want to read and what I have already rea
 ## Machine Learning
 
 * [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
-* [Python Machine Learning](http://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130)
 * [Deep Learning](http://www.deeplearningbook.org/)
 
 

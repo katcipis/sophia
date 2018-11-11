@@ -163,6 +163,8 @@
 
 ### 2018
 
+* [Programming Considered as a Human Activity](https://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD117.html)
+* [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
 * [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)
 * [The Inferno Shell](http://www.vitanuova.com/inferno/papers/sh.html)
 * [Dis Virtual Machine specs](http://www.vitanuova.com/inferno/papers/dis.html)

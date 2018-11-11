@@ -1,6 +1,7 @@
 # Humble Programmer
 
-The article does a great introduction to the concept
+This [turing lecture](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+does a great introduction to the concept
 of software being "intelectually manageable" which is a cool
 way to say "I'm able to understand this shit".
 

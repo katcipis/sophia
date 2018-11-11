@@ -183,6 +183,23 @@ It is a very common way to develop software among lisp programmers, at least
 it is what I think (not the GUI part, but the experimentation and fast iterations).
 I read something really similar before on the Hackers and Painters book.
 
+## Brad Fitzpatrick
+
+Brad has a very interesting experience in the sense that he started to
+code with 5 years old and yet he got though collegue studying CS. Even though
+he already knew a lot about coding the more formal CS education allowed him
+to develop a better vocabulary and to communicate ideas easier to other people.
+
+He is one of the first interviewee that places a lot of importante on unit testing.
+He requires it from people that works with him and uses testing a tool
+to debug and to explore the behavior of libraries.
+
+TODO
+
+## Douglas Crackford
+
+TODO
+
 ## Brendan Eich
 
 The first thing that got me by surprise since I don't like Javascript is how

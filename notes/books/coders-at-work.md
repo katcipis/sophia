@@ -711,6 +711,12 @@ not the entire history about the software that hey are using.
 ## Common Observartions
 
 Here are some of the things that seems to be a trend among programmers.
+There aren't much of them and that is one of the most interesting aspects
+of this book, there is very little consense on how software should be
+developed or even on how to learn it. Some of the interviewee's studied
+formal CS and read books, others did not read books at all (like Dan Ingalls).
+But some patterns emerged =) (although nothing is ubiquotous).
+
 
 ### Worst Bug
 
@@ -722,17 +728,25 @@ It was nice to see that other people, smart people, strugled as much with it as 
 and it shows the importante of proper tooling and expressiveness from languages
 to handle concurrency properly.
 
+The NASA mars mission that failed because of communication problems is also
+very interesting, specially because communication problems are the source of
+99% of my problems with software development.
+
+
 ### Debugging
 
 Almost all the people that is interviewed do most of their debugging with
 print statements, makes me feel less alone in the world =).
 
-Of course it may be because of the low quality of our debugging tools =/.
+Of course it may be because of the low quality of our debugging tools =/
+(as pointed out by Dan Ingalls).
+
 Almost all of them are ashamed of not using debug tools properly and also
 admits that this is partially because of the quality of the tools, which is
 also a feeling that I can relate to.
 
 It is like, I'm not that idiot, gdb is really hard, even to smart people =).
+
 
 ### Literate Programming
 

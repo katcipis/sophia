@@ -183,6 +183,7 @@ It is a very common way to develop software among lisp programmers, at least
 it is what I think (not the GUI part, but the experimentation and fast iterations).
 I read something really similar before on the Hackers and Painters book.
 
+
 ## Brad Fitzpatrick
 
 Brad has a very interesting experience in the sense that he started to
@@ -190,15 +191,42 @@ code with 5 years old and yet he got though collegue studying CS. Even though
 he already knew a lot about coding the more formal CS education allowed him
 to develop a better vocabulary and to communicate ideas easier to other people.
 
-He is one of the first interviewee that places a lot of importante on unit testing.
+He is one of the first interviewee that places a lot of importance on unit testing.
 He requires it from people that works with him and uses testing a tool
 to debug and to explore the behavior of libraries.
 
-TODO
+One thing that got my attention and made me feel less stupid is that his
+"hard bug" history is not a bug at all, it is about when he spent like 90
+minutes trying to debug why a file was not being changed by the program
+he was debugging just to discover that the filepath was actually wrong
+and that was the reason the file was being left untouched by the program =P.
+
+My default mode when debugging is always thinking that the problem is something
+really complex, and almost all the times is some stupid/silly mistake or
+not even a bug (a wrong parameter, wrong port, etc). Keeping your calm and
+checking out stupid obvious stuff before debugging can be very hard.
+
 
 ## Douglas Crackford
 
-TODO
+In his interview it is clear that he is a guy that places a lot of importance
+on communication, mentioning that it is even more important than math
+for a programmer. Of course that this depends on context, but it is
+true that almost all problems in software development in the industry
+is caused by communication problems (or the lack of).
+
+He defines himself as a writer more than a programmer, specially because
+the programmer role usually involves writing docs, specs and other forms
+of prose that are as essential as the code. Code usually is placed in high
+regard because it is the executable artifact, it is what will produce the 
+results that you can sell, but you seldom will be able to maintain it
+properly without a great deal of writing (docs/specs).
+
+Another thing that I was able to relate with him is that he gets sad
+on how people are usually not very interested in the history of computing
+and what are the origins of the ideas that they are using today. If you
+dont know the past you are faded to commit the same mistakes over and over again.
+
 
 ## Brendan Eich
 
@@ -507,16 +535,178 @@ to develop something better. I understand the economic urge to leverage
 code that has already been writen, but wanting to spend you entire life
 just gluying stuff together seems mediocre.
 
-## Simon Peyton Jones
-
-* Great advice: Just start something, even if it is stupid
-* Interesting take on problems that are better suited to dynamically typed languages
-* Similar opinion on how software is less constrained than other engineerings (bridges building for example)
 
 ## Peter Norvig
 
-* Page 300: Interesting ideas on TDD and what it does not do (designing)
-* Page 306: On the strugle to not over-design perfect solutions
+### TDD
+
+One of the first things that caught my attention was his experience
+with people that takes TDD as a religion and a way to do design.
+Even Kent Beck talks about TDD as a tool to get feedback and perhaps
+write better tests that works for him, but on top of that people started
+to build a whole religious tought that writing tests first drives the
+design and will shape de design of the application and that is non-sense.
+
+Nothing substitutes thinking about the design of the application and
+having a good grasp of the problem that you are solving and he has a very
+interesting experience on that regard:
+
+```
+It’s also important to know what you’re doing. When I wrote my Sudoku
+solver, some bloggers commented on that. They said, “Look at the
+contrast—here’s Norvig’s Sudoku thing and then there’s this other guy,
+whose name I’ve forgotten, one of these test-driven design gurus. He starts
+off and he says, “Well, I’m going to do Sudoku and I’m going to have this
+class and first thing I’m going to do is write a bunch of tests.” But then he
+never got anywhere. He had five different blog posts and in each one he
+wrote a little bit more and wrote lots of tests but he never got anything
+working because he didn’t know how to solve the problem.
+
+I actually knew—from AI—that, well, there’s this field of constraint
+propagation—I know how that works. There’s this field of recursive
+search—I know how that works. And I could see, right from the start, you
+put these two together, and you could solve this Sudoku thing. He didn’t
+know that so he was sort of blundering in the dark even though all his code
+“worked” because he had all these test cases
+```
+
+The idea is not that TDD is bad, but TDD cant solve problems, it is just
+a tool. It is your mind that solves problems and nothing can substitute that:
+
+```
+Then bloggers were arguing back and forth about what this means. I don’t
+think it means much of anything—I think test-driven design is great. I do
+that a lot more than I used to do. But you can test all you want and if you
+don’t know how to approach the problem, you’re not going to get a
+solution
+```
+
+### Perfect Solutions
+
+I identified myself with his strugles on the subject of how elegant
+a solution needs to be =)
+
+```
+Seibel: How do you avoid over-generalization and building more than you
+need and consequently wasting resources that way?
+
+Norvig: It’s a battle. There are lots of battles around that. And, I’m
+probably not the best person to ask because I still like having elegant
+solutions rather than practical solutions. So I have to sort of fight with
+myself and say, “In my day job I can’t afford to think that way.” I have to say,
+“We’re out here to provide the solution that makes the most sense and if
+there’s a perfect solution out there, probably we can’t afford to do it.”
+We have to give up on that and say, “We’re just going to do what’s the most
+important now.” And I have to instill that upon myself and on the people I
+work with. There’s some saying in German about the perfect being the
+enemy of the good; I forget exactly where it comes from—every practical
+engineer has to learn that lesson.
+```
+
+### Code Reuse and Outsourcing
+
+When asked about debugging he talks about when he was involved with the
+postmortem of the failed mars mission on 1998 working at NASA. It is
+very interesting to see such an important project with such a high
+cost fail for something that makes software fail all the time everywhere,
+communication. The outsourcing just exacerbated the communication problems:
+
+```
+Seibel: What is the worst bug you’ve ever had to track down?
+
+Norvig: Well, I guess the most consequential bugs I was involved with
+were not mine, but the ones I had to clean up after: the Mars program
+failures in ’98. One was foot-pounds vs. newtons. And the other was, we
+think, though we’re not 100 percent sure, prematurely shutting off the
+engines due to a software problem.
+
+Seibel: I read one of the reports on the Mars Climate Orbiter—that was
+the one that was the foot-pounds vs. newtons problem—and you were the
+only computer scientist on that panel. Were you involved in talking to the
+software guys to figure out what the problem was?
+
+Norvig: That was pretty easy, post hoc, because they knew the failure
+mode. From that they were able to back it out and it didn’t take long to
+figure that one out. Then there was this postmortem of why did it happen?
+And I think it was a combination of things. One was outsourcing. It was a
+joint effort between JPL in Pasadena and Lockheed-Martin in Colorado.
+There were two people on two different teams and they just weren’t sitting
+down and having lunch together. I’m convinced that if they had, they would
+have solved this problem. But instead, one guy sent an email saying, you
+know, “Something not quite right with these measurements, seems like
+we’re off by a little bit. It’s not very much, it’s probably OK, but—”
+```
+
+And then enters code reuse for the rescue !
+
+```
+Seibel: That was all during the flight?
+
+Norvig: Right. During the flight they had chance and chance to catch it.
+They knew something was wrong and they sent this email but they did not
+put it into the bug-tracking system. If they had, NASA has very good
+controls for bug tracking and at later points in the flight somebody would
+have had to OK it. Instead it was just an informal email that never got an
+answer back, and JPL said, “Oh, I guess Lockheed-Martin must have solved
+this problem.” And Lockheed says, “Oh, JPL’s not asking anymore—they
+must not be concerned.”
+
+So it was this communications problem. It was also a software reuse
+problem. They have extremely good checks for the stuff that’s mission-
+critical, and on the previous mission the stuff that was recorded in foot-
+pounds was non–mission-critical— it was just a log that wasn’t used for
+navigation. So it had been classified as non–mission-critical. In the new
+mission they reused most of the stuff but they changed the navigation so
+that what was formerly a log file now became an input to the navigation.
+```
+
+### Solving Bugs
+
+He mentioned how he sometimes solve bugs without being sure where the bug
+is, and it is something that I do sometimes and also feel guilty about =)
+
+```
+Seibel: On a different topic, what are your preferred debugging techniques
+and tools? Print statements? Formal proofs? Symbolic debuggers?
+
+Norvig: I think it’s a mix and it depends on where I am. Sometimes I’m
+using an IDE that has good tracing capability and sometimes I’m just using
+Emacs and don’t have all that. Certainly tracing and printing. And thinking.
+Writing smaller test cases and watching them go, and breaking the
+functionality down to see where the test case failed. And I’ve got to admit, I
+often end up rewriting. Sometimes I do that without ever finding the bug. I
+get to the point where I can just feel that it’s in this part here. I’m just not
+very comfortable about this part. It’s a mess. It really shouldn’t be that way.
+Rather than tweak it a little bit at a time, I’ll just throw away a couple
+hundred lines of code, rewrite it from scratch, and often then the bug is
+gone.
+
+Sometimes I feel guilty about that. Is that a failure on my part? I didn’t
+understand what the bug was. I didn’t find the bug. I just dropped a bomb on
+the house and blew up all the bugs and built a new house. In some sense,
+the bug eluded me. But if it becomes the right solution, maybe it’s OK.
+You’ve done it faster than you would have by finding it.
+```
+
+### Literate Programming
+
+On literate programming he gives one of the more different views that
+really got me thinking:
+
+```
+You look at Knuth’s original Literate Programming, and he was really trying to
+say, “What’s the best order for writing a book,” assuming that someone’s
+going to read the whole book and he wants it to be in a logical order.
+People don’t do that anymore. They don’t want to read a book. They want
+an index so they can say, “What’s the least amount of this book that I have
+to read? I just want to find the three paragraphs that I need. Show me that
+and then I’ll move on.” I think that’s a real change.
+```
+
+It is not that literate programmin is useless, but it is true that in a lot
+of contexts today people just want to learn what they need to accomplish X,
+not the entire history about the software that hey are using.
+
 
 ## Common Observartions
 

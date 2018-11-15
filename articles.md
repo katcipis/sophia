@@ -78,6 +78,7 @@
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
 * [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [ohm lang parser generator](https://ohmlang.github.io/pubs/live2016/)
+* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [WebProlog](https://raw.githubusercontent.com/Web-Prolog/swi-web-prolog/master/book/web-prolog.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)

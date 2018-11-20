@@ -133,6 +133,7 @@
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
+* [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Engineering a Sort Function](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8162&rep=rep1&type=pdf)
@@ -149,7 +150,6 @@
 * [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
 * [Google Infrastructure Security Design Overview](https://cloud.google.com/security/security-design/)
 * [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
-* [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
 * [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
 

@@ -108,6 +108,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
 * [Data Structures and Algorithms](https://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237)
 * [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
+* [The Art of Computer Programming 5](https://www.amazon.com/Art-Computer-Programming-Fascicle-Preliminaries/dp/0134671791)
 
 
 ## Languages

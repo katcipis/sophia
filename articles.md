@@ -64,6 +64,7 @@
 
 ### Concurrency
 
+* [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Transactional Memory Support for C](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1961.pdf)
 * [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)

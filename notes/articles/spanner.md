@@ -150,3 +150,9 @@ require locking and the lock scope seems to be of the paxos groups
 that holds the data for the given query, not a global lock, so
 write transactions on different paxos groups will happen in
 parallel.
+
+# Interesting Concepts
+
+* [Two Phase Locking](https://en.wikipedia.org/wiki/Two-phase_locking)
+* [Serializability](https://en.wikipedia.org/wiki/Serializability)
+* [Linearizability](https://en.wikipedia.org/wiki/Linearizability)

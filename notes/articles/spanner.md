@@ -93,5 +93,60 @@ failures of CPUs compared to the rate of failure of atomic or GPS clocks).
 The first organizational unit in Spanner is the zone. A zone guarantees
 physical isolation, different zones can be on the same datacenter but
 never on the same machine/storage. So if you want to isolate different
-application so the data is not storared together and to distribute
+applications so the data is not storared together and to distribute
 resource usage better you use zones for that.
+
+The next is the tablet, which is basically a bag of:
+
+```
+(key : string, timestamp : int64) -> value : string
+```
+
+The timestamp present with the key is important because it is what
+caracterizes Spanner as a multi-version database instead of a plain
+key->value database (and the other features too).
+
+The replication unit is one paxos group. Each paxos group coordinates writes
+to all replicas (with a leader/follower model that has a lease time of 10 seconds).
+Reads are made directly to any node that has the data, given
+that the node can safely answer the read operation given its timestamp.
+
+On top of the tablet there is the directory (or a bucket) which represents
+a set of contiguous key values. The directory is the unit of placement
+on Spanner. Basically when you need to move data you do it in the unit
+of directories (you can't move less than an entire directory). If the data
+has to move from one paxos group to another it will be moved one directory at a time.
+
+Directories can be moved so that directories that are accessed together
+remain on the same paxos group or to make the data available on a location
+that is closer to the application that is using it.
+
+Even tough it seems that the directory will be the smaller unit since
+it is the placement unit a directory still can be splited into fragments,
+but for the sake of simplicity the article ignores that and elaborates
+on the features in terms of directories.
+
+# Concurrency
+
+A good quick description of the approach:
+
+```
+At every replica that is a leader, each spanserver implements
+a lock table to implement concurrency control.
+The lock table contains the state for two-phase locking:
+it maps ranges of keys to lock states. (Note that
+having a long-lived Paxos leader is critical to efficiently
+managing the lock table.)
+
+In both Bigtable and Spanner,
+we designed for long-lived transactions (for example,
+for report generation, which might take on the order
+of minutes), which perform poorly under optimistic concurrency
+control in the presence of conflicts.
+```
+
+Locking is avoided as much as possible, only read/write transactions
+require locking and the lock scope seems to be of the paxos groups
+that holds the data for the given query, not a global lock, so
+write transactions on different paxos groups will happen in
+parallel.

@@ -138,6 +138,7 @@
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Engineering a Sort Function](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8162&rep=rep1&type=pdf)
+* [Writing Network Drivers in Go](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-go.pdf)
 * [Regular Expression Search Algorithms](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/thompson1968.pdf)
 * [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
@@ -157,14 +158,11 @@
 
 ## Doing
 
-* [Writing Network Drivers in Go](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-go.pdf)
-* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
-
-
 ## Done
 
 ### 2018
 
+* [Spanner](https://research.google.com/archive/spanner-osdi2012.pdf)
 * [Programming Considered as a Human Activity](https://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD117.html)
 * [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
 * [Program Development Under Inferno](http://www.vitanuova.com/inferno/papers/dev.html)

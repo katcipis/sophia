@@ -329,7 +329,7 @@ from about 1 to 7 ms over each poll interval.
 This worst case clock drift is important because it will
 influence the latency of write operations directly since spanner
 approach is to simply wait for this uncertainty period to pass
-before commiting write (or something like it, more on that later I hope =) ).
+before commiting.
 
 The first time I read about this was on a CockRoachLabs blog post
 [Living Without Atomic Clocks](https://www.cockroachlabs.com/blog/living-without-atomic-clocks/):

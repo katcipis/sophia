@@ -15,6 +15,7 @@
 
 # Podcasts
 
+* [The Cynical Developer](https://cynicaldeveloper.com/)
 * [It Career Energizer](http://itcareerenergizer.com/)
 * [DevChat](http://devchat.tv/)
 * [Grok](http://www.grokpodcast.com/)

@@ -81,12 +81,12 @@ trend of about 2.3 milliseconds per century since the 8th century BCE.[2]
 ```
 
 So defining order using global wall clock is really hard but
-at the same time extremelly useful if you find a way to solve it.
+at the same time extremelly useful if you find a way to do it.
 
 Nothing in a distributed system is 100% precise, specially because you will get
 all kinds of stochastic failures, so the aim of TrueTime is to be as reliable
 as the rest of the hardware that the system already depends (like the rate of
-failures of CPUs compared to the rate of failure of atomic or GPS clocks).
+failures of CPUs compared to the rate of failure of atomic/GPS clocks).
 
 # Organization
 
@@ -126,6 +126,125 @@ it is the placement unit a directory still can be splited into fragments,
 but for the sake of simplicity the article ignores that and elaborates
 on the features in terms of directories.
 
+# Data Model
+
+The data model of spanner is pretty interesting since it is what
+they call semi-relational. They are very opnionated about the need
+of SQL and transactions on the database. This opinion is not just
+a hunch but really seems to be have a foundation on feedback from
+other software developers:
+
+```
+ The
+need to support schematized semi-relational tables and
+synchronous replication is supported by the popularity
+of Megastore [5]. At least 300 applications within
+Google use Megastore (despite its relatively low performance)
+because its data model is simpler to manage than Bigtable’s,
+and because of its support for synchronous
+replication across datacenters. (Bigtable only supports eventually-consistent replication across datacenters.)
+
+Examples of well-known Google applications
+that use Megastore are Gmail, Picasa, Calendar, Android
+Market, and AppEngine. The need to support a SQLlike
+query language in Spanner was also clear, given
+the popularity of Dremel [28] as an interactive dataanalysis
+tool. Finally, the lack of cross-row transactions
+in Bigtable led to frequent complaints; Percolator [32]
+was in part built to address this failing.
+```
+
+The point that is usually where discussion is more intense would be
+the performance problems that overusing transactions brings, their
+opinion is clear:
+
+```
+We believe it is better to have application programmers deal with performance
+problems due to overuse of transactions as bottlenecks
+arise, rather than always coding around the lack
+of transactions
+```
+
+And I agree that if you need the concept of a transaction, implementing that
+on the application level correctly can be pretty hard, specially with
+correctness in mind =P. The best place to be seems to avoid using it
+but when you need it you can rely on the database to do that.
+
+Actually a lot of features of databases are misused because of the initial
+gain you get. I have seem databases being used as message brokers and even
+as a form of DNS service, it is tempting because it does solve the
+problem really fast, perhaps that is why transactions also gets misused
+but hardly seems like a reason to not have transactions at all on a database.
+
+Scalability and simplicity would be better reasons to not support
+transactions, and as it is usual with this kind of tradeoff making the
+database simpler may leave the application code more complex (complexity
+transfers from one place to the other, like the smart client/ dumb server thing).
+
+Enough of that, another pretty cool thing is how leaking some details of the
+underlying key/value storage allows applications to leverage colocation of
+data, interleaving different tables together in the same directory, so if
+the data is from different tables but it is always used together (with joins
+for example) you can indicate that you want these data to be together in
+the same directory/paxos group (which simplifies greatly locking and coordination
+on write transactions):
+
+```
+Client applications declare the hierarchies in
+database schemas via the INTERLEAVE IN declarations.
+
+The table at the top of a hierarchy is a directory
+table. Each row in a directory table with key K, together
+with all of the rows in descendant tables that start with K
+in lexicographic order, forms a directory.
+```
+
+The interleaving concepts in the end is just a appending operation
+on the keys of the descendants tables. For example, given these tables:
+
+```
+CREATE TABLE Users {
+    uid INT64 NOT NULL, email STRING
+} PRIMARY KEY (uid), DIRECTORY;
+
+CREATE TABLE Albums {
+    uid INT64 NOT NULL, aid INT64 NOT NULL,
+    name STRING
+} PRIMARY KEY (uid, aid), INTERLEAVE IN PARENT Users ON DELETE CASCADE;
+```
+
+If I add a User with uid 1 I would have:
+
+```
+Users(1)
+```
+
+When I add a new album with uid 1 and aid 1 I would have this on the directory:
+
+```
+Users(1)
+Albums(1, 1)
+```
+
+And if I add another album with aid 2:
+
+```
+Users(1)
+Albums(1, 1)
+Albums(1, 2)
+```
+
+The neat thing is that this data will reside together and contiguously
+because the key is ordered lexycographically and the child table rows
+just appends its own key in the parent key, so it stays ordered within
+itself and it will be close to the parent table too since the
+data is usually read and written together.
+
+This is a little different from classical SQL/Relational stuff but it
+seems to be a necessary adition when data is distributed geographically,
+when failures and latencies are inevitable.
+
+
 # Concurrency
 
 A good quick description of the approach:
@@ -150,6 +269,91 @@ require locking and the lock scope seems to be of the paxos groups
 that holds the data for the given query, not a global lock, so
 write transactions on different paxos groups will happen in
 parallel.
+
+
+# TrueTime
+
+The cornerstone of Spanner seems to be the TrueTime API. Besides the fact
+that it relies on atomic and GPS clocks what makes it different
+from commodity clocks/APIs is that it models uncertainty on the clock
+explicitely, so given the interval of confidente of you timestamp you
+can be closer to be sure if A has really happened before B.
+
+Just adding the uncertainty on the API does not solve the problem,
+but adding it with atomic/GPS clocks and low latency connectivity
+can add up to something that is pretty reliable at least for a distributed system.
+
+```
+TrueTime explicitly represents time as a TTinterval,
+which is an interval with bounded time uncertainty (unlike
+standard time interfaces that give clients no notion
+of uncertainty)
+```
+
+The timestamp itself seems to be pretty much like the unix one:
+
+```
+The time epoch is analogous to UNIX time with leap-second smearing.
+```
+
+On the choice of using two different kinds of clocks:
+
+```
+The underlying time references used by TrueTime
+are GPS and atomic clocks. TrueTime uses two forms
+of time reference because they have different failure
+modes.
+
+GPS reference-source vulnerabilities include antenna
+and receiver failures, local radio interference, correlated
+failures (e.g., design faults such as incorrect leapsecond
+handling and spoofing), and GPS system outages.
+
+Atomic clocks can fail in ways uncorrelated to GPS and
+each other, and over long periods of time can drift significantly
+due to frequency error.
+```
+
+And on the uncertainty of the clock:
+
+```
+Between synchronizations, a daemon advertises a
+slowly increasing time uncertainty. 'e' is derived from
+conservatively applied worst-case local clock drift. 'e' also
+depends on time-master uncertainty and communication
+delay to the time masters. In our production environment,
+'e' is typically a sawtooth function of time, varying
+from about 1 to 7 ms over each poll interval.
+```
+
+This worst case clock drift is important because it will
+influence the latency of write operations directly since spanner
+approach is to simply wait for this uncertainty period to pass
+before commiting write (or something like it, more on that later I hope =) ).
+
+The first time I read about this was on a CockRoachLabs blog post
+[Living Without Atomic Clocks](https://www.cockroachlabs.com/blog/living-without-atomic-clocks/):
+
+```
+So how does Spanner use TrueTime to provide linearizability given
+that there are still inaccuracies between clocks?
+
+It’s actually surprisingly simple. It waits.
+Before a node is allowed to report that a transaction has committed,
+it must wait 7ms. Because all clocks in the system are within 7ms
+of each other, waiting 7ms means that no subsequent transaction may
+commit at an earlier timestamp, even if the earlier transaction was
+committed on a node with a clock which was fast by the maximum 7ms.
+
+Pretty clever.
+```
+
+Which is a great read to understand the Spanner approach and also
+how Cockroach approaches the same problem but using commodity
+hardware (also making it clear that without the hardware support
+you can't build something with the same performance and level of
+consistency of Spanner).
+
 
 # Interesting Concepts
 

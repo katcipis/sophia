@@ -354,6 +354,76 @@ hardware (also making it clear that without the hardware support
 you can't build something with the same performance and level of
 consistency of Spanner).
 
+# Schema Change
+
+Since the original idea of relational theory was all about being
+able to evolve the database for new applications without breaking
+older applications sharing the same database how the schema is updated
+is very important.
+
+Schema change is applied like a transaction, but it is not a synchronous
+transaction because the scope of the lock would be too big in that case
+(affected paxos groups). Instead:
+
+```
+A Spanner schema-change transaction is a generally
+non-blocking variant of a standard transaction. First, it
+is explicitly assigned a timestamp in the future, which
+is registered in the prepare phase. As a result, schema
+changes across thousands of servers can complete with
+minimal disruption to other concurrent activity. Second,
+reads and writes, which implicitly depend on the
+schema, synchronize with any registered schema-change
+timestamp at time t: they may proceed if their timestamps
+precede t, but they must block behind the schemachange
+transaction if their timestamps are after t. Without
+TrueTime, defining the schema change to happen at t
+would be meaningless.
+```
+
+# TrueTime is trustworthy ?
+
+Since TrueTime is fundamental to the whole idea of how to implement Spanner
+how reliable it is ? It is easy to see that failures can still occur, but I
+found interesting that empirically the clocks of the machines are more reliable
+than CPUs:
+
+```
+Two questions must be answered with respect to TrueTime:
+is 'e' truly a bound on clock uncertainty, and how
+bad does 'e' get?
+
+For the former, the most serious problem
+would be if a local clock’s drift were greater than
+200us/sec: that would break assumptions made by TrueTime.
+Our machine statistics show that bad CPUs are 6
+times more likely than bad clocks.
+
+That is, clock issues
+are extremely infrequent, relative to much more serious
+hardware problems. As a result, we believe that TrueTime’s
+implementation is as trustworthy as any other
+piece of software upon which Spanner depends.
+```
+
+By observation of clock drifts it seems that even in the case of failures it is very
+rare to get a uncertainty of 7ms. The 99 percentile is less than 4ms.
+
+The results obtained with TrueTime goes as far as making bold statements as these:
+
+```
+One aspect of our design stands out: the linchpin of
+Spanner’s feature set is TrueTime. We have shown that
+reifying clock uncertainty in the time API makes it possible
+to build distributed systems with much stronger time
+semantics.
+
+In addition, as the underlying system enforces
+tighter bounds on clock uncertainty, the overhead
+of the stronger semantics decreases. As a community, we
+should no longer depend on loosely synchronized clocks
+and weak time APIs in designing distributed algorithms.
+```
 
 # Interesting Concepts
 

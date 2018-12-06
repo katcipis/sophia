@@ -127,3 +127,81 @@ to the bible. It is important to identify this kind of thinking as an exogenous 
 for violence so we can just eliminate it from our societies. There is no utopy, there is
 just life, and thinking like that can lead to much more respect and prosperity than
 believing in pipe dreams.
+
+# Animal Rights
+
+There is a great deal of information on the rights movement, that encompasses
+women, gays and other minorities rights. It is very easy to see a correlation
+on minorities gaining voice and space and the decrease on violent behavior,
+this sort of behavior would usually be solved with violence in the past yet in
+modern democracies they get traction specially because a democratic government
+has a monopoly on violence but can't use at will since it is accountable
+to the citizens.
+
+There is a lot of cool information on how animal rights evolved over time but
+the thing that got my attention is the correlation to stupid/outdated
+religion/spirituality to how we treat animals. It is offensive to a lot
+of people to say something like that, but as a former Christian myself
+I'm compelled to believe that we do need spirituality (perhaps this is
+not even the best word for it) but there are terrible ways to achieve
+spiritual satisfaction.
+
+The core basis of Christian and Judaic believe, at least according to the
+holy bible, is that humans are something special separated from the rest
+of the animals, made as the image of god, and the rest of all the earth
+was made for humans to dominate. This is a recurrent subject in the entire
+bible, but on its very beginning it is very explicit. Genesis 1:26 make
+this explicitly clear:
+
+```
+And God went on to say: “Let us make man in our image,
+according to our likeness, and let them have in subjection the fish
+of the sea and the flying creatures of the heavens and the domestic
+animals and all the earth and every moving animal that is moving
+upon the earth.
+```
+
+Analyzing written material from older ages on how animals are treated
+(and why they were treated the way they were) it is very clear that
+it is connected with this idea that men can do anything with earth
+because the earth simply belong to them.
+
+Another interesting psychological artifact from primitive religion is
+the idea that we have an immortal soul that grants us conscience and
+sentience, which by definition animals do not have, ergo they are
+not sentient. If they don't feel anything and are not
+sentient then you can do whatever you want with them, pretty much
+as you would do with vegetables.
+
+It is interesting that some people think that not believing in
+god and this kind of stuff will make you behave like a mindless husk
+that only wants pleasure and satisfaction.
+
+Actually thinking that you evolved from simple primates opens up
+the path to feeling empathy for the animals, simply because we are
+not that different or special.
+
+Another implication of a more evolutionary mindset is that conscience
+is not a binary trait, it is not something that humans
+on all their glory have and other animals have none, it is an spectrum.
+
+The idea of a spectrum makes a lot of questions harder to answer.
+Since it is not binary, where is the line ?
+Is it okay to eat fish ? slugs ? insects ? How much neurological power
+is required to have enough conscience and sentience ? What would be
+"enough conscience" ? How to measure that ? Drawing a line gets
+much harder specially because the sets are fuzzy now, not crispy.
+
+As usual this approach takes to inquiry and exploration and to make
+us think twice on how we treat other living beings, while the more
+primitive religious beliefs simplifies the model and legalizes
+stupid behavior (not even going in the women's right VS the bible
+because that would be too easy).
+
+In the end, nothing against the idea of spirituality and religion,
+just against primitive/stupid ones.
+It seems offensive to talk like that, but some beliefs do much
+more harm to us than good and that must be acknowledged and criticized.
+This intellectual ability to be empathetic with other living beings
+and to criticize and compare ideas is a great force deterring violence
+in our society today. At least it seems to me and to the author.

@@ -15,6 +15,7 @@
 
 # Podcasts
 
+* [Jordan Peternson](https://jordanbpeterson.com/category/podcasts/podcast-episode/)
 * [The Cynical Developer](https://cynicaldeveloper.com/)
 * [It Career Energizer](http://itcareerenergizer.com/)
 * [DevChat](http://devchat.tv/)

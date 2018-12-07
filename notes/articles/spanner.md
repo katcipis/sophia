@@ -2,7 +2,7 @@
 
 These are the notes from the [article](https://research.google.com/archive/spanner-osdi2012.pdf).
 
-From the [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf) article I develop a intuition that for
+From the [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf) article I developed an intuition that for
 some kinds of problems relational theory can serve you pretty well.
 
 Specially if you dont get into specifics of vendors and SQL, the idea itself is

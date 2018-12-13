@@ -205,3 +205,7 @@ more harm to us than good and that must be acknowledged and criticized.
 This intellectual ability to be empathetic with other living beings
 and to criticize and compare ideas is a great force deterring violence
 in our society today. At least it seems to me and to the author.
+
+# Self Serving Bias
+
+TODO

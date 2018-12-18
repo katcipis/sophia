@@ -180,6 +180,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Math
 
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
+* [An Illustrated Theory of Numbers](http://illustratedtheoryofnumbers.com/)
 * [The Scientist & Engineer's Guide to Digital Signal Processing](https://www.amazon.com/Scientist-Engineers-Digital-Signal-Processing/dp/0966017633)
 * [Mathematics of GIS](http://homepage.univie.ac.at/wolfgang.kainz/Lehrveranstaltungen/15th_Nordic_Summer_School/The_Mathematics_of_GIS_Draft.pdf)
 * [Think Bayes](https://www.amazon.com/gp/product/1449370780)

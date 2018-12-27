@@ -206,6 +206,133 @@ This intellectual ability to be empathetic with other living beings
 and to criticize and compare ideas is a great force deterring violence
 in our society today. At least it seems to me and to the author.
 
+
 # Self Serving Bias
 
-TODO
+This one is pretty self explanatory, we are very social animals
+and need to look good in our community so we do whatever it takes.
+Since collaboration is key always looking better and more awesome
+than you really are can pay off greatly and we evolved to try
+to explore that as much as we can. But just as we evolve the
+lying ability the lying detection ability evolved together.
+
+The fight of these two forces gave birth to a new skill developed
+on our brains, lying to ourselves. Since there are a lot of
+hints that can be detected when you are lying, your brain actually
+convinces you of the lie, so you can lie properly. The most
+interesting aspect of this is that some researches indicated
+that the person really believed the lie, but using some tricks
+with the subconscious the truth surfaced, showing the brain actually
+hides the truth from itself.
+
+Another interesting evolutionary aspect is that lying too much
+to yourself can get you killed, like convincing yourself that
+you can take a lion, it will get you killed. So the brain also
+evolved to do that in safe levels and also abort everything
+if you get in danger. We are extremely sophisticated on how
+our social skills evolved, it is like a panel with a lot of
+knobs and you need to tune everything as close as possible
+to the better configuration for a society to thrive.
+
+
+# Moralization Gap
+
+This is the phenomenon that makes people damp the effects of
+their actions but amplify what others do. Basically we always
+think that what we have done is not that bad, and what others
+do to us are much worse.
+
+The book once again elaborates on this on a lot of researches
+that I can't remember anymore, but empirical observation of
+human behavior really contributes to the idea, at least in
+my limited life experience.
+
+It also talks about how this can escalate conflicts, because
+every time you are hurt, if you try to hurt just with the same
+force you probably is going to use more force, and the other
+side will be a victim of the same effect, it is a loop feeding
+itself.
+
+We would not be alive if the system was that simple (we would
+already have killed ourselves in a endless loop of violence),
+there are some de-escalators of violence, the most obvious
+self-preservation. But it is interesting to remember that
+and perhaps de-escalate conflicts on a more explicit/aware way
+instead of waiting for instincts to kick in.
+
+
+# Group Thinking
+
+There is a good part of the book that talks about how the way
+other people behave affect us. In this case there is an experiment
+that caught my attention. There was something like 12 people involved,
+they were all well educated and the idea was to be part of a group
+of scholars. The assignment involved reading some papers and
+evaluating the papers, and then evaluating the evaluation of your peers.
+
+There were 3 papers, one of them was pure rubbish. Inserted on the group
+of people where 4 people that were part of the experiment crew. These 4 people
+gave a very favorable public evaluation of the rubbish paper. This triggered
+a chain that took every single one of the participants to evaluate
+the paper positively publicly. The interesting part is that in private
+evaluations they presented bad evaluations for the rubbish paper,
+but peer pressure made them agree publicly that the paper was good.
+
+The most astonishing is that when on a variation of the experiment
+one of the participants wrote a bad evaluation for the rubbish
+paper, every other participant wrote a bad evaluation about his
+evaluation. So not even they where confirming that the rubbish
+paper was good, but they were bashing on people that said that
+it wasn't.
+
+Of course this is a very simple and harmless experiment, but the
+idea was to try to understand how something as bizarre as the
+holocaust was even possible, convincing so much people about
+so much lies and to do such horrible things.
+
+The balance can be tricky to get right, but the
+idea is that if an individual thinks that an idea
+is bad, but also thinks that everyone else thinks that it is
+an good idea, he will refrain from going against the idea.
+
+The funny thing is that depending on the context and the
+propaganda that you set up, everyone may think the idea is
+terrible, but if they are also sure that the rest of the people
+don't think that way, the lie will work. One way to deactivate
+this is free speech, these behaviors are not laws and sometimes
+outliers may speak even against social norm, in these cases
+having to violent reaction against them can make the idea
+spread and counter attack the lie. But with repression it
+can get pretty hard to counter attack such kinds of lies.
+
+Specially if the lies are based on ideologies and promises
+of utopias filled with happiness and prosperity for the
+human race.
+
+There is a very interesting movie on how you can socially
+force people to do terrible things, again not on the scale
+of killing people, but it is impressive either way,
+it is called [Experimenter](https://www.netflix.com/title/80047396).
+It is the life history of Stanley Milgrams, focusing on his
+research on human behavior and how it is influenced by
+external actors.
+
+Behaviors compose, and another one that is very common
+is escalating things slowly, also know as boiling frog effect.
+People may not be willing to kill right away, but if you
+scale things right, killing may seem like a very small
+step from where they are. This seem like a far cry,
+but Nazism had a considerably slow progression, even on how
+they treated Jews (hence the final evolution of the plan,
+killing all Jews, was called "The Final Solution",
+there were others solutions before).
+
+It is very interesting to think about this because it challenges
+our most common mental model of us being individual/independent
+agents that always do just what we want to do. The truth seems
+to be more aligned with oriental philosophy like Vedanta
+that preaches us as part of a whole, not existing in isolation
+and having much less control than we imagine. Like you are part
+of a mesh that influences you severely instead of a conscious
+god riding a Gundam robot (your whole body and even the people
+around you are part of who you are).

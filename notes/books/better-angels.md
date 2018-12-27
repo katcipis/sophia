@@ -266,15 +266,15 @@ instead of waiting for instincts to kick in.
 There is a good part of the book that talks about how the way
 other people behave affect us. In this case there is an experiment
 that caught my attention. There was something like 12 people involved,
-they were all well educated and the idea was to be part of a group
-of scholars. The assignment involved reading some papers and
+they were all well educated and the idea conveyed to them was to be part
+of a group of scholars. The assignment involved reading some papers and
 evaluating the papers, and then evaluating the evaluation of your peers.
 
 There were 3 papers, one of them was pure rubbish. Inserted on the group
-of people where 4 people that were part of the experiment crew. These 4 people
+were 4 people that were part of the experiment crew. These 4 people
 gave a very favorable public evaluation of the rubbish paper. This triggered
-a chain that took every single one of the participants to evaluate
-the paper positively publicly. The interesting part is that in private
+a chain that took every single one of the participants to publicly evaluate
+the paper positively. The interesting part is that in private
 evaluations they presented bad evaluations for the rubbish paper,
 but peer pressure made them agree publicly that the paper was good.
 

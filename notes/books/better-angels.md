@@ -278,12 +278,12 @@ the paper positively publicly. The interesting part is that in private
 evaluations they presented bad evaluations for the rubbish paper,
 but peer pressure made them agree publicly that the paper was good.
 
-The most astonishing is that when on a variation of the experiment
+The most astonishing is that on a variation of the experiment
 one of the participants wrote a bad evaluation for the rubbish
-paper, every other participant wrote a bad evaluation about his
+paper and every other participant wrote a bad evaluation about his
 evaluation. So not even they where confirming that the rubbish
 paper was good, but they were bashing on people that said that
-it wasn't.
+it wasn't because they where not part of the majority, the social norm.
 
 Of course this is a very simple and harmless experiment, but the
 idea was to try to understand how something as bizarre as the

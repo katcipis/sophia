@@ -132,6 +132,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [Haskell](http://haskellbook.com/)
 
 
+### Rust
+
+* [Programming WebAssembly with Rust](https://pragprog.com/book/khrust/programming-webassembly-with-rust)
+
+
 ### Lisp / Scheme
 
 * [Lisp in small pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)

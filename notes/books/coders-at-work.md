@@ -424,6 +424,18 @@ approaching programmers’ ability to understand it, you simply can’t add any
 more complexity to it without breaking it.
 ```
 
+I find specially interesting the idea of thinking that the complexity
+of adding a new feature to a language (or any system) is quadratic.
+This is a over simplification but it is a useful one, it reminds us
+that when you add a feature to something you have the complexity of
+the feature multiplied by its combination with all the previous features.
+On systems that are more restricted you can isolate features better, but
+languages are usually so generic that you can't avoid different features
+being mixed, and defining the behavior of the different permutations of
+features being used together. There can be some isolation, but it seems
+much harder on a language because of the flexibility usually given on
+what can be expressed.
+
 And he is yet another interviewee to talk about how C++ is so complex
 that it always need to be subset ed before being used:
 
@@ -715,7 +727,7 @@ solution
 
 ### Perfect Solutions
 
-I identified myself with his strugles on the subject of how elegant
+I identified myself with his struggles on the subject of how elegant
 a solution needs to be =)
 
 ```
@@ -840,7 +852,115 @@ of contexts today people just want to learn what they need to accomplish X,
 not the entire history about the software that hey are using.
 
 
-## Common Observartions
+## Guy Steele
+
+The thing that caught more my attention on his interview was when he
+was asked about tools that helps everyone write programs. For start
+it is hard to define what would be to "write a program", some niches
+and domain specific languages can make it pretty easy to write some
+types of programs, but would it qualify a person as a programmer ?
+Even defining this is hard.
+
+But the point that he makes is that it is hard to make generic programming
+something accessible to everyone because programming is a very unusual
+activity, so it is not spread in the skill set of our species as evenly
+as other skills. The source of the unusualness on his opnion is the
+error handling, edge cases and correctness. Building a mindset for these
+things is extremelly hard and people that are good at it don't come as
+often. To be honest that makes sense, it is like expecting that everyone
+will be a great mathematician, we as a society evolve pretty slowly, so
+people will get more acquainted with programming just as we get more
+acquainted with math, but everyone being a hardcore programmer able to
+develop an entire system is something that can be addressed just with
+tooling that makes things easier.
+
+Even though mathematics developed a lot of new tools that makes things
+easier, like calculus, still it is very hard to most humans to grasp it.
+It got easier, but it is still hard, specially to do it properly and in
+a generic way (not just applied to a very specific problem):
+
+```
+Seibel: Yet lots of people have tried to come up with languages or
+programming systems that will allow “nonprogrammers” to program. I take
+it you think that might be a doomed enterprise—the problem about
+programming is not that we haven’t found the right syntax for it but that
+people have to learn this unnatural act.
+
+Steele: Yeah. And I think that the other problem is that people like to
+focus on the main thing they have in mind and not worry about the edge
+cases or the screw cases or things that are unlikely to happen. And yet it is
+precisely in those cases where people are most likely to disagree what the
+right thing to do is.
+
+Sometimes I’ll quiz a student, “What should happen in this case?” “Well,
+obviously it should do this.” And immediately someone else will jump in and
+say, “No, no, it should do that.” And those are exactly the things that you
+need to nail down in a programming specification of some process.
+
+I think it’s not an accident that we often use the imagery of magic to
+describe programming. We speak of computing wizards and we think of
+things happening by magic or automagically. And I think that’s because being
+able to get a machine to do what you want is the closest thing we’ve got in
+technology to adolescent wish-fulfillment.
+
+And if you look at the fairy tales, people want to be able to just think in
+their minds what they want, wave their hands, and it happens. And of
+course the fairy tales are full of cautionary tales where you forgot to cover
+the edge case and then something bad happens.
+```
+
+The catch is that people usually don't want to think about the edge and error
+cases but we cant automate/abstract them (I'm looking at you Istio =P) because
+we can't even come to a consensus on how to handle them, it may even be
+a domain specific problem to define what to do. So abstracting away from
+the programmer the handling of edge cases and errors seems like
+a fundamentally bad idea.
+
+And here he talks about correctness, attention to detail and even thinking
+recursively:
+
+```
+Programming is a highly unnatural activity, I’m convinced, and it must be
+carefully learned. People are used to their listeners filling in the gaps. I
+suppose we lean on compilers to do that in a little way—you say, “I need a
+variable named ‘foo’,” you don’t worry about exactly what register and so
+forth.
+
+But I think that most people are not used to being very precise and
+rigorous in their communications. But when we are describing processes to
+be carried out, little details do matter because a change in a small detail can
+affect the gross outcome of the process.
+
+I think people are used to using recursion in a limited way—I think Noam
+Chomsky demonstrated that. But in practice people rarely go even three
+deep—and when they do it’s usually in a tail-recursive way. The discipline of
+understanding recursion is actually a very difficult learned art. And yet that
+is actually one of our most powerful programming tools, once you’ve
+learned the discipline and wrapped your head around it.
+
+So I really think you can’t afford to take your eye off the correctness ball.
+```
+
+And to finish, some old on language wars:
+
+```
+Seibel: One way to resolve that is the way Lisp does—make everything
+uniformly semiconcise. Where the uniformity has the advantage of allowing
+users of the language to easily add their own equally uniform, semiconcise,
+first-class syntactic extensions. Yet a lot of folks resist the s-expression
+syntax. The smug Lisp weenie view of the world is, “Some people just don’t
+get it; if they did they would see the brilliance of the solution.” Are you a
+smug enough Lisp weenie to think that if people really understood Lisp they
+would not be put off by the parentheses?
+
+Steele: No. I don’t think I’ve got the standing to be smug. If anything,
+because I have learned so many languages I think I understand better than a
+lot of people the fact that different languages can offer different things.
+And there are good reasons to make choices among them rather than to hold up
+one language and say, “This is the winner.”
+```
+
+## Common Observations
 
 Here are some of the things that seems to be a trend among programmers.
 There aren't much of them and that is one of the most interesting aspects
@@ -886,3 +1006,15 @@ Knuth's [literate programming](http://www.literateprogramming.com/)
 always comes up and almost all the interviewed programmers
 are interested on it. It is odd that these ideas are not more common place and
 it motivated me to check it in more detail.
+
+
+### C++
+
+It is almost unanimous that C++ is so complex that it
+should not be used or at least you need to find the correct
+subset of the language for you before using it =P.
+
+Why it is used so heavily ? I suppose people, specially engineers,
+like to feel smart, and mastering C++ makes you feel like a god.
+No one wants to stop being a god and using something that any
+peasant can use =P.

@@ -9,7 +9,7 @@ that was born on a world where there was no computers and we are essentially
 very near of the first generation of programmers.
 
 For a field that has impact in human life as computing have this is very thrilling,
-being part of the beggining of something so awesome. It reminds me of
+being part of the beginning of something so awesome. It reminds me of
 [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html):
 
 ```
@@ -86,6 +86,7 @@ few people have (at least in my empirical observation of the world).
 This is the starting feeling of reading the introduction of the book and it
 is a very good feeling. The book is neatily divided in different interviews
 so it makes sense to divide like this here.
+
 
 ## Jamie Zawinski
 
@@ -232,12 +233,12 @@ dont know the past you are faded to commit the same mistakes over and over again
 
 The first thing that got me by surprise since I don't like Javascript is how
 much I liked Brendan Eich, which is a lesson on how stupid is to connect one
-thing to the other x_x.
+thing to the other.
 
-I identify myself with him a lot. He really apreciates good stuff like Scheme
+I identified myself with him a lot. He really appreciates good stuff like Scheme
 and Smalltalk, and he is so against traditional OO and Java and design patterns
 that he made a lot of effort to not allow things like classes in Javascript
-(sadly it got in lately =().
+(he lost in the end).
 
 But as it is usual with software there are a whole context that people tend to
 ignore because they where not there, and he explains a little the forces that
@@ -350,11 +351,142 @@ math-y things, but more like programming problems.
 
 ## Joshua Bloch
 
-Java guy with some interesting ideas:
+He was the only interviewee that talked about how
+each programming language is surrounded by a unique culture and community
+and that is part of the choice for a language, if it fits you.
 
-* The first one to mention how each language is surrounded by a unique culture/community
-* Very interesting insights on the complexity of adding generics to a language
-* Also starting the SICP book =D
+That is something that I perceived personally when I was learning Lua,
+I could compare with Python and the  community is severely different from
+each other, and even attract different kind of people.
+
+The Lua guys are much more like C programmers, where
+testing is not seem like a religion and the solution to a lot of problems
+is to just roll your own library instead of using a heavily
+supported mainstream library, also they dislike traditional OO
+with inheritance. The Python community is pretty much the opposite.
+
+Besides that he also gives a very interesting take on how hard is to
+add support to parametric polymorphism (generics):
+
+```
+In particular, the Java 5 changes
+added far more complexity than we ever intended. I had no understanding
+of just how much complexity generics and, in particular, wildcards were
+going to add to the language. I have to give credit where credit is due—
+Graham Hamilton did understand this at the time and I didn’t.
+```
+
+It is kinda sad that in face of a change that ended up being much
+more complex than intended they didn't just rollback the language
+to a previous state, to try something more simple.
+
+A little more on the naiveness of adding generics:
+
+```
+Seibel: So what was the impetus for adding generics?
+
+Bloch: As is always the case for ideas that prove less wonderful than they
+seemed, it was believing our own press sheets. My mental model was, “Hey,
+collections are almost all homogeneous—a list of strings, a map from string
+to integer, or whatever. Yet by default they are heterogeneous: they’re all
+collections of objects and you have to cast on the way out and that’s
+nonsense.”
+
+Wouldn’t it be much better if I could tell the system that this is a
+map from strings to integers and it would do the casting for me and it
+would catch it at compile time when I tried to do something wrong? It could
+catch more errors—it would have higher-level-type information and that
+sounds like a good thing.
+
+I thought of generics in the same way I thought about many of the other
+language features we added in Java 5—we were simply getting the language
+to do for us what we had to do manually before. In some cases I was dead
+on: the for-each loop is just great.
+
+All it does is hide the complexity of the
+iterators or the index variables from you. The code is shorter and the
+conceptual surface area is no larger. In a sense, it’s even smaller because
+we’ve created this false polymorphism between arrays and other collections
+so you can iterate over an ArrayList or an array and not know or care
+which you’re iterating over.
+
+The main reason this thinking didn’t apply to generics is that they represent
+a major addition to an already complex type system. Type systems are
+delicate, and modifying them can have far-reaching and unpredictable effects
+throughout the language.
+
+I think the lesson here is, when you are evolving a mature language you have
+to be even more conscious than ever of the power-versus-complexity
+trade-off. And the thing is, the complexity is at least quadratic in the number
+of features in a language. When you add a feature to an old language you’re
+often adding a hell of a lot of complexity. When a language is already at or
+approaching programmers’ ability to understand it, you simply can’t add any
+more complexity to it without breaking it.
+```
+
+And he is yet another interviewee to talk about how C++ is so complex
+that it always need to be subset ed before being used:
+
+```
+And if you do add complexity to it, will the language simply disappear? No, it
+won’t. I think C++ was pushed well beyond its complexity threshold and yet
+there are a lot of people programming it. But what you do is you force
+people to subset it. So almost every shop that I know of that uses C++ says,
+“Yes, we’re using C++ but we’re not doing multiple-implementation
+inheritance and we’re not using operator overloading.” There are just a
+bunch of features that you’re not going to use because the complexity of
+the resulting code is too high. And I don’t think it’s good when you have to
+start doing that. You lose this programmer portability where everyone can
+read everyone else’s code, which I think is such a good thing.
+```
+
+Which was the spark that started the Go language, I sure hope it keeps
+that (as I write this there are ongoing discussions for adding
+parametric polymorphism on the language, for example). To finish the
+subject of language design:
+
+```
+But I think many of us have learned from our experience
+with generics. You shouldn’t add something to a language until you really
+understand what it’s going to do the conceptual surface area—until you can
+make a convincing argument that working programmers will be able to use
+the new feature effectively, and that it will make their lives better.
+```
+
+It is sad to see so much languages ignoring this advice and just getting
+more and more features that do not even compose well.
+
+Another cool thing is his suggestion for reading:
+
+```
+Another is Elements of Style, which isn’t even a programming book. You
+should read it for two reasons: The first is that a large part of every
+software engineer’s job is writing prose. If you can’t write precise, coherent,
+readable specs, nobody is going to be able to use your stuff. So anything that
+improves your prose style is good. The second reason is that most of the
+ideas in that book are also applicable to programs.
+```
+
+Which I could not agree more and has been added to my endless list
+of books to read.
+
+I also liked how the idea of doing something that works fast is not
+related to writing stuff without thinking about it, or even without doing
+any upfront design:
+
+```
+Nobody likes sloppy software. People who say, “Write the simplest thing
+that could possibly work and refactor mercilessly” aren’t saying, “Write
+sloppy code,” and they aren’t saying, “Don’t do upfront design work.” I’ve
+talked to Martin Fowler about this. He’s a huge believer in thinking about
+what you’re going to do so your system has a reasonable shape and a
+reasonable structure. What he’s saying is, “Don’t write 247-page specs
+before writing a line of code,” and I agree.
+```
+
+To finish I found interesting that he was also starting to read the
+Structure and Interpretation of Computer Programs book late in his life,
+like I'm doing right now.
 
 
 ## Joe Armstrong

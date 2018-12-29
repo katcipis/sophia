@@ -870,16 +870,13 @@ things is extremelly hard and people that are good at it don't come as
 often. To be honest that makes sense, it is like expecting that everyone
 will be a great mathematician. 
 
-We as a society evolve pretty slowly, so people will get more acquainted
-with programming just as we get more
-acquainted with math, but everyone being a hardcore programmer able to
-develop entire systems becoming something that can be addressed just with
-tooling that makes things easier does not seem feasible.
-
 Even though mathematics developed a lot of new tools that makes things
 easier, like calculus, still it is very hard to most humans to grasp it.
 It got easier, but it is still hard, specially to do it properly and in
 a generic way (not just applied to a very specific problem).
+
+Attention to detail, edge cases, logical thinking and abstractions
+don't come easily on human beings.
 
 In more detail:
 

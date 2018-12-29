@@ -864,20 +864,24 @@ Even defining this is hard.
 But the point that he makes is that it is hard to make generic programming
 something accessible to everyone because programming is a very unusual
 activity, so it is not spread in the skill set of our species as evenly
-as other skills. The source of the unusualness on his opnion is the
+as other skills. One of the sources of the unusualness on his opnion is the
 error handling, edge cases and correctness. Building a mindset for these
 things is extremelly hard and people that are good at it don't come as
 often. To be honest that makes sense, it is like expecting that everyone
-will be a great mathematician, we as a society evolve pretty slowly, so
-people will get more acquainted with programming just as we get more
+will be a great mathematician. 
+
+We as a society evolve pretty slowly, so people will get more acquainted
+with programming just as we get more
 acquainted with math, but everyone being a hardcore programmer able to
-develop an entire system is something that can be addressed just with
-tooling that makes things easier.
+develop entire systems becoming something that can be addressed just with
+tooling that makes things easier does not seem feasible.
 
 Even though mathematics developed a lot of new tools that makes things
 easier, like calculus, still it is very hard to most humans to grasp it.
 It got easier, but it is still hard, specially to do it properly and in
-a generic way (not just applied to a very specific problem):
+a generic way (not just applied to a very specific problem).
+
+In more detail:
 
 ```
 Seibel: Yet lots of people have tried to come up with languages or
@@ -910,11 +914,14 @@ the edge case and then something bad happens.
 ```
 
 The catch is that people usually don't want to think about the edge and error
-cases but we cant automate/abstract them (I'm looking at you Istio =P) because
+cases but we can't automate/abstract them (I'm looking at you Istio =P) because
 we can't even come to a consensus on how to handle them, it may even be
-a domain specific problem to define what to do. So abstracting away from
-the programmer the handling of edge cases and errors seems like
-a fundamentally bad idea.
+a domain specific problem to define what to do (can't be generalized).
+
+So abstracting away from the programmer the handling of edge cases and
+errors seems like a fundamentally bad idea. If it was possible it would
+allow more people to program, but it seems inherent to the activity
+of programming, at least if you want something that works =P.
 
 And here he talks about correctness, attention to detail and even thinking
 recursively:

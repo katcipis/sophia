@@ -213,6 +213,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
+* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
@@ -273,15 +274,12 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Coders at Work](http://www.codersatwork.com/)
-* [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
-* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
-
-
 # Done
 
 ## 2018
 
+* [Coders at Work](http://www.codersatwork.com/)
+* [The Better Angels of Our Nature](https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/1531823971)
 * [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
@@ -296,6 +294,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
 * [The Book](https://www.amazon.com/Book-Taboo-Against-Knowing-Who/dp/0679723005)
 
+
 ## 2016
 
 * [Web Scraping with Python](http://www.amazon.com/Web-Scraping-Python-Collecting-Modern/dp/1491910291)
@@ -305,6 +304,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Iron John: A Book About Men](http://www.amazon.com/Iron-John-Book-About-Men/dp/0306813769)
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 * [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
+
 
 ## 2015
 

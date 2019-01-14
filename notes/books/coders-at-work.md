@@ -918,7 +918,8 @@ a domain specific problem to define what to do (can't be generalized).
 So abstracting away from the programmer the handling of edge cases and
 errors seems like a fundamentally bad idea. If it was possible it would
 allow more people to program, but it seems inherent to the activity
-of programming, at least if you want something that works =P.
+of programming, at least if you want something that works =P (a lot of
+mobile apps can survive not being resilient).
 
 And here he talks about correctness, attention to detail and even thinking
 recursively:

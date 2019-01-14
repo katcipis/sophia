@@ -3,7 +3,6 @@
 # Table of Contents
 
 - [Testing](#testing)
-    - [Chaos](#chaos)
     - [Networking](#networking)
     - [Management/Planning](#managementplanning)
     - [Mocking](#mocking)
@@ -80,11 +79,6 @@
 <!-- mdtocend -->
 
 # Testing
-
-## Chaos
-
-* [pumba](https://github.com/gaia-adm/pumba)
-* [kube-monkey](https://github.com/asobti/kube-monkey)
 
 
 ## Networking

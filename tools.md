@@ -1,3 +1,84 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [Testing](#testing)
+    - [Chaos](#chaos)
+    - [Networking](#networking)
+    - [Management/Planning](#managementplanning)
+    - [Mocking](#mocking)
+- [Debuggers](#debuggers)
+    - [Go](#go)
+    - [Memory](#memory)
+        - [Python](#python)
+- [Continuous Delivery](#continuous-delivery)
+    - [On premisses](#on-premisses)
+    - [Services](#services)
+- [Static Analysis](#static-analysis)
+    - [C / C++](#c--c)
+    - [Python](#python-1)
+    - [Golang](#golang)
+- [Profiling](#profiling)
+    - [Distributed System Tracing](#distributed-system-tracing)
+    - [Memory](#memory-1)
+    - [CPU](#cpu)
+    - [Network](#network)
+    - [Disk](#disk)
+    - [Golang](#golang-1)
+    - [MongoDB](#mongodb)
+    - [DBus](#dbus)
+    - [C/C++](#cc)
+- [Hacking Tools](#hacking-tools)
+- [Network](#network-1)
+    - [Scanners](#scanners)
+    - [Diagnostic / Debug](#diagnostic--debug)
+- [Databases](#databases)
+    - [SQL](#sql)
+    - [Time Series](#time-series)
+    - [Migration](#migration)
+    - [Schema visualization](#schema-visualization)
+    - [Data visualization](#data-visualization)
+    - [Benchmarks](#benchmarks)
+- [Logging](#logging)
+    - [Aggregate](#aggregate)
+    - [Analytics](#analytics)
+- [Message Brokers](#message-brokers)
+- [Project Mangement](#project-mangement)
+- [Monitoring](#monitoring)
+- [Presentations](#presentations)
+- [Software Defined Network](#software-defined-network)
+- [Penetration Tests](#penetration-tests)
+- [Performance/Load tests](#performanceload-tests)
+- [Web](#web)
+    - [Browser Automation](#browser-automation)
+    - [Secret Management](#secret-management)
+- [Diagrams](#diagrams)
+    - [Sequence](#sequence)
+    - [Graphs](#graphs)
+- [HTTP Reverse Proxies / Load balancers](#http-reverse-proxies--load-balancers)
+- [HTTP traffic analysis](#http-traffic-analysis)
+- [Disk Recovery](#disk-recovery)
+- [Speech Analysis](#speech-analysis)
+- [OCR](#ocr)
+- [Image Tagging](#image-tagging)
+- [Deep Learning](#deep-learning)
+- [Content Analysis](#content-analysis)
+- [PDF](#pdf)
+- [Natural Language Processing](#natural-language-processing)
+- [Scrapping](#scrapping)
+    - [Parsing](#parsing)
+    - [Services](#services-1)
+- [Proxy Providers](#proxy-providers)
+    - [Dedicated/Shared IP Proxies](#dedicatedshared-ip-proxies)
+        - [User/Pass Authentication](#userpass-authentication)
+        - [IP Authentication](#ip-authentication)
+    - [BackConnect](#backconnect)
+- [Captcha Breaking](#captcha-breaking)
+- [Email Verification](#email-verification)
+- [Distributed System Validation](#distributed-system-validation)
+
+<!-- mdtocend -->
+
 # Testing
 
 ## Chaos
@@ -377,28 +458,11 @@
 * [chromedp](https://github.com/chromedp/chromedp)
 * [marionette](https://firefox-source-docs.mozilla.org/testing/marionette/marionette/index.html)
 
+
 ## Secret Management
 
 * [Keywhiz](https://square.github.io/keywhiz/)
 * [Vault](https://vaultproject.io/)
-
-
-# Infrastructure Automation
-
-* [Terraform](https://www.terraform.io/)
-
-
-# Cluster Orchestration
-
-* [Kubernetes](http://kubernetes.io/)
-* [Swarm](https://docs.docker.com/swarm/)
-
-
-# Provisioning
-
-* [The foreman](http://theforeman.org/)
-* [SaltStack](http://www.saltstack.com/)
-* [Ansible](http://www.ansible.com/)
 
 
 # Diagrams

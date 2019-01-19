@@ -965,6 +965,165 @@ And there are good reasons to make choices among them rather than to hold up
 one language and say, “This is the winner.”
 ```
 
+## Dan Ingalls
+
+Dan worked directly with Alan Kay at Xerox PARC as part of the development
+team working on SmallTalk. Some cool projects mentionted are:
+
+* [Squeak](https://en.wikipedia.org/wiki/Squeak)
+* [Lively Kernel](https://www.lively-kernel.org/)
+
+He is very enthusiastic about kernels, what they are composed off, what
+is part of a kernel and what is not and essentially what is a good
+kernel. He does not goes in great detail on what a good kernel is but
+that can be seen on his work like the
+[Lively Kernel](https://www.lively-kernel.org/).
+
+
+### Building things that no one wants
+
+One interesting history from him is the start of his career where he was
+extremelly excited about profilers and built one of the first ones
+for Fortran, just to find out that Fortran developers for several
+reasons where not that interested on profilers, so in the end
+he was not able to sell the profilers. Later he did one for Cobol I think,
+and that one sold well. It caught my attention because it is a repeating
+pattern of hackers developing what they think it is fun and finding
+out that it is not sellable. Nothing wrong with doing fun stuff, just
+don't expect people to buy it just because you think it is fun or useful.
+
+
+### Creativity VS Reuse/Effiency/Standards
+
+He gets on this subject on a very interesting way, it is when they are
+talking about the creation of SmallTalk and how the only language
+that had similar ideas was Lisp and that he was happy that he was not
+"into" Lisp because it would have influenced him in a way that some
+ideas that happened in SmallTalk would not have happened with Lisp
+influence. It is like the price to pay for reuse of ideas, you start
+with some interesting ideas but it is hard to do that without closing
+doors to others. Thinking about hacking as compared to painting it would
+be like starting with a blank canvas or with some painting already
+done for you. The blank canvas is scary and you have more work, but more
+possibilities. The canvas with already some work on can be inspiring and
+allow you to go faster, but it will also steer you in a specific direction.
+
+The context here is talking about imediate gratification and feedback
+(REPL interpreters for example):
+
+```
+Seibel: So what was that first place that you had that immediate
+gratification?
+
+Ingalls: There were a couple of experiences. I had a chance to work with a
+semi-interactive PL/I. And a friend of mine was working at an IBM where
+they had an interactive APL environment. I can’t remember which of those
+was first. I really remember the APL one. That affected me in a number of
+ways because of both the immediacy of interaction—seeing your results
+come back—and the expression evaluation, which is really different from
+Fortran’s statement-oriented programming.
+You still see that now, it’s amazing—the whole C/C++/Java tradition,
+although it goes in an object-oriented direction, is still statement-oriented.
+But if it’s convenient to make expressions, it really makes the experience
+different. To me it brings the mathematics to life more. Anyway, it was one
+of those two. When I got to Xerox there wasn’t much interactive except
+the Lisp guys’ stuff. I happened not to be into Lisp. Things would have been
+different if I were, I expect.
+
+Seibel: How so?
+
+Ingalls: I think I would have gone completely in that direction. And by not
+having gone in that direction, it left me wanting to do that kind of thing in a
+different way. I think what I worked on with Alan had that same kind of
+nice, lively, expression feel, but it included the notion of objects and
+messages more naturally.
+I think if I had been as comfortable in a system like Lisp, I never would have
+bothered. I would have tried working around it to get objects, but starting
+with the notions of objects from the get-go and then making that nice and
+interactive and convenient was, I think, a contribution.
+```
+
+Lisp was not a standard but you can extrapolate to the notion of
+being ignorante about stuff and just building something from scratch
+can be benefitial in some cases (but it will generate waste):
+
+```
+Seibel: So that’s a nice example of the advantage of some ignorance; it
+leaves some room for creativity. But sometimes it feels like ignorance is
+endemic in this industry—that people are unaware of things and wheels are
+constantly being reinvented with pointy corners.
+
+Ingalls: That’s true.
+
+Seibel: Should we be trying to fix that? Is it just a price that we have to pay
+so that people can have room for creativity? Or would we be better off if
+people were a little more aware of what else is going on?
+
+Ingalls: I’m an embrace-diversity guy. The example we just went through, I
+think, says, “No, let people go whatever way they want.” There will be
+waste from ignorance, but natural selection will take care of straightening
+things out. And you will get these occasional sports that take you into the
+future.
+
+I can think of lots of areas where trying to standardize, trying to all go in
+one direction, has suppressed creativity. I work at a company that’s
+supported by Java, so I’m not going to go very far with this, but it is the case
+that when Java came out—the easiest way I had of measuring it was looking
+at what went on at OOPSLA—when Java came out not only did work slow down
+and even maybe come to a halt on other object-oriented
+programming languages but even in dynamic programming in general. I think
+that was a loss.
+
+But it wasn’t permanent. People finally realized “Oh, wait a minute, Java has
+all these great strengths and we’re using it for this and that but we were on
+to other good things with dynamic programming languages and it’s time to
+get back to that.” But that’s an example that’s easy for me to see because
+I’m involved in it.
+
+In a much bigger sense I hate to see computer-science departments that feel
+their role is to prepare people to work in an industry and the industry is
+going that way and therefore we have to teach our students that way. It’s
+exactly the wrong thing to do. What you should be doing with your
+students is teaching them to think generally—think outside the box and plot
+the other courses we should be pursuing.
+
+It’s not a simple problem because there is great value to having that whole
+standard out there. Having thousands of programmers who have worked on
+thousands of routines and they’re very solid—you can get your work done
+that way.
+
+It’s a little bit the difference between computer science in the service of
+production and computer science in the service of moving the intellectual
+content forward. I’ve been having fun with the Lively Kernel, which is, in a
+way, trivial. There’s nothing new about it—I’m using all stuff that was there
+before. It’s built on JavaScript and the graphics you can get in a browser. But
+it’s been really fun because it’s another kernel like Squeak. Because
+JavaScript is all there in the browser and the graphics is all there in the
+browser, the work on the kernel is very tiny. 
+
+It’s just, how do you bring the graphics to life and how do you build up a
+little computing environment.
+Whenever you do something like that, small enough, then anybody can
+understand it. If you take a few things out of the equation, like the language
+and the graphics, then the question is, what is the kernel? And I think that’s
+an interesting question.
+I’m hoping that this—not particularly my stuff—but this kind of investigation
+might reinspire computer science to do some studies about how do you
+make a kernel, what other kernels could we build that are even simpler,
+even more uniform.
+It’s like what math did. Math found by symbolizing things that you could
+simplify a lot of stuff. Then, because of that, you could start to think about
+bigger constructs. That’s my hope.
+```
+
+It is one of the best expressed ideas on the balance between creativity
+and moving things forward and also the value of standards. It reminds me
+of Paul Graham function model of creativity, where you have something like
+a senoid signal where you sometimes lose a lot and sometimes gain a lot,
+if you damp the signal you start to lose less...but you gain less too
+(no free lunch).
+
+
 ## Common Observations
 
 Here are some of the things that seems to be a trend among programmers.
@@ -992,7 +1151,7 @@ very interesting, specially because communication problems are the source of
 
 ### Debugging
 
-Almost all the people that is interviewed do most of their debugging with
+Almost all the people that are interviewed do most of their debugging with
 print statements, makes me feel less alone in the world =).
 
 Of course it may be because of the low quality of our debugging tools =/

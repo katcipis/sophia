@@ -993,7 +993,7 @@ out that it is not sellable. Nothing wrong with doing fun stuff, just
 don't expect people to buy it just because you think it is fun or useful.
 
 
-### Creativity VS Reuse/Effiency/Standards
+### Creativity VS Standards
 
 He gets on this subject on a very interesting way, it is when they are
 talking about the creation of SmallTalk and how the only language
@@ -1044,8 +1044,8 @@ interactive and convenient was, I think, a contribution.
 ```
 
 Lisp was not a standard but you can extrapolate to the notion of
-being ignorante about stuff and just building something from scratch
-can be benefitial in some cases (but it will generate waste):
+being ignorant about stuff and just building something from scratch
+can be benefitial in some cases (but it can generate waste):
 
 ```
 Seibel: So that’s a nice example of the advantage of some ignorance; it
@@ -1107,10 +1107,12 @@ Whenever you do something like that, small enough, then anybody can
 understand it. If you take a few things out of the equation, like the language
 and the graphics, then the question is, what is the kernel? And I think that’s
 an interesting question.
-I’m hoping that this—not particularly my stuff—but this kind of investigation
+
+I’m hoping that this — not particularly my stuff — but this kind of investigation
 might reinspire computer science to do some studies about how do you
 make a kernel, what other kernels could we build that are even simpler,
 even more uniform.
+
 It’s like what math did. Math found by symbolizing things that you could
 simplify a lot of stuff. Then, because of that, you could start to think about
 bigger constructs. That’s my hope.
@@ -1119,9 +1121,34 @@ bigger constructs. That’s my hope.
 It is one of the best expressed ideas on the balance between creativity
 and moving things forward and also the value of standards. It reminds me
 of Paul Graham function model of creativity, where you have something like
-a senoid signal where you sometimes lose a lot and sometimes gain a lot,
-if you damp the signal you start to lose less...but you gain less too
-(no free lunch).
+a senoid signal where you sometimes lose a lot and sometimes you gain a lot.
+If you damp the signal you start to lose less...but you gain less too
+(no free lunch). And it is trully complex, because the industry also needs
+technological advances, so it can't rely only on standards and practices
+that optimizes productivity in detriment of creativity. But it is true that
+just ignoring standards and building everything from scrach is a lot
+of effort, and effor is money. In the end I think it depends on how
+technologically inovative a company needs to be, that will set the bar
+on how much it needs creative oriented people or more standard/productive
+oriented people.
+
+
+### Tech Leadership
+
+I think he describes what tech leadership ratter beautifully inspired
+on what he observed on Alan Kay at Xerox PARC.
+
+A technical leader is someone that:
+
+* Has clear vision of the project
+* Can delegate tasks to the right people on the team
+* Delegation happens with trust, so the leader need to truly know the people
+* Serves as an umbrella to the team
+
+In the end it has nothing to do with being the best programmer or
+the one that knows more about any specific subject (math/tech/whatever).
+Of course that some good technological knowledge is required, but it
+is far from being some kind of god that knows everything.
 
 
 ## Common Observations
@@ -1141,7 +1168,7 @@ problems, which are the hardest ones to isolate and reproduce. I got one of thes
 that I was not even able to solve and kinda of circled around it with ugly hacks =/.
 
 It was nice to see that other people, smart people, strugled as much with it as me
-and it shows the importante of proper tooling and expressiveness from languages
+and it shows the importance of proper tooling and expressiveness from languages
 to handle concurrency properly.
 
 The NASA mars mission that failed because of communication problems is also

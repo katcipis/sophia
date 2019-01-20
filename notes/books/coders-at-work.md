@@ -1183,6 +1183,39 @@ being able to cope with a broad context and guide people through that
 context.
 
 
+## L. Peter Deutsch
+
+One of the things that caught my attention was how he ellaborated
+on the fact that a lot os software is crap because we have no
+idea what we are doing, because computer science is a very new field.
+It has a lot of similarities with other fields, like math, but it still
+is a new beast and we can't tame it yet, and thinking otherwise may
+make us settle with bad ideas that will hinder our capacity to develop
+better software.
+
+He talks a little about how programming is a very unusual activity,
+specially because of edge cases, abstract thinking, attention to detail, etc,
+and that reminded me of Guy Steele interview where he says things like that.
+It also makes sense now how tools to improve "productivity" in programming
+usually focus on allowing people to ignore details and edge cases (like errors)
+because it is not very common to find people that can handle this properly.
+
+The question that remains is if that is possible at all, will a system
+built with tools like that actually work and scale well ? How far
+can we go to make programming acessible ? What is programming anyway ?
+Some tools are pretty simple but provide a solution to just a subset
+of the problems that you can solve with programming in general (like
+domain specific languages, or excel).
+
+He makes very interesting remarks on how programming boils to patterns
+of communication and sharing. I found this interesting because at least
+at the time that I'm writing this there are two languages that are gaining
+ground on the market, Go and Rust, where Go focuses on provide a communication
+mechanism embeded on the language, while Rust provide a sharing mechanism
+embedded on the language. They provide interesting ways to reason about
+sharing and communicating.
+
+
 ## Common Observations
 
 Here are some of the things that seems to be a trend among programmers.

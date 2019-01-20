@@ -1133,10 +1133,38 @@ on how much it needs creative oriented people or more standard/productive
 oriented people.
 
 
+### Restricted Systems
+
+He talks a lot about how it is better to build a dynamic/malleable
+system and them build restriction on top of it instead of trying to build
+dynamic stuff on top of an already restricted platform.
+
+As an example he gives the web. The browser started as a rather restricted
+platform, using only HTML as a means to express layout and build content.
+Later it added Javascript, which attempted to bring more malleability to
+the environment, but already on top of the already restrictive HTML/DOM
+model.
+
+Thinking about the painter metaphor it is like the canvas is not blank,
+you have constraints on what you can paint because you always start with
+a scaffolding of what your painting is supposed to be like.
+
+In the end this is not the ideal, it is best to start dynamic and as maleable
+as possible and them allow to more restrictive models to be built on top
+of that.
+
+That makes me think about webassembly, it does seem that the browser is
+converging to be this more malleable platform where you can use a
+lot of different languages and build graphic interfaces in different ways
+(malleable), but it does seem to be happening in a kind of backwards way,
+it started restrictive and it is getting dynamic and malleable now.
+
+
 ### Tech Leadership
 
-I think he describes what tech leadership ratter beautifully inspired
-on what he observed on Alan Kay at Xerox PARC.
+I think he describes what is tech leadership ratter beautifully inspired
+on what he observed on Alan Kay at Xerox PARC and the work that he himself
+performed.
 
 A technical leader is someone that:
 
@@ -1147,8 +1175,12 @@ A technical leader is someone that:
 
 In the end it has nothing to do with being the best programmer or
 the one that knows more about any specific subject (math/tech/whatever).
-Of course that some good technological knowledge is required, but it
-is far from being some kind of god that knows everything.
+Of course that some good technological knowledge is required, but you
+don't even have to be the best. You have such a broad knowledge about
+the projects that you can always provide guidance. But again, it does
+not translate on being the best at everything, but it does translate to
+being able to cope with a broad context and guide people through that
+context.
 
 
 ## Common Observations

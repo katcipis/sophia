@@ -1216,6 +1216,49 @@ embedded on the language. They provide interesting ways to reason about
 sharing and communicating.
 
 
+## Ken Thompson
+
+Even on other interviews Ken always talks about his lack of plans
+and how serendipity played a vital role on his life, I like that because
+I don't have a solid plan and just like to read and build interesting things
+and perhaps that will be enough (as it was for him).
+
+It was very close to my heart how he talks about the hardship of writing
+documentation, like it is as hard as code, you have to review it and
+reorganize it, just like code. And just like code, writing good docs
+is an art that is not trivial to learn (and no amount of tooling can
+guarantee good docs). I could not agree more with his view on documentation.
+
+His view on what is well structured code is based on how easy it is to
+extend the code, like adding new features or refactoring, and that includes
+not using fancy algorithms that requires a huge amount of documentation to
+be understood. He tries to get by with brute force algorithms that 
+are intuitive as much as he can (no clever optmizations).
+
+
+## Fran Allen
+
+She elaborates in a very interesting way on how people embraced
+agile ideas in extreme ways and gone from big upfront design to
+not thinking at all before starting to develop something. There is
+no silver bullet on how much design must be done before coding, the
+only certain thing is that you should not remain on each of the extremes.
+Inmy experience each project, specially depending in your own knowledge,
+will allow for different leves of upfront design. Reminding that
+upfront design is not the same thing as bloated/big design.
+
+On the subject of religion and extreme believes she also has some
+interesting histories of the beginnings of object orientation
+and how zealots destroyed entires projects by applying these ideas
+to the extreme and in very convoluted ways (reminds me of
+Jamie Zawinski and Brendan Eich experiences).
+
+She also gives great advice on hiring, she usually focuses on
+sensing if the person will contribute with interesting ideas
+(not necessarily knowing tools) and what the person is passionate
+about, what moves her, side projects, etc.
+
+
 ## Common Observations
 
 Here are some of the things that seems to be a trend among programmers.

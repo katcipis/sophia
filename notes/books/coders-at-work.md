@@ -1259,6 +1259,53 @@ sensing if the person will contribute with interesting ideas
 about, what moves her, side projects, etc.
 
 
+## Bernie Cosell
+
+Bernie was on the team that developed the ARPANET and did a lot
+of hacking on PDP-1 machines also, including an operational
+system.
+
+One of the things that I found more awesome on his interview is
+how he did not know the word "refactoring" (he retired pretty soon
+from programming) but his description on how he used to code
+and evolve systems is one of the most perfects guides to how
+refactoring should be done. He just describes how he used to
+rewrite code just so he could understand it to add new features
+or to solve bugs, which is one of the best heuristics you
+can use to sense what parts of a codebase you need to refactor.
+
+What is interesting is that since he did not know refactoring he
+was not trying to do it just for its sake, because it is right, so
+he never had the problem of refactoring wrong code, code that
+would never be changed or even discarded. He naturally only
+refactored useful code because he was not trying to do it, he
+was just trying to add features and solve bugs and so it happens
+that the best way to do it was to redesign the code so it would
+be simpler. I found that just awesome and elegant.
+
+Sometimes rewriting code so it would be easier to debug also
+solved the bug, causing the bug to never actually be found.
+This is the same technique used by Peter Norvig that made him
+feel guilty =P.
+
+He also talked a little about how it is hard to write tests
+if you did not wrote the code with good test points in
+the first place. This reminded me of TDD which try to
+address that by making you think about test points from the
+start and in a very explicit and disciplined way.
+
+He advocates a lot good design and simple code, he lived his life
+believing that very few programming problems are really complex, so
+code should always be simple and if it was not it was some ignorance
+on his part not some intrinsic complexity of the problem he
+was solving. It is a very nice way to develop software and he
+talks about how you get no points for having code that works, working
+is the bare minimum that you expect from a coder, it gives you
+0 points. All the other details like design, testing, docs, etc
+are the things that actually gets you points. Again another useful
+mental model on how to approach the endeavor of writing software.
+
+
 ## Common Observations
 
 Here are some of the things that seems to be a trend among programmers.

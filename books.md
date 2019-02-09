@@ -16,6 +16,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
+* [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
 * [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
@@ -33,7 +34,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Into the Magic Shop](http://www.amazon.com/Into-Magic-Shop-Neurosurgeons-Mysteries-ebook/dp/B00YBBKMHA)
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
-* [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
@@ -44,6 +44,16 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
+
+
+## Architecture and Design Outside Computing
+
+* [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
+* [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199)
+* [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+* [Engineers of Dreams](https://www.amazon.com/Engineers-Dreams-Builders-Spanning-America/dp/0679760210)
+* [The Design of Design](https://www.cambridge.org/us/academic/subjects/engineering/engineering-design-kinematics-and-robotics/design-design?format=PB)
+* [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 
 
 ## Economy

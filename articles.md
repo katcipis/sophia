@@ -2,6 +2,10 @@
 
 ## Queue
 
+### Web
+
+* [Mind the Gap: Analyzing the Performance of WebAssembly vs. Native Code](https://arxiv.org/pdf/1901.09056.pdf)
+
 ### Audio
 
 * [The Physics of Sound](https://homepages.wmich.edu/~hillenbr/206/ac.pdf)

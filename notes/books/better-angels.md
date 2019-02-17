@@ -1,3 +1,20 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [The Better Angels of Our Nature: Why Violence Has Declined](#the-better-angels-of-our-nature-why-violence-has-declined)
+- [Exogenous Forces](#exogenous-forces)
+    - [Leviathan](#leviathan)
+    - [Trading](#trading)
+    - [Accessible Knowledge](#accessible-knowledge)
+- [Utopy and Genocide](#utopy-and-genocide)
+- [Animal Rights](#animal-rights)
+- [Self Serving Bias](#self-serving-bias)
+- [Moralization Gap](#moralization-gap)
+- [Group Thinking](#group-thinking)
+
+<!-- mdtocend -->
+
 # The Better Angels of Our Nature: Why Violence Has Declined
 
 This book provides an interesting view on a subject that usually is

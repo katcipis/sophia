@@ -1,3 +1,38 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [Coders at Work](#coders-at-work)
+    - [Jamie Zawinski](#jamie-zawinski)
+    - [Brad Fitzpatrick](#brad-fitzpatrick)
+    - [Douglas Crackford](#douglas-crackford)
+    - [Brendan Eich](#brendan-eich)
+    - [Joshua Bloch](#joshua-bloch)
+    - [Joe Armstrong](#joe-armstrong)
+    - [Peter Norvig](#peter-norvig)
+        - [TDD](#tdd)
+        - [Perfect Solutions](#perfect-solutions)
+        - [Code Reuse and Outsourcing](#code-reuse-and-outsourcing)
+        - [Solving Bugs](#solving-bugs)
+        - [Literate Programming](#literate-programming)
+    - [Guy Steele](#guy-steele)
+    - [Dan Ingalls](#dan-ingalls)
+        - [Building things that no one wants](#building-things-that-no-one-wants)
+        - [Creativity VS Standards](#creativity-vs-standards)
+        - [Restricted Systems](#restricted-systems)
+        - [Tech Leadership](#tech-leadership)
+    - [L. Peter Deutsch](#l-peter-deutsch)
+    - [Ken Thompson](#ken-thompson)
+    - [Fran Allen](#fran-allen)
+    - [Bernie Cosell](#bernie-cosell)
+    - [Common Observations](#common-observations)
+        - [Worst Bug](#worst-bug)
+        - [Debugging](#debugging)
+        - [Literate Programming](#literate-programming-1)
+        - [C++](#c)
+
+<!-- mdtocend -->
+
 # Coders at Work
 
 These notes are based on my reading of the book
@@ -1275,7 +1310,7 @@ or to solve bugs, which is one of the best heuristics you
 can use to sense what parts of a codebase you need to refactor.
 
 What is interesting is that since he did not know refactoring he
-was not trying to do it just for its sake, because it is right, so
+was not trying to do it just for its own sake, because it is right, so
 he never had the problem of refactoring wrong code, code that
 would never be changed or even discarded. He naturally only
 refactored useful code because he was not trying to do it, he
@@ -1305,6 +1340,98 @@ is the bare minimum that you expect from a coder, it gives you
 are the things that actually gets you points. Again another useful
 mental model on how to approach the endeavor of writing software.
 
+
+## Donald Knuth
+
+One of the first interesting things is that his first program
+was a prime number generator and just a few months ago I have
+elected the sieve of eratostenes (a prime number generator) as
+one of my first things to implement on a new language, or to play
+with concepts. It is great to think about recursion,concurrency,
+streaming, etc.
+
+He also has the habit of writing about all his ideas because
+he has a very volatile memory (ain't us all ? =P), which is something
+that I can relate since I also like to make notes of anything that
+I find interesting because I also have a crappy memory. The only
+problem that I have is the lack of good ideas, which were not the
+case for Knuth =P.
+
+
+### Black Boxes
+
+On the subject of black boxes he reminds me of Joe Armstrong in the
+sense that he thinks that just using black boxes is not as fun
+as implementing it yourself (and reimplementing something
+again just for fun is OK). Also just using black boxes can
+lead to using bad fits to your problem because there is already a
+black box available. In the end, if you are going to use the black box,
+at least open it and take a look =).
+
+
+### Go's Prophecy
+
+There is a part of the interview that I understood almost as a prophecy
+about Go =):
+
+```
+Seibel: In 1974 you said that by 1984 we would have “Utopia 84,” the sort
+of perfect programming language, and it would supplant COBOL and
+Fortran, and you said then that there were indications that such language is
+very slowly taking shape. It’s now a couple of decades since ’84 and it
+doesn’t seem like that’s happened.
+
+Knuth: No.
+
+Seibel: Was that just youthful optimism?
+
+Knuth: I was thinking about Simula and trends in object-oriented
+programming when I wrote that, clearly. I think what happens is that every
+time a new language comes out it cleans up what’s understood about the
+old languages and then adds something new, experimental and so on, and
+nobody has ever come to the point where they have a new language and
+then they want to stop at what’s understood. They’re always wanting to
+push further.
+
+Maybe someday somebody will say, “No, I’m not going to be innovative; I’m
+just going to be clean and simple, and I’m going to stick to it.” Pascal was
+started with that philosophy but then didn’t continue. Maybe we’ll get to a
+time when somebody will say, “Let’s set our sights lower and really try to
+make something that’s going to be stable.” It might be a good idea.
+```
+
+### Know Your History
+
+Just a direct quote is enough:
+
+```
+Seibel: Do you feel like programmers and computer scientists are aware
+enough of the history of our field? It is, after all, a pretty short history.
+
+Knuth: There aren’t too many that are scholars. Even when I started
+writing my books in 1963, I didn’t think people knew what had happened in
+1959. I was reading in American Scientist last week about people who had
+rediscovered an algorithm that Boyer and Moore had discovered in 1980. It
+happens all the time that people don’t realize the glorious history that we
+have. The idea that people knew a thing or two in the ’70s is strange to a lot
+of young programmers.
+
+It’s inevitable that in such a complicated field that people will be missing
+stuff. Hopefully with things like Wikipedia, achievements don’t get forgotten
+the way they were before. But I wish I could also instill in more people the
+love that I have for reading original sources. Not just knowing that so-and-
+so gets credit for doing something, but looking back and seeing what that
+person said in his own words. I think it’s a tremendous way to improve
+your own skills.
+
+It’s very important to be able to get inside of somebody else’s way of
+thinking, to decode their vocabulary, their notation. If you can understand
+something about the way they thought and the way they made a discovery,
+then that helps you make your own discoveries. I often read source
+materials of what brilliant people have said about this stuff in the past. It’ll be
+expressed in unusual ways by today’s conventions, but it’s worth it to me to
+penetrate their notation and to try to get into their idea.
+```
 
 ## Common Observations
 

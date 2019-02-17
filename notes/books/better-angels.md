@@ -78,19 +78,68 @@ and more collaborative. Empiric evidence of my own life shows that
 people can excel at both, it makes sense that environmental factors
 can push you on one direction or another.
 
+
 # Exogenous Forces
+
+The premisse of the author is that exogenous forces (created by ourselves)
+are responsible for much of the decay in violence and he describes some
+of these forces in detail, here I just document a few that got my attention.
+
 
 ## Leviathan
 
+He elaborates on how violence usually is a triangle, there is three parties
+involved, the attacker, the victim and bystanders (an observing party).
+
+There is a great deal of detail and research on why neither attacker or
+victim can make a clear judgement about something because human beings
+are extremely biased towards themselves (one of the names of it is
+Moralization Gap), basically people never think they are wrong. So what
+is left to pass judgement is the bystander, the observing party,
+if this party is sufficiently neutral you could end up with fair trials.
+
+If you have this situation and this force is also accountable to the people,
+then you can monopolize the use of force delegating it to this third party.
+As any system it is not perfect, but it seems to work better than sheer
+anarchy, since people always think that they have been wronged and always
+counter attack with greater intensity then they have actually been
+attacked (also a lot of research corroborating that).
+
+The leviathan would be this massive force of justice.
+
+
 ## Trading
+
+Trading turns zero sum games into positive sum games. With elaborated
+trading between nations you have a low risk/high gain way to get
+something that you need instead of going to war. The major wars have
+not been fought for resources, usually it is ideologies and honor, but
+resources is also a variable and trading makes for much more interesting
+games than just killing each other.
+
+Not that humans don't like to kill, but they most certainly don't like
+to die, and in a war everybody dies.
+
 
 ## Accessible Knowledge
 
-# Life is Sacred
+The invention of the printing press everything changed. Just as it happens
+now (2019) access to information changes everything and even tough the
+internet is pretty awesome the printing press seems to be an even
+greater shock to humanity because of the depth of the pit of darkness
+that the biggest part of humanity was in. It is hard to imagine a world
+where more than 90% of the people living on Earth did not know how to
+read. Imagine how small and closed your world would be. That explains
+why peoples mind had a difficulty thinking about other nations
+as threats, their minds where much smaller.
 
-Talk about the change in perspective of the value of individual human life.
+The ability to read, read about people in other part of the world, or
+even stories, started (together with trading) to exercise the capacity
+of the human being to be more empathic, to really put itself in the
+place of other people and understand them, which is basic abstract
+reasoning, something that can be a force for good or for terrible
+evil (like Nazism).
 
-Also how the idea of an eternal afterlife can make your current life mean less.
 
 # Utopy and Genocide
 
@@ -238,9 +287,9 @@ to the better configuration for a society to thrive.
 # Moralization Gap
 
 This is the phenomenon that makes people damp the effects of
-their actions but amplify what others do. Basically we always
-think that what we have done is not that bad, and what others
-do to us are much worse.
+their actions but amplify what others do to them.
+Basically we always think that what we have done is not that bad,
+and what others do to us are much worse.
 
 The book once again elaborates on this on a lot of researches
 that I can't remember anymore, but empirical observation of

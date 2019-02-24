@@ -15,10 +15,11 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Personal
 
+* [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
+* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
 * [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
-* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
@@ -283,6 +284,10 @@ Basically where I organize what I still want to read and what I have already rea
 
 
 # Reading
+
+* [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
+* [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
+
 
 # Done
 

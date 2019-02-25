@@ -36,6 +36,7 @@
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
+* [Benchmark Time Series Database with IoTDB-Benchmark for IoT Scenarios](https://arxiv.org/abs/1901.08304)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [Adaptive real-time anomaly detection for multi-dimensional streaming data](https://aaltodoc.aalto.fi/bitstream/handle/123456789/25101/master_Saarinen_Inka_2017.pdf)
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
@@ -168,6 +169,11 @@
 ## Doing
 
 ## Done
+
+### 2019
+
+* [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
+
 
 ### 2018
 

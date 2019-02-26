@@ -1,3 +1,55 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Wishlist :-)](#wishlist-)
+    - [History](#history)
+    - [Personal](#personal)
+    - [Architecture and Design Outside Computing](#architecture-and-design-outside-computing)
+    - [Economy](#economy)
+    - [Psychology / Philosophy](#psychology--philosophy)
+    - [Team / People](#team--people)
+    - [Health](#health)
+    - [Operational Systems](#operational-systems)
+    - [Data](#data)
+        - [Databases](#databases)
+        - [Data Streaming](#data-streaming)
+    - [Relational Theory](#relational-theory)
+    - [Algorithms](#algorithms)
+        - [Recommended](#recommended)
+    - [Languages](#languages)
+        - [Haskell](#haskell)
+        - [Rust](#rust)
+        - [Lisp / Scheme](#lisp--scheme)
+        - [SML](#sml)
+        - [C](#c)
+        - [Elixir](#elixir)
+    - [Concurrency](#concurrency)
+    - [Legacy code](#legacy-code)
+    - [Embedded](#embedded)
+    - [Math](#math)
+    - [Agile and Planning stuff](#agile-and-planning-stuff)
+    - [Distributed Systems](#distributed-systems)
+    - [Software Design](#software-design)
+    - [Security](#security)
+    - [Information Retrieval](#information-retrieval)
+        - [Recommended](#recommended-1)
+    - [Machine Learning](#machine-learning)
+    - [Performance](#performance)
+    - [Low level](#low-level)
+    - [Games](#games)
+- [Reading](#reading)
+- [Done](#done)
+    - [2018](#2018)
+    - [2017](#2017)
+    - [2016](#2016)
+    - [2015](#2015)
+    - [2014](#2014)
+    - [On a galaxy far far away](#on-a-galaxy-far-far-away)
+
+<!-- mdtocend -->
+
 # Introduction
 
 Basically where I organize what I still want to read and what I have already read and don't want to forget the name.
@@ -93,12 +145,17 @@ Basically where I organize what I still want to read and what I have already rea
 * [Notes on the Plan 9 Kernel Source](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.5409&rep=rep1&type=pdf)
 
 
-## Databases
+## Data
+
+* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+
+
+### Databases
 
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
 
 
-## Data Streaming
+### Data Streaming
 
 * [Streaming Systems](https://www.amazon.com/gp/product/1491983876)
 
@@ -264,6 +321,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Machine Learning
 
+* [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236)
 * [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
 * [Deep Learning](http://www.deeplearningbook.org/)
 

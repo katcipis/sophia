@@ -147,7 +147,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Data
 
-* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 
 ### Databases
@@ -344,6 +343,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
+* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 * [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
 * [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
 

@@ -172,6 +172,7 @@
 
 ### 2019
 
+* [Spectre is here to stay: An analysis of side-channels and speculative execution](https://arxiv.org/abs/1902.05178)
 * [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 
 

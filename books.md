@@ -285,6 +285,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
+* [Domain Driven Design](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/)
 * [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)

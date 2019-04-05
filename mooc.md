@@ -2,6 +2,7 @@
 
 * [Skiena Data Science](https://www.youtube.com/watch?v=78dUCOF9zxE&list=PLOtl7M3yp-DVBdLYatrltDJr56AKZ1qXo)
 * [Skiena Algorithms Analysis](https://www.youtube.com/playlist?list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)
+* [Programming for the Puzzled](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA&app=desktop)
 * [Lamport TLA+](https://lamport.azurewebsites.net/video/videos.html)
 * [Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)
 * [Natural Language Processing](https://www.coursera.org/learn/nlp)
@@ -19,6 +20,7 @@
 
 ## Machine Learning
 
+* [NLP Processing with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&app=desktop)
 * [Google Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
 * [Machine Learning](https://www.coursera.org/learn/machine-learning/outline)
 * [Scalable Machine Learning](https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VSAQCnXd_0o)

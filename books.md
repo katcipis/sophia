@@ -322,6 +322,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Machine Learning
 
+* [Grokking Deep Learning](https://www.amazon.it/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709)
 * [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236)
 * [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
 * [Deep Learning](http://www.deeplearningbook.org/)

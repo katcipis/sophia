@@ -29,10 +29,16 @@ The caches part is great because the connection with
 the real world and physics is impressive. The first idea
 is to consolidate the notion that caches will always be
 necessary, this goes back to the 60's and theories
-of memory hierarchies. Why you would always need to
+of memory hierarchies. Why would you always need to
 build a hierarchy of memory ? Because of limits on
 how much information you can store into a physical
 phenomenon given the size it will take to store it.
+And as you get more distant from where the data is
+it will be intrinsically harder to access it as fast
+as the data stored right next to you. This is very
+interesting stuff because it forces you to open
+abstractions and really think how information is stored
+physically, since the limits comes from there.
 
 It does not matter how good we get at storing information,
 increasing density (storing more data per millimeter for
@@ -40,8 +46,8 @@ example), you will always hit a limit where to store more
 data you will need to send the data further away geographically.
 
 Moving data further away has the immediate physical implication
-that moving data will get harder and will add latency to
-it. Even if you get awesome throughput, at least latency
+that moving data around will get harder and will have added latency.
+Even if you get awesome throughput (at a cost), at least latency
 is inevitable given limits like the speed of light. Specially
 with trends like big data (everyone wants to store everything),
 it gets more obvious that caches are here to stay, because
@@ -49,12 +55,14 @@ when you want to be responsive when analyzing data this data
 must be near the person/machine who requested it, since it is
 physically impossible to leave ALL the data near EVERYONE you
 will end up with some caching mechanism that will help
-with that. Another example used on the book is CDNs, which
+with that. Another example used on the book is
+CDNs (Content Distribution Networks), which
 alleviate the hardship of delivering content to the
-entire world with reasonable performance.
+entire world with reasonable performance (in the book
+the author talks a lot about Akamai =P).
 
 A great analogy to how this works in the analogic world
-is when you have a desk in a library, the books that you
+is when you have a desk in a library. The books that you
 leave on your desk are your cache, it is extremely fast to
 search through them but it is physically impossible to
 put the entire library in your desk, hence you have a cache,
@@ -65,9 +73,14 @@ cache miss you have to get up and go search on the library
 The really interesting insight is that caches are not just
 an economical way to store most used data, it is physically
 impossible to not have caches in most cases even if you had money.
-Take the library example, if you build an enormous table then
+Take the library example, if you build an enormous table
+(since caches are fast lets make everything a cache) then
 it would be slow to search through it anyway, it lost its purpose
-of being fast because to be fast it NEEDS to be small.
+of being fast because to be fast it NEEDS to be small. So you
+can have a cache and be fast on a lot of access or not have it
+and always be slow, but there is no option that will deliver
+you cache like performance to all accesses unless your dataset
+is small (again, more and more that will not be the case).
 
 The same thing happens to processors. The first naive impression
 that you get when you see how fast caches are on processors is

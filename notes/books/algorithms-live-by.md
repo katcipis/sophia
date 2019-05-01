@@ -115,3 +115,49 @@ the most obvious organ that we think about when thinking
 about memory, the brain.
 
 ## Caching and the Brain
+
+Now I get to the part that makes me feel less shit about
+myself as I get old. I'm always having these failures in
+remembering stuff, specially as I get old, and the author talks
+about this in a very interesting way. He talks about computer
+science theory helped someone involved on the study of the human
+brain understand better what was used to be understood as mental
+decline. As you get old it seems that you get slower at
+remembering things, hence the notion of decline, but
+when reading about memory hierarchies and search theory
+came the notion that it was not that what was happening in
+the brain as you get older.
+
+What happens is that as you live more, experience more, and
+read more you brain literally have much more information to
+organize and search, so when you try to remember something
+it gets much harder to do so as you get older because you
+have much more data to search through than you where younger.
+
+The perfect way to understand this is that when you are
+young you know so little and experienced so little that
+everything fits on your cache, everything feels on the tip
+of your tongue. As you get older and accumulate more
+experiences, it is possible for the brain to store
+all the data but it is impossible to provide access to
+all of it in the same speed, hence the slower access time
+to ideas, names, experiences, etc. So even if some declines
+happen, great part of the slowness in remembering things is
+given by a larger dataset to search through with a cache of
+the same size that you had when you was young.
+
+As you mature it is fundamental to build good mental models
+of the things that you know because you will need the model
+to navigate the memories, because it will be orders of magnitude
+more memories than you had 10 years ago.
+
+Actually the brain is pretty marvelous in how it retains all
+this data and allows you to search through it optimizing
+to provide faster access to things you need more (resembles
+a LRU cache). And of course if you are getting old as I am
+this is good news =P, not because it is a sweet illusion, it
+actually makes sense physically, it is not your neurons getting
+slower, there is more data to search through. It specially makes
+sense when even tough it takes time you eventually remember,
+it was there and it took time not because your neurons are
+tired, the path to get there got a lot bigger =).

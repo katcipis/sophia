@@ -70,9 +70,12 @@ a small portion of data has fast access and when you have a
 cache miss you have to get up and go search on the library
 (the slow memory).
 
-The really interesting insight is that caches are not just
-an economical way to store most used data, it is physically
-impossible to not have caches in most cases even if you had money.
+The really interesting insight to me is that caches are not just
+an economical way to store most used data that is too expensive
+to be used to store all data. It is physically
+impossible to have memory fast as caches in most cases
+even if you had money to pay for the fast hardware.
+
 Take the library example, if you build an enormous table
 (since caches are fast lets make everything a cache) then
 it would be slow to search through it anyway, it lost its purpose
@@ -80,11 +83,11 @@ of being fast because to be fast it NEEDS to be small. So you
 can have a cache and be fast on a lot of access or not have it
 and always be slow, but there is no option that will deliver
 you cache like performance to all accesses unless your dataset
-is small (again, more and more that will not be the case).
+is small.
 
 The same thing happens to processors. The first naive impression
 that you get when you see how fast caches are on processors is
-"Why all the memory in the computer is made of caches ?". The
+"Why all the memory in the computer is not made of caches ?". The
 naive answer is that it would be too expensive, because the SRAM
 used on caches is really expensive, but that is not the case. It is
 physically impossible to have memory operating so close to the clock
@@ -96,3 +99,19 @@ to operate in synchrony with the processor. So physically, just
 as in the case of the table on the library, caches on processors
 need to be small, not just because SRAMs are expensive, because
 physically being small is what enables them to be faster.
+
+There is also a good insight on realizing that even tough
+a lot of abstractions provided by the cloud can be useful
+you should take care because when performance is an issue
+you usually need to understand things in details, sometimes
+physical details. Also it makes you think if it is a good
+idea to keep huge datasets, the smaller the dataset the
+easier will it be to have good performance analyzing it.
+Do you really need all the data you store ?
+
+This pattern of having smaller fast memory to work on immediate
+things and a lot of slower memory also happens in nature, in
+the most obvious organ that we think about when thinking
+about memory, the brain.
+
+## Caching and the Brain

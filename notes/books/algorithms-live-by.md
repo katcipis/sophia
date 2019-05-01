@@ -119,13 +119,13 @@ about memory, the brain.
 Now I get to the part that makes me feel less shit about
 myself as I get old. I'm always having these failures in
 remembering stuff, specially as I get old, and the author talks
-about this in a very interesting way. He talks about computer
+about this in a very interesting way. He talks about how computer
 science theory helped someone involved on the study of the human
-brain understand better what was used to be understood as mental
+brain understand better what was used to be know as mental
 decline. As you get old it seems that you get slower at
 remembering things, hence the notion of decline, but
 when reading about memory hierarchies and search theory
-came the notion that it was not that what was happening in
+came the notion that it was not decline that was happening in
 the brain as you get older.
 
 What happens is that as you live more, experience more, and
@@ -148,7 +148,7 @@ the same size that you had when you was young.
 
 As you mature it is fundamental to build good mental models
 of the things that you know because you will need the model
-to navigate the memories, because it will be orders of magnitude
+to navigate the memories, there will be orders of magnitude
 more memories than you had 10 years ago.
 
 Actually the brain is pretty marvelous in how it retains all

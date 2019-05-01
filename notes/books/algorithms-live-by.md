@@ -132,19 +132,22 @@ What happens is that as you live more, experience more, and
 read more you brain literally have much more information to
 organize and search, so when you try to remember something
 it gets much harder to do so as you get older because you
-have much more data to search through than you where younger.
+have much more data to search through than you were younger.
 
-The perfect way to understand this is that when you are
+A good metaphor to understand this is that when you are
 young you know so little and experienced so little that
 everything fits on your cache, everything feels on the tip
 of your tongue. As you get older and accumulate more
 experiences, it is possible for the brain to store
 all the data but it is impossible to provide access to
 all of it in the same speed, hence the slower access time
-to ideas, names, experiences, etc. So even if some declines
+to ideas, names, experiences, etc. So even if some decline
 happen, great part of the slowness in remembering things is
 given by a larger dataset to search through with a cache of
-the same size that you had when you was young.
+the same size that you had when you was young. Even if
+you have zero decline in brain activity, it is not physically
+possible to access orders of magnitude more data at the
+same speed.
 
 As you mature it is fundamental to build good mental models
 of the things that you know because you will need the model
@@ -160,4 +163,8 @@ actually makes sense physically, it is not your neurons getting
 slower, there is more data to search through. It specially makes
 sense when even tough it takes time you eventually remember,
 it was there and it took time not because your neurons are
-tired, the path to get there got a lot bigger =).
+tired or slow, the path to get there got a lot bigger =).
+
+As usual it is a trade-off, if you know
+more it will be slower to navigate through everything that
+you know, knowing less makes you look really fast and sharp.

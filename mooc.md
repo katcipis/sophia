@@ -20,6 +20,7 @@
 
 ## Machine Learning
 
+* [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/welcome)
 * [NLP Processing with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&app=desktop)
 * [Google Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
 * [Machine Learning](https://www.coursera.org/learn/machine-learning/outline)

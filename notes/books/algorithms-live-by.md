@@ -178,3 +178,56 @@ with the fact that people would give devotion to what they
 can see, like the wooden and metal idols, instead of giving
 it to god, which is so awesome that nothing that can be
 seen can represent him properly.
+
+What we do today with data is the same thing. Any data or
+metric that we can gather is always a simpler representation
+from reality. The idea is not that you should not do that,
+or not try to improve that, but to forget what the data and
+the metric really is, just a simpler/imperfect representation
+of a much more complex phenomenon. Focusing too much
+on this representation can lead to problems, which the most
+common one is over fitting.
+
+Over fitting is a well know phenomenon know by statisticians,
+but it is very interesting how it also happens with humans
+when analyzed as a system. One human example is eating habits
+and health. Our brain has a builtin metric/representation
+of what we should eat, that is taste. Taste optimizes for what
+we need most, and usually it is energy. So our taste optimizes
+for high energy food, it is the best fit. But once humans started
+to control the nutritional components of their food they immediately
+went to over fitting, food is now extremely biased towards our
+metric (taste) and guess what, as all metrics it is not a perfect
+measurement of nutritious value, hence if you over fit it you
+end up not healthy. This metric worked because no food had
+great amounts of sugar in it in nature, as soon as we could
+control that the metric was not accurate anymore (it never was
+actually) and we went to full over fitting in a single generation.
+
+After building up this awesome analogy he goes on with a lot
+of examples on different industries of when you establish a
+metric people over fit to it in a way that stops being beneficial.
+One example is a law firm that measures closed cases, people in
+the end of the month go to the smaller non important cases
+to boost to the metric.
+
+The same goes for closed issues/bugs in software projects.
+You can enrich your metrics, but
+it seems to me that extreme devotion to any metric, even if it is
+rich, can always lead to some sort of disappointment. It is
+better to have the metric but at the same time don't idolize it
+as the only source of truth.
+
+It is very easy to forget about more complex things like costumer
+satisfaction and true honest communication
+to focus on numbers. They are great for the same reason that they
+suck. They are simpler and easier to explain and analyze
+(to a board of directors for example), but since
+they are simpler they are never an accurate portrait or reality.
+And humans have a clear trait of over fitting to metrics as
+soon as the metric is made clear to them, so watch close to
+what you measure because almost every human will optimize solely
+to that and also remember the things that are REALLY hard to measure
+(like a person who is always available to help other people at work).
+
+You should have your data an analyze it, just don't idolize it.

@@ -138,8 +138,9 @@
 
 * [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
 * [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
-* [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
+* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
 * [Augmenting Human Intellect](http://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf)
 * [STEPS Toward the Reinvention of Programming](http://www.vpri.org/pdf/tr2012001_steps.pdf)
@@ -168,12 +169,13 @@
 
 ## Doing
 
+* [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
+
 ## Done
 
 ### 2019
 
 * [Spectre is here to stay: An analysis of side-channels and speculative execution](https://arxiv.org/abs/1902.05178)
-* [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 
 
 ### 2018

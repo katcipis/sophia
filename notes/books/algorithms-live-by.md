@@ -168,3 +168,13 @@ tired or slow, the path to get there got a lot bigger =).
 As usual it is a trade-off, if you know
 more it will be slower to navigate through everything that
 you know, knowing less makes you look really fast and sharp.
+
+# Data Idolatry and Metrics
+
+There is a great analogy of idolatry in the old days and
+how we look at data today. He talks a little about how god
+both in the Old and the New testament was always pissed off
+with the fact that people would give devotion to what they
+can see, like the wooden and metal idols, instead of giving
+it to god, which is so awesome that nothing that can be
+seen can represent him properly.

@@ -26,28 +26,44 @@ stuff instead of investing on the things that would make them popular.
 
 ## Hackers and Painters
 
-This is a chapter that I identified myself a lot, there was a lot of talk about how computer science is a
+This is a chapter that I identified myself a lot, there was a lot of talk
+about how computer science is a
 bad name because it forces hackers to think they must be scientists.
 
-Why would science be bad ? It is not bad, but it implies research. Research must be novel. But beautiful code
-does not need to be novel, it can be a clever hack on something that already exists or a merge of concepts.
-Usually this would no be admissible as science research, but it is serious hacking and can be pretty useful to people.
+Why would science be bad ? It is not bad, but it implies research.
+Research must be novel. But beautiful code
+does not need to be novel, it can be a clever hack on something that
+already exists or a merge of existing concepts.
 
-This is not mentioned on the book, but Golang seems to be a good example of cool hacking. There is no novel concept
-on the language, it is just a blend of old concepts, implemented with simplicity in mind, beautiful simple code.
-It would never be admissible as research, but it is very useful and a well crafted tool for hackers.
+Usually this would not be admissible as science research,
+but it is serious hacking and can be pretty useful to people.
 
-Also this science think makes you think you should now more theory, and this bites me deeply, because I also always felt
-that. You feel dumb by not remembering all that glorious theory that you studied on colleague. He uses a metaphor that
-hackers must know theory just as much painters need to know paint chemistry.
+This is not mentioned on the book, but Golang seems to be a good example of
+cool hacking. There is no novel concept
+on the language, it is just a blend of old concepts, implemented with
+simplicity in mind, beautiful simple code.
+It would never be admissible as research, but it is very
+useful and a well crafted tool for hackers.
 
-He talks about how languages are a way to express itself, to start filling the blank canvas, this makes sense, since
-the term "language" makes it pretty clear that you are trying to express something :-).
+Also this science thing makes you think you should know more theory,
+and this bites me deeply, because I also always felt that.
 
-Another cool concept described is the idea of programming as sketching, I identify myself a lot with that. You learn
-by doing, and you do a lot of sketches, throwing stuff away, before you get something good out of it. Again this is very
-similar to the work of a painter, or an architect drawing a project...not to a scientist (using math stuff always makes
-you look smarter :P).
+You feel dumb by not remembering all that glorious theory that you
+studied on colleague. He uses a metaphor that hackers must know theory just
+as much painters need to know paint chemistry (you can't be ignorant
+about it but you don't need to master it either).
+
+He talks about how languages are a way to express itself,
+to start filling the blank canvas, this makes sense, since
+the term "language" makes it pretty clear that you are trying
+to express something, to convey an idea.
+
+Another cool concept described is the idea of programming as sketching,
+I identify myself a lot with that. You learn by doing,
+and you do a lot of sketches, throwing stuff away, before you get something
+good out of it. Again this is very similar to the work of a painter,
+or an architect drawing a project, it will be similar to almost
+all human activities that involves a creative process.
 
 
 ## Mind the Gap

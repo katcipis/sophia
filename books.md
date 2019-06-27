@@ -68,7 +68,6 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
-* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
 * [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
@@ -97,6 +96,11 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 * [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
+
+
+## Testing
+
+* [Generating Software Tests](https://www.fuzzingbook.org/)
 
 
 ## Architecture and Design Outside Computing
@@ -346,11 +350,16 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
-* [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
+* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 
 
 # Done
+
+## 2019
+
+* [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
+* [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
+
 
 ## 2018
 

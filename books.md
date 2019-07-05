@@ -67,6 +67,8 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Personal
 
+* [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
+* [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
@@ -87,7 +89,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
-* [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
 * [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
 * [Rework](http://37signals.com/rework/)

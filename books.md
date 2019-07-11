@@ -269,11 +269,12 @@ Basically where I organize what I still want to read and what I have already rea
 * [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 
 
-## Agile and Planning stuff
+## Development Process
 
+* [Shape Up](https://basecamp.com/shapeup)
+* [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
 * [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
-* [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [Essays On Estimation](https://leanpub.com/essaysonestimation)
 
 

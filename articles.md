@@ -30,6 +30,7 @@
 
 ### Data
 
+* [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Interpreting the Data: Parallel Analysis with Sawzall](https://ai.google/research/pubs/pub61)
 * [WORM](http://doc.cat-v.org/plan_9/misc/cw/cw.pdf)

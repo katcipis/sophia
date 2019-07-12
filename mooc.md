@@ -1,7 +1,5 @@
 # MOOCs
 
-* [Skiena Data Science](https://www.youtube.com/watch?v=78dUCOF9zxE&list=PLOtl7M3yp-DVBdLYatrltDJr56AKZ1qXo)
-* [Skiena Algorithms Analysis](https://www.youtube.com/playlist?list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)
 * [Programming for the Puzzled](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA&app=desktop)
 * [Lamport TLA+](https://lamport.azurewebsites.net/video/videos.html)
 * [Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns)
@@ -18,6 +16,11 @@
 * [Cloud Computing Concepts 2](https://www.coursera.org/course/cloudcomputing2)
 
 
+# Languages
+
+* [Oregon Programming Language Summer School](https://www.cs.uoregon.edu/research/summerschool/archives.html)
+
+
 ## Machine Learning
 
 * [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/welcome)
@@ -29,9 +32,17 @@
 * [Deep Learning Courses](https://developer.nvidia.com/deep-learning-courses)
 
 
-## Specializations
+# Algorithms
 
+* [Algorithms](https://www.coursera.org/specializations/algorithms)
 * [Data Structures and Algorithms](https://www.coursera.org/specializations/data-structures-algorithms)
+* [Skiena Algorithms Analysis](https://www.youtube.com/playlist?list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)
+* [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
+
+
+## Data
+
+* [Data Science Skiena 2016](https://www.youtube.com/playlist?list=PLOtl7M3yp-DVBdLYatrltDJr56AKZ1qXo)
 * [Data Analysis](https://www.coursera.org/specializations/data-analysis)
 * [Data Science](https://www.coursera.org/specializations/data-science)
 
@@ -39,7 +50,6 @@
 ## Recommended
 
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
-* [Skiena's Algorithms Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 * [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
 * [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 * [MACHINE LEARNING AND COMPUTATIONAL STATISTICS](http://davidrosenberg.github.io/ml2016/#home)

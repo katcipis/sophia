@@ -173,6 +173,7 @@
 
 ## Doing
 
+* [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 * [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 * [Deconstructing process isolation](https://www.researchgate.net/publication/220773465_Deconstructing_process_isolation)
 

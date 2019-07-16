@@ -68,6 +68,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
+* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)

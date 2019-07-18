@@ -21,17 +21,16 @@ of the company and helped assemble the team.
 Besides that, for a great part of the book it seems that West 
 is doing nothing besides giving creative freedom to the engineers
 to conceive the machine, but as is said on the beginning of the book
-and made clear at the end, there is more to build a machine than
+and made clear at the end, there is more in building a machine than
 designing and building a CPU.
 
 The history begins with the construction of a new fancy research
-lab that was supposed to the new creative force behind Data General,
-the company where the story happens. This lab is built pretty far away from
-Data General headquarters and a lot of the engineers did not wanted to move
+lab that was supposed to be the new creative force behind Data General,
+the company where the story happens. This lab was built in North Carolina,
+pretty far away from Data General headquarters in Westborough Massachusetts,
+and a lot of the engineers did not wanted to move
 out but also felt that they have been left behind to do meaningless
-work and that all the fun would be on the new lab. The Data General
-headquarters was located at Westborough Massachusetts while the new lab
-was created at North Carolina.
+work and that all the fun would be on the new lab.
 
 A war started to brew between the engineers at the Westborough and the
 ones at North Carolina, and the winner would get to build a fancy/awesome
@@ -51,7 +50,8 @@ in case the project at North Carolina went sideways, and insurance
 was something that the board of directors was willing to buy.
 
 At the same time he was selling the idea of building this machine to
-the engineers as something extremely exciting (no one wants to build insurance),
+the engineers as something extremely exciting (no one wants to build
+insurance =P),
 as an opportunity to exert extreme creative power.
 But it was a tough sell, most engineers
 thought about it as a "kludge", a depreciative term indicating

@@ -69,10 +69,10 @@ compelling the team to crunch 80 hours weeks for more than a year.
 The desire to build something that has a piece of yourself inside it.
 The kinda of work that gives meaning to life, like the people who used
 to build cathedrals, building temples to God, building something with
-a strong sense of purpose. In the end the engineers worked for that
+a strong sense of purpose. In the end the engineers worked for that ideal,
 because they were not well paid and they didn't even got stock options,
 it was all for the possibility of getting a machine out of the door,
-a machine with your name on it, and not any machine a good machine.
+a machine with your name on it, and not any machine, a good machine.
 
 Lots of awesome stuff happened, like the engineer who built a full simulator
 of the machine in two months just because they really needed it and he
@@ -118,6 +118,15 @@ In this sense the book allowed me to review some of my ideas about constraints
 on software development, the role of pressure, scarcity of resources, etc.
 Perhaps in some contexts, even time boxing and deadlines can be a positive
 force depending on how they are exerted, I'm not sure, but it got me thinking.
+
+Another thing that resembles nature and goes against my biases is the
+idea of not doing something "well", no engineer wants to do things not well,
+but it is true that not everything needs to be done well, it does depend,
+and in nature a lot of things look clumsy and funny, and could be better,
+but they are good enough (human eyes are a very odd design, for example).
+So as an engineer you want to build all the things well, because you want
+to be proud of what you build, but that may not be the path for the
+best design, specially when resource constraints are in place.
 
 Also it is interesting when sometimes a project seems like something unworthy
 and boring and in the end it turns out to be awesome, material for reflection

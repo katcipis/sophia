@@ -100,3 +100,26 @@ I have a bias more toward collaboration than competition, but it is hard to
 argue with the results obtained and the similarity to how nature designs life
 itself. And even in nature, competition goes hand in had with collaboration,
 so perhaps both are beneficial if well balanced.
+
+In this sense the book allowed me to review some of my ideas about constraints
+on software development, the role of pressure, scarcity of resources, etc.
+Perhaps in some contexts, even time boxing and deadlines can be a positive
+force depending on how they are exerted, I'm not sure, but it got me thinking.
+
+Also it is interesting when sometimes a project seems like something unworthy
+and boring and in the end it turns out to be awesome, material for reflection
+indeed. It is also inspiring to see the passion of the engineers involved in
+the project.
+
+Another impressive thing is the end of the project, besides the machine being
+a success the team that built it ends up dissolving itself, starting with Tom
+West itself leaving the team. People in the team did not get the recognition
+that they deserved and in the end it is kinda bittersweet, the story ends
+in a way that is kinda sad but also beautiful, nothing in the project went
+like Tom West imagined and he felt specially sad because he thought that people
+would be better rewarded by their hard work, but even though the book ends with:
+
+```
+It was a summer romance. But that's all right. Summer romances are some of
+the best things that ever happen.
+```

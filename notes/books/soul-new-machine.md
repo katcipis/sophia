@@ -81,3 +81,22 @@ the mantra of the entire project was:
 Not everything worth doing is worth doing well
 ```
 
+They had though constraints, bot in retro-compatibility and on time, the
+company was already late to entry the 32 bits market and the dream team
+at North Carolina was not delivering, and from these constraints a machine
+was born, and even tough late on the market it was a success. It was able to
+be compatible with the 16 bits Eclipse, giving to it an easy upgrade path to
+people who owned Eclipses, and also perform faster than the current DEC
+32 bits computer, a win/win.
+
+Besides constraints the competition for resources inside the company between
+Westborough and North Carolina are presented as beneficial, and this is another
+characteristic that reminds nature itself, life emerges in the midst of a lot
+of though constraints and life forms also compete for scarce resources, and in
+the end we got the most impressive distributed system that we know of,
+life on earth.
+
+I have a bias more toward collaboration than competition, but it is hard to
+argue with the results obtained and the similarity to how nature designs life
+itself. And even in nature, competition goes hand in had with collaboration,
+so perhaps both are beneficial if well balanced.

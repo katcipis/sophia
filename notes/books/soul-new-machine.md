@@ -45,4 +45,39 @@ a 32 bit machine that would be backward compatible with the current
 16 bit machine, the Eclipse. Since it had to be backward compatible the
 new machine would have much more constraints than the one being developed
 at North Carolina, it would not be as pure and free of ugly hacks, it would
-have to bear the burden of backwards compatibility.
+have to bear the burden of backwards compatibility. West was not selling
+the idea of a cool from scratch awesome computer, he was selling insurance
+in case the project at North Carolina went sideways, and insurance
+was something that the board of directors was willing to buy.
+
+At the same time he was selling the idea of building this machine to
+the engineers as something extremely exciting, as an opportunity to
+exert extreme creative power. But it was a tough sell, most engineers
+thought about it as a "kludge", a depreciative term indicating
+that the machine would have a lot of ugly hacks because of its
+constraints of compatibility. But West was very good at convincing people,
+he was relentless, and in the end he was able to assemble the team.
+
+West had the ability to turn every single aspect of the project,
+even the more simple and boring ones, in something awesome, embedding
+a sense of adventure into everything, he had the gift of making people
+excited about the most mundane things, he was a very romantic person
+in that sense. And it was this ability that was the driving force
+compelling the team to crunch 80 hours weeks for more than a year.
+
+The desire to build something that has a piece of yourself inside it.
+The kinda of work that gives meaning to life, like the people who used
+to build cathedrals, building temples to God, building something with
+a strong sense of purpose. In the end the engineers worked for that
+because they were not well paid and they didn't even got stock options,
+it was all for the possibility of getting a machine out of the door,
+a machine with your name on it, and not any machine a good machine.
+
+And in the end they were pretty happy with the final result, even though in
+the start everyone seemed to think on the project as a kludge. Even if
+the mantra of the entire project was:
+
+```
+Not everything worth doing is worth doing well
+```
+

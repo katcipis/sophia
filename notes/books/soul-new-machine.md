@@ -51,12 +51,13 @@ in case the project at North Carolina went sideways, and insurance
 was something that the board of directors was willing to buy.
 
 At the same time he was selling the idea of building this machine to
-the engineers as something extremely exciting, as an opportunity to
-exert extreme creative power. But it was a tough sell, most engineers
+the engineers as something extremely exciting (no one wants to build insurance),
+as an opportunity to exert extreme creative power.
+But it was a tough sell, most engineers
 thought about it as a "kludge", a depreciative term indicating
 that the machine would have a lot of ugly hacks because of its
 constraints of compatibility. But West was very good at convincing people,
-he was relentless, and in the end he was able to assemble the team.
+he was relentless, and in the end he was able to assemble a good team.
 
 West had the ability to turn every single aspect of the project,
 even the more simple and boring ones, in something awesome, embedding
@@ -72,6 +73,18 @@ a strong sense of purpose. In the end the engineers worked for that
 because they were not well paid and they didn't even got stock options,
 it was all for the possibility of getting a machine out of the door,
 a machine with your name on it, and not any machine a good machine.
+
+Lots of awesome stuff happened, like the engineer who built a full simulator
+of the machine in two months just because they really needed it and he
+had no idea that it was an impossible task, no one believed that it could
+be done on that time frame, but he did not know that so in the end he did it.
+
+There is also some very interesting debugging stories, like one that involved
+hardware interruptions and crossing memory boundaries, which seemed like something
+really complex that involved the whole machine and in the end it was just
+a memory board missing in the machine, the memory boundary that was crossed
+ended up in memory that would be on a different memory board but no one
+noticed the missing board and the error was really vague.
 
 And in the end they were pretty happy with the final result, even though in
 the start everyone seemed to think on the project as a kludge. Even if
@@ -117,7 +130,8 @@ West itself leaving the team. People in the team did not get the recognition
 that they deserved and in the end it is kinda bittersweet, the story ends
 in a way that is kinda sad but also beautiful, nothing in the project went
 like Tom West imagined and he felt specially sad because he thought that people
-would be better rewarded by their hard work, but even though the book ends with:
+would be better rewarded by their hard work, but even though the book ends
+with these words from Tom West:
 
 ```
 It was a summer romance. But that's all right. Summer romances are some of

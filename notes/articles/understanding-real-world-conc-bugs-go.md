@@ -13,6 +13,12 @@ chans and messages are good tools, they may make it easier to understand concurr
 algorithms, but easier is not the same as easy, sequential is still easier
 than concurrent (bad tools or bad brains ? or both ?)
 
+Making it easier has the tradeoff of abusing, this reminds me of
+Russ Cox post [Our Software Dependency Problem](https://research.swtch.com/deps),
+adding dependencies got so easy in the NodeJS community that lead
+to abuse and the lack of thought on the consequences and implications
+of depending on a piece of code maintained by a third party.
+
 # Memory Sharing vs Message Passing
 
 The research does try to measure how much message passing primitives are used

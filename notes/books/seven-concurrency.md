@@ -77,7 +77,7 @@ boring/useless as hell.
 One of the concurrent "models" on the book is Clojure's approach
 using the concept of separating identity from state + atoms.
 
-Identity/state separation is a fancy work for something very like
+Identity/state separation is a fancy word for something very like
 copy on write. It is not the same implementation, but it depends on
 the same idea to be implemented.
 

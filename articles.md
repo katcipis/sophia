@@ -176,7 +176,6 @@
 ## Doing
 
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-* [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 * [Deconstructing process isolation](https://www.researchgate.net/publication/220773465_Deconstructing_process_isolation)
 
 
@@ -185,6 +184,7 @@
 ### 2019
 
 * [Spectre is here to stay: An analysis of side-channels and speculative execution](https://arxiv.org/abs/1902.05178)
+* [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 
 
 ### 2018

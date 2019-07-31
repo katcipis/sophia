@@ -175,8 +175,13 @@ In the end, even tough a lot of the statements of the paper are too bold
 for my taste it is a very interesting read and give good ideas
 of follow up work like static analyzers and also gives some insight
 on the nature of real world concurrency bugs, even if the sampling is small
-it is an interesting exercise.
+it is an interesting exercise. For example it is interesting to see
+that most shared memory errors happens on anonymous goroutines
+accessing closure variables.
 
 Some other interesting articles:
 
-*
+* [Bell Labs and CSP Threads](https://swtch.com/~rsc/thread/)
+* [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
+* [A Static Verification Framework for Message Passing in Go using Behavioural Types](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)
+* [Ad Hoc Synchronization Considered Harmful](https://pdfs.semanticscholar.org/5de1/66adfe1ee8a19ce430a9d3435b566bb07185.pdf)

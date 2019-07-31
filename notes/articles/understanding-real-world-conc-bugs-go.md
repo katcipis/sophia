@@ -1,10 +1,38 @@
 # Understanding Real-World Concurrency Bugs in Go
 
-These are my notes for the article [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf).
+The original paper: [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 
 # Idea of the research
 
-TODO: the hardships of empirical evidence of non-deterministic things, subsampling, etc
+The idea is to find good samples of open source Go project and by empirical
+analysis understand the nature of concurrency bugs in Go. To answer questions
+like, are channels and message passing safer and easier to use than mutexes ?
+
+The paper is considerably honest in admitting how hard it is to come
+to conclusion and its limitation. You are in the land of extreme non-determinism.
+You are doing a manual sample, analyzing it empirically and the bugs
+that you are analyzing are themselves non-deterministic, it is hell and yet
+someone needs to at least try.
+
+The projects chosen are very interesting ones, like Docker, Kubernetes,
+etcd, boltdb, etc. They include databases and cluster orchestration systems,
+and all the projects have more than 4 years of life and are of considerable
+size.
+
+And yet, since it is a very limited sample, the conclusions that they get
+at the paper are somewhat too bold, like saying that channels and messaging
+passing is not more clear or safer than just synchronizing shared memory, just
+because on some cases they produce more bugs. The sample is too small and there
+is a lot of variables that are hard to measure, for example perhaps channels
+are only used on more complicated algorithms, and hence bugs appear more there.
+The same algorithm, without channels, would have less, the same or more bugs
+using shared memory ? This is not easy to measure since it extrapolates
+on how people in general think and make mistakes.
+
+Even tough, they make a lot of bold claims along the
+article, some of the conclusions are really interesting, like space for
+better tooling detecting simple concurrency errors using channels.
+
 
 # To be concurrent or to not be concurrent
 

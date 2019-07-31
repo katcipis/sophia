@@ -56,10 +56,19 @@ than nothing at all.
 
 # To be concurrent or to not be concurrent
 
-My personal experience with concurrency in general is: if you can avoid it do it.
+My personal experience with concurrency in general (so far at least)
+is to avoid it if I can. This may seem sad, but only because we as engineers
+usually like complex things, taming concurrency is more exciting than
+simple sequential code, but one of the most remarkable points of the
+article to me is that it corroborates my life experience that concurrency
+is hard, even in Go, even with channels, and sometimes specially with
+channels. They don't go as far as saying to avoid concurrency, but I do,
+in a lot of cases it is unavoidable, like in an HTTP server accepting
+concurrent requests, but you can avoid creating 10 extra goroutines for
+each of these concurrent requests just because you can and it is "easy".
+
 CSP (communicating sequential process) is a good model and provides good tools,
-they may make it easier to understand concurrent algorithms, at least for me
-and when compared to things like async programming or shared memory with locks,
+these tools may make it easier to understand concurrent algorithms,
 but easier is not the same as easy, sequential is still easier
 than concurrent. You could argue that perhaps CSP is not good enough,
 or perhaps our brains are not good enough, most likely both are true,
@@ -72,37 +81,40 @@ things are false in Go, channels make some things easier, not easy, and it
 still is VERY easy to deadlock, cause races or just block code in general.
 
 One of the first findings of the research is that the majority of
-blocking bugs are caused by code like this:
+blocking bugs, are caused by code like this:
 
 ```go
 go func() {
     data := <-somechannel 
     doSomething(data)
-}
+}()
 ```
 
 Which assumes that messages are always going to be sent on a channel,
 but if it is not just hangs forever (a go routine leak). The same also
 happens for goroutines that write something to a channel, if no one reads
-it you are screwed. Usually this comes from abuse creating goroutines
-and using channels since they are easy to create and "make concurrency easy".
+it you are screwed. This is so pervasive on all code bases that in the
+end message passing loses to shared memory on blocking bugs, 58% of all
+blocking bugs are cause by message passing errors, 42% are caused by shared
+memory errors.
 
-Making it easier has the tradeoff of abusing, this reminds me of
+Making something easier has the tradeoff of abusing, this reminds me of
 Russ Cox post [Our Software Dependency Problem](https://research.swtch.com/deps),
-adding dependencies got so easy in the NodeJS community that lead
+adding dependencies got so easy in the NodeJS community that it lead
 to abuse and the lack of thought on the consequences and implications
 of depending on a piece of code maintained by a third party.
 
 Every time you create a goroutine you need to think how this goroutine
-ends, in all scenarions, including failure ones, and this is to ALL goroutines,
-so just because typing "go" is easy it does not mean that you should, because
-writing correct concurrent code is not that easy, specially for
-complex algorithms. If sequential is fast enough, stick with sequential,
-concurrency in Go is not a free lunch, unless you think you are better
-than the developers on the aforementioned open source projects.
+ends, in all scenarios, including failure ones, and this is to ALL goroutines
+you start, so just because typing "go" is easy it does not mean that you
+should, because writing correct concurrent code is not that easy,
+specially for complex algorithms. If sequential is fast enough,
+stick with sequential, concurrency in Go is not a free lunch,
+unless you think you are better than the developers on the
+aforementioned open source projects.
 
 
-# Memory Sharing vs Message Passing
+# Usage of Memory Sharing vs Message Passing
 
 The research does try to measure how much message passing primitives are used
 when compared to shared memory primitives. The article is not clear
@@ -117,8 +129,11 @@ when channels are used they usually encapsulate more coarse grained
 logic, like developing concurrent services, while mutexes are used to
 serialize access to finer grained data, hence usually you have more mutexes
 than channels if you try to solve the same problem, unless you create a lot
-of contention. Of course my opnion on this matter is also produced by
+of contention (one mutex around a lot of different data).
+
+Of course my opinion on this matter is also produced by
 empirical evidence and has the same drawbacks of the entire research =).
+
 
 # Different ways to do the same thing
 
@@ -130,8 +145,8 @@ article are a mixture of channels and mutexes for example.
 Since the space for design and combination is bigger, so does seem
 to be the space for bugs. That got me thinking on how things happen
 in a concurrent language that is more restrictive, like Erlang,
-obligating the user to always use message passing. Do the bugs
-transfer one to one and you have the same amount of bugs
+obligating the user to always use message passing and having no sharing at all.
+Do the bugs transfer one to one and you have the same amount of bugs
 but with different primitives, like new bugs with message
 passing, or do you get fewer bugs ?
 
@@ -139,9 +154,15 @@ Probably it won't be like all the bugs that existed with
 mutexes will cease to exist, some algorithms are just hard,
 but I have an intuition that you probably will have fewer bugs,
 and without sharing, no races at all (at least for memory), a whole
-class of bugs disappears, perhaps new one arises. But having both
+class of bugs disappears, perhaps new ones arises. But having both
 ideas on the same language gives you freedom to produce both kinds of
 bugs and even combinations of them.
+
+Also you could argue that people do not explore message passing
+enough in Go because they can always rely on shared memory to
+also solve their problem when they fail to design something
+with message passing, like people not learning functional programming
+properly on languages that are hybrid.
 
 This gets me thinking about how the art of design kinda is the
 art of constraining, constraining the right things, it is from
@@ -150,5 +171,12 @@ to "go to" arbitrary memory locations, static strong type systems, etc.
 
 # Conclusion
 
-TODO: very interesting stuff and give good ideas like static analyzers, but
-some of the claims are too bold given the interesting but small sample set.
+In the end, even tough a lot of the statements of the paper are too bold
+for my taste it is a very interesting read and give good ideas
+of follow up work like static analyzers and also gives some insight
+on the nature of real world concurrency bugs, even if the sampling is small
+it is an interesting exercise.
+
+Some other interesting articles:
+
+*

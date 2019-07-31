@@ -58,18 +58,20 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## History
 
-* [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
-* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
+* [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
 
 
 ## Personal
 
-* [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+* [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
+* [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
+* [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
@@ -353,7 +355,7 @@ Basically where I organize what I still want to read and what I have already rea
 # Reading
 
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
+* [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021)
 
 
 # Done
@@ -362,6 +364,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
 * [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
+* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 
 
 ## 2018

@@ -34,18 +34,73 @@ article, some of the conclusions are really interesting, like space for
 better tooling detecting simple concurrency errors using channels.
 
 
+# Methodology
+
+Concurrency problems are categorized in cause and effect. There are two causes:
+
+* Shared Memory
+* Message Passing
+
+And two effects:
+
+* Blocking
+* Non Blocking
+
+The effects are the behavior that the bug presents, being blocked forever
+(deadlocks are a subset of this) or not being blocked but causing some
+other problem (usually races).
+
+The total of bugs analyzed in the article is 171. It is dwarfed by the amount
+of Go code that exists in the world in different organizations, but it is better
+than nothing at all.
+
 # To be concurrent or to not be concurrent
 
-TODO: my personal experience with concurrency in Go, if you can avoid it do it.
-chans and messages are good tools, they may make it easier to understand concurrent
-algorithms, but easier is not the same as easy, sequential is still easier
-than concurrent (bad tools or bad brains ? or both ?)
+My personal experience with concurrency in general is: if you can avoid it do it.
+CSP (communicating sequential process) is a good model and provides good tools,
+they may make it easier to understand concurrent algorithms, at least for me
+and when compared to things like async programming or shared memory with locks,
+but easier is not the same as easy, sequential is still easier
+than concurrent. You could argue that perhaps CSP is not good enough,
+or perhaps our brains are not good enough, most likely both are true,
+but in the end I understand message passing better than shared memory,
+it is more explicit, but it is not without its perils and hardships.
+
+I remember vividly one presentation on a Go Meetup where the guy talked about
+how awesome channels were and how you would have no races or deadlocks. Both
+things are false in Go, channels make some things easier, not easy, and it
+still is VERY easy to deadlock, cause races or just block code in general.
+
+One of the first findings of the research is that the majority of
+blocking bugs are caused by code like this:
+
+```go
+go func() {
+    data := <-somechannel 
+    doSomething(data)
+}
+```
+
+Which assumes that messages are always going to be sent on a channel,
+but if it is not just hangs forever (a go routine leak). The same also
+happens for goroutines that write something to a channel, if no one reads
+it you are screwed. Usually this comes from abuse creating goroutines
+and using channels since they are easy to create and "make concurrency easy".
 
 Making it easier has the tradeoff of abusing, this reminds me of
 Russ Cox post [Our Software Dependency Problem](https://research.swtch.com/deps),
 adding dependencies got so easy in the NodeJS community that lead
 to abuse and the lack of thought on the consequences and implications
 of depending on a piece of code maintained by a third party.
+
+Every time you create a goroutine you need to think how this goroutine
+ends, in all scenarions, including failure ones, and this is to ALL goroutines,
+so just because typing "go" is easy it does not mean that you should, because
+writing correct concurrent code is not that easy, specially for
+complex algorithms. If sequential is fast enough, stick with sequential,
+concurrency in Go is not a free lunch, unless you think you are better
+than the developers on the aforementioned open source projects.
+
 
 # Memory Sharing vs Message Passing
 

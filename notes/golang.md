@@ -300,6 +300,16 @@ methods safely , and the type **\*MyType** should have only pointers receivers
 methods since it is not safe to call a method with a value
 receiver from a pointer type.
 
+You may be thinking...why care ? All this method set discussion
+seems useless. When calling methods both value and pointers
+will work on any method defined for a given type. If it is a value calling a
+pointer receiver method it will be referenced. If it is a pointer it calling
+a value receiver method it will be dereferenced.
+
+The problem arises when you are working with interfaces. The concept
+of method sets is enforced when validating if you implement, or not,
+a given interface.
+
 
 ### Referencing interfaces and maps
 

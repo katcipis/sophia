@@ -387,13 +387,15 @@ probably complicates garbage collection, so this is prohibited.
 
 This is just a theory for now, I never confirmed it so far, but it makes sense
 specially when it is allied to limitations referencing interfaces and maps.
+If this is true, the whole method sets thing is kinda lame because it is
+a very high level idea that exists just because of some internal
+details and optimization on how memory is managed, it does not make
+sense conceptually, at least not for me and not right now.
 
 
 ### Referencing interfaces and maps
 
-This is related to the method sets problem. The entire method sets thing
-exists because of the referencing issue. Why can't you reference a
-interface like:
+Why can't you reference a interface like:
 
 ```
 (&obj).Method()
@@ -414,7 +416,7 @@ cannot take the address of a["a"]
 ```
 
 It is definitely not impossible, it would just make thing more complex
-and harder to cleanup garbage memory (memory that is internal to the
+and harder to do garbage collection (memory that is internal to the
 runtime).
 
 Data that is inserted on a map reside on buckets that are manipulated

@@ -377,14 +377,16 @@ to build the code:
 And this was the error that led me to the method set thing, which until
 today I still find odd, because it would be safe to call **PointerMethod** in
 this case. I have a suspicion that the reason for this is a implementation
-detail, when creating an interface from a value a copy will be created
-inside the interface instance, allowing a pointer receiver method in
-this case would mean that the pointer passed on the method would be
-from internal memory allocated by the interface implementation,
-allowing pointers to this memory to be accessed by the user code
+detail, when creating an interface from a value a copy of the value will
+be created inside the interface instance.
+
+Allowing a pointer receiver method in this case would mean that the pointer
+passed on the method would be from internal memory allocated by the interface
+implementation, allowing pointers to this memory to be accessed by the user code
 probably complicates garbage collection, so this is prohibited.
 
-This is just
+This is just a theory for now, I never confirmed it so far, but it makes sense
+specially when it is allied to limitations referencing interfaces and maps.
 
 
 ### Referencing interfaces and maps

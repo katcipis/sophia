@@ -178,7 +178,7 @@ and the methods that can be called using a receiver of that type.
 The concept (that can be a little confusing at start) is that when
 you define a type T you are actually defining two types, T and \*T.
 
-For example, if you have a method that has a pointer receiver:
+For example, given this code:
 
 ```go
 type MyType struct{}
@@ -190,19 +190,36 @@ func (t MyType) ValueMethod() {
 }
 ```
 
-And you call the method using a value object:
+The method set of **MyType** is:
 
-```go
-a := MyType{}
-a.PointerMethod()
+```
+ValueMethod
 ```
 
-This can't actually work, a is a value object with type **MyType**
-and its method set does not have **Method**.
+The method set of **\*MyType** is:
 
-But this will actually compile and work because Go does:
+```
+ValueMethod
+PointerMethod
+```
 
-    (&a).Method()
+So when you call **PointerMethod** using a value object:
+
+```go
+value := MyType{}
+value.PointerMethod()
+```
+
+This can't actually work, **value** is a variable of type **MyType**
+and its method set does not have **PointerMethod**. But in the end
+this does work, why ?
+
+Because the Go compiler will transform the code into this:
+
+```go
+value := MyType{}
+(&value).PointerMethod()
+```
 
 You have problems when you try to pass the value object as an interface.
 It does not have the method on its method set and interfaces cant be referenced.

@@ -221,22 +221,84 @@ value := MyType{}
 (&value).PointerMethod()
 ```
 
-You have problems when you try to pass the value object as an interface.
-It does not have the method on its method set and interfaces cant be referenced.
-That is why your build will fail (Go cant do (&obj).Method() if obj is an interface).
-
 Go's Method sets is conceptually odd to me. The pointer type has all methods
-of the value type, but if the pointer is nil, calling a method that received
-a value on it will cause a nil pointer dereference. So conceptually the pointer
-type has the method, but can't satisfy it because it is nil (and method receivers
-that are pointers can work just fine with nil pointers).
+of the value type, but if the pointer is nil, calling a method that has
+a value as its receiver will cause a nil pointer dereference error.
 
-On the other hand the value can ALWAYS satisfy a method call that have a
-pointer as receiver, since the value is always initialized with something it
-can always be referenced. So it is more intuitive to me that value objects
-can call value and pointer receiver methods, and pointers should be allowed
-to call only pointers methods since it is not safe to call a method with
-a value receiver from a pointer type.
+So conceptually the pointer type has all the methods, but can't call
+all the methods safely when it is nil. The pointer receiver methods
+are safe to call, but the value receiver ones are not. Lets make this
+clear with an example:
+
+```go
+package main
+
+import "fmt"
+
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+	fmt.Println("PointerMethod")
+}
+
+func (t MyType) ValueMethod() {
+	fmt.Println("ValueMethod")
+}
+
+func main() {
+	var nilpointer *MyType
+	
+	nilpointer.PointerMethod()
+	nilpointer.ValueMethod()
+}
+```
+
+Running this code will give you this result:
+
+```
+PointerMethod
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0xffffffff addr=0x0 pc=0xd7a04]
+
+goroutine 1 [running]:
+main.main()
+	/tmp/sandbox644642469/prog.go:19 +0x84
+```
+
+A variable of **\*MyType** can fail catastrophically when calling a value
+receiver method.
+
+On the other a variable of type **MyType** can ALWAYS satisfy a method call,
+independent if it is a value or a pointer receiver, since the value is always
+initialized with something it can always be referenced:
+
+```go
+package main
+
+import "fmt"
+
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+	fmt.Println("PointerMethod")
+}
+
+func (t MyType) ValueMethod() {
+	fmt.Println("ValueMethod")
+}
+
+func main() {
+	var val MyType
+	val.PointerMethod()
+	val.ValueMethod()
+}
+```
+
+So it is more intuitive to me that the type **MyType** should have
+as method set all methods, since it can call value and pointer receiver
+methods safely , and the type **\*MyType** should have only pointers receivers
+methods since it is not safe to call a method with a value
+receiver from a pointer type.
 
 
 ### Referencing interfaces and maps

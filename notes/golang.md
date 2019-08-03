@@ -181,18 +181,26 @@ you define a type T you are actually defining two types, T and \*T.
 For example, if you have a method that has a pointer receiver:
 
 ```go
-func (self *MyType) Method()
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+}
+
+func (t MyType) ValueMethod() {
+}
 ```
 
 And you call the method using a value object:
 
 ```go
 a := MyType{}
-a.Method()
+a.PointerMethod()
 ```
 
-This cant actually work, a is a value object and its method set does
-not have **Method**. But this will actually compile and work because Go does:
+This can't actually work, a is a value object with type **MyType**
+and its method set does not have **Method**.
+
+But this will actually compile and work because Go does:
 
     (&a).Method()
 

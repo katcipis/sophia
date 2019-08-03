@@ -1,4 +1,4 @@
-# Golang
+# Go
 
 This is a mix of some stuff that I learned while developing software in Go
 and other stuff that I read at the Go Programming Language book.
@@ -41,8 +41,8 @@ channels orquestrate, mutexes serialize
 
 It is commonplace these days to demonize mutexes as something
 old and error prone. The truth is that both races and deadlocks
-are also possible using channels (at least I was able to do that,
-but perhaps its just me that am THAT good at breaking stuff).
+are also possible using channels, at least I was able to do that,
+but perhaps its just that I'm good at writing bug software.
 
 The truth can be found on another Rob Pike phrase:
 
@@ -53,7 +53,7 @@ Don't communicate by sharing memory, share memory by communicating
 This exacerbates an important truth in Go, both models have shared
 memory, the only difference is that channels make communication the
 first class citizen, while mutexes don't, mutexes make serialization
-of access explicit, but it is not clear if communcation is going on.
+of access explicit, but it is not clear if communication is going on.
 
 So a good rule of thumb is, do you want to communicate two or more
 concurrent processes or you just want to serialize access to some data ?
@@ -62,7 +62,7 @@ Answering this will help you find the right tool to the job, channels
 won't be always the right tool, in some cases they can even make
 things worse.
 
-With channels, your approach is to only allow one goroutine has access
+With channels, your approach is to only allow one goroutine to have access
 to data by message passing. For example, on a pipeline, after you write
 a message passing some pointer through a channel you must NOT use that
 message anymore, or you will have race conditions, after the message is
@@ -140,27 +140,56 @@ For example, slices could be effectively equal
 (the data inside them are the same) but they would be hashed differently
 depending on when you inserted them on the map.
 
-So you can compare slices or use them as keys on maps,
+So you can't compare slices or use them as keys on maps,
 but you can do this with arrays.
 
 
 ### Method Sets
 
-* [Method Sets](https://github.com/golang/go/wiki/MethodSets)
+There is some documentation on the concept [here](https://github.com/golang/go/wiki/MethodSets).
+And you can find a lot of references to the concept in the [spec](https://golang.org/ref/spec#Method_sets).
 
-Why I cant reference maps and interfaces ?
+Perhaps this is something that is commonplace in languages and I'm just ignorant
+to it, for me it was something new that did not made a whole lot of
+sense until now. Perhaps this is unique to Go because it is one
+of the few languages that are considerably high level, have a GC,
+and yet also have pointers and object values instead of just
+references (Python) or always copying (Clojure/Erlang).
 
-Because of that Golang performs a syntatic sugar when you call pointer methods 
-on a value object you dont know that on the start.
+Definition quoting from the spec:
 
-If you have a method that has a pointer receiver:
+```
+A type may have a method set associated with it. The method set
+of an interface type is its interface.
 
-    func (self *MyType) Method()
+The method set of any other type T consists of all methods declared
+with receiver type T. The method set of the corresponding pointer type
+*T is the set of all methods declared with receiver *T or T (that is,
+it also contains the method set of T).
+
+Further rules apply to structs containing embedded fields, as described
+in the section on struct types. Any other type has an empty method set.
+In a method set, each method must have a unique non-blank method name.
+
+The method set of a type determines the interfaces that the type implements
+and the methods that can be called using a receiver of that type.
+```
+
+The concept (that can be a little confusing at start) is that when
+you define a type T you are actually defining two types, T and \*T.
+
+For example, if you have a method that has a pointer receiver:
+
+```go
+func (self *MyType) Method()
+```
 
 And you call the method using a value object:
 
-    a := MyType{}
-    a.Method()
+```go
+a := MyType{}
+a.Method()
+```
 
 This cant actually work, a is a value object and its method set does
 not have **Method**. But this will actually compile and work because Go does:
@@ -183,6 +212,7 @@ can always be referenced. So it is more intuitive to me that value objects
 can call value and pointer receiver methods, and pointers should be allowed
 to call only pointers methods since it is not safe to call a method with
 a value receiver from a pointer type.
+
 
 ### Referencing interfaces and maps
 

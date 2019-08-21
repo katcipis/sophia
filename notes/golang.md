@@ -1,4 +1,4 @@
-# Golang
+# Go
 
 This is a mix of some stuff that I learned while developing software in Go
 and other stuff that I read at the Go Programming Language book.
@@ -41,8 +41,8 @@ channels orquestrate, mutexes serialize
 
 It is commonplace these days to demonize mutexes as something
 old and error prone. The truth is that both races and deadlocks
-are also possible using channels (at least I was able to do that,
-but perhaps its just me that am THAT good at breaking stuff).
+are also possible using channels, at least I was able to do that,
+but perhaps its just that I'm good at writing bug software.
 
 The truth can be found on another Rob Pike phrase:
 
@@ -53,7 +53,7 @@ Don't communicate by sharing memory, share memory by communicating
 This exacerbates an important truth in Go, both models have shared
 memory, the only difference is that channels make communication the
 first class citizen, while mutexes don't, mutexes make serialization
-of access explicit, but it is not clear if communcation is going on.
+of access explicit, but it is not clear if communication is going on.
 
 So a good rule of thumb is, do you want to communicate two or more
 concurrent processes or you just want to serialize access to some data ?
@@ -62,7 +62,7 @@ Answering this will help you find the right tool to the job, channels
 won't be always the right tool, in some cases they can even make
 things worse.
 
-With channels, your approach is to only allow one goroutine has access
+With channels, your approach is to only allow one goroutine to have access
 to data by message passing. For example, on a pipeline, after you write
 a message passing some pointer through a channel you must NOT use that
 message anymore, or you will have race conditions, after the message is
@@ -140,55 +140,262 @@ For example, slices could be effectively equal
 (the data inside them are the same) but they would be hashed differently
 depending on when you inserted them on the map.
 
-So you can compare slices or use them as keys on maps,
+So you can't compare slices or use them as keys on maps,
 but you can do this with arrays.
 
 
 ### Method Sets
 
-* [Method Sets](https://github.com/golang/go/wiki/MethodSets)
+There is some documentation on the concept [here](https://github.com/golang/go/wiki/MethodSets).
+And you can find a lot of references to the concept in the [spec](https://golang.org/ref/spec#Method_sets).
 
-Why I cant reference maps and interfaces ?
+Perhaps this is something that is commonplace in languages and I'm just ignorant
+to it, for me it was something new that did not made a whole lot of
+sense until now. Perhaps this is unique to Go because it is one
+of the few languages that are considerably high level, have a GC,
+and yet also have pointers and object values instead of just
+references (Python) or always copying (Clojure/Erlang).
 
-Because of that Golang performs a syntatic sugar when you call pointer methods 
-on a value object you dont know that on the start.
+Definition quoting from the spec:
 
-If you have a method that has a pointer receiver:
+```
+A type may have a method set associated with it. The method set
+of an interface type is its interface.
 
-    func (self *MyType) Method()
+The method set of any other type T consists of all methods declared
+with receiver type T. The method set of the corresponding pointer type
+*T is the set of all methods declared with receiver *T or T (that is,
+it also contains the method set of T).
 
-And you call the method using a value object:
+Further rules apply to structs containing embedded fields, as described
+in the section on struct types. Any other type has an empty method set.
+In a method set, each method must have a unique non-blank method name.
 
-    a := MyType{}
-    a.Method()
+The method set of a type determines the interfaces that the type implements
+and the methods that can be called using a receiver of that type.
+```
 
-This cant actually work, a is a value object and its method set does
-not have **Method**. But this will actually compile and work because Go does:
+The concept (that can be a little confusing at start) is that when
+you define a type T you are actually defining two types, T and \*T.
 
-    (&a).Method()
+For example, given this code:
 
-You have problems when you try to pass the value object as an interface.
-It does not have the method on its method set and interfaces cant be referenced.
-That is why your build will fail (Go cant do (&obj).Method() if obj is an interface).
+```go
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+}
+
+func (t MyType) ValueMethod() {
+}
+```
+
+The method set of **MyType** is:
+
+```
+ValueMethod
+```
+
+The method set of **\*MyType** is:
+
+```
+ValueMethod
+PointerMethod
+```
+
+So when you call **PointerMethod** using a value object:
+
+```go
+value := MyType{}
+value.PointerMethod()
+```
+
+This can't actually work, **value** is a variable of type **MyType**
+and its method set does not have **PointerMethod**. But in the end
+this does work, why ?
+
+Because the Go compiler will transform the code into this:
+
+```go
+value := MyType{}
+(&value).PointerMethod()
+```
 
 Go's Method sets is conceptually odd to me. The pointer type has all methods
-of the value type, but if the pointer is nil, calling a method that received
-a value on it will cause a nil pointer dereference. So conceptually the pointer
-type has the method, but can't satisfy it because it is nil (and method receivers
-that are pointers can work just fine with nil pointers).
+of the value type, but if the pointer is nil, calling a method that has
+a value as its receiver will cause a nil pointer dereference error.
 
-On the other hand the value can ALWAYS satisfy a method call that have a
-pointer as receiver, since the value is always initialized with something it
-can always be referenced. So it is more intuitive to me that value objects
-can call value and pointer receiver methods, and pointers should be allowed
-to call only pointers methods since it is not safe to call a method with
-a value receiver from a pointer type.
+So conceptually the pointer type has all the methods, but can't call
+all the methods safely when it is nil. The pointer receiver methods
+are safe to call, but the value receiver ones are not. Lets make this
+clear with an example:
+
+```go
+package main
+
+import "fmt"
+
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+	fmt.Println("PointerMethod")
+}
+
+func (t MyType) ValueMethod() {
+	fmt.Println("ValueMethod")
+}
+
+func main() {
+	var nilpointer *MyType
+	
+	nilpointer.PointerMethod()
+	nilpointer.ValueMethod()
+}
+```
+
+Running this code will give you this result:
+
+```
+PointerMethod
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0xffffffff addr=0x0 pc=0xd7a04]
+
+goroutine 1 [running]:
+main.main()
+	/tmp/sandbox644642469/prog.go:19 +0x84
+```
+
+A variable of **\*MyType** can fail catastrophically when calling a value
+receiver method.
+
+On the other a variable of type **MyType** can ALWAYS satisfy a method call,
+independent if it is a value or a pointer receiver, since the value is always
+initialized with something it can always be referenced:
+
+```go
+package main
+
+import "fmt"
+
+type MyType struct{}
+
+func (t *MyType) PointerMethod() {
+	fmt.Println("PointerMethod")
+}
+
+func (t MyType) ValueMethod() {
+	fmt.Println("ValueMethod")
+}
+
+func main() {
+	var val MyType
+	val.PointerMethod()
+	val.ValueMethod()
+}
+```
+
+So it is more intuitive to me that the type **MyType** should have
+as method set all methods, since it can call value and pointer receiver
+methods safely , and the type **\*MyType** should have only pointers receivers
+methods since it is not safe to call a method with a value
+receiver from a pointer type.
+
+You may be thinking...why care ? All this method set discussion
+seems useless. When calling methods both value and pointers
+will work on any method defined for a given type. If it is a value calling a
+pointer receiver method it will be referenced. If it is a pointer it calling
+a value receiver method it will be dereferenced.
+
+The problem arises when you are working with interfaces. The concept
+of method sets is enforced when validating if you implement, or not,
+a given interface. Extending the previous example:
+
+```go
+package main
+
+import "fmt"
+
+type MyType struct{
+	a string;
+	b int;
+}
+
+type MyIface interface {
+	PointerMethod()
+	ValueMethod()
+}
+
+func (t *MyType) PointerMethod() {
+	fmt.Println("PointerMethod")
+}
+
+func (t MyType) ValueMethod() {
+	fmt.Println("ValueMethod")
+}
+
+func callIface(i MyIface) {
+	i.PointerMethod()
+	i.ValueMethod()
+}
+
+func main() {
+	var nilpointer *MyType
+	
+	callIface(nilpointer)
+}
+```
+
+Will build and run, producing:
+
+```
+PointerMethod
+panic: value method main.MyType.ValueMethod called using nil *MyType pointer
+
+goroutine 1 [running]:
+main.(*MyType).ValueMethod(0x0, 0x40c120)
+	<autogenerated>:1 +0xa0
+main.callIface(0x1344c0, 0x0)
+	/tmp/sandbox509132386/prog.go:25 +0x60
+main.main()
+	/tmp/sandbox509132386/prog.go:31 +0x40
+```
+
+It is interesting that the panic when using interfaces is more
+explicit on what went wrong, the interface indirection allows
+Go runtime to validate this better, but as mentioned before
+the variable with the type \*MyType satisfies the interface
+but it can call all the methods because it is nil.
+
+A variable with type MyType would be able to call it, but trying
+to build the code:
+
+```go
+./prog.go:31:11: cannot use value (type MyType) as type MyIface in argument to callIface:
+	MyType does not implement MyIface (PointerMethod method has pointer receiver)
+```
+
+And this was the error that led me to the method set thing, which until
+today I still find odd, because it would be safe to call **PointerMethod** in
+this case. I have a suspicion that the reason for this is a implementation
+detail, when creating an interface from a value a copy of the value will
+be created inside the interface instance.
+
+Allowing a pointer receiver method in this case would mean that the pointer
+passed on the method would be from internal memory allocated by the interface
+implementation, allowing pointers to this memory to be accessed by the user code
+probably complicates garbage collection, so this is prohibited.
+
+This is just a theory for now, I never confirmed it so far, but it makes sense
+specially when it is allied to limitations referencing interfaces and maps.
+If this is true, the whole method sets thing is kinda lame because it is
+a very high level idea that exists just because of some internal
+details and optimization on how memory is managed, it does not make
+sense conceptually, at least not for me and not right now.
+
 
 ### Referencing interfaces and maps
 
-This is related to the method sets problem. The entire method sets thing
-exists because of the referencing issue. Why can't you reference a
-interface like:
+Why can't you reference a interface like:
 
 ```
 (&obj).Method()
@@ -209,7 +416,7 @@ cannot take the address of a["a"]
 ```
 
 It is definitely not impossible, it would just make thing more complex
-and harder to cleanup garbage memory (memory that is internal to the
+and harder to do garbage collection (memory that is internal to the
 runtime).
 
 Data that is inserted on a map reside on buckets that are manipulated

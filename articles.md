@@ -51,6 +51,7 @@
 * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
 * [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
+* [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
 * [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
 * [A Generalised Solution to Distributed Consensus](https://arxiv.org/abs/1902.06776)
 * [The DSL for composing functions for FaaS platform](http://ceur-ws.org/Vol-2372/SEIM_2019_paper_20.pdf)

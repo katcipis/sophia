@@ -74,6 +74,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
+* [Understanding Power](https://www.amazon.com/dp/0099466066)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
 * [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)

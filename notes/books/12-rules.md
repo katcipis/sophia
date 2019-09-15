@@ -134,6 +134,41 @@ cope with this burden, self awareness/consciousness. And if you think that
 this is stupid you should question yourself if we have came up with
 a better idea to how to cope with this burden.
 
+# Nature
+
+His view of nature is to say the least, delightful. A lot of people today
+think about nature in a Victorian way, nature is little birds singing in
+the background while you lie in the grass having picnic (like old paintings).
+Nothing in this picture is true. To start birds singing are usually for mating
+and marking territory, and birds are extremely aggressive with territory.
+Why ? Resources are scarce, if you are not aggressive with your source
+of resources in nature you will die, and nature is relentless in its will
+to kill you, in all forms possible. There is nothing peaceful in nature,
+there is balance, but it is not peace in the way humans desire, being 
+completely safe.
+
+He tells a personal history about a bird that used to fill all the
+other bird houses around his one with sticks to avoid having to share
+territory with any other bird. We somehow got used to the idea that
+only humans can be dicks and selfish, that is far from true because
+in a lot of situations being a dick and selfish can mean survival
+and for millions of years survival has always been the game.
+
+It is interesting to consider why we control nature and build cities.
+Again it is not like we are evil, we just want to survive, we want the safety,
+and nature does not provide that for you. We are only at fault of mastering
+nature's own game, which is killing, we got extremely good at it and
+got to the top, hate the game not the player =P.
+
+We have created a lack of balance since we are so proficient in fighting
+at nature's game, but this is driven by a basic desire to survive. We create
+cities and devastate forests because we want our children to survive, the chances
+of they surviving in the city are much bigger than the forest, it is
+simple like that.
+
+All animals try in some level to shape the environment so it is more safe to
+him, we just got really good at it (perhaps too good ?).
+
 # Genesis
 
 On the second rule, about taking care about yourself like
@@ -165,17 +200,45 @@ because they shaped our evolution.
 
 ## The Naked Ape
 
-Unconscious of itself, innocent, as an infant.
-Self conciousness and shame
-Ashamed to walk with god
+On chapter 2 Genesis starts to talk more about man creation
+and the details are interesting. One detail is the nakedness,
+the emphasis that the bible gives on the fact that before we
+where unconscious of ourselves, innocent, as an infant, and given
+that we where also not aware that we were naked, nor were we ashamed.
 
-It is better to make people under your care to be competent than
-protect them, because protecting them is impossible.
-
-Would you raise your kid to be safe or strong ?
-
-## Chaos
-
+Shame started with also another interesting detail about our
+reality, that chaos is unavoidable.
 Not even god was able to avoid chaos from infiltrating the
-orderly paradise. Chaos is inside us, it cannot be removed
-and you cant be completely protected from it.
+orderly paradise that he created. Chaos is inside us,
+it cannot be removed and you cant be completely protected from it.
+
+Chaos itself is also the exciting, the new, the unexplored. So
+it is not like a bad thing, but it is filled with uncertainty.
+Once the serpent sneakily introduced chaos in gods paradise man
+became self conscious, like god, but unlike god that created shame.
+Man is described as literally being ashamed to walk with god,
+because he was naked.
+
+Why our species developed this shaming for nakedness is an
+interesting question. Perhaps walking straight, with our bellies
+fully exposed, is extremely dangerous, and the shaming and clothing
+served as a way to protect us. Being ashamed of being naked is not
+ubiquitous among humans of course, perhaps it is a more social
+construct than biological. Yet it is interesting how deep and
+old are the feelings of shame and inadequacy in our species. Perhaps
+that is an important drive that made us strive to create
+everything that we have done so far.
+
+This beginning of humankind is also an important reminder of
+the inevitability of chaos and how it is better to make people
+under your care to be competent than
+protect them, because protecting them from chaos is impossible.
+
+Based on this he makes one very good question for parents:
+
+```
+Would you raise your kid to be safe or strong ?
+```
+
+Even god was unable to shield his creation from chaos, from the
+unexpected and new.

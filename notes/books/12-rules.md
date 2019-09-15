@@ -17,7 +17,7 @@ and interesting metaphors, from biological assertions on how
 we work to interesting interpretations of ancient text like
 the bible.
 
-# Safe and Unprepared
+# Safe Spaces
 
 One of the first interesting ideas presented is how it is rare
 these days to find people who can discuss with someone that
@@ -59,21 +59,78 @@ will be eventually incompatible with some idea and tolerating
 the idea would mean giving up your value, giving up the good
 fight, which seems to be like giving up meaning.
 
+On this part of the book there is some talk about finding
+meaning in life, and in the opinion of the author having
+values and virtues is an essential part of finding meaning.
+
 # Positive Thought and Biology
 
-Lobster
-Winning and the pareto principle
+The first rule is about walking straight, as a lobster. It seems
+kinda funny but in the end there is a quite interesting scientific
+argument behind this analogy. Lobster, evolutionary speaking,
+are quite old creatures (millions of years). Part of our brains
+and systems resembles theirs. The part that he focus is
+how winning and losing changes the chemistry of the brain.
+
+Lobster that loses battles and territory have different
+chemicals liberated on the brain than the ones that win.
+The chemicals helps the winning lobster feel good and strong
+and causes the lobster to walk different, lets say, like a winner =P.
+
+Since this causes a vicious circle, the more you win the more you
+win, and the more you loose the more you loose, he talks
+about a phenomenon that happens not just among humans, but also
+on other animals like lobsters, which is the
+[Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle).
+Even among lobsters it is common to territory to be distributed among
+them unevenly.
+
+Of course that just thinking that you are a winner will make you
+win, but the chemical changes in your brain if you feel and act
+as a winner are real and can help you feel less depressed, at least
+in a very basic chemical level.
 
 # World of objects
 
-Nihilism
+There is a very interesting idea presented about having two different
+world views, one that is a world of objects and the other is a
+world of actors.
+
+The world of objects is a more recent idea that has been formed
+thanks to scientific advancements, people started to understand
+more of how the world physically works.
+
+But thinking like that can lead very easily to
+[Nihilism](https://en.wikipedia.org/wiki/Nihilism), specially the
+moral one that dictates that values are meaningless. The insistence
+on being objective all the time can take you to the conclusion
+that nothing actually matters, which may be true in universal
+scale but can easily lead to depression in the human mind,
+since we are intrinsically emotional, social and theatrical/dramatic.
+
+When you think only about objects and their scale, even our galaxy
+are irrelevant giving the entire universe, finding meaning in a world like
+this is pointless, because you will be unable to cause any sizeable effect
+given the space/time of the entire universe.
 
 # World of actors
 
-Actions matters, what you believe matters, values matters.
-There is right and wrong, there is virtue.
-Having values means confrontation. Confrontation requires
-fierceness sometimes (not necessarily violence).
+The world of actors, the one that humankind has lived most of the
+time, is one where actions matters, what you believe matters, values matters.
+There is right and wrong, there is virtue. It is a more mythological and
+theatrical place, perhaps more disconnected from objective reality, but a more
+exciting place to be, where you matter and things can have meaning.
+
+This is so pervasive in the way people where used to model reality that
+in the bible, Paul literally explains that the world, humans, everything that
+happens is a universal theater for angels. That is much more exciting than
+believing that you on a rock travelling in a universe that is so big that
+makes your tiny existence utterly irrelevant.
+
+It is kinda like wanting to live in the Matrix, even if it is not real,
+seems better than reality. Having conscience and existing can be a burden,
+perhaps this tales and mythology where the only way our ancestors found to
+cope with this burden, self awareness/consciousness.
 
 # Genesis
 

@@ -19,13 +19,50 @@ the bible.
 
 # Safe and Unprepared
 
-Safe places and aversion to risk and damage.
-Safe places for ideas too...
-Excessive tolerance
+One of the first interesting ideas presented is how it is rare
+these days to find people who can discuss with someone that
+has very different political views from you. He tells how he
+has two friends (a couple) that always promotes dinners
+and parties where there is no taboo and people can discuss
+anything, and they do, in a invigorating way, even when
+no one else in the end has changed the mind or anything
+(that should not be the point of a discussion anyway).
+
+Even my personal experience shows that this is indeed, very
+rare. He talks about how this seems related to an upbringing
+focused way too much on safety and tolerance. Not that safety or
+tolerance are bad things, but as all things you can always
+have too much of it.
+
+The safe playground where it is impossible to get hurt, the
+safe spaces for discussions in Universities, where there seems
+to be an aversion to confrontation, where safely being able
+to express yourself means no one will tell you that you are
+wrong.
+
+It created a generation of people with aversion to risk
+and confrontation. This can be seen clearly when discussing
+politics, usually when people don't agree they are labelled
+as nazis or socialists and discussion ends. The discomfort
+of hearing different ideas from what you believe is intolerable,
+which is ironic since these same people usually preach tolerance =P.
+
+And it is intolerance for the wrong thing. It would be great to
+not tolerate ideas, but it is an intolerance with being hurt or
+wrong. It is dumb and it is a form of infantilization, people
+literally don't grow up on these safe environments, because life
+is not safe, period.
+
+It is good to not tolerate some things because it means
+that you have your own values. If you do have values they
+will be eventually incompatible with some idea and tolerating
+the idea would mean giving up your value, giving up the good
+fight, which seems to be like giving up meaning.
 
 # Positive Thought and Biology
 
 Lobster
+Winning and the pareto principle
 
 # World of objects
 

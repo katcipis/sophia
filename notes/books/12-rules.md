@@ -130,14 +130,38 @@ makes your tiny existence utterly irrelevant.
 It is kinda like wanting to live in the Matrix, even if it is not real,
 seems better than reality. Having conscience and existing can be a burden,
 perhaps this tales and mythology where the only way our ancestors found to
-cope with this burden, self awareness/consciousness.
+cope with this burden, self awareness/consciousness. And if you think that
+this is stupid you should question yourself if we have came up with
+a better idea to how to cope with this burden.
 
 # Genesis
 
+On the second rule, about taking care about yourself like
+you would take care about others, he talks about how people
+usually take better care of their pets than themselves, and
+connects this with deep feelings of shame and inadequacy.
+He presents a metaphorical interpretation of Genesis (bible)
+that strives to explain these feelings of inadequacy.
+
+There also some very interesting ideas regarding the dynamics
+of chaos and order. He defends the idea that to have a meaningful
+life you need to find the line that separates chaos and order and
+put one foot in each side. Too much of each will render you crazy
+or depressed.
+
+The previous idea of safe places spoiling people is related to
+this, denying people contact with chaos is prejudicial, because
+as the biblical metaphor shows, chaos is unavoidable.
+
 ## Priesthood: Voice brings order
 
-Analysis of Genesis 1, priestly history of god bringing
-order to creation by the use of spoken word/language.
+I was not able to relate this to anything useful yet,
+just found interesting that the first chapter of Genesis is
+a priestly history of god bringing
+order to creation by the use of spoken word/language. Seems
+to be a reflex of our contemplation in the role of language
+in our development. The bible gives great emphasis to words,
+because they shaped our evolution.
 
 ## The Naked Ape
 

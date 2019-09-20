@@ -183,6 +183,7 @@
 
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 * [Deconstructing process isolation](https://www.researchgate.net/publication/220773465_Deconstructing_process_isolation)
+* [CPU bandwidth control for CFS](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36669.pdf)
 
 
 ## Done

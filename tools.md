@@ -429,6 +429,7 @@
 * [Gatling](http://gatling-tool.org/)
 * [httperf](http://www.hpl.hp.com/research/linux/httperf/)
 * [ab](http://httpd.apache.org/docs/2.2/programs/ab.html)
+* [fortio](https://github.com/fortio/fortio)
 * [Tsung](http://tsung.erlang-projects.org/)
 * [slapper](https://github.com/ikruglov/slapper)
 * [k6](https://k6.io/)

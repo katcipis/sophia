@@ -158,21 +158,21 @@ reasoning, something that can be a force for good or for terrible
 evil (like Nazism).
 
 
-# Utopy and Genocide
+# Utopia and Genocide
 
 It is funny to see these two words together but the book presents a pretty
-good case on how utopies can be an deep influence for genocides. It is far
+good case on how utopias can be an deep influence for genocides. It is far
 from being the only reason for genocide, sometimes the reason is just that
 you want the resources that are monopolized by another group of people.
-But the are two ways that utopies can make genocide seems like an acceptable idea.
+But the are two ways that utopias can make genocide seems like an acceptable idea.
 
-The first one is related to the nature of utopies, being about attaining undescriptable
-happyness and prosperity, for ages or even forever. When faced with this prospect
-what is the death of one million humans when you guaranteeing the forever happyness
+The first one is related to the nature of utopias, being about attaining indescribable
+happiness and prosperity, for ages or even forever. When faced with this prospect
+what is the death of one million humans when you guaranteeing the forever happiness
 and well being of one hundred million ? Killing may not look fun, but at least it
 seems feasible for the greater good (the catch is that there is no such greater good).
 
-The second one is that utopies usually are also about peace and harmony, for that to
+The second one is that utopias usually are also about peace and harmony, for that to
 happen there is no space for dissidents and people that think differently. The solution ?
 Out with the people that think different =). It is an enforcement of uniformity. Uniformity
 and consistent are desirable (that is why people segregate), trying to take it to
@@ -182,15 +182,15 @@ conflicts will NEVER happen.
 
 It is appalling that a book takes as sacred (the bible) preaches exactly these
 ideas. The only way to not read these ideas on the bible is to
-EXTREMELLY compartmentalize =/. But it also enforces the idea that it is an old book
-written by people, people are filled with utopies and prejudice. Now we see some improvement
+EXTREMELY compartmentalize =/. But it also enforces the idea that it is an old book
+written by people, people are filled with utopias and prejudice. Now we see some improvement
 on this kind of thought, but its pervasiveness on the human society explains a lot
 about our "sacred" books.
 
 The most obvious and recent example of this kind of utopic bible based thinking is
-nazism. Even the third reich having a duration of thousand years is an obvious reference
+Nazism. Even the third Reich having a duration of thousand years is an obvious reference
 to the bible. It is important to identify this kind of thinking as an exogenous force
-for violence so we can just eliminate it from our societies. There is no utopy, there is
+for violence so we can just eliminate it from our societies. There is no utopia, there is
 just life, and thinking like that can lead to much more respect and prosperity than
 believing in pipe dreams.
 
@@ -402,3 +402,40 @@ and having much less control than we imagine. Like you are part
 of a mesh that influences you severely instead of a conscious
 god riding a Gundam robot (your whole body and even the people
 around you are part of who you are).
+
+# Abstract Thought
+
+Another thing that has helped violence decline is increase in our
+ability for abstract thinking. Abstract thinking is essential to think
+on the future, put yourself on other peoples place, and develop
+more sensible morals. And it is one of the things that has seen
+improvement. One of the argument in this favor is the fact that IQ
+tests are just getting harder, so we can keep the current 100 as
+average, so average is rising, which is very good for our species.
+
+Again it is not like we are angels because of abstraction, but it is
+essential to understand things like economy and other serious issues
+like human impact on ecosystems.
+
+One very interesting aspect of this is a study that showed how some
+people are unable to do abstract thinking, some people refused to answer
+if it was possible to be attacked by a polar bear in a place that has
+never had a polar bear and was extremely hot because they thought that
+the only way to be sure is by going there and looking for it yourself.
+
+Thinking that concretely hinders abstract thinking, logic, creativity and
+imagination. The very characteristics that have a good chance to help us
+reduce violent behavior, you can even imagine how other civilizations live
+and develop, how they feel, instead of just think about them as outsiders
+or monsters because you have never seen their homeland with your own eyes.
+
+It also kinda reminds me of flat earthers, people that argue that if you have
+not seem that the earth is round with your own eyes you cant be sure.
+It is another indicative of concrete/stupid thinking, if people where unable
+to escape this kind of reasoning we would never had mathematics, airplanes, rockets,
+satellites, cellphones, transistors, actually everything that we depend on
+today and that stupid people use to dissipate these stupid ideas. Being
+able to think with abstractions and even coming to conclusions using them
+is the key that makes us unique, it is our better feature, and a fundamental
+piece in escaping the more concrete/natural behavior,
+that is inescapably violent.

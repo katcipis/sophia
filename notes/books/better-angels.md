@@ -436,6 +436,6 @@ to escape this kind of reasoning we would never had mathematics, airplanes, rock
 satellites, cellphones, transistors, actually everything that we depend on
 today and that stupid people use to dissipate these stupid ideas. Being
 able to think with abstractions and even coming to conclusions using them
-is the key that makes us unique, it is our better feature, and a fundamental
-piece in escaping the more concrete/natural behavior,
+is key to what makes us unique, it is one of our better features, and a
+fundamental piece in escaping the more concrete/natural behavior,
 that is inescapably violent.

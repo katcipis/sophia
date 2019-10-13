@@ -364,7 +364,7 @@ It is interesting that the panic when using interfaces is more
 explicit on what went wrong, the interface indirection allows
 Go runtime to validate this better, but as mentioned before
 the variable with the type \*MyType satisfies the interface
-but it can call all the methods because it is nil.
+but it can't call all the methods because it is nil.
 
 A variable with type MyType would be able to call it, but trying
 to build the code:
@@ -555,3 +555,63 @@ but only on the beginning).
 
 * [why chan nil blocks?](https://groups.google.com/forum/#!topic/golang-nuts/QltQ0nd9HvE)
 * [why write to a closed channel will panic?](https://groups.google.com/forum/#!topic/golang-nuts/1wgT_90Q1dk)
+
+### Strings
+
+String behavior in Go can be quite inconsistent and confusing,
+not in a buggy way, but in a "what will len return in a string ?" way.
+This one is explained with code =):
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println(`
+The idea of this code is to show that string behavior
+in Go is not consistent and that implementation details leaks.
+strings are actually byte slices and they behave as one to almost
+all operations, but not all, hence inconsistent.
+`)
+	samplestr := "canção"
+	fmt.Printf("string[%s]: len[%d] type[%[1]T]\n", samplestr, len(samplestr))
+
+	fmt.Println(`
+The length of a string behaves as a byte slice, giving a size in bytes,
+not a size in valid characters (or runes).
+Iterating the string with a numeric for will also get you byte slice behavior:
+`)
+	bytesCount := 0
+	for i := 0; i < len(samplestr); i++ {
+		b := samplestr[i]
+		fmt.Printf("index[%d] value[%v] type[%[2]T]\n", i, b)
+		bytesCount += 1
+	}
+	fmt.Printf("iterations through len: %d\n", bytesCount)
+
+	fmt.Println(`
+But iterating the string with range will get you rune slice behavior.
+This is so inconsistent that you will see something very odd happening, the index
+on the for loop will increment by two on some iterations.
+`)
+	runesCount := 0
+	for i, r := range samplestr {
+		fmt.Printf("index[%d] value[%v] type[%[2]T]\n", i, r)
+		runesCount += 1
+	}
+	fmt.Printf("iterations through range: %d\n", runesCount)
+
+	fmt.Println(`
+Summing up: len and index operations behave as byte slice
+but range iteration behaves as a rune slice.
+
+Quite inconsistent and showcases that it is not safe to use
+len or index a string (it will only work for ASCII).
+
+A string is a set of 'something' that has different
+cardinality and values depending on how you iterate or access it.
+`)
+}
+```

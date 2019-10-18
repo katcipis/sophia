@@ -606,3 +606,8 @@
 * [jepsen](https://github.com/jepsen-io/jepsen)
 * [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/tla.html)
 * [Runway](https://github.com/salesforce/runway-browser)
+
+# Hiring
+
+* [Triple Byte](https://triplebyte.com)
+* [Functional Works](https://functional.works-hub.com)

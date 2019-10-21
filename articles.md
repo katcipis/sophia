@@ -1,3 +1,31 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [Articles](#articles)
+    - [Queue](#queue)
+        - [Web](#web)
+        - [Audio](#audio)
+        - [Captcha](#captcha)
+        - [Data](#data)
+        - [Distributed Systems](#distributed-systems)
+        - [Concurrency](#concurrency)
+        - [Languages](#languages)
+        - [Machine Learning](#machine-learning)
+        - [Operational Systems](#operational-systems)
+            - [Clive](#clive)
+            - [Inferno](#inferno)
+        - [Security](#security)
+        - [Not Classified Yet :-)](#not-classified-yet-)
+    - [Doing](#doing)
+    - [Done](#done)
+        - [2019](#2019)
+        - [2018](#2018)
+        - [2017](#2017)
+        - [2016](#2016)
+
+<!-- mdtocend -->
+
 # Articles
 
 ## Queue
@@ -52,6 +80,7 @@
 
 * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
+* [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
 * [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
 * [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
 * [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
@@ -90,12 +119,13 @@
 
 ### Languages
 
-* [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf)
+* [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
-* [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
-* [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [ohm lang parser generator](https://ohmlang.github.io/pubs/live2016/)
+* [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf)
+* [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
+* [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
 * [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [WebProlog](https://raw.githubusercontent.com/Web-Prolog/swi-web-prolog/master/book/web-prolog.pdf)

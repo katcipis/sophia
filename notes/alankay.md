@@ -11,7 +11,7 @@ Sources for these writings:
 ## Science definition
 
 Greatest thought process ever created by humankind exactly
-because it does not is about "truth". There is reality and there is
+because it is not about "truth". There is reality and there is
 our limited brains and how can they represent reality. Science is about
 building N representations of the reality, all of them are false on some
 sense since our brains are very limited, and realising that and exploring
@@ -85,16 +85,17 @@ Sometimes to get something you need to let it go.
 ## Science of Computing
 
 There is a great deal of effort on presenting computing science as something
-completely unrelated to computers, which makes sense (just as thinking architecture
-has everything to do with autocad, it does not make sense).
+completely unrelated to computers, which makes sense, just as thinking architecture
+has everything to do with autocad, it does not make sense.
 
 The original idea of having a science for computing was like a science for
-processes. The way we thing is a process, an entire nation is, the way they
-interact and operate. The idea was to study how to represent this kind of
+processes. The way we think is a process, an entire nation is a process,
+in the way they interact and operate.
+The idea was to study how to represent this kind of
 phenomenons as processes and study them (not necessarily implementing them on
 a computer, although this reminds me a lot of simulations).
 
-He mention the american constitution as an amazing process that keeps the nation
+He mention the American constitution as an amazing process that keeps the nation
 working almost unaltered for more than a hundred years, for example.
 
 This is very hard for me to understand since I'm pretty low level / machine

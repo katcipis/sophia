@@ -194,10 +194,6 @@ the channel.
 In Elixir (and Erlang) the first class concept is the process (and its PID).
 The mailbox (which acts as a buffered channel) is the anonymous one.
 
-To contrast, in CSP (Go) goroutines are anonymous and channels are the
-first class concepts, on the Actor model (Erlang/Elixir) the processes
-(like goroutines) are the first class concepts and the channels are anonymous.
-
 This concurrency model reminds me more of services communicating on a
 network. Elixir even have a registry of processes so you can communicate
 with processes by name instead of having to know their PID.
@@ -207,7 +203,8 @@ Messages rendezvous happens like
 [Hoare's original CSP paper](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf),
 if the message matches the process name and the message schema matches, the
 message is delivered (which is odd, actor based messaging seems more like the
-original CSP theory than Go's current CSP implementation).
+original CSP theory than Go's current CSP implementation, CSP changed over the
+following years).
 
 Extending on the model that is already used for distributed systems Erlang also
 provides the concept of supervisors, that are processes responsible for keeping

@@ -59,4 +59,5 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 ## Recommended
 
 * https://www.youtube.com/watch?v=DiBZetR733Y
+
 * https://www.youtube.com/watch?v=oL6JBUk6tj0

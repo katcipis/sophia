@@ -4,6 +4,8 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 
 # TODO
 
+* https://www.youtube.com/watch?v=zPd0Cxzsslk
+
 * https://www.youtube.com/watch?v=_NKQX-TdNMc&list=PLDWZ5uzn69ezokLCB-nGgYInxL0uP1PeZ&index=29&t=0s
 
 * https://www.youtube.com/watch?v=H7b8GGJxpMk&list=PLDWZ5uzn69ezokLCB-nGgYInxL0uP1PeZ&index=26&t=0s
@@ -53,6 +55,7 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 * https://www.youtube.com/watch?v=a9xrxRsIbSU
 
 * https://www.youtube.com/watch?v=0hPOopcJ8-E
+
 
 # DONE
 

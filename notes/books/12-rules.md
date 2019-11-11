@@ -1,3 +1,19 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [12 Rules for Life: An antidote to chaos](#12-rules-for-life-an-antidote-to-chaos)
+- [Safe Spaces](#safe-spaces)
+- [Positive Thought and Biology](#positive-thought-and-biology)
+- [World of objects](#world-of-objects)
+- [World of actors](#world-of-actors)
+- [Nature](#nature)
+- [Genesis](#genesis)
+    - [Priesthood: Voice brings order](#priesthood-voice-brings-order)
+    - [The Naked Ape](#the-naked-ape)
+
+<!-- mdtocend -->
+
 # 12 Rules for Life: An antidote to chaos
 
 Usually I would not read a book that seems to be about rules

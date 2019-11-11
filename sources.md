@@ -15,6 +15,7 @@
 
 # Podcasts
 
+* [Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
 * [Roundabout: Creative Chaos](https://roundaboutfm.com/)
 * [Weird Trick Mafia](https://weirdtrickmafia.fm/)
 * [Jordan Peternson](https://jordanbpeterson.com/category/podcasts/podcast-episode/)

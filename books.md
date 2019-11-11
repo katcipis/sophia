@@ -68,10 +68,11 @@ Basically where I organize what I still want to read and what I have already rea
 ## Personal
 
 * [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+* [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835)
 * [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
-* [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
 * [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
+* [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [Understanding Power](https://www.amazon.com/dp/0099466066)

@@ -49,6 +49,7 @@
 
 ## Recommended
 
+* [Math for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)
 * [Introduction to Math Thinking](https://www.coursera.org/course/maththink/)
 * [Text Retrieval and Search Engines](https://www.coursera.org/course/textretrieval)
 * [Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)

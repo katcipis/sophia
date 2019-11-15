@@ -157,8 +157,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Data
 
-
-
 ### Databases
 
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
@@ -180,6 +178,7 @@ Basically where I organize what I still want to read and what I have already rea
 * [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 * [Algorithms](http://www.amazon.com/dp/032157351X/ref=dra_a_cs_lb_hn_it_P3076_100)
 * [Introduction to Algorithms, 3rd Edition](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
+* [Common Sense Guide To Data Structures](https://pragprog.com/book/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition)
 
 
 ### Recommended

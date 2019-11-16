@@ -289,3 +289,28 @@ and to make things better the mother was a psychologist =).
 So yes, it is very easy to allow resentment to pile up in any relationship,
 even with your children, so discipline your children, teach them to be strong
 and be truthful with them and with yourself, so you can be proud of them.
+
+# Delayed Satisfaction
+
+This is also a recurrent subject, how it is correlated with intelligence the
+ability to delay satisfaction for a greater good, that resides in
+the future. Being able to do that is what enable people to spend decades
+studying without having little material benefit to their lives, so that 
+they can live comfortably in the future. It is not the only reason people
+study but if you are only thinking about pleasure and the right now the
+chances you are going to study and strive for great things are small.
+This correlation between delayed satisfaction and intelligence is also
+observed in monkeys on very simple tests.
+
+Well anyway, this is not new stuff, at least not for me, but I found
+interesting how he connected this with bible mythology.
+
+# Environment and Behavior
+
+# Suffering
+
+# Being is Never Wrong
+
+# Listening and Advice
+
+If you listen for real there is a good chance you will change, and changing is scary.

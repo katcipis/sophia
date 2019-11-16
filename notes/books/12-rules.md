@@ -257,4 +257,35 @@ Would you raise your kid to be safe or strong ?
 ```
 
 Even god was unable to shield his creation from chaos, from the
-unexpected and new.
+unexpected and new. You have no chance of outperforming god =P.
+
+# Children are Angels
+
+I really like when people are truthful about human nature and children,
+most people have this mental model that children as angels and pure
+and innocent, but truth is that humans are nothing like that, specially children.
+It doesn't take too much observation to see that children can be extremely
+cruel and violent, and this is the second book where I see mention of
+scientific research stating that the are the most violent when we are
+two years old, some children are more, some children are less, but that
+is the age where children kick, bite and explore limits. It is discipline
+and society that teaches us to behave, we are not born well behaved 
+angels and learn violence later.
+
+This gives important input on how you are going to handle your children,
+there is an entire rule about his that states that you should not allow
+your children to do things that makes you like them less, and yes, another
+hard truth, parents can like their children less, they can resent them, 
+people are just way to afraid to see that and admit it. Humans are formidable
+on their ability to not see things that they think is uncomfortable.
+
+If you dont discipline your children, they are going to walk all over you
+and you WILL resent them and you relationship will be effectively destroyed,
+this happens all the time. He even tells a nice story of a children that
+had a mother that resented its own child, and when he and his wife created a
+good relationship with the child the mother resented the relationship too,
+and to make things better the mother was a psychologist =).
+
+So yes, it is very easy to allow resentment to pile up in any relationship,
+even with your children, so discipline your children, teach them to be strong
+and be truthful with them and with yourself, so you can be proud of them.

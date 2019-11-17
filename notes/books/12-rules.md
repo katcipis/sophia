@@ -259,6 +259,7 @@ Would you raise your kid to be safe or strong ?
 Even god was unable to shield his creation from chaos, from the
 unexpected and new. You have no chance of outperforming god =P.
 
+
 # Children are Angels
 
 I really like when people are truthful about human nature and children,
@@ -290,6 +291,7 @@ So yes, it is very easy to allow resentment to pile up in any relationship,
 even with your children, so discipline your children, teach them to be strong
 and be truthful with them and with yourself, so you can be proud of them.
 
+
 # Delayed Satisfaction
 
 This is also a recurrent subject, how it is correlated with intelligence the
@@ -303,14 +305,66 @@ This correlation between delayed satisfaction and intelligence is also
 observed in monkeys on very simple tests.
 
 Well anyway, this is not new stuff, at least not for me, but I found
-interesting how he connected this with bible mythology.
+interesting how he connected this with bible mythology. The bible
+is insistent on how focusing on the now and pleasure is bad, while
+sacrificing the now for a better (and eternal) future is good.
+So it is a way that this old knowledge of sacrifice now for a
+better tomorrow was passed to people in the past.
+
+It gives a new spin on this bible psychology, although I don't agree
+with the author's vision on how wise this old knowledge is because on
+the bible it is presented in a manner that leads people to undervalue
+the present life and its suffering because you will have a much more
+awesome and eternal one later, it is a form of delusion that takes
+the value of the only life we have because of its intrinsic suffering.
+
 
 # Environment and Behavior
 
+Interested that the author mentions that new scientific discoveries
+shows that some genes on the brain, responsible for learning,
+are only activated when you have changes on your environment and
+new situations. So your response, and the need for new challenges
+and problems goes to the level of genetics. This relates to the
+idea of being balanced between chaos and order, you need some chaos/new
+things in your life, literally to activate genes in your brain =P.
+
+
 # Suffering
+
+This is something that I'm still trying to grasp fully, but I got surprised
+that the author presents suffering as a solid rock to build your
+beliefs and character on top of. It is because being is suffering, it is
+the only certainty that we have, even the most pleasant life will end in death,
+and losing someone like that is inevitable. Humans are the only species of
+the planet that can inflict suffering or prevent in a conscious level,
+for no reason at all. So if you want to believe in something, believe in
+suffering, and do what you can to reduce it for yourself and other people.
+
 
 # Being is Never Wrong
 
+I never liked how in the bible god is presented as some old bad manager
+that is never wrong. When things go right, god is good, when things go bad the fault
+is with the humans. But I got surprised to see an upside for this mythology, the
+idea here was to teach people that Being, life itself, is never wrong, if
+your life is not good, and if everything seems shitty, it is not life or other
+peoples or god's fault, it is your fault and you should do something about it.
+In that sense it seems better than believing that other people are responsible
+for your shortcomings.
+
+
 # Listening and Advice
 
-If you listen for real there is a good chance you will change, and changing is scary.
+One of the rules is about listening to people like they know something that you
+don't. One first idea presented on this chapter is that when you listen
+to people and give advice, you are not actually listening. Giving advice
+is never truly listening, giving advice is something that massages your ego,
+it is about you bestowing knowledge upon someone else, and this is not listening,
+listening is listening, just letting the other person talk and REALLY try to
+understand them. This is quite rare because when you do this there is a good
+chance that you may change in some way, what you think, who you are, and that
+is scary and dangerous, hence people rarely do that. Giving advice is safe,
+reinforces what you believe, no change happens inside you and you feel great
+about yourself.  Perhaps sometimes advice is also needed, but just remember
+that this is not true listening.

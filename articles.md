@@ -147,6 +147,7 @@
 
 ### Machine Learning
 
+* [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](http://delivery.acm.org/10.1145/3340000/3330744/p1743-bernardi.pdf)
 * [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 * [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
 * [Deep Learning Scaling is Predictable, Empirically](https://arxiv.org/abs/1712.00409)

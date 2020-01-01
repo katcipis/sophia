@@ -412,7 +412,7 @@ that everyone deserves the same. He gives an example on problems that
 happened on the USRR. On socialist regime the richer farmers were killed
 because they were "evil", the land was distributed to the "oppressed".
 Guess what ? The "oppressed" were "oppressed" for a reason, they sucked
-at farming, mostly because of lazyness, so production in general plummeted.
+at farming, mostly because of laziness, so production in general plummeted.
 The evil farmers were actually pretty efficient/smart farmers, without
 them the country just got more poor and poor. This kinda reminds me of
 Venezuela were the government started to do forced labour, because people

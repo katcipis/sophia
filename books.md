@@ -81,7 +81,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
-* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [A Torch Kept Lit](https://www.amazon.com/Torch-Kept-Lit-Twentieth-Century/dp/1101906219)
 * [Chaos Monkeys](https://www.amazon.com/Chaos-Monkeys-Obscene-Fortune-Failure-ebook/dp/B019MMUAAQ)
 * [The Myth of the Strong Leader: Political Leadership in the Modern Age](https://www.amazon.com/Myth-Strong-Leader-Political-Leadership/dp/0465027660)
@@ -94,29 +93,20 @@ Basically where I organize what I still want to read and what I have already rea
 * [These Strange Criminals](http://www.amazon.com/These-Strange-Criminals-Anthology-Conscientious/dp/0802086616)
 * [Alan Turing: The Enigma](http://www.amazon.com/Alan-Turing-Enigma-Inspired-Imitation/dp/069116472X)
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
-* [Creativity, Inc](http://www.amazon.com/gp/product/0812993012)
 * [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
-* [Rework](http://37signals.com/rework/)
-* [The Modern Firm: Organizational Design for Performance and Growth](http://www.amazon.com/gp/product/0198293755)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
-* [The Happiness Advantage: The Seven Principles of Positive Psychology That Fuel Success and Performance at Work](http://www.amazon.ca/The-Happiness-Advantage-Principles-Performance/dp/0307591549)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
-
-
-## Testing
-
-* [Generating Software Tests](https://www.fuzzingbook.org/)
 
 
 ## Architecture and Design Outside Computing
 
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
+* [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 * [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199)
 * [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 * [Engineers of Dreams](https://www.amazon.com/Engineers-Dreams-Builders-Spanning-America/dp/0679760210)
 * [The Design of Design](https://www.cambridge.org/us/academic/subjects/engineering/engineering-design-kinematics-and-robotics/design-design?format=PB)
-* [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 
 
 ## Economy
@@ -149,13 +139,10 @@ Basically where I organize what I still want to read and what I have already rea
 * [The Healthy Programmer](http://pragprog.com/book/jkthp/the-healthy-programmer)
 
 
-## Operational Systems
-
-* [Introduction to Operating Systems Abstractions Using Plan 9](https://lsub.org/who/nemo/9.intro.pdf)
-* [Notes on the Plan 9 Kernel Source](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.5409&rep=rep1&type=pdf)
-
-
 ## Data
+
+* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+* [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
 
 ### Databases
 
@@ -176,17 +163,9 @@ Basically where I organize what I still want to read and what I have already rea
 ## Algorithms
 
 * [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
-* [Algorithms](http://www.amazon.com/dp/032157351X/ref=dra_a_cs_lb_hn_it_P3076_100)
-* [Introduction to Algorithms, 3rd Edition](http://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844)
 * [Common Sense Guide To Data Structures](https://pragprog.com/book/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition)
-
-
-### Recommended
-
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
 * [Data Structures and Algorithms](https://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237)
-* [The Art of Computer Programming](http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
-* [The Art of Computer Programming 5](https://www.amazon.com/Art-Computer-Programming-Fascicle-Preliminaries/dp/0134671791)
 
 
 ## Languages
@@ -204,16 +183,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Parsing Techniques](https://www.goodreads.com/book/show/1756599.Parsing_Techniques)
 
 
-### Haskell
-
-* [Haskell](http://haskellbook.com/)
-
-
-### Rust
-
-* [Programming WebAssembly with Rust](https://pragprog.com/book/khrust/programming-webassembly-with-rust)
-
-
 ### Lisp / Scheme
 
 * [Lisp in small pieces](https://www.amazon.com/Lisp-Small-Pieces-Christian-Queinnec/dp/0521545668)
@@ -223,23 +192,10 @@ Basically where I organize what I still want to read and what I have already rea
 * [Scheme 9 from Empty Space](http://t3x.org/s9book/index.html)
 
 
-### SML
-
-* [Real World OCaml](https://realworldocaml.org/v1/en/html/index.html)
-* [Programming in Standard ML](http://www.cs.cmu.edu/~rwh/smlbook/book.pdf)
-* [The Definition of Standard ML](http://sml-family.org/sml90-defn.pdf)
-
-
 ### C
 
 * [Scalable C](https://www.gitbook.com/book/hintjens/scalable-c/details)
 * [21st Century C: C Tips from the New School](http://www.amazon.com/21st-Century-Tips-New-School/dp/1491903899)
-
-
-### Elixir
-
-* [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir)
-* [Introducing Elixir: Getting Started in Functional Programming](http://www.amazon.com/Introducing-Elixir-Getting-Functional-Programming/dp/1449369995)
 
 
 ## Concurrency
@@ -262,6 +218,7 @@ Basically where I organize what I still want to read and what I have already rea
 ## Math
 
 * [What is Mathematics](https://www.amazon.com.br/What-Mathematics-Elementary-Approach-Methods-ebook/dp/B000SEKHFG)
+* [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 * [Concrete Mathematics: A Foundation for Computer Science](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 * [An Illustrated Theory of Numbers](http://illustratedtheoryofnumbers.com/)
 * [The Scientist & Engineer's Guide to Digital Signal Processing](https://www.amazon.com/Scientist-Engineers-Digital-Signal-Processing/dp/0966017633)
@@ -271,7 +228,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [A First Course in Graph Theory](http://www.amazon.com/gp/product/0486483681)
 * [Graph Theory](http://www.amazon.com/Graph-Theory-Dover-Books-Mathematics/dp/0486498069)
 * [Graph Analysis and Visualization](http://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity/dp/1118845846)
-* [Concrete Mathematics](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 
 
 ## Development Process
@@ -279,8 +235,6 @@ Basically where I organize what I still want to read and what I have already rea
 * [Shape Up](https://basecamp.com/shapeup)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
-* [Predicting the Unpredictable](https://pragprog.com/book/d-jrpredict/predicting-the-unpredictable)
-* [Essays On Estimation](https://leanpub.com/essaysonestimation)
 
 
 ## Distributed Systems
@@ -292,11 +246,10 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
-* [Structure and Interpretation of Computer Programs](http://web.mit.edu/alexmv/6.037/sicp.pdf)
-* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
-* [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
+* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
+* [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
 * [Domain Driven Design](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/)
 * [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
@@ -314,42 +267,6 @@ Basically where I organize what I still want to read and what I have already rea
 * http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
 
 
-## Information Retrieval
-
-* [Taming Text](http://www.amazon.com/Taming-Text-Find-Organize-Manipulate/dp/193398838X)
-* [Natural Language Processing](http://shop.oreilly.com/product/9780596516499.do)
-* [Introduction to Information Retrieval](http://www.amazon.com/Introduction-Information-Retrieval-Christopher-Manning/dp/0521865719)
-* [Spidering Hacks](http://www.amazon.com/Spidering-Hacks-Kevin-Hemenway/dp/0596005776)
-* [Mining Web](http://www.amazon.com/Mining-Web-Discovering-Knowledge-Hypertext/dp/1558607544)
-* [Web Data Mining](http://www.amazon.com/Web-Data-Mining-Data-Centric-Applications/dp/3642194591)
-* [Mining of Massive Datasets](http://www.amazon.com/Mining-Massive-Datasets-Anand-Rajaraman/dp/1107015359)
-* [Doing Data Science](http://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659)
-* [Computational and Inferential Thinking](https://ds8.gitbooks.io/textbook/content/)
-
-
-### Recommended
-
-* [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
-
-
-## Machine Learning
-
-* [Grokking Deep Learning](https://www.amazon.it/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709)
-* [Natural Language Processing with PyTorch](https://www.amazon.it/Natural-Language-Processing-Pytorch-Applications/dp/1491978236)
-* [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732)
-* [Deep Learning](http://www.deeplearningbook.org/)
-
-
-## Performance
-
-* [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
-
-
-## Low level
-
-* [Assembly and Loaders](http://www.davidsalomon.name/assem.advertis/asl.pdf)
-
-
 ## Games
 
 * [Game Engine Black Book](https://www.amazon.com/Game-Engine-Black-Book-Wolfenstein/dp/1539692876)
@@ -357,17 +274,20 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Reading
 
-* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021)
-
 
 # Done
+
+## 2020
+
 
 ## 2019
 
 * [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
 * [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
+* [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021)
+* [Rework](http://37signals.com/rework/)
+* [Modern Vim](https://pragprog.com/book/modvim/modern-vim)
 
 
 ## 2018

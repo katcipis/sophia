@@ -29,13 +29,23 @@ than extensive documentation. And finally I got a good idea on expressing why is
 
 When you are just writing a lot of documentation, you are doing something that is only
 valuable to other persons (or even yourself) on the future. On the present time, there is no gain
-at all on extensive documentation, you already now what the code does, it is boring as hell, because of that.
-You are just not getting anything out of it right now.
+at all on extensive documentation, you already now what the code does,
+it is boring as hell, because of that.  You are just not getting anything out
+of it right now.
 
 But if you are writing tests, well, it is challenging, it is hard, it proves that the code you just wrote
 works... it is FUN. You got a benefit right now, and later you will have regression tests + good examples
 on how to use your API, it is a WIN WIN situation. The same goes for refactoring and well written code,
 it just makes you fell warm and fuzzy inside :-) (documentation never does that for me :-().
+
+One thing that helped me improve my docs, specially docs/specs for APIs, is
+writing the docs/specs first, before coding, because it gave a clear immediate
+benefit, it helped me think about the problem I'm trying to solve and how,
+thinking from the outside to the inside is very valuable, it is the same
+sort of thinking that TDD helps to introduce, but on a broader scope. So now
+the docs are the first thing that I write, in a very top down manner that helps
+me think what I'm trying to achieve before starting actual coding. It made easier
+to have good docs because now I feel that the docs helps me right now.
 
 So, the principle is to always aim at practices that gives benefits right now and on the future, not
 just the future...and not just right now.
@@ -93,21 +103,24 @@ It is advocated that estimations are very important, so does the planning,
 and after some time Kent also gave up from points in favor of just plain old time
 estimations.
 
-The objective is to have an idea of what **may be** done on the sprint. And time is the most
-explicit and honest way to communicate available.
+The objective is to have an idea of what **may be** done on the sprint.
+And time is the most explicit and honest way to communicate available.
 
-The only requirement is that everyone must understand that it is a plan, with estimates, it is not
-a deadline, it is not a precise representation of what will happen on the future, it is a snapshot
+The only requirement is that everyone must understand that it is a plan,
+with estimates, it is not a deadline, it is not a precise representation of
+what will happen on the future, it is a snapshot
 of what you think with the knowledge you have now.
 
-In the end I strongly agree. There is no problem with using points too, if you want to. But if
-you **NEED** to use points because every time you use time everyone understands it as a deadline them
-your organizations have some serious issues (communication, trust, etc), so you really need to address
-these problems instead of masking them with points and poker stuff :-).
+In the end I strongly agree. There is no problem with using points too,
+if you want to. But if you **NEED** to use points because every time you
+use time everyone understands it as a deadline them
+your organizations have some serious issues (communication, trust, etc),
+so you really need to address these problems instead of masking them
+with points and poker stuff :-).
 
 I prefer to work with only prioritization and getting
-shit done. Of course this is not always possible, so it is important to developers to develop some
-knowledge on estimation.
+shit done. Of course this is not always possible, so it is important to
+developers to develop some knowledge on estimation.
 
 
 ### Quality is not a control variable
@@ -137,7 +150,7 @@ and ask for a scope reduction, true courage.
 
 ## Control is an illusion
 
-It is interesting that I believe in that but when it comes to developing software I found
+It is interesting that I believe in that, but when it comes to developing software I found
 myself panicking because of the lack of control. One of the main consequences of feeling
 out of control is working on the weekends, because it really gives you a false sense
 of regaining control and kicking some ass.
@@ -195,6 +208,7 @@ forward to production.
 Automated tests are stress relievers, and they just get cheaper with time (you have more fixtures
 and knowledge on how to write them).
 
+
 ## Incremental design
 
 Incremental design matches well with the Martin Fowlers Refactoring book and with the
@@ -219,6 +233,7 @@ based on your experience on the subject. The more you know about it, the more yo
 This approach also matches well with the principle of constant flow of value (designing does not deliver
 workable software).
 
+
 ### Architecture metaphor
 
 There is a good comparison here that shows how dangerous can be to compare software with architecture.
@@ -231,6 +246,7 @@ To revert one week work you can just revert one week of changes (and this is the
 
 So it can be very dangerous to compare these two lines of work. Some concepts can be borrowed but they cant
 be compared and practices cant be blindly applied.
+
 
 ## Scaling XP
 
@@ -247,9 +263,12 @@ To this to work the teams must be independent and the need of coordination shoul
 (it will be needed sometimes). To the teams to be independent they must be heterogeneous and have
 the capacity to solve problems on a end to end fashion (even business people must be part of the team).
 
+
 ## Organizational Change
 
-Changing an organization is very hard. I didnt get too much good advice on this part as I thought it would be :-).
+Changing an organization is very hard. I didnt get too much good advice on this
+part as I thought it would be :-).
+
 But the little advice it gives makes perfectly sense.
 
 * If you have a sponsor, be accountable to him
@@ -257,6 +276,7 @@ But the little advice it gives makes perfectly sense.
 * Lead by example, you cant expect from others stuff that you don't do, this is disrespectful
 * If only your team is changing, keep communication as other teams are used too
 * Don't push/enforce change to others people, it is not possible. Encouraging through example is possible
+
 
 ## Production models
 
@@ -286,11 +306,14 @@ the software industry:
 * Big architectures to feed people egos
 * Useless documentations
 * Useless requirements
+* Bloated process
+* Ceremonies
 
 Basically anything that does not help you deliver something for your client. On the toyota model there is no
 pile of parts stocked, it is always lean. In software you should not stock up requirements or documentation for
 stuff that you are not even sure if it is going to the client. Take 1 requirement, implement it, deliver it,
 get feedback and then repeat.
+
 
 ## Practices
 
@@ -308,6 +331,7 @@ A list of very simple practices, aligned with the principles/values mentioned be
 * Test first programming (TDD)
 * Incremental design
 
+
 ## Some more ideas
 
 * Make smaller contracts with clients, both will benefit from it
@@ -319,6 +343,7 @@ A list of very simple practices, aligned with the principles/values mentioned be
 * Deliver documentation with the system and collect information on how it is used (remove docs that are unused)
 * Dont push change on people, change your team first
 * If just your team is working differently, keep the old communication structure with the rest of the company (dont make enemies)
+
 
 ## The timeless way of building software
 

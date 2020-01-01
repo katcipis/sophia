@@ -11,6 +11,16 @@
 - [Genesis](#genesis)
     - [Priesthood: Voice brings order](#priesthood-voice-brings-order)
     - [The Naked Ape](#the-naked-ape)
+- [Children are Angels](#children-are-angels)
+- [Delayed Satisfaction](#delayed-satisfaction)
+- [Environment and Behavior](#environment-and-behavior)
+- [Suffering](#suffering)
+- [Being is Never Wrong](#being-is-never-wrong)
+- [Listening and Advice](#listening-and-advice)
+- [Running away from problems](#running-away-from-problems)
+- [Hierarchies](#hierarchies)
+- [Constraints](#constraints)
+- [Human Perception and Focus](#human-perception-and-focus)
 
 <!-- mdtocend -->
 
@@ -425,3 +435,53 @@ people in ways that are inhumane, and that must be fought because it
 will also generate social problems and crime, but the extreme approach
 of obliterating hierarchies and making everyone "equal" does not
 work at all.
+
+
+# Constraints
+
+It is recurrent in my life the idea that great design comes from
+constraints/limits, the biggest example being life on Earth, the
+struggle of life to get scarce resources gives birth to all
+sort of interesting design and also all sorts of interesting
+symbioses, like fungus and plants, all this is possible because
+resources are scarce, so to enable all the life that we observe
+on Earth cleverness is required to bypass the resource scarcity
+that is present. If everything was infinite there would be no
+reason for design at all, any blob of mass would exist with
+no problems. The same happens when designing software, the most
+elegant designs emerged from severely constrained environments.
+
+On the book this is explored on the why we suffer and why we die.
+What makes life interesting is our constraints, our limitations,
+our struggles. Histories are interesting because they are about
+people overcoming limitations. In a way what gives meaning to
+life is its constraints, its limit, its suffering. We don't want
+to die, but perhaps just living forever would be a colorless
+hell of an existence, nothing in the Universe escapes continuous
+change, perhaps that is a suggestion that the inevitability of
+death/change is necessary for things to work and make sense.
+
+
+# Human Perception and Focus
+
+As a way to improve life he explores how our focus works.
+Again we get to constraints and optimization, and hence efficient
+and elegant design. Our mind is not designed to evaluate an
+entire context equally, because that would require a lot
+of brain power and resources, so we evolved to focus on a piece
+of the context and ignore completely the rest.
+
+There are several interesting researches on how this happens
+spatially with vision, and it is a fact that we can ignore
+gigantic/bizarre stuff if we are focused on something else.
+
+The idea is to transport this spatial/vision thing to cognition
+in general, your objectives, what you do with your life, etc.
+Lets say you feel depressed and unimpressed, it seems that the
+world is completely boring and crappy, it is a fact that you
+are not aware of the entire world, because you are not able
+to do it, physically. So what is happening is that the narrow
+area where you are focused seems that way, but if you can change
+your focus you will start to see a lot of things that where always
+there but you were unable to see. Change of focus can be a way
+to turn a boring life into something more interesting again.

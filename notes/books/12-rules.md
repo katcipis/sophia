@@ -485,3 +485,33 @@ area where you are focused seems that way, but if you can change
 your focus you will start to see a lot of things that where always
 there but you were unable to see. Change of focus can be a way
 to turn a boring life into something more interesting again.
+
+
+# Gender Differences
+
+Differences between gender is presented as a tradeoff, neither
+set of characteristics is good all the time. Usually women are
+more agreeable and avoid aggression and violence, basically
+more social. While men can be more agressive, violent, less aggreable
+and competitive. Even tough this is not a rule for each gender, it is
+a pattern of behaviour, and each of these set of characteristics can
+be useful on different circunstances. The way that people push
+today against male characteristics, like agressiviness and violence,
+can have bad repercussions, because sometimes you need to be agressive
+and need to be prepared for the stress of fighting.
+
+This may seem outdated, because today you don't need to fight or
+hunt anymore, but that is not true, fighting and agressiveness is
+still present on the realm of ideas and creative work. Exposing yourself
+always bring people that won't like you and will want to attack you and
+your ideas, and that will require a willingness to fight that is
+usually more present on men. A really good example from life is
+Jessica Livingston and how she ends up being shadowed by Paul Graham, but
+by her own personal choice. There is a very good
+[essay about this](http://www.paulgraham.com/jessica.html).
+
+This does not mean that she is worse than someone who is willing to
+discuss and fight in public, she has a different set of qualities that
+are invaluable and this is explored extensively on the essay, but she
+is not very good with aggression and fighting, and that is OK, just
+as being prone to agression and discussing is also OK.

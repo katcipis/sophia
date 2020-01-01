@@ -503,9 +503,9 @@ and need to be prepared for the stress of fighting.
 This may seem outdated, because today you don't need to fight or
 hunt anymore, but that is not true, fighting and agressiveness is
 still present on the realm of ideas and creative work. Exposing yourself
-always bring people that won't like you and will want to attack you and
-your ideas, and that will require a willingness to fight that is
-usually more present on men. A really good example from life is
+always bring people that won't like you (or your ideas, or both)
+and will want to attack you and your ideas, and that will require a willingness
+to fight that is usually more present on men. A really good example from life is
 Jessica Livingston and how she ends up being shadowed by Paul Graham, but
 by her own personal choice. There is a very good
 [essay about this](http://www.paulgraham.com/jessica.html).

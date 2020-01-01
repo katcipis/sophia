@@ -368,3 +368,60 @@ is scary and dangerous, hence people rarely do that. Giving advice is safe,
 reinforces what you believe, no change happens inside you and you feel great
 about yourself.  Perhaps sometimes advice is also needed, but just remember
 that this is not true listening.
+
+Another aspect of why truly listening is important is because talking
+is how people organize their thoughts, that is why being a good listener
+is so fundamental even when it seems way too passive and useless (reminds
+me of rubber ducking). To not depend on other people for this you need
+to have the capacity to talk with yourself, even argue with yourself,
+to stress your ideas and understand yourself, which is quite hard and
+rare and hence why so much people need another human beings to do this.
+It is not like it is completely passive, one good thing that you
+can do as a listener is to ask the right questions, helping the person
+on its journey of self discovery.
+
+
+# Running away from problems
+
+One thing that is very common in human behaviour is running away from
+problems, by plainly ignoring them. This makes no sense since the problem
+that is ignored will just grow. He even tells a nice history about
+a dragon that only a child was able to see, but not the parents, while
+the parents ignored the dragon (were blind to it) the dragon kept growing
+until it took over the entire house, only on the critical moment that the
+parents were able to assess the dragon existence and then the dragon
+shrunk and got tiny and cute. It is a children story that has this
+underlying truth behind it, don't ignore dragons =).
+
+
+# Hierarchies
+
+Another topic that is explored in a way that is not very popular these
+days, because it is presented as a good thing. Besides being natural
+in our species, it is another example on how people willfully blind themselves
+from truth because they dislike it. One clear example is disease, lets say
+you have brain cancer, would you blindly choose any brain surgeon because
+you don't believe in hierarchies ? Or would you look for the best possible
+brain surgeon that money can buy ? No sane person chooses blindly, and by
+not choosing blindly you are acknowledging that hierarchies exist and
+they are fundamental for your survival, not everyone is equally skilled.
+
+Capitalism explores hierarchies by rewarding people who are skilled at
+what they do, socialism do the opposite because it insists on the idea
+that everyone deserves the same. He gives an example on problems that
+happened on the USRR. On socialist regime the richer farmers were killed
+because they were "evil", the land was distributed to the "oppressed".
+Guess what ? The "oppressed" were "oppressed" for a reason, they sucked
+at farming, mostly because of lazyness, so production in general plummeted.
+The evil farmers were actually pretty efficient/smart farmers, without
+them the country just got more poor and poor. This kinda reminds me of
+Venezuela were the government started to do forced labour, because people
+would not willingly work, specially because they got everything handed out
+for them for free, because just being alive makes them entitled to it.
+The result was the same, extreme poverty and collapse.
+
+Of course sometimes people who are more skilled explore other
+people in ways that are inhumane, and that must be fought because it
+will also generate social problems and crime, but the extreme approach
+of obliterating hierarchies and making everyone "equal" does not
+work at all.

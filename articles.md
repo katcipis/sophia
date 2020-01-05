@@ -78,7 +78,6 @@
 
 ### Distributed Systems
 
-* [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
 * [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
 * [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
@@ -147,6 +146,7 @@
 
 ### Machine Learning
 
+* [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 * [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](http://delivery.acm.org/10.1145/3340000/3330744/p1743-bernardi.pdf)
 * [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 * [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
@@ -213,7 +213,6 @@
 ## Doing
 
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
-* [Deconstructing process isolation](https://www.researchgate.net/publication/220773465_Deconstructing_process_isolation)
 * [CPU bandwidth control for CFS](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36669.pdf)
 
 
@@ -221,6 +220,8 @@
 
 ### 2019
 
+* [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google.com/pubs/pub36356.html)
+* [Deconstructing process isolation](https://www.researchgate.net/publication/220773465_Deconstructing_process_isolation)
 * [Spectre is here to stay: An analysis of side-channels and speculative execution](https://arxiv.org/abs/1902.05178)
 * [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 

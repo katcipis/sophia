@@ -28,15 +28,22 @@ if you need to deliver something soon, you can't wait for another
 inspired moment).
 
 The only way to avoid this is to have an average performance
-all the time, like a robot, since humans are not robots I don't
+all the time, like a robot. Since humans are not robots I don't
 think anyone is capable of this regarding creative work. If your
-work is repetitive and does not require imagination/creative effort
+work is repetitive and does not require imagination/creative effort,
 then having control over your schedule to capture inspiration
 is less important, it is more easy to be interrupted and then
-go back to work. In the end "creative work" ends up being tasks
+go back to work.
+
+In the end "creative work" ends up being tasks
 that you actually have to think to perform, our brains excel at
 auto pilot modes, because they are very cheap, anything that you
-can do at auto pilot will be easier to be interrupted and resumed.
+can do on auto pilot will be easier to be interrupted and resumed.
+And our brains are so good at it that even considerably hard tasks,
+like driving, can be extremely automated on the brain (think about
+how hard was to learn how to drive and then how easy it is to drive
+today, thanks brain =P).
+
 A lot of programming can be done on auto pilot, the book
 [The Pragmatic Programmer](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 even talks about this, but as something that you need to avoid
@@ -49,36 +56,39 @@ If may feel funny to talk about inspiration when discussing programming/engineer
 but any work that has any form of creativity on it, where you are making
 something that you have never done before, will require some inspiration
 since you are creating. This is usually related to art since it is a
-pure creative endeavor, but it is present on any creative work. To be
+pure creative endeavor, but it is also present on programming. To be
 completely absent from creativity you would need to be rewriting an
-exact copy of something that you did before and in the exact same way
+exact copy of a program that you did before and in the exact same way
 (auto pilot mode on), anything that escapes this,
-even improving something, will be creative work and will be liable
-to inspirational issues. Without inspiration you can make progress,
-but the end result will probably be less than what could be achieved.
+even rewriting a program with a different design, will be creative work
+and will be liable to inspirational issues.
+Without inspiration sometimes you can make progress, but the end result
+will probably be less than what could be achieved.
 
 Another important thing about inspiration and creative work is how long
 it takes to get on the right place (in your mind), and how bad
 interruptions can be. It is very common to take hours to get to a specific
-state on your mind, while creating something, when you are interrupted, for
+state on your mind, while creating something. When you are interrupted for
 a few minutes it will not take just a few minutes to go back to the
-previous state, it will take hours again, this is just how our brains
-work.
+previous state, it will take hours again, this is just how our brains work.
 
-This can be hard to understand and even harder to prove, another phenomenon
-that is very important to our health and can be used as an example is 
+This can be hard to understand and even harder to prove (if possible),
+another phenomenon that is very important to our health and can be
+used as an example is
 [REM](https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep) sleep.
 The [Rework](https://basecamp.com/books/rework)
 book uses it as an example of brain function
 that gets screwed up by interruptions. REM sleep can take hours to start, if
 you interrupt it by awakening, sleeping again doesn't immediately gets you
-back to REM sleep, it will take the same amount of hours again to get to REM.
+back to REM sleep, it doesn't even take a few minutes, it will take the same
+amount of hours again to get to REM. Losing state is a full reset on the brain,
+so you have the whole context rebuilding to do after it.
 
-It doesn't prove anything related to concentration/inspiration but it is
-a more clear and easy to prove example on how state on the brain after lost
+REM sleep doesn't prove anything related to concentration/inspiration, but it is
+an example on how state on the brain after lost
 can be pretty hard to be built again, and inspiration is a state of the mind.
 Other programmers with much more experience and much smarter than me
-have similar feeling, from 
+have similar feelings (sometimes I think I'm oversensitive), from 
 [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html):
 
 ```
@@ -132,7 +142,7 @@ calculations using the average salary in EUR for software engineers.
 Lets say the average salary is 65000 EUR per year, this will create a per
 day salary of 178 EUR, which for 8 hours day of work is equivalent to
 22 EUR per hour. So a meeting with 10 engineers for one hour would
-cost 220 EUR being extremely optimistic, being just optimistic and
+cost 220 EUR being extremely optimistic. Being just optimistic and
 calculating using 2 hours of interruption for a 1 hour meeting, you
 get 440 EUR. If this is a weekly thing you are up to 1760 EUR of cost per month,
 and this is a very optimistic case, and just for 10 engineers. I saw meetings
@@ -142,7 +152,9 @@ making a profit (every penny matters).
 Well no one is stupid, so of course these meetings have some benefits,
 it is a matter of cost VS benefits and alternatives. Given the benefits, does
 the cost justifies it ? Is it the best investment you can do right now
-(think about ROI) ?
+(think about ROI) ? Even if the investment is good, do you have money
+to do it right now ? (small companies that behave like big ones usually
+do bad investments for example)
 
 If communication is required, does it need to be synchronous ? Specially
 presentations, where there is no brainstorming or discussion at all, it
@@ -226,4 +238,29 @@ of the day so it can bootstrap the coding along the rest of the day. In some
 cases this can also be done asynchronously with text, which makes it easier
 to find the best time for everyone to get involved.
 
-# Lack of Feedback
+# Lack of Feedback and Coordination
+
+Now on defense of frustrated managers =). One very good advice I read
+once, and don't remember where sadly, is that every time you see yourself
+in a useless meeting ask yourself why, specially because the why may
+be related to you.
+
+A lot of programmers complain a lot of meeting but make no effort in provide
+feedback about ongoing features. Refactorings and challenges found during
+development are not properly communicated to managers, all that they see is
+a black box, where nothing is coming out, this lack of visibility is unnerving,
+specially because managers are usually responsible for teams performance.
+
+So, in the absence of proper feedback from programmers, meetings will be
+enforced upon them. The most recent "agile" version of this would be daily
+meetings, which I tried to apply in three different organizations
+and never made much sense for me.
+
+Another common case is programmers not talking among them, lack of
+coordination on situations where coordination were required. If you don't do
+it yourself, under your own schedule, someone will enforce this upon you, usually
+in a not very efficient and disruptive manner (sometimes almost useless, like
+meetings with the wrong people, or again daily meetings).
+
+Sometimes stupid shit is enforced upon you by
+reasons beyond your control, but sometimes it may be your fault.

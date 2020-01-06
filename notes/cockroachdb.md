@@ -20,7 +20,7 @@
 ## Architectural Layers
 
 CockroachDB has well defined architectural layers, where the top layer only
-interacts with the layer immediately bellow it. The layers are:
+interacts with the layer immediately bellow it. The layers are (from top to bottom):
 
 - SQL API
 - Transaction
@@ -44,7 +44,7 @@ a set of KV operations to perform (and transactions, duh).
 
 The distribution layer is responsible for delivering an abstraction of a single
 key/value map of data, while the map will actually be sharded on
-multiple ranges across different nodes.
+multiple ranges across different nodes (a [DHT](https://en.wikipedia.org/wiki/Distributed_hash_table)).
 
 ### Replication
 
@@ -56,7 +56,7 @@ consistency of data that is replicated across multiple nodes.
 ### Storage
 
 The final layer that is responsible for actually storing the key/value data
-on disk. Right now this is done with RocksDB.
+on disk. Right now (2019) this is done with RocksDB.
 
 ## Material
 

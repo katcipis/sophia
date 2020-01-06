@@ -77,6 +77,27 @@ back to REM sleep, it will take the same amount of hours again to get to REM.
 It doesn't prove anything related to concentration/inspiration but it is
 a more clear and easy to prove example on how state on the brain after lost
 can be pretty hard to be built again, and inspiration is a state of the mind.
+Other programmers with much more experience and much smarter than me
+have similar feeling, from 
+[Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html):
+
+```
+I find one meeting can sometimes affect a whole day.
+A meeting commonly blows at least half a day, by breaking up
+a morning or afternoon.
+
+But in addition there's sometimes a cascading effect.
+If I know the afternoon is going to be broken up,
+I'm slightly less likely to start something ambitious in the morning.
+
+I know this may sound oversensitive, but if you're a maker,
+think of your own case. Don't your spirits rise at the thought
+of having an entire day free to work, with no appointments at all?
+
+Well, that means your spirits are correspondingly depressed when
+you don't. And ambitious projects are by definition close to the
+limits of your capacity. A small decrease in morale is enough to kill them off.
+```
 
 But at the same time, communication is fundamental in any social endeavor,
 and most software in the world falls down on the social endeavor category
@@ -137,6 +158,72 @@ communication among peers.
 
 # Enables Auto Mode
 
+I already talked about the auto mode before, and it can be pretty
+detrimental to improving the design of existing code and also
+to the development of an engineer career, the difference between
+deliberate practice (thinking about what you are doing) and auto
+mode is the difference of a programmer with 10 years of experience
+and one with 1 year of experience and 9 years repeating the same
+previous experience.
+
+An environment filled with meetings will foster auto mode work,
+because it is the only kinda of work that you will be able to do.
+It gets worse, you are optimizing for keeping the programmers who
+work like that (the ones that just repeat their previous experiences
+on auto mode) and letting the ones that want to improve go,
+because they will want to go, because the work will be frustrating
+for them since they can't do true creative work, like rethinking
+solutions entirely or solving hard problems.  
+
+
 # Different Schedules
+
+Hands down one of the best explanation on the how conflict around
+meetings between management and programmers is Paul Graham essay
+[Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html).
+
+The core idea seems to be that managers work on chunks of an hour of work, while
+makers work on chunks of at least 4 hours. If you are doing hard creative work,
+like solving a problem that you never solved before, you will need more than
+an hour to get anywhere, sometimes it takes hours just to get on the
+right context, like loading all your own experience that can be useful
+and all the peculiarities of the problem. Since makers know this, they
+know that a meeting of one hour in the middle of the afternoon will
+effectively kill the afternoon.
+
+It is not like you will sit idle all
+afternoon, but you won't be able to tackle that hard problem that
+is annoying you, or a redesign that can save a lot of time in the future,
+you will need to attack simpler/less important tasks, usually work that
+is more mechanic that you can do in auto mode. Or even worse, you feel
+pressured to solve the hard problem without proper context loading
+and consideration and will end up with a botched/crappy solution.
+
+Besides the asynchronous communication solution proposed before, when there
+is no alternative besides the meeting he gives a nice idea on how
+to approach that:
+
+```
+How do we manage to advise so many startups on the
+maker's schedule? By using the classic device for simulating
+the manager's schedule within the maker's: office hours.
+
+Several times a week I set aside a chunk of time to meet founders
+we've funded. These chunks of time are at the end of my working day,
+and I wrote a signup program that ensures all the appointments within
+a given set of office hours are clustered at the end.
+
+Because they come at the end of my day these meetings are never an interruption.
+```
+
+This does resonate with me, I never thought explicitly about any of this,
+after doing some thinking and reading his essay it really seems that meetings
+on the end of the day will be in general a good idea, specially if they are on
+the management side of things. The only exception I think
+would be a brainstorm session among engineers, that can be done organically when
+everyone involved feels comfortable to discuss and it may be done on the beginning
+of the day so it can bootstrap the coding along the rest of the day. In some
+cases this can also be done asynchronously with text, which makes it easier
+to find the best time for everyone to get involved.
 
 # Lack of Feedback

@@ -118,8 +118,10 @@ not true asynchronous communication, this is synchronous communication via
 text, because of the simple reason that you will be interrupting people
 and removing control of their schedule. Truly asynchronous communication
 will enable people to disconnect from any form of interruption for a period of
-4 hours and then come back (more on the 4 hours period later, it is not exact
-science, but just one hour for sure seems to be too little for hard problems).
+4 hours and then come back. Four hours is not exact science, but just one
+hour for sure seems to be too little for hard problems, the number four
+comes from my own opinion plus a reinforcement from the
+[Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html) essay.
 
 
 # High Cost

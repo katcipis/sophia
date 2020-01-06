@@ -102,7 +102,38 @@ are working on you can loose the entire day (more on this later).
 But even doing a very optimistic measurement of the cost of meetings make
 them much less attractive than people seem to think they are.
 
-One good way to evaluate meetings is not if they are
+One good way to evaluate meetings is not if they are useful or not, some
+meetings do produce some good results, the issue is, are they efficient ?
+Specially if compared to other alternatives ?
+
+Right now (2020) I'm on the EU so I will do some back of the envelope
+calculations using the average salary in EUR for software engineers.
+Lets say the average salary is 65000 EUR per year, this will create a per
+day salary of 178 EUR, which for 8 hours day of work is equivalent to
+22 EUR per hour. So a meeting with 10 engineers for one hour would
+cost 220 EUR being extremely optimistic, being just optimistic and
+calculating using 2 hours of interruption for a 1 hour meeting, you
+get 440 EUR. If this is a weekly thing you are up to 1760 EUR of cost per month,
+and this is a very optimistic case, and just for 10 engineers. I saw meetings
+with much more than 10 people (close to 30) and in a company that was not
+making a profit (every penny matters).
+
+Well no one is stupid, so of course these meetings have some benefits,
+it is a matter of cost VS benefits and alternatives. Given the benefits, does
+the cost justifies it ? Is it the best investment you can do right now
+(think about ROI) ?
+
+If communication is required, does it need to be synchronous ? Specially
+presentations, where there is no brainstorming or discussion at all, it
+seems that synchronizing everyone together in a meeting with a presentation 
+is more like an emotional experience than a pragmatic way to achieve
+something (an email to everyone could solve it). Emotion has its importance,
+just keep in mind how much you are paying for emotion. Also remember that
+the warm embrace of human contact in a meeting is something that some
+programmers will not prefer over the high cost of interruption, and there
+are other less disruptive ways to achieve human contact and
+communication among peers.
+
 
 # Enables Auto Mode
 

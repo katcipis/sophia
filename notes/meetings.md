@@ -32,7 +32,7 @@ all the time, like a robot. Since humans are not robots I don't
 think anyone is capable of this regarding creative work. If your
 work is repetitive and does not require imagination/creative effort,
 then having control over your schedule to capture inspiration
-is less important, it is more easy to be interrupted and then
+is less important, it is easier to be interrupted and then
 go back to work.
 
 In the end "creative work" ends up being tasks

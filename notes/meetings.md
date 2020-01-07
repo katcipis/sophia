@@ -192,8 +192,8 @@ solutions entirely or solving hard problems.
 
 # Different Schedules
 
-Hands down one of the best explanation on the how conflict around
-meetings between management and programmers is Paul Graham essay
+Hands down one of the best explanation's on why there is so much conflict
+regarding meetings between management and programmers is Paul Graham's essay
 [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html).
 
 The core idea seems to be that managers work on chunks of an hour of work, while

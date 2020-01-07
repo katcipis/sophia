@@ -35,7 +35,7 @@ then having control over your schedule to capture inspiration
 is less important, it is easier to be interrupted and then
 go back to work.
 
-In the end "creative work" ends up being tasks
+So "creative work" ends up being tasks
 that you actually have to think to perform, our brains excel at
 auto pilot modes, because they are very cheap, anything that you
 can do on auto pilot will be easier to be interrupted and resumed.

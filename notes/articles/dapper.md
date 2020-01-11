@@ -60,13 +60,13 @@ your code, like you do with [Prometheus](https://prometheus.io/),
 or with a black box approach like you can do with [Sysdig](https://sysdig.com/).
 
 In my opinion, when you can go with black box you should go with black box
-because of the argument provided earlier, ubiquity. Since Sysdig uses eBPF to
-extract metrics directly from the kernel all services running on top of the
-Kernel will get the same metrics consistently, if you use instrumentation or
-even user space proxies (like Linkerd/Istio) it is easier to not cover part
-of the system since instrumentation requires collaboration from application
-level developers or because there are more moving parts (fine granularity)
-to run/configure (side cars).
+because it gives you ubiquity with no application level effort.
+Since Sysdig uses eBPF to extract metrics directly from the kernel all services
+running on top of the Kernel will get the same metrics consistently,
+if you use instrumentation or even user space proxies (like Linkerd/Istio)
+it is easier to not cover part of the system since instrumentation requires
+collaboration from application level developers or because there are more
+moving parts to run/configure (side cars).
 
 Getting back to the paper itself, they are explicit about the downside of
 instrumentation, and avoiding it was one of the requirements:
@@ -82,8 +82,7 @@ environment such as ours.
 ```
 
 Funny enough, in the end they do rely on instrumentation, but
-that is done on core libraries that are consistently used across all
-Google:
+that is done on core libraries that are consistently used across all Google:
 
 ```
 Our instrumentation is restricted to a
@@ -144,15 +143,33 @@ a small set of common libraries, and achieve a monitoring
 system that is effectively transparent to application developers
 ```
 
+# Overall Design
+
+The design itself seems quite simple and focused on diagnosing
+performance issues. It is comprised of three IDs:
+
+* Trace ID
+* Span ID
+* Parent ID
+
+The trace ID identifies a whole trace, that may represent a lot of
+different remote calls involving different services running on different
+machines. The span ID identifies a part of the trace, how much time it
+took to execute and if it made any other remote calls. The parent ID identifies
+a causal relationship between procedure calls, if a span with ID 1 makes
+a remote call, the remote call ID will be 2 and will have a parent ID of 1.
+This is a very simple way to generate causal ordering on a distributed
+system and it is fundamental to understand the spanned remote calls of
+the root call made by the client and how much time each one of those
+took to execute.
+
+The overall design of the solution (local trace file/collectors/bigtable
+sparse tables)
+Interesting to have sampling on trace generation and on collection/writing.
+
 # Annotations
 
 Talk about logging/debugging info appended to traces.
-
-
-# Overall Design
-
-The overall design of the solution (local trace file/collectors/bigtable sparse tables)
-Interesting to have sampling on trace generation and on collection/writing.
 
 # Scalability issues
 

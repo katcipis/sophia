@@ -615,3 +615,66 @@ cardinality and values depending on how you iterate or access it.
 `)
 }
 ```
+
+### Variadic Args and Empty Interfaces
+
+This has caused me some problems in the past and I can't understand
+why it should not work. If you accept a parameter as variadic args
+with the type interface{} you can't "spread" an array as a parameter
+when calling the function, even tough anything implements the empty
+interface. For example, this works (obviously):
+
+```go
+package main
+
+import "fmt"
+
+func vargs(a ...int) {
+	fmt.Println(a)
+}
+
+func main() {
+	vargs(1, 2, 3)
+	vargs([]int{1, 2, 3}...)
+}
+```
+
+But this doesn't:
+
+```go
+package main
+
+import "fmt"
+
+func vargs(a ...interface{}) {
+	fmt.Println(a)
+}
+
+func main() {
+	vargs(1, 2, 3)
+	vargs([]int{1, 2, 3}...)
+}
+```
+
+Resulting in the error:
+
+```
+./test.go:11:13: cannot use []int literal (type []int) as type []interface {} in argument to vargs
+```
+
+This seems related to an implementation detail, multiple arguments
+are converted in an slice of those arguments, and the slice
+will have the type of the called function, in this case []interface{}.
+
+But when you spread an slice to pass as variadic argument it will just pass
+the slice as it is to the function (pretty efficient) but then causes
+the error mentioned above.
+
+This has something to do with a property on parametric polymorphism
+that I don't remember the name right now, where even tough
+type1 matches type2 an []type1 will not match []type2, so this
+kind of idiom is invalid by a mixture of design decision on
+variadic parameters + design decision on parametric polymorphism.
+
+When designing functions that are generic, using variadic interface{}
+parameters, this can be annoying.

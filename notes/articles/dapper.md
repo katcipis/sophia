@@ -283,16 +283,46 @@ storage for the Dapper repositories.
 
 And this is for very minimal tracing data. Imagine what
 would be the numbers for aggregated structured logs as
-JSON. It is not that having observability to the level
-of structured logs with full details would not be
-useful, it is invaluable for diagnostics, but such
-a system does not seem to be scalable.
+JSON (current industry best practice AFAIK).
+It is not that having observability at this level
+would not be useful, it is invaluable for diagnostics, but such
+a system does not seem to be scalable (cost and performance wise).
 
 You can have the distributed logs and analyze each one of them
-individually (scales linearly), but
-collecting everything and putting together for correlation,
-even tough it is very useful, does not seem to be practical
+individually (scales linearly), but collecting everything and putting
+together for correlation, even tough it is very useful,
+does not seem to be practical
 at scale. Even a simple info log entry per request, which
 would be the minimal for it to be useful on diagnostics,
 would seem to generate more overhead than dapper,
 both on the client (marshalling JSON) and on storage (storing JSON).
+
+The best you could do would be to have a single log entry per error
+with all the relevant information on it, that then will be serialized
+as JSON and collected. This would cause sampling since hopefully your
+application is not generating errors all the time and make it
+much more easier to scale collection and storage, but the single log
+entry needs to be carefully crafted to be useful, something that
+I seldomly see in code (or do it myself sadly). And even in that
+happy scenario I'm not sure how far it would scale anyway, but it has
+the best shot. Perhaps that is the idea of the annotation on the trace,
+carefully crafted information to aid diagnostics, instead of the
+usual shower of log info calls that usually is present on code.
+
+The most interesting realization for me is that just collecting
+all logs and putting them together is not a modern cloud native awesome
+way to get observability. Actually it is how to build a system
+that does not scale because of the cost of this observability.
+And even if you don't need to scale, you are paying for all
+this infrastructure. Of course you need observability to
+diagnose production problems, but it seems like a very lazy
+approach that is presented as the greatest idea ever in
+distributed systems and that everyone should do it (because company X does it),
+and this paper kinda consolidated for me that this notion is just plain wrong.
+
+Sometimes you can just do it and it will work for you in your context,
+the scale is not big, the cost does not seem prohibitive, and that is
+OK, but it is a very brute force non-scalable way to solve
+the observability problem, it should be presented like that, but I suppose
+that Cloud Vendors and Database Vendors are very interested on this
+idea to be presented as a panacea of observability =).

@@ -32,9 +32,7 @@ where all this tooling is a good idea, and you will need the tooling,
 but with a simpler non-microservicy approach perhaps you could
 pass by with less, and less is more. Of course once you really work
 on a big system that justifies this kind of approach, studying
-Google's approach on how to tackle the problem seems like a good
-idea, specially because a lot of tools (map reduce/k8s/cockroachdb)
-are implementations of this kind of papers.
+Google's approach on how to tackle the problem seems like a good idea.
 
 # Ubiquity
 
@@ -146,7 +144,17 @@ system that is effectively transparent to application developers
 # Overall Design
 
 The design itself seems quite simple and focused on diagnosing
-performance issues. It is comprised of three IDs:
+performance issues, although there is support for annotations
+that does remind me of traditional log entries (text info for
+diagnostics/humans).
+
+Since the idea is to analyze a whole span of interactions between
+different services triggered by one root request from a client the
+most simple/obvious design is a tree. There should be, hopefully,
+no cycles and there is always a root call. Each node is a span and
+the edges is the causal relationship of caller/callee.
+
+Each span is comprised of three IDs and basic time information:
 
 * Trace ID
 * Span ID
@@ -154,23 +162,137 @@ performance issues. It is comprised of three IDs:
 
 The trace ID identifies a whole trace, that may represent a lot of
 different remote calls involving different services running on different
-machines. The span ID identifies a part of the trace, how much time it
+machines. The span ID identifies a part of the trace (the node), how much time it
 took to execute and if it made any other remote calls. The parent ID identifies
 a causal relationship between procedure calls, if a span with ID 1 makes
 a remote call, the remote call ID will be 2 and will have a parent ID of 1.
+
 This is a very simple way to generate causal ordering on a distributed
-system and it is fundamental to understand the spanned remote calls of
-the root call made by the client and how much time each one of those
-took to execute.
+system and it is fundamental to solve clock skew issues since the
+timestamps on each span trace entry are susceptible to the underlying
+machine clock (there is no special hardware as the one used on Spanner
+TrueTime API).
 
-The overall design of the solution (local trace file/collectors/bigtable
-sparse tables)
-Interesting to have sampling on trace generation and on collection/writing.
+The trace info is saved locally in a trace file, that will be collected
+later for aggregation on BigTable. Both trace collection locally and the
+aggregation later are subjected to different sampling configurations,
+meaning that not all traces are stored for the reason of performance:
 
-# Annotations
+```
+Low overhead was a key design goal for Dapper, since
+service operators would be understandably reluctant to
+deploy a new tool of yet unproven value if it had any
+significant impact on performance. Moreover, we wanted
+to allow developers to use the annotation API without
+fear of the additional overhead.
 
-Talk about logging/debugging info appended to traces.
+We have also found that some classes of Web services are indeed sensitive
+to instrumentation overheads. Therefore, besides making the
+basic instrumentation overhead of Dapper collection as
+small as possible, we further control overhead by
+recording only a fraction of all traces
+```
 
-# Scalability issues
+Having different sampling configurations both on the clients and on the
+collector made it very easy to implement back off logic on the
+collector when write speeds on BigTable drop without having to
+interfere with specific clients configurations.
 
-The hardships to scale such a massive
+The implementation is very sensible on the impact that adding the
+traces would cause on application performance, I find this
+comforting when contrasted with ideas that usually focuses only
+on benefits but ignore performance penalties and cost entirely.
+
+# Out-of-band trace collection
+
+They make a very good point about scenarios where out of band
+trace collection is required instead of just sending the whole
+trace in the response. For simple interactions just answering
+with an operational trace that can be used for diagnostics
+can be a very simple way to get observability (no collectors
+or databases involved). But it doesn't scales very well to
+long traces.
+
+# Scaling Observability is Hard
+
+I went for this paper because I was thinking about the whole
+movement towards "logging everything structured as JSON
+and storing it together" thing that is going on right now
+(2019). For my surprise dapper is much more focused on
+diagnosing performance issues than it is about logs
+for diagnosing bugs or other kinds of system
+behavior (like access logs).
+
+It is not like it can't be used for that, it can,
+quoting from paper:
+
+```
+Programmers tend to use application-specific annotations
+either as a kind of distributed debug log file or
+to classify traces by some application-specific feature.
+```
+
+And a concrete example:
+
+```
+The Ads Review team made extensive use of the Dapper
+annotation APIs. The Guice[13] open-source AOP
+framework was used to label important software components as
+“@Traced.”
+
+Traces were further annotated with information about the size
+of input and output to important subroutines, status messages,
+and other debugging information which would otherwise be sent
+to a log file.
+```
+
+What we aim today with log aggregation is the "distributed
+debug log file" thing, which in itself is a very valuable
+thing, and it seems to be considerably coupled with
+tracing since aggregated logs get much more useful when
+you can correlate log entires (you can do this manually without
+tracing, sometimes). If logs of different
+services are not going to be correlated you can just
+get them directly from running services instead of
+putting it all together on the same database for searching.
+
+I think this is mentioned as a secondary sparse usage
+of tracing because scaling a distributed debug log
+file does not seem possible for high performance systems
+and for the ones where performance is not an issue
+cost will probably be. This feeling comes from
+all the hardships they had to scale a very simple
+trace infrastructure that deals with binary messages
+that usually have only a few ID's and timestamps and
+limits on the size of string annotations (I have seem
+my share of gigantic JSON log entries).
+
+For example, storage wise:
+
+```
+Our production clusters presently generate more than
+1 terabyte of sampled trace data per day.
+Dapper users would like trace data to remain available
+for at least two weeks after it was initially logged from
+a production process.
+
+The benefits of increased trace data density must
+then be weighed against the cost of machines and disk
+storage for the Dapper repositories.
+```
+
+And this is for very minimal tracing data. Imagine what
+would be the numbers for aggregated structured logs as
+JSON. It is not that having observability to the level
+of structured logs with full details would not be
+useful, it is invaluable for diagnostics, but such
+a system does not seem to be scalable.
+
+You can have the distributed logs and analyze each one of them
+individually (scales linearly), but
+collecting everything and putting together for correlation,
+even tough it is very useful, does not seem to be practical
+at scale. Even a simple info log entry per request, which
+would be the minimal for it to be useful on diagnostics,
+would seem to generate more overhead than dapper,
+both on the client (marshalling JSON) and on storage (storing JSON).

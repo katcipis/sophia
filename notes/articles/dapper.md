@@ -308,6 +308,8 @@ happy scenario I'm not sure how far it would scale anyway, but it has
 the best shot. Perhaps that is the idea of the annotation on the trace,
 carefully crafted information to aid diagnostics, instead of the
 usual shower of log info calls that usually is present on code.
+But on dapper it is added on a binary protocol with a limit on
+the annotation size, instead of arbitrarily big JSON entries.
 
 The most interesting realization for me is that just collecting
 all logs and putting them together is not a modern cloud native awesome
@@ -316,13 +318,29 @@ that does not scale because of the cost of this observability.
 And even if you don't need to scale, you are paying for all
 this infrastructure. Of course you need observability to
 diagnose production problems, but it seems like a very lazy
-approach that is presented as the greatest idea ever in
+and brute force approach that is presented as the greatest idea ever in
 distributed systems and that everyone should do it (because company X does it),
-and this paper kinda consolidated for me that this notion is just plain wrong.
+and this paper kinda consolidated for me that this notion is
+just plain wrong (just the notion, sometimes brute force is great).
 
-Sometimes you can just do it and it will work for you in your context,
-the scale is not big, the cost does not seem prohibitive, and that is
-OK, but it is a very brute force non-scalable way to solve
-the observability problem, it should be presented like that, but I suppose
+Another severe bottleneck is the database that will ingest
+all this data. In the case of Google, even using BigTable there are
+still reasonable concerns around performance when
+writing all the traces, and indexing/searching is quite limited
+so the system can scale. Then again, if using BigTable with very few
+indexes is already a problem at scale, the idea that you are going to
+dump a plethora of JSONs and search by any field at scale does not
+seem feasible, and if it is it definitely does not seem cheap.
+The most common database used for this scenario is ElasticSearch,
+I have seen it not scaling, specially when you need a lot of indexes
+for a different fields in a dynamic nature, adding nodes solved nothing,
+and even if in your scenario adding nodes solves it, the nodes will not
+be cheap (Elastic Search loves memory).
+
+Sometimes you can just do it and it will work for you in your context
+(as brute force usually does), the scale is not big,
+the cost does not seem prohibitive, and that is
+OK, but don't think it is a cloud awesome scalable way to solve
+the observability problem, it should not be presented like that, but I suppose
 that Cloud Vendors and Database Vendors are very interested on this
 idea to be presented as a panacea of observability =).

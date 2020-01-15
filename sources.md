@@ -15,6 +15,8 @@
 
 # Podcasts
 
+* [On The Metal](https://oxide.computer/blog/categories/on-the-metal/)
+* [Future Of Coding](https://futureofcoding.org/)
 * [Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
 * [Roundabout: Creative Chaos](https://roundaboutfm.com/)
 * [Weird Trick Mafia](https://weirdtrickmafia.fm/)

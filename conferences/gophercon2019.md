@@ -61,6 +61,6 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 
 ## Recommended
 
+* [Structure of Go Projects](https://www.youtube.com/watch?v=oL6JBUk6tj0)
 * [Go Wat](https://www.youtube.com/watch?v=zPd0Cxzsslk)
-* https://www.youtube.com/watch?v=DiBZetR733Y
-* https://www.youtube.com/watch?v=oL6JBUk6tj0
+* [Go Vim 8](https://www.youtube.com/watch?v=DiBZetR733Y)

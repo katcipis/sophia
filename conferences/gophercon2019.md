@@ -4,7 +4,7 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 
 # TODO
 
-* https://www.youtube.com/watch?v=zPd0Cxzsslk
+
 
 * https://www.youtube.com/watch?v=_NKQX-TdNMc&list=PLDWZ5uzn69ezokLCB-nGgYInxL0uP1PeZ&index=29&t=0s
 
@@ -61,6 +61,6 @@ List of GopherCon and a few other Go events presentations that I intend to see (
 
 ## Recommended
 
+* [Go Wat](https://www.youtube.com/watch?v=zPd0Cxzsslk)
 * https://www.youtube.com/watch?v=DiBZetR733Y
-
 * https://www.youtube.com/watch?v=oL6JBUk6tj0

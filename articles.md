@@ -171,6 +171,7 @@
 
 ### Security
 
+* [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/CacheOut.pdf)
 * [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
@@ -178,7 +179,6 @@
 
 ### Not Classified Yet :-)
 
-* [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
 * [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
@@ -217,6 +217,11 @@
 
 
 ## Done
+
+### 2020
+
+* [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
+
 
 ### 2019
 

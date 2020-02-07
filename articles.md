@@ -80,7 +80,6 @@
 
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
 * [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
-* [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
 * [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
 * [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
 * [A Generalised Solution to Distributed Consensus](https://arxiv.org/abs/1902.06776)
@@ -105,7 +104,6 @@
 
 ### Concurrency
 
-* [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [Laws for Communicating Parallel Processes](https://dspace.mit.edu/handle/1721.1/41962)
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
@@ -179,7 +177,6 @@
 
 ### Not Classified Yet :-)
 
-* [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
@@ -198,8 +195,6 @@
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)
-* [LightMAC: A MAC Mode for Lightweight Block Ciphers](https://eprint.iacr.org/2016/190.pdf)
-* [u-root](https://www.usenix.org/system/files/conference/atc15/atc15-paper-minnich.pdf)
 * [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
 * [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
@@ -212,6 +207,11 @@
 
 ## Doing
 
+* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
+* [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
+* [Google Workloads for Consumer Devices](https://people.inf.ethz.ch/omutlu/pub/Google-consumer-workloads-data-movement-and-PIM_asplos18.pdf)
+* [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
+* [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 * [CPU bandwidth control for CFS](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36669.pdf)
 

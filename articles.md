@@ -177,6 +177,7 @@
 
 ### Not Classified Yet :-)
 
+* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
@@ -186,22 +187,18 @@
 * [STEPS Toward the Reinvention of Programming](http://www.vpri.org/pdf/tr2012001_steps.pdf)
 * [A Personal Computer For Children of All Ages](http://www.vpri.org/pdf/hc_pers_comp_for_children.pdf)
 * [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
+* [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 * [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
 * [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Engineering a Sort Function](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8162&rep=rep1&type=pdf)
-* [Writing Network Drivers in Go](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-go.pdf)
 * [Regular Expression Search Algorithms](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/thompson1968.pdf)
 * [On The Design Of Display Processors](http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf)
-* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
-* [PerfAugur: Robust Diagnostics for Performance Anomalies in Cloud Services](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/)
 * [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
-* [Systems Software Research is Irrelevant](http://herpolhode.com/rob/utah2000.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
 * [Google Infrastructure Security Design Overview](https://cloud.google.com/security/security-design/)
 * [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
-* [Intel x86 considered harmful](http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
 
 
@@ -212,7 +209,6 @@
 * [Google Workloads for Consumer Devices](https://people.inf.ethz.ch/omutlu/pub/Google-consumer-workloads-data-movement-and-PIM_asplos18.pdf)
 * [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
-* [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 * [CPU bandwidth control for CFS](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36669.pdf)
 
 
@@ -221,6 +217,7 @@
 ### 2020
 
 * [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
+* [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 
 
 ### 2019

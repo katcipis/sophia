@@ -237,7 +237,6 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Software Design
 
-* [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
@@ -263,12 +262,17 @@ Basically where I organize what I still want to read and what I have already rea
 * [Game Engine Black Book](https://www.amazon.com/Game-Engine-Black-Book-Wolfenstein/dp/1539692876)
 
 
-# Reading
+# Doing
 
+* [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 
 # Done
 
 ## 2020
+
+* [Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
+* [Foundation And Empire](https://www.amazon.com/Foundation-Empire-Isaac-Asimov/dp/0553293370)
+* [Second Foundation](https://www.amazon.com/Second-Foundation-Isaac-Asimov/dp/0553293362)
 
 
 ## 2019

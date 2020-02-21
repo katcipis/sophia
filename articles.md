@@ -124,7 +124,6 @@
 * [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf)
 * [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [CML: A Higher-order Concurrent Language](http://www.cs.tufts.edu/comp/250RTS/archive/john-reppy/cml-pldi.pdf)
-* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [WebProlog](https://raw.githubusercontent.com/Web-Prolog/swi-web-prolog/master/book/web-prolog.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
@@ -204,9 +203,16 @@
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
 
 
+## TODO
+
+* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
+* [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
+* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
+* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
+
+
 ## Doing
 
-* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
 * [Google Workloads for Consumer Devices](https://people.inf.ethz.ch/omutlu/pub/Google-consumer-workloads-data-movement-and-PIM_asplos18.pdf)
 * [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)

@@ -153,6 +153,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 ## Algorithms
 
+* [Algorithms + Data Structures = Programs](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Algorithms%20%20%20Data%20Structures%20%3D%20Programs%20%5BWirth%201976-02%5D.pdf)
 * [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 * [Common Sense Guide To Data Structures](https://pragprog.com/book/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition)
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)

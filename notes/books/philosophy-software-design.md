@@ -129,3 +129,20 @@ a good one is the ability to do good design. He talks about almost
 every good programmer he knows can't explain how they think, or
 even explain what would be the principles and ideas of good design,
 they just seem to do it, like it is an innate talent.
+
+He doesn't believe on that, neither do I, and he mentions the same
+book I read a few year ago,
+[Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948).
+
+Just because it is hard to explain and to learn, it does not mean
+it is some sort of magic talent given by god. All good programmers/designers
+have something in common, they built a lot of stuff along a lot of years,
+and they got better incrementally. No one starts to program and is already
+good at design as if god just implanted knowledge on its brain.
+
+So he wanted to capture this greatness and teach it, it is a bold objective,
+not even sure if it is actually possible, because it is hard to explain
+anything related to "how" we think, but at least someone is trying.
+And it truly seems to be in a way that helps people think about design,
+not provide canned solutions that you can apply brainlessly because someone
+else did the thinking for you (looking at you design patterns).

@@ -100,3 +100,32 @@ using these canned ideas sold by "Bible Salesman" makes build products
 slower almost all the time, if the product has any real challenge on it,
 so exploring the design space is not just about having fun, it is about
 learning what is truly simple and minimal.
+
+## Debate
+
+The idea of the author is to start a debate, he is explicit in saying
+that some of his ideas may be proven completely wrong in time and
+he has not set out to define "best practices" or stuff that will
+always be right, there is no substitute to thinking (beware of industry
+methods and processes, thinking is expensive =P).
+
+And he really seems to mean it, because almost every section, that has
+some idea about design, also has a final section "Taking it too far",
+which is a great idea, because the last time someone wrote about
+design patterns (although this book is NOT about that) shit went
+severely wrong.
+
+All the ideas he present he used on his own projects, and he seems to
+have done some interesting work, from operational systems, file system
+implementations, etc. He also applied them and discussed them with his
+students. The book is actually a collection of him trying to teach
+these core design ideas, which is a very good flow to refining ideas.
+Which brings to the next topic.
+
+## Teaching Good Design
+
+It is clear that the difference of an average programmer and
+a good one is the ability to do good design. He talks about almost
+every good programmer he knows can't explain how they think, or
+even explain what would be the principles and ideas of good design,
+they just seem to do it, like it is an innate talent.

@@ -186,3 +186,8 @@ because it is so simple that as you add all the complexity it is still
 manageable (
 [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
 uses the "Intellectually Manageable" expression).
+
+Design also serves performance, but from my experience, the problem is usually
+the human bottleneck, not computers. Coincidentally, at least for me, truly simple
+designs will also have better performance, since they don't add useless overhead
+or layers and are easier to extend in ways that won't be damaging and slow.

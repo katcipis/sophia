@@ -191,3 +191,29 @@ Design also serves performance, but from my experience, the problem is usually
 the human bottleneck, not computers. Coincidentally, at least for me, truly simple
 designs will also have better performance, since they don't add useless overhead
 or layers and are easier to extend in ways that won't be damaging and slow.
+
+## Incremental Design
+
+You get good design incrementally, this is not a new idea, but it is another
+consolidation of the idea that you can't find good design from the void, without
+actually trying to build something and getting feedback from it. Some engineerings
+rely heavily on upfront design, but as said before, programming is a very
+different kind of engineering, dealing with abstractions, and much more flexible,
+and applied to all sorts of different domains.
+
+Sometimes upfront design can be beneficial to software in my opinion,
+but it depends a lot of context,
+and I agree that the rule of thumb is that it is incremental in nature, specially
+because software usually welcomes it, if you start with something simple, evolving
+it should be possible and not that hard, some other engineering disciplines do not
+have that luxury.
+
+If you can evolve design, it seems to always make sense, because with time you
+just learn more stuff, both about programming in general as about the problem
+you are solving, so every day that passes you get better at solving the problem,
+so updating your design with that new knowledge makes sense.
+
+Some other cool quote's for incremental design:
+
+* "Good design is redesign" from [Taste for Makers](http://www.paulgraham.com/taste.html)
+* "good fit cannot be directly defined or designed; it is the absence of misfit I achieved by iterative design." from [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)

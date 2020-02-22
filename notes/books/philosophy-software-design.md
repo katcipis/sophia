@@ -146,3 +146,43 @@ anything related to "how" we think, but at least someone is trying.
 And it truly seems to be in a way that helps people think about design,
 not provide canned solutions that you can apply brainlessly because someone
 else did the thinking for you (looking at you design patterns).
+
+## Why Good Design ?
+
+It is very easy when you are new to programming to talk a lot about
+design ideas, and the importance of design, without reflecting on
+the actual need for design. Why we need good design ? It took me a lot
+of time and reading
+[The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+to understand that it is about human limitations. If programmers studied human
+cognition and psychology, we would be much better on our jobs. In this sense
+what we do is considerably different than other engineering's, in which way ?
+
+Not that other engineers can ignore how humans think, but the limits of other
+engineering's rest on physical laws, limits of the universe where we exist.
+When designing system's on a computer, there are some limits, but the first
+limit you are going to reach usually is human, you built something awesome but
+no one else can understand it, extend it, possibly even you won't be able
+in a few months. The computer would be able to do much more, but you can't
+because you can't reason about the system anymore.
+
+This is related to our poor ability to handle multiple concepts
+at the same time, that is why we need to split systems into modules, it makes
+no difference for the computer. Just think about how programming languages
+have nothing to do with computers, computers don't even handle text very well,
+it is all about human cognition and its limitations. What makes things hard for
+us and what makes them easy.
+
+The purpose of good design is to fight complexity, in the sense that
+for humans to understand it is easier, and it is easy to extend. We are
+going to always reach a limit on how complex a system can be while
+we can still understand it, but with good design the system can be bigger,
+because all components of it are simple, so you can solve more complex problems.
+
+With bad design, even a small system can already reach the limit.
+So in the end it is about being able to build
+more sophisticated systems and solve harder problems, in a way that works
+because it is so simple that as you add all the complexity it is still
+manageable (
+[The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+uses the "Intellectually Manageable" expression).

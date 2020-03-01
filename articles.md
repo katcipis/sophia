@@ -82,6 +82,7 @@
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
 * [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
 * [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
+* [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
 * [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
 * [A Generalised Solution to Distributed Consensus](https://arxiv.org/abs/1902.06776)
 * [The DSL for composing functions for FaaS platform](http://ceur-ws.org/Vol-2372/SEIM_2019_paper_20.pdf)

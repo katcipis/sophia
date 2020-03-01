@@ -159,7 +159,7 @@ cognition and psychology, we would be much better on our jobs. In this sense
 what we do is considerably different than other engineering's, in which way ?
 
 Not that other engineers can ignore how humans think, but the limits of other
-engineering's rest on physical laws, limits of the universe where we exist.
+engineering's rest on physical laws, constraints of the universe where we exist.
 When designing system's on a computer, there are some limits, but the first
 limit you are going to reach usually is human, you built something awesome but
 no one else can understand it, extend it, possibly even you won't be able
@@ -217,3 +217,12 @@ Some other cool quote's for incremental design:
 
 * "Good design is redesign" from [Taste for Makers](http://www.paulgraham.com/taste.html)
 * "good fit cannot be directly defined or designed; it is the absence of misfit I achieved by iterative design." from [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
+
+
+## Complexity
+
+TODO: Complexity notes, definition, model to reason about it
+
+## Deep Modules
+
+TODO: Deep Modules chapter, good stuff :-)

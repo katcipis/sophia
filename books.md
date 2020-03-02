@@ -164,7 +164,7 @@ Basically where I organize what I still want to read and what I have already rea
 
 * [Practical Foundations for Programming Languages](https://www.cs.cmu.edu/~rwh/pfpl.html)
 * [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
-* [Literate Programming](https://www.amazon.com/Literate-Programming-Lecture-Notes-Donald/dp/0937073806)
+* [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Compiling with Continuations](https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X)
 * [Writing An Interpreter in Go](https://interpreterbook.com/)

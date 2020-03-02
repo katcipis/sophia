@@ -177,6 +177,11 @@
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 
 
+### Fuzzy Testing
+
+* [Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
+
+
 ### Not Classified Yet :-)
 
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)

@@ -100,4 +100,19 @@ people to build their own schedules, so they can have alone time
 on the part of the day that is more important to them. This means
 using asynchronous text communication as a way to collaborate,and
 making synchronous communication the exception, which for creative
-work makes perfect sense.
+work makes perfect sense. Synchronous communication only makes sense
+for things that are urgent, and things most of the time are not
+actually urgent in software development, and discussing them
+calmly and in a well structured manner will most certainly produce
+a better result.
+
+I have felt myself the effect of losing control of my
+schedule by being forced to go to meetings, after some years
+not having to do that, and it feels terrible. I completely
+agree with Paul Graham on the sense that it can destroy my entire
+day, specially regarding hard problems (you end up doing a set
+of more menial tasks on a day that is ravaged by meetings).
+
+# Hiring
+
+

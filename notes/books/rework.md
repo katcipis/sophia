@@ -71,3 +71,33 @@ city because it was easier,given their limitations, to create a game
 that did not happen at open spaces/open world, and this is one of the most
 attractive aspects of the game, it feels very original and well executed,
 but it was driven by pure necessity, they had to be creative.
+
+# Interruptions
+
+This book is legendary on how it approaches meetings as categorizing
+them as toxic, and I can't agree more. Meetings and sync communication
+is not the same thing as good communication. Specially with people
+that creates things, that does creative work, interruptions have
+a high toll, which pushes you toward optimizing to asynchronous
+communication.
+
+One cool analogy on the behavior of the brain related to interruptions
+is REM sleep. You take hours to achieve REM sleep on the brain, if you
+wake up on the middle of REM sleep, interrupting it, as you sleep again
+it will take hours to get to it again, the brain just doesn't resumes from
+where it stopped, because it is not how our brain works at all.
+
+For mechanic repetitive tasks we can resume pretty well, but on the
+subject of ideas and creativity an interruption is just as destructive.
+People who don't do creative work feels like this is an exaggeration,
+but it truly isn't, people with much better credentials than me agrees:
+
+* [Makers Schedule](http://www.paulgraham.com/makersschedule.html)
+* [Good and Bad Procrastination](http://www.paulgraham.com/procrastination.html)
+
+And the book itself incentives towards practices that empower
+people to build their own schedules, so they can have alone time
+on the part of the day that is more important to them. This means
+using asynchronous text communication as a way to collaborate,and
+making synchronous communication the exception, which for creative
+work makes perfect sense.

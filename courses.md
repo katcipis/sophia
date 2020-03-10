@@ -8,6 +8,11 @@
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
 
 
+# Networking
+
+* [Computer Networking](https://www.coursera.org/learn/computer-networking)
+
+
 # Recommended
 
 * [Math for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)

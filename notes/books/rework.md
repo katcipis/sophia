@@ -115,4 +115,32 @@ of more menial tasks on a day that is ravaged by meetings).
 
 # Hiring
 
+Just hire when it hurts, when you hire people, if they are not
+truly needed usually work will be "found" to keep them busy, that
+is bad business, it must be crystal clear why you hired someone.
 
+If the drive is "we need to go faster", really think, like REALLY think
+if what is making you go slow today is lack of people, or lack of something
+else. In a lot of scenarios less is more, perhaps you need less of the
+right people (the wrong engineer can create more problems that what he/she
+solves).
+
+Hire the better writer. That makes perfect sense to me, I have worked with
+my share of people who seem to be extremely lazy to read and write. It seems
+pretty hard to be a reasonably good engineer without reading and writing
+considerably. The lazy ones usually have an ad-hoc method of "just ask me on slack"
+(or whatever it is used for chatting these days). This is not good engineering,
+this is lazy and egocentric, you get to not properly think about stuff
+and explain it and you get to be the awesome guru who knows everything
+and answers all questions.
+
+Good code is decoupled from the person who wrote it, a good engineer
+has value not because of the work he as done in the past but because
+of the work he/she still can do in the future. For that to be true
+the engineer needs to know how to write, how to explain ideas to others
+clearly, via text in a form that doesn't need him to fill out gaps.
+
+Also hire slowly, if you hire too fast you end up with something that
+resembles cocktail parties, there is a lot of people being overly nice
+with each other (and not completely honest) because no one knows anyone
+and everyone feels uncomfortable.

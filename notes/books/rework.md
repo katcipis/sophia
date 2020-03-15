@@ -1,7 +1,7 @@
 # Rework
 
 Notes for the [Rework](https://basecamp.com/books/rework) book.
-There was not very new on the book (for me at least), but
+There was nothing very new on the book (for me at least), but
 nonetheless it is a good book, most of the ideas make sense.
 
 # Curator

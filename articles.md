@@ -175,7 +175,6 @@
 
 ## TODO
 
-* [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 * [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
@@ -191,6 +190,7 @@
 
 * [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
+* [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)
 
 
 ### 2019

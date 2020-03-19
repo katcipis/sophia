@@ -40,6 +40,7 @@
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
+* [Memory-Efficient Search Trees for Database Management Systems](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-101.pdf)
 * [Verifiable Data Structures](https://github.com/google/trillian/blob/master/docs/papers/VerifiableDataStructures.pdf)
 * [Epidemic algorithms for replicated database maintenance](http://bitsavers.trailing-edge.com/pdf/xerox/parc/techReports/CSL-89-1_Epidemic_Algorithms_for_Replicated_Database_Maintenance.pdf)
 * [Benchmark Time Series Database with IoTDB-Benchmark for IoT Scenarios](https://arxiv.org/abs/1901.08304)

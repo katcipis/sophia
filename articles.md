@@ -94,6 +94,7 @@
 
 ### Languages
 
+* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)

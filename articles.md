@@ -55,7 +55,6 @@
 ### Distributed Systems
 
 * [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)
-* [Wireguard: Next Generation Kernel Network Tunnel](https://www.wireguard.io/papers/wireguard.pdf)
 * [Snap: a Microkernel Approach to Host Networking](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36f0f9b41e969a00d75da7693571e988996c9f4c.pdf)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
@@ -135,13 +134,12 @@
 #### Inferno
 
 * [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
-* [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
-* [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
+
 
 
 ### Security
 
-* [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
+
 * [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 * [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/kb/papers/z7ow0oy8/http-desync-attacks.pdf)
@@ -178,7 +176,9 @@
 
 ## TODO
 
-* [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
+* [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
+* [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
+* [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
@@ -191,6 +191,7 @@
 
 ### 2020
 
+* [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)
 * [The Computer Scientist as Toolsmith 2](http://www.cs.unc.edu/~brooks/Toolsmith-CACM.pdf)

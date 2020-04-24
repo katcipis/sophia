@@ -93,7 +93,6 @@
 
 ### Languages
 
-* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
@@ -152,6 +151,11 @@
 * [Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
 
 
+### Software Design
+
+* [Notes on Structured Programming](https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF)
+
+
 ### Not Classified Yet :-)
 
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
@@ -176,6 +180,7 @@
 
 ## TODO
 
+* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)

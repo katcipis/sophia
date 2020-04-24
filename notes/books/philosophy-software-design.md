@@ -254,7 +254,7 @@ integration and our software usually fall pretty short on that regard (at least 
 compared to the systems that sustains us).
 
 So given that complexity is what makes it hard to understand and change code the
-next step is to define 3 common sources of complexity on systems:
+next step is to define 3 common manifestations of complexity on systems:
 
 * Cognitive Load
 * Change Amplification
@@ -285,6 +285,39 @@ some great examples of this on the
 [On the Criteria To Be Used in Decomposing Systems into Modules](https://web.archive.org/web/20120223013018/https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf) paper. It revolves around the impact of change when comparing
 different criterias, and usually the worse design is the one that changes
 amplify greatly.
+
+Unknown unknowns would be when you think you understood how a system works, but
+you didn't, usually because something is not explicit/obvious, and you end
+up inserting a bug because you did know that you didn't know something =P.
+This one is kinda funny but it is one of the most serious ones, since it is a
+sure way to add bugs on a system.
+
+Given the 3 manifestations of complexity 2 causes for them are presented:
+
+* Dependencies
+* Obscurity
+
+I'm very fond to dependencies as a cause because it models well when
+you think your code is simple because it is only 3 lines of code, but
+it uses a frameworks that is thousands of lines of code and can introduce
+a lot of unknow unknowns. This is by far the most trick cause of
+complexity and the one that is most ignored on "modern" software
+development, most of the programmers I know seem to ignore
+that dependencies add complexity to a system, it is just good sense
+and "avoiding reinventing the wheel".
+
+It is not just about third party dependencies, but also applies to
+when understanding one module requires deep understanding of 5 other
+modules (the dependencies), this introduces cognitive load and possibly
+change amplification. It is usually caused by a misguided notion that if
+you have a lot of tiny modules than your system is simple, size as a criteria
+for module decomposition.
+
+Obscurity is the more traditional/obvious one, code that is very dense
+and filled with hacks that are very unintuitive will be an obvious source
+of unknown unknowns and bugs. Bad naming is the most classical source of
+obscurity too, which adds to cognitive load (the name doesn't help and 
+even mislead) and to unknown unknows (you think you got it, but you didn't =P).
 
 
 ## Strategical VS Tactical

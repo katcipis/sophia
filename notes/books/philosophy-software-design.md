@@ -221,7 +221,116 @@ Some other cool quote's for incremental design:
 
 ## Complexity
 
-TODO: Complexity notes, definition, model to reason about it
+One of the most cool contributions the book made to me is a simple mental model
+of what is complexity and how to model sources/causes of complexity. As all
+mental models it is incomplete, but it is precise enough to be useful, specially
+useful when you feel something is off but can't explain why.
+
+It is very important to try to define complexity, even when it feels subjective
+and impossible to do so, or else you end up with vague advice like
+"Keep It Simple Stupid", which is great advice and at the same time almost
+useless given the true hard question of "define simple", and the definition of
+simple is coupled to the definition of complexity, since one is defined as the
+opposite of the other. Making things "simple" seems to be useless advice because
+no one starts with complexity as the goal, no one gets up on the morning
+(or afternoon on my case) and says "today I'm going to create some complex shit".
+
+Even the worse sins against simplicity were committed by people trying to
+achieve it, people are usually looking for what simple would be, they just
+have very different opinions of what "simple" would be, and the true answer
+is really hard to obtain because it is not defined in terms of
+engineering/computers, it is about people and psychology, so most programmers
+are extremely badly equipped to generalize the concept of
+simplicity/complexity (me included). But I digress, what would be the definition
+and the models to reason about complexity ?
+
+The definition is quite simple, complexity is anything that gets in the way
+of understanding how a system works and in how to extend and change it. This
+seems like a good enough definition, because the whole grail of computer science
+always has been how to come up with good abstractions that make it easier to
+build/extend/integrate systems, pretty much reproduce the awesomeness that we observe
+on other natural systems, like life itself, so much potential for extension and
+integration and our software usually fall pretty short on that regard (at least when
+compared to the systems that sustains us).
+
+So given that complexity is what makes it hard to understand and change code the
+next step is to define 3 common manifestations of complexity on systems:
+
+* Cognitive Load
+* Change Amplification
+* Unknown Unknowns
+
+Cognitive Load is the one that may feel more subjective, because it is related
+to how much effort and time it is required to understand
+a piece of code, and it is very easy to think something is simple, because you
+can get it reasonably fast, but it actually isn't since other people have
+extreme problems understanding it. It is also tricky because there is inherent
+complexity and unnecessary complexity, so some high cognitive loads are
+necessary for hard problems, amazing designs makes these hard problemas as simple
+as possible, specially by the use of good abstractions and interfaces, but it
+will still be somewhat complex/hard (because the problem is hard).
+So the idea it to get rid of unnecessary cognitive load.
+
+One example would be IO abstractions, if you need to open a file and read its
+contents being obligated to understand how physycal disks works is unnecessary
+cognitive load, or details about how a specific disk driver works. It is cool
+to open these abstractions to learn, but it should not be required if you
+want to open and read a file.
+
+Change amplification is very common on software and it is much easier to detect
+and measure. Basically if everytime you want to do just one change, like change
+one behavior, you need to change stuff on a lot of different places, then you
+have change amplification and you need to do something about it soon. There are
+some great examples of this on the
+[On the Criteria To Be Used in Decomposing Systems into Modules](https://web.archive.org/web/20120223013018/https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf) paper. It revolves around the impact of change when comparing
+different criterias, and usually the worse design is the one that changes
+amplify greatly.
+
+Unknown unknowns would be when you think you understood how a system works, but
+you didn't, usually because something is not explicit/obvious, and you end
+up inserting a bug because you did know that you didn't know something =P.
+This one is kinda funny but it is one of the most serious ones, since it is a
+sure way to add bugs on a system.
+
+Given the 3 manifestations of complexity 2 causes for them are presented:
+
+* Dependencies
+* Obscurity
+
+I'm very fond to dependencies as a cause because it models well when
+you think your code is simple because it is only 3 lines of code, but
+it uses a framework that is thousands of lines of code and introduces
+a lot of unknow unknowns. This is by far the most trick cause of
+complexity and the one that is most ignored on "modern" software
+development, most of the programmers I know seem to ignore
+that dependencies add complexity to a system, it is just good sense
+and "avoiding reinventing the wheel".
+
+It is not just about third party dependencies, but also applies to
+dependencies between modules that are part of the system itself,
+when understanding one module requires deep understanding of 5 other
+modules (the dependencies), this introduces cognitive load and possibly
+change amplification. It is usually caused by a misguided notion that if
+you have a lot of tiny modules than your system is simple, size as a criteria
+for module decomposition (modules can be services, so yes I'm looking at
+you microservices =P).
+
+Obscurity is the more traditional/obvious one, code that is very dense
+and filled with hacks that are very unintuitive will be an obvious source
+of unknown unknowns and bugs. Bad naming is the most classical source of
+obscurity too, which adds to cognitive load (the name doesn't help and 
+even mislead) and to unknown unknows (you think you got it, but you didn't =P).
+
+And that is pretty much it, it is not a complete view of complexity but it
+is simple enough to be easy to remember and reason with, specially when
+discussing design issues with other people, in a way that is not entirely
+subjective.
+
+
+## Strategical VS Tactical
+
+Working software is not enough
+Tactical tornados + death by a thousand cuts (incremental complexity)
 
 ## Deep Modules
 

@@ -16,6 +16,7 @@
 # Podcasts
 
 * [On The Metal](https://oxide.computer/blog/categories/on-the-metal/)
+* [Command Line Heroes](https://feeds.pacific-content.com/commandlineheroes)
 * [Future Of Coding](https://futureofcoding.org/)
 * [Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
 * [Roundabout: Creative Chaos](https://roundaboutfm.com/)

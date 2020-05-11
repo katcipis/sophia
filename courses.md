@@ -2,7 +2,6 @@
 
 * [Technical Writing](https://developers.google.com/tech-writing)
 * [Programming for the Puzzled](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA&app=desktop)
-* [Natural Language Processing](https://www.coursera.org/learn/nlp)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)

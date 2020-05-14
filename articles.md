@@ -125,12 +125,15 @@
 
 ### Operational Systems
 
+* [The Linux Scheduler: a Decade of Wasted Cores](http://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf)
 * [UNIX Implementation](https://users.soe.ucsc.edu/~sbrandt/221/Papers/History/thompson-bstj78.pdf)
+
 
 #### Clive
 
 * [The Clive Operating System](http://lsub.org/export/clivesys.pdf)
 * [Channels done right](http://lsub.org/export/belt.pdf)
+
 
 #### Inferno
 

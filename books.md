@@ -266,12 +266,13 @@ Basically where I organize what I still want to read and what I have already rea
 
 # Doing
 
-* [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 
 # Done
 
 ## 2020
 
+* [A Philosophy of Software Design](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
 * [Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [Foundation And Empire](https://www.amazon.com/Foundation-Empire-Isaac-Asimov/dp/0553293370)
 * [Second Foundation](https://www.amazon.com/Second-Foundation-Isaac-Asimov/dp/0553293362)

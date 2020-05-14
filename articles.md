@@ -182,8 +182,6 @@
 
 ## TODO
 
-* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
@@ -199,6 +197,8 @@
 
 ### 2020
 
+* [CPU bandwidth control for CFS](https://research.google/pubs/pub36669/)
+* [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)
 * [The Computer Scientist as Toolsmith](https://cs.unc.edu/xcms/wpfiles/toolsmith/The_Computer_Scientist_as_Toolsmith.pdf)
 * [An Inside Look at Google BigQuery](https://cloud.google.com/files/BigQueryTechnicalWP.pdf)

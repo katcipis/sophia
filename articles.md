@@ -186,6 +186,7 @@
 ## TODO
 
 * [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
+* [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)

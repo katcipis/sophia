@@ -92,3 +92,17 @@ when you hear people on the industry making predictions about the future.
 I prefer Alan Kay's idea of inventing the future as a way to predict it or
 Paul Grahams idea of being flexible and adaptable instead of putting energy
 on predicting, because predictions almost invariably fail.
+
+## Abstractions
+
+They talk how the right simple abstraction is fundamental to tame
+complexity. One of the reasons of Plan9 awesomeness was how far
+they were able to push the file abstraction as a means to export/consume
+services in a very simple way. It does not fit everything (that would be
+the holy grail), but they took it much more far than Unix in a way
+that made distributed computing much easier.
+
+The core lesson is the importance of these few good abstractions and that
+convincing yourself that you found them is not a very good idea, we still have
+a lot to learn on how to come up with good abstractions for
+distributed computing.

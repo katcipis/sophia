@@ -29,3 +29,27 @@ processes you run on a distributed system does not seem to be the most
 efficient way to get resiliency and metrics (and the other benefits).
 But I could be wrong, I'm not that knowledgeable with distributed
 systems.
+
+## Control
+
+I was always very intrigued on why Plan9/Inferno seemed to be ignored
+by most people, specially since they were built by the same people
+who built Unix, but improved for distributed systems, which is a perfect
+fit for the world we live today (Unix is not).
+
+It seems that one big reason for that happening is human nature, and its
+desire for control (which is an illusion IMHO). I was already aware that
+one of the reasons neither Plan9 or Inferno were embraced was licensing,
+but on this interview Ron talks about the reasoning behind how they
+licensed Plan9 and Inferno.
+
+It was the opinion of a lot of people involved on Unix that it was a failure
+because AT&T "lost control" of the project, people just took it and used
+how they wanted, changed it, etc. Instead of observing how they were able
+to influence/mold modern computing, they just felt as a failure because
+they where not "in control". And that is the reason why they did not wanted
+to make the "same mistake" with Plan9/Inferno, and that is why both were
+never truly adopted, a lot of very good ideas never made into the current
+operational systems, just now some of them are making it but very slowly,
+all because of this fascination that humans have with illusions such as
+control.

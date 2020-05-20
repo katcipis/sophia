@@ -53,3 +53,42 @@ never truly adopted, a lot of very good ideas never made into the current
 operational systems, just now some of them are making it but very slowly,
 all because of this fascination that humans have with illusions such as
 control.
+
+## Complexity
+
+The holy grail of computing is to get rid of unnecessary complexity and
+only keep inherent complexity, the one that is determined by the problem
+being solved. But in the industry it is very common for people to believe
+that complexity is endemic, mistaking inherent complexity with unnecessary
+complexity. An example of that mentioned on the interview is how firmware
+was developed.
+
+Ron has seen firmware being built with languages even more
+high level than C, but for some stupid reason the entire industry was convinced
+that firmwares NEED to be programmed in assembly, like it was a necessary
+complexity for firmwares, and that for no good reason, just industry/group
+thinking and lack of imagination. It is funny because Ron actually saw firmware
+being developed on high level languages, so it was not a subjective discussion,
+it was possible because it had been done, and yet people insisted with no
+good reason that it was not.
+
+Perhaps the whole service mesh thing is the same instance of this issue,
+adopting unnecessary complexity as necessary and dying holding it on your
+arms and swearing that there is no other way to achieve resiliency on
+distributed systems.
+
+## Predictions
+
+They talk a little about the fallacies of predicting the future too.
+He gives some examples of "awesome" predictions he has saw on his life:
+
+* The future is IBM mainframes
+* The future is Windows
+* Linux widely regarded as a toy
+
+Since human nature/abilities doesn't change very fast, keep that in mind
+when you hear people on the industry making predictions about the future.
+
+I prefer Alan Kay's idea of inventing the future as a way to predict it or
+Paul Grahams idea of being flexible and adaptable instead of putting energy
+on predicting, because predictions almost invariably fail.

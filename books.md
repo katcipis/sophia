@@ -2,8 +2,7 @@
 
 # Table of Contents
 
-- [Introduction](#introduction)
-- [Wishlist :-)](#wishlist-)
+- [Wishlist](#wishlist)
     - [History](#history)
     - [Personal](#personal)
     - [Architecture and Design Outside Computing](#architecture-and-design-outside-computing)
@@ -40,7 +39,6 @@
     - [On a galaxy far far away](#on-a-galaxy-far-far-away)
 
 <!-- mdtocend -->
-
 
 # Wishlist
 

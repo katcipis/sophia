@@ -41,15 +41,12 @@
 
 <!-- mdtocend -->
 
-# Introduction
 
-Basically where I organize what I still want to read and what I have already read and don't want to forget the name.
-
-# Wishlist :-)
+# Wishlist
 
 ## History
 
-* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
@@ -267,6 +264,7 @@ Basically where I organize what I still want to read and what I have already rea
 # Doing
 
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
+* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
 
 # Done
 

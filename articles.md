@@ -185,7 +185,6 @@
 
 ## TODO
 
-* [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
@@ -201,6 +200,7 @@
 
 ### 2020
 
+* [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
 * [CPU bandwidth control for CFS](https://research.google/pubs/pub36669/)
 * [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
 * [Revisiting Coroutines](http://www.inf.puc-rio.br/~roberto/docs/MCC15-04.pdf)

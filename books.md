@@ -45,6 +45,7 @@
 ## History
 
 * [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178)
+* [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)

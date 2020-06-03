@@ -163,6 +163,8 @@
 
 ### Not Classified Yet :-)
 
+* [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
+* [Man Computer Symbiosis](https://internetat50.com/references/Licklider_Man-Computer-Symbiosis.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
@@ -185,6 +187,7 @@
 
 ## TODO
 
+* [How](https://internetat50.com/references/Kay_How.pdf)
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)

@@ -55,22 +55,33 @@ that is not doable in TCP given the max number of file descriptors limitation.
 
 As the time I'm writing this I still don't know much details on how
 this work, I just know that QUIC connections are decoupled from IP addresses
-in the sense that the identity of a connection is not tied to IP's.
+in the sense that the identity of a connection is not tied to IP's, instead
+of the traditional quadruple **<ipx>:<portx>:<ipy>:<porty>**.
 
 I would guess it is related to TLS and that the enforcement of it on
 the protocol guarantees a way to know that after you start a connection
-any communication that happens on it is still being done with the same
-endpoint, even if its IP address change. So you can decouple from IP
-as a mean of identification but without giving up security.
+any communication that happens on it is still being done between the same
+endpoints, even if its IP address change. So you can decouple from IP
+as a mean of identification but without giving up security. I'm not very
+good with security stuff but AFAIK it is possible to impersonate an IP
+depending on how a network is designed, so I'm not sure if using IPs as
+identity is a good idea anyway.
 
 The main property that came to my mind with this is that connections will be
 much more stable in mobile networks, where you can change the network you are
 multiple times while moving (like in a car) and the connections you made
-just keep working. With TCP in a scenario like that you always end up disconnecting
+just keep working, this seems to provide a simpler connection abstraction
+to users, since you don't need to handle unnecessary disconnections.
+
+With TCP in a scenario like that you always end up disconnecting
 and having to reconnect again, which makes building synchronous request/response
-models on top of it annoying, specially if the operation is not cheap/fast.
-Building request/response on top of QUIC seems to make it easier to have
-simple request/response APIs even when the requests may take some time
+protocols on top of it annoying, specially if the operation is not cheap/fast.
+You end up with something stateful using polling or some alternative that
+will require some state being stored somewhere anyway, which sums up to a
+more complex design (when compared to stateless request/response).
+
+QUIC seems to make it easier to have
+simple request/response protocols even when the requests may take some time
 to finish, both because you have less disconnect issues and also because
 maintaining multiple connections open doesn't hit hard limits like
 amount of file descriptors (although you may still run out of memory).

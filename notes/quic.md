@@ -87,8 +87,17 @@ maintaining multiple connections open doesn't hit hard limits like
 amount of file descriptors (although you may still run out of memory).
 
 
-# Always Confidential
-
-
-
 # N streams per connection
+
+Another interesting design decision is that one connection can have
+multiple independent streams associated with it. For a protocol like HTTP2 that
+models multiple requests/responses to the same server as multiple streams
+being able to explicit create independent streams on the connection level seems
+like a good fit, which makes sense since it was mainly designed for this.
+
+So each stream has the same guarantee as TCP, where bytes are delivered
+in an orderly fashion, with automatic retransmission, but you can have multiple
+of those on top of the same connection so you don't suffer with ahead of
+line issues caused by multiplexing multiple streams on top of just one stream
+(or the traditional problems caused by using multiple connections on TCP, like
+delays caused by connection establishment).

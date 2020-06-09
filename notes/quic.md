@@ -56,7 +56,7 @@ that is not doable in TCP given the max number of file descriptors limitation.
 As the time I'm writing this I still don't know much details on how
 this work, I just know that QUIC connections are decoupled from IP addresses
 in the sense that the identity of a connection is not tied to IP's, instead
-of the traditional quadruple **<ipx>:<portx>:<ipy>:<porty>**.
+of the traditional quadruple `<ipx>:<portx>:<ipy>:<porty>`.
 
 I would guess it is related to TLS and that the enforcement of it on
 the protocol guarantees a way to know that after you start a connection

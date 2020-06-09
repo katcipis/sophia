@@ -68,7 +68,7 @@ depending on how a network is designed, so I'm not sure if using IPs as
 identity is a good idea anyway.
 
 The main property that came to my mind with this is that connections will be
-much more stable in mobile networks, where you can change the network you are
+much more "stable" in mobile networks, where you can change the network you are
 multiple times while moving (like in a car) and the connections you made
 just keep working, this seems to provide a simpler connection abstraction
 to users, since you don't need to handle unnecessary disconnections.
@@ -85,6 +85,9 @@ simple request/response protocols even when the requests may take some time
 to finish, both because you have less disconnect issues and also because
 maintaining multiple connections open doesn't hit hard limits like
 amount of file descriptors (although you may still run out of memory).
+
+More on how connection migration happens can be seen
+[here](https://tools.ietf.org/html/draft-ietf-quic-transport-27#section-9).
 
 
 # N streams per connection

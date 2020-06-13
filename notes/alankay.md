@@ -7,6 +7,7 @@ Sources for these writings:
 * [Rethinking CS education](https://www.youtube.com/watch?v=N9c7_8Gp7gI)
 * [Normal Considered Harmful](https://www.youtube.com/watch?v=FvmTSpJU-Xc)
 * [Doing with images make symbols](https://www.youtube.com/watch?v=p2LZLYcu_JY&feature=youtu.be)
+* [ARPA / Xerox PARC culture](https://www.youtube.com/watch?v=wdHtYW_wcAs)
 
 ## Science definition
 
@@ -149,6 +150,38 @@ We need great building blocks or we are doomed to build things that will never s
 being able to identify a bad building block and invest on building better ones is extremely
 rare on the software industry, where companies are usually just worried with quarter profits.
 
+
+## Reinventing the flat tire
+
+On the [ARPA / Xerox PARC culture](https://www.youtube.com/watch?v=wdHtYW_wcAs)
+presentation, besides a whole lot of awesome ideas, Kay talks about how
+we are constantly reinventing the flat tire, not the wheel. Reinventing
+the wheel would be great actually, the problem is that we keep stuck on
+wrong interpretations of really good ideas and keep reinventing them.
+
+One current example that happened just now (2020) is a new implementation
+of NodeJS fixing all the terrible mistakes of NodeJS, the whole Javascript
+enterprise is a flat tire and we are still pouring a lot of resources and time
+in reinventing this kind of stuff instead of going for something really better.
+Even if it is better than NodeJS, it will be at best a fancier flat tire.
+
+One interesting thing about this metaphor is the whole reasoning that it works
+and a lot of people uses it, so it must be good. You can get around with a flat
+tire and the most scary part is that if what you ever had is flat tires you will
+think that it is normal the way a car behaves with the flat tires, it has
+always been like that, you have no idea of how different and faster it will
+be with actual good tires, so you may convince yourself that flat tires
+are awesome. It is the same as the canyon metaphor, after people are inside it
+they can't see outside it, it is like the canyon is the whole world.
+
+
+## Point of view is worth 80 IQ points
+
+TODO: Talk about correlation with good abstractions
+
+
 ## Catch phrases
 
 * It is big meaning, not big data
+* The best way to predict the future is to invent it
+* Point of view is worth 80 IQ points

@@ -188,6 +188,7 @@
 
 ## TODO
 
+* [The Text Editor sam](https://plan9.io/sys/doc/sam/sam.html)
 * [How](https://internetat50.com/references/Kay_How.pdf)
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)

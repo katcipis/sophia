@@ -616,13 +616,13 @@ cardinality and values depending on how you iterate or access it.
 }
 ```
 
-### Variadic Args and Empty Interfaces
+### Variadic Args, Interfaces and Covariance
 
 This has caused me some problems in the past and I can't understand
 why it should not work. If you accept a parameter as variadic args
-with the type interface{} you can't "spread" an array as a parameter
-when calling the function, even tough anything implements the empty
-interface. For example, this works (obviously):
+with the type interface{} you can't "spread" an slice as a parameter
+when calling the function, even though anything implements the empty
+interface. For example, this works:
 
 ```go
 package main
@@ -639,7 +639,7 @@ func main() {
 }
 ```
 
-But this doesn't:
+This also works:
 
 ```go
 package main
@@ -652,6 +652,21 @@ func vargs(a ...interface{}) {
 
 func main() {
 	vargs(1, 2, 3)
+}
+```
+
+But this doesn't:
+
+```go
+package main
+
+import "fmt"
+
+func vargs(a ...interface{}) {
+	fmt.Println(a)
+}
+
+func main() {
 	vargs([]int{1, 2, 3}...)
 }
 ```
@@ -662,19 +677,24 @@ Resulting in the error:
 ./test.go:11:13: cannot use []int literal (type []int) as type []interface {} in argument to vargs
 ```
 
-This seems related to an implementation detail, multiple arguments
-are converted in an slice of those arguments, and the slice
-will have the type of the called function, in this case []interface{}.
+This seems related to the fact that when you pass multiple individual
+arguments they are converted into an slice of those arguments, and the slice
+will have the type required by the called function, in this case []interface{}.
 
-But when you spread an slice to pass as variadic argument it will just pass
-the slice as it is to the function (pretty efficient) but then causes
-the error mentioned above.
+But when you spread (the ... operator) an slice to pass as a variadic argument
+it will just pass the slice as it is to the function (pretty efficient) but
+then causes the error mentioned above.
 
-This has something to do with a property on parametric polymorphism
-that I don't remember the name right now, where even tough
-type1 matches type2 an []type1 will not match []type2, so this
-kind of idiom is invalid by a mixture of design decision on
-variadic parameters + design decision on parametric polymorphism.
+This seems related to the concept of
+[covariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
+and the fact that in the case of slices Go does not support it.
+Even when type1 matches type2 an []type1 will not match []type2.
+Which does feel kinda off because it seems perfect valid.
+I guess this would make the compiler and the runtime
+more complex, hence why it is disallowed.
+
+In the end this kind of idiom is invalid by a mixture of a design decision
+on variadic parameters + design decision on slice covariance.
 
 When designing functions that are generic, using variadic interface{}
 parameters, this can be annoying.

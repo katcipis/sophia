@@ -1,3 +1,31 @@
+<!-- mdtocstart -->
+
+# Table of Contents
+
+- [Go](#go)
+    - [Tips](#tips)
+        - [Interfaces](#interfaces)
+        - [Concurrency](#concurrency)
+            - [Orchestrate or serialize](#orchestrate-or-serialize)
+            - [Limiting concurrency](#limiting-concurrency)
+        - [Reflection](#reflection)
+    - [Odd Stuff](#odd-stuff)
+        - [JSON Unmarshaling is case insensitive](#json-unmarshaling-is-case-insensitive)
+        - [Slices not comparable](#slices-not-comparable)
+        - [Method Sets](#method-sets)
+        - [Referencing interfaces and maps](#referencing-interfaces-and-maps)
+        - [Equality](#equality)
+        - [Channel Behaviour](#channel-behaviour)
+            - [Nil channels](#nil-channels)
+                - [Closed channels](#closed-channels)
+                - [Select behaviour](#select-behaviour)
+                - [More info about it](#more-info-about-it)
+        - [Strings](#strings)
+        - [Variadic Args, Interfaces and Covariance](#variadic-args-interfaces-and-covariance)
+        - [Enums](#enums)
+
+<!-- mdtocend -->
+
 # Go
 
 This is a mix of some stuff that I learned while developing software in Go
@@ -698,3 +726,10 @@ on variadic parameters + design decision on slice covariance.
 
 When designing functions that are generic, using variadic interface{}
 parameters, this can be annoying.
+
+### Enums
+
+There is also the lack of enums, which to be honest annoys me terribly
+in Go (by far the most). It is quite poor to just use constants because
+you can't get compile time safety of the value is inside the set of
+allowed values, I always end up having to check that in runtime :-(.

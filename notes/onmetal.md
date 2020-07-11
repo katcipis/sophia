@@ -30,6 +30,11 @@ efficient way to get resiliency and metrics (and the other benefits).
 But I could be wrong, I'm not that knowledgeable with distributed
 systems.
 
+But summarizing, constraints, like scarcity of resources, forces you
+to minimalism and true simplicity, because without them you won't
+succeed. While unconstrained abundance allows any sort of mistake
+to pass with flying colors and to be seem as an good idea.
+
 ## Control
 
 I was always very intrigued on why Plan9/Inferno seemed to be ignored

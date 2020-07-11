@@ -103,6 +103,7 @@
 
 ## Psychology / Philosophy
 
+* [In Search of Memory: The Emergence of a New Science of Mind](https://www.amazon.com/Search-Memory-Emergence-Science-Mind/dp/0393329372)
 * [Maps of Meaning: The Architecture of Belief](https://www.amazon.com/Maps-Meaning-Architecture-Jordan-Peterson/dp/0415922224)
 * [The Psychology of Computer Programming](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary/dp/0932633420)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)

@@ -188,23 +188,23 @@
 
 ## TODO
 
-* [The Text Editor sam](https://plan9.io/sys/doc/sam/sam.html)
 * [How](https://internetat50.com/references/Kay_How.pdf)
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
+* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
-* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
-* [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
-* [Google Workloads for Consumer Devices](https://people.inf.ethz.ch/omutlu/pub/Google-consumer-workloads-data-movement-and-PIM_asplos18.pdf)
 
 
 ## Done
 
 ### 2020
 
+* [The Text Editor sam](https://plan9.io/sys/doc/sam/sam.html)
+* [The Byzantine Generals Problem](http://lamport.azurewebsites.net/pubs/byz.pdf)
+* [Google Workloads for Consumer Devices](https://people.inf.ethz.ch/omutlu/pub/Google-consumer-workloads-data-movement-and-PIM_asplos18.pdf)
 * [WireGuard: Next Generation Kernel Network Tunnel](https://www.wireguard.com/papers/wireguard.pdf)
 * [CPU bandwidth control for CFS](https://research.google/pubs/pub36669/)
 * [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)

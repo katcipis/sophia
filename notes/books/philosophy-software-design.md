@@ -269,26 +269,28 @@ to how much effort and time it is required to understand
 a piece of code, and it is very easy to think something is simple, because you
 can get it reasonably fast, but it actually isn't since other people have
 extreme problems understanding it. It is also tricky because there is inherent
-complexity and unnecessary complexity, so some high cognitive loads are
-necessary for hard problems, amazing designs makes these hard problemas as simple
+complexity and unnecessary complexity. High cognitive load is
+necessary for hard problems, amazing designs makes these hard problems as simple
 as possible, specially by the use of good abstractions and interfaces, but it
 will still be somewhat complex/hard (because the problem is hard).
 So the idea it to get rid of unnecessary cognitive load.
 
 One example would be IO abstractions, if you need to open a file and read its
-contents being obligated to understand how physycal disks works is unnecessary
+contents being obligated to understand how physical disks works is unnecessary
 cognitive load, or details about how a specific disk driver works. It is cool
 to open these abstractions to learn, but it should not be required if you
 want to open and read a file.
 
 Change amplification is very common on software and it is much easier to detect
-and measure. Basically if everytime you want to do just one change, like change
-one behavior, you need to change stuff on a lot of different places, then you
-have change amplification and you need to do something about it soon. There are
-some great examples of this on the
+and measure. Basically if every time you want to do just one simple change
+on the software behavior, you need to change stuff on a lot of different places,
+then you have change amplification and you need to do something about it soon.
+There are some great examples of this on the
 [On the Criteria To Be Used in Decomposing Systems into Modules](https://web.archive.org/web/20120223013018/https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf) paper. It revolves around the impact of change when comparing
-different criterias, and usually the worse design is the one that changes
-amplify greatly.
+different criteria, and usually the worse design is the one that changes
+amplify greatly, like you choose a different database and now you need to
+change all source files of your system, that is bad design and a lot of
+change amplification.
 
 Unknown unknowns would be when you think you understood how a system works, but
 you didn't, usually because something is not explicit/obvious, and you end

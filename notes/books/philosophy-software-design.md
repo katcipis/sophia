@@ -294,7 +294,7 @@ change amplification.
 
 Unknown unknowns would be when you think you understood how a system works, but
 you didn't, usually because something is not explicit/obvious, and you end
-up inserting a bug because you did know that you didn't know something =P.
+up inserting a bug because you didn't know that you didn't know something =P.
 This one is kinda funny but it is one of the most serious ones, since it is a
 sure way to add bugs on a system.
 
@@ -306,7 +306,7 @@ Given the 3 manifestations of complexity 2 causes for them are presented:
 I'm very fond to dependencies as a cause because it models well when
 you think your code is simple because it is only 3 lines of code, but
 it uses a framework that is thousands of lines of code and introduces
-a lot of unknow unknowns. This is by far the most trick cause of
+a lot of unknown unknowns. This is by far the most tricky cause of
 complexity and the one that is most ignored on "modern" software
 development, most of the programmers I know seem to ignore
 that dependencies add complexity to a system, it is just good sense
@@ -319,13 +319,13 @@ modules (the dependencies), this introduces cognitive load and possibly
 change amplification. It is usually caused by a misguided notion that if
 you have a lot of tiny modules than your system is simple, size as a criteria
 for module decomposition (modules can be services, so yes I'm looking at
-you microservices =P).
+you micro-services =P).
 
 Obscurity is the more traditional/obvious one, code that is very dense
 and filled with hacks that are very unintuitive will be an obvious source
 of unknown unknowns and bugs. Bad naming is the most classical source of
 obscurity too, which adds to cognitive load (the name doesn't help and 
-even mislead) and to unknown unknows (you think you got it, but you didn't =P).
+even mislead) and to unknown unknowns (you think you got it, but you didn't =P).
 
 And that is pretty much it, it is not a complete view of complexity but it
 is simple enough to be easy to remember and reason with, specially when

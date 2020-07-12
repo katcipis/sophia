@@ -251,14 +251,11 @@ are extremely badly equipped to generalize the concept of
 simplicity/complexity (me included). But I digress, what would be the definition
 and the models to reason about complexity ?
 
-The definition is quite simple, complexity is anything that gets in the way
-of understanding how a system works and in how to extend and change it. This
-seems like a good enough definition, because the whole grail of computer science
+Complexity is anything that gets in the way
+of understanding how a system works and how to extend and change it. This
+seems like a good enough definition, because the holy grail of computer science
 always has been how to come up with good abstractions that make it easier to
-build/extend/integrate systems, pretty much reproduce the awesomeness that we observe
-on other natural systems, like life itself, so much potential for extension and
-integration and our software usually fall pretty short on that regard (at least when
-compared to the systems that sustains us).
+build/extend/integrate systems.
 
 So given that complexity is what makes it hard to understand and change code the
 next step is to define 3 common manifestations of complexity on systems:

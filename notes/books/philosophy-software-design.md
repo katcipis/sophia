@@ -494,8 +494,22 @@ that services needs to have just 100 lines of code etc,
 it hides considerably complexity from the caller through a very
 simple interface.
 
+Of course that on the issue of information hiding you can also be
+wrong on the direction of hiding necessary information, which
+will also result in a bad design. The most classical example of
+this being remote objects that tried to hide in the abstraction
+failure modes that can't be safely hidden from the programmer.
+
+In the end the best take away from the whole deep modules
+idea is to consider the cost of interfaces and how
+clients compose them when thinking about complexity instead of only seeing
+the complexity of the implementation. When a service has a lot of complex
+code but its interface is small and simple, just refactoring the service will
+probably be better than splitting it up into multiple smaller ones.
 
 ## To split or to not split, that is the question
+
+General purpose modules
 
 ## Design errors out of existence
 

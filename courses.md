@@ -9,6 +9,7 @@
 # Networking
 
 * [Computer Networking](https://www.coursera.org/learn/computer-networking)
+* [Introduction to Networking](https://www.edx.org/course/introduction-to-networking)
 
 
 # Recommended

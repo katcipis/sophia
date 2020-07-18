@@ -420,12 +420,19 @@ define that a module is good, it uses the idea of being deep, which
 is the opposite.
 
 In the opinion of the author, good modules are deep, in the sense that
-they have small and simple interfaces, which hides a lot of complexity
-underneath (hence deep). Usually breaking up a module just because
+they have small and simple interfaces (the interface is not very wide),
+which hides a lot of complexity underneath (hence deep).
+
+Usually breaking up a module just because
 its implementation is big will only spread the complexity around,
 which the maintainer will need to understand anyway, and introduce
 more interfaces, so instead of having just one simple interface you
-may end up having N interfaces. So you cause more trouble to the clients
+may end up having N interfaces to smaller implementation. Which is
+the situation that gives birth to ideas like aggregation layers, 
+because composing all this small interfaces is complex,
+so you build the interface you wanted all the way along on top of it.
+
+In the end you cause more trouble to the clients
 of your module just to satisfy your desire for small modules. This
 will also cause trouble to maintainers too, since you will end up
 jumping back and forth through a lot of small/shallow modules to
@@ -442,11 +449,11 @@ everything thing that kinda makes sense, but the end result is just
 terrible to work with (always composing one trillion small things).
 
 In the case of micro-service this is even worse, because composing
-and understand multiple services is harder than just composing and
-reading local objects. So the whole movement gives me bad feelings,
+and understanding multiple services is harder than local objects.
+So the whole movement gives me bad feelings,
 because using as a criteria for modularization "always be small"
-does not seem like a good idea, it is harder than that (sometimes
-small will be perfect).
+does not seem like a good idea (nothing wrong with sometimes being
+small). 
 
 Good abstractions are about information hiding, that is what makes
 an abstraction something simpler than the concrete thing, the more
@@ -456,20 +463,37 @@ to evaluate the quality of a module, the smaller the interface with
 more information hidden, the better.
 
 It may feel funny to say that because it seems to favor big/complicated
-implementation to modules with small interfaces. That is not the idea,
+implementation of small interfaces. This is not the idea,
 the idea is that the more interfaces your clients need to know more
 complexity has been added to the overall system. If you have a module
 with a small interface, but that has very little information being hidden
 on it (shallow) only two things can happen, either your problem is VERY
-simple and that is enough or you will need several other shallow modules,
+simple and that is enough (and the module seems kinda useless)
+or you will need several other shallow modules,
 each one with its simple interface, which when put together ends up
 being complicated to clients (combining multiple interfaces that do
 almost nothing). That gets even worse if the modules are services,
 as in micro-services, because combining services is never very
 easy (in my experience at least), specially when compared to combining
 command line tools in a UNIX like shell, which was one of the inspirations
-of the whole micro-services thing, one tool does one thing way,
+of the whole micro-services thing, one tool does one thing well,
 but in a perverted way.
+
+One concrete example given in the book about a deep module is
+file I/O on UNIX, the interface to manipulate files on UNIX is
+very simple and small, but it hides a LOT of complexity (block devices,
+hardware drivers, etc). Another one is networking, a TCP connection
+delivers to you a nice ordered stream of bytes as an abstraction but
+hides a lot of complexity behind it (traffic congestion, handshake,
+retransmission, etc).
+
+Another example would be the grep command, it has a very small and
+easy to use interface, it is easy to compose, but it is not that
+small, at least not when compared to micro/nano services non-sense
+that services needs to have just 100 lines of code etc,
+it hides considerably complexity from the caller through a very
+simple interface.
+
 
 ## To split or to not split, that is the question
 

@@ -1,6 +1,7 @@
 # Computer Science
 
 * [Learning CS](https://teachyourselfcs.com/)
+* [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/)
 
 # Courses 
 

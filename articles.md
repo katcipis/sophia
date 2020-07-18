@@ -32,29 +32,29 @@
 
 ### Data
 
+* [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
 * [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google/pubs/pub36632/)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Interpreting the Data: Parallel Analysis with Sawzall](https://ai.google/research/pubs/pub61)
-* [WORM](http://doc.cat-v.org/plan_9/misc/cw/cw.pdf)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
-* [Architecture of a database system](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Memory-Efficient Search Trees for Database Management Systems](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-101.pdf)
 * [Verifiable Data Structures](https://github.com/google/trillian/blob/master/docs/papers/VerifiableDataStructures.pdf)
 * [Epidemic algorithms for replicated database maintenance](http://bitsavers.trailing-edge.com/pdf/xerox/parc/techReports/CSL-89-1_Epidemic_Algorithms_for_Replicated_Database_Maintenance.pdf)
-* [Benchmark Time Series Database with IoTDB-Benchmark for IoT Scenarios](https://arxiv.org/abs/1901.08304)
 * [Adaptive real-time anomaly detection for multi-dimensional streaming data](https://aaltodoc.aalto.fi/bitstream/handle/123456789/25101/master_Saarinen_Inka_2017.pdf)
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
 * [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
-* [C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-suresh.pdf)
 
 
 ### Distributed Systems
 
+* [Paxos made simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
+* [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
+* [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
 * [Fundamental Limits of Online Network-Caching](https://arxiv.org/abs/2003.14085)
 * [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://arxiv.org/abs/2004.05074)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
@@ -85,6 +85,7 @@
 * [Laws for Communicating Parallel Processes](https://dspace.mit.edu/handle/1721.1/41962)
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
+* [Static Race Detection and Mutex Safety and Liveness for Go Programs](https://arxiv.org/abs/2004.12859)
 * [A Static Verification Framework for Message Passing in Go using Behavioural Types](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)
 * [Ad Hoc Synchronization Considered Harmful](https://pdfs.semanticscholar.org/5de1/66adfe1ee8a19ce430a9d3435b566bb07185.pdf)
 * [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)

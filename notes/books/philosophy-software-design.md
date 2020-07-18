@@ -466,10 +466,10 @@ each one with its simple interface, which when put together ends up
 being complicated to clients (combining multiple interfaces that do
 almost nothing). That gets even worse if the modules are services,
 as in micro-services, because combining services is never very
-easy, specially when compared to combining command line tools in
-a UNIX like shell, which was one of the inspirations of the whole
-micro-services thing, one tool does one thing way, but in a perverted
-way.
+easy (in my experience at least), specially when compared to combining
+command line tools in a UNIX like shell, which was one of the inspirations
+of the whole micro-services thing, one tool does one thing way,
+but in a perverted way.
 
 ## To split or to not split, that is the question
 

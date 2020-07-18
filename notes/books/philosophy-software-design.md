@@ -303,8 +303,8 @@ Given the 3 manifestations of complexity 2 causes for them are presented:
 * Dependencies
 * Obscurity
 
-I'm very fond to dependencies as a cause because it models well when
-you think your code is simple because it is only 3 lines of code, but
+I'm very fond to dependencies as a cause because I seen a lot of people
+thinking their code is simple because it is only 3 lines of code, but
 it uses a framework that is thousands of lines of code and introduces
 a lot of unknown unknowns. This is by far the most tricky cause of
 complexity and the one that is most ignored on "modern" software
@@ -335,9 +335,84 @@ subjective.
 
 ## Strategical VS Tactical
 
-Working software is not enough
-Tactical tornados + death by a thousand cuts (incremental complexity)
+The most important thing for achieving good design is the
+right mindset, and very important part of that mindset is that
+**working software is not enough**. That is the difference between
+the tactical programmer and the strategical one.
 
-## Deep Modules
+The tactical programmer just want to find the fastest path to
+delivering the next feature, or fixing the bug. He will not spend
+extra time thinking on design issues, he optimizes for changing as
+little as code as possible. This has tactical value, since less change
+is less chance to break things, but also eliminates design improvements
+as part of the development process, you just (almost) always makes
+things a little worse, by adding a little more complexity, a little
+new shortcut in the code.
+
+It is like death by a thousand cuts, it never seems like a big deal
+but when you sum up all the small additions you end up with a mess.
+It is also psychologically hard to get out of this situation, because
+every little improvement that you make now seems insignificant given
+the terrible mess that is the code (and then the even usually worse
+idea of rewriting from scratch).
+
+Being tactical would made sense if you got the design right first and
+now you just need to add new features and extend the code and everything
+just nicely fits, the problem is that we rarely (if not never) get
+the design right. Even if you had perfect knowledge of the domain and designed
+the software perfectly, the domain itself may have changed, so it seems inevitable
+that software design needs to be addressed in a iterative/incremental way.
+
+Fixing bugs also provides valuable opportunities for design improvements,
+because bugs are usually caused by bad design, which makes things confusing
+and gives space for unknowns unknowns, but a tactical programmer won't take
+advantage of that opportunity. There is a very interesting interview with
+Rob Pike named
+[The Best Programming Advice I Ever Got](https://www.informit.com/articles/article.aspx?p=1941206),
+he was talking about how Ken Thompson taught him how to debug (by example):
+
+```
+After a while I noticed a pattern: Ken would often understand the problem
+before I would, and would suddenly announce, "I know what's wrong."
+
+He was usually correct. I realized that Ken was building a mental model
+of the code and when something broke it was an error in the model.
+By thinking about *how* that problem could happen, he'd intuit where the
+model was wrong or where our code must not be satisfying the model.
+
+Ken taught me that thinking before debugging is extremely important.
+If you dive into the bug, you tend to fix the local issue in the code,
+but if you think about the bug first, how the bug came to be, you often
+find and correct a higher-level problem in the code that will improve the
+design and prevent further bugs.
+
+I recognize this is largely a matter of style. Some people insist on
+line-by-line tool-driven debugging for everything.
+But I now believe that thinking—without looking at the code—is the best
+debugging tool of all, because it leads to better software.
+```
+
+Even though it touches the subject of using or not debugging tools, the
+most important part is that bugs are usually faults on the model of
+the software and that it is important to address the underlying design
+issue instead of just fixing the bug tactically.
+
+The strategic programmer on the other hand is the opposite, he wants
+to deliver software as fast as possible, but not in detriment of the
+future, so he takes time to address design issues and fix them, even if
+it means more work now. He also spends more time experimenting with
+different designs to solve a problem, so he can choose the design
+that fits best the problem, because just making it work is not enough.
+
+
+## Deep modules
 
 TODO: Deep Modules chapter, good stuff :-)
+
+
+## To split or to not split, that is the question
+
+## Design errors out of existence
+
+
+## Documentation as part of interface

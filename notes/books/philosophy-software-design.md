@@ -452,7 +452,24 @@ Good abstractions are about information hiding, that is what makes
 an abstraction something simpler than the concrete thing, the more
 information you can hide the more you gained, specially if you can
 make it with a small and simple interface. This gives a very nice model
-to evaluate the quality of a module
+to evaluate the quality of a module, the smaller the interface with
+more information hidden, the better.
+
+It may feel funny to say that because it seems to favor big/complicated
+implementation to modules with small interfaces. That is not the idea,
+the idea is that the more interfaces your clients need to know more
+complexity has been added to the overall system. If you have a module
+with a small interface, but that has very little information being hidden
+on it (shallow) only two things can happen, either your problem is VERY
+simple and that is enough or you will need several other shallow modules,
+each one with its simple interface, which when put together ends up
+being complicated to clients (combining multiple interfaces that do
+almost nothing). That gets even worse if the modules are services,
+as in micro-services, because combining services is never very
+easy, specially when compared to combining command line tools in
+a UNIX like shell, which was one of the inspirations of the whole
+micro-services thing, one tool does one thing way, but in a perverted
+way.
 
 ## To split or to not split, that is the question
 

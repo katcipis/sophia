@@ -408,8 +408,51 @@ that fits best the problem, because just making it work is not enough.
 
 ## Deep modules
 
-TODO: Deep Modules chapter, good stuff :-)
+Before going in this topic it is important to define what is
+a module in this context. Here a module can be an object,
+a package, or a service. It is a unit of code that is cohesive
+and has a public interface, be it local or remote.
 
+This is one of the most interesting chapters of the book since it
+gives advice that is very sound and yet goes against the current
+fad of micro-services. Instead of using being small as a way to
+define that a module is good, it uses the idea of being deep, which
+is the opposite.
+
+In the opinion of the author, good modules are deep, in the sense that
+they have small and simple interfaces, which hides a lot of complexity
+underneath (hence deep). Usually breaking up a module just because
+its implementation is big will only spread the complexity around,
+which the maintainer will need to understand anyway, and introduce
+more interfaces, so instead of having just one simple interface you
+may end up having N interfaces. So you cause more trouble to the clients
+of your module just to satisfy your desire for small modules. This
+will also cause trouble to maintainers too, since you will end up
+jumping back and forth through a lot of small/shallow modules to
+understand even basic things about the system.
+
+His examples of shallow modules are all related to Java, which is a nice
+example of the mindset of "objects are good, so lets have a lot of them".
+Even to do simple tasks you end up having to create multiple objects
+and composing them, which adds complexity to clients. This made me
+remember how I felt when I wrote a program to read a file contents in Python
+and compared it with Java, it made me shift to Python for all my
+work in college and I never looked back. So you have all this micro/small
+everything thing that kinda makes sense, but the end result is just
+terrible to work with (always composing one trillion small things).
+
+In the case of micro-service this is even worse, because composing
+and understand multiple services is harder than just composing and
+reading local objects. So the whole movement gives me bad feelings,
+because using as a criteria for modularization "always be small"
+does not seem like a good idea, it is harder than that (sometimes
+small will be perfect).
+
+Good abstractions are about information hiding, that is what makes
+an abstraction something simpler than the concrete thing, the more
+information you can hide the more you gained, specially if you can
+make it with a small and simple interface. This gives a very nice model
+to evaluate the quality of a module
 
 ## To split or to not split, that is the question
 

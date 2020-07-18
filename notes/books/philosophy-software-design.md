@@ -356,13 +356,6 @@ every little improvement that you make now seems insignificant given
 the terrible mess that is the code (and then the even usually worse
 idea of rewriting from scratch).
 
-Being tactical would made sense if you got the design right first and
-now you just need to add new features and extend the code and everything
-just nicely fits, the problem is that we rarely (if not never) get
-the design right. Even if you had perfect knowledge of the domain and designed
-the software perfectly, the domain itself may have changed, so it seems inevitable
-that software design needs to be addressed in a iterative/incremental way.
-
 Fixing bugs also provides valuable opportunities for design improvements,
 because bugs are usually caused by bad design, which makes things confusing
 and gives space for unknowns unknowns, but a tactical programmer won't take
@@ -396,6 +389,14 @@ Even though it touches the subject of using or not debugging tools, the
 most important part is that bugs are usually faults on the model of
 the software and that it is important to address the underlying design
 issue instead of just fixing the bug tactically.
+
+One interesting concept that he introduces is the "tactical tornado",
+it is that programmer that management loves because he can 
+deliver features extremely fast, like a tornado,
+but just like a tornado he leaves complete destruction after he is finished,
+a mess that will take months and sometimes years for other people to clean.
+Every company has one, and one of the most important cultural changes a
+company can make is to not reward that kind of behavior.
 
 The strategic programmer on the other hand is the opposite, he wants
 to deliver software as fast as possible, but not in detriment of the

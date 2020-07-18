@@ -159,12 +159,12 @@
 
 ## Languages
 
+* [Crafting Interpreters](https://craftinginterpreters.com/)
 * [Practical Foundations for Programming Languages](https://www.cs.cmu.edu/~rwh/pfpl.html)
 * [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
 * [Introduction to Compilers and Language Design](https://www3.nd.edu/~dthain/compilerbook/)
 * [Language Implementation Patterns](http://pragprog.com/book/tpdsl/language-implementation-patterns)
 * [Compiling with Continuations](https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X)
-* [Writing An Interpreter in Go](https://interpreterbook.com/)
 * [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/)
 * [Interpreter Book](https://interpreterbook.com/)
 * [Concepts of Programming Languages](http://www.amazon.com/Concepts-Programming-Languages-10th-Edition/dp/0131395319)

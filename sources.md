@@ -1,3 +1,7 @@
+# Computer Science
+
+* [Learning CS](https://teachyourselfcs.com/)
+
 # Courses 
 
 * [Coursera](https://www.coursera.org/)
@@ -69,15 +73,8 @@
 * [FreeBooks](https://github.com/vhf/free-programming-books)
 
 
-# Articles
-
-* [Arxiv](http://www.arxiv-sanity.com/)
-
-
 # Other
 
 * [Pointer](http://www.pointer.io/purpose)
-* [Learning CS](https://teachyourselfcs.com/)
 * [C2](http://c2.com/cgi/wiki)
-* [Data Science Trello](https://trello.com/b/rbpEfMld/data-science)
 * [Hacking Textfiles](http://www.textfiles.com/hacking/)

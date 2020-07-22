@@ -536,6 +536,37 @@ indeed a very good reason for separating code in different modules. The rest
 reminds me a lot of single responsibility principle or Parnas advice
 of isolating the system from tough design choices.
 
+## General Purpose Interfaces
+
+It is very interesting how he talks about how he found out, during his classes,
+that usually when you go for good general purpose interfaces you end up
+with simpler design. The idea is not to have one general interface to solve
+everyone's specific problem, but to provide a common building block that
+is very simple and agnostic of specific application details.
+
+Good general purpose interfaces are going to be small, and when applications
+requirements change they don't need changes. One example that he gives from his
+text editor problem used on his class is when people go for general purpose
+text manipulation interfaces VS specific interfaces that have methods like
+"backspace". The specific interfaces ends up being more complex and also
+become a magnet for changes, and the changes can always break the entire
+text editing facilities since they are all together.
+
+Another example, would be the UNIX file system interface,
+it is pretty simple and general purpose, and it is usually took for granted,
+but at the time most of the file system interfaces were pretty complex
+(at least according to him, I'm not aware of pre-UNIX file system interfaces).
+
+This felt counter intuitive to me at first because when I think "general purpose"
+I also remember frameworks that try to solve everyone problems, usually with
+a lot of different complex interfaces and clumsy extensions mechanisms. The line
+between good and bad general purpose seems to be in finding a very small set
+of interfaces that are expressive and composes well.
+
+Another example, but added by me, would be [Go's stdlib I/O package](https://golang.org/pkg/io/).
+I always felt it to be much simpler and easier to built things on top than
+Python file/IO handling for example.
+
 ## Design errors out of existence
 
 

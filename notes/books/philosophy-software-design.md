@@ -538,7 +538,7 @@ of isolating the system from tough design choices.
 
 ## General Purpose Interfaces
 
-It is very interesting how he talks about how he found out, during his classes,
+He talks about how he found out, during his classes,
 that usually when you go for good general purpose interfaces you end up
 with simpler design. The idea is not to have one general interface to solve
 everyone's specific problem, but to provide a common building block that
@@ -561,13 +561,19 @@ This felt counter intuitive to me at first because when I think "general purpose
 I also remember frameworks that try to solve everyone problems, usually with
 a lot of different complex interfaces and clumsy extensions mechanisms. The line
 between good and bad general purpose seems to be in finding a very small set
-of interfaces that are expressive and composes well.
+of interfaces that are expressive, easy to understand and composes well.
 
 Another example, but added by me, would be [Go's stdlib I/O package](https://golang.org/pkg/io/).
 I always felt it to be much simpler and easier to built things on top than
 Python file/IO handling for example.
 
+## Pull complexity down
+
+Prefer simple interfaces with complex implementation than
+simplifying the implementation by producing a more complex interface (MIT style)
+
 ## Design errors out of existence
 
-
 ## Documentation as part of interface
+
+## Documentation first

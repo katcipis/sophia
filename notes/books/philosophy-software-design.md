@@ -509,7 +509,32 @@ probably be better than splitting it up into multiple smaller ones.
 
 ## To split or to not split, that is the question
 
-General purpose modules
+I think overall the industry focus way too much on when things
+are too big and should be split, which is a perfectly valid (and common)
+scenario. But you can also be wrong when you are splitting something
+in two, when they actually belonged together, and he also talks about
+this kind of mistake (which is usually related to shallow modules).
+
+The usual signs that you separated something that should be together are:
+
+* Lots of jumping around between two modules to understand just one concept
+* Most of the abstractions are the same or related
+* Strong conceptual overlap, most of the time they talk about the same stuff.
+* Every time you need to change something on module A you also need to change on B
+* Clients always use both modules together
+
+If you just replace modules with service you get a nice way to check when
+you separated something in multiple services, but you shouldn't. It will
+feel like you have high coupling issues, but the truth is that you actually
+lack cohesion, both modules should be together, a single unit, splitting them
+created this high coupling scenario. So even high coupling may be a signal
+that something should be together (not always of course).
+
+On reasons to split, one thing that caught my attention that I really liked
+is separating general purpose code from application specific code, that is
+indeed a very good reason for separating code in different modules. The rest
+reminds me a lot of single responsibility principle or Parnas advice
+of isolating the system from tough design choices.
 
 ## Design errors out of existence
 

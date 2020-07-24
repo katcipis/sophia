@@ -103,6 +103,7 @@
 * [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
+* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [Scheme with Classes, Mixins, and Traits](https://www.cs.utah.edu/plt/publications/aplas06-fff.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
@@ -139,6 +140,8 @@
 
 #### Inferno
 
+* [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
+* [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
 * [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
 
 
@@ -170,7 +173,6 @@
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
-* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [COZ: Finding Code that Counts with Causal Profiling](https://www.sigops.org/s/conferences/sosp/2015/current/2015-Monterey/printable/090-curtsinger.pdf)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
@@ -191,12 +193,10 @@
 
 * [How](https://internetat50.com/references/Kay_How.pdf)
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
+* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
-* [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
-* [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
-* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
 
 
 ## Done

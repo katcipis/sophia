@@ -36,6 +36,7 @@
 * [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
 * [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google/pubs/pub36632/)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+* [Earlybird: Real-Time Search at Twitter](http://users.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Interpreting the Data: Parallel Analysis with Sawzall](https://ai.google/research/pubs/pub61)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)

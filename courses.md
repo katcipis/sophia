@@ -1,5 +1,6 @@
 # MOOCs
 
+* [Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/)
 * [Technical Writing](https://developers.google.com/tech-writing)
 * [Programming for the Puzzled](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA&app=desktop)
 * [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
@@ -8,8 +9,8 @@
 
 # Networking
 
-* [Computer Networking](https://www.coursera.org/learn/computer-networking)
 * [Introduction to Networking](https://www.edx.org/course/introduction-to-networking)
+* [Computer Networking](https://www.coursera.org/learn/computer-networking)
 
 
 # Recommended

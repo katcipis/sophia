@@ -33,6 +33,7 @@
 ### Data
 
 * [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
+* [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf)
 * [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
 * [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google/pubs/pub36632/)
 * [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)

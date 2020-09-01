@@ -254,6 +254,11 @@
 * [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 
 
+## Performance/Profiling
+
+* [Systems Performance](https://www.amazon.com/gp/product/0136820158)
+
+
 ## Security
 
 * [The Codebreakers](https://www.amazon.com/Codebreakers-Comprehensive-History-Communication-Internet/dp/0684831309)

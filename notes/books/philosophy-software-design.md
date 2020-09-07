@@ -303,8 +303,8 @@ Given the 3 manifestations of complexity 2 causes for them are presented:
 * Dependencies
 * Obscurity
 
-I'm very fond to dependencies as a cause because it models well when
-you think your code is simple because it is only 3 lines of code, but
+I'm very fond to dependencies as a cause because I seen a lot of people
+thinking their code is simple because it is only 3 lines of code, but
 it uses a framework that is thousands of lines of code and introduces
 a lot of unknown unknowns. This is by far the most tricky cause of
 complexity and the one that is most ignored on "modern" software
@@ -335,9 +335,245 @@ subjective.
 
 ## Strategical VS Tactical
 
-Working software is not enough
-Tactical tornados + death by a thousand cuts (incremental complexity)
+The most important thing for achieving good design is the
+right mindset, and very important part of that mindset is that
+**working software is not enough**. That is the difference between
+the tactical programmer and the strategical one.
 
-## Deep Modules
+The tactical programmer just want to find the fastest path to
+delivering the next feature, or fixing the bug. He will not spend
+extra time thinking on design issues, he optimizes for changing as
+little as code as possible. This has tactical value, since less change
+is less chance to break things, but also eliminates design improvements
+as part of the development process, you just (almost) always makes
+things a little worse, by adding a little more complexity, a little
+new shortcut in the code.
 
-TODO: Deep Modules chapter, good stuff :-)
+It is like death by a thousand cuts, it never seems like a big deal
+but when you sum up all the small additions you end up with a mess.
+It is also psychologically hard to get out of this situation, because
+every little improvement that you make now seems insignificant given
+the terrible mess that is the code (and then the even usually worse
+idea of rewriting from scratch).
+
+Fixing bugs also provides valuable opportunities for design improvements,
+because bugs are usually caused by bad design, which makes things confusing
+and gives space for unknowns unknowns, but a tactical programmer won't take
+advantage of that opportunity. There is a very interesting interview with
+Rob Pike named
+[The Best Programming Advice I Ever Got](https://www.informit.com/articles/article.aspx?p=1941206),
+he was talking about how Ken Thompson taught him how to debug (by example):
+
+```
+After a while I noticed a pattern: Ken would often understand the problem
+before I would, and would suddenly announce, "I know what's wrong."
+
+He was usually correct. I realized that Ken was building a mental model
+of the code and when something broke it was an error in the model.
+By thinking about *how* that problem could happen, he'd intuit where the
+model was wrong or where our code must not be satisfying the model.
+
+Ken taught me that thinking before debugging is extremely important.
+If you dive into the bug, you tend to fix the local issue in the code,
+but if you think about the bug first, how the bug came to be, you often
+find and correct a higher-level problem in the code that will improve the
+design and prevent further bugs.
+
+I recognize this is largely a matter of style. Some people insist on
+line-by-line tool-driven debugging for everything.
+But I now believe that thinking—without looking at the code—is the best
+debugging tool of all, because it leads to better software.
+```
+
+Even though it touches the subject of using or not debugging tools, the
+most important part is that bugs are usually faults on the model of
+the software and that it is important to address the underlying design
+issue instead of just fixing the bug tactically.
+
+One interesting concept that he introduces is the "tactical tornado",
+it is that programmer that management loves because he can 
+deliver features extremely fast, like a tornado,
+but just like a tornado he leaves complete destruction after he is finished,
+a mess that will take months and sometimes years for other people to clean.
+Every company has one, and one of the most important cultural changes a
+company can make is to not reward that kind of behavior.
+
+The strategic programmer on the other hand is the opposite, he wants
+to deliver software as fast as possible, but not in detriment of the
+future, so he takes time to address design issues and fix them, even if
+it means more work now. He also spends more time experimenting with
+different designs to solve a problem, so he can choose the design
+that fits best the problem, because just making it work is not enough.
+
+
+## Deep modules
+
+Before going in this topic it is important to define what is
+a module in this context. Here a module can be an object,
+a package, or a service. It is a unit of code that is cohesive
+and has a public interface, be it local or remote.
+
+This is one of the most interesting chapters of the book since it
+gives advice that is very sound and yet goes against the current
+fad of micro-services. Instead of using being small as a way to
+define that a module is good, it uses the idea of being deep, which
+is the opposite.
+
+In the opinion of the author, good modules are deep, in the sense that
+they have small and simple interfaces (the interface is not very wide),
+which hides a lot of complexity underneath (hence deep).
+
+Usually breaking up a module just because
+its implementation is big will only spread the complexity around,
+which the maintainer will need to understand anyway, and introduce
+more interfaces, so instead of having just one simple interface you
+may end up having N interfaces to smaller implementation. Which is
+the situation that gives birth to ideas like aggregation layers, 
+because composing all this small interfaces is complex,
+so you build the interface you wanted all the way along on top of it.
+
+In the end you cause more trouble to the clients
+of your module just to satisfy your desire for small modules. This
+will also cause trouble to maintainers too, since you will end up
+jumping back and forth through a lot of small/shallow modules to
+understand even basic things about the system.
+
+His examples of shallow modules are all related to Java, which is a nice
+example of the mindset of "objects are good, so lets have a lot of them".
+Even to do simple tasks you end up having to create multiple objects
+and composing them, which adds complexity to clients. This made me
+remember how I felt when I wrote a program to read a file contents in Python
+and compared it with Java, it made me shift to Python for all my
+work in college and I never looked back. So you have all this micro/small
+everything thing that kinda makes sense, but the end result is just
+terrible to work with (always composing one trillion small things).
+
+In the case of micro-service this is even worse, because composing
+and understanding multiple services is harder than local objects.
+So the whole movement gives me bad feelings,
+because using as a criteria for modularization "always be small"
+does not seem like a good idea (nothing wrong with sometimes being
+small). 
+
+Good abstractions are about information hiding, that is what makes
+an abstraction something simpler than the concrete thing, the more
+information you can hide the more you gained, specially if you can
+make it with a small and simple interface. This gives a very nice model
+to evaluate the quality of a module, the smaller the interface with
+more information hidden, the better.
+
+It may feel funny to say that because it seems to favor big/complicated
+implementation of small interfaces. This is not the idea,
+the idea is that the more interfaces your clients need to know more
+complexity has been added to the overall system. If you have a module
+with a small interface, but that has very little information being hidden
+on it (shallow) only two things can happen, either your problem is VERY
+simple and that is enough (and the module seems kinda useless)
+or you will need several other shallow modules,
+each one with its simple interface, which when put together ends up
+being complicated to clients (combining multiple interfaces that do
+almost nothing). That gets even worse if the modules are services,
+as in micro-services, because combining services is never very
+easy (in my experience at least), specially when compared to combining
+command line tools in a UNIX like shell, which was one of the inspirations
+of the whole micro-services thing, one tool does one thing well,
+but in a perverted way.
+
+One concrete example given in the book about a deep module is
+file I/O on UNIX, the interface to manipulate files on UNIX is
+very simple and small, but it hides a LOT of complexity (block devices,
+hardware drivers, etc). Another one is networking, a TCP connection
+delivers to you a nice ordered stream of bytes as an abstraction but
+hides a lot of complexity behind it (traffic congestion, handshake,
+retransmission, etc).
+
+Another example would be the grep command, it has a very small and
+easy to use interface, it is easy to compose, but it is not that
+small, at least not when compared to micro/nano services non-sense
+that services needs to have just 100 lines of code etc,
+it hides considerably complexity from the caller through a very
+simple interface.
+
+Of course that on the issue of information hiding you can also be
+wrong on the direction of hiding necessary information, which
+will also result in a bad design. The most classical example of
+this being remote objects that tried to hide in the abstraction
+failure modes that can't be safely hidden from the programmer.
+
+In the end the best take away from the whole deep modules
+idea is to consider the cost of interfaces and how
+clients compose them when thinking about complexity instead of only seeing
+the complexity of the implementation. When a service has a lot of complex
+code but its interface is small and simple, just refactoring the service will
+probably be better than splitting it up into multiple smaller ones.
+
+## To split or to not split, that is the question
+
+I think overall the industry focus way too much on when things
+are too big and should be split, which is a perfectly valid (and common)
+scenario. But you can also be wrong when you are splitting something
+in two, when they actually belonged together, and he also talks about
+this kind of mistake (which is usually related to shallow modules).
+
+The usual signs that you separated something that should be together are:
+
+* Lots of jumping around between two modules to understand just one concept
+* Most of the abstractions are the same or related
+* Strong conceptual overlap, most of the time they talk about the same stuff.
+* Every time you need to change something on module A you also need to change on B
+* Clients always use both modules together
+
+If you just replace modules with service you get a nice way to check when
+you separated something in multiple services, but you shouldn't. It will
+feel like you have high coupling issues, but the truth is that you actually
+lack cohesion, both modules should be together, a single unit, splitting them
+created this high coupling scenario. So even high coupling may be a signal
+that something should be together (not always of course).
+
+On reasons to split, one thing that caught my attention that I really liked
+is separating general purpose code from application specific code, that is
+indeed a very good reason for separating code in different modules. The rest
+reminds me a lot of single responsibility principle or Parnas advice
+of isolating the system from tough design choices.
+
+## General Purpose Interfaces
+
+He talks about how he found out, during his classes,
+that usually when you go for good general purpose interfaces you end up
+with simpler design. The idea is not to have one general interface to solve
+everyone's specific problem, but to provide a common building block that
+is very simple and agnostic of specific application details.
+
+Good general purpose interfaces are going to be small, and when applications
+requirements change they don't need changes. One example that he gives from his
+text editor problem used on his class is when people go for general purpose
+text manipulation interfaces VS specific interfaces that have methods like
+"backspace". The specific interfaces ends up being more complex and also
+become a magnet for changes, and the changes can always break the entire
+text editing facilities since they are all together.
+
+Another example, would be the UNIX file system interface,
+it is pretty simple and general purpose, and it is usually took for granted,
+but at the time most of the file system interfaces were pretty complex
+(at least according to him, I'm not aware of pre-UNIX file system interfaces).
+
+This felt counter intuitive to me at first because when I think "general purpose"
+I also remember frameworks that try to solve everyone problems, usually with
+a lot of different complex interfaces and clumsy extensions mechanisms. The line
+between good and bad general purpose seems to be in finding a very small set
+of interfaces that are expressive, easy to understand and composes well.
+
+Another example, but added by me, would be [Go's stdlib I/O package](https://golang.org/pkg/io/).
+I always felt it to be much simpler and easier to built things on top than
+Python file/IO handling for example.
+
+## Pull complexity down
+
+Prefer simple interfaces with complex implementation than
+simplifying the implementation by producing a more complex interface (MIT style)
+
+## Design errors out of existence
+
+## Documentation as part of interface
+
+## Documentation first

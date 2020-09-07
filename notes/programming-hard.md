@@ -19,6 +19,20 @@ getting in, I do this because it is hard to me and maybe I don't want to
 feel like I'm stupid. Since I'm clearly biased I try to use references
 as much as possible.
 
+Doing this exercise (writing this up) made me understand better
+why Alan Kay made fun of Steve Jobs when he said that if you want
+to learn how to think you need to learn programming. Steve Jobs never
+programmed and he got the cause and effect relationship backwards,
+people program because they know how to think, not the other
+way around. I say this because from all the reasons for it being
+hard I found so far, none is related to being hard to learning
+programming languages. It is not easy, but it is definitely not
+the thing that makes it very hard.
+
+Reference for this can be find on Alan Kay's presentation
+[Rethinking CS Education](https://www.youtube.com/watch?v=N9c7_8Gp7gI)
+(for the exact moment of the quote go [here](https://youtu.be/N9c7_8Gp7gI?t=2694)).
+
 
 # Systems Thinking and Abstract Reasoning
 

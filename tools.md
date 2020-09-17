@@ -466,6 +466,7 @@
 * [Inkscape](http://inkscape.org/en/)
 * [Draw.io](https://www.draw.io/)
 * [ditaa](http://ditaa.sourceforge.net/)
+* [diagrams](https://github.com/mingrammer/diagrams)
 
 
 ## Sequence

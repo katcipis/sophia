@@ -774,3 +774,55 @@ be indicative of a bad design, if you leave the documentation for last you will
 only get that feedback when everything is done.
 
 ### Details
+
+Documenting details is something that is done for other maintainers, not for clients
+of you API. Here it is very important to not repeat yourself, generating useless
+documentation. Given that code should already express well **what** is being done
+and **how** usually documenting on this level boils down to documenting **why**.
+
+No amount of code can say the **why** of something, and specially for odd design
+decisions it is important to be clear and explicit regarding why, making it as
+close as possible to the awkward section of code / design decision.
+
+The author talks a little about using version control as a way to document why's
+and we share the same opinion in the sense that it is an bad idea. It is not a
+bad idea to add on a commit message a why of something, it is a bad idea for
+the why existing only in the commit message. It goes against the idea of
+reducing cognitive load, having to search around version control history to
+**maybe** find the reason for something is much slower and prone to problems
+than just being explicit directly on the code on why something is done the way
+it is done. It feels to me like an overloading of what a version control can do,
+as the name says the idea is to help controlling versions, it is not a source
+of documentation, documentation should be explicit and decoupled from version
+control systems (what if you lose the version control and have only the code ?).
+
+One real world example of this version control idea and how it can go bad is
+Brendan Greg [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html).
+It is a very interesting read in itself, but it surprised me how much he had to dig
+on the version control to try to understand the reasoning behind a design
+decision that could be documented in a few lines in the code.
+
+It is funny that he talks about how finding "why" using git is easy and
+right away makes it clear how this approach to find "why's" is flawed:
+
+```
+Understanding why something changed in Linux is easy: you read the git
+commit history on the file in question and read the change description.
+I checked the history on loadavg.c, but the change that added
+the uninterruptible state predates that file, which was created with code
+from an earlier file. I checked the other file, but that trail ran cold
+as well: the code itself has hopped around different files
+```
+
+I won't copy the whole blog post here, but in the end it was way harder
+than just digging through a version control system. For me it kinda makes
+the point that documenting the why of important design decisions should be
+made explicit on the code or is some other way directly on the project,
+not being delegated to version control systems and/or luck.
+
+Sometimes analyzing the changes that happened on code, when it happened, etc,
+is very important, I would not advocate not using version control systems
+(always loved them :-) ), I just don't think they should be used as the
+only source of truth for the reasoning behind design decisions, specially
+design decisions on interfaces exported to clients, like the Linux load
+average (it affects all Linux users).

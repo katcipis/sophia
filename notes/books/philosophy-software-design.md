@@ -567,12 +567,77 @@ Another example, but added by me, would be [Go's stdlib I/O package](https://gol
 I always felt it to be much simpler and easier to built things on top than
 Python file/IO handling for example.
 
-## Pull complexity down
+## Error Handling
 
-Prefer simple interfaces with complex implementation than
-simplifying the implementation by producing a more complex interface (MIT style)
+Error handling is exceptionally hard, this reminds me of an interview in
+Coders at Work where one of the hardest thing mentioned in programming is
+error handling and dealing with corner cases. There is very little consensus
+on how to do it, even among very experienced people, the author himself
+when asked about using exceptions or a more manual approach (like Go)
+answered with "it depends", when you can coalesce a lot of errors together
+exceptions seem better, but if you need to handle the errors one by one
+in multiple layers of the program exceptions look clumsy.  It kind
+matches my overall feeling that exceptions shine when you want to propagate
+errors and manual error handling shines when you actually handle them
+as close as possible where they happen. Since none of these scenarios
+are universal, sometimes you propagate, sometimes you handle, it doesn't
+seem to be an universal answer, not yet at least.
 
-## Design errors out of existence
+But leaving mechanism aside, on how to design error handling his advice is
+to push error handling to the extremes of the software, handle them close
+to where they happen and don't expose them through APIs or just let them
+bubble up and handle them in one place (avoiding a lot of error handling logic).
+None of them is universal, one example of allowing errors to bubble up is
+on a http service, where you can just catch errors and build error response on
+the same place, the core idea is to concentrate error building logic
+on one place to keep it consistent. In scenarios like these, exceptions
+may make it easier since it avoid boilerplate for propagation.
+
+The other idea, that pushes errors downwards (to low level parts of code), is
+called "designing errors out of existence". The idea here, as the name says, is
+to not expose errors at all. I'm very keen to the idea, one good way to model it
+is to embrace that errors are also part of your API, the less errors you
+expose the simpler is the interface (smaller) and the less coupling.
+When you think about it like that you realize that errors are part of
+your abstraction, and one of the toughest and most important thing
+about abstractions is to define what is a detail that can be hidden
+from clients and what should be made explicit and clear.
+
+An abstraction that makes all complexity public and explicit doesn't do
+much for the client, this is connected to the idea of deep modules, abstractions
+should do as much as possible for clients, and that includes error handling when
+appropriate (emphasis on when appropriate). I think the default behavior in
+software is just exposing errors, because it makes interfaces more complex but
+it is safer, in the sense that at least you are not hiding important detail
+from clients.
+
+So what would be a good criteria for "designing an error out
+of existence" ? It is easier to think using examples. One of the examples
+used on the book is TCL unset function. The function is used to unset an
+environment variable, and it was designed in a way that calling unset on
+a variable that doesn't exist throws an exception. This function was
+designed by the book author and in time he realized that 99% of the
+code using the function would just catch the exception and ignore it
+completely. Why was that happening ? Well if you are deleting something
+that doesn't exist, you usually got the final state that you desired anyway.
+It was very rare for a client to be interested in the fact that the variable
+actually existed. So in his opinion that was a design mistake on his part,
+the function would be better designed if it omitted the "not exist" error.
+This is related to the principle of making interfaces easier to use for
+the default scenario, if only 1% of people need to check if the variable
+exist, make them use another function to check that instead of imposing
+error handling on 99% of the cases. The tricky part is to detect this
+default scenario before having some feedback. Like the TCL case, it took time
+observing usage of the function to see that exposing the error was a mistake.
+
+Another example is the stream abstraction provided by TCP, some connectivity errors
+are exposed by TCP, because it is necessary detail, like the connection was
+dropped or there is just no more responses from the other side. But retransmission
+errors are completely hidden in the interface, you can check for retransmissions
+if you want, but the default case is to just assume that the stream is reliable so
+the interface delivered to clients reflects that, packets just "always arrive" and you
+are not even aware that transmission errors and retransmissions are happening
+(unless you dig for it, which is the non-default scenario).
 
 ## Documentation as part of interface
 

@@ -699,16 +699,42 @@ depends on the language. Dynamically typed languages depends much more on this
 concept of documentation being part of the interface since they formally define
 way less (no type information on interfaces).
 
-There are two movements that I always though are bullshit. The older one is
+There are two movements that I always thought are bullshit. The older one is
 "look at the code, it is the ultimate true documentation", I always thought that
-was an lazy excuse, but the author provides a more clear reasoning to explain why
+was a lazy excuse, but the author provides a more clear reasoning to explain why
 it is bullshit. When you provide an abstraction, the whole point is to abstract
 away details and complexity from clients, if clients need to look at the whole
 source code of an abstraction to be able to use it you failed because they where
-exposed to all the complexity anyway, you are not giving them much leverage.
-If someone, by curiosity wants to open the abstraction, that is welcomed and
-should be made as easy as possible, but it should not be a pre-requisite to
-work with an abstraction.
+exposed to all the complexity anyway, you are not giving them much leverage
+to deal with complexity. If someone, driven by curiosity, wants to open the
+abstraction, that is welcomed and should be made as easy as possible, but
+it should not be a pre-requisite to work with an well designed abstraction.
+
+The second movement is a fancy implementation of the first one, "just look
+at the tests, they are the documentation". Tests rarely (if ever) are as clear
+and small as a few paragraphs of text explaining the behavior of an interface,
+so it feels like an upgraded version of the laziness, now I need to understand
+your whole testing framework and a lot of other details just to check for
+a specific behavior of the interface.
+
+In the end I always had this opinion because of the experience I had with great
+libraries, like Go's standard library. I only open the standard library code
+when I'm curious about how something is done (it is fun :D), but when I just want
+to get something done reading the docs + interfaces is enough and that is great.
+Much better than having to open code, even if it is well written tests, nothing
+beats the speed of an paragraph of text right there with the type declaration
+and provides the ultimate level of complexity hiding, I don't need to know
+anything about the code or how it is tested to use it, it just seems like a better
+final artifact. So I agree with the author, proper docs are integral part of
+the abstraction, not something extra that can be added or not.
+
+I do also have feeling of duplication because of docs, since behavior is already
+expressed in the code and checked in tests, it does feel redundant, but the client
+of the docs is not the same client of the code implementation and tests.
+Having this in mind should help to keep docs as small as possible, revealing
+only details that should be exposed as part of the abstraction, that reduces
+overall complexity (less details leaked) and also reduces the duplication of
+the docs <-> code.
 
 ### First
 

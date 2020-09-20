@@ -738,4 +738,39 @@ the docs <-> code.
 
 ### First
 
+One thing that got me really excited, because it is something that I have been
+doing for some time on my own, is the idea of document things before implementing.
+If you embrace the idea that documentation is an integral part of an interface
+this advice makes perfect sense, since I think it is a good idea to define
+interfaces first and analyze if they make sense and can be composed well with
+other interfaces, and documentation is part of the interface, then I'm going
+to document first too.
+
+This is a great tool to think from the outside to the inside, think first on
+how people are going to interact with what you are building instead on how
+to implement it. I see a lot of parallels between this and TDD and in my case
+I started doing it as an extension of TDD, pushing more and more towards the
+idea of first thinking on how what I'm building is going to be used than
+how to implement it in details. I suppose this is largely psychological,
+for me thinking from the outside to the inside works better, but some people
+think the other way around and that is fine too.
+
+Another possibly psychological thing that works for me is that if I
+start with documentation I usually write much better documentation, specially
+because the documentation is helping me on the design phase, so I feel immediately
+the advantage of writing it. If I leave to write the documentation in the end, when
+everything is done, the only benefit for writing it is on the future, so
+given that it provides less benefit (specially immediate ones) I feel that
+less care is placed on the docs. Also writing documentation first makes you
+document things incrementally, if you leave to write a lot of docs just in the
+end it is another force to push you towards being bored and doing a poor job
+documenting.
+
+Almost all of this applies the same for tests, you get more incremental feedback
+about the design decisions you made. Tests do that for you, but so can
+documentation. And in the same way that something that is hard to test may
+indicate a bad design, something that is very hard to document and explain may
+be indicative of a bad design, if you leave the documentation for last you will
+only get that feedback when everything is done.
+
 ### Details

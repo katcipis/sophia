@@ -639,6 +639,77 @@ the interface delivered to clients reflects that, packets just "always arrive" a
 are not even aware that transmission errors and retransmissions are happening
 (unless you dig for it, which is the non-default scenario).
 
-## Documentation as part of interface
+## Documentation
 
-## Documentation first
+On the topic of documentation there is two kinds of documentation.
+High level documentation, with the objective of adding intuition and
+low level documentation, with the objective of adding precision.
+The precision is added for other maintainers of the code, inside
+implementation. While intuition is provided to clients, so they
+can reason about exported abstractions in the module and how to use them.
+
+One concept that is applied to both kinds of documentation is to not
+repeat itself. Code can say a lot (but not everything), so don't write
+documentation that is redundant with the code, it will only add
+to cognition load with the possibility of getting out of sync with
+the code (change amplification).
+
+### As part of interface
+
+I really enjoyed how he builds a mental model where documentation
+is an integral part of interfaces, this puts documentation as a first
+class citizen in the design of systems and it makes perfect sense, specially
+because code and formal interfaces rarely can express all the intended
+behavior. This can be seen in one of my preferred Go interface,
+[io.Reader](https://golang.org/pkg/io/#Reader):
+
+```
+Reader is the interface that wraps the basic Read method.
+
+Read reads up to len(p) bytes into p. It returns the number of
+bytes read (0 <= n <= len(p)) and any error encountered.
+
+Even if Read returns n < len(p), it may use all of p as scratch
+space during the call. If some data is available but not len(p) bytes,
+Read conventionally returns what is available instead of waiting for more.
+
+When Read encounters an error or end-of-file condition after successfully
+reading n > 0 bytes, it returns the number of bytes read.
+
+It may return the (non-nil) error from the same call or return the error
+(and n == 0) from a subsequent call. An instance of this general case is that
+a Reader returning a non-zero number of bytes at the end of the input stream
+may return either err == EOF or err == nil. The next Read should return 0, EOF.
+
+Callers should always process the n > 0 bytes returned before considering
+the error err. Doing so correctly handles I/O errors that happen after
+reading some bytes and also both of the allowed EOF behaviors.
+
+Implementations of Read are discouraged from returning a zero byte count
+with a nil error, except when len(p) == 0.
+Callers should treat a return of 0 and nil as indicating
+that nothing happened; in particular it does not indicate EOF.
+
+Implementations must not retain p.
+```
+
+All the behavior described on the interface documentation can't be expressed
+formally in an interface in Go. How much invariants you can represent formally
+depends on the language. Dynamically typed languages depends much more on this
+concept of documentation being part of the interface since they formally define
+way less (no type information on interfaces).
+
+There are two movements that I always though are bullshit. The older one is
+"look at the code, it is the ultimate true documentation", I always thought that
+was an lazy excuse, but the author provides a more clear reasoning to explain why
+it is bullshit. When you provide an abstraction, the whole point is to abstract
+away details and complexity from clients, if clients need to look at the whole
+source code of an abstraction to be able to use it you failed because they where
+exposed to all the complexity anyway, you are not giving them much leverage.
+If someone, by curiosity wants to open the abstraction, that is welcomed and
+should be made as easy as possible, but it should not be a pre-requisite to
+work with an abstraction.
+
+### First
+
+### Details

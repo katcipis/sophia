@@ -567,13 +567,262 @@ Another example, but added by me, would be [Go's stdlib I/O package](https://gol
 I always felt it to be much simpler and easier to built things on top than
 Python file/IO handling for example.
 
-## Pull complexity down
+## Error Handling
 
-Prefer simple interfaces with complex implementation than
-simplifying the implementation by producing a more complex interface (MIT style)
+Error handling is exceptionally hard, this reminds me of an interview in
+Coders at Work where one of the hardest thing mentioned in programming is
+error handling and dealing with corner cases. There is very little consensus
+on how to do it, even among very experienced people, the author himself
+when asked about using exceptions or a more manual approach (like Go)
+answered with "it depends", when you can coalesce a lot of errors together
+exceptions seem better, but if you need to handle the errors one by one
+in multiple layers of the program exceptions look clumsy.  It kind
+matches my overall feeling that exceptions shine when you want to propagate
+errors and manual error handling shines when you actually handle them
+as close as possible where they happen. Since none of these scenarios
+are universal, sometimes you propagate, sometimes you handle, it doesn't
+seem to be an universal answer, not yet at least.
 
-## Design errors out of existence
+But leaving mechanism aside, on how to design error handling his advice is
+to push error handling to the extremes of the software, handle them close
+to where they happen and don't expose them through APIs or just let them
+bubble up and handle them in one place (avoiding a lot of error handling logic).
+None of them is universal, one example of allowing errors to bubble up is
+on a http service, where you can just catch errors and build error response on
+the same place, the core idea is to concentrate error building logic
+on one place to keep it consistent. In scenarios like these, exceptions
+may make it easier since it avoid boilerplate for propagation.
 
-## Documentation as part of interface
+The other idea, that pushes errors downwards (to low level parts of code), is
+called "designing errors out of existence". The idea here, as the name says, is
+to not expose errors at all. I'm very keen to the idea, one good way to model it
+is to embrace that errors are also part of your API, the less errors you
+expose the simpler is the interface (smaller) and the less coupling.
+When you think about it like that you realize that errors are part of
+your abstraction, and one of the toughest and most important thing
+about abstractions is to define what is a detail that can be hidden
+from clients and what should be made explicit and clear.
 
-## Documentation first
+An abstraction that makes all complexity public and explicit doesn't do
+much for the client, this is connected to the idea of deep modules, abstractions
+should do as much as possible for clients, and that includes error handling when
+appropriate (emphasis on when appropriate). I think the default behavior in
+software is just exposing errors, because it makes interfaces more complex but
+it is safer, in the sense that at least you are not hiding important detail
+from clients.
+
+So what would be a good criteria for "designing an error out
+of existence" ? It is easier to think using examples. One of the examples
+used on the book is TCL unset function. The function is used to unset an
+environment variable, and it was designed in a way that calling unset on
+a variable that doesn't exist throws an exception. This function was
+designed by the book author and in time he realized that 99% of the
+code using the function would just catch the exception and ignore it
+completely. Why was that happening ? Well if you are deleting something
+that doesn't exist, you usually got the final state that you desired anyway.
+It was very rare for a client to be interested in the fact that the variable
+actually existed. So in his opinion that was a design mistake on his part,
+the function would be better designed if it omitted the "not exist" error.
+This is related to the principle of making interfaces easier to use for
+the default scenario, if only 1% of people need to check if the variable
+exist, make them use another function to check that instead of imposing
+error handling on 99% of the cases. The tricky part is to detect this
+default scenario before having some feedback. Like the TCL case, it took time
+observing usage of the function to see that exposing the error was a mistake.
+
+Another example is the stream abstraction provided by TCP, some connectivity errors
+are exposed by TCP, because it is necessary detail, like the connection was
+dropped or there is just no more responses from the other side. But retransmission
+errors are completely hidden in the interface, you can check for retransmissions
+if you want, but the default case is to just assume that the stream is reliable so
+the interface delivered to clients reflects that, packets just "always arrive" and you
+are not even aware that transmission errors and retransmissions are happening
+(unless you dig for it, which is the non-default scenario).
+
+## Documentation
+
+On the topic of documentation there is two kinds of documentation.
+High level documentation, with the objective of adding intuition and
+low level documentation, with the objective of adding precision.
+The precision is added for other maintainers of the code, inside
+implementation. While intuition is provided to clients, so they
+can reason about exported abstractions in the module and how to use them.
+
+One concept that is applied to both kinds of documentation is to not
+repeat itself. Code can say a lot (but not everything), so don't write
+documentation that is redundant with the code, it will only add
+to cognition load with the possibility of getting out of sync with
+the code (change amplification).
+
+### As part of interface
+
+I really enjoyed how he builds a mental model where documentation
+is an integral part of interfaces, this puts documentation as a first
+class citizen in the design of systems and it makes perfect sense, specially
+because code and formal interfaces rarely can express all the intended
+behavior. This can be seen in one of my preferred Go interface,
+[io.Reader](https://golang.org/pkg/io/#Reader):
+
+```
+Reader is the interface that wraps the basic Read method.
+
+Read reads up to len(p) bytes into p. It returns the number of
+bytes read (0 <= n <= len(p)) and any error encountered.
+
+Even if Read returns n < len(p), it may use all of p as scratch
+space during the call. If some data is available but not len(p) bytes,
+Read conventionally returns what is available instead of waiting for more.
+
+When Read encounters an error or end-of-file condition after successfully
+reading n > 0 bytes, it returns the number of bytes read.
+
+It may return the (non-nil) error from the same call or return the error
+(and n == 0) from a subsequent call. An instance of this general case is that
+a Reader returning a non-zero number of bytes at the end of the input stream
+may return either err == EOF or err == nil. The next Read should return 0, EOF.
+
+Callers should always process the n > 0 bytes returned before considering
+the error err. Doing so correctly handles I/O errors that happen after
+reading some bytes and also both of the allowed EOF behaviors.
+
+Implementations of Read are discouraged from returning a zero byte count
+with a nil error, except when len(p) == 0.
+Callers should treat a return of 0 and nil as indicating
+that nothing happened; in particular it does not indicate EOF.
+
+Implementations must not retain p.
+```
+
+All the behavior described on the interface documentation can't be expressed
+formally in an interface in Go. How much invariants you can represent formally
+depends on the language. Dynamically typed languages depends much more on this
+concept of documentation being part of the interface since they formally define
+way less (no type information on interfaces).
+
+There are two movements that I always thought are bullshit. The older one is
+"look at the code, it is the ultimate true documentation", I always thought that
+was a lazy excuse, but the author provides a more clear reasoning to explain why
+it is bullshit. When you provide an abstraction, the whole point is to abstract
+away details and complexity from clients, if clients need to look at the whole
+source code of an abstraction to be able to use it you failed because they where
+exposed to all the complexity anyway, you are not giving them much leverage
+to deal with complexity. If someone, driven by curiosity, wants to open the
+abstraction, that is welcomed and should be made as easy as possible, but
+it should not be a pre-requisite to work with an well designed abstraction.
+
+The second movement is a fancy implementation of the first one, "just look
+at the tests, they are the documentation". Tests rarely (if ever) are as clear
+and small as a few paragraphs of text explaining the behavior of an interface,
+so it feels like an upgraded version of the laziness, now I need to understand
+your whole testing framework and a lot of other details just to check for
+a specific behavior of the interface.
+
+In the end I always had this opinion because of the experience I had with great
+libraries, like Go's standard library. I only open the standard library code
+when I'm curious about how something is done (it is fun :D), but when I just want
+to get something done reading the docs + interfaces is enough and that is great.
+Much better than having to open code, even if it is well written tests, nothing
+beats the speed of an paragraph of text right there with the type declaration
+and provides the ultimate level of complexity hiding, I don't need to know
+anything about the code or how it is tested to use it, it just seems like a better
+final artifact. So I agree with the author, proper docs are integral part of
+the abstraction, not something extra that can be added or not.
+
+I do also have feeling of duplication because of docs, since behavior is already
+expressed in the code and checked in tests, it does feel redundant, but the client
+of the docs is not the same client of the code implementation and tests.
+Having this in mind should help to keep docs as small as possible, revealing
+only details that should be exposed as part of the abstraction, that reduces
+overall complexity (less details leaked) and also reduces the duplication of
+the docs <-> code.
+
+### First
+
+One thing that got me really excited, because it is something that I have been
+doing for some time on my own, is the idea of document things before implementing.
+If you embrace the idea that documentation is an integral part of an interface
+this advice makes perfect sense, since I think it is a good idea to define
+interfaces first and analyze if they make sense and can be composed well with
+other interfaces, and documentation is part of the interface, then I'm going
+to document first too.
+
+This is a great tool to think from the outside to the inside, think first on
+how people are going to interact with what you are building instead on how
+to implement it. I see a lot of parallels between this and TDD and in my case
+I started doing it as an extension of TDD, pushing more and more towards the
+idea of first thinking on how what I'm building is going to be used than
+how to implement it in details. I suppose this is largely psychological,
+for me thinking from the outside to the inside works better, but some people
+think the other way around and that is fine too.
+
+Another possibly psychological thing that works for me is that if I
+start with documentation I usually write much better documentation, specially
+because the documentation is helping me on the design phase, so I feel immediately
+the advantage of writing it. If I leave to write the documentation in the end, when
+everything is done, the only benefit for writing it is on the future, so
+given that it provides less benefit (specially immediate ones) I feel that
+less care is placed on the docs. Also writing documentation first makes you
+document things incrementally, if you leave to write a lot of docs just in the
+end it is another force to push you towards being bored and doing a poor job
+documenting.
+
+Almost all of this applies the same for tests, you get more incremental feedback
+about the design decisions you made. Tests do that for you, but so can
+documentation. And in the same way that something that is hard to test may
+indicate a bad design, something that is very hard to document and explain may
+be indicative of a bad design, if you leave the documentation for last you will
+only get that feedback when everything is done.
+
+### Details
+
+Documenting details is something that is done for other maintainers, not for clients
+of you API. Here it is very important to not repeat yourself, generating useless
+documentation. Given that code should already express well **what** is being done
+and **how** usually documenting on this level boils down to documenting **why**.
+
+No amount of code can say the **why** of something, and specially for odd design
+decisions it is important to be clear and explicit regarding why, making it as
+close as possible to the awkward section of code / design decision.
+
+The author talks a little about using version control as a way to document why's
+and we share the same opinion in the sense that it is an bad idea. It is not a
+bad idea to add on a commit message a why of something, it is a bad idea for
+the why existing only in the commit message. It goes against the idea of
+reducing cognitive load, having to search around version control history to
+**maybe** find the reason for something is much slower and prone to problems
+than just being explicit directly on the code on why something is done the way
+it is done. It feels to me like an overloading of what a version control can do,
+as the name says the idea is to help controlling versions, it is not a source
+of documentation, documentation should be explicit and decoupled from version
+control systems (what if you lose the version control and have only the code ?).
+
+One real world example of this version control idea and how it can go bad is
+Brendan Greg [Linux Load Averages: Solving the Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html).
+It is a very interesting read in itself, but it surprised me how much he had to dig
+on the version control to try to understand the reasoning behind a design
+decision that could be documented in a few lines in the code.
+
+It is funny that he talks about how finding "why" using git is easy and
+right away makes it clear how this approach to find "why's" is flawed:
+
+```
+Understanding why something changed in Linux is easy: you read the git
+commit history on the file in question and read the change description.
+I checked the history on loadavg.c, but the change that added
+the uninterruptible state predates that file, which was created with code
+from an earlier file. I checked the other file, but that trail ran cold
+as well: the code itself has hopped around different files
+```
+
+I won't copy the whole blog post here, but in the end it was way harder
+than just digging through a version control system. For me it kinda makes
+the point that documenting the why of important design decisions should be
+made explicit on the code or is some other way directly on the project,
+not being delegated to version control systems and/or luck.
+
+Sometimes analyzing the changes that happened on code, when it happened, etc,
+is very important, I would not advocate not using version control systems
+(always loved them :-) ), I just don't think they should be used as the
+only source of truth for the reasoning behind design decisions, specially
+design decisions on interfaces exported to clients, like the Linux load
+average (it affects all Linux users).

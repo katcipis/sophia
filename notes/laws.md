@@ -9,3 +9,4 @@ they reflect good ideas and are good rules of thumb.
 * [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 * [Goodhart's](https://en.wikipedia.org/wiki/Goodhart%27s_law)
 * [Demeter's](https://en.wikipedia.org/wiki/Law_of_Demeter)
+* [Wirth's](https://en.wikipedia.org/wiki/Wirth%27s_law)

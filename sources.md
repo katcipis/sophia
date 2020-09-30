@@ -3,6 +3,10 @@
 * [Learning CS](https://teachyourselfcs.com/)
 * [Distributed Systems Reading Group](http://dsrg.pdos.csail.mit.edu/papers/)
 
+# Books
+
+* [Alan Kay Reading List](http://www.squeakland.org/resources/books/readingList.jsp)
+
 # Courses 
 
 * [Coursera](https://www.coursera.org/)
@@ -42,28 +46,11 @@
 * [Software Engineering Daily](https://softwareengineeringdaily.com)
 
 
-# Screencasts
-
-* [Destroy all software](https://www.destroyallsoftware.com/screencasts/catalog)
-* [Clean Coders](https://cleancoders.com/)
-* [8th light University](http://university.8thlight.com/)
-* [PyVideos](http://pyvideo.org/)
-
-
 # Blogs
 
 * [Paul Graham](http://www.paulgraham.com/articles.html)
-* [Netflix](http://techblog.netflix.com/)
 * [Free electrons](http://free-electrons.com/blog/)
-* [8th Light](http://blog.8thlight.com/)
-* [Clean coder](http://blog.cleancoder.com/)
 * [James Greening](http://www.renaissancesoftware.net/blog/)
-* [Thoughtworks](http://www.thoughtworks.com/insights)
-* [Sergio Prado](http://sergioprado.org/)
-* [Efetividade](http://efetividade.net/)
-* [Spotify](http://labs.spotify.com/)
-* [Red Hat](http://www.redhat.com/pt-br/about/blog)
-* [Core OS](https://coreos.com/blog/)
 * [LWN](https://lwn.net/)
 * [Data Science](https://github.com/rushter/data-science-blogs)
 * [Brendan Gregg](http://www.brendangregg.com/blog/index.html)

@@ -93,6 +93,7 @@
 ## Architecture and Design Outside Computing
 
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
+* [Notes on the Synthesis of Form](https://www.amazon.com/exec/obidos/ASIN/0674627512/squeakland-20)
 * [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 * [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199)
 * [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
@@ -107,6 +108,13 @@
 
 ## Psychology / Philosophy
 
+* [Flow](Flow: The Psychology of Optimal Experience)
+* [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393357821/)
+* [Zen Mind, Beginner's Mind](https://www.amazon.com/Zen-Mind-Beginners-50th-Anniversary/dp/1611808413)
+* [Amusing Ourselves to Death](https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business-dp-014303653X/dp/014303653X)
+* [Eye and Brain](https://www.amazon.com/exec/obidos/ASIN/0691048371/squeakland-20)
+* [Ghost in The Machine](https://www.amazon.com/exec/obidos/ASIN/0394524721/squeakland-20)
+* [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.amazon.com/exec/obidos/ASIN/0618057072/squeakland-20)
 * [In Search of Memory: The Emergence of a New Science of Mind](https://www.amazon.com/Search-Memory-Emergence-Science-Mind/dp/0393329372)
 * [Maps of Meaning: The Architecture of Belief](https://www.amazon.com/Maps-Meaning-Architecture-Jordan-Peterson/dp/0415922224)
 * [The Psychology of Computer Programming](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary/dp/0932633420)

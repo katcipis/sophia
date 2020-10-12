@@ -3,6 +3,7 @@
 # Table of Contents
 
 - [Wishlist](#wishlist)
+    - [Learning](#learning)
     - [History](#history)
     - [Personal](#personal)
     - [Architecture and Design Outside Computing](#architecture-and-design-outside-computing)
@@ -24,7 +25,9 @@
     - [Math](#math)
     - [Development Process](#development-process)
     - [Distributed Systems](#distributed-systems)
+    - [Networking](#networking)
     - [Software Design](#software-design)
+    - [Performance/Profiling](#performanceprofiling)
     - [Security](#security)
     - [Games](#games)
 - [Doing](#doing)

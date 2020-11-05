@@ -86,13 +86,6 @@
 * [comcast](https://github.com/tylertreat/comcast)
 
 
-## Management/Planning
-
-* [Testopia](https://developer.mozilla.org/en-US/docs/Mozilla/Bugzilla/Testopia)
-* [GTA](https://code.google.com/p/test-analytics/)
-* [Tarantula](http://www.testiatarantula.com/)
-
-
 ## Mocking
 
 * [Mountebank](http://www.mbtest.org/)
@@ -106,11 +99,6 @@
 
 
 # Debuggers
-
-## Go
-
-* [delve](https://github.com/derekparker/delve)
-
 
 ## Memory
 
@@ -138,61 +126,12 @@
 * [Helios](https://github.com/spotify/helios)
 
 
-## Services
-
-* [Snap](https://snap-ci.com/)
-* [Strider CD](http://stridercd.com/)
-* [Travis](https://travis-ci.org/)
-* [Coveralls](https://coveralls.io/)
-* [CircleCI](https://circleci.com/)
-
-
-# Static Analysis
-
-* [Simian](http://www.harukizaemon.com/simian/)
-* [PMD](http://pmd.sourceforge.net/)
-* [CCFinderX](http://www.ccfinder.net/ccfinderxos.html)
-* [Clone Digger](http://www.ccfinder.net/ccfinderxos.html)
-* [SonarQube](http://www.sonarqube.org/)
-* [oclint](http://oclint.org/)
-* [cccc](http://cccc.sourceforge.net/)
-* [Coverity](http://www.coverity.com/)
-* [Linthub](https://linthub.io/)
-
-
-## C / C++
-
-* [SonarQube C++](https://github.com/wenns/sonar-cxx)
-* [cppcheck](http://cppcheck.sourceforge.net)
-* [splint](http://splint.org/)
-
-
-## Python
-
-* [pyflakes](https://github.com/pyflakes/pyflakes/)
-* [pylint](http://www.pylint.org/)
-* [pep8](https://github.com/jcrocholl/pep8)
-
-
-## Golang
-
-* [go-vet](https://golang.org/cmd/vet)
-* [go-unused](https://github.com/dominikh/go-unused)
-* [go-simple](https://github.com/dominikh/go-simple)
-* [go-staticcheck](https://github.com/dominikh/go-staticcheck)
-* [gometalinter](https://github.com/alecthomas/gometalinter)
-* [dupl](https://github.com/mibk/dupl)
-* [goviz](https://github.com/hirokidaichi/goviz)
-
-
 # Profiling
 
 * [perf-tools](https://github.com/brendangregg/perf-tools)
 * [Perf](https://perf.wiki.kernel.org/index.php/Main_Page)
 * [ftrace](https://www.kernel.org/doc/Documentation/trace/ftrace.txt)
 * [Iperf](https://github.com/esnet/iperf)
-* [DTrace](http://dtrace.org/blogs/)
-* [System tap](https://sourceware.org/systemtap/)
 * [osquery](https://github.com/facebook/osquery)
 * [envdb](https://github.com/mephux/envdb)
 * [OProfile](http://oprofile.sourceforge.net/about/)
@@ -202,6 +141,7 @@
 
 ## Distributed System Tracing
 
+* [jaeger](https://www.jaegertracing.io/)
 * [zipkin](http://zipkin.io/)
 
 
@@ -286,22 +226,9 @@
 
 # Databases
 
-* [cockroach](https://github.com/cockroachdb/cockroach)
-* [arangodb](https://www.arangodb.com/)
-* [blinkdb](http://blinkdb.org/)
-* [druid](http://druid.io/)
-* [pipelinedb](https://www.pipelinedb.com/)
-* [ceph](http://ceph.com/)
-* [Presto](http://prestodb.io/)
-* [InfluxDB](http://influxdb.com/)
-* [Scylla](https://github.com/scylladb/scylla)
-* [Camlistore](http://camlistore.org/)
-* [RethinkDB](http://www.rethinkdb.com/)
-* [ZeroDB](https://www.zerodb.io/)
-
-
 ## SQL
 
+* [cockroach](https://github.com/cockroachdb/cockroach)
 * [citus](https://github.com/citusdata/citus)
 * [timescaledb](https://github.com/timescale/timescaledb)
 
@@ -323,83 +250,29 @@
 
 ## Data visualization
 
-* [superset](https://github.com/airbnb/superset)
-
-
-## Benchmarks
-
-* [hammerdb](http://www.hammerdb.com/)
-
-
-# Logging
-
-* [log.io](http://logio.org/)
-* [Bosun](http://bosun.org/)
-* [Chukwa](http://chukwa.apache.org/)
-* [Riemann](http://riemann.io/)
-* [Flume](http://flume.apache.org/)
-* [Gollum](https://github.com/trivago/gollum)
-* [Logspout](https://github.com/gliderlabs/logspout)
-* [Ekanite](https://github.com/ekanite/ekanite)
-* [Kibana](https://www.elastic.co/products/kibana)
-* [RRDtool](http://oss.oetiker.ch/rrdtool/)
-
-
-## Aggregate
-
-* [Logstash](http://www.logstash.net/)
-* [Graylog2](http://graylog2.org/)
-* [Heka](https://github.com/mozilla-services/heka)
-* [FluentD](http://www.fluentd.org/)
-
-
-## Analytics
-
-* [Sentry](https://www.getsentry.com/welcome/)
-* [Piwik](http://piwik.org/)
-* [SnowPlow](http://snowplowanalytics.com/)
-* [Inviso](https://github.com/Netflix/inviso)
+* [superset](https://github.com/apache/incubator-superset)
 
 
 # Message Brokers
 
 * [Kafka](http://kafka.apache.org/)
-* [jocko](https://github.com/travisjeffery/jocko)
 * [RabbitMQ](http://www.rabbitmq.com/)
 * [0MQ](http://zeromq.org/)
-* [Iris](http://iris.karalabe.com/)
 * [NSQ](https://github.com/bitly/nsq)
-* [cherami](https://github.com/uber/cherami-server)
-* [Celery](http://www.celeryproject.org/)
-* [Siberite](https://github.com/bogdanovich/siberite)
-* [nchan](https://github.com/slact/nchan)
 
-
-# Project Mangement
 
 # Monitoring
 
 * [SysDig](http://www.sysdig.org/)
-* [sysdig-inspect](https://github.com/draios/sysdig-inspect/)
 * [Prometheus](http://prometheus.io/)
 * [Zabbix](http://www.zabbix.com/)
 * [Monit](https://mmonit.com/monit/)
 * [Munin](http://munin-monitoring.org/)
 * [collectd](https://collectd.org/)
-* [Ganglia](http://ganglia.sourceforge.net/)
-* [Monitorix](http://www.monitorix.org/)
-* [DaemonTools](http://cr.yp.to/daemontools.html)
-* [MIG](http://mig.mozilla.org/)
 * [Performance Co Pilot](http://pcp.io/)
-* [CachetHQ](https://cachethq.io/)
-* [StatusPage](https://www.statuspage.io/)
 * [cAdvisor](https://github.com/google/cadvisor)
 * [Sensu](https://github.com/sensu/sensu)
-* [Graphite](http://graphite.wikidot.com/)
 * [Grafana](http://grafana.org/)
-* [Snap](https://github.com/intelsdi-x/snap)
-* [pome](https://github.com/rach/pome)
-* [netdata](http://netdata.firehol.org/)
 
 
 # Presentations
@@ -418,29 +291,14 @@
 * [Pipework](https://github.com/jpetazzo/pipework)
 
 
-# Penetration Tests
-
-* [skipfish](https://code.google.com/p/skipfish/)
-* [Burp](https://portswigger.net/burp/)
-
-
 # Performance/Load tests
 
+* [k6](https://k6.io/)
 * [Gatling](http://gatling-tool.org/)
 * [httperf](http://www.hpl.hp.com/research/linux/httperf/)
 * [ab](http://httpd.apache.org/docs/2.2/programs/ab.html)
-* [fortio](https://github.com/fortio/fortio)
-* [Tsung](http://tsung.erlang-projects.org/)
-* [slapper](https://github.com/ikruglov/slapper)
-* [k6](https://k6.io/)
-* [curl-loader](http://curl-loader.sourceforge.net/)
-* [wrk](https://github.com/wg/wrk)
-* [go-wrk](https://github.com/adjust/go-wrk)
-* [boom](https://github.com/rakyll/boom)
-* [vegeta](https://github.com/tsenart/vegeta)
+* [locust](https://locust.io/)
 * [Bees with machine guns](https://github.com/newsapps/beeswithmachineguns)
-* [goad](https://github.com/gophergala2016/goad)
-* [hargo](https://github.com/mrichman/hargo)
 * [JMeter](http://jmeter.apache.org/)
 
 
@@ -448,6 +306,7 @@
 
 ## Browser Automation
 
+* [Puppeteer](https://developers.google.com/web/tools/puppeteer)
 * [Selenium](http://www.seleniumhq.org/)
 * [PhantomJS](http://phantomjs.org/)
 * [chromedp](https://github.com/chromedp/chromedp)
@@ -456,8 +315,8 @@
 
 ## Secret Management
 
-* [Keywhiz](https://square.github.io/keywhiz/)
 * [Vault](https://vaultproject.io/)
+* [Keywhiz](https://square.github.io/keywhiz/)
 
 
 # Diagrams
@@ -487,10 +346,7 @@
 * [vulcand](https://github.com/mailgun/vulcand)
 * [happroxy](http://www.haproxy.org/)
 * [caddy](https://caddyserver.com/)
-* [h2o](https://h2o.examp1e.net/)
 * [traefik](https://github.com/EmileVauge/traefik)
-* [fabio](https://github.com/eBay/fabio)
-* [pound](http://www.apsis.ch/pound)
 
 
 # HTTP traffic analysis
@@ -504,44 +360,9 @@
 * [TestDisk](http://www.cgsecurity.org/wiki/TestDisk)
 
 
-# Speech Analysis
-
-* [pyttsx](https://github.com/parente/pyttsx)
-* [speech_recognition](https://github.com/Uberi/speech_recognition)
-
-
-# OCR
-
-* [tesseract](https://github.com/tesseract-ocr/tesseract)
-
-
-# Image Tagging
-
-* [NeuralTalk2](https://github.com/karpathy/neuraltalk2)
-
-
-# Deep Learning
-
-* [Caffe](http://caffe.berkeleyvision.org/)
-* [Keras](http://keras.io/)
-* [dnngraph](https://github.com/ajtulloch/dnngraph)
-* [Elastic Tought](https://github.com/tleyden/elastic-thought)
-* [waifu2x](https://github.com/nagadomi/waifu2x)
-
-
-# Content Analysis
-
-* [Tika](http://tika.apache.org/)
-
-
 # PDF
 
 * [PDF Liberation](https://pdfliberation.wordpress.com/)
-
-
-# Natural Language Processing
-
-* [SyntaxNet](https://github.com/tensorflow/models/tree/master/syntaxnet)
 
 
 # Scrapping 
@@ -607,8 +428,3 @@
 * [jepsen](https://github.com/jepsen-io/jepsen)
 * [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/tla.html)
 * [Runway](https://github.com/salesforce/runway-browser)
-
-# Hiring
-
-* [Triple Byte](https://triplebyte.com)
-* [Functional Works](https://functional.works-hub.com)

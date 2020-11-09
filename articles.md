@@ -194,6 +194,7 @@
 ## TODO
 
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
+* [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)

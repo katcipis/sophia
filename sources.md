@@ -25,6 +25,7 @@
 # Podcasts
 
 * [On The Metal](https://oxide.computer/blog/categories/on-the-metal/)
+* [corecursive](https://corecursive.com/)
 * [Command Line Heroes](https://feeds.pacific-content.com/commandlineheroes)
 * [Future Of Coding](https://futureofcoding.org/)
 * [Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
@@ -49,11 +50,12 @@
 # Blogs
 
 * [Paul Graham](http://www.paulgraham.com/articles.html)
+* [Toolshed](https://toolshed.com/articles.html)
+* [Brendan Gregg](http://www.brendangregg.com/blog/index.html)
 * [Free electrons](http://free-electrons.com/blog/)
 * [James Greening](http://www.renaissancesoftware.net/blog/)
 * [LWN](https://lwn.net/)
 * [Data Science](https://github.com/rushter/data-science-blogs)
-* [Brendan Gregg](http://www.brendangregg.com/blog/index.html)
 
 
 # Free books

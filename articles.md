@@ -59,6 +59,8 @@
 * [Paxos made simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
 * [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
+* [Chaos Engineering](https://arxiv.org/pdf/1702.05843.pdf)
+* [Conflict-free Replicated Data Types](https://hal.inria.fr/inria-00609399/document)
 * [Fundamental Limits of Online Network-Caching](https://arxiv.org/abs/2003.14085)
 * [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://arxiv.org/abs/2004.05074)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)

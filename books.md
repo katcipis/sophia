@@ -145,7 +145,6 @@
 ## Data
 
 * [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
-* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 * [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
 
 ### Databases
@@ -246,6 +245,7 @@
 
 ## Distributed Systems
 
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 * [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
 
@@ -290,8 +290,10 @@
 
 # Doing
 
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
-* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
+* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+* [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
+
 
 # Done
 
@@ -301,6 +303,9 @@
 * [Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [Foundation And Empire](https://www.amazon.com/Foundation-Empire-Isaac-Asimov/dp/0553293370)
 * [Second Foundation](https://www.amazon.com/Second-Foundation-Isaac-Asimov/dp/0553293362)
+* [Dealers of Lightining](http://www.amazon.com.br/Dealers-Lightning-Xerox-Parc-Computer/dp/0887309895)
+* [The Body Keeps the Score](https://www.amazon.com/Body-Keeps-Score-Healing-Trauma/dp/0143127748)
+* [The Caves of Steel](https://www.amazon.com/Caves-Steel-Daneel-Olivaw-Book/dp/0553293400)
 
 
 ## 2019

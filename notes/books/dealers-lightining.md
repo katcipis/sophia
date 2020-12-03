@@ -19,6 +19,14 @@ it was to find people like Ivan Sutherland and Alan Kay on the past, people
 that saw the potential of the machine as a rich interactive thing, a way to
 augment human intellect.
 
+This is mainly caused by the bias, even on very smart/talented
+engineers/programmers to see the computer as the end itself, instead
+of seeing computers as a means to an end, an end that involves people
+and how they interact with computers. They were only able to imagine
+other engineers working with machines, their disconnection from humanity
+was what allowed them to spend so much time with machines and build
+amazing systems, but it was also their blind spot.
+
 Actually this is also another example on how diversity is important in
 our field, because the one that pushed the most for interactive computing
 and networking was not an engineer, it was a psychologist,
@@ -37,3 +45,27 @@ because of the Vietnam war) most of the people involved on ARPA research
 went to work to PARC.
 
 # Networking
+
+The whole migration from ARPA to PARC reinforced to me how important
+networking is, in the sense of knowing the right set of people to build
+teams. Hiring processes is extremely hard, in my opinion it is an
+unsolvable problem and the best you can do is to have some heuristics.
+So knowing the right people to build a research lab is invaluable.
+
+It was so invaluable that it was the main reason that Bob Taylor was hired
+by Xerox to build PARC. He did not had any academic credentials and was
+usually frowned upon because of that. His behavior was also quite intense
+sometimes, the way he pursued his visions, and yet people in management
+tolerated him just because of his ability to build and keep awesome teams
+together. It feels like just a small thing to do, and yet it is so essential,
+specially to research and to tackle hard problems, that "just that" was
+enough to keep him employed on PARC.
+
+It feels like very little and yet it seems a lot like what good management
+is, find the right people and help maintain the environment they need
+to do good work. It is hard to define a process with that and sell it, it is
+also very hard to reproduce because it depends on context, that is why I think
+most management, even on the software industry, is pretty lame and orbits around
+control. It is much easier to teach and write books about control.
+You can teach control and how to measure, but you can't teach how to recognize
+talent and how to trust (or maybe you can... so far I don't think so).

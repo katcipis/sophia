@@ -122,3 +122,31 @@ important things that are happening around you.
 
 In the end, besides blind spots and biases, it seems that avoiding
 dogmatism is also hard, even among very smart people.
+
+# Failure
+
+It is a very normal human emotion to feel good about other people
+failures =P, not because you like seeing people failing by itself but
+because it makes you more in peace with your own shortcomings and
+failures. It can also move you not give up and keep trying, this is
+specially true if the person that failed kept trying and built
+great things.
+
+There is a lot of failures histories on the book, but one that caught my
+attention was one about Alan Kay. He is one of the most eloquent
+people that I know and he is very passionate about his ideas, so it is
+very hard to imagine him failing to convey his ideas and being speechless.
+
+And yet that is what happened the first time he tried to present the idea
+of building 30 personal computers to the entire lab. The lab director at
+the time, Elkind, simply destroyed the idea in public as something that
+made very little sense. Alan Kay was left speechless and even cried after
+the presentation. I can easily imagine this happening to me, but reading
+about this happening with someone like Alan Kay makes you see that
+success histories are usually filled with monumental failures.
+
+In the end he was able to pursue his vision with the Altos, which would be
+one of the first personal computers with rich interactivity, but even that
+was kind serendipitous, after his failure some people that were really
+interested on the challenge of building the Alto just approached Kay and
+offered to build it in partnership with him.

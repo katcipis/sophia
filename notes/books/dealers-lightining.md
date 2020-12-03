@@ -2,14 +2,14 @@
 
 Some notes from the [book](https://www.amazon.com/Dealers-Lightning-Xerox-PARC-Computer-ebook/dp/B0029PBVCA).
 
-# Short Sight
+# Interactive Computing and Short Sightedness
 
 Sometimes I feel funny by thinking that the opinion of people that seem
 smarter than me doesn't make sense, because it is counter intuitive that
 I may be seeing something that they don't, and yet when you look at
 history it is very normal that people that are exceptionally smart
 and created great things can sometimes, given their blind spots and
-biases, were also terribly wrong about other things.
+biases, be also terribly wrong about other things.
 
 One of the first things that surprised me was how a LOT of very talented
 engineers saw no future on personal computing and interactive computing

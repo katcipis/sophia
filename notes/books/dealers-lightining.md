@@ -84,3 +84,41 @@ experience and lots of responsibility will make sensible decisions, well
 sometimes they will but sometimes they will make very stupid decisions too.
 The main mistake he made was doing most of the negotiation and decision
 making alone, almost any engineer at Xerox at the time knew it was a mistake.
+
+# Religion and Dogma
+
+There are also some histories about how religion and dogma got in the
+way of getting things done. The first one is the history on how PARC
+"stole" a lot of talent from
+[Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart). This mainly
+happened because of Engelbart dogmatic/religious behavior, at least
+this was one of the reasons mentioned by a lot of people that left
+him in order to get something done.
+
+PARC itself was victim of that, even very smart people after being right
+sometimes can become dogmatic. One example of this was when they rejected
+the GPU idea (which today is common place and a billionaire industry).
+
+On the words of Bert Sutherland, the guy that proposed GPUs:
+
+```
+They were the best, the problem is that they knew it.
+They developed some prejudices and shot down good ideas too fast.
+```
+
+This made PARC a very smart place but at the same time very
+insular and disconnected from the rest of the world. Even if
+most of the ideas from the outside world were not great, a few
+were and they were unable to explore these good ideas because
+of their dogmatic behavior (and arrogance).
+
+There is also an interesting
+[blog post](https://commandcenter.blogspot.com/2019/01/notes-from-1984-trip-to-xerox-parc.html)
+from Rob Pike were he also talks about how PARC was insular, disconnected
+from the rest of the world. As any property on a system this can make
+disrupting ideas easier to built since you are ignoring the perceptions
+from the outside world, but also buts you in danger of ignoring
+important things that are happening around you.
+
+In the end, besides blind spots and biases, it seems that avoiding
+dogmatism is also hard, even among very smart people.

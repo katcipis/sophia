@@ -69,3 +69,18 @@ most management, even on the software industry, is pretty lame and orbits around
 control. It is much easier to teach and write books about control.
 You can teach control and how to measure, but you can't teach how to recognize
 talent and how to trust (or maybe you can... so far I don't think so).
+
+# McColough Folly
+
+There is a lot of material on what they call the
+[McColough](https://en.wikipedia.org/wiki/Charles_Peter_McColough) folly,
+which is basically the history on how a misguided manager wanted Xerox
+to invest on computing so bad that he bought a company that was not work even
+a few millions for a astounding one billion dollars. The company he bought
+did not even come close of giving something like 10 million dollars profit.
+
+Again, when you see things like this you imagine that people with a lot of
+experience and lots of responsibility will make sensible decisions, well
+sometimes they will but sometimes they will make very stupid decisions too.
+The main mistake he made was doing most of the negotiation and decision
+making alone, almost any engineer at Xerox at the time knew it was a mistake.

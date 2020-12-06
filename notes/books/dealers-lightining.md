@@ -150,3 +150,16 @@ one of the first personal computers with rich interactivity, but even that
 was kind serendipitous, after his failure some people that were really
 interested on the challenge of building the Alto just approached Kay and
 offered to build it in partnership with him.
+
+# Disagreements
+
+Since PARC was filled with very smart and opinionated people it was
+very common for disagreements to exist. Usually people understood each
+other and worked together despite that, but sometimes that was not possible.
+They even came up with a "class 1 disagreement" thing that meant
+two people were incompatible in a way that made it impossible for them
+to work together. It is very rare but I have felt something similar about
+a few people. Difference is good, specially for brainstorming, but sometimes
+differences are so fundamental that the chances of consensus are zero.
+I always assumed it was a failure on my part, maybe it isn't, maybe this
+just happens sometimes, not everyone can work together well.

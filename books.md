@@ -291,6 +291,7 @@
 # Doing
 
 * [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
+* [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 * [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
 

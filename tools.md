@@ -321,11 +321,11 @@
 
 # Diagrams
 
+* [diagrams.net](https://www.diagrams.net/)
+* [diagrams](https://github.com/mingrammer/diagrams)
 * [Dia](https://wiki.gnome.org/Apps/Dia/)
 * [Inkscape](http://inkscape.org/en/)
-* [Draw.io](https://www.draw.io/)
 * [ditaa](http://ditaa.sourceforge.net/)
-* [diagrams](https://github.com/mingrammer/diagrams)
 
 
 ## Sequence

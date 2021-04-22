@@ -62,6 +62,7 @@
 * [Chaos Engineering](https://arxiv.org/pdf/1702.05843.pdf)
 * [Conflict-free Replicated Data Types](https://hal.inria.fr/inria-00609399/document)
 * [Fundamental Limits of Online Network-Caching](https://arxiv.org/abs/2003.14085)
+* [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
 * [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://arxiv.org/abs/2004.05074)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
 * [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)

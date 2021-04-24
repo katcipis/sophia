@@ -34,7 +34,7 @@ and then all subscribers (followers) receive that event. That way each
 subscriber can have its own cache of queued up messages that is independent, no
 single point of access, the miracle of scaling :D.
 
-Except that for people who have millions of followers..that doesn't scale.
+Except that for people who have millions of followers that doesn't scale.
 It scales brilliantly for people with hundreds and thousands of followers.
 But for millions, creating millions of these subscriptions and queues/caches
 becomes in itself also a bottleneck, both in cost but also in overall latency
@@ -67,3 +67,56 @@ know a lot of them and compose them together.
 
 All this also reminds me of the design principle of
 [Form Follows Function](https://en.wikipedia.org/wiki/Form_follows_function).
+
+## Data Models
+
+The book is also brilliant on how it presents different data models,
+like comparing SQL/NoSQL, because it also avoids finding "winners" and it
+also provides a lot of historical context, specially in detailing that document
+databases are not a new thing, they are actually older than relational databases
+and they just made a comeback because they are much easier to scale,since the
+data model is simpler.
+
+Well, I mean, document databases also make some things easier, like if you always
+retrieved data aggregated in the exact same way a document database will be faster
+and will feel much simpler, because it is. Document databases explore locality
+better. If you always need the very same tree of data, you are golden with
+documents. The hierarchical model represents well one to many relationships,
+like all information related to a user in the same document. The problem is when
+you start having many to many or many to one relationships.
+
+An example is addresses, more than one people can leave on the exact same
+apartment, how to model that many to one relationship in a way that avoids
+duplication and is consistent and easy to maintain ? 
+
+Here enters the relational model, exactly to model that. You could argue that
+we need better models than the relational model, but an hierarchical model
+is not new neither more expressive, it is a simpler model suited for simpler
+problems, and it was well know by the people who developed an alternative
+solution, to when you problem domain demands something more expressive.
+
+I also find remarkable how the whole idea of the relational model is to
+enforce decoupling. They wanted to decoupled programs not just form the internal
+representation of the data, but also from external presentation, so even published
+schemas should be able to change and be extended without requiring changes
+on programs, and yet a lot of people present SQL databases as some sort of
+nightmare to evolve, it does give me a deep sense of "we are doing something
+terribly wrong with our data models", but it is not the relational model that is
+at fault, and an hierarchical model will definitely not help you much if
+your problem is "complex data with N-N/N-1 relations".
+
+Also even though the hierarchical model makes it easier to load aggregates
+of data, it does couple the application reading the data on specific decisions on
+how the data is hierarchically laid out, something that the relational model
+avoids by design, since it was a well know problem to when you have a hard
+problem that evolves along time and then you figure out that the hierarchy
+that you choose makes no sense (and you can't change it without breaking
+all programs using that data).
+
+But again the book presents the idea that there is no silver bullet that will
+solve all your data problems, but it kind dis-mystifies NoSQL as some sort of
+new thing that replaces SQL because SQL was stupid/complex/doesn't scale/etc.
+
+A great read on the limitations of hierarchical structures and also on the
+reasoning behind the relational model, including its objectives, can be read
+on the legendary [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf).

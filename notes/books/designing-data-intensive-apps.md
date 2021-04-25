@@ -8,7 +8,7 @@ One very interesting aspect of the book is how it defends that there
 is no single magic scaling sauce, like just use this tool,
 or just do this, or just use this architectural style, and you
 are going to scale for sure. That never made sense to me, it is
-counter intuitive since the problems pay a big hole on where
+counter intuitive since the problems play a big role on where
 bottlenecks will be present and each bottleneck can be quite
 challenging to solve, given the specific constraints of the problem at hand.
 
@@ -85,7 +85,7 @@ documents. The hierarchical model represents well one to many relationships,
 like all information related to a user in the same document. The problem is when
 you start having many to many or many to one relationships.
 
-An example is addresses, more than one people can leave on the exact same
+An example is addresses, more than one people can live in the exact same
 apartment, how to model that many to one relationship in a way that avoids
 duplication and is consistent and easy to maintain ? 
 
@@ -114,7 +114,7 @@ that you choose makes no sense (and you can't change it without breaking
 all programs using that data).
 
 But again the book presents the idea that there is no silver bullet that will
-solve all your data problems, but it kind dis-mystifies NoSQL as some sort of
+solve all your data problems, but it kind demystifies NoSQL as some sort of
 new thing that replaces SQL because SQL was stupid/complex/doesn't scale/etc.
 
 A great read on the limitations of hierarchical structures and also on the

@@ -286,18 +286,25 @@
 
 ## Games
 
-* [Game Engine Black Book](https://www.amazon.com/Game-Engine-Black-Book-Wolfenstein/dp/1539692876)
+* [Game Engine Black Book: DOOM: v1.1](https://www.amazon.com/Game-Engine-Black-Book-DOOM/dp/1099819776)
+* [Game Engine Black Book: Wolfstein 3D](https://www.amazon.com/Game-Engine-Black-Book-Wolfenstein/dp/1539692876)
 
 
 # Doing
 
-* [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
+* [The Making of Prince of Persia](https://www.amazon.com/Making-Prince-Persia-Journals-1985-1993-Illustrated-dp-0578627310/dp/0578627310/)
 * [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 * [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
 
 
 # Done
+
+## 2021
+
+* [The Robots of Dawn](https://www.amazon.com/Robots-Dawn-ISAAC-ASIMOV/dp/0008277788/)
+* [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
+
 
 ## 2020
 

@@ -93,10 +93,55 @@ will be really hard to reason with (in general, in my experience, at least).
 
 So another big win on if expressions.
 
-## Strings
+### Strings
 
 String are uniform arrays of unicode code points. That is considerably more
 memory hungry but it is a very sane/uniform way to implement strings with
 great support to i18n. Go for example is more efficient, but more confusing,
 since sometimes you get "array of bytes" behavior and sometimes you get
 "array of runes (unicode)" behavior (more [here](https://github.com/katcipis/sophia/blob/master/notes/go.md#strings)).
+
+Of course this is a tradeoff, but for a language more domain specific like
+jsonnet I agree with the decision of being uniform/simple to handle and using
+more memory.
+
+### Numbers
+
+Numbers are always [IEE 754](https://en.wikipedia.org/wiki/IEEE_754) float.
+They are not explicit on why, but I would guess it is inherited from JSON
+itself, where you only have a Number type always represented as a float.
+
+One win on the design of numbers is that at least any operation producinc a NaN
+or an Inf creates an explicit error, instead of just continuing the 
+computation and producing bizarre results.
+
+## Hermeticity
+
+Since I always have a bias to isolation, even when it makes some things harder,
+I really liked the concept of hermeticity applied on the language.
+
+That implies having no support for things like environment variables:
+
+```
+Jsonnet programs are pure computations, which have no side-effects
+and which depend only on the values which were explicitly passed.
+
+In particular, the behavior is independent from the setup of the
+system on which it runs (operating system, environment variables,
+filesystem, …).
+
+The semantics are defined almost entirely in mathematical terms,
+with a few exceptions, where Jsonnet depends on well-established
+portable standards (such as IEEE754 and Unicode).
+```
+
+They push for the idea of self contained configuration, but sometimes that
+is not possible (like handling secrets), for that TLA's are provided.
+They stand for Top Level Arguments and are very simple command line 
+arguments, defined and used in the same way you would do when
+calling a function.
+
+For something that resembles more global/environment variables it has
+external variables, which are accessible everywhere like env vars,
+but with the clear distinction that they reside on their own explicit
+namespace + they are immutable.

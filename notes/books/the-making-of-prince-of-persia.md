@@ -15,7 +15,7 @@ was dying and was not sure if it would be worth it to invest on it.
 
 Kinda funny how so much people involved on making games thought that the
 industry was starting to die, and its golden days have passed. Nothing could be
-further than the truth, the gaming industry just got bigger. It changed a lot,
+further from the truth, the gaming industry just got bigger. It changed a lot,
 but it is very far away from dying.
 
 ## Uncertainty
@@ -27,11 +27,12 @@ of illusion, at least for me.
 
 Since I'm strongly biased towards uncertainty it is always cool to observe people
 who built great stuff and yet were filled with doubt. There is this illusion that
-people who built great stuff are always determined and certain. He certainly wasn't,
-along almost an year he was drown in doubt.
+people who built great stuff are always determined and certain. Jordan certainly
+wasn't, along almost an year he was drown in doubt.
 
-Jordan was not sure either if it was worth it to make a game, and even if it was
-he was very unsure if he was actually able to make a game again.
+Jordan was not sure either if it was worth it to make a game,
+and even if it was, he was very unsure if he was actually able to
+make a game again.
 
 He developed the game [Karateka](https://en.wikipedia.org/wiki/Karateka_(video_game)),
 which was a huge success for the time it was developed, selling 500K units. And yet,
@@ -42,7 +43,7 @@ not be able to do what I used to anymore.
 
 Another interesting thing that made myself identify with the author a lot was
 a lack of ability into reproducing what he made at Karateka, he didn't remembered
-how he made Karateka, all that was involved, and was not sure if he could reproduce
+how he made Karateka, all what was involved, and was not sure if he could reproduce
 the whole thing again. It feels like things just happen, on the right time,
 and magic happens, and later you are not very sure how you were able to do
 what you did.
@@ -55,9 +56,12 @@ on my book =P).
 ## Attention to Detail
 
 Even though  he had a lot of doubts regarding his own skills, it is obvious that
-what made him great was attention to detail, in my opinion it always is, and that
+one of the main things that made him great was attention to detail,
+in my opinion it always is an important aspect of greatness, and that
 is why it is hard to find people who are great on creative work, because 
-attention to detail is not something that comes easy on our species.
+attention to detail is not something that comes easy on our species. We
+evolved with strong biases towards best effort and good enough, which
+to achieve mastery is certainly not enough.
 
 He reviewed some ports of Karateka to other platforms and it lacked so much
 in attention to detail that he couldn't even provide clear criticism about it,

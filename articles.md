@@ -104,6 +104,7 @@
 
 ### Languages
 
+* [The Development of Erlang](https://fermatslibrary.com/s/the-development-of-erlang)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)

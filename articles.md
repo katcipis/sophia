@@ -156,7 +156,8 @@
 
 ### Security
 
-
+* [BeyondCorp: A New Approach to Enterprise Security](https://research.google/pubs/pub43231/)
+* [Beyond Corp](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44860.pdf)
 * [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 * [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/kb/papers/z7ow0oy8/http-desync-attacks.pdf)

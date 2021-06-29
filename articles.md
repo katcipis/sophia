@@ -30,6 +30,11 @@
 
 ## Queue
 
+### Algorithms
+
+* [Space/Time Trade-offs in Hash Coding with Allowable Errors](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.7552&rep=rep1&type=pdf)
+
+
 ### Data
 
 * [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
@@ -52,10 +57,21 @@
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 
 
+#### Filesystems
+
+* [BTRFS](https://dominoweb.draco.res.ibm.com/reports/rj10501.pdf)
+
+
 ### Distributed Systems
 
+* [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
 * [Perspectives on the CAP Theorem](https://dspace.mit.edu/bitstream/handle/1721.1/79112/Brewer2.pdf)
+* [Internet Time Synchronization: the Network Time Protocol](https://www.eecis.udel.edu/~mills/database/papers/trans.pdf)
+* [The Leap Second Behaviour of NTP Servers](http://mural.maynoothuniversity.ie/10061/1/DM-Leap-2016.pdf)
+* [Omega: flexible, scalable schedulers for large compute clusters](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41684.pdf)
+* [OverDoSe: A Generic DDoS Protection Service Using an Overlay Network](http://ra.adm.cs.cmu.edu/anon/home/ftp/usr0/anon/2006/CMU-CS-06-114.pdf)
+* [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Paxos made simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
 * [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
@@ -178,11 +194,13 @@
 
 ### Not Classified Yet :-)
 
+* [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)
 * [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
 * [Man Computer Symbiosis](https://internetat50.com/references/Licklider_Man-Computer-Symbiosis.pdf)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Specifying and Model Checking Workflows of Single Page Applications with TLA+](https://arxiv.org/abs/2005.05627)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)

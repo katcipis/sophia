@@ -108,6 +108,7 @@
 * [Laws for Communicating Parallel Processes](https://dspace.mit.edu/handle/1721.1/41962)
 * [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
 * [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
+* [Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems](https://songlh.github.io/paper/gcatch.pdf)
 * [Static Race Detection and Mutex Safety and Liveness for Go Programs](https://arxiv.org/abs/2004.12859)
 * [A Static Verification Framework for Message Passing in Go using Behavioural Types](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)
 * [Ad Hoc Synchronization Considered Harmful](https://pdfs.semanticscholar.org/5de1/66adfe1ee8a19ce430a9d3435b566bb07185.pdf)

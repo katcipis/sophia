@@ -191,6 +191,7 @@
 ### Software Design
 
 * [Notes on Structured Programming](https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF)
+* [Worlds: Controlling the Scope of Side Effects](http://www.vpri.org/pdf/tr2011001_final_worlds.pdf)
 
 
 ### Not Classified Yet :-)

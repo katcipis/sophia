@@ -3,5 +3,6 @@
 * [Books](./books.md)
 * [Articles](./articles.md)
 * [Courses](./courses.md)
+* [Presentations](./presentations.md)
 * [Tools](./tools.md)
-* [Audios/Videos/Blogs](./digital.md)
+* [Sources](./sources.md)

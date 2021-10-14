@@ -45,9 +45,11 @@
 
 # Wishlist
 
-## Learning
+## Learning/Thinking
 
 * [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178)
+* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+* [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 
 
 ## History
@@ -61,17 +63,15 @@
 
 ## Personal
 
-* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835)
+* [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.com/gp/product/1594484805)
 * [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
 * [Multipliers: How the Best Leaders Make Everyone Smarter](https://www.amazon.com/dp/0062663070)
-* [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Genius: The Life and Science of Richard Feynman](https://www.amazon.com/Genius-Life-Science-Richard-Feynman/dp/0679747044)
 * [Understanding Power](https://www.amazon.com/dp/0099466066)
 * [The Information](https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235)
-* [The Foundation](https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354)
 * [Tao of Jeet Kune Do](https://www.amazon.com/Tao-Jeet-Kune-Do-Expanded/dp/0897502027)
 * [Shoe Dog](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [PayOff](https://www.amazon.com/Payoff-Hidden-Logic-Shapes-Motivations/dp/1501120042)
@@ -89,7 +89,6 @@
 * [Effective Programming: More Than Writing Code](http://www.amazon.com.br/Effective-Programming-More-Writing-English-ebook/dp/B008HUMTO0)
 * [Essentialism: The Disciplined Pursuit of Less](http://www.amazon.com/gp/product/0804137382)
 * [Science for sale](http://www.amazon.com/Science-Sale-Government-Corporations-Universities/dp/1626360715)
-* [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 * [Freedom from the Known](http://www.amazon.com/Freedom-Known-Jiddu-Krishnamurti/dp/0060648082)
 
 
@@ -97,8 +96,8 @@
 
 * [The Timeless Way of Building](http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028)
 * [Notes on the Synthesis of Form](https://www.amazon.com/exec/obidos/ASIN/0674627512/squeakland-20)
-* [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 * [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199)
+* [Complications: A Surgeon's Notes on an Imperfect Science](https://www.amazon.com/Complications-Surgeons-Notes-Imperfect-Science/dp/0312421702)
 * [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 * [Engineers of Dreams](https://www.amazon.com/Engineers-Dreams-Builders-Spanning-America/dp/0679760210)
 * [The Design of Design](https://www.cambridge.org/us/academic/subjects/engineering/engineering-design-kinematics-and-robotics/design-design?format=PB)
@@ -111,29 +110,28 @@
 
 ## Psychology / Philosophy
 
-* [Flow](Flow: The Psychology of Optimal Experience)
 * [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393357821/)
-* [Zen Mind, Beginner's Mind](https://www.amazon.com/Zen-Mind-Beginners-50th-Anniversary/dp/1611808413)
 * [Amusing Ourselves to Death](https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business-dp-014303653X/dp/014303653X)
+* [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
+* [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
+* [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 * [Eye and Brain](https://www.amazon.com/exec/obidos/ASIN/0691048371/squeakland-20)
+* [Zen Mind, Beginner's Mind](https://www.amazon.com/Zen-Mind-Beginners-50th-Anniversary/dp/1611808413)
 * [Ghost in The Machine](https://www.amazon.com/exec/obidos/ASIN/0394524721/squeakland-20)
 * [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.amazon.com/exec/obidos/ASIN/0618057072/squeakland-20)
 * [In Search of Memory: The Emergence of a New Science of Mind](https://www.amazon.com/Search-Memory-Emergence-Science-Mind/dp/0393329372)
 * [Maps of Meaning: The Architecture of Belief](https://www.amazon.com/Maps-Meaning-Architecture-Jordan-Peterson/dp/0415922224)
 * [The Psychology of Computer Programming](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary/dp/0932633420)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
-* [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
-* [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 * [A Handbook of Traditional Living](http://www.amazon.com/Handbook-Traditional-Living-Raido/dp/1907166068)
-* [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 
 
 ## Team / People
 
+* [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
-* [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 
 
 ## Health
@@ -146,6 +144,7 @@
 
 * [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 * [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
+
 
 ### Databases
 
@@ -187,6 +186,11 @@
 * [Functional Thinking](http://shop.oreilly.com/product/mobile/0636920029687.do)
 * [Domain-Specific Languages](http://www.amazon.com/gp/product/0321712943)
 * [Parsing Techniques](https://www.goodreads.com/book/show/1756599.Parsing_Techniques)
+
+
+### Erlang
+
+* [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
 
 
 ### Lisp / Scheme
@@ -259,12 +263,12 @@
 ## Software Design
 
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
-* [System Design Interview](https://www.amazon.de/-/en/Alex-Xu/dp/B08CMF2CQF)
-* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
+* [Structured Programming](https://www.amazon.com/dp/0122005503)
 * [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
+* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
+* [System Design Interview](https://www.amazon.de/-/en/Alex-Xu/dp/B08CMF2CQF)
 * [Domain Driven Design](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/)
-* [Structured Programming](https://www.amazon.com/dp/0122005503/?tag=devonfir-20)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
@@ -281,7 +285,6 @@
 * [The Codebreakers](https://www.amazon.com/Codebreakers-Comprehensive-History-Communication-Internet/dp/0684831309)
 * [Cryptography Engineering](http://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246)
 * Foundations of Security: What Every Programmer Needs to Know
-* http://www.amazon.com/Implementing-SSL-TLS-Using-Cryptography/dp/0470920416/ref=sr_1_1?s=books&ie=UTF8&qid=1372526995&sr=1-1&keywords=SSL
 
 
 ## Games
@@ -292,10 +295,8 @@
 
 # Doing
 
-* [The Making of Prince of Persia](https://www.amazon.com/Making-Prince-Persia-Journals-1985-1993-Illustrated-dp-0578627310/dp/0578627310/)
-* [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
+* [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X)
 
 
 # Done
@@ -304,6 +305,7 @@
 
 * [The Robots of Dawn](https://www.amazon.com/Robots-Dawn-ISAAC-ASIMOV/dp/0008277788/)
 * [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
+* [The Making of Prince of Persia](https://www.amazon.com/Making-Prince-Persia-Journals-1985-1993-Illustrated-dp-0578627310/dp/0578627310/)
 
 
 ## 2020

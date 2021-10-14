@@ -3,8 +3,12 @@
 * [Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/)
 * [Technical Writing](https://developers.google.com/tech-writing)
 * [Programming for the Puzzled](https://www.youtube.com/playlist?list=PLUl4u3cNGP62QumaaZtCCjkID-NgqrleA&app=desktop)
-* [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 * [Image and video processing](https://www.coursera.org/course/images)
+
+
+# Distributed Systems
+
+* [Distributed Systems Lectures from Kleppmann](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB)
 
 
 # Networking
@@ -32,6 +36,7 @@
 * [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
 * [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/welcome)
 * [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)
+* [Introduction to Recommender Systems](https://www.coursera.org/learn/recommender-systems/outline)
 
 
 # Algorithms

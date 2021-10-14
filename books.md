@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [Wishlist](#wishlist)
-    - [Learning](#learning)
+    - [Learning/Thinking](#learningthinking)
     - [History](#history)
     - [Personal](#personal)
     - [Architecture and Design Outside Computing](#architecture-and-design-outside-computing)
@@ -17,6 +17,7 @@
     - [Relational Theory](#relational-theory)
     - [Algorithms](#algorithms)
     - [Languages](#languages)
+        - [Erlang](#erlang)
         - [Lisp / Scheme](#lisp--scheme)
         - [C](#c)
     - [Concurrency](#concurrency)
@@ -32,6 +33,7 @@
     - [Games](#games)
 - [Doing](#doing)
 - [Done](#done)
+    - [2021](#2021)
     - [2020](#2020)
     - [2019](#2019)
     - [2018](#2018)

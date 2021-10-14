@@ -28,16 +28,16 @@
 
 # Articles
 
-## Queue
-
-### Algorithms
+## Algorithms
 
 * [Space/Time Trade-offs in Hash Coding with Allowable Errors](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.7552&rep=rep1&type=pdf)
 
 
-### Data
+## Data
 
 * [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
+* [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
+* [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf)
 * [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
 * [Dremel: Interactive Analysis of Web-Scale Datasets](https://research.google/pubs/pub36632/)
@@ -45,7 +45,6 @@
 * [Earlybird: Real-Time Search at Twitter](http://users.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf)
 * [The Dataflow Model](http://www.vldb.org/pvldb/vol8/p1792-Akidau.pdf)
 * [Interpreting the Data: Parallel Analysis with Sawzall](https://ai.google/research/pubs/pub61)
-* [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [New Algorithms for Heavy Hitters in Data Streams](https://arxiv.org/abs/1603.01733)
 * [Memory-Efficient Search Trees for Database Management Systems](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-101.pdf)
 * [Verifiable Data Structures](https://github.com/google/trillian/blob/master/docs/papers/VerifiableDataStructures.pdf)
@@ -54,46 +53,43 @@
 * [Efficient Summing over Sliding Windows (stream statistics)](http://arxiv.org/pdf/1604.02450v1.pdf)
 * [Detecting Change in Data Streams](https://cs.uwaterloo.ca/~shai/vldb04.pdf)
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
-* [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 
 
-#### Filesystems
+## Filesystems
 
 * [BTRFS](https://dominoweb.draco.res.ibm.com/reports/rj10501.pdf)
 
 
-### Distributed Systems
+## Distributed Systems
 
 * [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+* [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
+* [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
+* [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
+* [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)
+* [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
 * [Perspectives on the CAP Theorem](https://dspace.mit.edu/bitstream/handle/1721.1/79112/Brewer2.pdf)
+* [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
+* [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [Internet Time Synchronization: the Network Time Protocol](https://www.eecis.udel.edu/~mills/database/papers/trans.pdf)
 * [The Leap Second Behaviour of NTP Servers](http://mural.maynoothuniversity.ie/10061/1/DM-Leap-2016.pdf)
 * [Omega: flexible, scalable schedulers for large compute clusters](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41684.pdf)
 * [OverDoSe: A Generic DDoS Protection Service Using an Overlay Network](http://ra.adm.cs.cmu.edu/anon/home/ftp/usr0/anon/2006/CMU-CS-06-114.pdf)
-* [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Paxos made simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
-* [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
-* [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
-* [Chaos Engineering](https://arxiv.org/pdf/1702.05843.pdf)
 * [Conflict-free Replicated Data Types](https://hal.inria.fr/inria-00609399/document)
 * [Fundamental Limits of Online Network-Caching](https://arxiv.org/abs/2003.14085)
 * [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
 * [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://arxiv.org/abs/2004.05074)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
-* [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)
 * [Snap: a Microkernel Approach to Host Networking](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36f0f9b41e969a00d75da7693571e988996c9f4c.pdf)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
 * [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
 * [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
-* [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
 * [A Mathematical Theory of Communication](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
 * [A Generalised Solution to Distributed Consensus](https://arxiv.org/abs/1902.06776)
-* [The DSL for composing functions for FaaS platform](http://ceur-ws.org/Vol-2372/SEIM_2019_paper_20.pdf)
-* [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [A note on distributed systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
-* [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
 * [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
 * [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
@@ -101,39 +97,37 @@
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
 * [Off-Path TCP Exploits: Global Rate Limit Considered Dangerous](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf)
 * [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
+* [Chaos Engineering](https://arxiv.org/pdf/1702.05843.pdf)
 
 
-### Concurrency
+## Concurrency
 
-* [Laws for Communicating Parallel Processes](https://dspace.mit.edu/handle/1721.1/41962)
-* [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
-* [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
 * [Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems](https://songlh.github.io/paper/gcatch.pdf)
 * [Static Race Detection and Mutex Safety and Liveness for Go Programs](https://arxiv.org/abs/2004.12859)
 * [A Static Verification Framework for Message Passing in Go using Behavioural Types](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)
-* [Ad Hoc Synchronization Considered Harmful](https://pdfs.semanticscholar.org/5de1/66adfe1ee8a19ce430a9d3435b566bb07185.pdf)
-* [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)
-* [Transactional Memory Support for C](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1961.pdf)
-* [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
 * [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
 * [Why events are a bad idea](http://www.cs.berkeley.edu/~brewer/papers/threads-hotos-2003.pdf)
+* [Laws for Communicating Parallel Processes](https://dspace.mit.edu/handle/1721.1/41962)
+* [The problem with threads](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf)
+* [Concurrent Reading and Writing](https://lamport.azurewebsites.net/pubs/rd-wr.pdf)
+* [Ad Hoc Synchronization Considered Harmful](https://pdfs.semanticscholar.org/5de1/66adfe1ee8a19ce430a9d3435b566bb07185.pdf)
+* [SCHEDULING AND LOCKING IN MULTIPROCESSOR REAL-TIME OPERATING SYSTEMS](http://www.cs.unc.edu/~bbb/diss/brandenburg-diss.pdf)
+* [Kill-Safe Synchronization Abstractions](http://www.cs.utah.edu/plt/publications/pldi04-ff.pdf)
 
 
-### Languages
+## Languages
 
-* [The Development of Erlang](https://fermatslibrary.com/s/the-development-of-erlang)
+* [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
+* [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
+* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
+* [The Development of Erlang](https://fermatslibrary.com/s/the-development-of-erlang)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
-* [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
-* [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
-* [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
-* [Scheme with Classes, Mixins, and Traits](https://www.cs.utah.edu/plt/publications/aplas06-fff.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [On-the-fly garbage collection: an exercise in cooperation](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
-* [Fundamental Concepts in Programming Languages](http://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [Languages as Libraries](http://www.cs.utah.edu/plt/publications/pldi11-tscff.pdf)
 * [Advanced Macrology and the Implementation of Typed Scheme](http://www.ccs.neu.edu/racket/pubs/scheme2007-ctf.pdf)
 * [The Galois Connection between Syntax and Semantics](http://www.logicmatters.net/resources/pdfs/Galois.pdf)
@@ -141,7 +135,7 @@
 * [Advanced Procedural Modeling of Architecture](http://research.michael-schwarz.com/publ/files/cgapp-sig15.pdf)
 
 
-### Machine Learning
+## Machine Learning
 
 * [Machine Learning: The High Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/)
 * [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
@@ -152,19 +146,19 @@
 * [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)
 
 
-### Operational Systems
+## Operational Systems
 
 * [The Linux Scheduler: a Decade of Wasted Cores](http://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf)
 * [UNIX Implementation](https://users.soe.ucsc.edu/~sbrandt/221/Papers/History/thompson-bstj78.pdf)
 
 
-#### Clive
+### Clive
 
 * [The Clive Operating System](http://lsub.org/export/clivesys.pdf)
 * [Channels done right](http://lsub.org/export/belt.pdf)
 
 
-#### Inferno
+### Inferno
 
 * [Styx on a brick](http://www.vitanuova.com/inferno/papers/lego.pdf)
 * [Limbo profilers in Inferno](http://www.vitanuova.com/inferno/papers/lprof.pdf)
@@ -172,29 +166,28 @@
 
 
 
-### Security
+## Security
 
 * [BeyondCorp: A New Approach to Enterprise Security](https://research.google/pubs/pub43231/)
 * [Beyond Corp](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44860.pdf)
-* [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
-* [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/kb/papers/z7ow0oy8/http-desync-attacks.pdf)
+* [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/CacheOut.pdf)
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 
 
-### Fuzzy Testing
+## Fuzzy Testing
 
 * [Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
 
 
-### Software Design
+## Software Design
 
 * [Notes on Structured Programming](https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF)
 * [Worlds: Controlling the Scope of Side Effects](http://www.vpri.org/pdf/tr2011001_final_worlds.pdf)
 
 
-### Not Classified Yet :-)
+## Not Classified Yet :-)
 
 * [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)
 * [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
@@ -204,7 +197,6 @@
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
 * [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
-* [Specifying and Model Checking Workflows of Single Page Applications with TLA+](https://arxiv.org/abs/2005.05627)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
 * [Augmenting Human Intellect](http://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf)
 * [STEPS Toward the Reinvention of Programming](http://www.vpri.org/pdf/tr2012001_steps.pdf)
@@ -222,8 +214,8 @@
 
 * [Hints and Principles for Computer System Design](https://www.microsoft.com/en-us/research/publication/hints-and-principles-for-computer-system-design-3/)
 * [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
-* [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
+* [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
@@ -231,6 +223,11 @@
 
 
 ## Done
+
+### 2021
+
+* [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/kb/papers/z7ow0oy8/http-desync-attacks.pdf)
+
 
 ### 2020
 

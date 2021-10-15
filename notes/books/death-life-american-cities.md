@@ -127,9 +127,31 @@ of things your system also needs other properties, like:
 * Scalable (to some desired point)
 * Resilient
 * Efficient
+* Orthogonal (relates to resiliency)
 * Easy to deploy/operate
 * Observable
 
-All that also counts on performance of the system, how well it is doing,
-and it is fundamental when making decisions about boundaries and service
-size.
+All that also counts as "overall performance" of the system, how well it is doing,
+and it is fundamental when making decisions about boundaries and service size.
+But just as in urban planning, on software the decision on boundaries/size is
+actually really hard because you have this mesh of different properties that
+you need to satisfy and some of them can even be contradictory to each other,
+you push for one and loose the other.
+
+On top of that you have context, the whole social context of where the software
+is being built, by who, etc. Given all that complexity it is easy to create
+simpler mental models and just create ideas that work on this simpler/ideal
+mental model, but that has only the benefit of being more comfortable, it
+doesn't produce great design. For great design there is no easy rule of thumb
+thing to do all the time (like you learn once and do it forever),
+the only thing you should be doing all the time is:
+
+* Thinking critically about everything
+* Understanding your context
+* Gather feedback on system performance
+* Evaluate feedback honestly
+* Be cynical about easy answers and "thought leaders"/"experts"
+
+And by "thought leader"/"experts" I mean people that give non-contingent advice
+about things, just do this, just do that, everything will be better, these
+people are not truly experts (even if a industry says so).

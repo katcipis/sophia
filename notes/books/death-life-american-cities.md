@@ -105,3 +105,31 @@ It is not entirely helpless, if you have good engineers on an organization, even
 if it is hard to measure deterministically these kind of things, they will be
 able to get a sense if something is in a good state or not and do something
 about it.
+
+For example, unknown unknowns usually come from cryptic code, the
+code is so odd on its form, so filled with implicit things, lacking clarity,
+that even if you can't prove it is buggy, you have a deep sense of dread
+and you know that something is lurking there.
+
+Also I have seen people ignoring even the easy/measurable things, like
+change amplification. One of the classic microservices mistake is building
+the distributed monolith. The services are "isolated" at runtime/network level,
+but a problem in a service breaks almost everything in very obscure ways and
+adding a single/simple feature requires work to be done on multiple services
+every time, this is a clear indicator of change amplification (1 change amplifies
+into changes in 10 services for example), and yet people ignore this as normal
+and being the price for microservices. So if you take at least this seriously
+you are probably better off than most organizations.
+
+And then it gets even more complex, besides the maintenance/extension side
+of things your system also needs other properties, like:
+
+* Scalable (to some desired point)
+* Resilient
+* Efficient
+* Easy to deploy/operate
+* Observable
+
+All that also counts on performance of the system, how well it is doing,
+and it is fundamental when making decisions about boundaries and service
+size.

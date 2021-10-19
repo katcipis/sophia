@@ -17,7 +17,7 @@ reality.
 For district density, the idea was having this theoretical value
 that shows the ideal ratio of how much people should live per
 acre that is always optimal, assuming that everytime too much
-people live aglomerated (high density) that is bad (like a slum). 
+people live agglomerated (high density) that is bad (like a slum). 
 
 For services/software, the idea that it should always be small
 (leaving the definition of small hanging), because theoretically
@@ -33,7 +33,28 @@ works in all situations, she converges to contingent definitions
 instead of global/utopia truths.
 
 ```
-TODO: cool quote from the book
+What are proper densities for city dwellings?
+
+The answer to this is something like the answer Lincoln
+gave to the question:
+
+"How long should a man's legs be?"
+
+Long enough to reach the ground, Lincoln said.
+
+Just so, proper city dwelling densities are a matter of
+performance. They cannot be based on abstractions about
+the quantities of land that ideally should be allotted for
+so-and-so many people (living in some docile, imaginary
+society).
+
+Densities are too low, or too high, when they frustrate
+city diversity instead of abetting it. This flaw in performance
+is why they are too low or too high.
+
+We ought to look at densities in much the same way as we look at
+calories and vitamins. Right amounts are right amounts because
+of how they perform. And what is right differs in specific instances.
 ```
 
 On top of this idea that it always depends on your context she

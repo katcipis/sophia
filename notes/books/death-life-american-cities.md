@@ -1,6 +1,6 @@
 # The Death And Life Of Great American Cities
 
-TODO: Some intro + book link
+Notes from [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X).
 
 # District Density And MicroServices
 

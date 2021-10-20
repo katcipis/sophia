@@ -201,7 +201,7 @@ simpler mental models and just create ideas that work on this simpler/ideal
 mental model, but that has only the benefit of being more comfortable, it
 doesn't produce great design. For great design there is no easy rule of thumb
 thing to do all the time, like you learn once and do it forever and you are golden,
-the only thing you should be doing all the time is:
+some things you should be doing all the time is:
 
 * Thinking critically about everything
 * Understanding your context

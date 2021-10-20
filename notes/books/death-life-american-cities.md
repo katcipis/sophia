@@ -5,32 +5,36 @@ TODO: Some intro + book link
 # District Density And MicroServices
 
 Besides acquiring some interesting insights on urban planning,
-one of the most interesting aspects of reading a book like this one
+one of the most interesting aspects of reading this book
 is finding some patterns on how people behave, specially group
-thinking (or its even worse cousin, expert group thinking) and
+thinking (or its even worse cousin, "expert" group thinking) and
 on the topic of "ideal" district density another fallacy surfaced
 that reminded me of a similar one done by the software industry,
 trying to find ideal sizes/densities for things in an universal
-way, that sounds great in theory but completely disconnected from
-reality.
+way (basically, a context free easy answer),
+that sounds great in theory but completely disconnected from reality.
 
 For district density, the idea was having this theoretical value
 that shows the ideal ratio of how much people should live per
-acre that is always optimal, assuming that everytime too much
+acre of land that is always optimal, assuming that everytime too much
 people live agglomerated (high density) that is bad (like a slum). 
 
-For services/software, the idea that it should always be small
-(leaving the definition of small hanging), because theoretically
-handling a bunch of small services is always best than a bigger one.
+For services/software, the idea there is a similar trend that it
+should always be small (leaving the definition of small hanging),
+because theoretically handling a bunch of small services/runtimes
+is always best than a bigger one. It evoques a very similar emotional
+response, a lot of code linked together is ugly, dense, "slum" like,
+while small code on small runtimes is neat and precious, organized, elegant.
+
 For software some people even try to come up with amount of lines of
-code for defining what is micro, which doesn't make much sense but
-the terrible name given to the idea (micro) does push you towards
-thinking on literal size.
+code for defining what is "micro", which doesn't make much sense but
+the terrible name given to the idea (**micro**services) does push you
+towards thinking on literal size (how do I know if I'm doing **micro**).
 
 Now some interesting ideas from the book, for population density on
 a district the author defends that there is no golden ratio that
-works in all situations, she converges to contingent definitions
-instead of global/utopia truths.
+works in all situations, she converges to contingent/context aware
+definitions instead of global/utopic truths.
 
 ```
 What are proper densities for city dwellings?

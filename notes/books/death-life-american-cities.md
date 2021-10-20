@@ -66,13 +66,18 @@ provides examples where low density may work, where high density
 may work, and also where both breaks. The core principle to keep
 in mind is performance, you need a good way to measure how an
 idea is performing, you need to understand the core properties
-that you need to retain for something to work well. In the case
-of urban planning she defends diversity as this core property,
+that you need to retain for something to work well, and on what
+that depends.
+
+In the case of urban planning she defends diversity of use as
+one of the most important core properties,
 you need a diverse set of people, doing different things, at
 different times of day, to keep a lively neighborhood.
 
 So the right density is the one that for the given location,
-given other circumstances of the place, foster diversity of usage.
+given other circumstances of the place, foster diversity of usage
+(there are other properties, but I want to keep the notes brief =P).
+
 The whole point is that it is complex, usually diversity of usage
 is influenced by a lot of things in a district/neighborhood, density
 is just one of them, so it makes very little sense to try to find
@@ -89,11 +94,28 @@ hard, so people tend to give too much attention to non-contingent
 expert advice on how to solve problems, it is comfortable and easier
 but probably won't solve any of your real problems.
 
+From [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm):
+
+```
+A good architecture is not created in a vacuum. All design decisions at the
+architectural level should be made within the context of the functional,
+behavioral, and social requirements of the system being designed, which is
+a principle that applies equally to both software architecture and the
+traditional field of building architecture
+```
+
+That sums up well the fallacy of default answers, like "microservices" or
+do "pubsub" because you are basically architecting on the vacuum and it
+also shows how hard the problem really is, you need to consider even the
+**social** requirements of the system you are designing, who is going to
+interact with it ? how ? (both clients and also engineers changing the system
+behavior).
+
 But since the whole point here is to make an analogy, what would be the
 core principle that helps performance when maintaining distributed
 software ? This is as tricky for software as it is for urban planning,
 a lot of urban planning ideas will seem like a good idea for a few years
-but then collapse in time and create serious social issues, for software
+but then they collapse as time passes and create serious social issues, for software
 it is very easy to measure performance literally, in terms of how fast
 it is to build new features, fix bugs, etc, and that is equally prone
 to create a situation where you are really fast for some time, maybe even

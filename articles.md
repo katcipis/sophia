@@ -189,6 +189,12 @@
 * [Worlds: Controlling the Scope of Side Effects](http://www.vpri.org/pdf/tr2011001_final_worlds.pdf)
 
 
+## Error Handling
+
+* [Failure-Oblivious Computing and Boundless Memory Blocks](https://dspace.mit.edu/handle/1721.1/7505)
+* [Enhancing Server Availability and Security Through Failure-Oblivious Computing](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/rinard/rinard.pdf)
+
+
 ## Not Classified Yet :-)
 
 * [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)

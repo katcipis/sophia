@@ -65,6 +65,7 @@
 
 # Other
 
+* [Flux Collective](https://read.fluxcollective.org/)
 * [Pointer](http://www.pointer.io/purpose)
 * [C2](http://c2.com/cgi/wiki)
 * [Hacking Textfiles](http://www.textfiles.com/hacking/)

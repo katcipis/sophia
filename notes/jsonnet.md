@@ -145,3 +145,65 @@ For something that resembles more global/environment variables it has
 external variables, which are accessible everywhere like env vars,
 but with the clear distinction that they reside on their own explicit
 namespace + they are immutable.
+
+## Object Model and Type Definitions
+
+It is reasonably disappointing that there is no type definitions.
+You can create a variable holding an object definition and then
+use the inheritance mechanism provided to create variations of
+the original object, which seems like a quirky way to get some
+of the benefits you could get from a proper type system.
+
+Since the language is purely functional language, the inheritance
+mechanism seems less worse than it could be, but yet it is
+not my personal preference, I'm usually more prone to
+composition instead of inheritance + proper explicit
+type systems with static declarations.
+
+Like you can have an explicit type A, type B and create a
+type C that is explicitly composed by A and B (and maybe
+some more data).
+
+From the language reference:
+
+```
+Jsonnet objects allow inheritance in the OOP sense,
+even though there are no classes or declarations
+```
+
+It is a very different take on inheritance, when compared to Python or
+Java for example. It is quite interesting and it seems more safe
+and clear than classic languages, like multiple inheritance
+must be done explicitly with two **+** operations, which makes
+the order of overrides explicit. but overriding/shadowing can still be
+confusing, even scope shadowing can be tricky/misleading sometimes, 
+and for something as complex as objects with lots of fields/nesting,
+it does seem like something that can breed confusing stuff.
+
+It also has a **super** keyword...which doesn't evoke good memories
+on my hearth (Python war memories):
+
+```
+local obj = {
+  name: "Alice",
+  greeting: "Hello, " + self.name,
+};
+[
+  obj,
+  obj + { name: "Bob" },
+  obj + { greeting: super.greeting + "!"},
+  obj + { name: "Bob", greeting: super.greeting + "!"},
+]
+```
+
+So overall it is one of its aspects that is less appealing
+to me, there is some work on type/schema definition:
+
+https://github.com/google/jsonnet/issues/605
+
+The discussion also talks a lot about using JSON schema for
+this, which kinda reminds me why being so close to JSON may not
+be the best idea ever =P, it may be comfortable to most people
+since JSON syntax is very well known, but then you start having
+ideas like using JSON schema as a type system, and I would not even
+use JSON schema as a schema language =P.

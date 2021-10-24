@@ -57,6 +57,11 @@ distributed, although we ironically end up re-centralizing our usage of it
 through something like Github.
 ```
 
+It is interesting that all examples, except Earth's ecosystem, are
+smaller/specialized systems, usually when building an actual system
+that an end user depends on, you end up having an hybrid of fully
+distributed solutions and some centralization (like identity/authorization).
+
 And some good final advice on how to deal with the whole problem
 when designing systems (also social ones):
 

@@ -230,3 +230,39 @@ expert group thinking, doing what the current industry is doing.
 Another lesson is that she did all that by focusing on people, how
 they behave, what they like, what make them feel safe and engaged, not just
 some theory deprived of the human component.
+
+
+# Systems Of Thought
+
+There is some interesting ideas around how our systems of thought
+are always based, at least partially, on emotion, and how that
+can lead to irrational/dettached from reality mental models.
+
+```
+Systems of thought, no matter how objective they may purport
+to be, have underlying emotional bases and values.
+```
+
+No one is able to get rid entirely of emotion when building
+their own systems of thought, it is just how humans are wired,
+but it seems to be an advantage to at least be aware of how
+colored by emotion we may be, so we can avoid the pitfall
+of insisting on ideas that evidence suggest are bad.
+
+And as you can image, this is exactly what happened on urban planning
+around the time the book was written. There was a great aversion to
+high density areas, with focus on open space and low density.
+Given the empirical failure of most monotonous/open space/low density
+neighborhoods it was expected that people would realize the mismatch
+between reality and their systems of thought.
+
+And yet there was insistence on the urban planning field that high
+density was universally bad. Even if some low density places worked well
+in the context of cities, which is rare, they would deny the success
+of high density areas and insist on them being slums. Independent
+of how well a neighborhood performed, if it is high density, it must
+be a slum:
+
+```
+TODO: p.287
+```

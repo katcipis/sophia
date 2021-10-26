@@ -264,5 +264,57 @@ of how well a neighborhood performed, if it is high density, it must
 be a slum:
 
 ```
-TODO: p.287
+However, reason does not rule this world, and it will
+not necessarily rule here. The unreasoning dogma that
+healthy areas like the high-density North End of Boston
+must be slums, or must be bad, because they are high-density,
+would not have been accepted by modern planners as it has
+if there were not two fundamentally different ways of looking at
+the question of people in dense concentrations--and if those two
+ways were not, at bottom, emotional.
+
+People gathered in concentrations of big-city size and
+density can be felt to be an automatic--if necessary evil.
+
+This is a common assumption: that human beings are
+charming in small numbers and obnoxious in large numbers.
+
+Given this point of view, it follows that concentrations of
+people should be physically minimized in every way.
 ```
+
+The overall pattern in behavior is to desqualify a possible solution
+to a problem for emotional reasons. There was some high
+density areas in big cities in the past that didn't performed well and 
+truly were slums, but that was caused mostly because of poverty, bad
+work law, lack of sanitation/technology. That created a very colorful
+picture that lots of people living together is messy/unconfortable/unsanitary
+while ignoring all the rich possibilities that comes from the diversity of
+having so much different people living together and using the city
+in different ways.
+
+Tools like proper sanitation and epidemiology enabled
+high density areas to be safer and nicer, allowing us to get more of
+their benefits without having to pay a hefty price for it, and yet the
+benefits were not even considered by the people who were already convinced
+that for sure it was a bad idea.
+
+Since this is related to how humans behave it also happens on software
+development and the clearest example in my mind is, again, microservices.
+Colored by bad examples, taken out of context, people created this
+system of thought where "monolitic" applications are always bad, slums,
+messy, ugly, won't scale, bleh. And the counterpart, a set of small services,
+is always nice, well coordinated, clean, scalable and easy to maintain.
+
+It doesn't matter how much some microservices architecture fail, or how much some
+monoliths succeed, the emotional response is too strong, big is bad,
+monolitic is bad, there is nothing to argue, nothing to see or learn from
+the monolitic service that works well.
+
+It struck me how the pattern in behavior is the same, and also how the people
+affected on the urban plannig side of things were "experts" with decades
+of experience.
+
+Again an independent mind and critical thinking comes to the rescue,
+avoid the pitfalls of "expert" group thinking and be aware of how
+your emotions may be shaping your systems of thought.

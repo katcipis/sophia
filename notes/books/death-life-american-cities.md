@@ -230,3 +230,109 @@ expert group thinking, doing what the current industry is doing.
 Another lesson is that she did all that by focusing on people, how
 they behave, what they like, what make them feel safe and engaged, not just
 some theory deprived of the human component.
+
+
+# Systems Of Thought
+
+There is some interesting ideas around how our systems of thought
+are always based, at least partially, on emotion, and how that
+can lead to irrational/dettached from reality mental models.
+
+```
+Systems of thought, no matter how objective they may purport
+to be, have underlying emotional bases and values.
+```
+
+No one is able to get rid entirely of emotion when building
+their own systems of thought, it is just how humans are wired,
+but it seems to be an advantage to at least be aware of how
+colored by emotion we may be, so we can avoid the pitfall
+of insisting on ideas that evidence suggest are bad.
+
+And as you can image, this is exactly what happened on urban planning
+around the time the book was written. There was a great aversion to
+high density areas, with focus on open space and low density.
+Given the empirical failure of most monotonous/open space/low density
+neighborhoods it was expected that people would realize the mismatch
+between reality and their systems of thought.
+
+And yet there was insistence on the urban planning field that high
+density was universally bad. Even if some low density places worked well
+in the context of cities, which is rare, they would deny the success
+of high density areas and insist on them being slums. Independent
+of how well a neighborhood performed, if it is high density, it must
+be a slum:
+
+```
+However, reason does not rule this world, and it will
+not necessarily rule here. The unreasoning dogma that
+healthy areas like the high-density North End of Boston
+must be slums, or must be bad, because they are high-density,
+would not have been accepted by modern planners as it has
+if there were not two fundamentally different ways of looking at
+the question of people in dense concentrations--and if those two
+ways were not, at bottom, emotional.
+
+People gathered in concentrations of big-city size and
+density can be felt to be an automatic--if necessary evil.
+
+This is a common assumption: that human beings are
+charming in small numbers and obnoxious in large numbers.
+
+Given this point of view, it follows that concentrations of
+people should be physically minimized in every way.
+
+On the other hand, people gathered in concentrations of city size and
+density can be considered a positive good, in the faith that they are
+desirable because they are the source of immense vitality,
+and because they do represent, in small geographic compass, a great
+and exuberant richness of differences and possibilities,
+many of these differences unique and unpredictable and all the
+more valuable because they are.
+
+Given this point of view, it follows that the presence of great numbers of
+people gathered together in cities should not only be frankly accepted as
+a physical fact.
+
+It follows that they should also be enjoyed as an asset and their presence
+celebrated: by raising their concentrations where it is needful for
+flourishing city life, and beyond that by aiming for a visibly
+lively public street life and for accommodating and encouraging,
+economically and visually, as much variety as possible.
+```
+
+The overall pattern in behavior is to desqualify a possible solution
+to a problem for emotional reasons. There was some high
+density areas in big cities in the past that didn't performed well and 
+truly were slums, but that was caused mostly because of poverty, bad
+work law, lack of sanitation/technology. That created a very bleak
+picture where lots of people living together is messy/unconfortable/unsanitary
+while ignoring all the rich possibilities that comes from
+having so much different people living together and using the city
+in different ways.
+
+Tools like proper sanitation and epidemiology enabled
+high density areas to be safer and nicer, allowing us to get more of
+their benefits without having to pay a hefty price for it, and yet the
+benefits were not even considered by the people who were already convinced
+that for sure it was a bad idea (high density = slum/bad).
+
+Since this is related to how humans behave it also happens on software
+development and the clearest example in my mind is, again, microservices.
+Colored by bad examples, taken out of context, people created this
+system of thought where "monolitic" applications are always bad, slums,
+messy, ugly, won't scale, bleh. And the counterpart, a set of small services,
+is always nice, well coordinated, clean, scalable and easy to maintain.
+
+It doesn't matter how much some microservices architecture fail, or how much
+some monoliths succeed, the emotional response is too strong, big is bad,
+monolitic is bad, there is nothing to argue, nothing to see or learn from
+the monolitic service that works well.
+
+It struck me how the pattern in behavior is the same, and also how the people
+affected on the urban plannig side of things were "experts" with decades
+of experience.
+
+Again an independent mind and critical thinking comes to the rescue,
+avoid the pitfalls of "expert" group thinking and be aware of how
+your emotions may be shaping your systems of thought.

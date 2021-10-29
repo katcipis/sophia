@@ -47,6 +47,12 @@
 
 # Wishlist
 
+
+## Physics
+
+* [The troubles with Physics](https://www.amazon.com/Trouble-Physics-String-Theory-Science/dp/061891868X)
+
+
 ## Learning/Thinking
 
 * [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178)

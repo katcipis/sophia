@@ -266,6 +266,7 @@
 
 ## Networking
 
+* [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/dp/B072WD347M)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
 * [Introduction to Computer Networks](http://intronetworks.cs.luc.edu/current/html/intro.html)
 

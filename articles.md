@@ -182,6 +182,7 @@
 ## Fuzzy Testing
 
 * [Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
+* [SiliFuzz](https://github.com/google/fuzzing/blob/master/docs/silifuzz.pdf)
 
 
 ## Software Design

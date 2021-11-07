@@ -2,22 +2,18 @@
 
 # Table of Contents
 
+- [Static Analysis](#static-analysis)
 - [Testing](#testing)
-    - [Networking](#networking)
+    - [Network Failure Injection](#network-failure-injection)
     - [Mocking](#mocking)
 - [Debuggers](#debuggers)
     - [Memory](#memory)
         - [Python](#python)
-- [Continuous Delivery](#continuous-delivery)
-    - [On premisses](#on-premisses)
 - [Profiling](#profiling)
-    - [Distributed System Tracing](#distributed-system-tracing)
     - [Memory](#memory-1)
     - [CPU](#cpu)
     - [Network](#network)
     - [Disk](#disk)
-    - [Golang](#golang)
-    - [MongoDB](#mongodb)
     - [DBus](#dbus)
     - [C/C++](#cc)
 - [Hacking Tools](#hacking-tools)
@@ -41,10 +37,7 @@
 - [Diagrams](#diagrams)
     - [Sequence](#sequence)
     - [Graphs](#graphs)
-- [HTTP Reverse Proxies / Load balancers](#http-reverse-proxies--load-balancers)
 - [HTTP traffic analysis](#http-traffic-analysis)
-- [Disk Recovery](#disk-recovery)
-- [PDF](#pdf)
 - [Scrapping](#scrapping)
     - [Parsing](#parsing)
     - [Services](#services)
@@ -58,7 +51,6 @@
 - [Distributed System Validation](#distributed-system-validation)
 
 <!-- mdtocend -->
-
 
 # Static Analysis
 

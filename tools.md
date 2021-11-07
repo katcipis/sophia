@@ -62,7 +62,7 @@
 # Testing
 
 
-## Networking
+## Network Failure Injection
 
 * [comcast](https://github.com/tylertreat/comcast)
 
@@ -95,35 +95,15 @@
 * [Heapy](http://guppy-pe.sourceforge.net/)
 
 
-# Continuous Delivery
-
-## On premisses
-
-* [Spinnaker](https://github.com/spinnaker/spinnaker)
-* [Jenkins](http://jenkins-ci.org/)
-* [Go](http://www.go.cd/)
-* [Gitlab CI](https://about.gitlab.com/gitlab-ci/)
-* [Buildbot](http://buildbot.net/)
-* [Helios](https://github.com/spotify/helios)
-
-
 # Profiling
 
 * [perf-tools](https://github.com/brendangregg/perf-tools)
 * [Perf](https://perf.wiki.kernel.org/index.php/Main_Page)
 * [ftrace](https://www.kernel.org/doc/Documentation/trace/ftrace.txt)
-* [Iperf](https://github.com/esnet/iperf)
-* [osquery](https://github.com/facebook/osquery)
 * [envdb](https://github.com/mephux/envdb)
 * [OProfile](http://oprofile.sourceforge.net/about/)
 * [KCacheGrind](http://kcachegrind.sourceforge.net/html/Home.html)
 * [dstat](http://linux.die.net/man/1/dstat)
-
-
-## Distributed System Tracing
-
-* [jaeger](https://www.jaegertracing.io/)
-* [zipkin](http://zipkin.io/)
 
 
 ## Memory
@@ -143,6 +123,7 @@
 * [Nethogs](http://nethogs.sourceforge.net/)
 * [iftop](http://www.ex-parrot.com/~pdw/iftop/)
 * [iptraf](http://iptraf.seul.org/)
+* [Iperf](https://github.com/esnet/iperf)
 * [qperf](http://linux.die.net/man/1/qperf)
 
 
@@ -152,16 +133,6 @@
 * [ioping](https://code.google.com/p/ioping/)
 * [iotop](http://linux.die.net/man/1/iotop)
 * [hdparm](http://man7.org/linux/man-pages/man8/hdparm.8.html)
-
-
-## Golang
-
-* [go-torch](https://github.com/uber/go-torch)
-
-
-## MongoDB
-
-* [mtools](https://github.com/rueckstiess/mtools)
 
 
 ## DBus
@@ -322,28 +293,10 @@
 * [Gephi](http://gephi.github.io/)
 
 
-# HTTP Reverse Proxies / Load balancers
-
-* [vulcand](https://github.com/mailgun/vulcand)
-* [happroxy](http://www.haproxy.org/)
-* [caddy](https://caddyserver.com/)
-* [traefik](https://github.com/EmileVauge/traefik)
-
-
 # HTTP traffic analysis
 
 * [mitm](https://github.com/mitmproxy/mitmproxy)
 * [wuzz](https://github.com/asciimoo/wuzz)
-
-
-# Disk Recovery
-
-* [TestDisk](http://www.cgsecurity.org/wiki/TestDisk)
-
-
-# PDF
-
-* [PDF Liberation](https://pdfliberation.wordpress.com/)
 
 
 # Scrapping 

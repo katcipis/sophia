@@ -59,8 +59,14 @@
 
 <!-- mdtocend -->
 
-# Testing
 
+# Static Analysis
+
+* [codeql](https://codeql.github.com/)
+* [semgrep](https://semgrep.dev/) 
+
+
+# Testing
 
 ## Network Failure Injection
 

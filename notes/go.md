@@ -143,6 +143,28 @@ have no other option when you do this.
 
 ## Odd Stuff
 
+
+### New and Make
+
+Specially since Go introduced syntax to take the address of a
+composite literal, like:
+
+```go
+a := &Type{}
+```
+
+The **new** function is redundant/confusing, since it does the exact
+same thing, but when present on the code it does bring questions of
+"is it the EXACT same thing ? or is there some difference ?".
+
+Things get worse with the existence of **make**, which does have considerably
+different semantics.
+
+Rob Pike even proposed removing **new** to avoid confusion:
+
+- https://groups.google.com/g/golang-nuts/c/kWXYU95XN04/m/iRfB7YEt57UJ?pli=1
+
+
 ### JSON Unmarshaling is case insensitive
 
 This is just crap =(

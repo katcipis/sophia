@@ -231,6 +231,7 @@
 
 ## Embedded
 
+* [Patterns in the Machine: A Software Engineering Guide to Embedded Development](https://www.amazon.com/Patterns-Machine-Software-Engineering-Development/dp/1484264398)
 * Programming Embedded Systems in C and C++
 * The Art of Designing Embedded Systems, Second Edition
 

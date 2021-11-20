@@ -116,29 +116,74 @@ of abstraction.
 
 #### Inheritance
 
-pg 18 quote:
+When talking about objects, as a subset of the topic of modularization, the
+author is very spot on about some of the main dangers of classic inheritance
+with method overriding:
 
-Adding methods to a class makes a subclass, which inherits the superclass methods (and likewise for a classpec); thus Ordered T is a subclass of an Equal T class that has only the eq method.
-An instance of Ordered T is also an instance of Equal T. The subclass provides code for the added
-methods, and it can replace or override the superclass methods as well. The subclass should satisfy
-the classpec of the superclass, which is all that its clients can count on. Then there’ll be no surprises
-when a subclass object is used in code that expects the superclass. An easy way to ensure this is to
-not override the superclass methods, and to keep the added methods from changing the private 
-19
-data of the superclass. The final modifier in Java enforces this, but inheritance in general does
+```
+The subclass provides code for the added methods, and it can replace or
+override the superclass methods as well. The subclass should satisfy
+the classpec of the superclass, which is all that its clients can count on.
+
+Then there’ll be no surprises when a subclass object is used in code that
+expects the superclass. An easy way to ensure this is to
+not override the superclass methods, and to keep the added methods from
+changing the private data of the superclass.
+
+The final modifier in Java enforces this, but inheritance in general does
 not. It’s very easy to break the superclass abstraction, because
+
 − usually the spec is very incomplete and
 − actually proving correctness is beyond the state of the art, so
 − at most you get a guarantee that the method names and types agree.
-There are two distinct ideas here: hiding (abstraction) and overloading (using the same name
-for more than one thing).
-• The class is doing the usual job of abstraction, describing the object’s behavior and hiding its
-code from clients.
-• The class is providing overloading for its methods, making it easy to invoke them using names
-local to the class, but the same as the names of methods in other classes with the same spec or
-a closely related one.
-These two things work together when the different overloaded methods do indeed satisfy the same
-spec, but can be a rich source of errors when they don’t, since there’s no way to get the machine
-to tell you. This may be okay when the same team owns both superclass and subclass, but it’s very
-dangerous if the superclass has many independent clients, since there’s no single party ensuring
-that the subclass satisfies its spec
+```
+
+It does reminds me of the rationale on how Go approaches object orientation,
+you have interfaces, where you still can interpret the spec wrong (specifying
+interfaces rarely is done just with the formal definition), but at least
+you don't actually override a method implicitly with complete different
+behavior, interfaces are pure spec, not spec + code, it seems the surface
+for confusion/problems is considerably smaller.
+
+Then the approach for extending types is composition, it introduces some
+syntactic sugar but still there is no automatic overriding of methods, 
+and it is impossible to access private data from the object you
+are composing with, unless you reside on the same package as the object,
+so it basically avoids the main pitfalls of inheritance, crazy overriding 
+and change of internal state of the superclass.
+
+I suppose it is good that Go "is not object oriented" =P.
+
+
+A little more on abstraction/overloading:
+
+```
+There are two distinct ideas here: hiding (abstraction) and overloading
+(using the same name for more than one thing).
+
+• The class is doing the usual job of abstraction, describing the object’s
+behavior and hiding its code from clients.
+
+• The class is providing overloading for its methods, making it easy to
+invoke them using names local to the class, but the same as the names of
+methods in other classes with the same spec or a closely related one.
+
+These two things work together when the different overloaded methods
+do indeed satisfy the same spec, but can be a rich source of errors
+when they don’t, since there’s no way to get the machine
+to tell you.
+
+This may be okay when the same team owns both superclass and subclass,
+but it’s very dangerous if the superclass has many independent clients,
+since there’s no single party ensuring that the subclass satisfies its spec
+```
+
+Basically overloading/overriding doesn't scale well, if you have control of the
+whole software, like a single team, it can work well, but for anarchical
+composition, like an OSS library used in wild ways by a lot of people, it
+will probably not compose well. Maybe that is why usually frameworks get
+traction, they don't allow wild composition, are less flexible and enforce
+you to work with its own abstractions, which makes sense in classical object
+oriented languages, where inheriting things and making mixin's (as in Python)
+will probably go wrong with lots of different clients using the software for
+different purposes.

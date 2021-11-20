@@ -104,3 +104,41 @@ of multiple different things going wrong at once, the perfect storm, but
 it was also related to misconfigurations, maybe the idea of "benign"
 misconfiguration should not exist, it is also a bug, a software bug,
 given a well defined specification.
+
+## Abstraction
+
+On abstractions it is defined that a module is something with a clear
+interface that can be composed in unforeseen ways, so it could be
+an object, or not. So discussions around objects are just a subset
+of abstraction.
+
+### Objects
+
+#### Inheritance
+
+pg 18 quote:
+
+Adding methods to a class makes a subclass, which inherits the superclass methods (and likewise for a classpec); thus Ordered T is a subclass of an Equal T class that has only the eq method.
+An instance of Ordered T is also an instance of Equal T. The subclass provides code for the added
+methods, and it can replace or override the superclass methods as well. The subclass should satisfy
+the classpec of the superclass, which is all that its clients can count on. Then there’ll be no surprises
+when a subclass object is used in code that expects the superclass. An easy way to ensure this is to
+not override the superclass methods, and to keep the added methods from changing the private 
+19
+data of the superclass. The final modifier in Java enforces this, but inheritance in general does
+not. It’s very easy to break the superclass abstraction, because
+− usually the spec is very incomplete and
+− actually proving correctness is beyond the state of the art, so
+− at most you get a guarantee that the method names and types agree.
+There are two distinct ideas here: hiding (abstraction) and overloading (using the same name
+for more than one thing).
+• The class is doing the usual job of abstraction, describing the object’s behavior and hiding its
+code from clients.
+• The class is providing overloading for its methods, making it easy to invoke them using names
+local to the class, but the same as the names of methods in other classes with the same spec or
+a closely related one.
+These two things work together when the different overloaded methods do indeed satisfy the same
+spec, but can be a rich source of errors when they don’t, since there’s no way to get the machine
+to tell you. This may be okay when the same team owns both superclass and subclass, but it’s very
+dangerous if the superclass has many independent clients, since there’s no single party ensuring
+that the subclass satisfies its spec

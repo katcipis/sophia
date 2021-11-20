@@ -1,5 +1,7 @@
 # Hints and Principles for Computer System Design
 
+Notes from the [paper](https://arxiv.org/pdf/2011.02455v3.pdf).
+
 ## Specs
 
 There is an abundance of awesome advice on how to specify computer systems,

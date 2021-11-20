@@ -5,7 +5,7 @@
 There is an abundance of awesome advice on how to specify computer systems,
 it would be pointless to just summarize all here (also a great deal of it leans
 towards math and I'm math dumb, so would not be able to give insight into it),
-but there is a few thingsthat gets extra attention.
+but there is a few things that gets extra attention.
 
 On the hallmarks of good specs, comes simplicity and the importance of
 good design, with the bonus round of a Dennis Ritchie quote:
@@ -105,7 +105,7 @@ it was also related to misconfigurations, maybe the idea of "benign"
 misconfiguration should not exist, it is also a bug, a software bug,
 given a well defined specification.
 
-## Abstraction
+## Abstraction: Modules and Interfaces
 
 On abstractions it is defined that a module is something with a clear
 interface that can be composed in unforeseen ways, so it could be
@@ -187,3 +187,31 @@ you to work with its own abstractions, which makes sense in classical object
 oriented languages, where inheriting things and making mixin's (as in Python)
 will probably go wrong with lots of different clients using the software for
 different purposes.
+
+### Components
+
+Components are defined as this:
+
+```
+A module that is engineered to be reused in several
+systems is called a component
+```
+
+Which is a tough topic, already starting with interesting quotes:
+
+```
+Reusing pieces of code is like picking off sentences from other people’s
+stories and trying to make a magazine article. —Bob Frankston
+
+It’s harder to read code than to write it. —Joel Spolsky
+```
+
+So even though re-implementing everything from scratch all the time,
+just using whatever component you found on the internet is also
+a recipe for disaster, re-usability feels to me like the holy grail
+of computer science, people are always trying to achieve that
+but it rarely works out well =P, at least in the classic sense where
+someone is just implementing something and then has the idea to make
+it generic/re-usable.
+
+TODO: elaborate more on the hardships of assessing dependencies

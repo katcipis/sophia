@@ -216,4 +216,83 @@ but it rarely works out well =P, at least in the classic sense where
 someone is just implementing something and then has the idea to make
 it generic/re-usable.
 
-TODO: elaborate more on the hardships of assessing dependencies
+```
+Obviously it’s better to find a component that does what you need than
+to build it yourself (don’t reinvent the wheel), but there are some pitfalls:
+
+− You need to understand its spec, including its performance.
+
+− You need to be confident that its code actually satisfies the spec
+and will be maintained.
+
+− If it doesn’t quite do everything that you want,
+you have to fill in the gaps.
+
+− Your environment must satisfy the assumptions the component makes:
+how it allocates resources, how it handles initialization, exceptions
+and failures, how it’s configured and customized, and the interfaces
+it depends on.
+```
+
+My overall feeling is that the industry focus way too much on
+"don't reinvent the wheel" and almost nothing on assessing
+dependencies (the wheel) properly. Personally I dislike the wheel
+metaphor, what we do is extremely more complex than just
+"if there is already a wheel just use it". Even wheels are not
+that simple, like wheels for an airplane have a very different
+spec from wheels on a car, and yet from the outside they look
+the same, it seems to push people towards superficial analysis.
+
+With so much software being open, intuition would dictate that
+there would be a component out there for almost everything you need,
+but in the end, there isn't, and with good reason:
+
+```
+Building a truly reusable component costs several times as much
+as building a module that does a good job in one system, and usually
+there’s no business model that can pay this cost.
+
+So an advertised component probably won’t meet your needs for a reliable,
+maintainable system, though it could still be fine if dependability is not
+critical (for example, for approximate software).
+```
+
+This does reminds me of [Our Dependency Problem](https://research.swtch.com/deps),
+it suggests an algebraic model to assess dependencies that is the product
+of "chance of bad outcome (overall quality/robustness)" *
+"impact when bad outcome happens", so when impact of failure is small,
+assessing quality is not as important. And for each
+dependency you have the sum of these products. Not a complete model, but it 
+is simple enough to grasp easily and it has some truth to it.
+
+How to avoid the dependency pitfall ?
+
+```
+There are two ways to keep from falling into one of these pitfalls:
+
+• Copy and paste the module’s code into your system and make whatever changes
+you find necessary. This is usually the right thing to do for a small component,
+because it avoids the problems listed above.
+The drawback is that it’s hard to keep up with bug fixes or improvements.
+
+• Stick to the very large components usually called platforms. There will
+only be a few of them to learn about, they encapsulate a lot of hard
+engineering work, and they stay around for a long time because they have
+a viable business model (since it’s impractical to write your own
+database or browser). A well-maintained library can also be a source of
+safe components that are smaller than a whole platform
+```
+
+So essentially, for core/big stuff find something solid, and for small features
+it is preferable to do it yourself or even copy code. It is not the first
+time I see advice like this, from [Go Proverbs](https://go-proverbs.github.io/):
+
+```
+A little copying is better than a little dependency.
+```
+
+Some people (including me) come from indoctrination on DRY, like any
+repetition/copying is bad, as usual being dogmatic/idealist with stuff
+doesn't go well in real life, so keep things DRY when it makes sense, and
+replicate when it doesn't (life scales through replication, for example, it
+repeats it self a lot =P).

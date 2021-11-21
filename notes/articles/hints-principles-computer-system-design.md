@@ -208,9 +208,9 @@ stories and trying to make a magazine article. —Bob Frankston
 It’s harder to read code than to write it. —Joel Spolsky
 ```
 
-So even though re-implementing everything from scratch all the time,
-just using whatever component you found on the internet is also
-a recipe for disaster, re-usability feels to me like the holy grail
+So even though re-implementing everything from scratch all the time
+is unfeasible, just using whatever component you found on the internet
+is also a recipe for disaster, re-usability feels to me like the holy grail
 of computer science, people are always trying to achieve that
 but it rarely works out well =P, at least in the classic sense where
 someone is just implementing something and then has the idea to make

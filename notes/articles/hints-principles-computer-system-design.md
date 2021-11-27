@@ -299,7 +299,9 @@ repeats it self a lot =P).
 
 ## Simplicity
 
-Most of the advice on simplicity is very sound, but I just loved the quotes used,
+Most of the advice on simplicity is very sound specialy because things are
+presented as tradeoffs, opposing forces taht you should never just chose one
+and stick with it forever, but I just loved the quotes used on the beginning,
 so I feel compeled to quote the quotes =P.
 
 ```
@@ -320,3 +322,27 @@ Beauty is our business. —Edsger Dijkstra
 Beauty is more important in computing than anywhere else in technology … because software is
 so complicated…. Beauty is the ultimate defense against complexity. —David Gelernter
 ```
+
+Going back to simplicity, some of the advice reminds me why I usually don't like
+frameworks/power tools:
+
+```
+A successful key module will grow over time, improving performance
+with better algorithms and adding a few features, but building on a solid foundation. Make it fast
+rather than general or powerful, because then the client can program the function it wants. Slow,
+powerful operations force the client who doesn’t want the power to pay more for the basic function.
+Usually it turns out that the powerful operation is not the right one. Well-known examples are
+CISC vs. RISC instruction sets and guaranteed vs. best-efforts packet delivery.
+```
+
+And then a truth that I have observed happening over and over again:
+
+```
+Often a module that succeeds in doing one thing well becomes more elaborate and does several
+things. This is okay, as long as it continues to do its original job well. If you extend it too much,
+though, you’ll end up with a mess. Only good judgment can protect you from this.
+```
+
+Good judgement is hard to develop, it can't be teached (you can be a good example, but the
+observer will need time to develop it) and this force towards making something sucessful bigger
+seems universal, part of human nature.

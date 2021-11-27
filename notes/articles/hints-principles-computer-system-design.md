@@ -296,3 +296,27 @@ repetition/copying is bad, as usual being dogmatic/idealist with stuff
 doesn't go well in real life, so keep things DRY when it makes sense, and
 replicate when it doesn't (life scales through replication, for example, it
 repeats it self a lot =P).
+
+## Simplicity
+
+Most of the advice on simplicity is very sound, but I just loved the quotes used,
+so I feel compeled to quote the quotes =P.
+
+```
+I’m sorry I wrote you such a long letter; I didn’t have time to write a short one. —Blaise Pascal
+
+Everything should be made as simple as it can be, but not simpler. —Albert Einstein
+
+Simple things should be simple, complex things should be possible. —Alan Kay
+
+The onion principle: doing a simple task is simple, and if it’s less simple, you peel one layer off
+the onion. The more layers you peel off, the more you cry. (paraphrased) —Bjarne Stroustrup
+
+Perfection is attained not when there is no longer anything to add, but when there is no longer
+anything to take away. —Antoine de Saint-Exupéry
+
+Beauty is our business. —Edsger Dijkstra
+
+Beauty is more important in computing than anywhere else in technology … because software is
+so complicated…. Beauty is the ultimate defense against complexity. —David Gelernter
+```

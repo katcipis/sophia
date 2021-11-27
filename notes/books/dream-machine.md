@@ -40,3 +40,33 @@ depicted a math professor that made his name by stealing ideas
 from his younger genius students, which does seem to correlate
 with his personal experience with Courant. This is of course, his
 side of the whole story =P.
+
+# Top Down vs Bottom Up
+
+When the book reaches the time period of 1960 it starts talking about
+McCarthy/Lisp and some other interesting stuff that was happening around
+this time. One interesting thing was an analysis on different ways to
+design systems, the classic top-down vs bottom-up.
+
+There is usually no right approach, since this is also related to how
+people usually think about things. But the book gives a hint on why
+each approach may be better suited for different kinds of problems.
+
+When you have a problem more well understood, where you have a clear
+vision of the whole structure, you can be top/down in a way that resembles
+more a classic/hierarchical manager, you can delegate different parts of
+the overall task to sub-modules easily because you have a very good view
+of the whole problem and the structure of the solution.
+
+For problems that are less understood, or that you have less understanding
+about the solution structure, bottom-up will be beneficial, since with
+bottom-up you focus on defining useful/small core blocks that you are
+not sure yet how you are going to compose to solve the final problem.
+The small blocks + composition allows you to explore more freely and
+iterate faster.
+
+On top of this overall idea, which I found intriguing/interesting, it was
+also defended that Lisp was well suited for bottom-up design, it is fairly
+easily to start with small functions and compose them into larger ones
+incrementally, not all languages (if any) around 1960 would allow you
+to approach problems that way.

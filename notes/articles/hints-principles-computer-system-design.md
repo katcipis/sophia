@@ -367,3 +367,90 @@ observer will need time to develop it) and this force towards making something s
 seems universal, part of human nature.
 
 ## Timely
+
+This means reaching out to the market at the right time, that doesn't mean necessarily
+selling something, one example would be linux, in the end you have a user base and you
+need to reach them on the right time,on the right way, or even if you have a much better
+design you may just fail anyway (if success means adoption, there are other ways to measure
+success, but for this discussion it seems that adoption is important).
+
+This is very tricky, because on the realm of tradeoffs not everything is easier to add later:
+
+```
+Building a timely system (one that ships soon enough to meet your time-to-market needs) means
+making painful choices to give up features and dependability. If it’s extensible you can add features
+later; adding dependability is harder. It’s easier to make approximate software timely.
+```
+
+One concrete example is testing, which is related to dependability, ignoring it completely on the
+beginning and then adding later is quite hard, much more hard than starting with the tests IMHO,
+and yet sometimes you may have to make that decision, as far as people deciding are aware of this
+it could be a good decision, the problem is being oblivious to the tradeoff.
+
+## Efficient
+
+On efficiency it defines it as:
+
+```
+Efficiency is about doing things fast and cheaply
+```
+
+And it is approached on the classic manner, if you are not sure you need it, don't do it,
+specially because today other goals are usually more important than efficiency:
+
+```
+It used to be that machines were small and slow, and it was a struggle to get your problem to fit.
+Today machines are big and fast, and for many problems efficiency is not an issue; it’s much more
+important to be timely, dependable and yummy
+```
+
+But there are still some niches where efficiency is paramount:
+
+```
+But there are still plenty of
+big problems: genomics, molecular dynamics, web search, social media graphs. And there are
+devices with limited energy that can’t afford to execute too many instructions, and new real-time
+problems where the computer needs to keep up with the human or with the physical world,
+responding in just a few milliseconds
+```
+
+Overall it is not about not caring for efficiency, but efficiency is hard to attain,
+anything that is hard should be done only if absolutely necessary, unless you are just
+having an intellectual exercise:
+
+```
+It’s tricky to write an efficient program, so don’t do it unless you really need the performance.
+If a shell script is fast enough to solve your problem, by all means use a shell script.
+```
+
+And if you optimze, there is the timeless advice:
+
+```
+first design, then code and debug, then measure, finally (if ever) optimize.
+```
+
+It doesn't make sense to optimize something that doesn't even work yet, and if
+it works you need to measure so you can be sure it is slow and where.
+
+It is not like the author doesn't care about performance, actually he pushes for
+performance being part of the initial spec, something that you care and specify
+before coding, so it is not about being all high-level/Java like and not caring
+about anything until it works:
+
+```
+A system design needs to consider efficiency as well as simplicity and functionality, even
+though it shouldn’t involve detailed optimization. To evaluate a design idea, start by working out
+roughly how much latency, bandwidth and storage it consumes to deliver the performance you
+need. Then ask whether with optimistic assumptions (including plausible optimizations), you can
+afford that much. If not, that idea is no good; if so, go on to a more detailed analysis of the possible
+bottlenecks, and of how sensitive the cost is to the parameters of the platform and workload.
+```
+
+The idea is that maybe the first naive implementation will be enough, given the spec, then you are good.
+There is also some good advice of measuring things in a live system:
+
+```
+Your guess about where the time is going is probably wrong. Measure before you optimize. If you
+depend on something unpredictable, measure it in the running system and either adapt to it, or at
+least report unexpected values so that developers or operations staff can tell what’s going on.
+```

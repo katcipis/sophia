@@ -297,7 +297,26 @@ doesn't go well in real life, so keep things DRY when it makes sense, and
 replicate when it doesn't (life scales through replication, for example, it
 repeats it self a lot =P).
 
-## Simplicity
+# STEADY
+
+On overall goals for software he proposes the cute acronym **STEADY**:
+
+* Simple
+* Timely (time to market, being the first to deliver)
+* Efficient
+* Adaptable
+* Dependable
+* Yummy =P (clients like the system)
+
+It does capture a lot of the core goals with software design and it makes it easier
+to discuss some of the tradeoffs that you have to make, like having something
+less efficient and dependedable so you can have something timely/adaptable/yummy.
+
+It is not impossible to have all, but as it is pointed out on the article, it costs
+much more and most business can't afford that, so you need to be ready for some
+unconfortable tradeoffs.
+
+## Simple
 
 Most of the advice on simplicity is very sound specialy because things are
 presented as tradeoffs, opposing forces taht you should never just chose one
@@ -346,3 +365,5 @@ though, you’ll end up with a mess. Only good judgment can protect you from thi
 Good judgement is hard to develop, it can't be teached (you can be a good example, but the
 observer will need time to develop it) and this force towards making something sucessful bigger
 seems universal, part of human nature.
+
+## Timely

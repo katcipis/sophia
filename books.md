@@ -62,8 +62,8 @@
 
 ## History
 
-* [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [The Pentium Chronicles](https://www.amazon.com/Pentium-Chronicles-Robert-P-Colwell/dp/0471736171)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
 * [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
@@ -260,7 +260,6 @@
 
 ## Distributed Systems
 
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 * [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
 
@@ -307,6 +306,7 @@
 
 # Doing
 
+* [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 * [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X)
 

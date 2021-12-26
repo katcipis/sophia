@@ -16,6 +16,7 @@
     - [Security](#security)
     - [Fuzzy Testing](#fuzzy-testing)
     - [Software Design](#software-design)
+    - [Error Handling](#error-handling)
     - [Not Classified Yet :-)](#not-classified-yet-)
     - [TODO](#todo)
     - [Done](#done)
@@ -37,6 +38,7 @@
 
 ## Data
 
+* [Amazon Aurora: Design Considerations for High Throughput Cloud-native Relational Databases](https://www.amazon.science/publications/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases)
 * [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
@@ -120,6 +122,7 @@
 
 ## Languages
 
+* [Declarative programming: The light at the end of the tunnel](https://www.microsoft.com/en-us/research/publication/declarative-programming-light-end-tunnel/)
 * [Fundamental Concepts in Programming Languages](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
@@ -193,18 +196,21 @@
 
 ## Error Handling
 
+* [Efficient software-based fault isolation](https://cs155.stanford.edu/papers/sfi.pdf)
 * [Failure-Oblivious Computing and Boundless Memory Blocks](https://dspace.mit.edu/handle/1721.1/7505)
 * [Enhancing Server Availability and Security Through Failure-Oblivious Computing](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/rinard/rinard.pdf)
 
 
 ## Not Classified Yet :-)
 
+* [Points of View: Tribute To Alan Kay](https://www.microsoft.com/en-us/research/uploads/prod/2016/11/Kay-Points-of-View.pdf)
+* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)
 * [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
 * [Man Computer Symbiosis](https://internetat50.com/references/Licklider_Man-Computer-Symbiosis.pdf)
-* [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
-* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [Engineering with Logic: Rigorous Test-Oracle Specification and Validation for TCP/IP and the Sockets API](https://www.cl.cam.ac.uk/~pes20/Netsem/paper3.pdf)
 * [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
@@ -222,8 +228,8 @@
 
 ## TODO
 
-* [Hints and Principles for Computer System Design](https://arxiv.org/abs/2011.02455v3)
 * [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
@@ -237,6 +243,7 @@
 ### 2021
 
 * [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/kb/papers/z7ow0oy8/http-desync-attacks.pdf)
+* [Hints and Principles for Computer System Design](https://arxiv.org/abs/2011.02455v3)
 
 
 ### 2020

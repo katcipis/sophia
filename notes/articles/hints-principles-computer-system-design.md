@@ -297,9 +297,30 @@ doesn't go well in real life, so keep things DRY when it makes sense, and
 replicate when it doesn't (life scales through replication, for example, it
 repeats it self a lot =P).
 
-## Simplicity
+# STEADY
 
-Most of the advice on simplicity is very sound, but I just loved the quotes used,
+On overall goals for software he proposes the cute acronym **STEADY**:
+
+* Simple
+* Timely (time to market, being the first to deliver)
+* Efficient
+* Adaptable
+* Dependable
+* Yummy =P (clients like the system)
+
+It does capture a lot of the core goals with software design and it makes it easier
+to discuss some of the tradeoffs that you have to make, like having something
+less efficient and dependedable so you can have something timely/adaptable/yummy.
+
+It is not impossible to have all, but as it is pointed out on the article, it costs
+much more and most business can't afford that, so you need to be ready for some
+unconfortable tradeoffs.
+
+## Simple
+
+Most of the advice on simplicity is very sound specialy because things are
+presented as tradeoffs, opposing forces taht you should never just chose one
+and stick with it forever, but I just loved the quotes used on the beginning,
 so I feel compeled to quote the quotes =P.
 
 ```
@@ -319,4 +340,117 @@ Beauty is our business. —Edsger Dijkstra
 
 Beauty is more important in computing than anywhere else in technology … because software is
 so complicated…. Beauty is the ultimate defense against complexity. —David Gelernter
+```
+
+Going back to simplicity, some of the advice reminds me why I usually don't like
+frameworks/power tools:
+
+```
+A successful key module will grow over time, improving performance
+with better algorithms and adding a few features, but building on a solid foundation. Make it fast
+rather than general or powerful, because then the client can program the function it wants. Slow,
+powerful operations force the client who doesn’t want the power to pay more for the basic function.
+Usually it turns out that the powerful operation is not the right one. Well-known examples are
+CISC vs. RISC instruction sets and guaranteed vs. best-efforts packet delivery.
+```
+
+And then a truth that I have observed happening over and over again:
+
+```
+Often a module that succeeds in doing one thing well becomes more elaborate and does several
+things. This is okay, as long as it continues to do its original job well. If you extend it too much,
+though, you’ll end up with a mess. Only good judgment can protect you from this.
+```
+
+Good judgement is hard to develop, it can't be teached (you can be a good example, but the
+observer will need time to develop it) and this force towards making something sucessful bigger
+seems universal, part of human nature.
+
+## Timely
+
+This means reaching out to the market at the right time, that doesn't mean necessarily
+selling something, one example would be linux, in the end you have a user base and you
+need to reach them on the right time,on the right way, or even if you have a much better
+design you may just fail anyway (if success means adoption, there are other ways to measure
+success, but for this discussion it seems that adoption is important).
+
+This is very tricky, because on the realm of tradeoffs not everything is easier to add later:
+
+```
+Building a timely system (one that ships soon enough to meet your time-to-market needs) means
+making painful choices to give up features and dependability. If it’s extensible you can add features
+later; adding dependability is harder. It’s easier to make approximate software timely.
+```
+
+One concrete example is testing, which is related to dependability, ignoring it completely on the
+beginning and then adding later is quite hard, much more hard than starting with the tests IMHO,
+and yet sometimes you may have to make that decision, as far as people deciding are aware of this
+it could be a good decision, the problem is being oblivious to the tradeoff.
+
+## Efficient
+
+On efficiency it defines it as:
+
+```
+Efficiency is about doing things fast and cheaply
+```
+
+And it is approached on the classic manner, if you are not sure you need it, don't do it,
+specially because today other goals are usually more important than efficiency:
+
+```
+It used to be that machines were small and slow, and it was a struggle to get your problem to fit.
+Today machines are big and fast, and for many problems efficiency is not an issue; it’s much more
+important to be timely, dependable and yummy
+```
+
+But there are still some niches where efficiency is paramount:
+
+```
+But there are still plenty of
+big problems: genomics, molecular dynamics, web search, social media graphs. And there are
+devices with limited energy that can’t afford to execute too many instructions, and new real-time
+problems where the computer needs to keep up with the human or with the physical world,
+responding in just a few milliseconds
+```
+
+Overall it is not about not caring for efficiency, but efficiency is hard to attain,
+anything that is hard should be done only if absolutely necessary, unless you are just
+having an intellectual exercise:
+
+```
+It’s tricky to write an efficient program, so don’t do it unless you really need the performance.
+If a shell script is fast enough to solve your problem, by all means use a shell script.
+```
+
+And if you optimze, there is the timeless advice:
+
+```
+first design, then code and debug, then measure, finally (if ever) optimize.
+```
+
+It doesn't make sense to optimize something that doesn't even work yet, and if
+it works you need to measure so you can be sure it is slow and where.
+
+It is not like the author doesn't care about performance, actually he pushes for
+performance being part of the initial spec, something that you care and specify
+before coding, so it is not about being all high-level/Java like and not caring
+about anything until it works:
+
+```
+A system design needs to consider efficiency as well as simplicity and functionality, even
+though it shouldn’t involve detailed optimization. To evaluate a design idea, start by working out
+roughly how much latency, bandwidth and storage it consumes to deliver the performance you
+need. Then ask whether with optimistic assumptions (including plausible optimizations), you can
+afford that much. If not, that idea is no good; if so, go on to a more detailed analysis of the possible
+bottlenecks, and of how sensitive the cost is to the parameters of the platform and workload.
+```
+
+The idea is that maybe the first naive implementation will be enough, given the spec, then you are good.
+There is also some good advice of measuring things in a live system:
+
+```
+Your guess about where the time is going is probably wrong. Measure before you optimize. If you
+depend on something unpredictable, measure it in the running system and either adapt to it, or at
+least report unexpected values so that developers or operations staff can tell what’s going on.
 ```

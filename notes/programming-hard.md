@@ -44,15 +44,16 @@ come about from our genetic heritage of
 hundreds of thousands of years of coping at smallscales,
 projecting our beliefs on our perceptions, etc.
 
-Even what we call “modern thinking” was a series ofinventions.
+Even what we call “modern thinking” was a series of inventions.
 “Normal thinking” for us is “rememberingand recalling” for short
-term concerns, often in the formof proverbs, stories,
+term concerns, often in the form of proverbs, stories,
 and simple rules and rituals.
 
-As newways to think were gradually invented they had to coexist
-in human minds more like new tools on old mindsrather than to
+As new ways to think were gradually invented they had to coexist
+in human minds more like new tools on old minds rather than to
 create brand-new greatly improved minds.  
 ``` 
+
 Thinking about systems in abstract ways is very challenging for
 humans in general. This doesn't change very fast, since it is tied to
 thousands of years of evolution, and we are not even close to properly
@@ -98,30 +99,38 @@ by one million, and the strength of its material
 increased by a factor of 10,000 — so the structure has
 gotten weaker with respect to gravity by a factor of 100.
 
-The New Orleans Superdome is about 200 times the sizeof the doghouse,
+The New Orleans Superdome is about 200 times the size of the doghouse,
 and had to be made very differently!
-Infact, scaling things up only 10 times larger is very often quite difficult  
+
+In fact, scaling things up only 10 times larger is very often quite difficult
 ```
 
-In the case of software we are in an even worse situation,
-because we have even less experience reasoning about purely abstract systems
-and will have even less idea on how to deal with scaling,
+Regarding software we are in an even worse situation,
+because we have little experience reasoning about purely abstract systems
+and we have even less experience on how to deal with scaling,
 like what are all the forces involved on software systems and how do they
-scale with system size ? (like impact on human cognition, debugging,
-performance, etc). My personal experience with this is that people
-in general, and even software engineers, often doesn't have a good mental
+scale with system size ? Like impact on human cognition, debugging,
+performance, isolation, etc.
+
+My personal experience with this is that people
+in general, even software engineers, often doesn't have a good mental
 model of how scaling affects software, they seem to believe that just doing
 what they did at a smaller scale X 100 will work out.
 
+The inverse also happens a lot, people emulate big companies thinking
+they have set the "best practices", well those are practices that make
+sense at their scale, if you are at a much smaller scale it is the same
+as using the process to build a cathedral to build a dog house.
+
 Thinking about scale is something that makes it easier to understand at
-which scale it may be possible for anyone to program too. To think that
+which scale it may be possible for anyone to program. To think that
 all that you have to do is to learn a programming language is to be
 able to build dog houses, that is perfectly fine and useful, but that
-doesn't make you an engineer/architect able to build bridges, because scale
-matters.
+doesn't make you an engineer/architect able to build bridges/cathedrals,
+because scale matters.
 
 This is also a great argument to avoid working at scale if you don't need too.
-Don't build skyscrappers if you just need a dog house.
+Don't build cathedrals if you just need a dog house.
 
 
 # Attention to Detail

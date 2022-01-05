@@ -6,6 +6,7 @@
 # Books
 
 * [Alan Kay Reading List](http://www.squeakland.org/resources/books/readingList.jsp)
+* [Ganssle Group](http://www.ganssle.com/books/books1.htm)
 
 # Courses 
 

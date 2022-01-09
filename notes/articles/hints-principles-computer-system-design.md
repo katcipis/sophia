@@ -599,4 +599,88 @@ unrelated, maybe not, it is the question of "can this complexity be safely hidde
 and that is not an easy question to answer and probably why I'm usually uneasy about
 it and didn't just jumped on the band wagon =P.
 
-Anyway, the lesson is: beware of excessive aspirations on software.
+Anyway, the lesson is: beware of excessive aspirations in software.
+
+## Declarative Languages
+
+Since sometimes I have trouble defining properly things that I feel I should be able
+to, it did help my ego to see that someone as experienced as Lampson had problems
+defining things as "what is a declarative language ?".
+
+```
+I agreed to write a piece for Alan Kay’s 70th birthday celebration,
+and recklessly provided the title “Declarative Programming”; this seemed safe,
+since everyone knows that declarative is good.
+
+When it came time to write the paper I realized that I didn’t actually know
+what declarative programming is, and searching the literature didn’t help much.
+I finally concluded that a program is declarative if it has few steps;
+this makes it easier to understand (as long as each step is understandable),
+since people are bad at understanding long sequences of steps.
+
+Often it’s also easier to optimize, since it doesn’t commit to the sequence of
+steps the machine should take. The open action of the file system spec
+is a small example.
+```
+
+He goes on to give examples of successful declarative languages, like SQL.
+Funny enough at the same time that declarative languages can start slower
+than some specialized imperative code, declarative languages provide better
+means to optimization since they are more constrained to a domain
+(usually at least) + they abstract details on how to execute, which does 
+give opportunity for optimizations (eg. DBMS query optimization engines).
+
+## Persistence
+
+When discussing the hardships of persistence, good advice is given:
+
+```
+If data changes frequently but needs to persist for months or years,
+it must have a very simple form. Otherwise the inevitable bugs in the code
+that is changing it will corrupt the data.
+
+Two such forms have stood the test of time: a text file without complicated
+internal structure, and a relational database with a simple schema.
+
+If the text file gets messed up, you can edit it with ed. The schema
+keeps the database from being messed up too badly. You can read one of these
+simple data structures and make fancier volatile state such as an index,
+a complicated data structure and one that you might want to change,
+but anything that needs to last should be expressed in text or tuples.
+```
+
+This reminds me of the blog post
+[An unlikely database migration](https://tailscale.com/blog/an-unlikely-database-migration/)
+where they tell the history on how they were able to keep everything as a single
+text file for quite some time until that was not enough.
+
+Basically they started simple:
+
+```
+“Yeah, whenever something changes, we grab a lock in our single
+process and rewrite out the file!” he chuckled with glee.
+
+It sounded insane. It was insane. Sure, it was easily testable,
+but it didn’t scale. We both knew that. But it worked.
+
+Until it didn’t.
+```
+
+Keep it simple and don't worry with scale until you need to worry with scale :-).
+Text files can get you a long way.
+
+There is also a note on persistent objects that reminds me of the dangers of ORM's:
+
+```
+Persistent objects. In 1981 I heard about a novel idea: extend the new operator
+to create a persistent object that works just like an ordinary object, with
+updatable links to other persistent objects.
+
+Of course you need transactions so that a change involving several objects
+can’t be interrupted in the middle by a crash. I thought it wouldn’t work,
+because even if every bit is preserved, millions of objects connected by
+arbitrary links that are created over many months by code that is changing
+will end up as a rubble of objects, rather than anything useful.
+
+And so it has proved.
+```

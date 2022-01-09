@@ -454,3 +454,149 @@ Your guess about where the time is going is probably wrong. Measure before you o
 depend on something unpredictable, measure it in the running system and either adapt to it, or at
 least report unexpected values so that developers or operations staff can tell what’s going on.
 ```
+
+## Software Engineering
+
+It stuck with me over the years the following definition of software engineering:
+
+```
+Software engineering is what you get when you add time and people to programming
+```
+
+Or something along this way =P, it captures an important truth, building something
+quickly and by yourself, with no future maintanence in mind (or other people
+involved on that) is orders of magnitude easier because it is just programming,
+it is the quick hack you do in a weekend, and sometimes it can be really good
+stuff, not necessarily badly written or flaky. And yet adding time + more people
+to it is bound to make things more complicated and introduce the classical
+challenges that software engineering tries to assess.
+
+The paper also brings this point, talking about processes (not management processes,
+more focused on dev):
+
+```
+You can build a small system with willpower: one person keeps the whole design in their head
+and controls all the changes. You can even do without a spec. But a system that’s bigger (or lives
+for a long time) needs process. Otherwise it’s broken code and broken schedules. Process means:
+
+− Architecture: Design that really gets done, and documented so that everyone can learn it.
+− Automation: Code analysis tools (very cheap for the errors they can catch) and build tools.
+− Review: Design review—manual, but a much cheaper way to catch errors than testing.
+− Review: Code review—manual, but still cheaper than testing.
+− Testing: Unit and component tests; stress and performance tests; end-to-end scenarios.
+```
+
+It helps to understand when you may or not need all this process, which is at
+hearth of software engineering but it is quite time consuming. As mentioned,
+some people can build good stuff without any of that, at least not explicitely
+,there is always some design/architecture for example, but it may be implicit
+inside the head of a single person. But something built like that won't bolde
+well when the person that did all this work leaves, be it by moving
+to a different company or to a different project, and the more brilliant/smart
+an engineer is, the most likely it is that he/she will move on to something
+else. So in the end for anything that is bound to be used/maintained for a long
+time, ignoring software engineering is a recipe for trouble sooner or later.
+
+The usual side effect of ignoring this is the infamous re-write, which the author
+also covers:
+
+```
+Successful systems last, and you want your system to succeed, right?
+You don’t get to rewrite it from scratch; that’s not compatible with agile
+development and shipping frequently. And the shipping code reflects lots of
+hard-won knowledge, much of which isn’t written down and has
+slipped out of the team’s heads (or the team has changed).
+
+This is why it pays to think through the initial design, and to put as much
+code as possible into modules with clean interfaces, especially
+performance-critical code.
+
+It also pays to clean up messy code when you need to change it; IDE
+tools can help. If the system is too slow, first measure and then work on the
+few modules need to be fast and predictable. Your system doesn’t have
+that structure? Then you have incurred technical debt.
+
+The solution is to change it until it does; those changes are expensive,
+but they have enduring value. Then keep it that way. And keep shipping
+```
+
+On top of rewrites not being "agile" in the sense that it is hard to keep
+improving something given some feedback if you are in the middle of rewriting
+it from scratch, the main problem with rewrites is that usually you are rewriting
+because the current system is hard to maintain, including bad/absent docs/specs.
+In a situation like this, if you cant understand the code well and there is no
+docs/tests, how do you rewrite it ?
+
+Not knowing the actual behavior when rewriting
+something is bound to fail (and I have seen it fail multiple times).
+So putting yourself in that situation is always a very costly/dangerous trap,
+kinda like a chicken/egg problem, you want to rewrite because the code is
+not clear but you need clear code to understand what the code does so you
+can rewrite it. If you have good end to end tests or a comprehensive/correct spec/docs,
+then it maybe easier, but that is rarely the case on rewrite projects.
+
+## Software Bloat
+
+It is recurrent to find experienced software engineers to talk about software
+bloat, and it is always related to how software has much less constrains than
+most of the other engineerings:
+
+```
+Systems are complicated because it’s hard work to make them simple,
+and because people want them to do many different things.
+You can read a lot about software bloat, the proliferation of
+features in browsers and in rich applications like Word and Excel.
+
+But almost every feature has hundreds of thousands of users at least.
+The tension between keeping things simple and doing a
+lot is real, and there is no single right answer, especially for applications
+that interact with users.
+
+Still, it’s best to add features and generality slowly, because:
+
+− You’re assuming that you know the customers’ long-term needs, and you’re probably
+wrong. It’s hard enough to learn and meet their immediate needs.
+
+− It takes time to get it right, but once it’s shipped legacy
+customers make it hard to change.
+
+− More features mean more to test, and more for a bad guy to attack.
+
+So why do systems get overambitious? Because there are no clear boundaries,
+as there are with bridges for example, and programmers are creative and
+eager to tackle the next challenge. 
+```
+
+So basically software gets bloated because it can, and that doesn't seem to
+have changed in the last years, and maybe it never will.
+
+## Excessive Aspirations: Abstractions Going Bad
+
+When talking about good abstractions/components, as usual there is some
+examples of when abstractions go bad. The most classical is the extra layer
+that does almost nothing. But there are abstractions that try to do way too
+much, or do way too much at the wrong level of abstraction. Some examples:
+
+```
+The opposite of doing one thing well is doing a lot of things badly.
+Assuming reasonably competent engineering, this usually happens because
+of excessive aspirations. Some striking examples:
+
+• The original Arpanet spec mandated that a packet handed to the network
+should be delivered reliably (rather than the best-efforts delivery of
+the Internet, which is free to drop packets when the going gets tough).
+This turned out to make the network much slower than expected.
+
+• Many systems that rely on remote procedure calls have run into trouble
+because RPCs look like ordinary procedure calls, but in fact are much more
+expensive, have very unpredictable latency, and can fail completely when
+the network or the target system fails.
+```
+
+Specially on the RPC/remote objects example I sense there is some lesson to be
+learned on service meshes implementing way too much logic "magically". Maybe it is
+unrelated, maybe not, it is the question of "can this complexity be safely hidden ?",
+and that is not an easy question to answer and probably why I'm usually uneasy about
+it and didn't just jumped on the band wagon =P.
+
+Anyway, the lesson is: beware of excessive aspirations on software.

@@ -228,6 +228,7 @@
 # Presentations
 
 * [Go Present](https://godoc.org/golang.org/x/tools/cmd/present)
+* [sli.dev](https://sli.dev/)
 * [mdp](https://github.com/visit1985/mdp)
 * [reveal.js](http://lab.hakim.se/reveal-js)
 * [dzslides](http://paulrouget.com/dzslides/)

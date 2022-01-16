@@ -27,25 +27,18 @@
 
 * [On The Metal](https://oxide.computer/blog/categories/on-the-metal/)
 * [corecursive](https://corecursive.com/)
-* [Command Line Heroes](https://feeds.pacific-content.com/commandlineheroes)
+* [Security. Cryptography. Whatever.](https://securitycryptographywhatever.buzzsprout.com/)
 * [Future Of Coding](https://futureofcoding.org/)
-* [Stack Overflow Podcast](https://stackoverflow.blog/podcast/)
 * [Roundabout: Creative Chaos](https://roundaboutfm.com/)
 * [Weird Trick Mafia](https://weirdtrickmafia.fm/)
-* [Jordan Peternson](https://jordanbpeterson.com/category/podcasts/podcast-episode/)
-* [The Cynical Developer](https://cynicaldeveloper.com/)
-* [It Career Energizer](http://itcareerenergizer.com/)
 * [DevChat](http://devchat.tv/)
 * [Grok](http://www.grokpodcast.com/)
 * [SE Radio](http://www.se-radio.net/)
+* [Software Engineering Daily](https://softwareengineeringdaily.com)
 * [Elegant Code](http://elegantcode.com/)
-* [Free Electrons](http://free-electrons.com/docs/)
 * [The Changelog](https://changelog.com/podcast/)
 * [Full Stack Radio](http://fullstackradio.com/)
-* [Google Cloud Podcast](https://www.gcppodcast.com/)
 * [New Stack](http://thenewstack.io/)
-* [GopherPods](https://gopherpods.appspot.com/)
-* [Software Engineering Daily](https://softwareengineeringdaily.com)
 
 
 # Blogs

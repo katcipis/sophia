@@ -2,6 +2,72 @@
 
 Notes from [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X).
 
+# Introduction
+
+The book starts introducing the notion cities/urban planning is similar
+as an ecosystem, where interactions/protocols between components of the
+ecosystem are just as important as "things", like buildings and parks.
+
+She describes this as an continuous process, with no beginning or end.
+This reminds me a lot of "systems thinking" and Alan Kay original idea
+for object orientation, aimed at interactions/protocols as the foundation
+for composability and building more complex systems. It makes sense that the
+disciplines overlap, urban planning for big cities is just as new as computing
+and the challenges are also imense since the scale of the system is quite big.
+
+Given the high complexity and the overall challenge of designing cities, the
+book starts with a critique to the over simplistic and utopian way cities
+were being planned at the time. Instead of keeping an open mind and getting
+feedback from the system itself to learn what works and what doesn't the 
+planners created an Ivory Tower from where they could do design given a whole
+mental model of how people behave and how cities work that sounded really nice
+but was completely disconnected from reality. That does ring a bell with overall
+Software Architecture, people do that in a vacuum and just to satisfy their
+egos, so it seems this is not a new problem just on the software industry.
+
+# Expert Group Thinking
+
+The same export group thinking phenomenon that I observe on the software
+industry seems to have happened at the time for city planning, at least from
+what the author describes. It is the same pattern of behavior.
+
+People with power, armed with ignorance and hubris, keep pushing their agendas
+on what "modern computing" is. This is done in an absolutist way since they
+are "experts" and "thought leaders", even though their advice is completely
+disconnected from reality and devoided from context.
+
+When things go wrong the experts are so arrogant and disconnected from real
+feedback (the classic echo chamber) that they are unable to learn from how
+the actual system is behaving in a meaningful way, if it doesn't fit their
+mental model of reality, feedback is discarded.
+
+This is exactly what had seen to be happening on the realm of city planning.
+People making decisions to how entire neighborhoods should live never even
+set foot on the neighborhood and had no idea how it worked or what people
+felt about living there. They had this utopian Radiant City/Garden City ideals
+that they kept pursuing ignoring any feedback that maybe, that just didn't work
+in reality.
+
+Much of this was caused by immediatism and oversimplifications, since actually
+understanding such a big system as a city is extremely hard. One interesting
+quote from the book:
+
+```
+It may be that we have become so feckless as a people that we no longer care
+how things work, but only what kind of quick, easy outer impression they give
+```
+
+This struck me hard since it expresses my exact feelings with software engineering,
+and yet it was written on 1961 as a critique to how city/urban planning was being
+done on the US. It made me feel less alone and also made me realize even more how
+the software industry is not that unique, or not at all. The same cycles of expert
+group thinking seem to have caused a lot of damage on city planning too. One depressing
+thought is that it doesn't seem like we improved much since. But it is expected, in
+a field that doesn't study even its own past, studying the past of others is ludicrous,
+and if you don't know history you are bound to repeat the same mistakes.
+
+
+
 # District Density And MicroServices
 
 Besides acquiring some interesting insights on urban planning,

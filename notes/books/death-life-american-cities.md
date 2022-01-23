@@ -48,13 +48,13 @@ felt about living there. They had this utopian Radiant City/Garden City ideals
 that they kept pursuing ignoring any feedback that maybe, that just didn't work
 in reality.
 
-Much of this was caused by immediatism and oversimplifications, since actually
+Much of this was caused by lack of vision and oversimplifications, since actually
 understanding such a big system as a city is extremely hard. One interesting
 quote from the book:
 
 ```
 It may be that we have become so feckless as a people that we no longer care
-how things work, but only what kind of quick, easy outer impression they give
+how things work, but only what kind of quick, easy outer impression they give.
 ```
 
 This struck me hard since it expresses my exact feelings with software engineering,
@@ -79,8 +79,9 @@ proposed as an obvious awesome solution to concurrency issues (among other stupi
 not having a concurrency model at all, just use callbacks and it will be simple/efficient
 and awesome.
 
-I got on that bandwagon from my sheer ignorance and trust on the industry, needless to say
-that it didn't work well for me... never again (good read about this [here](https://joearms.github.io/published/2013-04-02-Red-and-Green-Callbacks.html)).
+I got on that bandwagon from my sheer ignorance and trust on the industry,
+needless to say that it didn't work well for me...
+Never again (good read about this [here](https://joearms.github.io/published/2013-04-02-Red-and-Green-Callbacks.html)).
 
 In the end the author compares the practices on city planning at the time with
 [bloodletting](https://en.wikipedia.org/wiki/Bloodletting), it seems extreme but the
@@ -97,7 +98,7 @@ much the same keeps happening on the software industry centuries later :-).
 
 # The Big Refactoring
 
-Another stricking similarity between city planning and software systems is
+Another striking similarity between city planning and software systems is
 how big refactorings/redesigns are usually performed. A new group of software
 engineers have a really big/awesome idea on how everything should be done,
 including how everything on the current/old system is just wrong/stupid.
@@ -106,12 +107,12 @@ Then they start The Big Refactoring/Rewrite, having 0 consideration for
 people who work/live on the current system, what works, what doesn't, etc.
 There is no time to listen to what people think, you already have your awesome
 idea, that given your synthetic mental model of how things work makes perfect
-sense, that is it, it is perfect, it is awesome, and you just keep buldozing
+sense, that is it, it is perfect, it is awesome, and you just keep bulldozing
 everything and everyone towards your awesome design.
 
 I know this happens because I did this, and I saw other people doing it, and
 guess what ? City planners were also doing, sometimes destroying perfect good
-neighboohods just because it didn't adequate to their mental model of "good
+neighborhoods just because it didn't adequate to their mental model of "good
 neighborhood".
 
 Quote from the book on this:
@@ -135,7 +136,7 @@ thing to do manually.
 
 SQL is actually a declarative high level language, more high
 level than any general purpose language, how writing on it should be considered some
-sort of useless/manual labor ? it is the same as advocating that all DSLs are terrible,
+sort of useless/manual labor ? It is the same as advocating that all DSLs are terrible,
 you should just always use objects because objects are great. Honestly it is beyond
 stupid, and yet some degree of success on a specific niche makes people believe the
 advice is sound, coming from an expert.
@@ -167,7 +168,7 @@ screen.”
 ```
 
 Then, about the same experience Brendan Eich also shares some of what happened
-(both worked together there):
+(both worked together at Netscape):
 
 ```
 I have this big allergy to ivory-tower design and design patterns. Peter

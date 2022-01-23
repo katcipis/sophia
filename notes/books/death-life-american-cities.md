@@ -82,6 +82,18 @@ and awesome.
 I got on that bandwagon from my sheer ignorance and trust on the industry, needless to say
 that it didn't work well for me... never again (good read about this [here](https://joearms.github.io/published/2013-04-02-Red-and-Green-Callbacks.html)).
 
+In the end the author compares the practices on city planning at the time with
+[bloodletting](https://en.wikipedia.org/wiki/Bloodletting), it seems extreme but the
+pattern in behavior is actually quite similar, you create a mental model of reality
+that is completely off and you start treating it as a concrete reality, an universal
+truth, so it doesn't matter how much it doesn't work or doesn't make any sense, you
+keep doing it.
+
+I find useful to get this lessons from other fields. All kinds of crazy ideas,
+like bloodletting, once were accept as "the way" to do things by the group of experts,
+and questioning them was regarded as stupid/arrogant. Since we are still humans, pretty
+much the same keeps happening on the software industry centuries later :-).
+
 
 # The Big Refactoring
 

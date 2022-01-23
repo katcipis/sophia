@@ -60,12 +60,123 @@ how things work, but only what kind of quick, easy outer impression they give
 This struck me hard since it expresses my exact feelings with software engineering,
 and yet it was written on 1961 as a critique to how city/urban planning was being
 done on the US. It made me feel less alone and also made me realize even more how
-the software industry is not that unique, or not at all. The same cycles of expert
+the software industry is not that unique in it ailments. The same cycles of expert
 group thinking seem to have caused a lot of damage on city planning too. One depressing
 thought is that it doesn't seem like we improved much since. But it is expected, in
 a field that doesn't study even its own past, studying the past of others is ludicrous,
 and if you don't know history you are bound to repeat the same mistakes.
 
+My overall feeling about this is of great disrespect for the complexity of what
+is trying to be accomplished. Most people proposing silver bullets that will make
+everything simpler/safer/better demonstrate an enormous disrespect/ignorance towards
+the actual complexity of software systems, just as the city planners ignored the complexities
+of system life. Good ideas usually approach the problem with humbleness, realizing
+there is no universal right answer and no utopia to be reached. But most ideas are bad,
+and usually approaching the problem with naiveness/disrespect.
+
+One quick example that comes to my mind was all the hype around NodeJS, when it was
+proposed as an obvious awesome solution to concurrency issues (among other stupid things),
+not having a concurrency model at all, just use callbacks and it will be simple/efficient
+and awesome.
+
+I got on that bandwagon from my sheer ignorance and trust on the industry, needless to say
+that it didn't work well for me... never again (good read about this [here](https://joearms.github.io/published/2013-04-02-Red-and-Green-Callbacks.html)).
+
+
+# The Big Refactoring
+
+Another stricking similarity between city planning and software systems is
+how big refactorings/redesigns are usually performed. A new group of software
+engineers have a really big/awesome idea on how everything should be done,
+including how everything on the current/old system is just wrong/stupid.
+
+Then they start The Big Refactoring/Rewrite, having 0 consideration for
+people who work/live on the current system, what works, what doesn't, etc.
+There is no time to listen to what people think, you already have your awesome
+idea, that given your synthetic mental model of how things work makes perfect
+sense, that is it, it is perfect, it is awesome, and you just keep buldozing
+everything and everyone towards your awesome design.
+
+I know this happens because I did this, and I saw other people doing it, and
+guess what ? City planners were also doing, sometimes destroying perfect good
+neighboohods just because it didn't adequate to their mental model of "good
+neighborhood".
+
+Quote from the book on this:
+
+```
+Nobody cared what we wanted when they build this place. They threw our houses
+down and pushed us here and pushed our friends somewhere else. We don't have a
+place around here to get a cup of coffee or a newspaper even, or borrow fifty cents.
+
+Nobody cared what we need. But the big men come and look at that grass and say
+'Isn't it wonderful! Now the poor have everything!'
+```
+
+This reminds me a lot of our industry movements towards NoSQL that always results
+on some sort of SQL layer on top, because for people that do advanced stuff
+with data the relational model is just great, and yet developers that don't get it
+keep pushing the data people towards "better"/"more scalable" models, because SQL
+is ugly. I actually read a "thought leader" and owner of a "successful" company talking
+about how software engineers should never write SQL, that it is a low level/error prone
+thing to do manually.
+
+SQL is actually a declarative high level language, more high
+level than any general purpose language, how writing on it should be considered some
+sort of useless/manual labor ? it is the same as advocating that all DSLs are terrible,
+you should just always use objects because objects are great. Honestly it is beyond
+stupid, and yet some degree of success on a specific niche makes people believe the
+advice is sound, coming from an expert.
+
+This also reminds me of Jamie Zawinski interview on Coders at Work. It shows perfectly
+how people can ignore others + ignore their own failures and keep believing their
+mental models about things are perfect and sound (it is always someone/something else's
+fault). He was talking about the downfall of Netscape. A few quotes:
+
+```
+They thought just by virtue of being here, they were bound for glory
+doing it their way. But when they were doing it their way, at their
+company, they failed. So when the people who had been successful
+said to them, “Look, really, don’t use C++; don’t use threads,” they
+said, “What are you talking about? You don’t know anything.”
+
+Well, it was decisions like not using C++ and not using threads that
+made us ship the product on time.
+```
+
+```
+There was just this big blank rectangle in the middle of the window where
+we could only display plain text. They were being extremely academic
+about their project. They were trying to approach it from the
+DOM/DTD side of things. “Oh, well, what we need to do is add
+another abstraction layer here and have a delegate for this delegate
+for this delegate. And eventually a character will show up on the
+screen.”
+```
+
+Then, about the same experience Brendan Eich also shares some of what happened
+(both worked together there):
+
+```
+I have this big allergy to ivory-tower design and design patterns. Peter
+Norvig, when he was at Harlequin, he did this paper about how design
+patterns are really just flaws in your programming language. Get a better
+programming language. He’s absolutely right. Worshipping patterns and
+thinking about, “Oh, I’ll use the X pattern.”
+```
+
+```
+There was an imperative from Netscape to make the acquisition that
+waved the Design Patterns book around feel like they were winners by using
+their new rendering engine, which was like My First Object-Oriented
+Rendering Engine. From a high level it sounded good; it used C++ and
+design patterns. But it had a lot of problems.
+```
+
+Interesting enough, a lot of what was happening on city planning reminds
+me of all this. People find a bible and they go on evangelizing that and
+pushing it everywhere, it is basic human behavior. Terrible for science and
+engineering, but we are humans in the end, not scientists and engineers.
 
 
 # District Density And MicroServices

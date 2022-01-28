@@ -67,7 +67,7 @@
 ## Distributed Systems
 
 * [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
-* [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
+* [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
 * [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
@@ -77,7 +77,6 @@
 * [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)
 * [Interleaving anomalies in collaborative text editors](https://core.ac.uk/download/pdf/189163265.pdf)
 * [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
-* [End to End arguments in system design](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [Internet Time Synchronization: the Network Time Protocol](https://www.eecis.udel.edu/~mills/database/papers/trans.pdf)
 * [The Leap Second Behaviour of NTP Servers](http://mural.maynoothuniversity.ie/10061/1/DM-Leap-2016.pdf)
 * [Omega: flexible, scalable schedulers for large compute clusters](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41684.pdf)
@@ -208,7 +207,6 @@
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
 * [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)
 * [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
-* [Man Computer Symbiosis](https://internetat50.com/references/Licklider_Man-Computer-Symbiosis.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Engineering with Logic: Rigorous Test-Oracle Specification and Validation for TCP/IP and the Sockets API](https://www.cl.cam.ac.uk/~pes20/Netsem/paper3.pdf)
 * [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
@@ -239,6 +237,12 @@
 
 
 ## Done
+
+### 2022
+
+* [Man Computer Symbiosis](https://internetat50.com/references/Licklider_Man-Computer-Symbiosis.pdf)
+* [The Intergalactic Computer Network](https://github.com/iandennismiller/intergalactic-computer-network/blob/master/products/intergalactic-computer-network.pdf)
+
 
 ### 2021
 

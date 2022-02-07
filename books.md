@@ -306,15 +306,15 @@
 
 # Doing
 
-* [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X)
 
 
 # Done
 
 ## 2021
 
+* [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X)
+* [The Dream Machine](https://www.amazon.com/Dream-Machine-M-Mitchell-Waldrop/dp/1732265119)
 * [The Robots of Dawn](https://www.amazon.com/Robots-Dawn-ISAAC-ASIMOV/dp/0008277788/)
 * [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
 * [The Making of Prince of Persia](https://www.amazon.com/Making-Prince-Persia-Journals-1985-1993-Illustrated-dp-0578627310/dp/0578627310/)

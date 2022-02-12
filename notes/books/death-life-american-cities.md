@@ -597,3 +597,42 @@ are wildly hard to come up with solutions, and when you can the solution is hard
 universal, but dependent on context, but then being an expert that doesn't have
 cool universal solutions sounds lame, so here they come with solutions to look
 like experts =P.
+
+Also striking how event he simplistic models are similar, a lot of the reasoning
+on urban planning was around sizes/ratio, like the ratio of open area per people,
+etc. Which is a gross oversimplification of the problem, making it just about
+two variables. And the whole movement for microservices in software makes
+the same mistake, oversimplifying the problem of architecting software to
+ratios about sizes, both on service boundaries and on team sizes.
+
+The ideas are not terrible, but they are definitely not a definitive solution to
+anything, specially taken out of context. Another problem with this kind of
+reductionist/absolutist reasoning is that you become unable to see what works
+well on what you consider wrong. For city planning, people could just not believe
+that something that was supposed to be a slum was triving, it was just not
+possible for it to be prospering, because by all ratios/metrics...it is a slum,
+but they did ignore the most obvious metric...success, people were happy there,
+prospering, and they were safe, much safer than other parts of the city
+that were considered "awesome".
+
+The same happens on the software industry, you have a monolith (whatever that
+means), and then because it is a monolith, it is for sure wrong, it is a slum,
+it doesn't matter what works well on it, it doesn't matter if there are people
+who like it and are being able to maintain it happily...it is wrong, and it
+needs to go down and be split in a million of GLORIOUS microservices.
+
+This process is identical to "de-slumization" process that
+was done on cities, which sometimes was indeed trying to improve a slum, but
+sometimes was destroying a perfectly good neighborhood, just because by their
+simplistic metrics it looks like a slum hence are bad and need to be fixed.
+
+The way to avoid this fallacy, as mentioned on previous notes (me also ranting
+on microservices =P), is to understand performance and being able to measure it
+properly. There is no universal way to do that, the oversimplification usually is
+about an universal way...like for software using service size or any other easy
+to calculate metric. You need to find out what makes sense for your problem and
+then stick to that as way to evaluate what works and what doesn't.
+
+Forget about cute ratios or idealisms on form, both cities and software
+are not works of art, they can be beautiful, but function comes first, they need
+to be useful, comfortable, safe. Form serves that, not the designer tastes.

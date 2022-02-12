@@ -564,18 +564,36 @@ and where the variables are not correlated at all, it is used a lot in Physics
 and the main approach to handling this kind of problem is statistics.
 
 Problems of organized complexity are problems usually found on the life sciences,
-like medicine, etc. You have a multitude of variables, but most of the behavior is
-not random, the variables are correlated and you have intricate processes continuously
-happening. In these kind of problems understanding how things integrate, communicate,
-collaborate, affect each other, is fundamental. The mental model steers towards
-processes, instead of thinking on objects/things.
+like medicine, biology, etc. You have a multitude of variables, but most of
+the behavior is not random, the variables are correlated and you have intricate
+processes continuously happening. In these kind of problems understanding
+how things integrate, communicate, collaborate, affect each other,
+is fundamental. The mental model steers towards processes,
+instead of thinking on objects/things/rations as solutions.
+
+Quoting from the book:
+
+```
+They are all problems which involve dealing simultaneously with a
+sizeable number of factors which are interrelated into an organic whole
+```
 
 The immediate connection of this with software is remembering Alan Kay, since
 he always pushed for computing models that emphasize message passing/communication
-and protocols, what is in between, a reasoning around processes and collaboration,
-symbiosis and composition. He pushes for drawing inspiration from biology on how
-to design systems, and this whole idea explained on the book kinda reinforced this
-for me, software design is a problem of organized complexity, it can have some
+and protocols, what is in between things/objects, a reasoning around processes
+and collaboration... Symbiosis and composition. He pushes for drawing
+inspiration from biology on how to design systems, and this whole idea
+explained on the book kinda reinforced this for me, software design is a
+problem of organized complexity, it can have some
 randomness (like mutations on life), but it is very far from being a disorganized
 complexity problem, and it is definitely not a problem of simplicity with just
 a few variables.
+
+And now comes another striking similarity, just as most experts on the beginning
+of the last century understood city planning as a problem of simplicity, the same
+happens on the software industry. I believe the main reason is that it is much
+easier to sell and explain solutions to problems of simplicity, complex problems
+are wildly hard to come up with solutions, and when you can the solution is hardly
+universal, but dependent on context, but then being an expert that doesn't have
+cool universal solutions sounds lame, so here they come with solutions to look
+like experts =P.

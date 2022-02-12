@@ -569,7 +569,7 @@ the behavior is not random, the variables are correlated and you have intricate
 processes continuously happening. In these kind of problems understanding
 how things integrate, communicate, collaborate, affect each other,
 is fundamental. The mental model steers towards processes,
-instead of thinking on objects/things/rations as solutions.
+instead of thinking on objects/things/ratios as solutions.
 
 Quoting from the book:
 

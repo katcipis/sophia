@@ -542,8 +542,8 @@ that are part of our nature.
 A few examples of misguided representations on city planning where the ideas
 around the Garden City and Radiant City, the Garden City was misguided in how
 it romanticized the past and nature, and the Radiant City was misguided in
-how having open areas around enormous buildings would be enough to make life
-attractive.
+how having open areas around enormous buildings and centralizing things would
+be enough to make life attractive.
 
 Both ideas, which were widely adopted and defended by most of the Universities
 and experts at the time, were off because of a misinterpretation of the nature
@@ -561,7 +561,7 @@ the variables are correlated in obvious ways.
 
 Problems of disorganized complexity are problems with a multitude of variables
 and where the variables are not correlated at all, it is used a lot in Physics
-and the main approach to handling this kind of problem is statistics.
+and the main approach to handling this kind of problem is statistical modeling.
 
 Problems of organized complexity are problems usually found on the life sciences,
 like medicine, biology, etc. You have a multitude of variables, but most of
@@ -609,11 +609,21 @@ The ideas are not terrible, but they are definitely not a definitive solution to
 anything, specially taken out of context. Another problem with this kind of
 reductionist/absolutist reasoning is that you become unable to see what works
 well on what you consider wrong. For city planning, people could just not believe
-that something that was supposed to be a slum was triving, it was just not
+that something that was supposed to be a slum was thriving, it was just not
 possible for it to be prospering, because by all ratios/metrics...it is a slum,
 but they did ignore the most obvious metric...success, people were happy there,
 prospering, and they were safe, much safer than other parts of the city
-that were considered "awesome".
+that were considered "better".
+
+Quoted from the book:
+
+```
+Moreover, in parts of cities which are working well
+in some respects and badly in others (as is often the case),
+we cannot even analyze the virtues and the faults, diagnose
+the trouble or consider helpful changes, without
+going at them as problems of organized complexity
+```
 
 The same happens on the software industry, you have a monolith (whatever that
 means), and then because it is a monolith, it is for sure wrong, it is a slum,
@@ -632,6 +642,27 @@ properly. There is no universal way to do that, the oversimplification usually i
 about an universal way...like for software using service size or any other easy
 to calculate metric. You need to find out what makes sense for your problem and
 then stick to that as way to evaluate what works and what doesn't.
+
+The rule of thumb being, don't disrespect a problem by thinking it is of a
+simpler nature than it really is. That is a very strong bias on the human mind,
+because we love comfort, and simple problems are comfortable, but it is a trap
+and it is not the way to good engineering/design.
+
+Quoted from the book:
+
+```
+We may wish for easier, all-purpose analyses, and
+for simpler, magical, all-purpose cures, but wishing cannot
+change these problems into simpler matters than
+organized complexity, no matter how much we try to
+evade the realities and to handle them as something different.
+```
+
+I could not say it better myself, and this was written almost a century
+ago on a topic considerably different than software, I find that remarkable
+on how the issues I observe on the software industry are not related to
+software or the industry, it is just common human behavior, which doesn't
+change very fast (if at all).
 
 Forget about cute ratios or idealisms on form, both cities and software
 are not works of art, they can be beautiful, but function comes first, they need

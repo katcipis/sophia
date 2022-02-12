@@ -526,3 +526,56 @@ of experience.
 Again an independent mind and critical thinking comes to the rescue,
 avoid the pitfalls of "expert" group thinking and be aware of how
 your emotions may be shaping your systems of thought.
+
+# Understanding the nature of a problem
+
+In the last chapter of the book there is an appeal to understanding the
+nature of the urban/city planning problem before coming up with solutions.
+Because if the you don't get the nature of the problem correctly there is
+a good chance the solutions are going to be wrong. This feels simple and
+intuitive, and yet it is very hard to do, specially for hard problems,
+humans tend to interpret problems in the way that is more comfortable
+to them, we are always working on representations on our minds, and the
+representations can be very far off, colored by a multitude of biases
+that are part of our nature.
+
+A few examples of misguided representations on city planning where the ideas
+around the Garden City and Radiant City, the Garden City was misguided in how
+it romanticized the past and nature, and the Radiant City was misguided in
+how having open areas around enormous buildings would be enough to make life
+attractive.
+
+Both ideas, which were widely adopted and defended by most of the Universities
+and experts at the time, were off because of a misinterpretation of the nature
+of the problem with cities.
+
+The author uses a broad classification of problems, coming from mental models
+for scientific thought:
+
+* Problems of Simplicity
+* Problems of Disorganized Complexity
+* Problems of Organized Complexity
+
+Problems of simplicity are defined as problems with two or three variables where
+the variables are correlated in obvious ways.
+
+Problems of disorganized complexity are problems with a multitude of variables
+and where the variables are not correlated at all, it is used a lot in Physics
+and the main approach to handling this kind of problem is statistics.
+
+Problems of organized complexity are problems usually found on the life sciences,
+like medicine, etc. You have a multitude of variables, but most of the behavior is
+not random, the variables are correlated and you have intricate processes continuously
+happening. In these kind of problems understanding how things integrate, communicate,
+collaborate, affect each other, is fundamental. The mental model steers towards
+processes, instead of thinking on objects/things.
+
+The immediate connection of this with software is remembering Alan Kay, since
+he always pushed for computing models that emphasize message passing/communication
+and protocols, what is in between, a reasoning around processes and collaboration,
+symbiosis and composition. He pushes for drawing inspiration from biology on how
+to design systems, and this whole idea explained on the book kinda reinforced this
+for me, software design is a problem of organized complexity, it can have some
+randomness (like mutations on life), but it is very far from being a disorganized
+complexity problem, and it is definitely not a problem of simplicity with just
+a few variables.

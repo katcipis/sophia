@@ -531,7 +531,7 @@ your emotions may be shaping your systems of thought.
 
 In the last chapter of the book there is an appeal to understanding the
 nature of the urban/city planning problem before coming up with solutions.
-Because if the you don't get the nature of the problem correctly there is
+Because if you don't get the nature of the problem correctly there is
 a good chance the solutions are going to be wrong. This feels simple and
 intuitive, and yet it is very hard to do, specially for hard problems,
 humans tend to interpret problems in the way that is more comfortable

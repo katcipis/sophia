@@ -526,3 +526,144 @@ of experience.
 Again an independent mind and critical thinking comes to the rescue,
 avoid the pitfalls of "expert" group thinking and be aware of how
 your emotions may be shaping your systems of thought.
+
+# Understanding the nature of a problem
+
+In the last chapter of the book there is an appeal to understanding the
+nature of the urban/city planning problem before coming up with solutions.
+Because if you don't get the nature of the problem correctly there is
+a good chance the solutions are going to be wrong. This feels simple and
+intuitive, and yet it is very hard to do, specially for hard problems,
+humans tend to interpret problems in the way that is more comfortable
+to them, we are always working on representations on our minds, and the
+representations can be very far off, colored by a multitude of biases
+that are part of our nature.
+
+A few examples of misguided representations on city planning where the ideas
+around the Garden City and Radiant City, the Garden City was misguided in how
+it romanticized the past and nature, and the Radiant City was misguided in
+how having open areas around enormous buildings and centralizing things would
+be enough to make life attractive.
+
+Both ideas, which were widely adopted and defended by most of the Universities
+and experts at the time, were off because of a misinterpretation of the nature
+of the problem with cities.
+
+The author uses a broad classification of problems, coming from mental models
+for scientific thought:
+
+* Problems of Simplicity
+* Problems of Disorganized Complexity
+* Problems of Organized Complexity
+
+Problems of simplicity are defined as problems with two or three variables where
+the variables are correlated in obvious ways.
+
+Problems of disorganized complexity are problems with a multitude of variables
+and where the variables are not correlated at all, it is used a lot in Physics
+and the main approach to handling this kind of problem is statistical modeling.
+
+Problems of organized complexity are problems usually found on the life sciences,
+like medicine, biology, etc. You have a multitude of variables, but most of
+the behavior is not random, the variables are correlated and you have intricate
+processes continuously happening. In these kind of problems understanding
+how things integrate, communicate, collaborate, affect each other,
+is fundamental. The mental model steers towards processes,
+instead of thinking on objects/things/ratios as solutions.
+
+Quoting from the book:
+
+```
+They are all problems which involve dealing simultaneously with a
+sizeable number of factors which are interrelated into an organic whole
+```
+
+The immediate connection of this with software is remembering Alan Kay, since
+he always pushed for computing models that emphasize message passing/communication
+and protocols, what is in between things/objects, a reasoning around processes
+and collaboration... Symbiosis and composition. He pushes for drawing
+inspiration from biology on how to design systems, and this whole idea
+explained on the book kinda reinforced this for me, software design is a
+problem of organized complexity, it can have some
+randomness (like mutations on life), but it is very far from being a disorganized
+complexity problem, and it is definitely not a problem of simplicity with just
+a few variables.
+
+And now comes another striking similarity, just as most experts on the beginning
+of the last century understood city planning as a problem of simplicity, the same
+happens on the software industry. I believe the main reason is that it is much
+easier to sell and explain solutions to problems of simplicity, complex problems
+are wildly hard to come up with solutions, and when you can the solution is hardly
+universal, but dependent on context, but then being an expert that doesn't have
+cool universal solutions sounds lame, so here they come with solutions to look
+like experts =P.
+
+Also striking how event he simplistic models are similar, a lot of the reasoning
+on urban planning was around sizes/ratio, like the ratio of open area per people,
+etc. Which is a gross oversimplification of the problem, making it just about
+two variables. And the whole movement for microservices in software makes
+the same mistake, oversimplifying the problem of architecting software to
+ratios about sizes, both on service boundaries and on team sizes.
+
+The ideas are not terrible, but they are definitely not a definitive solution to
+anything, specially taken out of context. Another problem with this kind of
+reductionist/absolutist reasoning is that you become unable to see what works
+well on what you consider wrong. For city planning, people could just not believe
+that something that was supposed to be a slum was thriving, it was just not
+possible for it to be prospering, because by all ratios/metrics...it is a slum,
+but they did ignore the most obvious metric...success, people were happy there,
+prospering, and they were safe, much safer than other parts of the city
+that were considered "better".
+
+Quoted from the book:
+
+```
+Moreover, in parts of cities which are working well
+in some respects and badly in others (as is often the case),
+we cannot even analyze the virtues and the faults, diagnose
+the trouble or consider helpful changes, without
+going at them as problems of organized complexity
+```
+
+The same happens on the software industry, you have a monolith (whatever that
+means), and then because it is a monolith, it is for sure wrong, it is a slum,
+it doesn't matter what works well on it, it doesn't matter if there are people
+who like it and are being able to maintain it happily...it is wrong, and it
+needs to go down and be split in a million of GLORIOUS microservices.
+
+This process is identical to "de-slumization" process that
+was done on cities, which sometimes was indeed trying to improve a slum, but
+sometimes was destroying a perfectly good neighborhood, just because by their
+simplistic metrics it looks like a slum hence are bad and need to be fixed.
+
+The way to avoid this fallacy, as mentioned on previous notes (me also ranting
+on microservices =P), is to understand performance and being able to measure it
+properly. There is no universal way to do that, the oversimplification usually is
+about an universal way...like for software using service size or any other easy
+to calculate metric. You need to find out what makes sense for your problem and
+then stick to that as way to evaluate what works and what doesn't.
+
+The rule of thumb being, don't disrespect a problem by thinking it is of a
+simpler nature than it really is. That is a very strong bias on the human mind,
+because we love comfort, and simple problems are comfortable, but it is a trap
+and it is not the way to good engineering/design.
+
+Quoted from the book:
+
+```
+We may wish for easier, all-purpose analyses, and
+for simpler, magical, all-purpose cures, but wishing cannot
+change these problems into simpler matters than
+organized complexity, no matter how much we try to
+evade the realities and to handle them as something different.
+```
+
+I could not say it better myself, and this was written almost a century
+ago on a topic considerably different than software, I find that remarkable
+on how the issues I observe on the software industry are not related to
+software or the industry, it is just common human behavior, which doesn't
+change very fast (if at all).
+
+Forget about cute ratios or idealisms on form, both cities and software
+are not works of art, they can be beautiful, but function comes first, they need
+to be useful, comfortable, safe. Form serves that, not the designer tastes.

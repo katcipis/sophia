@@ -40,6 +40,30 @@ More details on testing:
 
 * https://doc.rust-lang.org/book/ch11-00-testing.html
 
+#### Test Code Organization
+
+On how to organize tests, from [The Rust Programming Language](https://doc.rust-lang.org/book/ch11-03-test-organization.html):
+
+```
+You’ll put unit tests in the src directory in each file with the code that
+they’re testing. The convention is to create a module named tests in each file
+to contain the test functions and to annotate the module with cfg(test)
+```
+
+I find the decision interesting, specially for unit tests. Keeping them as
+close as possible makes things easier, specially since they change together,
+and Rust module system and annotations allows this to be done safely, in
+a way that the code under test is unaffected by the tests residing on the
+same file (no extra symbols exported or anything).
+
+It does seem that keeping tests on the same file as a submodule does
+make it remarkably easy to import private symbols on the tests and
+then test private stuff, I'm considerably against testing private
+stuff since most of the time it is a bad idea IMHO, but not always,
+so it makes sense to provide a way to do so, but in this case it ends
+up remarkably easy to do so. More info
+[here](https://doc.rust-lang.org/book/ch11-03-test-organization.html#testing-private-functions).
+
 ## The Fence
 
 Things that I'm still on the fence about.
@@ -74,4 +98,5 @@ how messy things can get with the extra added flexibility.
 
 But still on the fence on this and not even sure if I got the module system
 on Rust right =P. Also I need to say that seeing **super::** also does give me
-a lot of Javaesque/Pythonesque inheritance chills =P.
+a lot of Javaesque/Pythonesque inheritance chills =P. Checking bigger code bases
+and how they organize things will help.

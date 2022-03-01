@@ -73,7 +73,31 @@ explore function return values and expressions next.
 
 This design decision doesn't seem coupled to scope blocks, you could
 have returns inside the scoped blocks to make it an expression, seems
-to be more about less typing maybe (no explicit returns).
+to be more about less typing maybe (no explicit returns) since this is also
+valid:
+
+```rust
+fn five() -> i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {}", x);
+}
+```
+
+This is not an immediate plus to me, but it could be some sort of prejudice
+since all languages that I used so far always had explicit returns. It is
+the classic tradeoff of being explicit and typing more VS implicit behavior
+and less typing. Explicit returns are still allowed anyway, so you can always
+use them.
+
+### No named returns
+
+I never liked Go's named returns, so the fact that Rust doesn't have them is
+a + to me.
 
 ## The Fence
 

@@ -62,6 +62,16 @@ so maybe it is not a huge issue (and you can always properly organize code),
 but it does remind of Java in a bad way, like you CAN'T work with the language
 without an IDE, rich IDEs should be optional not a requirement.
 
+There seems to be a way to map module names directly to the filesystem/filenames:
+
+* https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html 
+
+So it would make things more predictable, but it doesn't seem to be enforced so
+I'm not sure how far code in general uses it to organize module code in a project.
+Overall the whole module system, how to define things and how to "import"/"use" them
+is more flexible than what Im used too and I have an overall bad feeling with
+how messy things can get with the extra added flexibility.
+
 But still on the fence on this and not even sure if I got the module system
 on Rust right =P. Also I need to say that seeing **super::** also does give me
 a lot of Javaesque/Pythonesque inheritance chills =P.

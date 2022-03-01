@@ -52,15 +52,16 @@ symbols small by adding then on their own namespace. Languages like
 Go/Python force you towards creating separate files or directories to
 create namespaces (Python is dir + files, Go only dirs). Languages
 like C++ and Rust decouple both things, creating namespaces and isolating
-symbos is unrelated to source files/directories AFAIK.
+symbols is unrelated to source files/directories AFAIK.
 
 That does provide a great deal of flexibility and it is very easy to isolate
 a few private functions together in the same namespace without new files/dirs,
 but can create a situation where finding symbols could be hard since files/dirs
 won't help you much. Code navigation features on text editors/IDEs mitigate this,
-so maybe it is not a huge issue, but it does remind of Java in a bad way, like
-you CAN'T work with the language without an IDE, rich IDEs should be optional not
-a requirement.
+so maybe it is not a huge issue (and you can always properly organize code),
+but it does remind of Java in a bad way, like you CAN'T work with the language
+without an IDE, rich IDEs should be optional not a requirement.
 
 But still on the fence on this and not even sure if I got the module system
-on Rust right =P.
+on Rust right =P. Also I need to say that seeing **super::** also does give me
+a lot of Javaesque/Pythonesque inheritance chills =P.

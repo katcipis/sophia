@@ -36,33 +36,7 @@ operators/traits for equality and provides basic support for testing
 code that creates/errors panics, including partial matching on panic
 messages, which can be useful.
 
-More details on testing:
-
-* https://doc.rust-lang.org/book/ch11-00-testing.html
-
-#### Test Code Organization
-
-On how to organize tests, from [The Rust Programming Language](https://doc.rust-lang.org/book/ch11-03-test-organization.html):
-
-```
-You’ll put unit tests in the src directory in each file with the code that
-they’re testing. The convention is to create a module named tests in each file
-to contain the test functions and to annotate the module with cfg(test)
-```
-
-I find the decision interesting, specially for unit tests. Keeping them as
-close as possible makes things easier, specially since they change together,
-and Rust module system and annotations allows this to be done safely, in
-a way that the code under test is unaffected by the tests residing on the
-same file (no extra symbols exported or anything).
-
-It does seem that keeping tests on the same file as a submodule does
-make it remarkably easy to import private symbols on the tests and
-then test private stuff, I'm considerably against testing private
-stuff since most of the time it is a bad idea IMHO, but not always,
-so it makes sense to provide a way to do so, but in this case it ends
-up remarkably easy to do so. More info
-[here](https://doc.rust-lang.org/book/ch11-03-test-organization.html#testing-private-functions).
+More details on [testing](https://doc.rust-lang.org/book/ch11-00-testing.html).
 
 ## The Fence
 
@@ -94,9 +68,95 @@ So it would make things more predictable, but it doesn't seem to be enforced so
 I'm not sure how far code in general uses it to organize module code in a project.
 Overall the whole module system, how to define things and how to "import"/"use" them
 is more flexible than what Im used too and I have an overall bad feeling with
-how messy things can get with the extra added flexibility.
+how messy things can get with the extra added flexibility. On the other hand,
+if I'm not wrong, every time you split a modules into dirs/files then the
+name of the dirs/files need to match the module path, kinda like Go/Python,
+so that is a step in the right direction when compared to C++ where namespaces
+can be defined anywhere, so mapping namespaces to where they are defined
+can be quite challenging (then code navigation helps).
 
 But still on the fence on this and not even sure if I got the module system
 on Rust right =P. Also I need to say that seeing **super::** also does give me
 a lot of Javaesque/Pythonesque inheritance chills =P. Checking bigger code bases
 and how they organize things will help.
+
+### Test Code Organization
+
+On how to organize tests, from [The Rust Programming Language](https://doc.rust-lang.org/book/ch11-03-test-organization.html):
+
+```
+You’ll put unit tests in the src directory in each file with the code that
+they’re testing. The convention is to create a module named tests in each file
+to contain the test functions and to annotate the module with cfg(test)
+```
+
+I find the decision interesting, specially for unit tests. Keeping them as
+close as possible makes things easier, specially since they change together,
+and Rust module system and annotations allows this to be done safely, in
+a way that the code under test is unaffected by the tests residing on the
+same file (no extra symbols exported or anything).
+
+It does seem that keeping tests on the same file as a submodule does
+make it remarkably easy to import private symbols on the tests and
+then test private stuff, I'm considerably against testing private
+stuff since most of the time it is a bad idea IMHO, but not always,
+so it makes sense to provide a way to do so, but in this case it ends
+up remarkably easy to do so. More info
+[here](https://doc.rust-lang.org/book/ch11-03-test-organization.html#testing-private-functions).
+
+Actually, given the Rust definition of unit/integration tests, what I do 90%
+of the time is integration tests:
+
+```
+Unit tests are small and more focused, testing one module in isolation at a
+time, and can test private interfaces. Integration tests are entirely external
+to your library and use your code in the same way any other external code
+would, using only the public interface and potentially exercising multiple
+modules per test.
+```
+
+I like to optimize testing always towards the public facing API of libraries/services,
+even when I test smaller parts of the API in isolation, I do so on the public
+API. So I imagine myself doing mostly integration tests according to Rust
+terminology.
+
+For integration tests the way is to separate them on a **tests** dir
+on the project root, which is what I was used to when working with Lua/Python/C/C++.
+
+For testing binaries, Rust approach matches mine:
+
+```
+Integration Tests for Binary Crates
+
+If our project is a binary crate that only contains a src/main.rs
+file and doesn’t have a src/lib.rs file, we can’t create integration tests
+in the tests directory and bring functions defined in the src/main.rs file
+into scope with a use statement.
+
+Only library crates expose functions that other crates can use;
+binary crates are meant to be run on their own.
+
+This is one of the reasons Rust projects that provide a binary have a
+straightforward src/main.rs file that calls logic that lives in the src/lib.rs
+file. Using that structure, integration tests can test the library crate with
+use to make the important functionality available.
+
+If the important functionality works, the small amount of code in the
+src/main.rs file will work as well, and that small amount of code
+doesn’t need to be tested.
+```
+
+Overall the testing approach relies a lot on conventions, which is a good
+way to keep projects consistent, like Go with `name_test.go`. One interesting
+limitation is that integration tests, located at the **tests** dir can't have
+tests defined in subdirs, so you can do all your integrated testing using just
+multiple files on the tests dir:
+
+```
+Files in subdirectories of the tests directory don’t get compiled as separate
+crates or have sections in the test output.
+```
+This make it easy to create helper modules for the tests, but if you have
+a lot of integration tests I'm not sure that only using multiple files
+in the same directory would scale well, maybe there is some way to
+circumvent this (maybe using the test annotation on the subdirs ?).

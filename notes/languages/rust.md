@@ -38,6 +38,27 @@ messages, which can be useful.
 
 More details on [testing](https://doc.rust-lang.org/book/ch11-00-testing.html).
 
+### Scope Blocks as Expressions
+
+On Rust you can have scope blocks inside functions and those blocks are considered
+expressions, so this would work:
+
+```rust
+fn main() {
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {}", y);
+}
+```
+
+Which is quite interesting, some initializations can be reasonably complex
+and yet not warrant a function extraction. This way code keeps being local
+and yet in a new/safer scope meant only for the initialization. You
+get the benefit of the function extraction but without losing locality.
+
 ## The Fence
 
 Things that I'm still on the fence about.

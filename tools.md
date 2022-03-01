@@ -365,3 +365,11 @@
 # Security Protocol Validation
 
 * [tamarin](https://tamarin-prover.github.io/)
+
+# WASM
+
+* [binaryen](https://github.com/WebAssembly/binaryen)
+
+## Profiling
+
+* [twiggy](https://github.com/rustwasm/twiggy)

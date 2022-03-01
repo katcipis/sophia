@@ -99,6 +99,26 @@ use them.
 I never liked Go's named returns, so the fact that Rust doesn't have them is
 a + to me.
 
+### Predicates must be boolean
+
+This is also something that feels basic to me, but so much languages to this
+differently in the name of metaprogramming and typing less or something that
+it is a huge plus that Rust avoided that pitfall. If you try to use a value
+that is not a boolean in an **if**:
+
+```
+The error indicates that Rust expected a bool but got an integer.
+Unlike languages such as Ruby and JavaScript, Rust will not automatically
+try to convert non-Boolean types to a Boolean.
+You must be explicit and always provide if with a Boolean as its condition.
+```
+
+Even languages that don't have type coercion, like Python, they still do it for
+booleans, so you can do all sorts of crazy shit on **ifs** (essentially a
+form of type coercion masked behind metaprogramming/behavior). That never
+benefited me and I was used to losing a lot of time with this on Lua/Python,
+so on tradeoff land I prefer being explicit on **ifs** and writing more code.
+
 ## The Fence
 
 Things that I'm still on the fence about.

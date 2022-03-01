@@ -59,6 +59,22 @@ and yet not warrant a function extraction. This way code keeps being local
 and yet in a new/safer scope meant only for the initialization. You
 get the benefit of the function extraction but without losing locality.
 
+It does come with a tradeoffs, which answers my initial question of why does
+Rust keep the semicolons:
+
+```
+Note that the x + 1 line doesn’t have a semicolon at the end, unlike most of
+the lines you’ve seen so far. Expressions do not include ending semicolons.
+
+If you add a semicolon to the end of an expression, you turn it into a
+statement, and it will then not return a value. Keep this in mind as you
+explore function return values and expressions next.
+```
+
+This design decision doesn't seem coupled to scope blocks, you could
+have returns inside the scoped blocks to make it an expression, seems
+to be more about less typing maybe (no explicit returns).
+
 ## The Fence
 
 Things that I'm still on the fence about.

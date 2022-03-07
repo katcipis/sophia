@@ -31,22 +31,22 @@ It will know your organization’s rules pertaining to proprietary information
 and the government’s rules relating to security classification.
 ```
 
-This is essentially what we have on the modern internet with social network
-services, web searching and email. Everything is stored and analyzed. The main
-caveat being that the personal assistant doesn't belong to you, it is not
+This is essentially what we have on the internet now (2022) with social network
+services, web searching, email, shopping, etc.  Everything is stored and analyzed.
+The main caveat being that the personal assistant doesn't belong to you, it is not
 even explicit, it is hidden behind these services, and instead of it working
 to your benefit it actually works for the benefit of whatever corporation
-that owns your data and provides the service.
+that owns your data and provides the service in a way that you have no control
+over how the data is used and to who it is sold.
 
 It seems to me that we need a new revolution, like the personal computer revolution,
 that gives back power to people but this time around data and AI. The emergence
 of these sophisticated and wildly useful systems is obvious now (and was clear
 to Lick more than 50 years ago) but it is happening the same way computing started,
-it is 100% on the hands of a few gigantic corporations that don't have your best
-interests at hearth and could shut it down and disrupt your life whenever it
-pleases them.
+it is 100% on the hands of a few gigantic corporations who have already proven
+to be shady on how they use the data.
 
-We are at fault with this (we the people). For economic reasons, just as it happens
+We are at fault with this. For economic reasons, just as it happens
 with the cloud, we give more and more power to these few companies. We just bought
 the whole propaganda on how useless/dumb it is to have your own infrastructure,
 to write your own software, and by doing that we are selling ourselves more and
@@ -54,16 +54,18 @@ more to them, for the sake of being more "productive" and "cheap", or to have
 access to services for "free" (there is no such thing).
 
 The idea is not that corporations are bad and things should be owned by the
-government, that maybe be even worse. I think it is more about how the relationship
-with companies exist today and then also think on ways on how people can keep
-being owners of their data and doing computation on the edge, where the data
-can be safely used. This is not such a pipe dream, Brendan Eich the creator
+government, that may be even worse. I think it is more about how the relationship
+with companies exist today, the balance of power. We need to think on ways on
+how we can keep our data and doing computation on the edge, where the data
+can be safely used privately (not an easy problem to solve since some computations
+can be quite expensive, so some sort of hybrid model may be required).
+This is not such a pipe dream, Brendan Eich the creator
 of Javascript is trying something like this with the [Brave Browser](https://brave.com/).
 
 Not sure it is the best way to approach it, but we need more of that, computing
 solutions that leverage the computational power the individual already have
-(edge computing) in a way that the data always belongs to the individual only
-(also pushes for edge computing). You can even store the data on the network,
+(edge computing) in a way that the data always belongs to the individual only.
+You can even store the data on the network,
 as far as it is in a way that only the end user can access it.
 
 The vision of what human augmentation could look like persists and it is beautiful,

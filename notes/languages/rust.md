@@ -97,7 +97,7 @@ use them.
 ### No named returns
 
 I never liked Go's named returns, so the fact that Rust doesn't have them is
-a + to me.
+a plus to me.
 
 ### Predicates must be boolean
 

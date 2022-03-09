@@ -79,6 +79,8 @@
 
 # Debuggers
 
+* [Fenris](https://lcamtuf.coredump.cx/fenris/whatis.shtml)
+
 ## Memory
 
 * [Dmalloc](http://dmalloc.com/)
@@ -87,8 +89,7 @@
 * [memwatch](http://www.linkdata.se/sourcecode/memwatch/)
 * [mtrace](http://www.gnu.org/software/libc/manual/html_node/Tracing-malloc.html)
 
-
-### Python
+## Python
 
 * [Heapy](http://guppy-pe.sourceforge.net/)
 

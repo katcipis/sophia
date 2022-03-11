@@ -148,7 +148,7 @@ There seems to be a way to map module names directly to the filesystem/filenames
 So it would make things more predictable, but it doesn't seem to be enforced so
 I'm not sure how far code in general uses it to organize module code in a project.
 Overall the whole module system, how to define things and how to "import"/"use" them
-is more flexible than what Im used too and I have an overall bad feeling with
+is more flexible than what Im used to and I have an overall bad feeling with
 how messy things can get with the extra added flexibility. On the other hand,
 if I'm not wrong, every time you split a modules into dirs/files then the
 name of the dirs/files need to match the module path, kinda like Go/Python,

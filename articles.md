@@ -105,6 +105,7 @@
 
 ## Concurrency
 
+* [A Study of Real-World Data Races in Golang](https://arxiv.org/abs/2204.00764?s=03)
 * [Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems](https://songlh.github.io/paper/gcatch.pdf)
 * [Static Race Detection and Mutex Safety and Liveness for Go Programs](https://arxiv.org/abs/2004.12859)
 * [A Static Verification Framework for Message Passing in Go using Behavioural Types](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf)

@@ -122,5 +122,48 @@ TL;DR burstable CPU is a safety net. It has risks and requires some discipline t
 for most users (even at Google) it is better than the alternative. But don't take it for granted!
 ```
 
+Another comment from [Tim Hockin](https://github.com/thockin) on
+[On Kubernetes CPU Limits](https://www.reddit.com/r/kubernetes/comments/all1vg/on_kubernetes_cpu_limits/efgyygu/)
+
+```
+Requests and Limits for CPU are a trade-off.
+
+Without addressing implementation issues in Linux or in how
+k8s uses it, here's the general guidance I give:
+
+Always set CPU request. This is the baseline and it is the only thing you can count on.
+
+Only set CPU limit if you have a reason to. E.g. if you think your app using more CPU will
+thrash cache to the detriment of other apps, or if you are charging someone and don't want to
+be too generous or if you are running a benchmark.
+
+The logic I stick to is this: there will be idle CPU on the machine. Especially on larger shared
+machines, not every app will spoke at the same time. Statistics say that you can count on this with
+some relatively high probability. These idle cycles are available to any app which is under its CPU limit.
+Why would you not want to use it?
+
+Now, recall what I said before - request is all you can count on.
+If, by some chance, there are no idle cycles, you should get your requested CPU time,
+and nothing more. That has to be "good enough".
+
+If your app depends on extra idle cycles to meet your SLOs, then your request is wrong.
+
+If your app takes advantage of extra idle cycles but doesn't NEED them, you are doing it right.
+
+If you request your worst-case needs (peak) it will be expensive and your average utilization will be low.
+
+If you request your average needs, it will be cheap, but a lot of your work will be out of SLO.
+
+You need to decide how much you are willing to pay to improve your SLO. If guaranteeing 0.1 more
+CPU leads to reducing 95p latency by 10%, is that worth the cost? If you have no-cost access to
+that 0.1 cores 75% of the time, is it still worth the cost?
+
+This is statistically managed over-commit. The coefficients of this optimization function are your to define.
+
+If you want a very high SLO, you should run your load tests with CPU limit=request.
+That will tell you your WORST CASE behavior. Then you can optimize cost by lowering
+request based on your own cluster utilization and ground truth.
+```
+
 There is probably some scenario where a limit may be required, but it for sure
 should not be a default/"best practice".

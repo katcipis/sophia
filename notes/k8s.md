@@ -166,4 +166,8 @@ request based on your own cluster utilization and ground truth.
 ```
 
 There is probably some scenario where a limit may be required, but it for sure
-should not be a default/"best practice".
+should not be a default/"best practice". When limits cause problems the problems
+are really hard to understand/detect, you can easily end in situations where nodes
+are mostly idle and yet performance is terrible (for no good reason). While monitoring
+CPU requests VS actual CPU usage is fairly trivial (and should always be done even if
+you use limits).

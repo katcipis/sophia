@@ -67,7 +67,7 @@ limits exactly equal to the corresponding requests.
 ```
 
 A [comment](https://news.ycombinator.com/item?id=24381813) from [Tim Hockin](https://github.com/thockin) on a
-[hacker news thread](https://news.ycombinator.com/item?id=24351566):
+[Kubernetes: Make your services faster by removing CPU limits](https://news.ycombinator.com/item?id=24351566):
 
 ```
 Since this started by citing me, I feel somewhat obligated to defend my guidance.

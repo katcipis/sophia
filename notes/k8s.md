@@ -43,9 +43,9 @@ so the Pod has Guaranteed QoS, so it will not be the first to be unscheduled
 solution to most of this, not QoS, specially since
 when people apply this as a "best practice" you end up with a lot of Guaranteed QoS
 pods and hence you will have no special QoS to any pod, since they are all
-Guaranteed anyway. I haven't used much but would also look at the prioritization
+Guaranteed anyway. I haven't used it much but would also look at the prioritization
 model that was added on k8s after the whole QoS classes thing, it seems
-much more explicit/sane.
+more explicit/sane.
 
 Some more information:
 

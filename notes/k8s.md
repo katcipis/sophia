@@ -50,6 +50,7 @@ much more explicit/sane.
 Some more information:
 
 * [For the love of god, stop using CPU limits on Kubernetes](https://home.robusta.dev/blog/stop-using-cpu-limits/)
+* [Challenges of monitoring CPU limit issues](https://github.com/robusta-dev/alert-explanations/wiki/CPUThrottlingHigh-(Prometheus-Alert))
 * [CockroachDB on k8s docs](https://www.cockroachlabs.com/docs/stable/kubernetes-performance.html#resource-requests-and-limits)
 
 The warning on CockroachDB docs:

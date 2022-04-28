@@ -123,7 +123,6 @@
 * [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393357821/)
 * [Amusing Ourselves to Death](https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business-dp-014303653X/dp/014303653X)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
-* [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 * [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 * [Eye and Brain](https://www.amazon.com/exec/obidos/ASIN/0691048371/squeakland-20)
 * [Zen Mind, Beginner's Mind](https://www.amazon.com/Zen-Mind-Beginners-50th-Anniversary/dp/1611808413)
@@ -312,6 +311,12 @@
 
 
 # Done
+
+## 2022
+
+* [The Pragmatic Programmer: 2nd edition](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
+* [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
+
 
 ## 2021
 

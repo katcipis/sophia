@@ -61,7 +61,7 @@
 
 ## Distributed Systems
 
-* [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+* [Replicated Document Management in a Group Communication System](https://dl.acm.org/doi/pdf/10.1145/62266.1024798)
 * [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
 * [Impossibility of Distributed Consensus with One Faulty Process](http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf)
@@ -223,6 +223,8 @@
 ## TODO
 
 * [Performance Implications of Packet Filtering with Linux eBPF](https://www.net.in.tum.de/fileadmin/bibtex/publications/papers/ITC30-Packet-Filtering-eBPF-XDP.pdf)
+* [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+* [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
 * [A Critique of the Remote Procedure Call Paradigm](https://www.bu.edu/csmet/2018/08/30/re-reading-tanenbaums-critique-of-rpc-30-years-later/)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
@@ -230,7 +232,6 @@
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
-* [The Emperor's Old Clothes](https://dl.acm.org/doi/10.1145/358549.358561)
 * [Our Human Condition "From Space"](http://www.vpri.org/pdf/m2003001_human_cond.pdf)
 
 

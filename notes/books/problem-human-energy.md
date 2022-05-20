@@ -1,6 +1,7 @@
 # The Problem of Increasing Human Energy
 
-The book starts with making a metaphor between humankind
+[The book](https://www.amazon.com/Problem-Increasing-Human-Energy-Harnessing/dp/1605200956)
+starts with making a metaphor between humankind
 and physics. The first premise that Tesla strives to prove
 is that humankind is one thing. He uses a very sweet metaphor
 saying that the pain that he feels when a friend is suffering

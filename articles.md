@@ -169,6 +169,7 @@
 
 ## Security
 
+* [Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf)
 * [BeyondCorp: A New Approach to Enterprise Security](https://research.google/pubs/pub43231/)
 * [Beyond Corp](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44860.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)

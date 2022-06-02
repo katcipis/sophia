@@ -8,7 +8,7 @@
     - [Mocking](#mocking)
 - [Debuggers](#debuggers)
     - [Memory](#memory)
-        - [Python](#python)
+    - [Python](#python)
 - [Profiling](#profiling)
     - [Memory](#memory-1)
     - [CPU](#cpu)
@@ -49,6 +49,9 @@
 - [Captcha Breaking](#captcha-breaking)
 - [Email Verification](#email-verification)
 - [Distributed System Validation](#distributed-system-validation)
+- [Security Protocol Validation](#security-protocol-validation)
+- [WASM](#wasm)
+    - [Profiling](#profiling-1)
 
 <!-- mdtocend -->
 

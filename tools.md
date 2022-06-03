@@ -189,6 +189,7 @@
 
 ## Time Series
 
+* [M3](https://github.com/m3db/m3)
 * [OpenTSDB](http://opentsdb.net/)
 
 

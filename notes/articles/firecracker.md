@@ -189,3 +189,67 @@ syscalls, each with additional argument filtering, and 30 ioctls
 In this case it is easier to isolate since you are always running the same
 application (Firecracker) and you have good knowledge of which resources/syscalls
 it needs (running any arbitrary program correctly is a harder problem).
+
+In the end the system worked pretty well and the migration is strategy very sound:
+
+```
+We took advantage of users of Lambda inside AWS by
+migrating their workloads first, and carefully monitoring their
+metrics. Having access to these internal customer’s metrics
+and code reduced the risk of early stages of deployment,
+because we didn’t need to rely on external customers to inform
+us of subtle issues.
+```
+
+Always eat your own dog food :-).
+
+## DNS Fun
+
+Since I always had my share of problems that seemed quite serious and in the
+end was just some DNS caching missing (thanks Azure) I was thrilled to see
+I'm not the only one:
+
+```
+Our deployment mechanism was also designed to allow
+fast, safe, and (in some cases) automatic rollback, moving
+customers back to the legacy stack at the first sign of trouble.
+Rollback is a key operational safety practice at AWS, allowing
+us to mitigate customer issues quickly, and then investigate.
+
+One case where we used this mechanism was when some
+customers reported seeing DNS-related performance issues:
+we rolled them back, and then root-caused the issue to a
+misconfiguration causing DNS lookups not to be cached inside the MicroVM
+```
+
+## Immutable Infrastructure
+
+Since I always push for Immutable infrastructure, I felt compelled to
+quote them on this:
+
+```
+We use an immutable infrastructure approach, where we patch by completely
+re-imaging the host, implemented by terminating and re-launching our AWS
+EC2 instances with an updated machine image (AMI).
+
+We chose this approach based on a decade of experience operating AWS services,
+and learning that it is extremely difficult to
+keep software sets consistent on large-scale mutable fleets (for
+example, package managers like rpm are non-deterministic
+producing different results on across a fleet).
+```
+
+## Configuration
+
+Firecracker is configured through a very simple REST API. Which is a nice
+change to the usual complex configuration setups, or using some fancy/specific
+RPC thing.
+
+## Conclusion
+
+In the end, given a bunch of wrong reasons, something like Firecracker seems
+like a good idea, and it seems they were always very concerned about making things
+as simple as possible, both on runtime overhead but also on amount of
+code/complexity. It was really nice to find out that the project itself is
+open source, seems like a good place to take a look into for some solid
+Rust code examples.

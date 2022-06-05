@@ -94,7 +94,7 @@ management or other features
 ```
 
 And that sums up perfectly the core idea of Firecracker, strip down QEMU to
-the very essential required just to run programs built for Linux:
+the very essential required just to run programs built for Linux/x86/x64:
 
 ```
 QEMU contains > 1.4 million lines of code, and can require up to 270 unique
@@ -126,7 +126,7 @@ allows creation of up to 150 MicroVMs per second per host
 ```
 
 Memory overhead is fundamental to achieve high-density.
-When discussing the advantages, usually hardware is regarded
+When discussing trade-offs, usually hardware is regarded
 as safer and better at isolation:
 
 ```
@@ -148,7 +148,7 @@ techniques in operating systems, processors, firmware
 and microcode.
 ```
 
-So in the end securing something is considerably complex. On the
+So in the end securing something is considerably complex these days. On the
 level of the hardware their approach was to disable hardware features
 that optimize performance in detriment of isolation guarantees:
 
@@ -162,7 +162,7 @@ Migrating to Firecracker changed the timings of some code, and
 exposed minor bugs in our own SDK, and in Apache Commons HttpClient [22, 23]
 ```
 
-Which shows how tricky is to get good isolation on the hardware level +
+Which shows how tricky is to get good isolation even on the hardware level +
 showcases yet another bug caused by changes on timing/concurrency/etc :-).
 
 Since this is a battle fought at all layers, on top of Firecracker they also
@@ -190,7 +190,37 @@ In this case it is easier to isolate since you are always running the same
 application (Firecracker) and you have good knowledge of which resources/syscalls
 it needs (running any arbitrary program correctly is a harder problem).
 
-In the end the system worked pretty well and the migration is strategy very sound:
+So in the end you have Linux Containers on top of KVM on top of carefully
+configured hardware :-). This reminds me a lot of 
+[Modules, monoliths, and microservices](https://tailscale.com/blog/modules-monoliths-and-microservices):
+
+```
+By far the part we're worst at is #1, isolation. If we could truly and
+efficiently isolate one bit of code from another, the other goals would
+mostly fall into place. But we simply do not know how.
+
+Isolation is a super hard problem. Goodness knows people have tried.
+Yet browser sandbox escapes still happen regularly, undetected privilege
+escalation attacks are simply assumed to exist on every OS, iOS still gets
+jailbroken periodically, DRM never works (for better or worse), virtual
+machines and containers regularly have vulnerabilities discovered, and
+systems like k8s have their containers configured insecurely by default.
+
+People have even been known to figure out encryption keys on remote
+servers by sending well-timed packets to them over the Internet.
+
+Meanwhile, the most spectacular isolation failures in recent memory were
+the Meltdown and Spectre attacks, which allowed any program on a computer,
+even a javascript app in a web browser, to read the memory of other programs
+on the same computer, even across sandboxes or virtual machines.
+```
+
+And that is a struggle I have observed my whole life as I build software.
+Isolation is an essential property to design software at scale, and yet for a
+lot of different reasons it is remarkably hard to achieve.
+
+Going back to Firecracker, in the end the system worked pretty
+well and the migration is strategy very sound:
 
 ```
 We took advantage of users of Lambda inside AWS by

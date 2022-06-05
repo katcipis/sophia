@@ -25,10 +25,10 @@ for sure).
 The authors go on showcasing something that I have been feeling for years
 already. Linux containers are broken for any serious requirement on isolation,
 and there is a good chance this will never change since the problem is systemic
-and related to overall core design of Linux.
+and related to the core design of Linux.
 
 One example is the complexity of the system, the more system calls and the more
-subsystems the more you have API surface to leak things. Quoting the authors:
+subsystems the more you have API surface to protect. Quoting the authors:
 
 ```
 Tsai et al [57] found
@@ -47,7 +47,7 @@ to isolate things, you have multiple namespaces:
 
 And probably more namespaces that I'm forgetting. You need to ensure all of them
 are properly isolated since any of them may help leak information.
-The situation is so dire to solving this at the kernel that a reasonable solution
+The situation is so dire that a reasonable solution
 is to re-implement functionality on user space, which I can't shake off the feeling
 of being the ultimate defeat of whatever is being done on the kernel:
 
@@ -67,14 +67,14 @@ interfaces like /proc have showed this to be challenging
 (CVE-2018-17972 and CVE-2017-18344 are recent examples).
 ```
 
-And then the ultimate failure, the kernel does such a bad job at
-providing isolation that in order to have **just** isolation you need
-to use virtualization. I get that it ends up being a "good" solution because
+Another example of the  kernel doing a bad job at
+providing isolation is that in order to have **just** isolation you need
+to use virtualisation. I get that it ends up being a "good" solution because
 hypervisors do a better job at isolation, but it is a hacky solution nonetheless
 and Firecracker is an example of that.
 
 How is it hacky ? Not necessarily in a bad way, it is a very smart workaround
-for a terrible environment (Linux + isolation), but the design of Firecracker
+for a terrible environment (Linux doing isolation/multi-tenancy),but the design of Firecracker
 itself makes the hackiness explicit. Even though it uses virtualisation it can't
 actually virtualise different archs/OS's, the whole point of Firecracker is
 to use the bare minimum of virtualisation just to get isolation and good enough

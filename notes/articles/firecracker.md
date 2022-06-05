@@ -235,7 +235,7 @@ Always eat your own dog food :-).
 
 ## DNS Fun
 
-Since I always had my share of problems that seemed quite serious and in the
+Since I had my share of problems that seemed quite serious and in the
 end was just some DNS caching missing (thanks Azure) I was thrilled to see
 I'm not the only one:
 
@@ -277,9 +277,9 @@ RPC thing.
 
 ## Conclusion
 
-In the end, given a bunch of wrong reasons, something like Firecracker seems
+For a lot of wrong reasons (sucking at isolation), something like Firecracker seems
 like a good idea, and it seems they were always very concerned about making things
 as simple as possible, both on runtime overhead but also on amount of
 code/complexity. It was really nice to find out that the project itself is
-open source, seems like a good place to take a look into for some solid
-Rust code examples.
+[open source](https://github.com/firecracker-microvm/firecracker),
+seems like a good place to take a look into for some solid Rust code examples.

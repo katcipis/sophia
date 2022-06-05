@@ -220,7 +220,7 @@ Isolation is an essential property to design software at scale, and yet for a
 lot of different reasons it is remarkably hard to achieve.
 
 Going back to Firecracker, in the end the system worked pretty
-well and the migration is strategy very sound:
+well and the migration strategy is very sound:
 
 ```
 We took advantage of users of Lambda inside AWS by

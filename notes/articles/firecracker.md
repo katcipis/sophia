@@ -124,3 +124,68 @@ it offers memory overhead of less than 5MB per
 container, boots to application code in less than 125ms, and
 allows creation of up to 150 MicroVMs per second per host
 ```
+
+Memory overhead is fundamental to achieve high-density.
+When discussing the advantages, usually hardware is regarded
+as safer and better at isolation:
+
+```
+From an isolation perspective, the most compelling benefit is that it
+moves the security-critical interface
+from the OS boundary to a boundary supported in hardware
+and comparatively simpler software
+```
+
+Except when it is not :-):
+
+```
+Architectural and micro-architectural side-channel attacks
+have existed for decades. Recently, the publication of Meltdown
+[34], Spectre [30], Zombieload [49], and related attacks
+(e.g. [2, 37, 54, 58]) has generated a flurry of interest
+in this area, and prompted the development of new mitigation
+techniques in operating systems, processors, firmware
+and microcode.
+```
+
+So in the end securing something is considerably complex. On the
+level of the hardware their approach was to disable hardware features
+that optimize performance in detriment of isolation guarantees:
+
+```
+This migration was mostly uneventful, but
+we did find some minor issues. For example, our Firecracker
+fleet has Symmetric MultiThreading (SMT, aka Hyperthreading)
+disabled [52] while our legacy fleet had it enabled.
+
+Migrating to Firecracker changed the timings of some code, and
+exposed minor bugs in our own SDK, and in Apache Commons HttpClient [22, 23]
+```
+
+Which shows how tricky is to get good isolation on the hardware level +
+showcases yet another bug caused by changes on timing/concurrency/etc :-).
+
+Since this is a battle fought at all layers, on top of Firecracker they also
+added a Jailer using isolation features from the kernel:
+
+```
+Firecracker’s jailer implements an additional level of
+protection against unwanted VMM behavior (such as a hypothetical
+bug that allows the guest to inject code into the VMM).
+
+The jailer implements a wrapper around Firecracker which
+places it into a restrictive sandbox before it boots the guest,
+including running it in a chroot, isolating it in pid and network
+namespaces, dropping privileges, and setting a restrictive seccomp-bpf profile.
+
+The sandbox’s chroot contains only the Firecracker binary, /dev/net/tun,
+cgroups control files, and
+any resources the particular MicroVM needs access to (such
+as its storage image). The seccomp-bpf profile whitelists 24
+syscalls, each with additional argument filtering, and 30 ioctls
+(of which 22 are required by KVM ioctl-based API).
+```
+
+In this case it is easier to isolate since you are always running the same
+application (Firecracker) and you have good knowledge of which resources/syscalls
+it needs (running any arbitrary program correctly is a harder problem).

@@ -4,18 +4,18 @@ Notes from the [paper](https://www.usenix.org/system/files/nsdi20-paper-agache.p
 
 Overall the approach explained on the paper is very sensible, they define well
 where they want to get and assess different strategies to get there and why
-they ended up choosing virtualization as the basis.
+they ended up choosing virtualisation as the basis. It is a good read.
 
 The problem being solved is also well explained, it is not that hard to define
 but it is considerably hard to solve, they want to run true multi tenant workloads.
 What I mean with true ? Each tenant may be a different client, they should never
-be able to see any data from each other, now that someone else is even there or
+be able to see any data from each other, know that someone else is even there or
 have their performance affected by other workload (which is different when the
 multiple tenants are just different teams of the same company).
 
 This multi-tenant engine is required by AWS products like Lambda and Fargate.
-They run small (also big, but usually small) workloads completely isolated
-from each other in a "serverless" manner. The main drive from the research
+They run workloads completely isolated from each other in a "serverless" manner.
+The main drive from the research
 (just as it was with Borg on Google) is cost reduction. Of course making
 things safer is always desirable, but they focus more on high-density
 and over subscription of resources, they get to astonishing values like

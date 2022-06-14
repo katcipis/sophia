@@ -208,6 +208,7 @@
 * [Engineering with Logic: Rigorous Test-Oracle Specification and Validation for TCP/IP and the Sockets API](https://www.cl.cam.ac.uk/~pes20/Netsem/paper3.pdf)
 * [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
+* [Formal Verification of a Distributed Dynamic Reconfiguration Protocol](https://will62794.github.io/assets/papers/cpp22-formal-verification-reconfig.pdf)
 * [Combining reverse debugging and live programming towards visual thinking in computer programming](https://scholar.sun.ac.za/bitstream/handle/10019.1/96853/coetzee_combining_2015.pdf)
 * [Augmenting Human Intellect](http://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf)
 * [STEPS Toward the Reinvention of Programming](http://www.vpri.org/pdf/tr2012001_steps.pdf)

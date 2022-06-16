@@ -32,7 +32,7 @@
 
 ## Machine Learning
 
-* [Machine Learning](https://www.coursera.org/learn/machine-learning/outline)
+* [Machine Learning Introduction: Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction)
 * [Probabilistic Graphical Models Specialization](https://www.coursera.org/specializations/probabilistic-graphical-models)
 * [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/welcome)
 * [Neural Networks for Machine Learning](https://www.coursera.org/course/neuralnets)

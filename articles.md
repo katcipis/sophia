@@ -33,6 +33,7 @@
 
 ## Algorithms
 
+* [Pattern-defeating Quicksort](https://arxiv.org/pdf/2106.05123.pdf)
 * [Space/Time Trade-offs in Hash Coding with Allowable Errors](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.7552&rep=rep1&type=pdf)
 
 

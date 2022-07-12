@@ -280,6 +280,7 @@
 * [diagrams.net](https://www.diagrams.net/)
 * [diagrams](https://github.com/mingrammer/diagrams)
 * [Dia](https://wiki.gnome.org/Apps/Dia/)
+* [IcePanel](https://icepanel.io/)
 * [Inkscape](http://inkscape.org/en/)
 * [ditaa](http://ditaa.sourceforge.net/)
 

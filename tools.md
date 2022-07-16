@@ -63,6 +63,11 @@
 
 # Testing
 
+## Local Cloud Mocking
+
+* [localstack](https://github.com/localstack/localstack)
+
+
 ## Network Failure Injection
 
 * [comcast](https://github.com/tylertreat/comcast)

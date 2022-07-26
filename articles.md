@@ -118,6 +118,7 @@
 
 ## Languages
 
+* [Lisp in 99 lines of C](https://github.com/Robert-van-Engelen/tinylisp/blob/main/tinylisp.pdf)
 * [Declarative programming: The light at the end of the tunnel](https://www.microsoft.com/en-us/research/publication/declarative-programming-light-end-tunnel/)
 * [Fundamental Concepts in Programming Languages](https://github.com/papers-we-love/papers-we-love/blob/master/languages-theory/fundamental-concepts-in-programming-languages.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)

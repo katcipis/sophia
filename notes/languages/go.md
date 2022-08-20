@@ -755,3 +755,108 @@ There is also the lack of enums, which to be honest annoys me terribly
 in Go (by far the most). It is quite poor to just use constants because
 you can't get compile time safety of the value is inside the set of
 allowed values, I always end up having to check that in runtime :-(.
+
+### Parametric Polymorphism
+
+I will avoid a long rant on "Go should not have parametric polymorphism/generics/whatever".
+In the end they added it and the point to be made here is that it is an aberration
+in the sense that if you like parametric polymorphism and you want it in
+a language, the Go one is quite bad, and it is bad for good reason. Not
+that the people trying to build it are stupid, they are certainly much
+smarter than I am, and they know more about type systems than I do. The main
+constraint on Go having an odd type system is that Go had previous design
+decisions and constraints that make designing a proper parametric types system
+impossible.
+
+Go has a constraint, for the sake of simplicity, that operators are not first
+class citizens. They are magical citizens, that are there, they work, they
+are used all the time, but you can't define them, you can't manipulate them,
+you can't talk about them.
+
+For example, there never was a way in Go (and still there isn't) a way to define
+an interface saying "I want all comparable types". You can define an interface
+like:
+
+```go
+type equal interface {
+    Equal(other SomeType) bool
+}
+```
+
+But now you need to use a method Equal and feel all Javaesque about things =P.
+
+That is a decision with its own tradeoffs, there is a lot of ways to create
+messes with operator overloading, but if you write generic algorithms
+seamlessly, in a way that they read well and are easy to use, support to operators
+as first class citizens is fundamental.
+
+The problem for Go is that they convinced themselves to jump on the parametric
+polymorphism bandwagon but they don't have the first class operators that
+would make it useful. Since they don't have it the hacks need to begin.
+
+The first hack being `comparable`.
+
+#### Comparable
+
+Let's say you want to do something as simple as defining a generic equals.
+By itself it is not very useful, but it is a building block to other ideas.
+
+So you want this:
+
+```
+func eq[T](a, b T) bool {
+	return a == b
+}
+```
+
+Which won't work, because T has no constraint, so you need a way to express
+the constraint that you want things that are comparable. If you check how
+to define [type constraints](https://tip.golang.org/ref/spec#Type_parameter_declarations)
+you will see that there is no way for you to define by yourself that a
+type must be comparable, because Go does not have `==` as a first class
+citizen that can be used on interfaces and constraints (which are just interfaces
+too, but fucked up). Well not being able to do that makes the parametric type system
+quite useless, then Go needs the hack of adding a new interface type named `comparable`
+that then magically works, but there is no way for you to implement one:
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+type x struct {
+	a int
+}
+
+func eq[T comparable](a, b T) bool {
+	return a == b
+}
+
+func main() {
+	fmt.Println(eq(1, 1))
+	fmt.Println(eq(1, 2))
+
+	fmt.Println(eq(x{1}, x{1}))
+	fmt.Println(eq(x{1}, x{2}))
+}
+```
+
+So this works and is possible, but only thanks to Go introducing more magical
+concepts that you can't implement yourself. Go already used to do that, it has a lot
+of builtins that are generic and just work nicely. That is an OK design decision
+in a language, but the whole purpose of a language that has a proper parametric
+polymorphic system is that any of that is not needed, if you design a language
+from scratch with that idea in mind the type system should be powerful enough
+that you don't need reserved/magical things that users can't reproduce, you
+just provide useful collections of functions that do those things.
+
+Go didn't started with this premisse, so you end up with a mix of the worse of
+both worlds. You have all the complexity a more sophisticated type system brings
+but you don't have all the benefits, because previous design decisions constrains
+you, so you still need the complexity of magical language defined constraints.
+
+Depending on other barriers found, the language may end up with more magical
+constraints, since obviously not everything that should be possible in a parametric
+polymorphic system is actually possible.

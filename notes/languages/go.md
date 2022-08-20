@@ -768,14 +768,25 @@ constraint on Go having an odd type system is that Go had previous design
 decisions and constraints that make designing a proper parametric types system
 impossible.
 
-Go has a constraint, for the sake of simplicity, that operators are not first
-class citizens. They are magical citizens, that are there, they work, they
-are used all the time, but you can't define them, you can't manipulate them,
-you can't talk about them.
+Impossible is a strong word, because it is always possible to do something,
+just as was possible to add namespaces/isolation on Linux, it is just much
+more complex and clumsy than on systems that were designed with this idea
+from the ground up like Plan9/Inferno/Fuchsia.
 
-For example, there never was a way in Go (and still there isn't) a way to define
-an interface saying "I want all comparable types". You can define an interface
-like:
+By impossible I mean, you won't have a nice result, specially not a result
+comparable to another system that was designed with the ground up with the
+idea in mind. This is an instance of the principle that not everything can
+be implemented in an ad-hoc manner. Some things need to be embedded on the
+design from the first day up, they don't lend themselves easily to be added
+later, after a lot of other design decisions are incompatible with it.
+
+Well, going back to Go. Go has a constraint, for the sake of simplicity, that
+operators are not first class citizens. They are magical citizens, that are
+there, they work, they are used all the time, but you can't define them,
+you can't manipulate them, you can't talk about them.
+
+For example, there never was a way in Go (and still there isn't) to define
+an interface saying "I want all comparable types". You can define an interface like:
 
 ```go
 type equal interface {
@@ -785,8 +796,8 @@ type equal interface {
 
 But now you need to use a method Equal and feel all Javaesque about things =P.
 
-That is a decision with its own tradeoffs, there is a lot of ways to create
-messes with operator overloading, but if you write generic algorithms
+That is a decision with its own trade-offs, there is a lot of ways to create
+messes with operator definitions, but if you want to write generic algorithms
 seamlessly, in a way that they read well and are easy to use, support to operators
 as first class citizens is fundamental.
 

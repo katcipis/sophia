@@ -845,7 +845,7 @@ func main() {
 
 So this works and is possible, but only thanks to Go introducing more magical
 concepts that you can't implement yourself. Go already used to do that, it has a lot
-of builtins that are generic and just work nicely. That is an OK design decision
+of built-ins that are generic and just work nicely. That is an OK design decision
 in a language, but the whole purpose of a language that has a proper parametric
 polymorphic system is that any of that is not needed, if you design a language
 from scratch with that idea in mind the type system should be powerful enough
@@ -860,3 +860,12 @@ you, so you still need the complexity of magical language defined constraints.
 Depending on other barriers found, the language may end up with more magical
 constraints, since obviously not everything that should be possible in a parametric
 polymorphic system is actually possible.
+
+#### Sorting
+
+TODO
+
+#### Messed Up Interfaces
+
+This one is less a limitation on the parametric type system and more a
+bad choice, IMHO, on how to define constraints.

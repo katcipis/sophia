@@ -872,6 +872,7 @@ Depending on other barriers found, the language may end up with more magical
 constraints, since obviously not everything that should be possible in a parametric
 polymorphic system is actually possible.
 
+
 #### Messed Up Interfaces
 
 This one is less a limitation on the parametric type system and more a
@@ -928,6 +929,27 @@ type a interface {
 Or any variant of the idea that allows you to express that you want any
 type that implements the `==` operator, which is nothing special, just a function
 with a nice syntax to be called.
+
+They even created a whole theory around "type sets" trying to get their head
+around how Go type system would be, the idea is that constraints always define
+sets of types. I still don't get the idea, because honestly most useful type
+sets for interfaces/constraints are infinite because you care about
+operations/protocols not actual set of types.
+
+For any interface, there can always be another implementation
+of it, since it is any type that has all the necessary methods. For a given program
+the sets are always limited, you can always calculate them for that program, but
+conceptually they are infinite. Think about an interface in a library, you don't know
+how much types in the world implement it, and you shouldn't need to know, that is the
+source of the power of interfaces, they are very easy to be used in ways not
+imagined by their authors.
+
+But then Go created this aberration where you can actually created a finite set,
+which is rarely what you want. For example, the previously mentioned `comparable`
+constraint only exists because you want an infinite set, there may be more and more
+types in your program that works with `==`, you don't want to add each one manually
+in a constraint for things to work. Since that is impossible in this new type
+system, hey had to use a hack.
 
 It is interesting to observe how these design decisions ripple through the
 entire language. Language design is hard :-).

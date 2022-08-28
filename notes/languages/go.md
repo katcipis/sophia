@@ -755,3 +755,201 @@ There is also the lack of enums, which to be honest annoys me terribly
 in Go (by far the most). It is quite poor to just use constants because
 you can't get compile time safety of the value is inside the set of
 allowed values, I always end up having to check that in runtime :-(.
+
+### Parametric Polymorphism
+
+I will avoid a long rant on "Go should not have parametric polymorphism/generics/whatever".
+In the end they added it and the point to be made here is that it is an aberration
+in the sense that if you like parametric polymorphism and you want it in
+a language, the Go one is quite bad, and it is bad for good reason. Not
+that the people trying to build it are stupid, they are certainly much
+smarter than I am, and they know more about type systems than I do. The main
+constraint on Go having an odd type system is that Go had previous design
+decisions and constraints that make designing a proper parametric types system
+impossible.
+
+Impossible is a strong word, because it is always possible to do something,
+just as was possible to add namespaces/isolation on Linux, it is just much
+more complex and clumsy than on systems that were designed with this idea
+from the ground up like Plan9/Inferno/Fuchsia.
+
+By impossible I mean, you won't have a nice result, specially not a result
+comparable to another system that was designed with the ground up with the
+idea in mind. This is an instance of the principle that not everything can
+be implemented in an ad-hoc manner. Some things need to be embedded on the
+design from the first day up, they don't lend themselves easily to be added
+later, after a lot of other design decisions are incompatible with it.
+
+Well, going back to Go. Go has a constraint, for the sake of simplicity, that
+operators are not first class citizens. They are magical citizens, that are
+there, they work, they are used all the time, but you can't define them,
+you can't manipulate them, you can't talk about them.
+
+For example, there never was a way in Go (and still there isn't) to define
+an interface saying "I want all comparable types". You can define an interface like:
+
+```go
+type equal interface {
+    Equal(other SomeType) bool
+}
+```
+
+But now you need to use a method Equal and feel all Javaesque about things =P.
+
+That is a decision with its own trade-offs, there is a lot of ways to create
+messes with operator definitions, but if you want to write generic algorithms
+seamlessly, in a way that they read well and are easy to use, support to operators
+as first class citizens is fundamental.
+
+The problem for Go is that they convinced themselves to jump on the parametric
+polymorphism bandwagon but they don't have the first class operators that
+would make it useful. Since they don't have it the hacks need to begin.
+
+The first hack being `comparable`.
+
+#### Comparable
+
+Let's say you want to do something as simple as defining a generic equals.
+By itself it is not very useful, but it is a building block to other ideas.
+
+So you want this:
+
+```
+func eq[T](a, b T) bool {
+	return a == b
+}
+```
+
+Which won't work, because T has no constraint, so you need a way to express
+the constraint that you want things that are comparable. If you check how
+to define [type constraints](https://tip.golang.org/ref/spec#Type_parameter_declarations)
+you will see that there is no way for you to define by yourself that a
+type must be comparable, because Go does not have `==` as a first class
+citizen that can be used on interfaces and constraints (which are just interfaces
+too, but fucked up). Well not being able to do that makes the parametric type system
+quite useless, then Go needs the hack of adding a new interface type named `comparable`
+that then magically works, but there is no way for you to implement one:
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+type x struct {
+	a int
+}
+
+func eq[T comparable](a, b T) bool {
+	return a == b
+}
+
+func main() {
+	fmt.Println(eq(1, 1))
+	fmt.Println(eq(1, 2))
+
+	fmt.Println(eq(x{1}, x{1}))
+	fmt.Println(eq(x{1}, x{2}))
+}
+```
+
+So this works and is possible, but only thanks to Go introducing more magical
+concepts that you can't implement yourself. Go already used to do that, it has a lot
+of built-ins that are generic and just work nicely. That is an OK design decision
+in a language, but the whole purpose of a language that has a proper parametric
+polymorphic system is that any of that is not needed, if you design a language
+from scratch with that idea in mind the type system should be powerful enough
+that you don't need reserved/magical things that users can't reproduce, you
+just provide useful collections of functions that do those things.
+
+Go didn't started with this premise, so you end up with a mix of the worse of
+both worlds. You have all the complexity a more sophisticated type system brings
+but you don't have all the benefits, because previous design decisions constrains
+you, so you still need the complexity of magical language defined constraints.
+
+Depending on other barriers found, the language may end up with more magical
+constraints, since obviously not everything that should be possible in a parametric
+polymorphic system is actually possible.
+
+
+#### Messed Up Interfaces
+
+This one is less a limitation on the parametric type system and more a
+bad choice, IMHO, on how to define constraints. They made the decision that
+interfaces are going to be used for type constraints. Which seems to make
+sense when you think about constraints that requires a pre-determined
+set of methods to be available on a type, just like an interface.
+
+But things get pretty bad when you need something like defining an interface
+of anything that can be ordered. Again since Go doesn't have first class
+operators there is no way to express that on a interface. So the hack this
+time was to just "solve" it with a list of concrete types, like what is done on
+the [constraints.Ordered](https://cs.opensource.google/go/x/exp/+/a9213eeb:constraints/constraints.go;drc=8176bd3bf02641480aa57900d370148cff889042;l=48).
+
+First lets just stop and think on the clumsy hack that it is to define a
+constraint of comparable things by having to enumerate ALL THE TYPES THAT
+ARE COMPARABLE. Just that already smells like really bad parametric types.
+But on top of that, the decision was made to do that by extending the current
+interface type. So now an interface can be something like this:
+
+```go
+type a interface {
+    string | int
+}
+```
+
+Now, you may be thinking, can I actually use that as an interface ? Like this:
+
+```go
+func f(x a) {}
+```
+
+No you can't. Go just created a whole new brand of interfaces that can't be
+used as actual interfaces, even though it is the exact same type. So all
+interfaces can be used as type constraints, but only some interfaces can
+be used as actual interfaces.
+
+I get that adding things also has a cost in a language, but I honestly have
+no idea why they just didn't kept with the original `constraint` type and
+left interfaces alone, so you would have two concepts. One to use on parametric
+polymorphism and another for the simple polymorphism. They coalesced two concepts
+in one and the concepts are incompatible.
+
+This is another repercussion of not having first class operators. If they did 
+then you could just use interfaces as type constraints, because you would
+also be able to do things like this:
+
+```go
+type a interface {
+    == (a SomeType) bool
+}
+```
+
+Or any variant of the idea that allows you to express that you want any
+type that implements the `==` operator, which is nothing special, just a function
+with a nice syntax to be called.
+
+They even created a whole theory around "type sets" trying to get their head
+around how Go type system would be, the idea is that constraints always define
+sets of types. I still don't get the idea, because honestly most useful type
+sets for interfaces/constraints are infinite because you care about
+operations/protocols not actual set of types.
+
+For any interface, there can always be another implementation
+of it, since it is any type that has all the necessary methods. For a given program
+the sets are always limited, you can always calculate them for that program, but
+conceptually they are infinite. Think about an interface in a library, you don't know
+how much types in the world implement it, and you shouldn't need to know, that is the
+source of the power of interfaces, they are very easy to be used in ways not
+imagined by their authors.
+
+But then Go created this aberration where you can actually created a finite set,
+which is rarely what you want. For example, the previously mentioned `comparable`
+constraint only exists because you want an infinite set, there may be more and more
+types in your program that works with `==`, you don't want to add each one manually
+in a constraint for things to work. Since that is impossible in this new type
+system, hey had to use a hack.
+
+It is interesting to observe how these design decisions ripple through the
+entire language. Language design is hard :-).

@@ -265,6 +265,12 @@
 
 # Web
 
+## Desktop
+
+* [Tauri](https://github.com/tauri-apps/tauri)
+* [Wails](https://github.com/wailsapp/wails)
+
+
 ## Browser Automation
 
 * [Puppeteer](https://developers.google.com/web/tools/puppeteer)

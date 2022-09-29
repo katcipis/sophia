@@ -42,3 +42,11 @@ This one was quite interesting because the guy makde changes on Cilium load bala
 to allow for more performant DSR load balancing. In order to get fast paths on
 switches he used IP-in-IP, encapsulating the original package info on a SNAT'ed package.
 So you get the performance of doing the SNAT but the end result is still DSR.
+
+# The Promise of eBPF For The Edge
+
+There was nothing very new/extraordinay on this presentation to me other
+than the fact that Red Hat seems to be investing a lot on eBPF in general.
+Including a Rust library, which seems interesting:
+
+- https://github.com/aya-rs/aya

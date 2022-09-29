@@ -38,7 +38,7 @@ provided.
 
 # Improving Cilium's eBPF-based DSR performance by adding support for IP-in-IP
 
-This one was quite interesting because the guy makde changes on Cilium load balancer
+This one was quite interesting because the guy made changes on Cilium load balancer
 to allow for more performant DSR load balancing. In order to get fast paths on
 switches he used IP-in-IP, encapsulating the original package info on a SNAT'ed package.
 So you get the performance of doing the SNAT but the end result is still DSR.

@@ -289,6 +289,7 @@
 # Diagrams
 
 * [diagrams.net](https://www.diagrams.net/)
+* [excalidraw](https://github.com/excalidraw/excalidraw)
 * [diagrams](https://github.com/mingrammer/diagrams)
 * [Dia](https://wiki.gnome.org/Apps/Dia/)
 * [IcePanel](https://icepanel.io/)

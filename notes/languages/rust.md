@@ -119,47 +119,33 @@ form of type coercion masked behind metaprogramming/behavior). That never
 benefited me and I was used to losing a lot of time with this on Lua/Python,
 so on tradeoff land I prefer being explicit on **ifs** and writing more code.
 
+### Enums !!!
+
+I just love Enums and Rust Enums are much better than what I expected given my previous
+experience with Java/C++. They are safer and more powerful, so it is just pure
+bliss. More can be seen [here](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html).
+
 ## The Fence
 
 Things that I'm still on the fence about.
 
 ### Modules
 
-I have mixed feelings with **mod** just as I always had with C++ namespaces.
-In general I like namespaces, specially as a way to keep private
-symbols small by adding then on their own namespace. Languages like
-Go/Python force you towards creating separate files or directories to
-create namespaces (Python is dir + files, Go only dirs). Languages
-like C++ and Rust decouple both things, creating namespaces and isolating
-symbols is unrelated to source files/directories AFAIK.
+When defining modules you have multiple ways to structure this. The options
+are nice since in some cases for a small module you may do it inline, and in
+other cases you may extract in its own file or directory. But allowing different
+ways to define where the module is opens the door to inconsistency, you can have
+different modules defined in different ways, which can make finding modules
+a little annoying.
 
-That does provide a great deal of flexibility and it is very easy to isolate
-a few private functions together in the same namespace without new files/dirs,
-but can create a situation where finding symbols could be hard since files/dirs
-won't help you much. Code navigation features on text editors/IDEs mitigate this,
-so maybe it is not a huge issue (and you can always properly organize code),
-but it does remind of Java in a bad way, like you CAN'T work with the language
-without an IDE, rich IDEs should be optional not a requirement.
+At least the same module can't be defined in multiple ways, which would be quite
+bad and reminds me of C++ and namespaces being defined across multiple files
+with arbitrary names, in some situations it was quite hard to gather the whole
+definition of a namespace unless the programmer was careful/consistent.
 
-There seems to be a way to map module names directly to the filesystem/filenames:
+The cheat sheet for Rust module definitions can be seen
+[here](https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html).
 
-* https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html 
-
-So it would make things more predictable, but it doesn't seem to be enforced so
-I'm not sure how far code in general uses it to organize module code in a project.
-Overall the whole module system, how to define things and how to "import"/"use" them
-is more flexible than what Im used to and I have an overall bad feeling with
-how messy things can get with the extra added flexibility. On the other hand,
-if I'm not wrong, every time you split a modules into dirs/files then the
-name of the dirs/files need to match the module path, kinda like Go/Python,
-so that is a step in the right direction when compared to C++ where namespaces
-can be defined anywhere, so mapping namespaces to where they are defined
-can be quite challenging (then code navigation helps).
-
-But still on the fence on this and not even sure if I got the module system
-on Rust right =P. Also I need to say that seeing **super::** also does give me
-a lot of Javaesque/Pythonesque inheritance chills =P. Checking bigger code bases
-and how they organize things will help.
 
 ### Test Code Organization
 

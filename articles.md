@@ -226,6 +226,7 @@
 
 ## TODO
 
+* [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)

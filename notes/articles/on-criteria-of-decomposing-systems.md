@@ -1,6 +1,6 @@
 # On the Criteria To Be Used in Decomposing Systems into Modules
 
-The [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
+The [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf)
 article is just pure gold on good criteria to decomposing systems into modules (using assembly
 on the examples, kick ass !!)
 

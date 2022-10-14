@@ -146,6 +146,23 @@ definition of a namespace unless the programmer was careful/consistent.
 The cheat sheet for Rust module definitions can be seen
 [here](https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html).
 
+Another interesting thing about the module system that I'm also getting my head
+around is that it is deeply hierarchical. There is a clear relationship between
+parent/child modules. It starts on definition, parent modules are the ones
+that define the child modules by using `mod`, even when the child module is
+actually defined in a different directory. The hierarchy is essential to other
+features around visibility. Parents can't access private data of children, but
+children can access anything from parents. So it imposes a structure where
+submodules hide implementation details while accessing anything they want
+from parent modules.
+
+You can change this behavior too by exposing everything from a child module,
+but that needs to be done explicitly.
+
+In the end you have a full hierarchy of all the modules expressed in code, which
+is kinda odd at first if you are used to Go where the packages doesn't have
+any kind of hierarchical relationship and are completely decoupled from each other.
+
 
 ### Test Code Organization
 

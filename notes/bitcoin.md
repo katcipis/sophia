@@ -1,8 +1,8 @@
 # Bitcoin
 
 From its inception I never got a strong appeal towards Bitcoin, probably because
-I like anarcho-capitalist skills, IDK, but even though I work in tech
-and I usually like digital things, there was always something off on it.
+I lack anarcho-capitalist skills, IDK, but even though I work in tech
+and I usually like digital things, there was always something off about it.
 
 I realize now it is probably because of the pattern of someone being naive
 and trying to improve things and building tech for that, and then a lot of

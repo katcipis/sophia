@@ -99,7 +99,7 @@ third party, when it is essentially the same and there you go having to
 trust something.
 
 It is a very human way to structure things with a neutral mediator to solve
-disputes, because disputes are very common and they just don't get solved
+disputes, because disputes are very common and sometimes (or most of times) they don't get solved
 just by the involved parties most of the time, you can't escape that with tech
 because that is a human "feature", there is no amount of tech that can change that.
 So you just go in circles and end up on the same place you were before, but with
@@ -124,3 +124,49 @@ You just moved the problem from "allocating many IPs" to "allocating many CPUs",
 is conceptually the same thing. And specially on public IPv4 addresses I'm not even
 sure who is more expensive, so it is debatable if the IP thing would not be
 actually better. It is probably a bad idea, but so is the computing power idea.
+
+And this is another example of conceptually wrong thing on Bitcoin, it is a very sane
+approach to avoid abuse to make abuse very costly, I would even say that it is
+the default way to avoid abuse on systems. For a public/anonymous system it is
+impossible to completely block people from abusing things, but if you make it
+hard enough, there is a decent chance you will win. The conceptual problem
+here is that to make things hard to attackers you make things harder to everyone,
+and that doesn't make a whole sense to me, specially thinking about scaling a
+global currency:
+
+```
+To compensate for increasing hardware speed and varying interest in running nodes over time,
+the proof-of-work difficulty is determined by a moving average targeting an average number of
+blocks per hour. If they're generated too fast, the difficulty increases.
+```
+
+So thinking about the utopia of decentralized currency and using that in your daily life.
+You are free of the yoke of The Government, you have 100% freedom to buy anything
+with your bitcoin, everyone is living like that now using it for everything.
+Now you have the whole world using this (not even paper anymore, because that is old
+and Government owned). How is that going to scale, for the whole world doing
+all sorts of VERY essential transactions, like buying food, in a system that is
+DESIGNED to get slower/harder the more transactions you have ?
+
+Honestly this is one of the parts of this whole thing that I really don't get how
+people get around. The only answer is that Bitcoin will never be used as an actual replacement
+for the current bad/classic system, it will be just an option that you use sometimes,
+probably to buy drugs or something, because as a truly changing thing that you can
+use in a daily basis it just doesn't scale if more than 1% of humanity is using it
+(remember that humanity is also always getting bigger).
+
+It is decentralized in a way, but very centralized in the fact that you have a single
+global ledger that must be kept consistent, that would already be VERY hard to scale,
+but the single global public ledger actually gets slower/harder BY DESIGN. Until
+now I never saw any reasoning that could defeat this fact, so for people who believe
+in it as a currency and something that will disrupt society, that is very bad news,
+most people are going to keep using Mastercard.
+
+When that got obvious, then they started to talk about how it is an asset and protects
+you from inflation and other bad shit that happens on the very bad government owned
+economy. Well guess what, right now (11.2023) we are going through a terrible
+economic crisis and a lot of inflation and Bitcoin just crashed in flames.
+Doesn't matter how much you reason around this, the fact is that people who were
+expecting it to protect them from inflation/economic crisis just got disappointed.
+It may bounce back, who knows, but it seems to be just as speculative and affected
+by the economy as other "classic" assets.

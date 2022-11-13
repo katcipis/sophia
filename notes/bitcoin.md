@@ -80,7 +80,7 @@ Transactions that are computationally impractical to reverse would protect selle
 from fraud, and routine escrow mechanisms could easily be implemented to protect buyers.
 ```
 
-You went completely on the side of protecting buyers, and then there is a mention
+You went completely to the side of protecting buyers, and then there is a mention
 of escrow mechanism that easily fix the issue for buyers that doesn't make any
 sense with the other properties of Bitcoin.
 
@@ -93,10 +93,10 @@ now I can map your wallet/key to an actual ID and I can see all your operations
 since the beginning of the times (because the ledger is public), which doesn't
 seem like something desirable.
 
-All other alternatives to this end up involving some third party, and then
-some misconception on how in this case it will be much better than a classic
+All other alternatives to this end up involving some third party (escrow), and then
+some misconception on how in this case it will be much better than a "classic"
 third party, when it is essentially the same and there you go having to
-trust something.
+trust some third party (because it is inevitable).
 
 It is a very human way to structure things with a neutral mediator to solve
 disputes, because disputes are very common and sometimes (or most of times) they don't get solved
@@ -170,3 +170,131 @@ Doesn't matter how much you reason around this, the fact is that people who were
 expecting it to protect them from inflation/economic crisis just got disappointed.
 It may bounce back, who knows, but it seems to be just as speculative and affected
 by the economy as other "classic" assets.
+
+# Incentive
+
+The incentive part is also fun because it does an analogy with gold mining:
+
+```
+The steady addition of a constant of amount of new coins is analogous to gold miners expending
+resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
+```
+
+Well, AFAIK gold mining was not a tool to distribute wealth and it didn't solve
+any social injustices/inequality. Why ? Because the ones that benefited the
+most from gold mining were the ones already rich enough to have resources to
+do the mining in the first place. Most of the gold was not easy to obtain, it
+required a lot of resources, explosives, people, etc. So it actually helped
+concentrate most of the wealth, since the miners themselves were just employees
+and usually exploited.
+
+Now, who again that has access to MOST electricity/CPU ? Individuals ? Or wealth
+individuals/organizations ? It his really a change on anything ? Honestly it just
+feels like changing the players on the very same game. You will move wealth, but
+from some very wealth individuals to others (but no real re-distribution).
+
+Then another wrong assumption on human incentive:
+
+```
+The incentive may help encourage nodes to stay honest. If a greedy attacker is able to
+assemble more CPU power than all the honest nodes, he would have to choose between using it
+to defraud people by stealing back his payments, or using it to generate new coins. He ought to
+find it more profitable to play by the rules, such rules that favour him with more new coins than
+everyone else combined, than to undermine the system and the validity of his own wealth.
+```
+
+The fatal flaw on this argument is that the ONLY reason to attack a network would
+be to make direct profit, actually get some coins.
+
+# Payment Verification
+
+Payment verification can be tricky/slow to do since it involves:
+
+```
+A user only needs to keep a copy of the block headers of the longest
+proof-of-work chain, which he can get by querying
+network nodes until he's convinced he has the longest chain, and obtain the Merkle branch
+linking the transaction to the block it's timestamped in
+```
+
+The specially tricky part lies in "convinced he has the longest chain". This can be so
+tricky that for someone actually doing business with it:
+
+```
+Businesses that receive frequent payments will probably still want to
+run their own nodes for more independent security and quicker verification.
+```
+
+I'm sure of very few things in life, but Im quite sure that businesses will
+NEVER run their own nodes jut to be able to properly confirm payments, it is
+a fact that this will converge to using some kind of service, which puts us
+exactly where the internet is today, none of the tech is centralized, but services
+and commodification pushes towards centralization. So much for decentralization
+and again exacerbates the naiveness on how things actually work and people behave.
+
+# Privacy
+
+Here things also get dicy.
+
+```
+The necessity to announce all transactions publicly
+precludes this method, but privacy can still be maintained by breaking the flow of information in
+another place: by keeping public keys anonymous
+```
+
+This already failed, there is while companies dedicated to tracing transactions
+and being able to attach some for or identification to keys/wallets.
+You are putting all your hopes on a single point of failure, if I'm ever able
+to map your ID to the wallet key now I have access to EVERYTHING you ever did
+with your wallet, and not just me, EVERYONE in the world, and that with a simple
+map of ID -> key.
+
+One way to protect itself from this:
+
+```
+As an additional firewall, a new key pair should be used for each transaction to keep them
+from being linked to a common owner. Some linking is still unavoidable with multi-input
+transactions, which necessarily reveal that their inputs were owned by the same owner. The risk
+is that if the owner of a key is revealed, linking could reveal other transactions that belonged to
+the same owner.
+```
+
+Hmm yeah, today most people that use bitcoin already use an exchange, because it is
+a big responsibility to know how to manage securely your own wallet. Imagine
+that instead of managing a single key/wallet people are going to manage MULTIPLE
+ones. Honestly this is just beyond insane. And anything other than keeping the
+wallets yourself involve trusting a third party, like an exchange, the only difference
+being that the crypto exchange won't be regulated, so they can fuck you up even more
+than a traditional bank if they want. Again this smells a lot like some hard core
+hacker with an anarcho capitalist mindset projecting that most people will
+behave like he does, building his own servers, maintaining his own things,
+fuck the government and the establishment, etc. Empirical evidence is overwhelmingly
+towards people not behaving like that at all, and not for lack of options, they
+just don't want to be responsible, they don't want liability. People always say
+that they want independence, that is intuitive to want, but it always comes attached
+with responsibility and liability, and that people don't want.
+
+# Partitioning
+
+Actually there is no section on network partitioning, which seems to me to be a
+rookie mistake when you think about distributed systems, network partitions will
+happens. Specially on a system built on to of requiring a lot of energy/computing
+power I'm quite sure that mining will aggregate on a few clusters.
+
+What happens if the clusters get completely disconnected ? In the event of some
+attack/war ?  Do you stop doing any transactions at all (lose availability/
+CAP theorem) ? Because if you keep doing transactions now you have a new blockchain,
+effectively a new coin, and there is no way by design to re-conciliate the
+two blockchains. So once the single system partitions and get into an inconsistent state
+it can never be re conciliated again, game over. For a global currency this
+seems like a fatal flaw to me and it is completely ignored on the paper. It is like
+proposing a design for a distributed system but assuming that network partitioning
+just never happens, or not in a way that affects you anyway (like an entire
+country getting isolated during a war).
+
+One way to do this is to do exactly what we have today, multiple country based currencies
+and you can transfer from one currency to another, you end up with a network of networks,
+which is something that works well (basically the Internet), it is in fact more
+distributed in the sense that there is no single global anything, you have mesh
+network of multiple things that are independent but can cooperate too. Bitcoin is
+not that and the paper seems to just ignore the issue altogether.

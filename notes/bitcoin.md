@@ -100,7 +100,7 @@ trust some third party (because it is inevitable).
 
 It is a very human way to structure things with a neutral mediator to solve
 disputes, because disputes are very common and sometimes (or most of times) they don't get solved
-just by the involved parties most of the time, you can't escape that with tech
+just by the involved parties, you can't escape that with tech
 because that is a human "feature", there is no amount of tech that can change that.
 So you just go in circles and end up on the same place you were before, but with
 different players. Or you try to go without it and will have all the problems

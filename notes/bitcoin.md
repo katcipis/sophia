@@ -188,7 +188,7 @@ required a lot of resources, explosives, people, etc. So it actually helped
 concentrate most of the wealth, since the miners themselves were just employees
 and usually exploited.
 
-Now, who again that has access to MOST electricity/CPU ? Individuals ? Or wealth
+Now, who again that has access to MOST electricity/CPU ? Individuals ? Or wealthy
 individuals/organizations ? It his really a change on anything ? Honestly it just
 feels like changing the players on the very same game. You will move wealth, but
 from some very wealth individuals to others (but no real re-distribution).

@@ -197,6 +197,11 @@
 * [Parsing Techniques](https://www.goodreads.com/book/show/1756599.Parsing_Techniques)
 
 
+### Rust
+
+* [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)
+
+
 ### Erlang
 
 * [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)

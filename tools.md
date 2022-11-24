@@ -297,6 +297,13 @@
 * [ditaa](http://ditaa.sourceforge.net/)
 
 
+## Text to Diagram
+
+* [mermaid-js](https://github.com/mermaid-js/mermaid)
+* [d2](https://github.com/terrastruct/d2)
+* [Graphviz](https://graphviz.gitlab.io/)
+
+
 ## Sequence
 
 * [MscGen](https://en.wikipedia.org/wiki/MscGen)
@@ -306,7 +313,6 @@
 
 ## Graphs
 
-* [Graphviz](https://graphviz.gitlab.io/)
 * [Gephi](http://gephi.github.io/)
 
 

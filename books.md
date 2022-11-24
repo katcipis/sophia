@@ -56,7 +56,6 @@
 ## Learning/Thinking
 
 * [The Art of Doing Science and Engineering](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178)
-* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [The Organized Mind](http://www.amazon.com/The-Organized-Mind-Thinking-Information/dp/052595418X)
 
 
@@ -120,7 +119,6 @@
 
 ## Psychology / Philosophy
 
-* [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393357821/)
 * [Amusing Ourselves to Death](https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business-dp-014303653X/dp/014303653X)
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
@@ -311,6 +309,8 @@
 
 # Doing
 
+
+* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
@@ -319,6 +319,10 @@
 
 ## 2022
 
+* [Animal Farm](https://en.wikipedia.org/wiki/Animal_Farm)
+* [Hands on Rust](https://pragprog.com/titles/hwrust/hands-on-rust/)
+* [Founders at Work](https://www.amazon.com/gp/product/1590597141)
+* [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393357821/)
 * [The Pragmatic Programmer: 2nd edition](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 

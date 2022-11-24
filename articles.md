@@ -228,6 +228,8 @@
 
 ## TODO
 
+* [The paradox of the assisted user: guidance can be counterproductive](https://dl.acm.org/doi/10.1145/1124772.1124908)
+* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
 * [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)

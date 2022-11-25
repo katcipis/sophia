@@ -61,7 +61,8 @@
 
 ## History
 
-* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
+* [Ice Age](https://www.amazon.com/Ice-Age-John-Gribbin-ebook/dp/B00R1ZI6FI)
+* [Guns, Germs and Steel](https://www.amazon.de/-/en/Jared-Diamond/dp/0099302780/)
 * [The Pentium Chronicles](https://www.amazon.com/Pentium-Chronicles-Robert-P-Colwell/dp/0471736171)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
@@ -70,6 +71,7 @@
 
 ## Personal
 
+* [In the Plex: How Google Thinks, Works, and Shapes Our Lives](https://www.amazon.de/Plex-Google-Thinks-Works-Shapes/dp/1416596585)
 * [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
@@ -312,6 +314,7 @@
 # Doing
 
 
+* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)

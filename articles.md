@@ -120,16 +120,17 @@
 
 ## Languages
 
+* [The Early History Of Smalltalk](http://worrydream.com/EarlyHistoryOfSmalltalk/)
+* [The Development of Erlang](https://fermatslibrary.com/s/the-development-of-erlang)
+* [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [Lisp in 99 lines of C](https://github.com/Robert-van-Engelen/tinylisp/blob/main/tinylisp.pdf)
 * [Declarative programming: The light at the end of the tunnel](https://www.microsoft.com/en-us/research/publication/declarative-programming-light-end-tunnel/)
 * [Fundamental Concepts in Programming Languages](https://github.com/papers-we-love/papers-we-love/blob/master/languages-theory/fundamental-concepts-in-programming-languages.pdf)
 * [On Certain Properties of Grammars](http://www.diku.dk/hjemmesider/ansatte/henglein/papers/chomsky1959.pdf)
 * [An Incremental Approach to Compiler Construction](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
 * [Meta II A Syntax Oriented Compiler Writing Language](http://www.ibm-1401.info/Meta-II-schorre.pdf)
-* [The Development of Erlang](https://fermatslibrary.com/s/the-development-of-erlang)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [Growing a Language](https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf)
-* [Can Programming Be Liberated from the von Neumann Style?](http://wwwusers.di.uniroma1.it/~lpara/LETTURE/backus.pdf)
 * [Why Functional Programming Matters](http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf)
 * [The Next 700 Programming Languages](https://www.cs.cmu.edu/~crary/819-f09/Landin66.pdf)
 * [On-the-fly garbage collection: an exercise in cooperation](http://research.microsoft.com/en-us/um/people/lamport/pubs/garbage.pdf)
@@ -230,6 +231,7 @@
 
 * [The paradox of the assisted user: guidance can be counterproductive](https://dl.acm.org/doi/10.1145/1124772.1124908)
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
+* [Monolith: Real Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/pdf/2209.07663.pdf)
 * [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)

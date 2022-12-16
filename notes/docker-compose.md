@@ -102,6 +102,11 @@ The reuse side of it is very interesting, if everything in an organization
 works with Go you could provide Go libraries that build test environments,
 that is much nicer/easier than avoiding duplication of docker-compose YAML files.
 
+## Dagger
+
 More recently there is also [Dagger](https://dagger.io/). It has a lot of potential as a
 much better alternative than docker-compose. Specially since it focus exactly on what I always
 wanted, local dev envs and CI/CD pipelines, instead of being a tool to also run a production system.
+
+Sadly they don't support running services yet, it is mostly focused on building images and running simple
+unit tests inside the containers.

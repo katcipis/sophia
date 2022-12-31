@@ -60,6 +60,11 @@
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
 
 
+## Cloud Infrastructure
+
+* [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
+
+
 ## Distributed Systems
 
 * [Replicated Document Management in a Group Communication System](https://dl.acm.org/doi/pdf/10.1145/62266.1024798)
@@ -175,8 +180,6 @@
 ## Security
 
 * [Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf)
-* [BeyondCorp: A New Approach to Enterprise Security](https://research.google/pubs/pub43231/)
-* [Beyond Corp](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44860.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 * [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
 * [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/CacheOut.pdf)

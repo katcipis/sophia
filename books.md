@@ -315,7 +315,6 @@
 
 
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
-* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
@@ -324,6 +323,7 @@
 
 ## 2022
 
+* [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
 * [Animal Farm](https://en.wikipedia.org/wiki/Animal_Farm)
 * [Hands on Rust](https://pragprog.com/titles/hwrust/hands-on-rust/)
 * [Founders at Work](https://www.amazon.com/gp/product/1590597141)

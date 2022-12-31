@@ -14,3 +14,8 @@
 ## Logging
 
 * [The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)
+
+## Communication/Management/Process
+
+* [The 37signals Guide to Internal Communication](https://37signals.com/how-we-communicate/)
+* [An epic treatise on scheduling, bug tracking, and triage](https://apenwarr.ca/log/20171213)

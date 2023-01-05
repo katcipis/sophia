@@ -232,22 +232,23 @@
 
 ## TODO
 
-* [The paradox of the assisted user: guidance can be counterproductive](https://dl.acm.org/doi/10.1145/1124772.1124908)
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
+* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
+* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
+* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
+* [Distributed Transactional Systems Cannot Be Fast](https://arxiv.org/pdf/1903.09106.pdf)
 * [Monolith: Real Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/pdf/2209.07663.pdf)
 * [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
-* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
-* [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
-* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 
 
 ## Done
 
 ### 2022
 
+* [The paradox of the assisted user: guidance can be counterproductive](https://dl.acm.org/doi/10.1145/1124772.1124908)
 * [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
 * [Our Human Condition "From Space"](http://www.vpri.org/pdf/m2003001_human_cond.pdf)
 * [RE-READING TANENBAUM’S CRITIQUE OF RPC 30 YEARS LATER](https://www.bu.edu/csmet/2018/08/30/re-reading-tanenbaums-critique-of-rpc-30-years-later/)

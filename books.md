@@ -183,6 +183,11 @@
 * [Data Structures and Algorithms](https://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237)
 
 
+## Artificial Intelligence
+
+* [How to Build Your Career in AI](https://info.deeplearning.ai/how-to-build-a-career-in-ai-book)
+
+
 ## Languages
 
 * [Crafting Interpreters](https://craftinginterpreters.com/)

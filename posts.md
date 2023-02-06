@@ -7,6 +7,10 @@
 * [The Tyranny of Stuctureless](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
 
+## Databases
+
+* [A Database for 2022](https://tailscale.com/blog/database-for-2022/)
+
 ## Modularization
 
 * [Modules, monoliths, and microservices](https://tailscale.com/blog/modules-monoliths-and-microservices/)

@@ -226,3 +226,59 @@ things aggressively is not an option (or maybe it is, that is an interesting
 open question on my mind).
 
 ## RPC
+
+The RPC abstraction is a subject very close to my hearth, specially because I
+got the end of the frenzy on remote objects, CORBA, etc. There is a renaissance
+happening with RPC thanks to gRPC, so the topic is still quite interesting/relevant.
+
+My main issue with RPC is when you use the abstraction to really try to hide that
+a procedure is remote, making a remote procedure look entirely, 100% the same
+as a local procedure (called local transparency).
+
+In my opinion, and of the author, is that this is not possible.
+So this part of the book is cool for me for the lame reason that it reinforces
+my current opinions, and it does that with the usual good arguments around
+why this sort of abstraction doesn't work.
+
+### Different Failure Modes
+
+Local procedures failure modes are always a subset of the failure modes of
+remote ones. If a procedure A has failures modes A and B, when you make it
+remote it will have those failure modes + the ones introduced by networking.
+
+Network related failures are very different from the kind of errors you have
+in a local procedure, and need to be handled in different ways. There is no
+way to properly hide that without ending with a system that doesn't work
+properly when faced with networking issues.
+
+One simple example of this is idempotency issues. When you call a remote procedure
+and it fails you can't safely just try again, because a failure doesn't mean a failure.
+When you get a network error, maybe the procedure actually worked on the remote server,
+you only failed to receive the response. So an error in this case can't be immediately
+interpreted as an actual error, and trying the remote call again will depend
+if the procedure is idempotent or not, if it is not now you have a very different
+problem to deal with.
+
+### Performance
+
+The performance of remote calls is orders of magnitude slower than local calls.
+In the case of networking congestion this difference can get huge. So a naive
+loop that calls a procedure, that is perfectly fine if the procedure is local
+will become a terrible idea if that same procedure now is made remote, and then
+you need to start thinking about new trade-offs, like batching, etc.
+
+### Overhead
+
+Related to performance, the overhead of copying data is something that you can't avoid
+on networking calls. You need serialization, transferring, de-serialization.
+A series of things that would have almost 0 overhead in a local call (some stack
+usage/register would be enough).
+
+### Different Languages
+
+Translating different data types across different languages can be quite challenging,
+specially in a 100% consistent manner. So your remote procedures will never be
+as simple/straightforward as remote procedures since some constructs used on local
+procedures may not be supported by the remote representation, since it needs to be
+interoperable with other languages. Or they may work on some odd ways, specific
+to the quirks of the language.

@@ -120,3 +120,109 @@ new thing that replaces SQL because SQL was stupid/complex/doesn't scale/etc.
 A great read on the limitations of hierarchical structures and also on the
 reasoning behind the relational model, including its objectives, can be read
 on the legendary [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf).
+
+## Data Replication Fun
+
+On data replication the book presents reasonably complete and good assessment of
+options and problems that each problem brings, and then potential solutions,
+but each with its own trade-offs. It presents these problems as fundamental
+problems of distributed computing with no particular right solution, they
+are intrinsic problems, specially as data gets distributed, not only computation.
+
+Distributing computation is orders of magnitude easier than distributing data.
+As you distribute data, just thinking on terms of replication, you already 
+introduce some issues. If you replicate data synchronously, you defeat the
+advantage of getting better scalability/latency for reads, but if you replicate
+data asynchronously then you introduce all sorts of fun problems that can happen
+due to replication lag.
+
+Here is a few.
+
+### Reads After Writes
+
+This happens when after writing you read stale data, because the read was routed
+to a replica that has lag. This has a few potential solutions, none of them
+solve the problem 100%, because it is not solvable.
+
+Shortly after a write you can always read from the leader, that will guarantee you
+read fresh data, but raises the question of what would be "shortly", will the
+client need a way to see how delayed read replicas are and use that to define
+this time window ? It is like pushing transactions to the application layer,
+something that the database could potentially try to solve, but not all databases
+provide a way to do easily on replication scenarios.
+
+Another solution would be to always read data from the leader when that data is
+from a part of the system that has user specific data, that he can write. This
+does work well if there is a small set of data that is user owned and lot
+of data that is not user owned. The user will hardly notice stale data on data
+that is not his.
+
+Both these solutions introduce the issue that if there is a networking issue between
+them and the leader/writer of the database, they lose availability. So in a
+setup where you have one of fewer writers and multiple readers this makes the overall
+system less available than reading from replicas all the time. You can start to
+notice the trade-offs happening, and then you need to think on what makes more sense
+for your system.
+
+Another solution that is used by databases like cockroachdb and spanner is to have
+a timestamp that is provided with queries and that timestamp is used as a means
+to retrieve data only from replicas that are updated at least to that point in time.
+This can also work with a logical clock, but the aforementioned databases do it
+with actual clocks. It still not an actual solution because it may introduce
+considerable latency if replicas are taking a long time to catch up and the
+nodes that received the write are overloaded. Also a database that does clock
+synchronization is more complex and will have trade-offs of its own. So it is not
+an universal solution, but it does sound to me as the most reasonable one if you can
+afford it. If you can't then you need to be more pragmatic about the level of
+availability you are going to provide for different parts of the system (which is
+a perfectly valid approach).
+
+### Monotonic Reads
+
+Monotonic reads is somewhat similar to the previous problem. It is the problem of
+reading data and observe the data going back in time. The most classic problem being
+reading record A and then reading it again and now it is not there. You went back in
+time because one query was sent to a more updated replica, the next one goes to
+a replica that is literally in the past.
+
+An extra solution (besides the aforementioned ones) to this particular problem
+is for users to always read from the same replica, and implement some mechanism
+to distribute users across replicas. If you always read from the same replica then
+your reads are going to be monotonic in time.
+
+But that introduces challenges of its own, the most obvious being reduced availability
+again, at least for specific users, since a failure in a single replica may
+introduce failures, or being routed to a new replica that will re-introduce the
+problem of going backwards in time.
+
+
+### Consistency is Hard
+
+Data consistency is hard in general. Proof of that is that even on CPU design,
+when you introduce multiple parallel cores, you have all the same problems you
+have in a distributed system, because a multiprocessor system is essentially
+a distributed system, it is just distributed in a very small physical space
+with more reliable communication, but still has all the problems regarding
+sharing and consistency of data.
+
+When faced with such challenges most architectures are considerably inconsistent
+in how they handle memory. There is a good analysis about this on
+[Hardware Memory Models](https://research.swtch.com/hwmm).
+
+From the blog post:
+
+```
+Unfortunately for us as programmers, giving up strict sequential consistency
+can let hardware execute programs faster, so all modern hardware deviates
+in various ways from sequential consistency.
+```
+
+For me this was surprising, but one thread observing another thread writes will
+not seem them on sequential order, so you may observe writes in the wrong
+order. And that happens even at very small scale, and it happens for the sake
+of performance, because at small scale every single clock spent matters and
+synchronizing memory changes would require extra effort, and not caching
+things aggressively is not an option (or maybe it is, that is an interesting
+open question on my mind).
+
+## RPC

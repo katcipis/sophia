@@ -225,6 +225,24 @@ synchronizing memory changes would require extra effort, and not caching
 things aggressively is not an option (or maybe it is, that is an interesting
 open question on my mind).
 
+### The Tale Of The Incremental Counter
+
+As an example of the challenges that come with data replication an issue that
+happened with Github is mentioned. When using MySQL an out of date follower
+was promoted as leader. One table had an incremental counter as ID (instead
+of some sort of UUID), and this ID was replicated on other system and used
+to correlated with other data, in this specific case Redis.
+
+What happened is that writes done on the old leader had ID X, and that ID X
+was correlated on Redis for data of a specific user, when the outdated follower
+assumed as leader it kept incrementing its outdated counter and it gave the same
+ID to a different user. So the system showed information stored on Redis from
+user X to user Y, because it re-used the same ID.
+
+It is a tale on how failure scenarios on distributed systems can be quite complex
+and also a tale of maybe always using UUIDs as IDs ? At least it would made
+it much harder for this to happen (theoretically not impossible though).
+
 ## RPC
 
 The RPC abstraction is a subject very close to my hearth, specially because I

@@ -124,7 +124,7 @@ on the legendary [A Relational Model of Data for Large Shared Data Banks](https:
 ## Data Replication Fun
 
 On data replication the book presents reasonably complete and good assessment of
-options and problems that each problem brings, and then potential solutions,
+options and problems that each approach brings, and then potential solutions,
 but each with its own trade-offs. It presents these problems as fundamental
 problems of distributed computing with no particular right solution, they
 are intrinsic problems, specially as data gets distributed, not only computation.

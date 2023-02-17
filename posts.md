@@ -18,6 +18,7 @@
 ## Logging
 
 * [The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)
+* [Logging: Rules of thumb](https://engineering.hellofresh.com/logging-rules-of-thumb-f6c0f71a2351)
 
 ## Communication/Management/Process
 

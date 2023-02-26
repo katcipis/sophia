@@ -149,6 +149,7 @@
 
 ## Machine Learning
 
+* [Talking About Large Language Models](https://arxiv.org/abs/2212.03551)
 * [Machine Learning: The High Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/)
 * [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 * [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](http://delivery.acm.org/10.1145/3340000/3330744/p1743-bernardi.pdf)
@@ -161,6 +162,8 @@
 ## Operational Systems
 
 * [The Linux Scheduler: a Decade of Wasted Cores](http://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf)
+* [A trace-driven analysis of the UNIX 4.2 BSD file system](https://dl.acm.org/doi/10.1145/323647.323631)
+* [Caching in the Sprite network file system](https://dl.acm.org/doi/10.1145/41457.37501)
 * [UNIX Implementation](https://users.soe.ucsc.edu/~sbrandt/221/Papers/History/thompson-bstj78.pdf)
 
 
@@ -233,8 +236,9 @@
 
 ## TODO
 
-* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
+* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
+* [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [Distributed Transactional Systems Cannot Be Fast](https://arxiv.org/pdf/1903.09106.pdf)

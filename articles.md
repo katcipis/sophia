@@ -68,6 +68,7 @@
 
 ## Distributed Systems
 
+* [A Note on Distributed Computing](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Replicated Document Management in a Group Communication System](https://dl.acm.org/doi/pdf/10.1145/62266.1024798)
 * [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)

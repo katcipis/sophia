@@ -4,6 +4,7 @@
 
 - [Static Analysis](#static-analysis)
 - [Testing](#testing)
+    - [Local Cloud Mocking](#local-cloud-mocking)
     - [Network Failure Injection](#network-failure-injection)
     - [Mocking](#mocking)
 - [Debuggers](#debuggers)
@@ -32,9 +33,11 @@
 - [Software Defined Network](#software-defined-network)
 - [Performance/Load tests](#performanceload-tests)
 - [Web](#web)
+    - [Desktop](#desktop)
     - [Browser Automation](#browser-automation)
     - [Secret Management](#secret-management)
 - [Diagrams](#diagrams)
+    - [Text to Diagram](#text-to-diagram)
     - [Sequence](#sequence)
     - [Graphs](#graphs)
 - [HTTP traffic analysis](#http-traffic-analysis)
@@ -52,6 +55,7 @@
 - [Security Protocol Validation](#security-protocol-validation)
 - [WASM](#wasm)
     - [Profiling](#profiling-1)
+- [Infrastructure / Cloud](#infrastructure--cloud)
 
 <!-- mdtocend -->
 
@@ -210,6 +214,7 @@
 
 ## Data visualization
 
+* [datasette](https://datasette.io/)
 * [superset](https://github.com/apache/incubator-superset)
 
 

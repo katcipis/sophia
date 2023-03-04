@@ -35,17 +35,19 @@ you are bound to some luck).
 
 One of the first models presented on the book and the one more largely utilized
 is the two systems model. Basically it splits our cognition/brain into two systems,
-they are named 1 and 2, for simplicity.
+they are named 1 and 2, for simplicity (sometimes people refer to it as left/right
+brain, or irrational/rational, but reality is more complex than that, so the
+author just goes with 1/2).
 
 System 1 is:
 
 * Fast
 * Parallel
 * Intuitive (pattern recognitiion)
-* Creative (relative to associativity)
-* Story telling oriented
-* Seeks Causality / Coherence
 * Associative
+* Creative (built on associativity)
+* Seeks Causality / Coherence
+* Story telling oriented
 
 System 2 is:
 

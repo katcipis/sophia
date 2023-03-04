@@ -79,3 +79,32 @@ For the first time in human history we actually have resources an time to focus
 on System 2 activities. The life of our ancestors were quite different, and this
 dictates how our brains are wired. And the best you can do is have more awareness
 of this, but the biases/pitfalls are literally unavoidable, unless you are not human.
+
+## Thinking is a phisical activity
+
+When you engange into thinking, System 2 thinking, your whole body engages into it.
+Research shows that your pupils dilate and your heart rate changes when you
+start to engage into tasks that require a lot of system 2 thinking. It is a demanding
+activity for your whole body, that is why we are pretty lazy about it.
+
+## Ego Depletion
+
+When you need to excert discipline and self control, an activity that is system 2,
+you use a lot of energy. It is not as obvious as when you run and feel tired, but
+it is there. Research showed how people after having to excert a lot of self control
+gave up easier in a next challenge than people who were just starting.
+
+This phenomenon is referred as **ego depletion**. When your ego is depleted you will
+be much more prone to make decisions with your System 1, because you are literally
+exausted mentally.
+
+This also applies to when you have to do something that you don't want to do.
+I immediately made a connection between this and meetings. I always found amazing
+how meetings have the ability of completely fuck up my entire day, even when it is
+"just" an hour or two. The fact that I need to force myself to do something
+I don't want to and don't see the point causes burns through the ego, and then
+you have the cost of the interruption itself. In the end it makes perfect sense
+that one or two meetings can destroy a day. It seems exagerated, I always felt
+more sensible than the normal, specially because Im usually the only one complaining.
+But apparently there is some research backing this up and
+[Im not the only one to feel his way](http://paulgraham.com/makersschedule.html).

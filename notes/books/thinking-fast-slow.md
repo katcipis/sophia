@@ -1,5 +1,7 @@
 # Thinking Fast And Slow
 
+Notes from the book [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow).
+
 ## Friendship and Collaboration
 
 On the beginning of the book it caught my attention the author history

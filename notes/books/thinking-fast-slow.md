@@ -108,3 +108,11 @@ that one or two meetings can destroy a day. It seems exagerated, I always felt
 more sensible than the normal, specially because Im usually the only one complaining.
 But apparently there is some research backing this up and
 [Im not the only one to feel his way](http://paulgraham.com/makersschedule.html).
+
+## Mood and System 1
+
+Some research is mentioned linking the effects of bad mood and System 1.
+When you are in a bad mood your system 1 is impaired. That is why it is hard to
+be creative when you are in a bad mood, have ideas, make associations, etc.
+
+System 2 is much less affected, so you can still perform more analytical activities.

@@ -141,6 +141,7 @@
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
+* [Scaling People: Tactics for Management and Company Building](https://press.stripe.com/scaling-people)
 
 
 ## Health

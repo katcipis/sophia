@@ -218,7 +218,7 @@ in various ways from sequential consistency.
 ```
 
 For me this was surprising, but one thread observing another thread writes will
-not seem them on sequential order, so you may observe writes in the wrong
+not see them on sequential order, so you may observe writes in the wrong
 order. And that happens even at very small scale, and it happens for the sake
 of performance, because at small scale every single clock spent matters and
 synchronizing memory changes would require extra effort, and not caching

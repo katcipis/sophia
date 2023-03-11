@@ -120,3 +120,183 @@ new thing that replaces SQL because SQL was stupid/complex/doesn't scale/etc.
 A great read on the limitations of hierarchical structures and also on the
 reasoning behind the relational model, including its objectives, can be read
 on the legendary [A Relational Model of Data for Large Shared Data Banks](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf).
+
+## Data Replication Fun
+
+On data replication the book presents reasonably complete and good assessment of
+options and problems that each approach brings, and then potential solutions,
+but each with its own trade-offs. It presents these problems as fundamental
+problems of distributed computing with no particular right solution, they
+are intrinsic problems, specially as data gets distributed, not only computation.
+
+Distributing computation is orders of magnitude easier than distributing data.
+As you distribute data, just thinking on terms of replication, you already 
+introduce some issues. If you replicate data synchronously, you defeat the
+advantage of getting better scalability/latency for reads, but if you replicate
+data asynchronously then you introduce all sorts of fun problems that can happen
+due to replication lag.
+
+Here is a few.
+
+### Reads After Writes
+
+This happens when after writing you read stale data, because the read was routed
+to a replica that has lag. This has a few potential solutions, none of them
+solve the problem 100%, because it is not solvable.
+
+Shortly after a write you can always read from the leader, that will guarantee you
+read fresh data, but raises the question of what would be "shortly", will the
+client need a way to see how delayed read replicas are and use that to define
+this time window ? It is like pushing transactions to the application layer,
+something that the database could potentially try to solve, but not all databases
+provide a way to do easily on replication scenarios.
+
+Another solution would be to always read data from the leader when that data is
+from a part of the system that has user specific data, that he can write. This
+does work well if there is a small set of data that is user owned and lot
+of data that is not user owned. The user will hardly notice stale data on data
+that is not his.
+
+Both these solutions introduce the issue that if there is a networking issue between
+them and the leader/writer of the database, they lose availability. So in a
+setup where you have one of fewer writers and multiple readers this makes the overall
+system less available than reading from replicas all the time. You can start to
+notice the trade-offs happening, and then you need to think on what makes more sense
+for your system.
+
+Another solution that is used by databases like cockroachdb and spanner is to have
+a timestamp that is provided with queries and that timestamp is used as a means
+to retrieve data only from replicas that are updated at least to that point in time.
+This can also work with a logical clock, but the aforementioned databases do it
+with actual clocks. It still not an actual solution because it may introduce
+considerable latency if replicas are taking a long time to catch up and the
+nodes that received the write are overloaded. Also a database that does clock
+synchronization is more complex and will have trade-offs of its own. So it is not
+an universal solution, but it does sound to me as the most reasonable one if you can
+afford it. If you can't then you need to be more pragmatic about the level of
+availability you are going to provide for different parts of the system (which is
+a perfectly valid approach).
+
+### Monotonic Reads
+
+Monotonic reads is somewhat similar to the previous problem. It is the problem of
+reading data and observe the data going back in time. The most classic problem being
+reading record A and then reading it again and now it is not there. You went back in
+time because one query was sent to a more updated replica, the next one goes to
+a replica that is literally in the past.
+
+An extra solution (besides the aforementioned ones) to this particular problem
+is for users to always read from the same replica, and implement some mechanism
+to distribute users across replicas. If you always read from the same replica then
+your reads are going to be monotonic in time.
+
+But that introduces challenges of its own, the most obvious being reduced availability
+again, at least for specific users, since a failure in a single replica may
+introduce failures, or being routed to a new replica that will re-introduce the
+problem of going backwards in time.
+
+
+### Consistency is Hard
+
+Data consistency is hard in general. Proof of that is that even on CPU design,
+when you introduce multiple parallel cores, you have all the same problems you
+have in a distributed system, because a multiprocessor system is essentially
+a distributed system, it is just distributed in a very small physical space
+with more reliable communication, but still has all the problems regarding
+sharing and consistency of data.
+
+When faced with such challenges most architectures are considerably inconsistent
+in how they handle memory. There is a good analysis about this on
+[Hardware Memory Models](https://research.swtch.com/hwmm).
+
+From the blog post:
+
+```
+Unfortunately for us as programmers, giving up strict sequential consistency
+can let hardware execute programs faster, so all modern hardware deviates
+in various ways from sequential consistency.
+```
+
+For me this was surprising, but one thread observing another thread writes will
+not see them on sequential order, so you may observe writes in the wrong
+order. And that happens even at very small scale, and it happens for the sake
+of performance, because at small scale every single clock spent matters and
+synchronizing memory changes would require extra effort, and not caching
+things aggressively is not an option (or maybe it is, that is an interesting
+open question on my mind).
+
+### The Tale Of The Incremental Counter
+
+As an example of the challenges that come with data replication an issue that
+happened with Github is mentioned. When using MySQL an out of date follower
+was promoted as leader. One table had an incremental counter as ID (instead
+of some sort of UUID), and this ID was replicated on other system and used
+to correlated with other data, in this specific case Redis.
+
+What happened is that writes done on the old leader had ID X, and that ID X
+was correlated on Redis for data of a specific user, when the outdated follower
+assumed as leader it kept incrementing its outdated counter and it gave the same
+ID to a different user. So the system showed information stored on Redis from
+user X to user Y, because it re-used the same ID.
+
+It is a tale on how failure scenarios on distributed systems can be quite complex
+and also a tale of maybe always using UUIDs as IDs ? At least it would made
+it much harder for this to happen (theoretically not impossible though).
+
+## RPC
+
+The RPC abstraction is a subject very close to my hearth, specially because I
+got the end of the frenzy on remote objects, CORBA, etc. There is a renaissance
+happening with RPC thanks to gRPC, so the topic is still quite interesting/relevant.
+
+My main issue with RPC is when you use the abstraction to really try to hide that
+a procedure is remote, making a remote procedure look entirely, 100% the same
+as a local procedure (called local transparency).
+
+In my opinion, and of the author, is that this is not possible.
+So this part of the book is cool for me for the lame reason that it reinforces
+my current opinions, and it does that with the usual good arguments around
+why this sort of abstraction doesn't work.
+
+### Different Failure Modes
+
+Local procedures failure modes are always a subset of the failure modes of
+remote ones. If a procedure A has failures modes A and B, when you make it
+remote it will have those failure modes + the ones introduced by networking.
+
+Network related failures are very different from the kind of errors you have
+in a local procedure, and need to be handled in different ways. There is no
+way to properly hide that without ending with a system that doesn't work
+properly when faced with networking issues.
+
+One simple example of this is idempotency issues. When you call a remote procedure
+and it fails you can't safely just try again, because a failure doesn't mean a failure.
+When you get a network error, maybe the procedure actually worked on the remote server,
+you only failed to receive the response. So an error in this case can't be immediately
+interpreted as an actual error, and trying the remote call again will depend
+if the procedure is idempotent or not, if it is not now you have a very different
+problem to deal with.
+
+### Performance
+
+The performance of remote calls is orders of magnitude slower than local calls.
+In the case of networking congestion this difference can get huge. So a naive
+loop that calls a procedure, that is perfectly fine if the procedure is local
+will become a terrible idea if that same procedure now is made remote, and then
+you need to start thinking about new trade-offs, like batching, etc.
+
+### Overhead
+
+Related to performance, the overhead of copying data is something that you can't avoid
+on networking calls. You need serialization, transferring, de-serialization.
+A series of things that would have almost 0 overhead in a local call (some stack
+usage/register would be enough).
+
+### Different Languages
+
+Translating different data types across different languages can be quite challenging,
+specially in a 100% consistent manner. So your remote procedures will never be
+as simple/straightforward as remote procedures since some constructs used on local
+procedures may not be supported by the remote representation, since it needs to be
+interoperable with other languages. Or they may work on some odd ways, specific
+to the quirks of the language.

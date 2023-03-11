@@ -36,7 +36,21 @@ love them so much that they make it explicit, so instead of having to squint
 to see the pattern I need to squint to understand what the code does. Like Kay
 said, people ennoble patterns way too much.
 
-It is a case of function following form, form or the pattern comes first, and
+Quoting from [Taste for Makers](http://www.paulgraham.com/taste.html):
+
+```
+Good design is suggestive. Jane Austen's novels contain almost no description;
+instead of telling you how everything looks, she tells her story so well that
+you envision the scene for yourself.
+
+Likewise, a painting that suggests is usually more engaging than one that tells.
+Everyone makes up their own story about the Mona Lisa.
+```
+
+I can't shake the feeling that this is what is happening when you focus too
+much on patterns and enter in this explanatory mode about it.
+
+It seems to be a case of function following form, form or the pattern comes first, and
 then follows the function. Which is a great way to make APIs/services that are
 terrible to use/maintain, because the main purpose of code is to function, it
 is not a work of art, it runs and does things for you, it can be beautiful but

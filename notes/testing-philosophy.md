@@ -14,6 +14,15 @@ taxonomy. You need to decide what piece goes in what box
 
 Ellaborate on discussions like X vs Y
 
+## Scope
+
+Ellaborate on scope, testing as a subset of "feedback". The domain is vast, we are
+going to focus on a smaller part of it.
+
+## When not to test ?
+
+Related to scope.
+
 ## Principles
 
 Copy most from: [Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)

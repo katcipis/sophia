@@ -278,6 +278,8 @@
 
 ## Networking
 
+* [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
+* [Patterns in Network Architecture: A Return to Fundamentals](https://www.amazon.de/dp/0137063385)
 * [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/dp/B072WD347M)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
 * [Introduction to Computer Networks](http://intronetworks.cs.luc.edu/current/html/intro.html)

@@ -7,6 +7,13 @@
 * [The Tyranny of Stuctureless](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
 
+
+## Testing
+
+* [Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
+* [When TDD Doesn’t Matter: What Do You Value?](https://medium.com/pragmatic-programmers/when-tdd-doesnt-matter-what-do-you-value-91c628dc4488)
+
+
 ## Databases
 
 * [A Database for 2022](https://tailscale.com/blog/database-for-2022/)

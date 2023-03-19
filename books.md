@@ -141,6 +141,7 @@
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
 * [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
+* [Scaling People: Tactics for Management and Company Building](https://press.stripe.com/scaling-people)
 
 
 ## Health
@@ -277,6 +278,8 @@
 
 ## Networking
 
+* [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
+* [Patterns in Network Architecture: A Return to Fundamentals](https://www.amazon.de/dp/0137063385)
 * [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/dp/B072WD347M)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
 * [Introduction to Computer Networks](http://intronetworks.cs.luc.edu/current/html/intro.html)

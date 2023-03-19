@@ -4,7 +4,7 @@ Article: https://www.usenix.org/system/files/conference/fast16/fast16-papers-lu.
 
 ## LSM
 
-Tradicional LSM (Log Structured Merge Tree) is optimized towards
+Traditional LSM (Log Structured Merge Tree) is optimized towards
 sequential disk reads, trading sequential reads for a lot of read/write
 amplification.
 

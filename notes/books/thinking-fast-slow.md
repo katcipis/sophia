@@ -178,3 +178,56 @@ something before coming to a conclusion about it.
 My empirical life experience agrees a lot with all this, by observing other
 people behavior, and sometimes my own. But maybe I'm just a victim of my
 own WYSIATI :-).
+
+### Affect Heuristics
+
+Even our logical/rational System 2 tends to look for information that confirms
+System 1 assumptions. I feel this clearly in my life, it is that nice pleasure
+you feel when you find information that reinforces something you believe and
+that is important for you. But that is also how information bubbles gets formed.
+
+### Anchoring Effect
+
+Suggesting an initial value/information affects your judgement. Even professionals
+with a lot of experience get influenced by almost random anchors. Research interviewed
+real state agents about the pricing of some real state but providing anchors on
+the value of the properties. The anchoring effect was very similar to what
+is observed in people who are not giving a professional opinion. So even having
+a lot of experience with something won't make you immune to this.
+Funny enough the interviewed people denied being influenced by this bias, even
+though the results were quite clear.
+
+### Availability Bias
+
+How easily/fast information can be retrieved from our brains affects our confidence
+on the information and reinforces our belief in it. This seems ok/good at first,
+but leads to some paradoxical results.
+
+In one of the researches around this people were asked to remember of 12 times
+they were assertive, and they asked how assertive they think they are. The same
+was done with a different set of people, but asking for just 6 times.
+
+Logically, people who remembered fewer ocassions would feel less confident.
+But the opposite happened, people who remembered only 6 occasions were more confident
+than the ones who remember 12.
+
+Remembering 12 occasions takes longer and is harder. When it is hard to remember
+something you develop the intuition that it is less likely to be true, even
+if in the end you gathered even more information.
+
+This explains my personal bias against assertive people. Usually the people with
+less information/experience are the more assertive ones.
+
+### Affect Heuristic
+
+We tend to not assess tradeoffs between different ideas/things, we just push for simpler
+and black/white models of reality. What we like tend to have only benefits and
+mostly no downsides, and what we don't like has only downsides, no benefits at all.
+
+This explains a lot about human nature and why almost any form of human endeavour
+ends up converging to religious behavior. Religion is usually built on top of
+this bias, the affinity that we have with simple answers, right and wrong,
+good and evil.
+
+It doesn't model reality, but our brains are not that interested in reality :-)
+(just the bare minimum to keep us alive and confortable).

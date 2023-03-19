@@ -120,3 +120,61 @@ When you are in a bad mood your system 1 is impaired. That is why it is hard to
 be creative when you are in a bad mood, have ideas, make associations, etc.
 
 System 2 is much less affected, so you can still perform more analytical activities.
+
+## Biases
+
+Now a list of the biases mentioned throughout the book.
+
+### Consistency and simplicity over accuracy
+
+Our system 1 is predominantly driven by consistency and simplicity in the story
+it tells about ourselves and the world. It doesn't enjoy [cognitive dissonance](https://en.wikipedia.org/wiki/Cognitive_dissonance),
+even though exposing yourself to it constantly is essential to build critical
+thinking.
+
+What does this mean ? It means that when exposed to new information your mind will
+prioritize information that already fits on your current mental model of things,
+because that is comfortable and makes it easy to create a simple and consistent
+narrative about things. If the information is real/accurate is completely irrelevant
+to this process
+
+What does this mean ? It means that when exposed to new information your mind will
+prioritize information that already fits on your current mental model of things,
+because that is comfortable and makes it easy to create a simple and consistent
+narrative about things. If the information is real/accurate is completely irrelevant
+to this process.
+
+That is why it is so common for people being exposed to a single side of an argument
+to be more sure about their conclusions than people exposed to both. If the
+mental model is cohesive it feels strong, even if it is all based on lies
+or senseless logic.
+
+Since we are talking about systems this reminded me of the great article
+[Worse Is Better](https://www.jwz.org/doc/worse-is-better.html). When explaining the
+differences between different design philosophies the author presents 4 main
+concepts important when designing systems (or building mental models in this case):
+
+* Simplicity
+* Correctness
+* Consistency
+* Completeness
+
+Both in life and software, you can't have it all, you constantly need to make
+tradeoffs on which one will you optimize. Specially when you think about reality,
+modeling the world, interactions between people, countries, climate, etc, it is my
+opinion that simplicity just flew through the window, reality is not simple.
+
+But then the bad news. Given our limitations as humans we are actually pretty fond
+of simplicity. According to research mentioned in the book, specially our
+system 1/intuition, is extremelly prone to focusing entirely on simplicity and
+consistency. It doesn't matter if the information is correct and it doesn't
+matter if you have all information.
+
+One of the biases mentioned on the book is WYSIATI, which stands for What You
+See Is All There Is. It reinforces how we always optimize for recent/available
+information, hence why we hardly really try to obtain a complete view of
+something before coming to a conclusion about it.
+
+My empirical life experience agrees a lot with all this, by observing other
+people behavior, and sometimes my own. But maybe I'm just a victim of my
+own WYSIATI :-).

@@ -136,12 +136,6 @@ What does this mean ? It means that when exposed to new information your mind wi
 prioritize information that already fits on your current mental model of things,
 because that is comfortable and makes it easy to create a simple and consistent
 narrative about things. If the information is real/accurate is completely irrelevant
-to this process
-
-What does this mean ? It means that when exposed to new information your mind will
-prioritize information that already fits on your current mental model of things,
-because that is comfortable and makes it easy to create a simple and consistent
-narrative about things. If the information is real/accurate is completely irrelevant
 to this process.
 
 That is why it is so common for people being exposed to a single side of an argument

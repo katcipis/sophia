@@ -42,6 +42,67 @@ In that sense being human is truly amazing, we are capable of shaping things tha
 then shapes us right back. This is the essence of the meta circular evaluator from lisp
 and the [Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands) from Escher.
 
+# The Internet
+
+A lot of the book was not new to me, but he mentioned some research that I was unaware.
+The whole point of the book is how the Internet, in exchange for everything it
+gave us, took a good part of our capacity to concentrate and do reading for
+longs periods of time. Everything is cut into 5/10 min bites and consumed that way.
+A lot of the content is also purely visual, reducing how much we do read.
+And all that has influence on how we learn and how we think.
+
+One interesting research involved people studying a topic. Group A read in a more
+classical way, like a book, while Group B read something that contained hyperlinks.
+Intuition would say that hyperlinks are good, because you use them to deepen
+your knowledge about the topic. And yet access to extra information in form of
+links reduced the capacit of people to absorve and remember the material.
+The shift of context in jumping around, even if it is for content related to
+what we are reading, affect how much we are understanding/remembering something.
+Like you optimize way too much for fast thinking and lose slow thinking.
+
+The author also talks about his personal experience, on how hard it was to
+write the book because he had a hard time concentrating. He ended up renting
+a small shack in a remote area and wrote the book with very limited internet
+access. This kind of experience is very subjective/qualitative, and yet I have
+similar feelings that it gets harder and harder to do some quite slow reading/thinking.
+
+# Writing
+
+And yet, the book presents some information that made me think and kinda goes against
+the book itself, in the sense that sometimes it seems that some new technology will
+make us less, but ends up making us more in different ways.
+
+This is the history of the invention of the alphabet and writing. He focused on how it
+started on Greece and mentioned how Socrates was concerned that writing was going
+to dumb us down and make us more shallow, because after we are able to write down
+things we don't need to remember things anymore. We would rely too much on the
+written word and would end up becoming forgetful beings.
+
+Maybe we did lose some of our capacity to remember things when we abandoned oral
+tradition. And yet it is indisputable that every civilization that developed
+writing and migrated to it from oral tradition evolved much faster and eventually
+replaced the societies that relied only on oral tradition. So writing, even
+with its trade-offs, is much more of a win than a lose.
+
+And why is that ? the problem is interpreting the different ways that technologies/ideas
+affects us. The intuition that writing will make you remember less, because you can just
+dump ideas free your mind, does make sense in some way. But what about how writing
+itself as a way to think and refine your own ideas ? And the fact that you can review
+those brainstorms that you just did with yourself and evolve them, expand to involve
+others etc. The fact that writing transcends time, transcends your own death.
+
+This made me think a lot and realize that maybe the author is doing with the Internet
+what Socrates did with writing. And he goes on talking about the printing press. When
+the printing press started people started complaining that having the ability to
+print so much content was lowering the quality of the content, because now people
+were able to just publish all sort of stupid stuff.
+
+This one made me think a lot, because I used to have similar feelings with the
+Internet, but even though most of what you see may be garbage/stupid, the fact
+that someone really smart can publish something very easily is always a win
+(just as it was with the printing press).  We may need to build better filters,
+there are challenges, but easier access to information seems like a win.
+
 ## Dangers of Expert Group Thinking
 
 There is another instance of the dangers of expert group thinking. Group thinking is

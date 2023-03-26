@@ -1,5 +1,61 @@
 # The Shallows
 
+Notes from the book [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393339750).
+
+# Neuroplasticity
+
+One of the most interesting points made in the book is neuroplasticity.
+Actually most of the book is the author establishing the premisse that
+tools shape how we think and that this phenomenon also happens with adults.
+
+This reminds me a lot about [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+article, it goes like this:
+
+```
+Now for the fifth argument. It has to do with the influence of the tool we are
+trying to use upon our own thinking habits. I observe a cultural tradition,
+which in all probability has its roots in the Renaissance, to ignore this
+influence, to regard the human mind as the supreme and autonomous master of
+its artefacts.
+
+But if I start to analyse the thinking habits of myself and of my fellow human
+beings, I come, whether I like it or not, to a completely different conclusion, viz.
+that the tools we are trying to use and the language or notation we are using
+to express or record our thoughts, are the major factors determining what we
+can think or express at all!
+```
+
+This made me reflect on how the languages we use when programming shape our
+thought process, the book extended this to thinking about all sorts of
+other tools we use on our daily lives that shape our thoughts.
+
+The author goes on mentioning a lot of inventions like the typewriter, printing
+press, alphabet/writing, etc. All shaped our behavior and our societies.
+
+One example is Nietzsche, by the end of his life he was almost blind and was only
+able to write using a typewriter and he mentioned in a letter to a friend how
+the typewriter changed gradually the way he writed. It seems counter intuitive
+since a typewriter is "just" a tool, and yet our brains are wired in a way that
+tools become extensions of ourselves, so every tool we use shapes us back.
+
+In that sense being human is truly amazing, we are capable of shaping things that
+then shapes us right back. This is the essence of the meta circular evaluator from lisp
+and the [Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands) from Escher.
+
+## Dangers of Expert Group Thinking
+
+There is another instance of the dangers of expert group thinking. Group thinking is
+dangerous but expert group thinking is the worse. And even though today it is well
+accepted that adults also exhibit neuroplasticity this was not well accepted
+by specialists for decades, and this form of group thinking kept science from
+progress for quite some time (1920-1950). It is odd to me how even on science dogma always
+finds a way to slip back into human behavior, we are awesome but at the same
+time we seem to have really bad brains (evolution is messy).
+
+How did they stop progress ? by not allowing anyone to think different. People
+trying to do research on neuroplasticity would get no funding at all, because
+the scientists "in power" would discredit them (with no scientific basis).
+
 # Removing all effort is an anti-pattern
 
 The final chapter of the book mentions a very interesting research paper called

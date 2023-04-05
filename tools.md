@@ -312,6 +312,7 @@
 ## Sequence
 
 * [MscGen](https://en.wikipedia.org/wiki/MscGen)
+* [Swim Lanes](https://swimlanes.io/)
 * [MscLatex](http://satoss.uni.lu/software/mscpackage)
 * [Sequence Diagrams](https://www.websequencediagrams.com/)
 

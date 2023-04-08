@@ -244,3 +244,17 @@ This make it easy to create helper modules for the tests, but if you have
 a lot of integration tests I'm not sure that only using multiple files
 in the same directory would scale well, maybe there is some way to
 circumvent this (maybe using the test annotation on the subdirs ?).
+
+## The Bad
+
+### cargo add and indexing
+
+Everytime (almost) that I run:
+
+```
+cargo add <dep>
+```
+
+Cargo spends one trillion years downloading stuff/indexes/etc from the Cargo registry.
+Still don't know the details/why, but compared to Go it is more annoying/slower
+(at least default usage, no extra config involved, etc).

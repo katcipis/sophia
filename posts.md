@@ -49,3 +49,7 @@
 
 * [The Best Go framework: no framework?](https://threedots.tech/post/best-go-framework)
 * [Three fallacies of dependencies](https://www.youtube.com/watch?v=yi5A3cK1LNA)
+
+#### Testing
+
+* [testscript, a hidden gem the Go team kept locked away](https://encore.dev/blog/testscript-hidden-testing-gem)

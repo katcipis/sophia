@@ -98,8 +98,12 @@ broker/service mesh/etc. Anyway I digress, this is not even about service meshes
 Going back to the async/queue model, the code itself is also harder,
 on the client side you need to send something on a queue and now you have to
 find a way to wait for an answer because in a lot of scenarios it
-involves waiting for an answer with queues (it rarely is fire and forget)
-and now you need some polling.
+involves waiting for an answer with queues and now you need some polling.
+
+The exception here would be if you can just fire and forget, but then you probably
+have an event, and events can be pretty useful in distributed systems. That would be a perfectly
+good use of a pubsub broker or a streaming system. But lets go back to simple
+request/response systems being modeled as async/brokered systems.
 
 While with request/response it is literally one line, you send a request and
 get answer right away. You can't beat request/response/RPC because nothing

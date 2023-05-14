@@ -45,7 +45,10 @@ that is not obvious (you don't see any errors, but nothing works either).
 
 One interesting read on this is [here](https://cpitman.github.io/microservices/2018/03/25/microservice-antipattern-queue-explosion.html#.Y2KFmNLMIUE).
 The rant here is against this idea of integrating everything with pub/subs and
-queues. Not against using them where it makes sense.
+queues. Not against using them where it makes sense. So some of the points I try to make may seem to
+extreme, and they are, but the context is an argument against doing *EVERYTHING* using asynchronously.
+This is not a rant against async solutions, or pubsub/streaming systems or queues/brokers.
+They are remarkably useful and fundamental to solve some problems properly.
 
 I advocate that async vs sync is defined by the domain you are modeling,
 the problem you are solving, it is not about tech or what engineers prefer.
@@ -54,7 +57,7 @@ It is also not about resiliency, because request/response can be quite resilient
 
 But lets focus on the ways that async/queues makes things more complex, because
 they do, they may provide benefits but the costs must be clear, since people
-usually focus on benefits I will focus on the costs :-).
+usually focus on benefits I will focus on the costs from now on :-).
 
 To start, by definition it is harder to code around an async API and you have
 more failing points, instead of service A + service B you now have
@@ -62,16 +65,17 @@ service A + broker + service B, that is by definition more moving parts
 and more things that can go wrong.
 
 People usually focus on the benefits the broker brings, in terms of features,
-but forgot that they will be an extra moving part nonetheless that can
-affect the whole behavior of your system.
+but forget that they will be an extra moving part that can affect the whole
+behavior of your system.
 
 One of the usual benefits is around resiliency because some brokers implement
 sophisticated try again/backoff logic to help handle situations where something
-is wrong on the system of with a message, with also support to some form of
+is wrong on the system or with a message, usually with some support to a form of
 dead letter mechanism. There is nothing wrong with any of that, but it still
 is a more complex way to reason about resiliency. Now instead of considering
 the behavior of 2 endpoints you need to consider the behavior of 3 endpoints
-in terms of failure recovery.
+in terms of failure recovery (and consider what to do with the dead letter,
+which usually is ignored/not handled properly).
 
 Also smart message brokers are a double edged sword. If you are old enough
 (I am) you can remember that when the whole RESTful thing started more than
@@ -79,33 +83,33 @@ a decade ago, one of the points where exactly that middlewares and message
 brokers that were smart were bad and we need to go back to a place where you
 have dumb pipes and smart endpoints, there were even some analogies with
 shell pipes, etc. So in a sense it feels like the industry is just forgetting
-(as usual) lessons from the past and going again in the same direction.
+(as usual) lessons from the past and going again in the same direction (the endless cycle).
 
 Why the smart brokers didn't work out well ? I believe it is the lack of cohesion
 for very core behavior, not just fault tolerance but even specific knowledge
-ends up in parts of the system that you don't expect them. For example, in a
-system with a service mesh + a really smart message broker/queues/etc, it is really hard
+ends up in parts of the system that you don't expect them to be and can be hard to find.
+For example, in a system with a service mesh + a really smart message broker/queues/etc, it is really hard
 to understand where try agains/backoff logic will happen, it will probably
-happen at both in ways that may not be compatible/desireable. You also have information
+happen on both in ways that may not be compatible/desireable. You also have information
 that is domain specific that affects fault tolerance implementation, like
 which operations are safe to retry, for how long, etc. It ends up being
 harder to have a cohesive view of these invariants, because instead of
 the services being responsible for this it is delegated to the communication
 channel. So part of your domain is on the service responsible for solving
 that problem and part of it is defined on some YAML configuration of a
-broker/service mesh/etc. Anyway I digress, this is not even about service meshes.
+broker/service mesh/etc. Of course not all meshes/brokers are born the same, but I digress.
 
 Going back to the async/queue model, the code itself is also harder,
-on the client side you need to send something on a queue and now you have to
-find a way to wait for an answer because in a lot of scenarios it
-involves waiting for an answer with queues and now you need some polling.
+on the client side, why ? well you need to send something on a queue and now you have to
+find a way to wait for an answer which will involve waiting for an answer
+on a different queue (hopefully ?) and now you need some polling.
 
 The exception here would be if you can just fire and forget, but then you probably
 have an event, and events can be pretty useful in distributed systems. That would be a perfectly
 good use of a pubsub broker or a streaming system. But lets go back to simple
 request/response systems being modeled as async/brokered systems.
 
-While with request/response it is literally one line, you send a request and
+Now think about request/response, it is literally one line, you send a request and
 get answer right away. You can't beat request/response/RPC because nothing
 can be simpler than a single function call.
 
@@ -113,21 +117,21 @@ You would need to create a function that does something similar but does the
 polling waiting for the answer. Which is usually something that is not standard,
 so you need to reimplement this polling over and over again
 and you need some way to correlate the answer, so now you need a job/req ID,
-manually handled and if that collides you are fucked.
+manually handled.
 
 I know for a fact that this can go wrong, because the start of my experience with
-the whole lets use queues and async things for everything stravaganza was with code
+the whole "lets use queues and async things for everything" stravaganza was with code
 that was being clever, using a Redis Task Queue for doing something that was
-obviously synchronous. Why it was obviously synchronous ? The operation was
+obviously synchronous/simple. Why it was obviously synchronous ? The operation was
 purely functional (no state) and if it wasn't computed in 10 seconds or less
 it was useless to get a response, so in my opinion it would be an embarrassingly
 synchronous operation. The Redis Task logic was encapsulated in a function, so
 the code looked simple, like a request and response, but it wasn't. And the nice
-thins about abstractions is that you need to open them up when they don't work.
+thing about abstractions is that you need to open them up when they break.
 
-The solution was the usual on the case of nasty bugs, re-design, because most
+The solution was the usual for nasty bugs: re-design. Most
 bugs are caused by bad design. The new design ? The simplest REST request ever
-written on the history of mankind. And it worked for years while I worked there,
+written in the history of mankind. And it worked for years while I worked there,
 and AFAIK it is used until today. And that is where my whole intuition with
 this topic started to build, always going for some task queue is just a bad
 idea, with emphasis on **always**.
@@ -135,23 +139,24 @@ idea, with emphasis on **always**.
 Flow control is also more complex. In request/response you can have a very
 standard/simple backoff protocol, like in HTTP using a 503.
 With queues there is never a standard way. In my experience people just don't
-do flow control and end up with a huge queue which then can cause problems.
+do flow control and end up with a huge queue which then can cause problems,
+the most obvious being very high latency (like very high, like hours).
 
 It is specially a problem if the problem you are solving is time sensitive,
 like the client is waiting and will not wait forever. They will wait for like
 a minute lets say and then give up. In a situation like that an ever growing
 queue will just jeopardize your entire system, and it will do that in a way
-that is against the idea of failing fast.
+that is against the idea of failing fast and being clear with users.
 
 With request/response you can have timeouts and backoff protocols that allow you
 to fail fast, with a queue you will just wait forever for an answer and never
-get it. You can do a polling with a timeout, but it is more complex than a
-simple RPC with a timeout.
+get it or get it hours later. You can do a polling with a timeout, but it is
+more complex than a simple RPC with a timeout.
 
 Also after the timeout happens and you give up, now you have the problem of
 answers to requests on the queue that are orphans, because the user already
 gave up on them, which is the problem of cancellation. What to do with them ?
-Something needs to drain them. All of those are no problems on request/response,
+Something needs to drain them. These issues are not a problem on request/response,
 if you give up on a request you cancel the connection/stream and the other
 side will log an error and that is it, as simple as possible.
 
@@ -163,13 +168,14 @@ argue that that is not true depending on the failure model).
 
 But of course there are more subtle scenarios, that lend themselves more easily
 to async, then the discussion can be more rich.
-For example, in a banking system, transfer for sure are async,
+For example, in a banking system, transfers for sure are async,
 because the real world problem they solve literally can take days.
 So something async is very suitable here.
 
 In the end it is a mindset. You are going to be wrong anyway, I just prefer to
 be wrong on the side of "it is way too simple and is not enough".
-Specially because being way too simple is easier to detect.
+Specially because being way too simple is easier to detect and fix, making systems
+complex is very easy, simplifying systems is orders of magnitude higher.
 
 When things are way too complicated but at least seems to be enough it is
 trickier to see you have a problem. Because you need to detect that even

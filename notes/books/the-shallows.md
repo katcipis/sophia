@@ -64,7 +64,7 @@ The author also talks about his personal experience, on how hard it was to
 write the book because he had a hard time concentrating. He ended up renting
 a small shack in a remote area and wrote the book with very limited internet
 access. This kind of experience is very subjective/qualitative, and yet I have
-similar feelings that it gets harder and harder to do some quite slow reading/thinking.
+similar feelings that it gets harder and harder to do some quiet slow reading/thinking.
 
 # Writing
 

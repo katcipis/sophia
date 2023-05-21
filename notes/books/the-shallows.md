@@ -1,5 +1,122 @@
 # The Shallows
 
+Notes from the book [The Shallows: What the Internet Is Doing to Our Brains](https://www.amazon.com/Shallows-What-Internet-Doing-Brains/dp/0393339750).
+
+# Neuroplasticity
+
+One of the most interesting points made in the book is neuroplasticity.
+Actually most of the book is the author establishing the premisse that
+tools shape how we think and that this phenomenon also happens with adults.
+
+This reminds me a lot about [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+article, it goes like this:
+
+```
+Now for the fifth argument. It has to do with the influence of the tool we are
+trying to use upon our own thinking habits. I observe a cultural tradition,
+which in all probability has its roots in the Renaissance, to ignore this
+influence, to regard the human mind as the supreme and autonomous master of
+its artefacts.
+
+But if I start to analyse the thinking habits of myself and of my fellow human
+beings, I come, whether I like it or not, to a completely different conclusion, viz.
+that the tools we are trying to use and the language or notation we are using
+to express or record our thoughts, are the major factors determining what we
+can think or express at all!
+```
+
+This made me reflect on how the languages we use when programming shape our
+thought process, the book extended this to thinking about all sorts of
+other tools we use on our daily lives that shape our thoughts.
+
+The author goes on mentioning a lot of inventions like the typewriter, printing
+press, alphabet/writing, etc. All shaped our behavior and our societies.
+
+One example is Nietzsche, by the end of his life he was almost blind and was only
+able to write using a typewriter and he mentioned in a letter to a friend how
+the typewriter changed gradually the way he writed. It seems counter intuitive
+since a typewriter is "just" a tool, and yet our brains are wired in a way that
+tools become extensions of ourselves, so every tool we use shapes us back.
+
+In that sense being human is truly amazing, we are capable of shaping things that
+then shapes us right back. This is the essence of the meta circular evaluator from lisp
+and the [Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands) from Escher.
+
+# The Internet
+
+A lot of the book was not new to me, but he mentioned some research that I was unaware.
+The whole point of the book is how the Internet, in exchange for everything it
+gave us, took a good part of our capacity to concentrate and do reading for
+longs periods of time. Everything is cut into 5/10 min bites and consumed that way.
+A lot of the content is also purely visual, reducing how much we do read.
+And all that has influence on how we learn and how we think.
+
+One interesting research involved people studying a topic. Group A read in a more
+classical way, like a book, while Group B read something that contained hyperlinks.
+Intuition would say that hyperlinks are good, because you use them to deepen
+your knowledge about the topic. And yet access to extra information in form of
+links reduced the capacit of people to absorve and remember the material.
+The shift of context in jumping around, even if it is for content related to
+what we are reading, affect how much we are understanding/remembering something.
+Like you optimize way too much for fast thinking and lose slow thinking.
+
+The author also talks about his personal experience, on how hard it was to
+write the book because he had a hard time concentrating. He ended up renting
+a small shack in a remote area and wrote the book with very limited internet
+access. This kind of experience is very subjective/qualitative, and yet I have
+similar feelings that it gets harder and harder to do some quiet slow reading/thinking.
+
+# Writing
+
+And yet, the book presents some information that made me think and kinda goes against
+the book itself, in the sense that sometimes it seems that some new technology will
+make us less, but ends up making us more in different ways.
+
+This is the history of the invention of the alphabet and writing. He focused on how it
+started on Greece and mentioned how Socrates was concerned that writing was going
+to dumb us down and make us more shallow, because after we are able to write down
+things we don't need to remember things anymore. We would rely too much on the
+written word and would end up becoming forgetful beings.
+
+Maybe we did lose some of our capacity to remember things when we abandoned oral
+tradition. And yet it is indisputable that every civilization that developed
+writing and migrated to it from oral tradition evolved much faster and eventually
+replaced the societies that relied only on oral tradition. So writing, even
+with its trade-offs, is much more of a win than a lose.
+
+And why is that ? the problem is interpreting the different ways that technologies/ideas
+affects us. The intuition that writing will make you remember less, because you can just
+dump ideas free your mind, does make sense in some way. But what about how writing
+itself as a way to think and refine your own ideas ? And the fact that you can review
+those brainstorms that you just did with yourself and evolve them, expand to involve
+others etc. The fact that writing transcends time, transcends your own death.
+
+This made me think a lot and realize that maybe the author is doing with the Internet
+what Socrates did with writing. And he goes on talking about the printing press. When
+the printing press started people started complaining that having the ability to
+print so much content was lowering the quality of the content, because now people
+were able to just publish all sort of stupid stuff.
+
+This one made me think a lot, because I used to have similar feelings with the
+Internet, but even though most of what you see may be garbage/stupid, the fact
+that someone really smart can publish something very easily is always a win
+(just as it was with the printing press).  We may need to build better filters,
+there are challenges, but easier access to information seems like a win.
+
+## Dangers of Expert Group Thinking
+
+There is another instance of the dangers of expert group thinking. Group thinking is
+dangerous but expert group thinking is the worse. And even though today it is well
+accepted that adults also exhibit neuroplasticity this was not well accepted
+by specialists for decades, and this form of group thinking kept science from
+progress for quite some time (1920-1950). It is odd to me how even on science dogma always
+finds a way to slip back into human behavior, we are awesome but at the same
+time we seem to have really bad brains (evolution is messy).
+
+How did they stop progress ? by not allowing anyone to think different. People
+trying to do research on neuroplasticity would get no funding at all, because
+the scientists "in power" would discredit them (with no scientific basis).
+
 # Removing all effort is an anti-pattern
 
 The final chapter of the book mentions a very interesting research paper called

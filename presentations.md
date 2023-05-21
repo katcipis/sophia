@@ -8,6 +8,7 @@ Some of the most remarkable presentations I watched.
 
 ## Mind Bending :-)
 
+* [Programming is and should be fun](https://www.youtube.com/watch?v=2MYzvQ1v8Ww)
 * [The Computer Revolution not happened yet](https://www.youtube.com/watch?v=oKg1hTOQXoY&feature=youtu.be)
 * [We Really Don't Know How to Compute!](https://www.youtube.com/watch?v=HB5TrK7A4pI)
 * [Normal Considered Harmful](https://www.youtube.com/watch?v=FvmTSpJU-Xc)

@@ -168,6 +168,7 @@
 
 * [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
 * [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models](https://arxiv.org/abs/2305.12544)
+* [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717)
 * [Talking About Large Language Models](https://arxiv.org/abs/2212.03551)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)

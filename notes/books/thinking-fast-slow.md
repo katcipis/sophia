@@ -157,6 +157,32 @@ in the end there are a bunch of patterns on how people behave and structuers in 
 experience will be invaluable. But that doesn't transport to the overall future of computing,
 no one knows. Intuition can't handle unpredictability, it is not magic.
 
+## Memory: The Two Selves
+
+On the topic of remembering we have 2 selves, the remembering self and the experiencing self.
+The experiencing self is the one that actually went through the experience (objective reality),
+the remembering self is the one that remembers the experience, and guess what, they are totally different.
+
+The way we remember experienced events is by sampling the spike of the experience and the
+end and creating an average of both (a form of compression happens in the brain).
+
+An implication of this is that we remember things that ended badly MUCH worse than they
+actually were. The same goes for people going back together because they are remembering
+some recent good experience instead of objectively assessing the total experience.
+
+There are a lot of experiments around this that are quite interesting. One very simple is about
+imersing your hand on unconfortably hot water. People were subjected to 2 experiences:
+
+1 - Hand imersed on 14c water for 60 seconds
+2 - Hand imersed on 14c water for 60 seconds, then 30 seconds at 15c
+
+Most people on the experiment thought the second experience was better.
+The overall experience was obviously worse, but since the second experience
+ended better the brain remembered as a more pleasant overall experience.
+
+At the same time that we want to optimize pleasure and avoid pain, our brains
+don't help us remember any of this properly, existing is hard.
+
 ## Biases
 
 Now a list of the biases mentioned throughout the book.
@@ -293,3 +319,18 @@ is less balls than 1/10. Why ? we tend to create a more positve image
 when presented with more (8 balls versus a single one). It is classic
 irrational behavir in place, anyone that stops to do the actual math
 (system 2 reasoning) will clearly see the best option.
+
+### Framing Effect
+
+How we frame a question changes our emotional response to it and decision
+making (if you decide emotionally, as most people do).
+
+Examples:
+
+- When credit cards started, instead of talking about credit card surcharge people
+started talking about discounts when paying with money (same thing in the end).
+
+- Talk about survival rates instead of mortality rates
+
+When people are more objective about this differences can be seen on their brains
+(using MRI).

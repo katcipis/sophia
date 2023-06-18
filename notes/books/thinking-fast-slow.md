@@ -261,3 +261,22 @@ good and evil.
 
 It doesn't model reality, but our brains are not that interested in reality :-)
 (just the bare minimum to keep us alive and confortable).
+
+### Loss Aversion
+
+We are biased towards having more aversion to loss than to the benefits of gains.
+This comes from the fact that we pay more attention and learn faster from bad experiences.
+In nature it is more important to be able to identify predators and dangerous environments.
+You need to learn where you can gain things, like food, but knowing where danger is fundamental,
+you can be wrong multiple times about food and spend days without eating, you are going to be
+wrong about a predator only once.
+
+An interesting case of loss aversion is the behavior of most taxi drivers.
+They have a lot of work on rainy days. Economically/rationally it makes much more
+sense to work a lot on rainy days and take the sunny days off.
+
+But the general behavior is irrational. They work less on rainy days, because it takes
+a shorter time to make the daily quota and work extra hard on sunny days just so they can
+reach a quota. This is loss aversion, you don't want to "lose" the sunny day, but it makes
+no sense, if you work much more on the rainy day and not at all on the sunny day you would make
+more money overall.

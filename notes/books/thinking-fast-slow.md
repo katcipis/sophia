@@ -280,3 +280,16 @@ a shorter time to make the daily quota and work extra hard on sunny days just so
 reach a quota. This is loss aversion, you don't want to "lose" the sunny day, but it makes
 no sense, if you work much more on the rainy day and not at all on the sunny day you would make
 more money overall.
+
+### Denominator Bias
+
+This one is quite funny. When asked about two choices:
+
+1 - 8/100 balls
+2 - 1/10 balls
+
+40% of the interviewees chose 8/100 balls, even though it clearly
+is less balls than 1/10. Why ? we tend to create a more positve image
+when presented with more (8 balls versus a single one). It is classic
+irrational behavir in place, anyone that stops to do the actual math
+(system 2 reasoning) will clearly see the best option.

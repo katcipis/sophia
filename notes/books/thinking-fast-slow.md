@@ -57,6 +57,7 @@ System 2 is:
 * Linear
 * Logical
 * Analytical
+* Expensive
 
 A lot of what we are on the conscient level is System 2, it is were language is.
 But a lot of what makes us awesome, the magical associative machine, is System 1.
@@ -120,6 +121,41 @@ When you are in a bad mood your system 1 is impaired. That is why it is hard to
 be creative when you are in a bad mood, have ideas, make associations, etc.
 
 System 2 is much less affected, so you can still perform more analytical activities.
+
+## When Intuition Matters
+
+I'm always interested on anything that is related to intuition. At first glance it seems like
+guessing or some other vague thing like "gut feeling", and yet when you see what experienced
+people can do with it, it is remarkable.
+
+But it is important to understand how good intuition works and when it matters.
+Well, what would be bad intuition ? That is when you don't have any experience with a problem
+or the environment/context of the problem and follow your "gut" anyway, that is essentially
+a wild guess and if it goes well will be by sheer luck.
+
+Intuition is not magic. Intuition is part of the System 1 (hence why it is fast) but it must
+be grounded on two pillars:
+
+* Deliberate Practice (not just repeating the same thing)
+* Stable Environment
+
+The caveat is the stable environment. If the environment is extremelly dynamic/chaotic, even
+deliberate practice won't help you. The way intuition works is by pattern detection from your
+previous experiences, for it to be meaningful there must be a pattern to detect, and part of
+that is the environment. If the environment changes in unpredictable ways experience won't help
+you that much, including previous success. There must be some degree of predictability on the 
+environment for expert knowledge to be valuable.
+
+That makes a lot of sense, I work in computing and it is remarkable how a lot of really smart
+people, with lots of experience and success, made the wildest/most stupid predictions about the
+future of computing. It is not that they are stupid, it is just that being smart and having
+experience won't help you to predict the future in this case, because it is unpredictable by
+definition.
+
+Of course that in more short term things, and building actual software, experience helps a lot,
+in the end there are a bunch of patterns on how people behave and structuers in software, so
+experience will be invaluable. But that doesn't transport to the overall future of computing,
+no one knows. Intuition can't handle unpredictability, it is not magic.
 
 ## Biases
 

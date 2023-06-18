@@ -183,6 +183,25 @@ ended better the brain remembered as a more pleasant overall experience.
 At the same time that we want to optimize pleasure and avoid pain, our brains
 don't help us remember any of this properly, existing is hard.
 
+## Avoiding The Cognitive Minefield
+
+It is really hard to avoid this minefield when you are directly involved, the last
+thing you need in a stressful situation is doubt. It is much easier to see a minefield
+when you are just an observer, the cognitive load is smaller and you will be more open
+to new information.
+
+I have a similar personal experience with this. At least at work when Im not directly
+involved in a problem and just want to help I can see things more broadly, see more
+options, etc. When Im the one directly involved is like focus makes you see more details
+but less context and alternatives. Focus is essential but it is a trade-off, it narrows
+your cognitiion, which is good for attention to detail but bad to avoid cognitive pitfalls
+since you can't dissociate and analyze the broader picture.
+
+What I usually try to do is to shift between these two modes, but when you are directly
+involved in a stressful problem it is really hard to do that. That is why it usually helps
+to bring some new perspective from someone not involved directly (or doing some rubber ducking,
+these days done with some AI chatbot I suppose =P).
+
 ## Biases
 
 Now a list of the biases mentioned throughout the book.

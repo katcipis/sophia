@@ -269,12 +269,10 @@
 
 # Scrapping 
 
-
 ## Parsing
 
 * [scrapely](https://github.com/scrapy/scrapely)
 * [parsley](https://github.com/fizx/parsley)
-
 
 ## Services
 

@@ -14,6 +14,10 @@ Some of the most remarkable presentations I watched.
 * [Normal Considered Harmful](https://www.youtube.com/watch?v=FvmTSpJU-Xc)
 * [Power of Simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs&feature=youtu.be)
 
+## Project Management
+
+* [The Math behind Project Scheduling, Bug Tracking, and Triage](https://www.youtube.com/watch?v=XZFwCplj4ME)
+
 ## Go
 
 ### Naming

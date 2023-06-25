@@ -57,6 +57,7 @@ System 2 is:
 * Linear
 * Logical
 * Analytical
+* Expensive
 
 A lot of what we are on the conscient level is System 2, it is were language is.
 But a lot of what makes us awesome, the magical associative machine, is System 1.
@@ -120,6 +121,86 @@ When you are in a bad mood your system 1 is impaired. That is why it is hard to
 be creative when you are in a bad mood, have ideas, make associations, etc.
 
 System 2 is much less affected, so you can still perform more analytical activities.
+
+## When Intuition Matters
+
+I'm always interested on anything that is related to intuition. At first glance it seems like
+guessing or some other vague thing like "gut feeling", and yet when you see what experienced
+people can do with it, it is remarkable.
+
+But it is important to understand how good intuition works and when it matters.
+Well, what would be bad intuition ? That is when you don't have any experience with a problem
+or the environment/context of the problem and follow your "gut" anyway, that is essentially
+a wild guess and if it goes well will be by sheer luck.
+
+Intuition is not magic. Intuition is part of the System 1 (hence why it is fast) but it must
+be grounded on two pillars:
+
+* Deliberate Practice (not just repeating the same thing)
+* Stable Environment
+
+The caveat is the stable environment. If the environment is extremelly dynamic/chaotic, even
+deliberate practice won't help you. The way intuition works is by pattern detection from your
+previous experiences, for it to be meaningful there must be a pattern to detect, and part of
+that is the environment. If the environment changes in unpredictable ways experience won't help
+you that much, including previous success. There must be some degree of predictability on the 
+environment for expert knowledge to be valuable.
+
+That makes a lot of sense, I work in computing and it is remarkable how a lot of really smart
+people, with lots of experience and success, made the wildest/most stupid predictions about the
+future of computing. It is not that they are stupid, it is just that being smart and having
+experience won't help you to predict the future in this case, because it is unpredictable by
+definition.
+
+Of course that in more short term things, and building actual software, experience helps a lot,
+in the end there are a bunch of patterns on how people behave and structuers in software, so
+experience will be invaluable. But that doesn't transport to the overall future of computing,
+no one knows. Intuition can't handle unpredictability, it is not magic.
+
+## Memory: The Two Selves
+
+On the topic of remembering we have 2 selves, the remembering self and the experiencing self.
+The experiencing self is the one that actually went through the experience (objective reality),
+the remembering self is the one that remembers the experience, and guess what, they are totally different.
+
+The way we remember experienced events is by sampling the spike of the experience and the
+end and creating an average of both (a form of compression happens in the brain).
+
+An implication of this is that we remember things that ended badly MUCH worse than they
+actually were. The same goes for people going back together because they are remembering
+some recent good experience instead of objectively assessing the total experience.
+
+There are a lot of experiments around this that are quite interesting. One very simple is about
+imersing your hand on unconfortably hot water. People were subjected to 2 experiences:
+
+1 - Hand imersed on 14c water for 60 seconds
+2 - Hand imersed on 14c water for 60 seconds, then 30 seconds at 15c
+
+Most people on the experiment thought the second experience was better.
+The overall experience was obviously worse, but since the second experience
+ended better the brain remembered as a more pleasant overall experience.
+
+At the same time that we want to optimize pleasure and avoid pain, our brains
+don't help us remember any of this properly, existing is hard.
+
+## Avoiding The Cognitive Minefield
+
+It is really hard to avoid this minefield when you are directly involved, the last
+thing you need in a stressful situation is doubt. It is much easier to see a minefield
+when you are just an observer, the cognitive load is smaller and you will be more open
+to new information.
+
+I have a similar personal experience with this. At least at work when Im not directly
+involved in a problem and just want to help I can see things more broadly, see more
+options, etc. When Im the one directly involved is like focus makes you see more details
+but less context and alternatives. Focus is essential but it is a trade-off, it narrows
+your cognitiion, which is good for attention to detail but bad to avoid cognitive pitfalls
+since you can't dissociate and analyze the broader picture.
+
+What I usually try to do is to shift between these two modes, but when you are directly
+involved in a stressful problem it is really hard to do that. That is why it usually helps
+to bring some new perspective from someone not involved directly (or doing some rubber ducking,
+these days done with some AI chatbot I suppose =P).
 
 ## Biases
 
@@ -225,3 +306,50 @@ good and evil.
 
 It doesn't model reality, but our brains are not that interested in reality :-)
 (just the bare minimum to keep us alive and confortable).
+
+### Loss Aversion
+
+We are biased towards having more aversion to loss than to the benefits of gains.
+This comes from the fact that we pay more attention and learn faster from bad experiences.
+In nature it is more important to be able to identify predators and dangerous environments.
+You need to learn where you can gain things, like food, but knowing where danger is fundamental,
+you can be wrong multiple times about food and spend days without eating, you are going to be
+wrong about a predator only once.
+
+An interesting case of loss aversion is the behavior of most taxi drivers.
+They have a lot of work on rainy days. Economically/rationally it makes much more
+sense to work a lot on rainy days and take the sunny days off.
+
+But the general behavior is irrational. They work less on rainy days, because it takes
+a shorter time to make the daily quota and work extra hard on sunny days just so they can
+reach a quota. This is loss aversion, you don't want to "lose" the sunny day, but it makes
+no sense, if you work much more on the rainy day and not at all on the sunny day you would make
+more money overall.
+
+### Denominator Bias
+
+This one is quite funny. When asked about two choices:
+
+1 - 8/100 balls
+2 - 1/10 balls
+
+40% of the interviewees chose 8/100 balls, even though it clearly
+is less balls than 1/10. Why ? we tend to create a more positve image
+when presented with more (8 balls versus a single one). It is classic
+irrational behavir in place, anyone that stops to do the actual math
+(system 2 reasoning) will clearly see the best option.
+
+### Framing Effect
+
+How we frame a question changes our emotional response to it and decision
+making (if you decide emotionally, as most people do).
+
+Examples:
+
+- When credit cards started, instead of talking about credit card surcharge people
+started talking about discounts when paying with money (same thing in the end).
+
+- Talk about survival rates instead of mortality rates
+
+When people are more objective about this differences can be seen on their brains
+(using MRI).

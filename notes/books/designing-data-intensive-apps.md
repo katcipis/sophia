@@ -381,4 +381,28 @@ Another major drawback of using locks this way is that systems designed like thi
 susceptible to deadlocks. Systems using 2PL need deadlock detection mechanisms and transaction aborting
 to work properly.
 
+It is specially tricky to implement on distributed systems, since the acquired/release locks
+will be on multiple nodes, but it is doable.
+
+Some people regard 2PL (and 2PC) as old/unnapropriate for distributed systems. But some modern
+distributed databases like Google Spanner use them.
+
+From [Spanner, TrueTime & The CAP Theorem](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45855.pdf):
+
+> To understand partitions, we need to know a little bit more about how Spanner works. As with most ACID
+> databases, Spanner uses two-phase commit (2PC) and strict two-phase locking to ensure isolation and
+> strong consistency. 2PC has been called the “anti-availability” protocol [Hel16] because all members must
+> be up for it to work. Spanner mitigates this by having each member be a Paxos group, thus ensuring each
+> 2PC “member” is highly available even if some of its Paxos participants are down.
+
 ### Optimistic Algorithms
+
+Optimistic algorithms assumes that no conflict will happen and just execute transactions
+concurrently. Then they depend on conflict detection, done after execution of transactions,
+to rollback/abort any transaction that conflicted, then replaying the transaction.
+
+As you can imagine at this point, one of the main trade-offs between the optimistic approach
+versus the pessimistic one is how ofter conflicts happens. If they happen all the time the
+overhead of detection + abortion + re-executing a transaction can be quite big. If they happen
+sporadically then the pessimistic algorithm will keep acquiring and releasing locks for no
+good reason.

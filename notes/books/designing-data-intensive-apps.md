@@ -353,19 +353,32 @@ serializability on the system, which is the strongest guarantee that you can pro
 system/database. All transactions will be executed as if they were executed serially, first transaction 1
 and then transacation 2. That is the abstraction that is provided, although the implementation can vary wildly.
 
-Implementing this efficiently is challenging and you have 3 overall techniques:
+Implementing this efficiently is challenging and you have 2 overall families of techniques:
 
-* Just run serially :-)
 * Optimistic Algorithms
 * Pessimistic Algorithms
 
-### Just Run Serially
+### Pessimistic Algorithms
+
+Pessimistic Algorithms as the name indicates assumes the worse, conflicts will happen
+all the time so you must avoid them before they happen.
+
+#### Just Run Serially
 
 This seems like a joke, but this is actually how Redis work...and people love Redis =P.
 It is a single thread that executes each operation sequentially. So it is a serializable
 database. Of course it doesn't provide complex transactions. Actually in a database like this
 the transactions must be extremelly quick/simple or else you will run into some serious performance issues.
 
-### Pessimistic Algorithms
+#### 2PL Two Phase Locking
+
+This is a very classical algorithm and was implemented on databases for decades.
+It involves an initial locking phase were all locks are acquired, transaction is executed,
+then all locks are released. For long transactions on the same dataset the penaly for 2PL
+can be quite steep, but it can perform well under the right circumstances and it is reasonably simple.
+
+Another major drawback of using locks this way is that systems designed like this are intrinsically
+susceptible to deadlocks. Systems using 2PL need deadlock detection mechanisms and transaction aborting
+to work properly.
 
 ### Optimistic Algorithms

@@ -157,7 +157,7 @@ does work well if there is a small set of data that is user owned and lot
 of data that is not user owned. The user will hardly notice stale data on data
 that is not his.
 
-Both these solutions introduce the issue that if there is a networking issue between
+Both these solutions introduce the issue that if there is a networking problem between
 them and the leader/writer of the database, they lose availability. So in a
 setup where you have one of fewer writers and multiple readers this makes the overall
 system less available than reading from replicas all the time. You can start to
@@ -300,3 +300,23 @@ as simple/straightforward as remote procedures since some constructs used on loc
 procedures may not be supported by the remote representation, since it needs to be
 interoperable with other languages. Or they may work on some odd ways, specific
 to the quirks of the language.
+
+## Isolation Levels
+
+The book does a great job to elaborate on the broad range of isolation levels
+available on databases, it does so in a way that is decoupled from specifics
+and focusing on the problems that concurrency introduce in systems (even non
+distributed ones).
+
+The core issue here is how to deliver some level of isolation in a concurrent system.
+In that sense the problem is not even related to databases, a lot of research on
+this area is focused only on the concurrency aspect of it, you analyze it from the point
+of view of multiple concurrent units send messages to the same object and how it will
+behave in such a scenario. Isolation meaning how far does the system provides guarantees
+for a singe client, that the single client will observe reasonable behavior.
+
+This problem is so pervasive that it happens also on the processor level with cores/caching
+introducing a lot of interesting issues regarding observed writes accross parallel cores.
+The trade-offs are also the same, you usually trade performance for more coherence and more
+guarantees. There is no way to have perfect/consistent behavior and not lose performance
+to some synchronization mechanism, the trade-off space here is vast and complex.

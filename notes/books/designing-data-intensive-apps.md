@@ -321,20 +321,20 @@ The trade-offs are also the same, you usually trade performance for more coheren
 guarantees. There is no way to have perfect/consistent behavior and not lose performance
 to some synchronization mechanism, the trade-off space here is vast and complex.
 
-Some isolation levels mentioned:
+Examples of isolation levels mentioned:
 
 * Read Commited
 * Snapshot Isolation
 * Serializable Snapshot Isolation
 
-Read commited is one of the more lose ones, it only guarantees that you will read anything
+Read commited is one of the more loose ones, it only guarantees that you will read anything
 you commited. It won't protect you against complex problems like phantom reads. These problems
 arise specially with transactions.
 
 A transaction may read some data and make a decision based on that data, like writing X
 to a database. But lets say that after it read the data, but before it writes the result, the
 data it read changed under its feet, now it may be writing an invalid result because the result
-is written under the assumption that the old read value is true.
+is written under the assumption that the old read value is true (outdated assumption).
 
 One simple example provided is a system were you must guarantee that at least 1 person is
 on call. A transaction could consult how much people are on call, and based on that decide to remove
@@ -346,15 +346,26 @@ the system now entered an invalid state (no one is on call).
 
 This particular example can be circumvented by a more elaborate transaction, different data model,
 etc. But that is besides the point. The point is that the simple version of this transaction doesn't
-work with snapshot isolation but would work fine with Serializable Snapshot Isolation.
+work in a system that is non serializable.
 
-Actually the solution to execute such a transaction maintaining complete consistency is having
+The solution to execute such a transaction maintaining complete consistency is having
 serializability on the system, which is the strongest guarantee that you can provide in a concurrent
 system/database. All transactions will be executed as if they were executed serially, first transaction 1
-and then transacation 2.
+and then transacation 2. That is the abstraction that is provided, although the implementation can vary wildly.
 
-Implementing this efficiently is challenging and you have 2 overall techniques:
+Implementing this efficiently is challenging and you have 3 overall techniques:
 
 * Just run serially :-)
 * Optimistic Algorithms
 * Pessimistic Algorithms
+
+### Just Run Serially
+
+This seems like a joke, but this is actually how Redis work...and people love Redis =P.
+It is a single thread that executes each operation sequentially. So it is a serializable
+database. Of course it doesn't provide complex transactions. Actually in a database like this
+the transactions must be extremelly quick/simple or else you will run into some serious performance issues.
+
+### Pessimistic Algorithms
+
+### Optimistic Algorithms

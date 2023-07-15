@@ -406,3 +406,11 @@ versus the pessimistic one is how ofter conflicts happens. If they happen all th
 overhead of detection + abortion + re-executing a transaction can be quite big. If they happen
 sporadically then the pessimistic algorithm will keep acquiring and releasing locks for no
 good reason.
+
+There is another trade-off within optimistic algorithms, which is how fine grained the
+conflict detection is. On one extreme, if you observe every single atom of data that
+is read and written you will be able to be very precise when a conflict happens, avoiding
+any false positives, but will have a higher overhead for every operation, since all
+this bookeeping has a cost. If you observe in a more coarse grained level, like specific
+tables, or just specific rows, the detection will be more lightweight but will produce more
+false positives, cancelling transactions as conflicting when they actually didn't.

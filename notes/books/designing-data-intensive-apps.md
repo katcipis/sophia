@@ -414,3 +414,86 @@ any false positives, but will have a higher overhead for every operation, since 
 this bookeeping has a cost. If you observe in a more coarse grained level, like specific
 tables, or just specific rows, the detection will be more lightweight but will produce more
 false positives, cancelling transactions as conflicting when they actually didn't.
+
+## Serializability and Linearizability
+
+As soon as I started working with distributed databases some years ago I started to see
+mentions of these properties but was never able to really understand them...at least
+not in a simple way. Maybe Martin was the one that, finally, was able to explain that
+to my limited CPU =P. Since the hallmark of trully understanding something is being
+able to explain it in a simple way, I'll try to do it here. Since I don't understand the
+concept that well there is no way for me to be sure if the way Martin explains it is
+correct, but it did made sense and I think I understood it.
+
+Both definitions assume that those properties belong to concurrent systems and will explain
+them in terms of operations on objects, no data model is assumed.
+
+### Serializability
+
+This is a property of transactions, meaning that it is a property on a set of operations.
+The idea of serializability is to guarantee that when you have multiple transactions you always
+observe the final result as the serial execution of them in **some** order. The **some** is important
+here, guaranteeing order on concurrent systems, specially distributed ones, is a really hard
+problem. I won't get into ordering, partial ordering, global ordering, etc, because it is a topic
+even more complex than serializability, lets just assume it is really hard so this guarantee
+doesn't include ordering, just that it will be a serial execution order.
+
+What does that mean ? lets say you have 1 object `A` and you execute 2 transactions:
+
+```
+x = read A
+x += 1
+write x in A
+```
+
+And:
+
+```
+x = read A
+x += 2
+write x in A
+```
+
+In a serializable system there are only two possible permutations on how these operations may happen.
+This one:
+
+```
+x = read A
+x += 1
+write x in A
+
+x = read A
+x += 2
+write x in A
+```
+
+Or this one:
+
+```
+x = read A
+x += 2
+write x in A
+
+x = read A
+x += 1
+write x in A
+```
+
+Meaning that either one transaction execute first and later the other, or vice-versa, but
+the operations inside each transaction can't be complected.
+
+All other permutations would be invalid and violate serializability. Like this:
+
+```
+x = read A
+x += 2
+x = read A
+x += 1
+write x in A
+write x in A
+```
+
+This example violates serializability and one of the writes is lost.
+
+
+### Linearizability

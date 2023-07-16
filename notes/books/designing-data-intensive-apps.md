@@ -500,13 +500,15 @@ difference between serializability and linearizability.
 
 ### Linearizability
 
-Linearizability is a recency property that applies to single objects/operations. In this
-sense it is a simpler guarantee. What would be a "recency property" ? It is the property
-that recent operations are always observed consistently.
+Linearizability is a recency property that applies to a single object/register. In this
+sense it is a simpler guarantee than serializability. What would be a "recency property" ?
+It is the property that recent write operations are always observed consistently.
 
-One way to put it is to think about a distributed database as it behaved as a single node database, so any
-operations done on it are immediately visible to all readers. Now you can see that this is
-easier said than done, in a distributed database this means that after a write is observed
+One way to put it is to think about distributed data (copies of the same data) as it behaved
+as a single piece of data (no copies) and write operations on it are atomic. So any writes are
+immediately visible to all readers. 
+
+This is easier said than done. In a distributed database this means that after a write is observed
 by a reader, all other readers on the system must observe the same value independent of
 which replica they may be reading from.
 
@@ -515,7 +517,12 @@ way to guarantee it is to ensure that all replicas always received all writes, b
 reduces your performance and availability in face of failures. So ensuring linearizability will
 imply some trade-offs on throughput and availability.
 
+Even simple setups, like single leader replication, can cause loss of linearizability. For example,
+if you have an asynchronous replication setup (very common to keep availability high) and the leader
+goes down if the new leader was behind on the synchronization you will lose both linearizability
+and durability (data will actually be lost).
+
 This also explains why I never heard about it before the advent of distributed databases.
-For a single node database it makes no sense to talk about linearizability, it is fairly easy
-to guarantee it, but when dealing with distributed databases the concept is always present
-since databases need to make clear which sort of guarantees they can provide.
+For a single node database it makes little sense to talk about linearizability, it is fairly easy
+to guarantee it (just atomicity), but when dealing with distributed databases the concept is always present
+since databases need to make clear which sort of guarantees they can provide about replicated data.

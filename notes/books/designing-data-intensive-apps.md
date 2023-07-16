@@ -522,7 +522,46 @@ if you have an asynchronous replication setup (very common to keep availability 
 goes down if the new leader was behind on the synchronization you will lose both linearizability
 and durability (data will actually be lost).
 
-This also explains why I never heard about it before the advent of distributed databases.
+This also explains why I never heard about it before distributed databases became more commonplace.
 For a single node database it makes little sense to talk about linearizability, it is fairly easy
 to guarantee it (just atomicity), but when dealing with distributed databases the concept is always present
 since databases need to make clear which sort of guarantees they can provide about replicated data.
+
+#### Side Channels
+
+The book gives some good examples of how the lack of linearizability may cause issues.
+One common pattern is when you have side channels, more than one communication channel involved.
+For example, take a web application that has some images and want to generate thumbnails of them.
+
+One common way to do that is to model it as a background/worker process, since it can take some time.
+Most message brokers are not designed for huge messages, so sending
+the entire image on a message and getting the whole image as a response is usually not an option
+(or maybe it is ? :-) ).
+
+Then one common design would be to:
+
+* Web app stores image on database
+* Web app sends resize message with image ID/URL/etc
+* Image resizer gets message from broker
+* Image resizer loads image with the given ID/URL/etc
+* Image resizer resizes image
+* Image resizer saves thumbnail on the same storage, with a new ID
+* Now the resized image is available to the web app
+
+Lets see what could happen if we lack linearizability in the database storing the images:
+
+* Web app stores image on database
+* Web app sends resize message with image ID/URL/etc
+* Image resizer gets message from broker
+* Image resizer loads image with the given ID/URL/etc
+* The image is loaded from an outdated replica, it is an older/wrong image
+* Image resizer resizes image
+* Image resizer saves thumbnail on the same storage, with a new ID
+* Now the resized image is available to the web app but the thumbnail doesn't match the original message
+* There is no error and there is no way for the system to recover, the thumbnail will be wrong forever
+
+In situations like this one, where you have storage and side channels of communication
+synchronizing reads/writes on it, special care must be taken about which guarantees the database
+provides. In a non-linearizable database you would need to design the solution differently or
+implement some domain specific compare-and-set strategy, like receiving a hash of the image on the
+message and if the hash doesn't match fail (with some retry strategy).

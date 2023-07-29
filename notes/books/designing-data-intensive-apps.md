@@ -579,26 +579,29 @@ versa. Trade-offs in distributed systems are much more nuanced and complex than 
 it would imply single node systems (to avoid partitioning). So in the end most discussions end up being
 about consistency VS availability.
 
-3 - Even thinking on terms of consistency VS availability is also not precise, it ignores another major
-architectural property that must be taken in consideration: performance.
+3 - Even thinking on terms of consistency VS availability doesn't provide a complete model.
+It ignores another major architectural property that must be taken in consideration: performance.
 
 One of the points that made me think the most is performance because there is an concrete example
 that makes it very obvious the limitations of CAP when thinking about consistency models, the memory
-models of CPUs.
+models of multi-core SMP CPUs.
 
-The memory model of most multi-core CPUs is non-linearizable (at least classical SMPs), hence
+The memory model of most CPUs is non-linearizable (at least classical SMPs), hence
 considerably inconsistent. And yet there is no partitioning whatsoever in this case, the CPU cores exist
 on the same Die and there is no way they will get disconnected/partitioned (unless the CPU is broken,
 then it is a total fault).
 
 The same applies for memory, memory is local. All communication can be synchronous and have a well defined and
 deterministic upper bound on worse case delays, you literally know the physical distance between components.
+This fits perfectly the theoretical definition of the synchronous model, you know exactly how long each
+communication can take and you can be sure if the communication failed or not (no uncertainty).
 
 And yet, communication between different cores and their caches is done asynchronously. Why ? Because of
 performance. When a CPU core writes in memory, in order to guarantee linearizability it would have to synchronize
-with all other CPU cores and their caches, reducing paralelism considerably and complicating CPU design.
+with all other CPU cores and their caches, reducing paralelism considerably and complicating CPU design
+(or write in memory + invalidate the cache of all other cores, which would make caches nearly useless).
 
-Remember that the whole idea of linearizability is for data to behave as a single copy of it exists and all
+The whole idea of linearizability is for data to behave like only a single copy of it exists and all
 operatios are atomic. In a SMP multi-core CPU this costs too much, the performance gains from each core having
 its own very fast local copy of data are too irresistible, but then those copies behave as copies, possibly stale,
 not as a "single atomic copy".

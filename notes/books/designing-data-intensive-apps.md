@@ -582,8 +582,8 @@ about consistency VS availability.
 3 - Even thinking on terms of consistency VS availability doesn't provide a complete model.
 It ignores another major architectural property that must be taken in consideration: performance.
 
-One of the points that made me think the most is performance because there is an concrete example
-that makes it very obvious the limitations of CAP when thinking about consistency models, the memory
+One of the points that made me think the most is performance because there is a concrete example
+that makes the limitations of CAP when thinking about consistency models very obvious, the memory
 models of multi-core SMP CPUs.
 
 The memory model of most CPUs is non-linearizable (at least classical SMPs), hence

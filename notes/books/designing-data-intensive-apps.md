@@ -157,7 +157,7 @@ does work well if there is a small set of data that is user owned and lot
 of data that is not user owned. The user will hardly notice stale data on data
 that is not his.
 
-Both these solutions introduce the issue that if there is a networking issue between
+Both these solutions introduce the issue that if there is a networking problem between
 them and the leader/writer of the database, they lose availability. So in a
 setup where you have one of fewer writers and multiple readers this makes the overall
 system less available than reading from replicas all the time. You can start to
@@ -300,3 +300,268 @@ as simple/straightforward as remote procedures since some constructs used on loc
 procedures may not be supported by the remote representation, since it needs to be
 interoperable with other languages. Or they may work on some odd ways, specific
 to the quirks of the language.
+
+## Isolation Levels
+
+The book does a great job to elaborate on the broad range of isolation levels
+available on databases, it does so in a way that is decoupled from specifics
+and focusing on the problems that concurrency introduce in systems (even non
+distributed ones).
+
+The core issue here is how to deliver some level of isolation in a concurrent system.
+In that sense the problem is not even related to databases, a lot of research on
+this area is focused only on the concurrency aspect of it, you analyze it from the point
+of view of multiple concurrent units send messages to the same object and how it will
+behave in such a scenario. Isolation meaning how far does the system provides guarantees
+for a singe client, that the single client will observe reasonable behavior.
+
+This problem is so pervasive that it happens also on the processor level with cores/caching
+introducing a lot of interesting issues regarding observed writes accross parallel cores.
+The trade-offs are also the same, you usually trade performance for more coherence and more
+guarantees. There is no way to have perfect/consistent behavior and not lose performance
+to some synchronization mechanism, the trade-off space here is vast and complex.
+
+Examples of isolation levels mentioned:
+
+* Read Commited
+* Snapshot Isolation
+* Serializable Snapshot Isolation
+
+Read commited is one of the more loose ones, it only guarantees that you will read anything
+you commited. It won't protect you against complex problems like phantom reads. These problems
+arise specially with transactions.
+
+A transaction may read some data and make a decision based on that data, like writing X
+to a database. But lets say that after it read the data, but before it writes the result, the
+data it read changed under its feet, now it may be writing an invalid result because the result
+is written under the assumption that the old read value is true (outdated assumption).
+
+One simple example provided is a system were you must guarantee that at least 1 person is
+on call. A transaction could consult how much people are on call, and based on that decide to remove
+someone from on call duty. When two transactions are doing this, if they only have snapshot isolation,
+they would cause a phatom read issue, both transactions would read that there are 2 people on call and
+would decide to remove the user from on call, each of these are done on their own isolated
+snapshot, and each of them write to different data, so all good at an snapshot isolation level, but
+the system now entered an invalid state (no one is on call).
+
+This particular example can be circumvented by a more elaborate transaction, different data model,
+etc. But that is besides the point. The point is that the simple version of this transaction doesn't
+work in a system that is non serializable.
+
+The solution to execute such a transaction maintaining complete consistency is having
+serializability on the system, which is the strongest guarantee that you can provide in a concurrent
+system/database. All transactions will be executed as if they were executed serially, first transaction 1
+and then transacation 2. That is the abstraction that is provided, although the implementation can vary wildly.
+
+Implementing this efficiently is challenging and you have 2 overall families of techniques:
+
+* Optimistic Algorithms
+* Pessimistic Algorithms
+
+### Pessimistic Algorithms
+
+Pessimistic Algorithms as the name indicates assumes the worse, conflicts will happen
+all the time so you must avoid them before they happen.
+
+#### Just Run Serially
+
+This seems like a joke, but this is actually how Redis work...and people love Redis =P.
+It is a single thread that executes each operation sequentially. So it is a serializable
+database. Of course it doesn't provide complex transactions. Actually in a database like this
+the transactions must be extremelly quick/simple or else you will run into some serious performance issues.
+
+#### 2PL Two Phase Locking
+
+This is a very classical algorithm and was implemented on databases for decades.
+It involves an initial locking phase were all locks are acquired, transaction is executed,
+then all locks are released. For long transactions on the same dataset the penaly for 2PL
+can be quite steep, but it can perform well under the right circumstances and it is reasonably simple.
+
+Another major drawback of using locks this way is that systems designed like this are intrinsically
+susceptible to deadlocks. Systems using 2PL need deadlock detection mechanisms and transaction aborting
+to work properly.
+
+It is specially tricky to implement on distributed systems, since the acquired/release locks
+will be on multiple nodes, but it is doable.
+
+Some people regard 2PL (and 2PC) as old/unnapropriate for distributed systems. But some modern
+distributed databases like Google Spanner use them.
+
+From [Spanner, TrueTime & The CAP Theorem](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45855.pdf):
+
+> To understand partitions, we need to know a little bit more about how Spanner works. As with most ACID
+> databases, Spanner uses two-phase commit (2PC) and strict two-phase locking to ensure isolation and
+> strong consistency. 2PC has been called the “anti-availability” protocol [Hel16] because all members must
+> be up for it to work. Spanner mitigates this by having each member be a Paxos group, thus ensuring each
+> 2PC “member” is highly available even if some of its Paxos participants are down.
+
+### Optimistic Algorithms
+
+Optimistic algorithms assumes that no conflict will happen and just execute transactions
+concurrently. Then they depend on conflict detection, done after execution of transactions,
+to rollback/abort any transaction that conflicted, then replaying the transaction.
+
+As you can imagine at this point, one of the main trade-offs between the optimistic approach
+versus the pessimistic one is how ofter conflicts happens. If they happen all the time the
+overhead of detection + abortion + re-executing a transaction can be quite big. If they happen
+sporadically then the pessimistic algorithm will keep acquiring and releasing locks for no
+good reason.
+
+There is another trade-off within optimistic algorithms, which is how fine grained the
+conflict detection is. On one extreme, if you observe every single atom of data that
+is read and written you will be able to be very precise when a conflict happens, avoiding
+any false positives, but will have a higher overhead for every operation, since all
+this bookeeping has a cost. If you observe in a more coarse grained level, like specific
+tables, or just specific rows, the detection will be more lightweight but will produce more
+false positives, cancelling transactions as conflicting when they actually didn't.
+
+## Serializability and Linearizability
+
+As soon as I started working with distributed databases some years ago I started to see
+mentions of these properties but was never able to really understand them...at least
+not in a simple way. Maybe Martin was the one that, finally, was able to explain that
+to my limited CPU =P. Since the hallmark of trully understanding something is being
+able to explain it in a simple way, I'll try to do it here. Since I don't understand the
+concept that well there is no way for me to be sure if the way Martin explains it is
+correct, but it did made sense and I think I understood it.
+
+Both definitions assume that those properties belong to concurrent systems and will explain
+them in terms of operations on objects, no data model is assumed.
+
+### Serializability
+
+This is a property of transactions, meaning that it is a property on a set of operations.
+The idea of serializability is to guarantee that when you have multiple transactions you always
+observe the final result as the serial execution of them in **some** order. The **some** is important
+here, guaranteeing order on concurrent systems, specially distributed ones, is a really hard
+problem. I won't get into ordering, partial ordering, global ordering, etc, because it is a topic
+even more complex than serializability, lets just assume it is really hard so this guarantee
+doesn't include ordering, just that it will be a serial execution order.
+
+What does that mean ? lets say you have 1 object `A` and you execute 2 transactions:
+
+```
+x = read A
+x += 1
+write x in A
+```
+
+And:
+
+```
+x = read A
+x += 2
+write x in A
+```
+
+In a serializable system there are only two possible permutations on how these operations may happen.
+This one:
+
+```
+x = read A
+x += 1
+write x in A
+
+x = read A
+x += 2
+write x in A
+```
+
+Or this one:
+
+```
+x = read A
+x += 2
+write x in A
+
+x = read A
+x += 1
+write x in A
+```
+
+Meaning that either one transaction execute first and later the other, or vice-versa, but
+the operations inside each transaction can't be complected.
+
+All other permutations would be invalid and violate serializability. Like this:
+
+```
+x = read A
+x += 2
+x = read A
+x += 1
+write x in A
+write x in A
+```
+
+This example violates serializability and one of the writes is lost. Transactions on top
+of involving a set of operations may also involve a set of objects, and that is a major
+difference between serializability and linearizability.
+
+
+### Linearizability
+
+Linearizability is a recency property that applies to a single object/register. In this
+sense it is a simpler guarantee than serializability. What would be a "recency property" ?
+It is the property that recent write operations are always observed consistently.
+
+One way to put it is to think about distributed data (copies of the same data) as it behaved
+as a single piece of data (no copies) and write operations on it are atomic. So any writes are
+immediately visible to all readers. 
+
+This is easier said than done. In a distributed database this means that after a write is observed
+by a reader, all other readers on the system must observe the same value independent of
+which replica they may be reading from.
+
+Now you should be building an intuition on why linearizability is so tricky. One naive
+way to guarantee it is to ensure that all replicas always received all writes, but that
+reduces your performance and availability in face of failures. So ensuring linearizability will
+imply some trade-offs on throughput and availability.
+
+Even simple setups, like single leader replication, can cause loss of linearizability. For example,
+if you have an asynchronous replication setup (very common to keep availability high) and the leader
+goes down if the new leader was behind on the synchronization you will lose both linearizability
+and durability (data will actually be lost).
+
+This also explains why I never heard about it before distributed databases became more commonplace.
+For a single node database it makes little sense to talk about linearizability, it is fairly easy
+to guarantee it (just atomicity), but when dealing with distributed databases the concept is always present
+since databases need to make clear which sort of guarantees they can provide about replicated data.
+
+#### Side Channels
+
+The book gives some good examples of how the lack of linearizability may cause issues.
+One common pattern is when you have side channels, more than one communication channel involved.
+For example, take a web application that has some images and want to generate thumbnails of them.
+
+One common way to do that is to model it as a background/worker process, since it can take some time.
+Most message brokers are not designed for huge messages, so sending
+the entire image on a message and getting the whole image as a response is usually not an option
+(or maybe it is ? :-) ).
+
+Then one common design would be to:
+
+* Web app stores image on database
+* Web app sends resize message with image ID/URL/etc
+* Image resizer gets message from broker
+* Image resizer loads image with the given ID/URL/etc
+* Image resizer resizes image
+* Image resizer saves thumbnail on the same storage, with a new ID
+* Now the resized image is available to the web app
+
+Lets see what could happen if we lack linearizability in the database storing the images:
+
+* Web app stores image on database
+* Web app sends resize message with image ID/URL/etc
+* Image resizer gets message from broker
+* Image resizer loads image with the given ID/URL/etc
+* The image is loaded from an outdated replica, it is an older/wrong image
+* Image resizer resizes image
+* Image resizer saves thumbnail on the same storage, with a new ID
+* Now the resized image is available to the web app but the thumbnail doesn't match the original message
+* There is no error and there is no way for the system to recover, the thumbnail will be wrong forever
+
+In situations like this one, where you have storage and side channels of communication
+synchronizing reads/writes on it, special care must be taken about which guarantees the database
+provides. In a non-linearizable database you would need to design the solution differently or
+implement some domain specific compare-and-set strategy, like receiving a hash of the image on the
+message and if the hash doesn't match fail (with some retry strategy).

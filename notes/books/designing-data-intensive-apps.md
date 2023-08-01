@@ -602,7 +602,7 @@ with all other CPU cores and their caches, reducing paralelism considerably and 
 (or write in memory + invalidate the cache of all other cores, which would make caches nearly useless).
 
 The whole idea of linearizability is for data to behave like only a single copy of it exists and all
-operatios are atomic. In a SMP multi-core CPU this costs too much, the performance gains from each core having
+operatios are atomic. In an SMP multi-core CPU this costs too much, the performance gains from each core having
 its own very fast local copy of data are too irresistible, but then those copies behave as copies, possibly stale,
 not as a "single atomic copy".
 

@@ -244,6 +244,7 @@
 ## Text to Diagram
 
 * [mermaid-js](https://github.com/mermaid-js/mermaid)
+* [pikchr](https://pikchr.org/home/doc/trunk/homepage.md)
 * [d2](https://github.com/terrastruct/d2)
 * [Graphviz](https://graphviz.gitlab.io/)
 

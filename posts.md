@@ -12,6 +12,7 @@
 
 * [Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
 * [When TDD Doesn’t Matter: What Do You Value?](https://medium.com/pragmatic-programmers/when-tdd-doesnt-matter-what-do-you-value-91c628dc4488)
+* [Testing on the Toilet: Change-Detector Tests Considered Harmful](https://testing.googleblog.com/2015/01/testing-on-toilet-change-detector-tests.html)
 
 
 ## Databases

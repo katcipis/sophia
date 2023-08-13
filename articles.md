@@ -5,7 +5,6 @@
 - [Articles](#articles)
     - [Algorithms](#algorithms)
     - [Data](#data)
-    - [Cloud Infrastructure](#cloud-infrastructure)
     - [Distributed Systems](#distributed-systems)
     - [Concurrency](#concurrency)
     - [Languages](#languages)
@@ -14,8 +13,6 @@
         - [Clive](#clive)
         - [Inferno](#inferno)
     - [Security](#security)
-    - [Fuzzy Testing](#fuzzy-testing)
-    - [Software Design](#software-design)
     - [Error Handling](#error-handling)
     - [Not Classified Yet :-)](#not-classified-yet-)
     - [TODO](#todo)
@@ -61,11 +58,6 @@
 * [Semantics and Evaluation Techniques for Window Aggregates in Data Streams](http://web.cecs.pdx.edu/~tufte/papers/WindowAgg.pdf)
 
 
-## Cloud Infrastructure
-
-* [The Sky Above The Clouds](https://arxiv.org/pdf/2205.07147.pdf)
-
-
 ## Networking
 
 * [Protecting the DNS Root servers against DDoS attacks](https://arxiv.org/pdf/2209.07491.pdf)
@@ -76,6 +68,8 @@
 
 ## Distributed Systems
 
+* [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)
+* [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
 * [A Note on Distributed Computing](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Replicated Document Management in a Group Communication System](https://dl.acm.org/doi/pdf/10.1145/62266.1024798)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
@@ -84,12 +78,9 @@
 * [Serving DNS using a Peer-to-Peer Lookup Service](https://pdfs.semanticscholar.org/44d8/96d3ffbabb8207de0cfd27de93292068d9cb.pdf)
 * [Metastable Failures in Distributed Systems](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf)
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf)
-* [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)
 * [Interleaving anomalies in collaborative text editors](https://core.ac.uk/download/pdf/189163265.pdf)
-* [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
 * [Internet Time Synchronization: the Network Time Protocol](https://www.eecis.udel.edu/~mills/database/papers/trans.pdf)
 * [The Leap Second Behaviour of NTP Servers](http://mural.maynoothuniversity.ie/10061/1/DM-Leap-2016.pdf)
-* [Omega: flexible, scalable schedulers for large compute clusters](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41684.pdf)
 * [OverDoSe: A Generic DDoS Protection Service Using an Overlay Network](http://ra.adm.cs.cmu.edu/anon/home/ftp/usr0/anon/2006/CMU-CS-06-114.pdf)
 * [Paxos made simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
 * [Fundamental Limits of Online Network-Caching](https://arxiv.org/abs/2003.14085)
@@ -97,20 +88,12 @@
 * [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://arxiv.org/abs/2004.05074)
 * [Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
 * [Google-Wide Profiling: A Continuous Profiling Infrastructure for Data Centers](https://research.google.com/pubs/pub36575.html)
-* [Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge](https://github.com/copyconstruct/library/blob/master/traffic-engineering/Papers/taiji.pdf)
 * [A brief introduction to distributed systems](https://www.cs.vu.nl/~ast/Publications/Papers/computing-2016.pdf)
 * [A Mathematical Theory of Communication](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
-* [A Generalised Solution to Distributed Consensus](https://arxiv.org/abs/1902.06776)
-* [A note on distributed systems](https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Maintaining the Time in a Distributed System](http://infolab.stanford.edu/pub/cstr/reports/csl/tr/83/247/CSL-TR-83-247.pdf)
-* [Granola: Low-Overhead Distributed Transaction Coordination](https://www.usenix.org/system/files/conference/atc12/atc12-final118.pdf)
 * [Minimizing Faulty Executions of Distributed Systems](http://www.eecs.berkeley.edu/~rcs/research/nsdi16.pdf)
-* [Tango: Distributed Data Structure on a Log](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/11/Tango.pdf)
-* [Paxos Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 * [Self-stabilizing Systems in Spite of Distributed Control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.314&rep=rep1&type=pdf)
-* [Off-Path TCP Exploits: Global Rate Limit Considered Dangerous](http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf)
 * [Unix Time Sharing](ftp://pdp11.org.ru/pub/unix-archive/Documentation/Papers/BSTJ/bstj57-6-1905.pdf)
-* [Chaos Engineering](https://arxiv.org/pdf/1702.05843.pdf)
 
 
 ## Concurrency
@@ -166,6 +149,9 @@
 
 ### NLP
 
+#### LLMs
+
+* [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 * [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
 * [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models](https://arxiv.org/abs/2305.12544)
@@ -199,7 +185,6 @@
 * [The Several Inferno Ports](http://www.vitanuova.com/inferno/papers/port.html)
 
 
-
 ## Security
 
 * [Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf)
@@ -209,14 +194,9 @@
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
 
 
-## Fuzzy Testing
+## Software/Systems Design
 
-* [Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
-* [SiliFuzz](https://github.com/google/fuzzing/blob/master/docs/silifuzz.pdf)
-
-
-## Software Design
-
+* [Probabilistic logics and the synthesis of reliable organisms from unreliable components](https://personalpages.manchester.ac.uk/staff/nikolaos.kyparissas/uploads/VonNeumann1956.pdf)
 * [Notes on Structured Programming](https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF)
 * [Worlds: Controlling the Scope of Side Effects](http://www.vpri.org/pdf/tr2011001_final_worlds.pdf)
 
@@ -255,14 +235,13 @@
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
 * [Distributed Transactional Systems Cannot Be Fast](https://arxiv.org/pdf/1903.09106.pdf)
-* [Monolith: Real Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/pdf/2209.07663.pdf)
 * [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
 
 

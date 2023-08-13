@@ -321,13 +321,15 @@
 
 # Doing
 
-
-* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 
 # Done
+
+## 2023
+
+* [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
 
 ## 2022
 

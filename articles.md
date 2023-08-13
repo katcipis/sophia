@@ -166,12 +166,11 @@
 
 ### NLP
 
+* [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 * [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
 * [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models](https://arxiv.org/abs/2305.12544)
 * [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717)
 * [Talking About Large Language Models](https://arxiv.org/abs/2212.03551)
-* [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
-* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 
 
 ### Clustering
@@ -256,8 +255,8 @@
 
 ## TODO
 
-* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
-* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
@@ -270,6 +269,11 @@
 
 
 ## Done
+
+### 2023
+
+* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
+* [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 
 ### 2022
 

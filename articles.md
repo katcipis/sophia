@@ -231,11 +231,9 @@
 ## Not Classified Yet :-)
 
 * [Points of View: Tribute To Alan Kay](https://www.microsoft.com/en-us/research/uploads/prod/2016/11/Kay-Points-of-View.pdf)
-* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
 * [John Carmack Interviews](http://fd.fabiensanglard.net/doom3/pdfs/johnc-interviews.pdf)
+* [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
 * [Silent Data Corruptions at Scale](https://arxiv.org/pdf/2102.11245.pdf)
-* [The Computer as a Communication Device](https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf)
-* [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [Engineering with Logic: Rigorous Test-Oracle Specification and Validation for TCP/IP and the Sockets API](https://www.cl.cam.ac.uk/~pes20/Netsem/paper3.pdf)
 * [The Global Positioning System](http://physics.nmsu.edu/~jni/introgeophys/hw_and_quizzes/sciam_gps_herring.pdf)
 * [Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
@@ -245,17 +243,17 @@
 * [STEPS Toward the Reinvention of Programming](http://www.vpri.org/pdf/tr2012001_steps.pdf)
 * [What Every Programmer Should Know About Memory](http://www.akkadia.org/drepper/cpumemory.pdf)
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
-* [Why and How Java Developers Break APIs](https://arxiv.org/pdf/1801.05198.pdf)
-* [Industrial Society and Its Future](http://editions-hache.com/essais/pdf/kaczynski2.pdf)
 * [Toward Simplifying Application Development, in a Dozen Lessons](http://melconway.com/Home/pdf/simplify.pdf)
 * [Prog in the small and in the large](http://www.cs.umd.edu/class/spring2005/cmsc838p/General/pitl.pdf)
-* [Google’s Hybrid Approach to Research](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/38149.pdf)
 * [How Did Software Get So Reliable Without Proof?](http://www.gwern.net/docs/1996-hoare.pdf)
 
 
 ## TODO
 
+* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)

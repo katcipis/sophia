@@ -140,6 +140,58 @@ my style of programming perfectly.
 I just love being able to declare and implement a set of functions and be sure that they don't mutate any of
 their parameters, they only create/transform data.
 
+### Slices done right
+
+It may be too soon for me to say this, but I think Rust got slices right. A comparison with Go can't be avoided
+since it is my main language for years at this point. Slices and maps are a huge point of contention between me
+and Go. I love how they are efficient but I hate how they make it terribly easy to produce side effects. I have been
+bitten by this in Go for years, it is very easy to have code that has subtle bugs involving slices in Go, in ways
+that are very hard to debug.
+
+All this is caused by the fact that slices in Go are by default mutable, so you get a simple/efficient pointer
+to a sub-array, so far so good, but the damn efficient pointer allows you to change the sub-array. That enables
+some efficient idioms, but creates a plethora of other problems.
+
+And if you ever want to ensure read only behavior in Go it will depend on things like [this](https://github.com/tailscale/tailscale/blob/b407fdef70541e735345b3b5a502b1a70de4c35d/types/views/views.go#L28).
+In Rust the support for this is by default. Rust makes safe/read only sharing very easy. The trade-off being that
+mutable sharing is made very hard (still possible). IMHO this is the right trade-off for most software.
+
+The slice design is very similar to Go, slices are only descriptors with a pointer. The main difference being that the
+slice is just a view, it doesn't provide a way to mutate the data, just to view it (as the viewer abstraction built by Tailscale people).
+
+### Static/Safe Copy/Initialization semantics
+
+In Rust it is explicit when a type can be copied, and when it can't. Why is this important ?
+Because some types don't have proper copy semantics defined, the most usual example being mutexes.
+It makes no sense to copy a mutex and it is usually a source of bugs. Everytime you are faced with this
+in a language like Go you are left with just documenting the behavior and hoping for the best
+or even worse hacks like [this](https://github.com/golang/go/issues/30450#issuecomment-476848903):
+
+```
+A current way to declare that a struct is not copyable is to add both a Lock and Unlock method,
+even if the method doesn't do anything. That will cause "go vet" to complain about attempts to copy the struct.
+If you don't want to expose the methods, you can instead add them to a zero-length unexported struct,
+and embed that struct in the exported one.
+See, e.g., https://play.golang.org/p/ovFyFQHzZFH (the playground will run "go vet" when you click on the "Run" button).
+```
+
+I respect Go's compromise with backward compatibility and not implementing every other languages features/constraints,
+it is the hallmark of good languages to have proper constraints/design ideas and stick to it. But in this particular
+case it is just a fact that in the trade-off space Go made decisions that made some idioms very simple (everything
+gets default initialization and is copiable) but made writing safe code harder. It is an OK trade-off, but Im biased
+towards code being safe/clear than being easier to copy/initialize things.
+
+The same applies for initialization. In Rust you can enforce that a type can only be initialized through a function
+that then ensures invariants about that type. There is no automatic/zero intialization of types. That makes it a little
+hard to write Rust code in some scenarios, but wildly safer. It is remarkably hard to write Go code that **ensures** invariants
+about types. You can have validation methods and come up with some clever hacks and use interfaces. All solutions I saw so
+far are clumsy, rarely really ensure the invariants in the system and are a lot of work (and will always rely on runtime checks,
+with runtime overhead).
+
+It is a very similar problem to pointers/nil references VS Option types. You can invent a lot of mechanism around pointers to be safer
+but it is usually only boilerplate/runtime overhead, and since the language overall allows it someone can always just ignore your
+specific design anyway (and doing that is very easy).
+
 ## The Fence
 
 Things that I'm still on the fence about.

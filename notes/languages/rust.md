@@ -175,6 +175,8 @@ and embed that struct in the exported one.
 See, e.g., https://play.golang.org/p/ovFyFQHzZFH (the playground will run "go vet" when you click on the "Run" button).
 ```
 
+More details [here](https://github.com/golang/go/issues/8005#issuecomment-190753527).
+
 I respect Go's compromise with backward compatibility and not implementing every other languages features/constraints,
 it is the hallmark of good languages to have proper constraints/design ideas and stick to it. But in this particular
 case it is just a fact that in the trade-off space Go made decisions that made some idioms very simple (everything

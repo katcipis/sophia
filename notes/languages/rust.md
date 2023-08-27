@@ -125,6 +125,21 @@ I just love Enums and Rust Enums are much better than what I expected given my p
 experience with Java/C++. They are safer and more powerful, so it is just pure
 bliss. More can be seen [here](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html).
 
+Also check [On Hubris and Humility: developing an OS for robustness in Rust](https://talks.osfc.io/osfc2021/talk/JTWYEH/).
+
+### Explicit Mutability
+
+Rust is very explicit about what can be mutated and what can't, providing static guarantees that
+things won't change. I really like functional idioms by default, in the sense that Im not overly in
+love with object orientation and I'm convinced that most of the bugs (and the worse ones definitely)
+are caused by mutable shared state (which is the source of side effect related bugs), given this background
+Im extremelly biased towards loving explicit mutability in a language design, being able to constrain what
+is mutable. On top of that Rust made immutable things the default, which added to private by default, matches
+my style of programming perfectly.
+
+I just love being able to declare and implement a set of functions and be sure that they don't mutate any of
+their parameters, they only create/transform data.
+
 ## The Fence
 
 Things that I'm still on the fence about.

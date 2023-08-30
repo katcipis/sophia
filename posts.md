@@ -7,13 +7,11 @@
 * [The Tyranny of Stuctureless](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
 
-
 ## Testing
 
 * [Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
 * [When TDD Doesn’t Matter: What Do You Value?](https://medium.com/pragmatic-programmers/when-tdd-doesnt-matter-what-do-you-value-91c628dc4488)
 * [Testing on the Toilet: Change-Detector Tests Considered Harmful](https://testing.googleblog.com/2015/01/testing-on-toilet-change-detector-tests.html)
-
 
 ## Databases
 
@@ -41,6 +39,12 @@
 * [How to Think for Yourself](http://paulgraham.com/think.html)
 * [Heresy](http://paulgraham.com/heresy.html)
 * [The Two Kinds of Moderate](http://paulgraham.com/mod.html)
+
+## Serialization
+
+### Protobuf
+
+* [Protobuffers are wrong](https://reasonablypolymorphic.com/blog/protos-are-wrong/index.html)
 
 ## Frameworks
 

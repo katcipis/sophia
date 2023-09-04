@@ -321,7 +321,7 @@ The trade-offs are also the same, you usually trade performance for more coheren
 guarantees. There is no way to have perfect/consistent behavior and not lose performance
 to some synchronization mechanism, the trade-off space here is vast and complex.
 
-Examples of isolation levels mentioned:
+Examples of isolation levels:
 
 * Read Commited
 * Snapshot Isolation
@@ -565,3 +565,48 @@ synchronizing reads/writes on it, special care must be taken about which guarant
 provides. In a non-linearizable database you would need to design the solution differently or
 implement some domain specific compare-and-set strategy, like receiving a hash of the image on the
 message and if the hash doesn't match fail (with some retry strategy).
+
+## CAP Theorem
+
+There is some interesting remarks on the limitations of the CAP theorem. It was useful as a tool
+to start discussions a decade ago but the author defends that it is an outdated idea that
+is not very useful when discussing trade-offs in distributed systems. Some limitations include:
+
+1 - Easilly misunderstood as a binary trade-off, like you lose availabiliy to get consistency and vice
+versa. Trade-offs in distributed systems are much more nuanced and complex than this.
+
+2 - Introduces partitioning as a variable on the equation, which on distributed systems doesn't apply since
+it would imply single node systems (to avoid partitioning). So in the end most discussions end up being
+about consistency VS availability.
+
+3 - Even thinking on terms of consistency VS availability doesn't provide a complete model.
+It ignores another major architectural property that must be taken in consideration: performance.
+
+One of the points that made me think the most is performance because there is a concrete example
+that makes the limitations of CAP when thinking about consistency models very obvious, the memory
+models of multi-core SMP CPUs.
+
+The memory model of most CPUs is non-linearizable (at least classical SMPs), hence
+considerably inconsistent. And yet there is no partitioning whatsoever in this case, the CPU cores exist
+on the same Die and there is no way they will get disconnected/partitioned (unless the CPU is broken,
+then it is a total fault).
+
+The same applies for memory, memory is local. All communication can be synchronous and have a well defined and
+deterministic upper bound on worse case delays, you literally know the physical distance between components.
+This fits perfectly the theoretical definition of the synchronous model, you know exactly how long each
+communication can take and you can be sure if the communication failed or not (no uncertainty).
+
+And yet, communication between different cores and their caches is done asynchronously. Why ? Because of
+performance. When a CPU core writes in memory, in order to guarantee linearizability it would have to synchronize
+with all other CPU cores and their caches, reducing paralelism considerably and complicating CPU design
+(or write in memory + invalidate the cache of all other cores, which would make caches nearly useless).
+
+The whole idea of linearizability is for data to behave like only a single copy of it exists and all
+operatios are atomic. In an SMP multi-core CPU this costs too much, the performance gains from each core having
+its own very fast local copy of data are too irresistible, but then those copies behave as copies, possibly stale,
+not as a "single atomic copy".
+
+This is the default behavior of course. You can still use memory barriers to synchronize multiple cores and
+avoid inconsistencies, but that comes at a cost and requires extra work, what you get for free is inconsistency
+and while making this decision partitioning was not a variable of the equation at all, just the performance
+cost of linearizability.

@@ -237,6 +237,7 @@
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
+* [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)

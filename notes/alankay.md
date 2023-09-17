@@ -8,6 +8,7 @@ Sources for these writings:
 * [Normal Considered Harmful](https://www.youtube.com/watch?v=FvmTSpJU-Xc)
 * [Doing with images make symbols](https://www.youtube.com/watch?v=p2LZLYcu_JY&feature=youtu.be)
 * [ARPA / Xerox PARC culture](https://www.youtube.com/watch?v=wdHtYW_wcAs)
+* [Keynote: Making Progress — Alan Kay](https://www.youtube.com/watch?v=9MqVfzxAp6A)
 
 ## Science definition
 

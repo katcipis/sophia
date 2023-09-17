@@ -35,11 +35,12 @@
 * [Space/Time Trade-offs in Hash Coding with Allowable Errors](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.7552&rep=rep1&type=pdf)
 
 
-## Data
+## Databases
 
 * [Amazon Aurora: Design Considerations for High Throughput Cloud-native Relational Databases](https://www.amazon.science/publications/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases)
 * [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
 * [Relational Database: A Practical Foundation for Productivity](http://delivery.acm.org/10.1145/1290000/1283937/a1981-codd.pdf)
+* [The Chubby lock service for loosely-coupled distributed systems](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf)
 * [The Case for Learned Index Structures](https://arxiv.org/pdf/1712.01208.pdf)
 * [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf)
 * [Spanner, TrueTime and the CAP Theorem](https://ai.google/research/pubs/pub45855)
@@ -68,6 +69,8 @@
 
 ## Distributed Systems
 
+* [In Search of an Understandable Consensus Algorithm](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14)
+* [Information Storage in a Decentralized Computer System](http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-81-8_Information_Storage_in_a_Decentralized_Computer_System.pdf)
 * [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)
 * [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
 * [A Note on Distributed Computing](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/a-note-on-distributed-computing.pdf)

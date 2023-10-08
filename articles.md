@@ -1,32 +1,3 @@
-<!-- mdtocstart -->
-
-# Table of Contents
-
-- [Articles](#articles)
-    - [Algorithms](#algorithms)
-    - [Data](#data)
-    - [Distributed Systems](#distributed-systems)
-    - [Concurrency](#concurrency)
-    - [Languages](#languages)
-    - [Machine Learning](#machine-learning)
-    - [Operational Systems](#operational-systems)
-        - [Clive](#clive)
-        - [Inferno](#inferno)
-    - [Security](#security)
-    - [Error Handling](#error-handling)
-    - [Not Classified Yet :-)](#not-classified-yet-)
-    - [TODO](#todo)
-    - [Done](#done)
-        - [2022](#2022)
-        - [2021](#2021)
-        - [2020](#2020)
-        - [2019](#2019)
-        - [2018](#2018)
-        - [2017](#2017)
-        - [2016](#2016)
-
-<!-- mdtocend -->
-
 # Articles
 
 ## Algorithms

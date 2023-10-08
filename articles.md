@@ -60,8 +60,9 @@
 
 ## Networking
 
-* [Protecting the DNS Root servers against DDoS attacks](https://arxiv.org/pdf/2209.07491.pdf)
+* [Architectural considerations for a new generation of protocols](https://dl.acm.org/doi/10.1145/99517.99553)
 * [Anonymous Connections and Onion Routing](https://apps.dtic.mil/sti/pdfs/ADA465335.pdf)
+* [Protecting the DNS Root servers against DDoS attacks](https://arxiv.org/pdf/2209.07491.pdf)
 * [Push or Request: An Investigation of HTTP/2 Server Push for Improving Mobile Performance](https://dl.acm.org/doi/pdf/10.1145/3038912.3052574)
 * [Snap: a Microkernel Approach to Host Networking](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36f0f9b41e969a00d75da7693571e988996c9f4c.pdf)
 

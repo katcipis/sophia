@@ -57,6 +57,12 @@
 * [The Best Go framework: no framework?](https://threedots.tech/post/best-go-framework)
 * [Three fallacies of dependencies](https://www.youtube.com/watch?v=yi5A3cK1LNA)
 
+#### Organizing Code/Projects
+
+* [Organizing Go Code](https://go.dev/blog/organizing-go-code)
+* [The Within Go Repo Layout](https://xeiaso.net/blog/within-go-repo-layout-2020-09-07)
+* [The one-and-only, must-have, eternal Go project layout](https://appliedgo.com/blog/go-project-layout)
+
 #### Testing
 
 * [testscript, a hidden gem the Go team kept locked away](https://encore.dev/blog/testscript-hidden-testing-gem)

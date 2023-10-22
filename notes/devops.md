@@ -123,7 +123,44 @@ more and more high level systems that do the deployment for you (serverless), wh
 mechanical sympathy and care about efficiency, or maybe it is the other way around, we have these systems exactly because most
 software engineers don't care about any of this.
 
-This may be OKish for medium sized/successful companies who can tolerate average performance, but I do believe it is a problem for startups.
-Most startups just "survive" for a few years because they are stupidly well funded.
+I have seen people freash out of college (after studying computer science for 4 years) who didn't had even the most basic understanding
+about how containers work and this is the current fundamental building block for deploying software. That did make me pause too and observe
+how we didn't progressed much (or at all) in the whole merging dev and ops thing.
 
-From [The Other Road Ahead](http://www.paulgraham.com/road.html):
+This may be OKish for medium sized/successful companies who can tolerate average performance, but I do believe it is a problem for startups.
+Most startups just "survive" for a few years because they are stupidly well funded. The only way to have a really small team and be efficient
+as hell (the holy grail, 10x engineering) is doing what is described in [The Other Road Ahead](http://www.paulgraham.com/road.html):
+
+```
+Viaweb was written by just three people. I was always under pressure to hire more, because we wanted to get bought,
+and we knew that buyers would have a hard time paying a high price for a company with only three programmers.
+(Solution: we hired more, but created new projects for them.)
+
+When you can write software with fewer programmers, it saves you more than money.
+As Fred Brooks pointed out in The Mythical Man-Month, adding people to a project tends to slow it down.
+The number of possible connections between developers grows exponentially with the size of the group.
+The larger the group, the more time they'll spend in meetings negotiating how their software will work together,
+and the more bugs they'll get from unforeseen interactions.
+
+Fortunately, this process also works in reverse: as groups get smaller, software development gets
+exponentially more efficient. I can't remember the programmers at Viaweb ever having an actual meeting.
+We never had more to say at any one time than we could say as we were walking to lunch.
+
+If there is a downside here, it is that all the programmers have to be to some degree system administrators as well.
+When you're hosting software, someone has to be watching the servers, and in practice the only people who can do
+this properly are the ones who wrote the software.
+
+At Viaweb our system had so many components and changed so frequently that there was no definite border between
+software and infrastructure. Arbitrarily declaring such a border would have constrained our design choices.
+And so although we were constantly hoping that one day ("in a couple months") everything would be stable enough
+that we could hire someone whose job was just to worry about the servers, it never happened.
+```
+
+It is interesting that he seems this as a disadvantage, a downside, and I get it because it is more work and more responsibility.
+But it is what makes you design good and efficient systems and allow you to move insanely fast, the kind of speed that an
+average company never will be able to have. And he makes it clear why, there is no definite border between software and infrastructure.
+We are trying to define it, so we can specialize people and make it cheaper, but I think it is too soon, we still don't know
+where the border really is and what are the abstractions/interfaces, all this is way too new.
+
+You end up needing people who are harder to find and may be more expensive but they will be able to deliver exponentially more for a
+fragment of the infrastructure cost that an army of software engineers powered by a DevOps/Platform team would.

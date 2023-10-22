@@ -8,6 +8,9 @@ Working at a Telecom company as my first job probably helped :-).
 
 It is really hard to generalize things, so I will start first with what went wrong with DevOps and the
 cost of it going wrong, specially to startups that want to be cost effective and move fast.
+In the context of a bigger well established company, a lot of the rationales of big platforms (specially internal ones) 
+and DevOps/SRE teams can make some sense (just as bigger companies will just keep being slower and less inovative too,
+you are playing a different game, scaling good engineering is hard).
 
 ## What went wrong ?
 

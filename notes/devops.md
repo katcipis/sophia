@@ -28,7 +28,7 @@ If the people responsible for configuring/deploying/scale software are the same 
 it will be easy to configure/deploy/scale, people are quite lazy. Software is usually a nightmare to operate because the
 people writing it don't have to operate it, it is abstracted from them.
 
-This is a lesson in how abstractions can be wrong.
+This is a lesson in how abstractions can go wrong.
 
 The first wave of abstraction was people, you had entire teams doing the work for you, the second wave is the natural one,
 lets automate that too, but the abstraction remains and programmers remain ignorant. That second wave incorporates things
@@ -36,12 +36,14 @@ like Serverless and Platform Engineering/IDP (Internal Developer Platforms).
 
 It is not easy to argue about this topic because it is not simple. Of course good tooling is good and avoiding repetitive tasks
 and simplifying workflows is good. In that sense the case for platforms is made and it is a winner. The problem is how it
-is usually accompanied with deep ignorance. Now that I think about it... it is the usual problem with all abstractions,
+is usually accompanied with deep ignorance and applying in contexts that don't require it (small scale).
+
+Now that I think about it... it is the usual problem with all abstractions,
 people tend to rely way too much on the abstraction to the point that they become completely ignorant about how it works
 and become helpless. And I have seen this happen so often on startups that I feel compelled to write a little about this,
 jot down some ideas.
 
-As I mentioned before, the problems with abstractions are generalized, the same happens with infrastructure abstractions,
+The main problems with abstractions are general ones, the same happens with infrastructure abstractions,
 abstractions break on these situations:
 
 * Leaks (the abstractions fails to abstract details)
@@ -49,7 +51,7 @@ abstractions break on these situations:
 * Performance (things are very slow, there is no button that magically makes it fast...what now ?)
 * Efficiency (everything is great, but your Cloud Costs are around 10K per month for something that could easily be 1K)
 
-All the aforementioned problem will require someone that can open the abstraction and understand how it works underneat.
+All the aforementioned problems will require someone that can open the abstraction and understand how it works underneat.
 This is not a huge problem for well estabilshed/stable tech, I don't know how to maintain a car, it is mostly abstracted
 to me, but it is something much more stable/static. With software the main problem is that we don't know what we are doing.
 
@@ -57,13 +59,14 @@ to me, but it is something much more stable/static. With software the main probl
 
 So when people promisse you amazing/cost effective abstraction there is a decent chance that they are wrong and you
 are going to pay the price if you have no way to assess the abstraction and move away from it if it doesn't works.
-Pressure to have more and more software engineers exacerbates te problem. We have a field with more and more people who
-have no idea of any of this works just relying on abstraction that supposedly will take care of everything but it won't.
+
+Pressure to have more and more software engineers exacerbates the problem. We have a field with more and more people who
+have no idea how any of this works just relying on abstractions that supposedly will take care of everything but it won't.
 And that sums up pretty well my own experience, I have been fixing/improving this kind of thing for more than 8 years at
-this point, it still is pretty much the same, the difference is maybe that know you try to explicitely build and constrain
+this point, it still is pretty much the same, the difference is maybe that now you try to explicitely build and constrain
 people with a platform, but still the price of ignorance on how things work is still paid, because as mentioned before, engineers
 who have deployment/infrastructure abstracted from them won't be able to help you improve things with the knowledge they
-have of the system they are building.
+have of the system they are building (they can't make the connection).
 
 Another side effect of ignorance + Cloud Magic Elasticity is terribly inneficient software. And this one is a very modern phenomenon.
 On the beginning of the web/internet you had to be efficient because there wasn't infinite money lying around, even though

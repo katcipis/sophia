@@ -87,11 +87,14 @@ Hardware is free now, if your software is reasonably efficient.
 
 Paul Graham's essay is not about this, but it is what triggered me writing this. From all the predictions made on the
 essay about the future of the web, this is the one that failed the hardest. We went 100% on the direction of efficiency
-doesn't matters and "hardware is cheap". It may be cheap, but 30$ to run something that could be run with 3$ still is
+doesn't matters and "hardware is cheap" instead of leveraging the web to build things are almost free (since they would
+cost very little to run).
+
+It may be cheap, but 30$ to run something that could be run with 3$ still is
 a huge difference, specially at scale. And yet this is really completely lost in a way that is mostly depressing.
-And the culprit is way too much money, our industry has way too much venture capital and an insane demand on more and
+And the culprit is way too much money, our industry has way too much venture capital and an insane demand for more and
 more software engineers, so we have people who knows less and less and barely knows how anything works doing things,
-just following trends from Cloud Vendors (who want you to spend money by the way...) or copy pasting (or generated
+just following trends from Cloud Vendors (who want you to spend money by the way) or copy pasting (or generated
 by LLMs) things that do work but are terribly inneficient.
 
 This excessive/premature abstraction of the Cloud combined with huge amounts of venture capital created the problem we

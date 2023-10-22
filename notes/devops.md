@@ -113,4 +113,17 @@ so in general the movement seems like failure if the objective was a cultural ch
 like Terraform/Containers, can be seen as a form of win and it came from the whole DevOps movement in a sense, but it doesn't count
 because better tooling is just a side effect, the objective was to change culture and I don't think the culture changed at all.
 
-Recently I was able to work with younger people and it consolidate my view that very little changed.
+Recently I was able to work with younger people and it consolidate my view that very little changed. You can easily see the failure of DevOps
+when you compare with automated testing in general. Today even though people still write terrible tests it is common knowledge that the
+programmer writing the code should also write the tests for it, even if he does it poorly, it is clearly his/her responsibility.
+This never truly materialized in the industry for operation, still most companies, even startups, have engineers who don't take care
+of operating their own services and that is still seen as "OK" because they are too busy with the software (this was the same excuse
+for the testing and why you needed QA). So in the end I don't think anything changed much, maybe a little ? The trend seems to be
+more and more high level systems that do the deployment for you (serverless), which makes it hard for software engineers to develop
+mechanical sympathy and care about efficiency, or maybe it is the other way around, we have these systems exactly because most
+software engineers don't care about any of this.
+
+This may be OKish for medium sized/successful companies who can tolerate average performance, but I do believe it is a problem for startups.
+Most startups just "survive" for a few years because they are stupidly well funded.
+
+From [The Other Road Ahead](http://www.paulgraham.com/road.html):

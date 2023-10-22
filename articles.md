@@ -233,7 +233,7 @@
 
 ## TODO
 
-* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954)
+* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954v2)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)

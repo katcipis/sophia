@@ -323,13 +323,16 @@
 
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-* [The Demon-Haunted World: Science as a Candle in the Dark](https://www.amazon.de/-/en/Carl-Sagan/dp/0345409469)
 
 
 # Done
 
 ## 2023
 
+* [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
+* [Man search for meaning](https://www.amazon.de/-/en/Viktor-Frankl/dp/080701429X)
+* [Elon Musk](https://www.amazon.de/-/en/Walter-Isaacson/dp/1982181281)
+* [The Demon-Haunted World: Science as a Candle in the Dark](https://www.amazon.de/-/en/Carl-Sagan/dp/0345409469)
 * [1984](https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/)
 * [Philosophy: who needs it](https://aynrand.org/novels/philosophy-who-needs-it/)
 * [Where Wizards Stay Up Late](https://www.amazon.com/gp/product/0684832674)
@@ -344,7 +347,6 @@
 * [The Pragmatic Programmer: 2nd edition](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
 * [The Way of Men](http://www.amazon.com/The-Way-Men-Jack-Donovan/dp/0985452307)
 
-
 ## 2021
 
 * [The Death and Life of Great American Cities](https://www.amazon.com/Death-Life-Great-American-Cities/dp/067974195X)
@@ -352,7 +354,6 @@
 * [The Robots of Dawn](https://www.amazon.com/Robots-Dawn-ISAAC-ASIMOV/dp/0008277788/)
 * [The Naked Sun](https://www.amazon.com/Naked-Sun-Robot-Isaac-Asimov/dp/0553293397)
 * [The Making of Prince of Persia](https://www.amazon.com/Making-Prince-Persia-Journals-1985-1993-Illustrated-dp-0578627310/dp/0578627310/)
-
 
 ## 2020
 
@@ -364,7 +365,6 @@
 * [The Body Keeps the Score](https://www.amazon.com/Body-Keeps-Score-Healing-Trauma/dp/0143127748)
 * [The Caves of Steel](https://www.amazon.com/Caves-Steel-Daneel-Olivaw-Book/dp/0553293400)
 
-
 ## 2019
 
 * [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
@@ -374,7 +374,6 @@
 * [Rework](http://37signals.com/rework/)
 * [Modern Vim](https://pragprog.com/book/modvim/modern-vim)
 
-
 ## 2018
 
 * [Coders at Work](http://www.codersatwork.com/)
@@ -382,7 +381,6 @@
 * [Compiler Construction](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
 * [The Idea Factory](https://www.amazon.com.br/Idea-Factory-Great-American-Innovation/dp/0143122797)
 * [Practice of Programming](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X)
-
 
 ## 2017
 
@@ -392,7 +390,6 @@
 * [Fire in the valley](http://pragprog.com/book/fsfire/fire-in-the-valley)
 * [Seven concurrency models in seven weeks](http://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks)
 * [The Book](https://www.amazon.com/Book-Taboo-Against-Knowing-Who/dp/0679723005)
-
 
 ## 2016
 
@@ -404,7 +401,6 @@
 * [Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)
 * [Talent is overrated](https://www.amazon.com/Talent-Overrated-Separates-World-Class-Performers/dp/1591842948)
 
-
 ## 2015
 
 * [Effective Python](http://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134034287)
@@ -412,7 +408,6 @@
 * [I lov logs](http://www.amazon.com/Heart-Logs-Stream-Processing-Integration-ebook/dp/B00NUGHIU6)
 * [Anticancer](http://www.amazon.com/Anticancer-New-Life-David-Servan-Schreiber/dp/0670021644)
 * [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
-
 
 ## 2014
 
@@ -423,7 +418,6 @@
 * [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 * [Release It!: Design and Deploy Production-Ready Software](https://pragprog.com/book/mnee/release-it)
-
 
 ## On a galaxy far far away
 

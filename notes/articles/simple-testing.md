@@ -110,3 +110,28 @@ the result of incorrect handling of non-fatal errors explicitly signaled in soft
 
 And this is very serious/distributed software were people usually pay more attention to errors :-).
 Just imagine how it will be in "usual" software were ignoring errors is the default.
+Interesting that most of the failures are related to not recovering from errors that are recoverable:
+
+```
+This error need not be catastrophic; however in the vast majority of cases, the handling
+of the explicit error was faulty, resulting in an error manifesting
+itself as a catastrophic failure.
+```
+
+This involve thinking and designing errors, and you can't do that well if you see errors as an
+annoyance or some sort of second class citizen in your design.
+
+A good part of the errors are not even that complex:
+
+```
+35% of the catastrophic failures are caused
+by trivial mistakes in error handling logic — ones that
+simply violate best programming practices; and that can
+be detected without system specific knowledge.
+```
+
+A lot of the problems are related to over catching exceptions. Exceptions optimize the design
+towards aggregating errors and handling them in a single place (because spreading error handling
+is bad/ugly remember ?), that works well when aggregation is possible and you can handle errors
+out of context. When it isn't you run into problems (literal bugs or leaky abstractions since a
+higher layer will need more details than it should about the implementation).

@@ -158,3 +158,14 @@ cluster of 4,000 nodes.
 ```
 
 So beware of "rare errors", they may be rare but the impact may be huge.
+
+## Automation
+
+There is great emphasis on automating checks to avoid bugs, something similar to linters but even more
+advanced. Good tooling is welcomed but I ended up focusing on the nature of bugs that humans write
+and why they do it, even on more "serious" software. Maybe AI tooling will help...or maybe not since most
+of them are trained with our open source code, which is the same code they are trained, which will also
+contain mostly bad error handling and TODOs on exception handlers =P.
+
+So it still seems to be worthwhile to just develop a more disciplined/thoughtfull mind, around both testing and
+error handling. And mistakes will happen anyway, but maybe less :-).

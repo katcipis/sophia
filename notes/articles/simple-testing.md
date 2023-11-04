@@ -2,7 +2,14 @@
 
 Notes from [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf).
 
-The article focuses on assessing critical failures that happened on open source databases.
+The article focuses on assessing critical failures that happened on open source databases:
+
+* Cassandra
+* HBase
+* Hadoop Distributed File System (HDFS)
+* Hadoop MapReduce
+* Redis
+
 The findings are revealing, the title already contains spoilers but the numbers are quite interesting,
 indeed most failures could be prevented with better simple/isolated testing.
 This has caught my attention because I had my share of experiences where people talk about some

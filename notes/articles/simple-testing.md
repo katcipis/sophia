@@ -38,3 +38,36 @@ making the diagnosis of the failures mostly straightforward
 ```
 
 Nothing new, just reinforcing the basics :-).
+
+On the the determinism of errors:
+
+```
+74% of the failures are deterministic — they
+are guaranteed to manifest given the right input event
+sequences. 
+
+This means that for a majority of the failures, we only
+need to explore the combination and permutation of input events,
+but no additional timing relationship.
+```
+
+On reproducing errors:
+
+```
+A majority of the production failures (77%) can be reproduced by a unit test.
+```
+
+And on requiring "production data":
+
+```
+Specific data values are not typically required to reproduce the failures; in fact, none of the studied failures
+required specific values of user’s data contents. Instead, only the required input sequences
+(e.g., file write, disconnect a node, etc.) are needed.
+```
+
+This matches well my empirical evidence. The problem is usually the sequence of events/requests or the structure/nature of the
+data, not the data itself. This is specially relevant to me because I'm seeing more and more developers that need a copy
+of the production database in order to be able to develop and that is just lazy. You don't need production or production like
+data most of the time, you just need to come up with permutations of different interactions and also boundary testing/corner
+cases on your data structures. Being lazy is sometimes good, but in this case it makes you a worse tester/designer and also
+makes things more expensive (and less safe, copying production data safely is tricky).

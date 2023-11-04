@@ -71,3 +71,42 @@ of the production database in order to be able to develop and that is just lazy.
 data most of the time, you just need to come up with permutations of different interactions and also boundary testing/corner
 cases on your data structures. Being lazy is sometimes good, but in this case it makes you a worse tester/designer and also
 makes things more expensive (and less safe, copying production data safely is tricky).
+
+Now things get interesting :-).
+
+## Error Handling 
+
+I have a personal beef with how very little attention software engineers give to error handling.
+Actually there is a whole school of thought that teaches software engineers that error handling
+is not part of your "business logic" (whatever the fuck that is), it makes your code ugly and you should
+find ways to keep your code neat and beautiful and hide the ugly error handling from it.
+
+That was always to me the recipe for building garbage software, and it is everywhere, and I think one technique
+that pushes software in this direction is exceptions. Languages that have exceptions have 2 control flows, instead of a single one.
+One is the normal/beautiful/business logic? flow, the one you should focus. The other one is the exception control flow,
+who just disrupts everything and starts jumping around up in your stack. It is basically a constrained/maybe type safe goto, but
+with a lot of the disadvantages of goto's. Exceptions make it remarkably easy to just forget about errors, you can finally focus
+on the features !!!
+
+And then when something goes wrong your user/client can get a nice stack trace that will be meaningless for them.
+Specially on CLI tools it is remarkable how this is pervasive, even on "professional" tools like gcloud/azure I was
+exposed multiple times to extremelly long/noisy/confusing stack traces instead of some proper error message that could
+help me. One example is the classical something was supposed to be X but it is Y (in Python), or is None, or some dict
+access failing. The stack trace is very precise...but for someone who is just a user of a tool that doesn't say anything,
+I don't even know if the problem is caused by some wrong input on my side or by some other internal error on the tool
+itself (a bug). And it is my opinion that exceptions and its idioms do push people in that direction. Of course
+erros can be ignored in any languages, but many make it easier (API designs can also do that).
+
+I tend to prefer languages where error handling is done explicitely and it will be everywhere in your code, it should,
+error handling is just as fundamental as the feature/business code. Compare the usual exception handling hand waving
+thing with [this blog post](https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html) for example.
+
+Enough ranting, how does this relate to the article ? 
+
+```
+Almost all catastrophic failures (92%) are
+the result of incorrect handling of non-fatal errors explicitly signaled in software.
+```
+
+And this is very serious/distributed software were people usually pay more attention to errors :-).
+Just imagine how it will be in "usual" software were ignoring errors is the default.

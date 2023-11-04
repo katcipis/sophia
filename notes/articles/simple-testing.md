@@ -135,3 +135,26 @@ towards aggregating errors and handling them in a single place (because spreadin
 is bad/ugly remember ?), that works well when aggregation is possible and you can handle errors
 out of context. When it isn't you run into problems (literal bugs or leaky abstractions since a
 higher layer will need more details than it should about the implementation).
+
+```
+While in principle one would need
+system specific knowledge to determine when to bring
+down the entire cluster, the aborts we observed were all
+within exception over-catch, where a higher level exception
+is used to catch multiple different lower-level exceptions
+```
+
+You can design exceptions well too to avoid these issues, but it seems to me that the overall culture
+around what makes them "great" doesn't push in that direction.
+
+And out of curiosity, a TODO bringing down huge production systems :-)
+
+```
+Figure 9 shows an even more obvious mistake, where
+the developers only left a comment “TODO” in the handler
+logic in addition to a logging statement. While this
+error would only occur rarely, it took down a production
+cluster of 4,000 nodes.
+```
+
+So beware of "rare errors", they may be rare but the impact may be huge.

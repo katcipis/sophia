@@ -45,6 +45,7 @@
 * [Information Storage in a Decentralized Computer System](http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-81-8_Information_Storage_in_a_Decentralized_Computer_System.pdf)
 * [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)
 * [Life beyond Distributed Transactions: an Apostate’s Opinion](http://adrianmarriott.net/logosroot/papers/LifeBeyondTxns.pdf)
+* [Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial](https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf)
 * [A Note on Distributed Computing](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/a-note-on-distributed-computing.pdf)
 * [Replicated Document Management in a Group Communication System](https://dl.acm.org/doi/pdf/10.1145/62266.1024798)
 * [Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website](https://dl.acm.org/doi/abs/10.1145/3387514.3405885)
@@ -75,7 +76,7 @@
 
 * [A Study of Real-World Data Races in Golang](https://arxiv.org/abs/2204.00764?s=03)
 * [Automatically Detecting and Fixing Concurrency Bugs in Go Software Systems](https://songlh.github.io/paper/gcatch.pdf)
-* [How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs](https://www.microsoft.com/en-us/research/publication/make-multiprocessor-computer-correctly-executes-multiprocess-programs/)
+* [How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/How-to-Make-a-Multiprocessor-Computer-That-Correctly-Executes-Multiprocess-Programs.pdf)
 * [Linearizability: A Correctness Condition for Concurrent Objects](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
 * [Static Race Detection and Mutex Safety and Liveness for Go Programs](https://arxiv.org/abs/2004.12859)
 * [The Theory and Practice of Concurrency](http://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)

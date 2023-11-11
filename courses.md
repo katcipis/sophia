@@ -27,6 +27,7 @@
 
 # Languages
 
+* [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 * [Oregon Programming Language Summer School](https://www.cs.uoregon.edu/research/summerschool/archives.html)
 
 

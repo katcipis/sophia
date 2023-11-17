@@ -190,9 +190,9 @@
 
 # Software Defined Network
 
+* [Flannel](https://github.com/coreos/flannel)
 * [Calico](http://www.projectcalico.org/)
 * [Weave](https://github.com/zettio/weave)
-* [Flannel](https://github.com/coreos/flannel)
 * [Pipework](https://github.com/jpetazzo/pipework)
 
 
@@ -217,6 +217,7 @@
 
 ## Browser Automation
 
+* [Servo](https://servo.org/)
 * [Puppeteer](https://developers.google.com/web/tools/puppeteer)
 * [Selenium](http://www.seleniumhq.org/)
 * [PhantomJS](http://phantomjs.org/)
@@ -345,3 +346,7 @@
 # Infrastructure / Cloud
 
 * [terraformer](https://github.com/GoogleCloudPlatform/terraformer)
+
+# Desktop GUI
+
+* [slint](https://slint.dev/)

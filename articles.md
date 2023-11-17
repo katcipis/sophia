@@ -206,12 +206,13 @@
 
 ## TODO
 
-* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954v2)
-* [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
+* [Scalability! But at what COST?](https://www.frankmcsherry.org/assets/COST.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
+* [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 * [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
@@ -226,6 +227,7 @@
 
 ### 2023
 
+* [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954v2)
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)
 

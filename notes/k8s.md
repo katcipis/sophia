@@ -171,3 +171,9 @@ are really hard to understand/detect, you can easily end in situations where nod
 are mostly idle and yet performance is terrible (for no good reason). While monitoring
 CPU requests VS actual CPU usage is fairly trivial (and should always be done even if
 you use limits).
+
+On some of possible benefits for defining limits would be predictability (even if that means
+wasting resources), predictability is only achieved when limits=requests which brings us to the
+whole trade-off between utilization vs QoS. There is some interesting material on this on the blog post
+[The Case for Kubernetes Resource Limits: Predictability vs. Efficiency](https://kubernetes.io/blog/2023/11/16/the-case-for-kubernetes-resource-limits/).
+I still think they overestimate the importance of the limits, but the trade-off is quite real.

@@ -32,7 +32,7 @@ One example of such principle is the [Law of Demeter](https://en.wikipedia.org/w
 
 My point here is that your mindset when you are designing objects is quite different (and to solve different problems)
 than when you are designing data to be accessed. I'm talking a lot about access because the whole point (and the hard problem to solve)
-of data is to be accessed efficiently, in useful ways...and in a way that scales and handles change/evolution well.
+of data is how to access it efficiently, in useful ways...and in a way that scales and handles change/evolution well.
 The problem is not storage, is the interface to access the stored data and how that evolves along time. So one can say it is all about access/search.
 
 With objects you are thinking on how to isolate state, and even isolate/hide relationship of different objects through more high level/useful

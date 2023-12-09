@@ -35,7 +35,7 @@ than when you are designing data to be accessed. I'm talking a lot about access 
 of data is how to access it efficiently, in useful ways...and in a way that scales and handles change/evolution well.
 The problem is not storage, is the interface to access the stored data and how that evolves along time. So one can say it is all about access/search.
 
-With objects you are thinking on how to isolate state, and even isolate/hide relationship of different objects through more high level/useful
+With objects you are thinking on how to isolate state, and even isolate/hide the relationship of different objects through more high level/useful
 interfaces. With data you are thinking about every single piece of data and all the relationships between them, how to evolve that, there is
 nothing to be hidden here, you are working to make things accessible and know. For example there is no such thing as private data in
 a database because that is mostly useless (in the sense that it can't be accessed by anyone, this is different from access control to specific

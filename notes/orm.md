@@ -1,23 +1,36 @@
 # ORM (Object Relational Mapping)
 
 This is something I don't have a whole lot of experience with, but have seen it
-go wrong in some contexts + I was always suspicious about the impedance mismatch
-between objects and databases, specially given my intuition that objects
-are about messaging and hiding state, and databases are basically..about making
-state explicit/public in some sense. In time it seems I was not completely
-alone in sensing the mismatch, although for different reasons.
+go wrong in some contexts. Also from the first time I was introduced to the concept
+I was always suspicious about the impedance between objects and databases,
+specially given my intuition that objects are about messaging and hiding state and
+databases are basically about data (and some data models about the relationship between data).
+In time it seems I was not completely alone in sensing the mismatch, although sometimes for different reasons.
 
-Besides the mismatch on thinking on hiding state VS modeling explicit data schemas
-based on hidden state, one interesting problem that ORM introduces is modeling
+One interesting problem that ORMs introduces is modeling
 your data as a second class citizen that follows the design of objects, basically
 it raises the question if you should model your data first and then design
 the system around that, or design the system (with objects in this case)
-and then model the data around that.
+and then model the data around that. It even makes me wonder if both should not be
+completely decoupled. My experience is that yes. There may be some reasons to design your
+logic/software in a particular way that is unrelated to the challenges on modeling data
+in a way that is easy to access. Specially because "ease of access" is domain specific,
+it means that it is easy to find (and potentially correlate) data in a way that is
+useful to clients/analysts/etc. It could be argued that it is possible to decouple both even
+with ORMs, but in my experience it rarely is, when ORMs are used the object model of the service
+becomes the data model, most of the time in detriment to the search/access experience.
 
 Interesting enough, most of the people that I know that are more data intensive,
-know a lot about SQL and think a lot on terms of database schemas, don't like 
-most ORMs, probably because of that, they see the data design as first class,
-they start from there. Some code generation could help them, maybe, but they
+know a lot about SQL and think a lot on terms of database schemas/data modeling, don't like 
+ORMs. Probably because of that, they see the data design as first class and see access issues
+as the main problem they need to solve, they start from there and when you are starting thinking
+only about data and how to search/correlate data I don't think objects help, we do need a different model
+to deal with this. One example of such model is the relational model. One can think they are related because
+objects can "relate" to each other too, but I believe they really don't. Even when objects have a relationship
+with other objects, in a well designed system that is usually hidden from anyone interacting with the object.
+One example of such principle is the [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
+
+Some code generation could help them, maybe, but they
 want to start the design from the data (which seems sensible in some scenarios).
 
 I don't think there is a definite answer, like always do X,

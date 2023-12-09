@@ -30,20 +30,24 @@ objects can "relate" to each other too, but I believe they really don't. Even wh
 with other objects, in a well designed system that is usually hidden from anyone interacting with the object.
 One example of such principle is the [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
 
-Some code generation could help them, maybe, but they
-want to start the design from the data (which seems sensible in some scenarios).
+My point here is that your mindset when you are designing objects is quite different (and to solve different problems)
+than when you are designing data to be accessed. I'm talking a lot about access because the whole point (and the hard problem to solve)
+of data is to be accessed efficiently, in useful ways...and in a way that scales and handles change/evolution well.
+The problem is not storage, is the interface to access the stored data and how that evolves along time. So one can say it is all about access/search.
 
-I don't think there is a definite answer, like always do X,
-but it is important to understand what is best for your problem, because it
-affects how ORM can help you or destroy your life. This is related to the question
-of "should I always use objects ?", if there are no objects, there is no
-mapping to be done, there should be some interesting solutions to this kind
-of problem on the functional programming landscape (unaware at the time I'm
-writing this).
+With objects you are thinking on how to isolate state, and even isolate/hide relationship of different objects through more high level/useful
+interfaces. With data you are thinking about every single piece of data and all the relationships between them, how to evolve that, there is
+nothing to be hidden here, you are working to make things accessible and know. For example there is no such thing as private data in
+a database because that is mostly useless (in the sense that it can't be accessed by anyone, this is different from access control to specific
+users etc, which of course it is useful), you are making data/state explicit and for the purpose of being accessed/manipulated.
+
+Another problem with ORMs is the assumption that the ultimate way to design software is with objects.
+What about functional programming then ? Or even other paradigms to design software. Just as it happens with design
+patterns, ORMs give way too much credit to objects.
 
 Some good material on the topic, usually more on the "why not" realm because
 there is already too much material on "lets do it", usually using some logic like
-"SQL much hard", "Deliver ASAP", etc.
+"SQL much hard", "Deliver ASAP", etc:
 
 * [The Vietnam of Computer Science](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
 * [Object-Relational Mapping is the Vietnam of Computer Science](https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)

@@ -166,24 +166,27 @@ like low latency quick requests, it is fairly clear that enforcing async on
 top of it will only make things more complex, even if it is with the good
 intention of failure tolerance will be better/easier.
 
-But of course there are more subtle scenarios, that lend themselves more easily
-to async, then the discussion can be more rich.
-For example, in a banking system, transfers for sure are async,
-because the real world problem they solve literally can take days.
-So something async is very suitable here, and dealing with cancellation must be done
-but will be complex, but that would be inherent complexity.
+I have seem some arguments on how sync scales less because eventually you will
+hit a limit of instances (when scaling up) and those instances can only handle X
+number of connections/requests and after that you will start to see failures.
+That is a feature !!! What happens on a simple request/response model is that
+you have a queue effect (pending requests/connections) but that queue has a clear
+bounded size, if the queue is too big you start failing, and for sync problems
+that is exactly what you want, there is no use to keep queueing requests internally
+and answering OK to clients, they won't see a result anytime soon anyway, are they
+willing to wait ? (if they are, then you have an async problem)
 
-In the end it is a mindset. You are going to be wrong anyway, I just prefer to
-be wrong on the side of "it is way too simple and is not enough".
+In the end it is a mindset. You are going to be wrong anyway when designing a system,
+I just prefer to be wrong on the side of "it is way too simple and is not enough".
 Specially because being way too simple is easier to detect and fix, making systems
-complex is very easy, simplifying systems is orders of magnitude harder.
+more complex is very easy, simplifying a complex system is orders of magnitude harder.
 
 When things are way too complicated but at least seems to be working it is
-trickier to see you have a problem. Because you need to detect that even
+trickier to see you have a problem (or where the problem is). Because you need to detect that even
 though it works, you only need a subset of the solution (and failure modes/corner cases
 are specially hard to predict).
 
-This reminds me of something said by Hoare:
+This reminds me of something said by Hoare on [The Emperor's Old Clothes](https://dl.acm.org/doi/pdf/10.1145/358549.358561):
 
 ```
 I conclude that there are two ways of constructing a software design:

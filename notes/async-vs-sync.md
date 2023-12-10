@@ -104,8 +104,7 @@ can be simpler than a single function call.
 You would need to create a function that does something similar but does the
 polling waiting for the answer. Which is usually something that is not standard,
 so you need to reimplement this polling over and over again
-and you need some way to correlate the answer, so now you need a job/req ID,
-manually handled.
+and you need some way to correlate the answer, so now you need a job/req ID, manually handled.
 
 I know for a fact that this can go wrong, because the start of my experience with
 the whole "lets use queues and async things for everything" stravaganza was with code
@@ -134,40 +133,55 @@ It is specially a problem if the problem you are solving is time sensitive,
 like the client is waiting and will not wait forever. They will wait for like
 a minute lets say and then give up. In a situation like that an ever growing
 queue will just jeopardize your entire system, and it will do that in a way
-that is against the idea of failing fast and being clear with users.
+that is against the idea of failing fast and being clear with users. If you
+are using a task queue and the processing is done in a FIFO manner in an
+overloaded system recovering from the overload will be much slower because
+you will keep processing old/stale tasks (unless you implement some extra logic
+o the tasks, but that adds on complexity) so new requests from clients, that would
+be processed successfully in a sync system but will keep failing on the async solution
+since the requests are being pushed to the back of a long queue of old requests (and the clients
+who made those requests already gave up).
+
+The topic we are getting here would be cancellation, which is something remarkably harder
+to do in async systems. If your problem includes the client just giving up on what he asked
+that will be quite hard to model/propagate in an async system. For async problems that include
+cancellation you can't avoid the complexity, but for a simple sync problem that you
+decided to model asynchornously you just bought a much bigger/more complex problem.
+
+In some languages it is remarkably easy to deal with cancellation. In Go for example
+you use a context.Context to model cancellation and that will propagate automatically,
+so checking if the client is still interested on what he requested is fairly trivial,
+and if the client does something like just closing a browser/app you can just stop what
+you were doing, avoiding wasting resources, but more importantly freeing yourself to
+process the next request (instead of having a never ending/non cancelable queue
+of stale things to handle).
 
 With request/response you can have timeouts and backoff protocols that allow you
 to fail fast, with a queue you will just wait forever for an answer and never
 get it or get it hours later. You can do a polling with a timeout, but it is
 more complex than a simple RPC with a timeout.
 
-Also after the timeout happens and you give up, now you have the problem of
-answers to requests on the queue that are orphans, because the user already
-gave up on them, which is the problem of cancellation. What to do with them ?
-Something needs to drain them. These issues are not a problem on request/response,
-if you give up on a request you cancel the connection/stream and the other
-side will log an error and that is it, as simple as possible.
-
 What I mean is that for a scenario that request/response is a good idea,
 like low latency quick requests, it is fairly clear that enforcing async on
 top of it will only make things more complex, even if it is with the good
-intention of failure tolerance will be better/easier (although I would
-argue that that is not true depending on the failure model).
+intention of failure tolerance will be better/easier.
 
 But of course there are more subtle scenarios, that lend themselves more easily
 to async, then the discussion can be more rich.
 For example, in a banking system, transfers for sure are async,
 because the real world problem they solve literally can take days.
-So something async is very suitable here.
+So something async is very suitable here, and dealing with cancellation must be done
+but will be complex, but that would be inherent complexity.
 
 In the end it is a mindset. You are going to be wrong anyway, I just prefer to
 be wrong on the side of "it is way too simple and is not enough".
 Specially because being way too simple is easier to detect and fix, making systems
-complex is very easy, simplifying systems is orders of magnitude higher.
+complex is very easy, simplifying systems is orders of magnitude harder.
 
-When things are way too complicated but at least seems to be enough it is
+When things are way too complicated but at least seems to be working it is
 trickier to see you have a problem. Because you need to detect that even
-though it works, you only need a subset of the solution.
+though it works, you only need a subset of the solution (and failure modes/corner cases
+are specially hard to predict).
 
 This reminds me of something said by Hoare:
 
@@ -182,4 +196,4 @@ complex systems have no obvious deficiencies because they are so complex that
 finding these deficiencies is not trivial.
 
 But that does not mean the deficiencies are not there.
-So complex systems are comfortable in a scary way.
+Complex systems are comfortable in a scary way.

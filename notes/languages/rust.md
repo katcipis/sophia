@@ -36,6 +36,19 @@ operators/traits for equality and provides basic support for testing
 code that creates/errors panics, including partial matching on panic
 messages, which can be useful.
 
+I really like that tests are parallel by default. From [Controlling How Tests Are Run](https://doc.rust-lang.org/book/ch11-02-running-tests.html):
+
+```
+When you run multiple tests, by default they run in parallel using threads,
+meaning they finish running faster and you get feedback quicker.
+
+Because the tests are running at the same time, you must make sure your tests
+don’t depend on each other or on any shared state, including a shared environment,
+such as the current working directory or environment variables.
+```
+
+I'm strongly biased against mutable shared state, so this resonates a lot with me.
+
 More details on [testing](https://doc.rust-lang.org/book/ch11-00-testing.html).
 
 ### Scope Blocks as Expressions

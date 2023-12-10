@@ -207,6 +207,31 @@ It is a very similar problem to pointers/nil references VS Option types. You can
 but it is usually only boilerplate/runtime overhead, and since the language overall allows it someone can always just ignore your
 specific design anyway (and doing that is very easy).
 
+### Strings
+
+So far I enjoyed how strings are designed in Rust. String design is remarkably hard in languages because
+it is a hard problem, specially if you want to be correct but also efficient. You will always lose something to
+gain something else on this space. So when I say that I liked Rust strings it means I liked the trade-offs :-).
+
+Specifically I like that you can't index strings, because indexing strings will be correct only for text that
+overlaps with ASCII, anything else will give you bogus results if you are using utf-8 encoding (and you should).
+And what about indexing and returning the valid rune/grapheme ?
+
+From [Storing UTF-8 Encoded Text with Strings](https://doc.rust-lang.org/book/ch08-02-strings.html#indexing-into-strings):
+
+```
+A final reason Rust doesn’t allow us to index into a String to get a character is that indexing
+operations are expected to always take constant time (O(1)).
+
+But it isn’t possible to guarantee that performance with a String, because Rust would have to
+walk through the contents from the beginning to the index to determine how many valid characters
+there were.
+```
+
+This is something in Go that is eternally confusing to me, when iterating a string you get runes but when
+indexing a string you get a byte (pottentially invalid one), I never remember which is which (because of the inconsistency).
+I find more clear to just not allow indexing since there is no valid semantics for that when considering utf-8 text.
+
 ## The Fence
 
 Things that I'm still on the fence about.

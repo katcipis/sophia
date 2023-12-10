@@ -58,12 +58,16 @@ in terms of failure recovery (and consider what to do with the dead letter,
 which usually is ignored/not handled properly).
 
 Also smart message brokers are a double edged sword. If you are old enough
-(I am) you can remember that when the whole RESTful thing started more than
+(I am, sadly) you can remember that when the whole RESTful thing started more than
 a decade ago, one of the points where exactly that middlewares and message
 brokers that were smart were bad and we need to go back to a place where you
 have dumb pipes and smart endpoints, there were even some analogies with
 shell pipes, etc. So in a sense it feels like the industry is just forgetting
 (as usual) lessons from the past and going again in the same direction (the endless cycle).
+But in defense of the industry (rare for me to defend it =P), the smart brokers we
+have today are less smart than the past ones, they were much smarter and even contained
+some domain specific knowledge of the system, the new generation of brokers are more
+similar to generic queues with some retry/backoff logic, which is a much nicer set of features.
 
 Why the smart brokers didn't work out well ? I believe it is the lack of cohesion
 for very core behavior, not just fault tolerance but even specific knowledge
@@ -75,19 +79,23 @@ that is domain specific that affects fault tolerance implementation, like
 which operations are safe to retry, for how long, etc. It ends up being
 harder to have a cohesive view of these invariants, because instead of
 the services being responsible for this it is delegated to the communication
-channel. So part of your domain is on the service responsible for solving
+channel/mesh/broker. So part of your domain is on the service responsible for solving
 that problem and part of it is defined on some YAML configuration of a
-broker/service mesh/etc. Of course not all meshes/brokers are born the same, but I digress.
+broker/service mesh/etc. Of course not all meshes/brokers are born the same,
+but I digress, most of the complex logic I see these days are on meshes and not message
+brokers and the focus here should be on the brokers/async modeling (they are not related,
+most meshes "add resiliency" on top of sync interactions).
 
-Going back to the async/queue model, the code itself is also harder,
-on the client side, why ? well you need to send something on a queue and now you have to
+Going back to the async/queue model, the code itself is also harder on the client side, why ?
+well you need to send something on a queue and now you have to
 find a way to wait for an answer which will involve waiting for an answer
 on a different queue (hopefully ?) and now you need some polling.
 
 The exception here would be if you can just fire and forget, but then you probably
 have an event, and events can be pretty useful in distributed systems. That would be a perfectly
 good use of a pubsub broker or a streaming system. But lets go back to simple
-request/response systems being modeled as async/brokered systems.
+request/response systems being modeled as async/brokered systems because that will make
+them automatically better/more resilient.
 
 Now think about request/response, it is literally one line, you send a request and
 get answer right away. You can't beat request/response/RPC because nothing

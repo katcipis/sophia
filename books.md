@@ -161,6 +161,7 @@
 ### Databases
 
 * [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
+* [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
 
 
 ### Streaming

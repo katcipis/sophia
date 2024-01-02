@@ -186,7 +186,7 @@
 
 ## Artificial Intelligence
 
-* [How to Build Your Career in AI](https://info.deeplearning.ai/how-to-build-a-career-in-ai-book)
+* [THE LITTLE BOOK OF DEEP LEARNING](https://fleuret.org/francois/lbdl.html)
 
 
 ## Languages

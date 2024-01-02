@@ -321,6 +321,8 @@
 
 # Doing
 
+* [The Fellowship of the Ring](https://www.amazon.com/Lord-Rings-Part-Fellowship-Ring/dp/0261103571)
+* [Masters of Doom](http://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
@@ -329,6 +331,7 @@
 
 ## 2023
 
+* [The God Delusion](https://www.goodreads.com/book/show/14743.The_God_Delusion)
 * [Hackers and Painters](http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
 * [Man search for meaning](https://www.amazon.de/-/en/Viktor-Frankl/dp/080701429X)
 * [Elon Musk](https://www.amazon.de/-/en/Walter-Isaacson/dp/1982181281)

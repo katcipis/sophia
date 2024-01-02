@@ -206,27 +206,27 @@
 
 ## TODO
 
-* [Scalability! But at what COST?](https://www.frankmcsherry.org/assets/COST.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
-* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
-* [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
-* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)
+* [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 * [Distributed Transactional Systems Cannot Be Fast](https://arxiv.org/pdf/1903.09106.pdf)
-* [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Designing Cluster Schedulers for Internet-Scale Services](https://queue.acm.org/detail.cfm?id=3199609)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/10.1145/3442188.3445922)
+* [Making reliable distributed systems in the presence of software errors](https://erlang.org/download/armstrong_thesis_2003.pdf)
+* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
+* [The Xcpu Cluster Management Framework](http://doc.cat-v.org/plan_9/IWP9/2006/xcpu-madrid.pdf)
 
 
 ## Done
 
 ### 2023
 
+* [Scalability! But at what COST?](https://www.frankmcsherry.org/assets/COST.pdf)
 * [Why Software Projects need Heroes](https://arxiv.org/abs/1904.09954v2)
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622)
 * [Simple Testing Can Prevent Most Critical Failures](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf)

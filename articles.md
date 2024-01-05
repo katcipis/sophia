@@ -206,6 +206,7 @@
 
 ## TODO
 
+* [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/pdf/2401.02038.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)

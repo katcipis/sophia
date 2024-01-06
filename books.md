@@ -3,6 +3,7 @@
 # Table of Contents
 
 - [Wishlist](#wishlist)
+    - [Physics](#physics)
     - [Learning/Thinking](#learningthinking)
     - [History](#history)
     - [Personal](#personal)
@@ -16,7 +17,9 @@
         - [Streaming](#streaming)
     - [Relational Theory](#relational-theory)
     - [Algorithms](#algorithms)
+    - [Artificial Intelligence](#artificial-intelligence)
     - [Languages](#languages)
+        - [Rust](#rust)
         - [Erlang](#erlang)
         - [Lisp / Scheme](#lisp--scheme)
         - [C](#c)
@@ -33,6 +36,8 @@
     - [Games](#games)
 - [Doing](#doing)
 - [Done](#done)
+    - [2023](#2023)
+    - [2022](#2022)
     - [2021](#2021)
     - [2020](#2020)
     - [2019](#2019)
@@ -288,6 +293,8 @@
 
 ## Software Design
 
+* [Tidy First?: A Personal Exercise in Empirical Software Design](https://www.amazon.de/-/en/Kent-Beck/dp/1098151240)
+* [The Software Engineer's Guidebook](https://www.amazon.de/-/en/Gergely-Orosz/dp/908338182X)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)

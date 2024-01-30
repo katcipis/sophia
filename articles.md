@@ -212,6 +212,7 @@
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"](https://arxiv.org/abs/2309.12288)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
+* [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)
 * [It's Time to Replace TCP in the Datacenter](https://arxiv.org/abs/2210.00714)
 * [On Systems Design](https://scholar.harvard.edu/files/waldo/files/ps-2006-6.pdf)

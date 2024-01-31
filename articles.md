@@ -129,7 +129,6 @@
 
 * [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
-* [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
 * [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
 * [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models](https://arxiv.org/abs/2305.12544)
 * [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717)
@@ -211,6 +210,7 @@
 * [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2312.10997.pdf)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"](https://arxiv.org/abs/2309.12288)
+* [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)

@@ -184,6 +184,11 @@
 * [Enhancing Server Availability and Security Through Failure-Oblivious Computing](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/rinard/rinard.pdf)
 
 
+# Learning
+
+* [Middle-schoolers’ reading and processing depth in response to digital and print media: An N400 study](https://www.biorxiv.org/content/10.1101/2023.08.30.553693v1)
+
+
 ## Not Classified Yet :-)
 
 * [Points of View: Tribute To Alan Kay](https://www.microsoft.com/en-us/research/uploads/prod/2016/11/Kay-Points-of-View.pdf)
@@ -206,11 +211,13 @@
 
 ## TODO
 
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/pdf/2401.02038.pdf)
 * [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2312.10997.pdf)
-* [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [Self-Rewarding Language Models](https://huggingface.co/papers/2401.10020)
 * [The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"](https://arxiv.org/abs/2309.12288)
 * [Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models](https://arxiv.org/abs/2311.00871)
+* [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)
 * [Winners Curse](https://openreview.net/pdf?id=rJWF0Fywf)

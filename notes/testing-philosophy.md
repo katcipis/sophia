@@ -4,7 +4,7 @@
 
 Basically 0 focus on terminology/taxonomy.
 
-From [](https://commandcenter.blogspot.com/2012/06/less-is-exponentially-more.html):
+From [Less is Exponentially More](https://commandcenter.blogspot.com/2012/06/less-is-exponentially-more.html):
 
 ```
 My late friend Alain Fournier once told me that he considered the lowest form
@@ -12,7 +12,7 @@ of academic work to be taxonomy. And you know what? Type hierarchies are just
 taxonomy. You need to decide what piece goes in what box
 ```
 
-Ellaborate on discussions like X vs Y
+Ellaborate on discussions like X vs Y.
 
 ## Scope
 

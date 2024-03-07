@@ -774,7 +774,7 @@ more complex and clumsy than on systems that were designed with this idea
 from the ground up like Plan9/Inferno/Fuchsia.
 
 By impossible I mean, you won't have a nice result, specially not a result
-comparable to another system that was designed with the ground up with the
+comparable to another system that was designed from the ground up with the
 idea in mind. This is an instance of the principle that not everything can
 be implemented in an ad-hoc manner. Some things need to be embedded on the
 design from the first day up, they don't lend themselves easily to be added

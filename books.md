@@ -276,7 +276,8 @@
 
 # Doing
 
-* [The Two Towers](https://www.amazon.com/Two-Towers-Lord-Rings-Book/dp/0261102362)
+* [The Return of the King](https://www.goodreads.com/book/show/61215384-the-return-of-the-king)
+* [Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
@@ -286,6 +287,8 @@
 
 * [Dave Grohl The Storyteller](https://www.davegrohlstoryteller.com/)
 * [The Fellowship of the Ring](https://www.amazon.com/Lord-Rings-Part-Fellowship-Ring/dp/0261103571)
+* [The Two Towers](https://www.amazon.com/Two-Towers-Lord-Rings-Book/dp/0261102362)
+* [The End Of Faith](https://www.samharris.org/books/the-end-of-faith)
 
 ## 2023
 
@@ -332,7 +335,6 @@
 * [Algorithms to Live By](https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/B01D24NAL6)
 * [The Problem of Increasing Human Energy](http://www.tfcbooks.com/tesla/1900-06-00.htm)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
-* [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021)
 * [Rework](http://37signals.com/rework/)
 * [Modern Vim](https://pragprog.com/book/modvim/modern-vim)
 

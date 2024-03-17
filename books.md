@@ -337,6 +337,7 @@
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [Rework](http://37signals.com/rework/)
 * [Modern Vim](https://pragprog.com/book/modvim/modern-vim)
+* [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021)
 
 ## 2018
 

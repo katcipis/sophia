@@ -186,3 +186,8 @@ TODO: Talk about correlation with good abstractions
 * It is big meaning, not big data
 * The best way to predict the future is to invent it
 * Point of view is worth 80 IQ points
+
+## AI/LLM
+
+* [What does Alan Kay think about programming and teaching programming with copilots and LLMs of today ?](https://www.quora.com/What-does-Alan-Kay-think-about-programming-and-teaching-programming-with-copilots-and-LLMs-of-today)
+* [Now that machines can generate and "understand" language, what would Alan Kay argue that are a set of first principles from which to rethink the human-machine interface?](https://www.quora.com/Now-that-machines-can-generate-and-understand-language-what-would-Alan-Kay-argue-that-are-a-set-of-first-principles-from-which-to-rethink-the-human-machine-interface)

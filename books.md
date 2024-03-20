@@ -13,12 +13,12 @@
 
 ## History
 
+* [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
 * [Ice Age](https://www.amazon.com/Ice-Age-John-Gribbin-ebook/dp/B00R1ZI6FI)
 * [Guns, Germs and Steel](https://www.amazon.de/-/en/Jared-Diamond/dp/0099302780/)
 * [The Pentium Chronicles](https://www.amazon.com/Pentium-Chronicles-Robert-P-Colwell/dp/0471736171)
 * [The Annotated Turing](https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055)
 * [The Cathedral & the Bazaar](https://www.amazon.com/gp/product/0596001088/)
-* [A Mind At Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/147676669X/)
 
 
 ## Personal

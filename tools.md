@@ -199,6 +199,7 @@
 # Performance/Load tests
 
 * [k6](https://k6.io/)
+* [oha](https://github.com/hatoo/oha)
 * [Gatling](http://gatling-tool.org/)
 * [httperf](http://www.hpl.hp.com/research/linux/httperf/)
 * [ab](http://httpd.apache.org/docs/2.2/programs/ab.html)

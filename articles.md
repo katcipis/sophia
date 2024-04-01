@@ -129,8 +129,7 @@
 
 * [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301)
 * [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
-* [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
-* [A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models](https://arxiv.org/abs/2305.12544)
+* [The Curse of Recursion: Training on Generated Data Makes Models Forget](https://arxiv.org/abs/2305.17493)
 * [The False Promise of Imitating Proprietary LLMs](https://arxiv.org/abs/2305.15717)
 * [Talking About Large Language Models](https://arxiv.org/abs/2212.03551)
 

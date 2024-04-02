@@ -351,3 +351,7 @@
 # Desktop GUI
 
 * [slint](https://slint.dev/)
+
+# Plotting Libraries
+
+* [plottly](https://github.com/plotly/plotly.py)

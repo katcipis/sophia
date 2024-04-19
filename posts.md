@@ -33,6 +33,10 @@
 * [The 37signals Guide to Internal Communication](https://37signals.com/how-we-communicate/)
 * [An epic treatise on scheduling, bug tracking, and triage](https://apenwarr.ca/log/20171213)
 
+## Hiring
+
+* [Oxide Public Job Descriptions](https://rfd.shared.oxide.computer/rfd/0146)
+
 ## PC
 
 * [What you cant say](http://paulgraham.com/say.html)

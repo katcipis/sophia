@@ -225,6 +225,7 @@
 
 ## Distributed Systems
 
+* [Hypermedia Systems](https://hypermedia.systems/)
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 * [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
 
@@ -276,8 +277,6 @@
 
 # Doing
 
-* [The Return of the King](https://www.goodreads.com/book/show/61215384-the-return-of-the-king)
-* [Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
@@ -289,6 +288,9 @@
 * [The Fellowship of the Ring](https://www.amazon.com/Lord-Rings-Part-Fellowship-Ring/dp/0261103571)
 * [The Two Towers](https://www.amazon.com/Two-Towers-Lord-Rings-Book/dp/0261102362)
 * [The End Of Faith](https://www.samharris.org/books/the-end-of-faith)
+* [The Return of the King](https://www.goodreads.com/book/show/61215384-the-return-of-the-king)
+* [Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)
+* [The Hobbit](https://www.amazon.com/Hobbit-J-R-Tolkien/dp/0261102214)
 
 ## 2023
 

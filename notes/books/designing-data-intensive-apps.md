@@ -610,3 +610,29 @@ This is the default behavior of course. You can still use memory barriers to syn
 avoid inconsistencies, but that comes at a cost and requires extra work, what you get for free is inconsistency
 and while making this decision partitioning was not a variable of the equation at all, just the performance
 cost of linearizability.
+
+## Evolving Systems
+
+There is one interesting analogy made in the book about how tricky it can be to evolve a system. The author
+mentions the challenge that was evolving rail roads/trains in general when the technology started. On the
+very beginning there were some different ways to layout the rails, one of the major differences being the
+distance between the rails.
+
+After a few years a standard was defined but at that point a lot of trains and railroads used older non-standard
+specifications. What to do ? destroy all the trains and try to recycle/rebuild them ? That would have a considerable
+cost, specially with the technology available at the time. The solution was to adapt the rails in order to support
+both the standard and the non-standard trains, the rail roads would have 3 rails, so both kinds of trains could
+run through it. This allowed a smoother migration. But something else interesting happened, until today in parts
+of the US you can still find old trains working that don't follow the standard. A complete migration and decommision
+never fully materialized.
+
+This was deeply interesting to me because most successful architectural migrations done in software happens like that.
+The emphasis is on successful. If you have a successful running system and want to keep it successful you usually end
+up with something very similar to the trains history. A lot of failed attempts try to rewrite everything and completely
+eliminate the "older"/"clumsy" stuff, but that rarely goes well, sometimes for economical reasons (underestimating cost)
+and sometimes because we overestimate our own skills and knowledge of the problem at hand.
+
+I had some experience doing this and indeed even after almost a decade of the new system running parts of the "old" system
+are still there and are working thanks to adapters, which are very similar to the idea of having 3 rails rail roads that
+runs both old and new trains. This gave me an insight on how some things that seem software related are not software related
+at all, they are a phenomenon of humans trying to design and evolve systems in general (this includes trains, societies, etc).

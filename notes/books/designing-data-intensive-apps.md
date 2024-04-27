@@ -636,3 +636,29 @@ I had some experience doing this and indeed even after almost a decade of the ne
 are still there and are working thanks to adapters, which are very similar to the idea of having 3 rails rail roads that
 runs both old and new trains. This gave me an insight on how some things that seem software related are not software related
 at all, they are a phenomenon of humans trying to design and evolve systems in general (this includes trains, societies, etc).
+
+## Trade-off on distributed transactions
+
+There was one insight on one of the trade-offs around distributed systems that I found interesting.
+It is about consistency VS failure isolation when comparing stream/events systems with distributed transactions as ways to
+distributed state around different parts of a system.
+
+When you use streaming/events to distribute data around and index in different ways you end up with a system that will
+be eventually consistent (sometimes quite inconsistent) but you will have a high degree of failure isolation. If any of
+the systems reading the stream stop working, all the other ones can keep working, failures are completely isolated.
+With distributed transactions you have the opposite, if you have multiple services participating into a distributed transaction
+if one of the services is down now all transactions will fail while that service is down. The term used here that I really
+liked is "failure amplification", now what is a problem in a single service/database becomes a global failure on all
+transactions involving that service. There is no way around it if you want to have the consistency guarantees of a properly
+designed distributed transaction.
+
+The sad thing is that sometimes people use streams/events to avoid failure amplification, but because of other design
+decisions they end up with a system that has failure amplification anyway, where one service being down makes the entire
+system go down. That is specially sad because you end up with the worst of both worlds...inconsistency and also lack of
+isolation. Isolation is tricky, so distributing data in a streaming way is only the first step in trying to achieve it.
+Still it is interesting to understand that with distributed transactions you will never have it, it is intrinsic to the
+semantics of transactions.
+
+You can think about failure isolation in terms of availability and then the insight doesn't seem so interesting/new =P.
+But I did like thinking in terms of failures/isolation. Mostly because I love thinking about failures and love isolation
+in general, very interesting topic.

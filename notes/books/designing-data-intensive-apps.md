@@ -646,7 +646,7 @@ distributed state around different parts of a system.
 When you use streaming/events to distribute data around with no global coordination you end up with a system that will
 be eventually consistent (sometimes quite inconsistent) but you will have a high degree of failure isolation. If any of
 the services reading the stream stop working, all the other ones can keep working, failures are completely isolated.
-With distributed transactions you have the opposite, if you have multiple services participating into a distributed transaction
+With distributed transactions you have the opposite, if you have multiple services participating in a distributed transaction
 if one of the services is down now all transactions will fail while that service is down. The term used here that I really
 liked is "failure amplification", now what is a problem in a single service/database becomes a global failure on all
 transactions involving that service. There is no way around it if you want to have the consistency guarantees of a properly

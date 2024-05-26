@@ -610,3 +610,55 @@ This is the default behavior of course. You can still use memory barriers to syn
 avoid inconsistencies, but that comes at a cost and requires extra work, what you get for free is inconsistency
 and while making this decision partitioning was not a variable of the equation at all, just the performance
 cost of linearizability.
+
+## Evolving Systems
+
+There is one interesting analogy made in the book about how tricky it can be to evolve a system. The author
+mentions the challenge that was evolving rail roads/trains in the US when the technology started. On the
+very beginning there were some different ways to layout the rails, one of the major differences being the
+distance between the rails.
+
+After a few years a standard was defined but at that point a lot of trains and railroads used older non-standard
+specifications. What to do ? destroy all the old trains and try to recycle/rebuild them ? That would have a considerable
+cost, specially with the technology available at the time. The solution was to adapt the rails in order to support
+both the standard and the non-standard trains, the rail roads would have 3 rails, so both kinds of trains could
+run through it. This allowed a smoother migration. But something else interesting happened, until today in parts
+of the US you can still find old trains working that don't follow the standard. A complete migration and decommision
+never fully materialized.
+
+I find this interesting because most successful architectural migrations done in software happens like that.
+The emphasis is on "successful". If you have a successful running system and want to keep it successful you usually end
+up with something very similar to the trains history. A lot of failed attempts try to rewrite everything and completely
+eliminate the "older"/"clumsy"/"wrong" stuff, but that rarely goes well, sometimes for economical reasons (underestimating cost)
+and sometimes because we overestimate our own skills and knowledge of the problem at hand.
+
+I had some experience doing this and indeed even after almost a decade of the new system running parts of the "old" system
+are still there and are working thanks to adapters, which are very similar to the idea of having 3 rails rail roads that
+runs both old and new trains. This gave me an insight on how some things that seem software related are not software related
+at all, they are a phenomenon of humans trying to design and evolve systems in general (this includes trains, societies, etc).
+
+## Trade-offs on distributed transactions
+
+There was one insight on one of the trade-offs around distributed systems that I found interesting.
+It is about consistency VS failure isolation when comparing stream/events systems with distributed transactions as ways to
+distributed state around different parts of a system.
+
+When you use streaming/events to distribute data around with no global coordination you end up with a system that will
+be eventually consistent (sometimes quite inconsistent) but you will have a high degree of failure isolation. If any of
+the services reading the stream stop working, all the other ones can keep working, failures are completely isolated.
+With distributed transactions you have the opposite, if you have multiple services participating in a distributed transaction
+if one of the services is down now all transactions will fail while that service is down. The term used here that I really
+liked is "failure amplification", now what is a problem in a single service/database becomes a global failure on all
+transactions involving that service. There is no way around it if you want to have the consistency guarantees of a properly
+designed distributed transaction.
+
+The sad thing is that sometimes people use streams/events to avoid failure amplification, but because of other design
+decisions they end up with a system that has failure amplification anyway, where one service being down makes the entire
+system go down. That is specially sad because you end up with the worst of both worlds...inconsistency and also lack of
+isolation. Isolation is tricky, so distributing data using streams is only the first step in trying to achieve it.
+Still it is interesting to understand that with distributed transactions you will never have it, it is intrinsic to the
+semantics of transactions.
+
+You can think about failure isolation/amplification in terms of availability and then the insight doesn't seem so interesting/new =P.
+But I did like thinking in terms of failures/isolation. Mostly because I like thinking about failures and love isolation
+in general, very interesting topic.

@@ -34,7 +34,7 @@ You can see [here](https://github.com/tailscale/tailscale/blob/28ee355c56c68a446
 > sequence of this state machine is so important for writing our multiple
 > frontends, that it's worth validating it all in one place
 
-It is a cool example of someone else (but much better than me) that has a similar distaste for mocks, but
+It is a cool example of someone else that has a similar distaste for mocks, but
 using them when they are really necessary (last case).
 
 And when he had to...he built his own...no generic/code generated one with a framework.

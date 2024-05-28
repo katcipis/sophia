@@ -25,10 +25,10 @@ Related to scope.
 
 ## Principles
 
-Copy most from: [Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
-Also [When TDD Doesn’t Matter: What Do You Value?](https://medium.com/pragmatic-programmers/when-tdd-doesnt-matter-what-do-you-value-91c628dc4488)
+[Programmer Test Principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
+[When TDD Doesn’t Matter: What Do You Value?](https://medium.com/pragmatic-programmers/when-tdd-doesnt-matter-what-do-you-value-91c628dc4488)
 
-But extend with some other simple principles, like easy to run and with a uniform/easy
+Extend with some other simple principles, like easy to run and with a uniform/easy
 interface (like make test).
 
 There is no (easy ? plausible?) way to avoid slow/non-deterministic test unless you have mostly useless tests.

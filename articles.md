@@ -210,7 +210,7 @@
 
 ## TODO
 
-* [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [AI Agents That Matter](https://arxiv.org/pdf/2407.01502)
 * [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/pdf/2401.02038.pdf)
 * [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2312.10997.pdf)
 * [Self-Rewarding Language Models](https://huggingface.co/papers/2401.10020)
@@ -233,6 +233,10 @@
 
 
 ## Done
+
+### 2024
+
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 
 ### 2023
 

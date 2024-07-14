@@ -277,8 +277,10 @@
 
 # Doing
 
+* [The Shinning](https://www.goodreads.com/book/show/11588.The_Shining)
+* [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)
+* [Software Design for Flexibility: How to Avoid Programming Yourself into a Corner](https://www.amazon.com/Software-Design-Flexibility-Programming-Yourself/dp/0262045494/)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
-* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 # Done
 
@@ -291,6 +293,8 @@
 * [The Return of the King](https://www.goodreads.com/book/show/61215384-the-return-of-the-king)
 * [Brave New World](https://www.goodreads.com/book/show/5129.Brave_New_World)
 * [The Hobbit](https://www.amazon.com/Hobbit-J-R-Tolkien/dp/0261102214)
+* [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+* [Atlas Shrugged](https://www.goodreads.com/book/show/662.Atlas_Shrugged)
 
 ## 2023
 

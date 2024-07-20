@@ -6,6 +6,7 @@ Some of the most remarkable presentations I watched.
 
 * [Three Directions in Design](https://www.youtube.com/watch?v=Tdwr9tweTDE)
 * [We Really Don't Know How to Compute!](https://www.youtube.com/watch?v=HB5TrK7A4pI)
+* [Design, Composition, and Performance](https://www.youtube.com/watch?v=QCwqnjxqfmY)
 
 ## Mind Bending :-)
 

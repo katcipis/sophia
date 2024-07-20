@@ -162,11 +162,12 @@
 
 ## Security
 
+* [On the Computational Practicality of Private Information Retrieval](https://zxr.io/research/sion2007pir.pdf)
 * [Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)
 * [Provably Secure Password-Authenticated Key Exchange Using Diffie-Hellman](https://www.iacr.org/archive/eurocrypt2000/1807/18070157-new.pdf)
-* [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/CacheOut.pdf)
 * [Strong Password-Only Authenticated Key Exchange](http://www.jablon.org/jab96.pdf)
+* [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/CacheOut.pdf)
 
 
 ## Software/Systems Design

@@ -52,3 +52,4 @@ there is already too much material on "lets do it", usually using some logic lik
 * [The Vietnam of Computer Science](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/)
 * [Object-Relational Mapping is the Vietnam of Computer Science](https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/)
 * [Exiting the Vietnam of Programming: Our Journey in Dropping the ORM (in Golang)](https://alanilling.com/exiting-the-vietnam-of-programming-our-journey-in-dropping-the-orm-in-golang-3ce7dff24a0f)
+* [What ORMs have taught me: just learn SQL](https://wozniak.ca/blog/2014/08/03/1/)

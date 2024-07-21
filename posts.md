@@ -4,7 +4,7 @@
 
 * [Systems design explains the world](https://apenwarr.ca/log/20201227)
 * [Absolute scale corrupts absolutely](https://apenwarr.ca/log/20190819)
-* [The Tyranny of Stuctureless](https://www.jofreeman.com/joreen/tyranny.htm)
+* [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
 
 ## Testing

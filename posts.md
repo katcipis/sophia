@@ -17,6 +17,7 @@
 
 * [An unlikely database migration](https://tailscale.com/blog/an-unlikely-database-migration/)
 * [A Database for 2022](https://tailscale.com/blog/database-for-2022/)
+* [What ORMs have taught me: just learn SQL](https://wozniak.ca/blog/2014/08/03/1/)
 
 ## Modularization
 

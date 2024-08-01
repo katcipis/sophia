@@ -41,6 +41,7 @@
 
 ## Distributed Systems
 
+* [Defcon: Preventing Overload with Graceful Feature Degradation](https://www.usenix.org/system/files/osdi23-meza.pdf)
 * [In Search of an Understandable Consensus Algorithm](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14)
 * [Information Storage in a Decentralized Computer System](http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-81-8_Information_Storage_in_a_Decentralized_Computer_System.pdf)
 * [Conflict-free Replicated Data Types](https://arxiv.org/pdf/1805.06358.pdf)

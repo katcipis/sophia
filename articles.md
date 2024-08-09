@@ -213,10 +213,7 @@
 ## TODO
 
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
-* [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
-* [Kafka, Samza and the Unix Philosophy of Distributed Data](https://martin.kleppmann.com/papers/kafka-debull15.pdf)
-* [END-TO-END ARGUMENTS IN SYSTEM DESIGN](https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)
@@ -238,6 +235,9 @@
 ### 2024
 
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
+* [END-TO-END ARGUMENTS IN SYSTEM DESIGN](https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
+* [Kafka, Samza and the Unix Philosophy of Distributed Data](https://martin.kleppmann.com/papers/kafka-debull15.pdf)
+* [Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
 
 ### 2023
 

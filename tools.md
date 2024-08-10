@@ -355,3 +355,8 @@
 # Plotting Libraries
 
 * [plottly](https://github.com/plotly/plotly.py)
+
+# Fancy HTTP Clients
+
+* [ATAC](https://github.com/Julien-cpsn/ATAC)
+* [posting](https://github.com/darrenburns/posting)

@@ -212,6 +212,7 @@
 
 ## TODO
 
+* [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783)
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)

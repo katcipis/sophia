@@ -166,6 +166,7 @@
 ### Erlang
 
 * [Programming Erlang](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
+* [Network Programming in Elixir and Erlang](https://pragprog.com/titles/alnpee/network-programming-in-elixir-and-erlang/)
 
 
 ### Lisp / Scheme

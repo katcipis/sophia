@@ -278,8 +278,6 @@
 
 # Doing
 
-* [The Shinning](https://www.goodreads.com/book/show/11588.The_Shining)
-* [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)
 * [Software Design for Flexibility: How to Avoid Programming Yourself into a Corner](https://www.amazon.com/Software-Design-Flexibility-Programming-Yourself/dp/0262045494/)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 
@@ -287,6 +285,8 @@
 
 ## 2024
 
+* [The Shinning](https://www.goodreads.com/book/show/11588.The_Shining)
+* [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)
 * [Dave Grohl The Storyteller](https://www.davegrohlstoryteller.com/)
 * [The Fellowship of the Ring](https://www.amazon.com/Lord-Rings-Part-Fellowship-Ring/dp/0261103571)
 * [The Two Towers](https://www.amazon.com/Two-Towers-Lord-Rings-Book/dp/0261102362)

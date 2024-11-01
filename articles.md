@@ -235,6 +235,8 @@
 
 ### 2024
 
+* [LLMS STILL CAN’T PLAN; CAN LRMS? A PRELIMINARY EVALUATION OF OPENAI’S O1 ON PLANBENCH](https://www.arxiv.org/pdf/2409.13373)
+* [GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models](https://arxiv.org/pdf/2410.05229)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)
 * [END-TO-END ARGUMENTS IN SYSTEM DESIGN](https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 * [Kafka, Samza and the Unix Philosophy of Distributed Data](https://martin.kleppmann.com/papers/kafka-debull15.pdf)

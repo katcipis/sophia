@@ -212,7 +212,7 @@
 
 ## TODO
 
-* [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783)
+* [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702)
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
@@ -235,6 +235,7 @@
 
 ### 2024
 
+* [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783)
 * [LLMS STILL CAN’T PLAN; CAN LRMS? A PRELIMINARY EVALUATION OF OPENAI’S O1 ON PLANBENCH](https://www.arxiv.org/pdf/2409.13373)
 * [GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models](https://arxiv.org/pdf/2410.05229)
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03)

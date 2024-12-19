@@ -215,6 +215,7 @@
 * [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702)
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
+* [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)

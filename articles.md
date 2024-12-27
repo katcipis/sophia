@@ -163,6 +163,7 @@
 
 ## Security
 
+* [The Protection of Information in Computer Systems](https://www.cl.cam.ac.uk/teaching/1011/R01/75-protection.pdf)
 * [On the Computational Practicality of Private Information Retrieval](https://zxr.io/research/sion2007pir.pdf)
 * [Some thoughts on security after ten years of qmail 1.0](https://cr.yp.to/qmail/qmailsec-20071101.pdf)
 * [SDSI - A Simple Distributed Security Infrastructure](https://people.csail.mit.edu/rivest/sdsi10.html)

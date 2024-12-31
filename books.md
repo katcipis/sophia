@@ -279,7 +279,6 @@
 # Doing
 
 * [Les Misérables](https://www.goodreads.com/book/show/24280.Les_Mis_rables)
-* [The Ultimate Hitchhiker's Guide to the Galaxy: Five Novels in One Outrageous Volume](https://www.amazon.de/-/en/Ultimate-Hitchhikers-Guide-Galaxy-Outrageous/dp/0345453743)
 * [Software Design for Flexibility: How to Avoid Programming Yourself into a Corner](https://www.amazon.com/Software-Design-Flexibility-Programming-Yourself/dp/0262045494/)
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 
@@ -287,6 +286,8 @@
 
 ## 2024
 
+* [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)
+* [The Ultimate Hitchhiker's Guide to the Galaxy: Five Novels in One Outrageous Volume](https://www.amazon.de/-/en/Ultimate-Hitchhikers-Guide-Galaxy-Outrageous/dp/0345453743)
 * [The Shinning](https://www.goodreads.com/book/show/11588.The_Shining)
 * [The Fountainhead](https://www.goodreads.com/book/show/2122.The_Fountainhead)
 * [Dave Grohl The Storyteller](https://www.davegrohlstoryteller.com/)

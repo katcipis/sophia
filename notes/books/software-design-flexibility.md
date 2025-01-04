@@ -1,3 +1,7 @@
+# Software Design for Flexibility
+
+Notes [from](https://mitpress.mit.edu/9780262045490/software-design-for-flexibility/).
+
 # Additive Programming
 
 The core idea of the book is Additive Programming, basically it is a guiding principle to build systems that can evolve in time but without breaking and without requiring full rewrites.

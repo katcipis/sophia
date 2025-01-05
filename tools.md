@@ -156,6 +156,9 @@
 * [datasette](https://datasette.io/)
 * [superset](https://github.com/apache/incubator-superset)
 
+## Clients
+
+* [rainfrog](https://github.com/achristmascarl/rainfrog)
 
 # Message Brokers
 
@@ -167,16 +170,14 @@
 
 # Monitoring
 
-* [SysDig](http://www.sysdig.org/)
 * [Prometheus](http://prometheus.io/)
+* [Grafana](http://grafana.org/)
 * [Zabbix](http://www.zabbix.com/)
 * [Monit](https://mmonit.com/monit/)
 * [Munin](http://munin-monitoring.org/)
 * [collectd](https://collectd.org/)
 * [Performance Co Pilot](http://pcp.io/)
 * [cAdvisor](https://github.com/google/cadvisor)
-* [Sensu](https://github.com/sensu/sensu)
-* [Grafana](http://grafana.org/)
 
 
 # Presentations
@@ -205,7 +206,6 @@
 * [ab](http://httpd.apache.org/docs/2.2/programs/ab.html)
 * [locust](https://locust.io/)
 * [Bees with machine guns](https://github.com/newsapps/beeswithmachineguns)
-* [JMeter](http://jmeter.apache.org/)
 
 
 # Web
@@ -358,5 +358,6 @@
 
 # Fancy HTTP Clients
 
+* [bruno](https://github.com/usebruno/bruno)
 * [ATAC](https://github.com/Julien-cpsn/ATAC)
 * [posting](https://github.com/darrenburns/posting)

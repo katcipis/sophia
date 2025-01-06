@@ -6,6 +6,7 @@
 * [Absolute scale corrupts absolutely](https://apenwarr.ca/log/20190819)
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
+* [Cognitive load is what matters](https://minds.md/zakirullin/cognitive)
 
 ## Testing
 
@@ -39,7 +40,7 @@
 
 * [Oxide Public Job Descriptions](https://rfd.shared.oxide.computer/rfd/0146)
 
-## PC
+## Politically Correct
 
 * [What you cant say](http://paulgraham.com/say.html)
 * [How to Think for Yourself](http://paulgraham.com/think.html)
@@ -57,18 +58,18 @@
 * [A Framework Author's Case Against Frameworks](https://www.youtube.com/watch?v=k7n2xnOiWI8)
 * [Programming with hand tools](https://www.youtube.com/watch?v=ShEez0JkOFw)
 
-### Go
+## Go
 
 * [What is in a name](https://go.dev/talks/2014/names.slide#1)
 * [The Best Go framework: no framework?](https://threedots.tech/post/best-go-framework)
 * [Three fallacies of dependencies](https://www.youtube.com/watch?v=yi5A3cK1LNA)
 
-#### Organizing Code/Projects
+### Organizing Code/Projects
 
 * [Organizing Go Code](https://go.dev/blog/organizing-go-code)
 * [The Within Go Repo Layout](https://xeiaso.net/blog/within-go-repo-layout-2020-09-07)
 * [The one-and-only, must-have, eternal Go project layout](https://appliedgo.com/blog/go-project-layout)
 
-#### Testing
+### Testing
 
 * [testscript, a hidden gem the Go team kept locked away](https://encore.dev/blog/testscript-hidden-testing-gem)

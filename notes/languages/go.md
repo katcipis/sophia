@@ -318,7 +318,7 @@ main.main()
 A variable of **\*MyType** can fail catastrophically when calling a value
 receiver method.
 
-On the other a variable of type **MyType** can ALWAYS satisfy a method call,
+On the other hand a variable of type **MyType** can ALWAYS satisfy a method call,
 independent if it is a value or a pointer receiver, since the value is always
 initialized with something it can always be referenced:
 

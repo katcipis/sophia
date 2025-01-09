@@ -27,4 +27,5 @@ Some of the most remarkable presentations I watched.
 
 ### Testing
 
+* [Go Testing By Example](https://research.swtch.com/testing)
 * [Advanced Testing with Go](https://www.youtube.com/watch?v=8hQG7QlcLBk)

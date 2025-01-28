@@ -1,5 +1,13 @@
 # The Emperors Old Clothes
 
+```
+I conclude that there are two ways of constructing a
+software design: One way is to make it so simple that
+there are obviously no deficiencies and the other way is
+to make it so complicated that there are no obvious
+deficiencies.
+```
+
 Notes from [The Emperor's Old Clothes](https://dl.acm.org/doi/pdf/10.1145/358549.358561).
 
 This one is a really good read that caused an impression on me for two reasons.

@@ -7,6 +7,9 @@ Some of the most remarkable presentations I watched.
 * [Three Directions in Design](https://www.youtube.com/watch?v=Tdwr9tweTDE)
 * [We Really Don't Know How to Compute!](https://www.youtube.com/watch?v=HB5TrK7A4pI)
 * [Design, Composition, and Performance](https://www.youtube.com/watch?v=QCwqnjxqfmY)
+* [Where Does Bad Code Come From?](https://www.youtube.com/watch?v=7YpFGkG-u1w)
+* ["Clean" Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU&t)
+* [Performance Excuses Debunked](https://www.youtube.com/watch?v=x2EOOJg8FkA)
 
 ### Frameworks
 

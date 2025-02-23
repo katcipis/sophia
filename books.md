@@ -284,6 +284,11 @@
 
 # Done
 
+## 2025
+
+* [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
+* [We the living](https://aynrand.org/novels/we-the-living)
+
 ## 2024
 
 * [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396)

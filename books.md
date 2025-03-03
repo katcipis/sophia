@@ -129,6 +129,7 @@
 
 ## Algorithms
 
+* [The Garbage Collection Handbook](https://gchandbook.org/)
 * [Grokking Algorithms](https://www.amazon.de/Aditya-Bhargava/dp/1617292230)
 * [Algorithms + Data Structures = Programs](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Algorithms%20%20%20Data%20Structures%20%3D%20Programs%20%5BWirth%201976-02%5D.pdf)
 * [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
@@ -234,6 +235,7 @@
 ## Networking
 
 * [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
+* [Designing an Internet](https://mitpress.mit.edu/9780262547703/designing-an-internet/)
 * [Patterns in Network Architecture: A Return to Fundamentals](https://www.amazon.de/dp/0137063385)
 * [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/dp/B072WD347M)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/gp/product/0133594149)
@@ -242,13 +244,12 @@
 
 ## Software Design
 
-* [Tidy First?: A Personal Exercise in Empirical Software Design](https://www.amazon.de/-/en/Kent-Beck/dp/1098151240)
-* [The Software Engineer's Guidebook](https://www.amazon.de/-/en/Gergely-Orosz/dp/908338182X)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
-* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
-* [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
 * [Structured Programming](https://www.amazon.com/dp/0122005503)
+* [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
+* [Tidy First?: A Personal Exercise in Empirical Software Design](https://www.amazon.de/-/en/Kent-Beck/dp/1098151240)
+* [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
 * [System Design Interview](https://www.amazon.de/-/en/Alex-Xu/dp/B08CMF2CQF)
 * [Domain Driven Design](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)

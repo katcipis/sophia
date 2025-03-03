@@ -119,9 +119,6 @@
 * [Machine Learning: The High Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/)
 * [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 * [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](http://delivery.acm.org/10.1145/3340000/3330744/p1743-bernardi.pdf)
-* [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
-* [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
-* [Deep Learning Scaling is Predictable, Empirically](https://arxiv.org/abs/1712.00409)
 
 
 ### NLP
@@ -186,11 +183,6 @@
 * [Enhancing Server Availability and Security Through Failure-Oblivious Computing](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/rinard/rinard.pdf)
 
 
-# Learning
-
-* [Middle-schoolers’ reading and processing depth in response to digital and print media: An N400 study](https://www.biorxiv.org/content/10.1101/2023.08.30.553693v1)
-
-
 ## Not Classified Yet :-)
 
 * [Points of View: Tribute To Alan Kay](https://www.microsoft.com/en-us/research/uploads/prod/2016/11/Kay-Points-of-View.pdf)
@@ -213,10 +205,8 @@
 
 ## TODO
 
-* [Efficient Guided Generation for Large Language Models](https://arxiv.org/abs/2307.09702)
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
-* [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 * [Local-First Software](https://martin.kleppmann.com/papers/local-first.pdf)
 * [Build Systems à la Carte](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf)

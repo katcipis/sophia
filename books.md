@@ -23,8 +23,8 @@
 
 ## Personal
 
-* [In the Plex: How Google Thinks, Works, and Shapes Our Lives](https://www.amazon.de/Plex-Google-Thinks-Works-Shapes/dp/1416596585)
 * [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835)
+* [In the Plex: How Google Thinks, Works, and Shapes Our Lives](https://www.amazon.de/Plex-Google-Thinks-Works-Shapes/dp/1416596585)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 * [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
@@ -220,7 +220,6 @@
 
 ## Development Process
 
-* [Shape Up](https://basecamp.com/shapeup)
 * [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
 * [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
 
@@ -244,6 +243,7 @@
 
 ## Software Design
 
+* [Simplicity](https://pragprog.com/titles/dtcode/simplicity/)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Structured Programming](https://www.amazon.com/dp/0122005503)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)

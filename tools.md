@@ -358,6 +358,7 @@
 
 # Fancy HTTP Clients
 
+* [yaak](https://github.com/mountain-loop/yaak)
 * [bruno](https://github.com/usebruno/bruno)
 * [ATAC](https://github.com/Julien-cpsn/ATAC)
 * [posting](https://github.com/darrenburns/posting)

@@ -13,6 +13,7 @@ Some of the most remarkable presentations I watched.
 
 ### Frameworks
 
+* [Programming with Hand Tools](https://www.youtube.com/watch?v=ShEez0JkOFw)
 * [8 lines of code](https://www.infoq.com/presentations/8-lines-code-refactoring)
 
 ## Mind Bending :-)

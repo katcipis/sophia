@@ -226,12 +226,6 @@
 * [marionette](https://firefox-source-docs.mozilla.org/testing/marionette/marionette/index.html)
 
 
-## Secret Management
-
-* [Vault](https://vaultproject.io/)
-* [Keywhiz](https://square.github.io/keywhiz/)
-
-
 # Diagrams
 
 * [diagrams.net](https://www.diagrams.net/)
@@ -268,62 +262,6 @@
 
 * [mitm](https://github.com/mitmproxy/mitmproxy)
 * [wuzz](https://github.com/asciimoo/wuzz)
-
-
-# Scrapping 
-
-## Parsing
-
-* [scrapely](https://github.com/scrapy/scrapely)
-* [parsley](https://github.com/fizx/parsley)
-
-## Services
-
-* [import.io](https://import.io)
-* [kimonolabs](https://www.kimonolabs.com/)
-* [scrapinghub](http://scrapinghub.com/)
-* [cloud scrape](http://cloudscrape.com/)
-* [diffbot](https://www.diffbot.com/)
-* [dexi.io](https://dexi.io/)
-* [diggernaut](https://www.diggernaut.com/dev/meta-language-runtime-entities.html)
-
-
-# Proxy Providers
-
-## Dedicated/Shared IP Proxies
-
-### User/Pass Authentication
-
-* [storm proxies](http://stormproxies.com/)
-* [buyproxies](https://buyproxies.org/)
-* [proxyvoxy](https://proxyvoxy.com/)
-* [microleaves](https://microleaves.com)
-
-
-### IP Authentication
-
-* [ezproxies](https://www.ezproxies.com/)
-* [shared proxies](http://www.sharedproxies.com/)
-* [instantproxies](https://instantproxies.com/)
-
-
-## BackConnect
-
-* [luminati.io](https://luminati.io/)
-* [proxymesh](http://proxymesh.com/)
-
-
-# Captcha Breaking
-
-* [2 captcha](https://2captcha.com/)
-* [Death by captcha](http://www.deathbycaptcha.com/)
-* [Image Typerz](http://www.imagetyperz.com/)
-* [Pixodrom](http://pixodrom.com/)
-
-
-# Email Verification
-
-* [Verify Email](http://verify-email.org/register/levels.html)
 
 
 # Distributed System Validation

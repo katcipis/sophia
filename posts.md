@@ -64,6 +64,8 @@
 * [What is in a name](https://go.dev/talks/2014/names.slide#1)
 * [The Best Go framework: no framework?](https://threedots.tech/post/best-go-framework)
 * [Three fallacies of dependencies](https://www.youtube.com/watch?v=yi5A3cK1LNA)
+* [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
+* [More powerful Go execution traces](https://go.dev/blog/execution-traces-2024)
 
 ### Organizing Code/Projects
 

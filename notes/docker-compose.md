@@ -101,3 +101,5 @@ with proper cleanup per individual test instead of an entire test case.
 The reuse side of it is very interesting, if everything in an organization
 works with Go you could provide Go libraries that build test environments,
 that is much nicer/easier than avoiding duplication of docker-compose YAML files.
+
+There is also [Nix](https://nixos.org/).

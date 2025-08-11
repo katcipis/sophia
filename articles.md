@@ -225,6 +225,11 @@
 
 ## Done
 
+### 2025
+
+* [Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://arxiv.org/pdf/2508.01191)
+* [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://machinelearning.apple.com/research/illusion-of-thinking)
+
 ### 2024
 
 * [The Llama 3 Herd of Models](https://arxiv.org/pdf/2407.21783)

@@ -84,3 +84,4 @@
 ## Culture
 
 * [The magic of software](https://moxie.org/2024/09/23/a-good-engineer.html)
+* [Knuth on Email](https://www-cs-faculty.stanford.edu/~knuth/email.html)

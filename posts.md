@@ -77,11 +77,11 @@
 
 * [testscript, a hidden gem the Go team kept locked away](https://encore.dev/blog/testscript-hidden-testing-gem)
 
-## AI Coding
-
-* [Is AI a Silver Bullet?](https://ian-cooper.writeas.com/is-ai-a-silver-bullet)
-
 ## Culture
 
 * [The magic of software](https://moxie.org/2024/09/23/a-good-engineer.html)
 * [Knuth on Email](https://www-cs-faculty.stanford.edu/~knuth/email.html)
+
+## Sec
+
+* [RBAC like it was meant to be](https://tailscale.com/blog/rbac-like-it-was-meant-to-be)

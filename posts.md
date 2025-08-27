@@ -8,6 +8,7 @@
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Classic SOA](https://dannorth.net/classic-soa/)
 * [Cognitive load is what matters](https://minds.md/zakirullin/cognitive)
+* [Why programming is hard](https://joearms.github.io/#2014-02-07%20Why%20programming%20is%20difficult)
 
 ## Testing
 
@@ -76,6 +77,10 @@
 ### Testing
 
 * [testscript, a hidden gem the Go team kept locked away](https://encore.dev/blog/testscript-hidden-testing-gem)
+
+### Error Handling
+
+* [Error Handling in Upspin](https://commandcenter.blogspot.com/2017/12/error-handling-in-upspin.html)
 
 ## Culture
 

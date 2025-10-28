@@ -24,7 +24,6 @@
 ## Personal
 
 * [Orbiting the Giant Hairball](https://www.amazon.com/Orbiting-Giant-Hairball-Corporate-Surviving/dp/0670879835)
-* [In the Plex: How Google Thinks, Works, and Shapes Our Lives](https://www.amazon.de/Plex-Google-Thinks-Works-Shapes/dp/1416596585)
 * [The Second Age of Computer Science](https://www.amazon.com/Second-Age-Computer-Science-Neural/dp/B07LFKBN4T)
 * [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
 * [On Writing Well](https://www.amazon.com.br/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
@@ -77,11 +76,9 @@
 * [The Rational Male](https://www.amazon.com/Rational-Male-Rollo-Tomassi/dp/1492777862)
 * [Ride the Tiger](http://www.amazon.com/Ride-Tiger-Survival-Manual-Aristocrats/dp/0892811250)
 * [Eye and Brain](https://www.amazon.com/exec/obidos/ASIN/0691048371/squeakland-20)
-* [Zen Mind, Beginner's Mind](https://www.amazon.com/Zen-Mind-Beginners-50th-Anniversary/dp/1611808413)
 * [Ghost in The Machine](https://www.amazon.com/exec/obidos/ASIN/0394524721/squeakland-20)
 * [The Origin of Consciousness in the Breakdown of the Bicameral Mind](https://www.amazon.com/exec/obidos/ASIN/0618057072/squeakland-20)
 * [In Search of Memory: The Emergence of a New Science of Mind](https://www.amazon.com/Search-Memory-Emergence-Science-Mind/dp/0393329372)
-* [Maps of Meaning: The Architecture of Belief](https://www.amazon.com/Maps-Meaning-Architecture-Jordan-Peterson/dp/0415922224)
 * [The Psychology of Computer Programming](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary/dp/0932633420)
 * [Mind in society](https://www.amazon.com/Mind-Society-Development-Psychological-Processes/dp/0674576292)
 * [The Antichrist](https://www.amazon.com/Antichrist-Friedrich-Nietzsche/dp/1533633975)
@@ -91,7 +88,6 @@
 ## Team / People
 
 * [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959)
-* [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0767907698)
 * [Peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113)
 * [Scaling People: Tactics for Management and Company Building](https://press.stripe.com/scaling-people)
 
@@ -101,24 +97,12 @@
 
 * [Why We Sleep](https://www.amazon.de/-/en/Matthew-Walker/dp/1501144324/)
 * [Crooked](https://www.amazon.com/Crooked-Outwitting-Industry-Getting-Recovery/dp/0062641786)
-* [The Healthy Programmer](http://pragprog.com/book/jkthp/the-healthy-programmer)
 
 
 ## Data
 
 * [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 * [Information Science and Statistics](http://www.cogsci.ucsd.edu/~ajyu/Readings/bishop06_ch1.pdf)
-
-
-### Databases
-
-* [Refactoring Databases](http://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515)
-* [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
-
-
-### Streaming
-
-* [Streaming Systems](https://www.amazon.com/gp/product/1491983876)
 
 
 ## Relational Theory
@@ -130,17 +114,11 @@
 ## Algorithms
 
 * [The Garbage Collection Handbook](https://gchandbook.org/)
-* [Grokking Algorithms](https://www.amazon.de/Aditya-Bhargava/dp/1617292230)
 * [Algorithms + Data Structures = Programs](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Algorithms%20%20%20Data%20Structures%20%3D%20Programs%20%5BWirth%201976-02%5D.pdf)
 * [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 * [Common Sense Guide To Data Structures](https://pragprog.com/book/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition)
 * [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
 * [Data Structures and Algorithms](https://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237)
-
-
-## Artificial Intelligence
-
-* [THE LITTLE BOOK OF DEEP LEARNING](https://fleuret.org/francois/lbdl.html)
 
 
 ## Languages
@@ -190,12 +168,6 @@
 * [The Theory and Practice of Concurrency](https://www.cs.ox.ac.uk/bill.roscoe/publications/68b.pdf)
 
 
-## Legacy code
-
-* [Working Effectively with Legacy Code](http://www.amazon.com/books/dp/0131177052)
-* [Beyond Legacy Code](https://pragprog.com/book/dblegacy/beyond-legacy-code)
-
-
 ## Embedded
 
 * [Patterns in the Machine: A Software Engineering Guide to Embedded Development](https://www.amazon.com/Patterns-Machine-Software-Engineering-Development/dp/1484264398)
@@ -218,16 +190,9 @@
 * [Graph Analysis and Visualization](http://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity/dp/1118845846)
 
 
-## Development Process
-
-* [The Nature of Software Development](https://www.pragprog.com/book/rjnsd/the-nature-of-software-development)
-* [The Machine That Changed The World](https://www.amazon.com.br/Machine-That-Changed-World-Revolutionizing/dp/0743299795)
-
-
 ## Distributed Systems
 
 * [Hypermedia Systems](https://hypermedia.systems/)
-* [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do)
 * [Distributed Systems: Principles and Paradigms](https://www.amazon.com/Distributed-Systems-Principles-Andrew-Tanenbaum/dp/153028175X)
 
 
@@ -243,19 +208,17 @@
 
 ## Software Design
 
-* [Simplicity](https://pragprog.com/titles/dtcode/simplicity/)
+* [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
 * [Structured Design: Fundamentals of a Discipline of Computer Program and Systems Design](http://www.amazon.com/Structured-Design-Fundamentals-Discipline-Computer/dp/0138544719)
 * [Structured Programming](https://www.amazon.com/dp/0122005503)
 * [The Elements of Programming Style](https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075)
 * [The Problem With Software: Why Smart Engineers Write Bad Code](https://www.amazon.com/Problem-Software-Smart-Engineers-Write/dp/026203851X)
-* [Tidy First?: A Personal Exercise in Empirical Software Design](https://www.amazon.de/-/en/Kent-Beck/dp/1098151240)
-* [The Art of the Metaobject Protocol](https://www.amazon.de/Art-Metaobject-Protocol-Gregor-Kiczales/dp/0262610744)
+* [Simplicity](https://pragprog.com/titles/dtcode/simplicity/)
 * [System Design Interview](https://www.amazon.de/-/en/Alex-Xu/dp/B08CMF2CQF)
 * [Domain Driven Design](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/)
 * [The Systems Bible](https://www.amazon.com/dp/0961825170)
 * [Structured Programming](http://www.amazon.com/Structured-Programming-P-I-C-studies-processing/dp/0122005503)
 * [Software Fundamentals](http://www.amazon.com/Software-Fundamentals-Collected-Papers-Parnas/dp/0201703696)
-* [Your Code as a Crime Scene](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 
 
 ## Performance/Profiling
@@ -268,7 +231,6 @@
 
 * [The Codebreakers](https://www.amazon.com/Codebreakers-Comprehensive-History-Communication-Internet/dp/0684831309)
 * [Cryptography Engineering](http://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications/dp/0470474246)
-* Foundations of Security: What Every Programmer Needs to Know
 
 
 ## Games
@@ -287,6 +249,9 @@
 
 ## 2025
 
+* [Metro 2035](https://www.amazon.de/-/en/METRO-2035-English-language-trilogy/dp/1539930726)
+* [Metro 2034](https://www.amazon.de/-/en/Metro-2034-Dmitry-Glukhovsky/dp/1473204305)
+* [Metro 2033](https://www.amazon.de/-/en/Metro-2033-novels-inspired-bestselling/dp/0575086254)
 * [The Soul of A New Machine](https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977)
 * [We the living](https://aynrand.org/novels/we-the-living)
 

@@ -123,6 +123,7 @@
 
 ## Languages
 
+* [Formal Reasoning](https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf)
 * [Crafting Interpreters](https://craftinginterpreters.com/)
 * [Practical Foundations for Programming Languages](https://www.cs.cmu.edu/~rwh/pfpl.html)
 * [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)

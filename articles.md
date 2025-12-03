@@ -205,6 +205,7 @@
 
 ## TODO
 
+* [PROGRAMS WITH COMMON SENSE](https://www-formal.stanford.edu/jmc/mcc59.pdf)
 * [WhisperX: Time-Accurate Speech Transcription of Long-Form Audio](https://arxiv.org/abs/2303.00747)
 * [Compact Language Models via Pruning and Knowledge Distillation](https://huggingface.co/papers/2407.14679)
 * [No Silver Bullet —Essence and Accident in Software Engineering](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
